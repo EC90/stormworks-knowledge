@@ -1448,3 +1448,214 @@ end
   叠出一条约 2 px 宽、边缘带渐变的环。SW 没有线宽 API，这是画粗圆的标准做法
   （对比 `drawCircleF` 大小圈相减 —— 后者需要背景色已知）。
 - 完整脚本：`../../../AI相关/_提取暂存/_new/3794618673_vehicle_3.lua`
+
+---
+
+## §22 自定义位图字体（属性文本 ROM + 4 向旋转 + 位掩码解包）
+
+- 来源：steam id 3791125295 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3791125295 · 载具（与 `3788750037` 的字体模块逐字节相同，后者 `vehicle_60` 亦同）
+- 更新时间：2026-08-28
+- 用到：属性文本 `property.getText`（FONT1 / FONT2 两段拼成字体 ROM）、`screen.drawRectF`、`&` 位测试
+- 亮点：把 3×5 点阵字体塞进属性文本、按需旋转 4 向、用位掩码逐点解包——比 `09` §7 的整型位图更省、还能转
+- 关联：`09` §7（位掩码字体）、`01` §3（大表搬进属性文本）、`05` §15（无字宽 API 时排版）
+
+```lua
+-- 字体 ROM 从两个属性文本槽拼成：每 4 字符一个 16 进制数 = 一个字符的 15 位 3×5 位图
+FONT = property.getText("FONT1")..property.getText("FONT2")
+FONT_D = {}  FONT_S = 0
+for n in FONT:gmatch("....") do        -- 每 4 字符切一片（"0F2A" → tonumber(_,16)）
+  FONT_S = FONT_S + 1
+  FONT_D[FONT_S] = tonumber(n, 16)
+end
+
+-- dt(x,y,t,s,r,m): 在 (x,y) 画文字 t，s=像素大小，r=旋转(1/2横竖 3/4镜像)，m=是否留间距
+function dt(x,y,t,s,r,m)
+  s = s or 1  r = r or 1
+  if r > 2 then t = t:reverse() end      -- 镜像：先反序
+  t = t:upper()
+  for c in t:gmatch(".") do
+    ci = c:byte() - 31                   -- ASCII 偏移：'!'=33 → 1
+    if 0 < ci and ci <= FONT_S then
+      for i=1,15 do                      -- 15 位 = 3×5，逐位测试
+        p = (r>2) and 2^i or 2^(16-i)    -- 位序随旋转方向翻转
+        if FONT_D[ci] & p == p then
+          xx, yy = ((i-1)%3)*s, ((i-1)//3)*s   -- 位序 → (列,行)
+          if r%2 == 1 then screen.drawRectF(x+xx, y+yy, s, s)
+          else screen.drawRectF(x+5-yy, y+xx, s, s) end   -- 竖排布局换轴
+        end
+      end
+    end
+    if FONT_D[ci] & 1 == 1 and not m then i = 2*s else i = 4*s end  -- 字符间距
+    if r%2==1 then x = x+i else y = y+i end
+  end
+end
+```
+
+**要点速记**
+- 槽位不够放大表？两段属性文本 `FONT1`+`FONT2` 用 `..` 拼，是 `01` §3 的标准做法。
+- 位图存成**十六进制字符串**比整型常量更易读也好编辑；`gmatch("....")` 每 4 字切一片。
+- 旋转/镜像全靠「位序翻转 + 轴交换」，不必为每朝向写一套字模。
+- `&` 位测试在 SW Lua 可用（常规 Lua 5.3+ 特性，游戏内支持）。
+- 没有 `getTextWidth`：字符间距用 `s` 或 `2*s/4*s` 硬算，呼应 `05` §15。
+
+---
+
+## §23 数值→RGB 的**分段线性色标**（温度蓝→红，4 段插值 + 钳位）
+
+- 来源：steam id 3788743617 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3788743617 · 载具
+- 更新时间：（2026-08 批次）
+- 用到：`screen.setColor`、阈值分段线性插值、`math.max/min` 钳位
+- 亮点：把「一个物理量」映射成「连续渐变色」的最小实现——比查表省内存，比单阈值准
+- 关联：`05` §2（负高度条形图着色）、`04` §1.4（clamp/lerp）
+
+```lua
+function temperatureColor(t)
+  local r,g,b
+  if t < 0 then                 -- 段1：深蓝→青
+    local p = math.max(0, math.min(1, (t+20)/20))
+    r = 0;  g = 45 + (70-45)*p;  b = 90 - (90-70)*p
+  elseif t < 15 then            -- 段2：青→绿
+    local p = t/15
+    r = 0;  g = 70 - 10*p;  b = 70 - 40*p
+  elseif t < 30 then            -- 段3：绿→橙
+    local p = (t-15)/15
+    r = 90*p;  g = 60 - 15*p;  b = 30 - 25*p
+  else                         -- 段4：橙→红（封顶 p=1）
+    local p = math.min(1, (t-30)/15)
+    r = 90 + 10*p;  g = 45 - 40*p;  b = 5
+  end
+  return r,g,b
+end
+-- 用法：screen.setColor(temperatureColor(temp))  -- 直接喂三元组
+```
+
+**要点速记**
+- 每段用 `p=(t-下界)/(上界-下界)` 归一，三通道各自线性混合；越界段把 `p` 钳到 `[0,1]`。
+- 想换配色只改每段的端点 RGB，结构不变。
+- 右对齐文本没有字宽 API，用 `string.len(text)*4`（4 px/字符）估偏移，呼应 `05` §15。
+- 渐变背景同理：逐行 `t=y/(h-1)` 在两端色之间线性插值后 `drawLine(0,y,w,y)`。
+
+---
+
+## §24 量角器 + 距离环（极坐标刻度 + 扇形 `crc` + 属性滑块亮度/高亮）
+
+- 来源：steam id 3794600080 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3794600080 · 载具
+- 更新时间：（2026-09 批次）
+- 用到：属性 `property.getNumber/ getBool`（Brightness / Automatic Dimming / Highlight）、`pulse()` 闭包做长按循环、`drawCircleF` 画点
+- 亮点：一个 `pulse` 闭包统一处理「边沿触发」替代多个布尔——比手写 touch 状态干净
+- 关联：`05` §20（`click` 闩锁）、`02` §1（pulse 边沿检测）
+
+```lua
+-- pulse(c,b): 通道 b 的「刚按下」沿；c 当前态、用表按通道名记上次态
+function pulse(c,b)
+  if not a then a={}; a[b]={pulse=false,touch=false}
+  elseif not a[b] then a[b]={pulse=false,touch=false} end
+  a[b].pulse = c ~= a[b].touch and c   -- 仅当本次与上次不同(刚按下/刚松开)才置真
+  a[b].touch = c
+  return a[b].pulse
+end
+
+function protract(x,y)                  -- 量角器：每 30° 一根线、每 10° 一个点
+  for i=0,330,30 do
+    screen.drawLine(math.cos(i/180*pi)*25+x, math.sin(i/180*pi)*25+y, x, y)
+  end
+  for i=0,350,10 do
+    screen.drawCircleF(math.cos(i/180*pi)*23+x, math.sin(i/180*pi)*23+y, 1)
+  end
+end
+
+function crc(x,y,r,t)                   -- 距离环扇形：r/2 和 r/4 两圈虚点 + 刻度注记
+  for i=0,359,1 do
+    screen.drawCircleF(math.cos(i/180*pi)*(r/2)+x, math.sin(i/180*pi)*(r/2)+y, 0.7)
+  end
+  screen.drawText(x-4, 3+y-(w/2), t)   -- 量程数字（t="1nm" 等，来自 rng 表）
+end
+
+function onTick()
+  cycle = pulse(input.getBool(1), "cycle")   -- 工具切换：点一下切一档
+  manVal = property.getNumber("Brightness")
+  manBool = property.getBool("Automatic Dimming")
+  dark = manBool and (math.abs(time)*400) or (math.abs(manVal)*400)  -- 自动/手动调光
+  if cycle then toolVal = (toolVal+1)%3 end     -- 三档工具循环
+end
+```
+
+**要点速记**
+- `pulse` 闭包按**通道名字符串**建状态表（不是全局变量），多路输入互不污染，且天然多人安全（状态走复合/表，见 `01` §5）。
+- 角度环用 `i/180*pi` 把「度」喂给 `cos/sin`——注意这里是**度**（不是圈），别顺手 ×2π。
+- `drawCircleF(...,0.7)` 半径 <1 像素 → 画成「点」，是 SW 里画虚线/散点的标准 tricks。
+- 调光强度用 `abs(time)*400`，`time` 来自复合（屏幕时间），让 HUD 在夜间自动变暗。
+
+---
+
+## §25 全宽四等分触控行（quadrant row-band toggle + 状态配色）
+
+- 来源：steam id 3794583580 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3794583580 · 载具
+- 更新时间：（2026-09 批次）
+- 用到：触摸屏复合（input1X/Y + isPressed）、`drawRectF` 行带分区、`isPointInRectangle` 命中测试
+- 亮点：把屏幕**竖切成 4 条等高全宽行**做开关，比按钮网格更适合「模式选择」一类的 UI
+- 关联：`05` §4（基础触控按钮）、`05` §18（`cBtn` 闭包）
+
+```lua
+function onTick()
+  inputX = input.getNumber(3);  inputY = input.getNumber(4)
+  isPressed = input.getBool(1)
+  -- 每行 = 一条全宽带：y 起点 = k*h/4，高 = h/4
+  isPressingMute = isPressed and isPointInRectangle(inputX, inputY, 0,     h/4*3, w, h/4)
+  isPressingAuto = isPressed and isPointInRectangle(inputX, inputY, 0,     h/4,   w, h/4)
+  output.setBool(1, isPressingMute)
+  output.setBool(2, isPressingAuto)
+end
+
+function onDraw()
+  w = screen.getWidth(); h = screen.getHeight()
+  screen.drawLine(0, h/4,   w, h/4)     -- 三条分隔线把屏切成 4 行
+  screen.drawLine(0, h/2,   w, h/2)
+  screen.drawLine(0, h/4*3, w, h/4*3)
+  -- 每行：开→亮底+亮字，关→暗底+暗字（状态靠配色区分，不搞图标）
+  if auto then screen.setColor(0,50,0); screen.drawRectF(0, h/4*3+1, w, h/4-1)
+  else        screen.setColor(0,5,0);  screen.drawRectF(0, h/4*3+1, w, h/4-1) end
+  screen.drawTextBox(2, h/4*3+2, w, h/4, "auto")
+end
+```
+
+**要点速记**
+- 等分带比按钮网格简单：行带 y 起点 = `k*h/N`，命中测试只比 y 区间（外加 `x` 全宽）。
+- 状态表现用「底色明度差」即可，`setColor(0,50,0)` vs `setColor(0,5,0)` 一目了然且省字符。
+- 触控数据走复合通道 3/4（X/Y）+ 1（按下），与 `05` §4 完全一致。
+
+---
+
+## §26 雷达 PPI 屏绘制（距离环 + 扫描扇形 + 量程自适应）
+
+- 来源：steam id 3788750037 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3788750037 · 载具（同作品 `vehicle_25`；该作已学过，`06` §9 取新）
+- 更新时间：（2026-08 批次）
+- 用到：雷达量程 `rng`、复合方位 `rdrA`（圈）、`drawCircle` 距离环、`for k=..,0.0174533` 步进画扇形
+- 亮点：把「雷达距离环 + 余晖扫描线」画法的核心两行提炼出来，量程变时环距自动变
+- 关联：`03` §14（完整 PPI 渲染器）、`03` §5（PPI 基础）
+
+```lua
+function onDraw()
+  rdrC = rng/2                       -- 量程(米) → 半径像素：rng/2 即「半量程=满屏宽」
+  rdrCS = 25/rdrC                   -- 距离环步长：固定 25px 半径内画几圈
+  screen.drawCircle(26, 27, 25)     -- 外圈
+  for b=0,25,rdrCS do
+    screen.drawCircle(26, 27, b)    -- 等距距离环（b 自动随量程变疏密）
+  end
+  -- 扫描扇形：从当前方位 rdrA 起，每 1°(0.0174533 rad) 画一条线，绿量随角度衰减
+  if rad then
+    for k=1.58,2.8,0.0174533 do
+      screen.setColor(0, 255-(k*30), 0, 10)
+      xtr = 26 + 25*math.cos(-k + rdrA)
+      ytr = 27 + 25*math.sin(-k + rdrA)
+      screen.drawLine(26, 27, xtr, ytr)
+    end
+  end
+end
+```
+
+**要点速记**
+- 距离环疏密随量程：用 `25/rdrC` 当 `for` 步长，`rdrC` 大→步长大→环少，自动适配。
+- 扫描扇形用 `0.0174533`（=1° 的 rad）当步进，逐度画半透明线做出「余晖」感。
+- 扇形起点 `1.58`、终点 `2.8` 是作者按屏布局选的角度窗口，换屏要改。
+- 圆心 `(26,27)` 是 54×54 圆屏的几何中心；非正方形屏用 `(w+h)/4` 取平均半径（见 `03` §13）。
