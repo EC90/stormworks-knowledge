@@ -1659,3 +1659,139 @@ end
 - 扫描扇形用 `0.0174533`（=1° 的 rad）当步进，逐度画半透明线做出「余晖」感。
 - 扇形起点 `1.58`、终点 `2.8` 是作者按屏布局选的角度窗口，换屏要改。
 - 圆心 `(26,27)` 是 54×54 圆屏的几何中心；非正方形屏用 `(w+h)/4` 取平均半径（见 `03` §13）。
+
+
+---
+## §27 属性文本配色解析 + 闭包式触控组件 + 3×5 ROM 字体
+
+- 来源：steam id 3794382107 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3794382107 · 载具（DLI Mongoose，作者 Domagoj29）
+- 更新时间：2026-09-02
+- 用到：`property.getText` 配色解析、闭包 `createPulse`/`createSRLatch`（触控闩锁）、3×5 ROM 点阵字体（属性文本存 hex + 位掩码解包）
+- 亮点：① 属性槽位不够放多组 UI 配色 → 用 `gmatch("%d+")` 拆 `"R,G,B"`；② 触控 toggle 用"脉冲边沿 + SR 闩锁"两个闭包组合，比全局布尔稳；③ 字体塞进 3 段属性文本，4 位 hex/字符、15 位字模
+- 关联：`01` §3.1（属性文本存配色）、`05` §22（同族 ROM 字体，带 4 向旋转）、`05` §18（`cBtn` 闭包按钮）
+
+```lua
+-- ① 配色解析：属性里写 "255,255,255" 这种字符串，拆成 {r,g,b} 表
+local function propertyToColors(propertyName)
+  local colors = property.getText(propertyName)
+  local tempTable = {}
+  for color in colors:gmatch("%d+") do          -- 按数字段切，自动忽略逗号
+    table.insert(tempTable, tonumber(color))
+  end
+  return tempTable                              -- 例如 {255,127,0}
+end
+UIRGB = propertyToColors("UI color")            -- 之后 UIRGB[1..3] 直接喂 setColor
+
+-- ② 闭包式触控组件：一个"边沿检测" + 一个"SR 闩锁"拼出自锁按钮
+local function createPulse()
+  local oldVariable = false
+  return function(variable)                      -- 每次调用：上升沿才返回 true（按下的那一帧）
+    local risingEdge = not oldVariable and variable
+    oldVariable = variable
+    return risingEdge
+  end
+end
+local function createSRLatch()
+  local output = false
+  return function(set, reset)                    -- S=置位 R=复位，S&R 同为高则清零（稳妥优先）
+    if set and reset then output = false
+    elseif set then output = true
+    elseif reset then output = false end
+    return output
+  end
+end
+local locatorPulse, locatorSRLatch = createPulse(), createSRLatch()
+-- 用法：先用脉冲抓"刚按下"，再用闩锁翻状态；两个按钮互斥靠 reset 互相喂
+local locatorPressed = locatorPulse(isPressed and touchRectF(...))
+LocatorToggle = locatorSRLatch(locatorPressed and not LocatorToggle,
+                                (locatorPressed and LocatorToggle) or TransponderToggle)
+
+-- ③ 3×5 ROM 字体：3 段属性文本拼成字模表，每个字符 4 位 hex（15 位有效 + 1 位忽略）
+FontString = property.getText("Font 1/3")..property.getText("Font 2/3")..property.getText("Font 3/3")
+CharacterTable = {}
+for hexValue in FontString:gmatch("....") do     -- 每 4 字符切一段 = 一个 16 位字模
+  table.insert(CharacterTable, tonumber(hexValue, 16))
+end
+local function drawText(x, y, text, size, isUpsideDown, width, horizontalAlign)
+  text = text:upper()
+  for char in text:gmatch(".") do
+    local key = char:byte() - 31                 -- ASCII 码 -31 当表键（空格=32→1）
+    local charValue = CharacterTable[key] or 65534
+    for i = 14, 0, -1 do                        -- 15 个像素位（3 列 × 5 行）
+      local pixelX, pixelY = i % 3 * size, i // 3 * size
+      if (charValue & 2 ^ (15 - i)) ~= 0 then   -- 位掩码逐个像素解包
+        screen.drawRectF(x + pixelX, y + pixelY, size, size)
+      end
+    end
+    x = x + 4 * size
+  end
+end
+```
+
+**要点速记**
+- 🔑 **多组配色塞一个属性槽**：`property.getText` 返回字符串，用 `gmatch("%d+")` 按数字切分，比"一个属性放一个 0..255"省好几个槽位。注意 `tonumber` 后才进 `setColor`。
+- 🔑 **触控自锁按钮 = 脉冲 + 闩锁两段**：`createPulse` 只在"刚按下那一帧"返回真（边沿），`createSRLatch` 把边沿翻成持续状态。比 `if pressed then toggle=not toggle end` 稳，因为后者在"按住不动"时会每帧翻转。
+- 🔑 **两个按钮互斥**：把对方的状态喂进自己的 `reset`，谁先被按下谁清掉对方——无需全局 `if`。
+- 🔑 **ROM 字体 4 位 hex/字符**：`gmatch("....")` 每 4 字符取一段；15 位有效像素（3×5），最高位忽略。`char:byte()-31` 把可打印 ASCII 映射到表下标。
+- ⚠ 这套字体是 **3×5、无旋转** 的简化版；需要旋转/镜像看 `05` §22（同族、带 4 向旋转与 `&` 位掩码）。两者共用"`property.getText` 拼 ROM + `& 2^(15-i)` 解包"的思路。
+- ⚠ `&`（按位与）在 SW Lua 里可用，但**只有整数参与**；字模必须是整数（hex 转来的是整数，OK）。
+- 完整脚本：（../../../AI相关/_提取暂存/_new/3794382107_vehicle_8.lua）
+
+---
+## §28 自适应雷达网格 + 负坐标自动贴边按钮
+
+- 来源：steam id 3783474598 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3783474598 · 载具（WARDEN Offshore Patrol Viewer）
+- 更新时间：2026-08-14
+- 用到：负坐标按钮表（解析一次 → 自动贴右/下边）、`l*w/z` 自适应量程间距、`z=z±z/170` 比例缩放、属性文本 ROM 字体 `dt()`
+- 亮点：一套按钮布局用"负坐标 = 贴边"适配任意屏（1×1 / 3×2 / 5×3），只解析一次避免每帧外漂；雷达网格量程随屏占比自适应
+- 关联：`05` §14（圆形视口反向遮罩 + 负坐标贴边）、`04` §9（按比例缩放 `z=z±z/170`）、`05` §22/§27（ROM 字体）
+
+```lua
+-- 按钮表：坐标用"负 = 贴右/下边"的约定，onTick 里一次性解析成绝对坐标
+B={
+  {title={"R","R"}, x=-6, y=1,  w=5, h=7, t=0, p=0},   -- x=-6 → 贴右边（w-6）
+  {title={"+","+"}, x=-6, y=16, w=5, h=7, t=0, p=0},
+  {title={"-","-"}, x=-6, y=24, w=5, h=7, t=0, p=0},
+  {title={"1","2","3"}, x=1, y=1, w=5, h=7, t=mm, p=0},
+}
+function onTick()
+  w=input.getNumber(1) h=input.getNumber(2)           -- 屏宽高（复合输入）
+  for i,v in pairs(B) do
+    if v.x<0 then v.x=w+v.x end                       -- ← 负 x：贴右边
+    if v.y<0 then v.y=h+v.y end                       -- ← 负 y：贴下边
+    if v.w<0 then v.w=w+v.w end
+    if v.h<0 then v.h=h+v.h end
+    if t then                                          -- 命中测试（矩形）
+      if tx>v.x and tx<v.x+v.w and ty>v.y and ty<v.y+v.h then
+        v.p=1
+        if t and not last_t then                      -- 上升沿翻状态
+          if i<2 then v.t=(v.t+1)%2 end
+          if i>=4 then v.t=(v.t+1)%3 end
+        end
+      end
+    else v.p=0 end
+  end
+  -- 比例缩放：按住 + 放大、按 - 缩小，步长与当前 z 成正比（不跳变）
+  if z>1 and B[2].p>0 then z=z-z/170
+  elseif z<math.max(rr,sr)*2/1000 and z<50 and B[3].p>0 then z=z+z/170 end
+  -- 量程自适应：网格间距 l 随"l*w/z 占屏比例"翻倍/减半
+  if l*w/z>h/4 then l=l/2 elseif l*w/z<h/8 then l=l*2 end
+  last_t=t
+end
+function onDraw()
+  for i=1,5 do screen.drawCircle(cx,cy,i*l*w/z) end    -- 距离环：环距随 l 自适应
+  ...
+  for i,v in pairs(B) do
+    screen.drawRectF(v.x,v.y,v.w,v.h)                  -- 按钮框（已解析成绝对坐标）
+    dt(v.x+1,v.y+1,v.title[v.t+1])                     -- ROM 字体画当前态标签
+  end
+end
+```
+
+**要点速记**
+- 🔑 **负坐标 = 贴边**：按钮表写 `x=-6` 表示"距右边 6 px"，onTick 里 `if v.x<0 then v.x=w+v.x end` 一次性转成绝对坐标。**只解析一次**（在 onTick 开头、不在 onDraw），否则每帧都 `+w` 会越漂越远（见 `05` §14 坑）。
+- 🔑 **一套布局通装多尺寸屏**：1×1 / 3×2 / 5×3 都靠"负坐标贴边 + 正坐标定左上"描述，作者不用为每种屏写一套。
+- 🔑 **缩放用比例步长 `z=z±z/170`**：点一下微调、按住持续变，但每帧变化量正比于当前 z，高倍不暴冲、低倍不龟速（对比固定步长）。与 `04` §9 同源。
+- 🔑 **网格量程自适应 `if l*w/z>h/4 then l=l/2 ...`**：让"可见网格间距"始终占屏合理比例，缩太小自动变稀、太大自动变密（防糊成一团或太空）。
+- ⚠ `B` 表是**带状态的**（每个按钮有 `t`/`p`），多按钮共享一份表、`pairs` 遍历即可，省掉一堆独立变量。
+- 完整脚本：（../../../AI相关/_提取暂存/_new/3783474598_vehicle_60.lua）
