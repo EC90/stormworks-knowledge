@@ -482,41 +482,33 @@ print("extracted", count, "lua blocks ->", OUT)
 
 ---
 
-## 附录 C — 云同步与合并纪律（云端分流架构）
+## 附录 C — 本机执行与仓库自动同步（无云端）
 
-> 适用场景：本机离线时，希望 WorkBuddy 云端（小程序「云上模式」）按同一规程代跑，产出投递到资料库，
-> 本机上线后再拉取合并。完整云端任务提示词见 `AI相关\_scripts\云端任务规格说明.md`。
+> 学习流程**完全在本机执行**，不再使用 WorkBuddy 云端「云上模式」代跑，也不再有资料库（drive）中转。
+> 每轮收尾若有可入库的更新，由 `ws_gitpush.py` 直接提交并推送到 GitHub 仓库
+> （远端 `origin` = `github.com/EC90/stormworks-knowledge`，默认分支 `main`）。
+> 本机执行的具体步骤与收尾同步见 `AI相关\_scripts\本地学习任务规格说明.md`。
 
-### 架构三原则
+### 架构要点
 
-1. **时间互斥（心跳租约）**：本机每轮结束写账本 `last_seen`（schema 2 字段，UTC+8 当前时间）。
-   云端启动先 `ws_sync.py --cloud-check-heartbeat` 读「元数据包」里的 `last_seen`，窗口（2.5h）内则 SKIP。
-   两侧**不并行**，靠心跳而非 id 分片。
-2. **双写分离**：云端永不直接改本地 md；云端只把「账本快照 + 提取的 Lua」打包成 `sw_out_<UTC>.zip`
-   推到资料库队列目录。**本机** `ws_sync.py --pull` 消费：合并账本 + 复制 Lua 到 `_提取暂存\`，
-   再由本机正常写例题。md 只由本机写，从源头消除写冲突。
-3. **幂等与字段级合并**：`merge_ledger()` 规则——
-   `ids_*` 与 `pending_ids` 取**并集**；`completeness.done` 取 **AND**；`cursor_page` 取 **min**（不越级）；
-   `last_top_ids` 云端**覆盖**；`ranked_pool_size` 取 **max**。重复 pull 不重复处理
-   （`ws_sync_state.json` 记已消费批次），已存在的 Lua 文件不覆盖。
+1. **单点执行，无时间互斥**：只有本机自动化在跑，不再有「云端代跑 / 本机拉取合并」的双写分离，
+   因此删除了心跳租约（`last_seen` 仅保留为本地活动时间戳，不再用于跨机互斥）与字段级合并 `merge_ledger()`。
+2. **收尾即同步**：自动化每轮第 7 步写完账本后，第 8 步调用 `ws_gitpush.py`——
+   检测工作区是否有变更；**无变更则跳过**，有变更则 `git add -A` → 生成中文提交说明 → `commit` → `git push origin main`。
+3. **best-effort**：同步失败（认证 / 网络）一律跳过、打印错误、不重试、不中止本轮，等下一周期（2 小时后）继续。
 
 ### 关键纪律
 
-- ⚠ **云端所有 `ws_reference.py` 调用必须带 `--index <从元数据包取出的 _workshop_learned.json> --no-build`，
-  **禁止 fallback 扫描**——否则云端空目录重建出空索引，会把已学作品全部重下一遍。
-- 云端**只做 crawl + 下载 + 提取**，不写例题、不改本地 md（避免写冲突）。写例题由本机 pull 后统一做。
-- 资料库 token **不落地**、不进日志；sandbox 模式免 token，client 模式经 `connect_open_platform` 换票后传 `--token-stdin`。
-- 单包 ≤100 MiB；zip/json 走 drive 原样存，`.md`/`.csv` 上传会被转格式，勿传。
+- 🔴 只读红线不变：`<SW_WORKSHOP>` 只读；一切产出只写 `<WS>`。
+- 🟠 凡涉及 Stormworks 中文专有名词，先跑 `汉化相关\脚本\sw_check.py --auto` 再用 `sw_lookup.py` 查表，禁止臆译。
+- 推送认证由环境提供：推荐 `gh auth setup-git` 配置凭据助手（或已登录的 gh），使非交互 `git push` 可用。
+- 提交说明自动按区域归类（Lua示例 / 进度账本 / 汉化词典 / 知识库数据 / 其他），便于协作审阅。
 
 ### 一键验证（无需联网）
 
-`ws_sync.py --self-test` / `--merge-test` / `--round-trip-test` / `--heartbeat-test` 应全绿。
+`ws_gitpush.py --dry` 可预览本轮将提交/推送的变更清单，不碰网络；真实推送前可用它确认范围。
 
-### 本机一次性初始化（桌面端 WorkBuddy 手跑一次）
+### 迁移说明（2026-09-03 起）
 
-```
-<PY> <WS>\AI相关\_scripts\ws_sync.py --init-anchor     # 建队列目录 SW工坊云同步，写 lib_anchor.json
-<PY> <WS>\AI相关\_scripts\ws_sync.py --push            # 首次上传元数据包 sw_pkg_*.zip（记录 pkg_node_id）
-<PY> <WS>\AI相关\_scripts\ws_sync.py --pack-scripts    # 打包 sw_scripts_*.zip，上传资料库一次供云端自举
-```
-之后本机自动化每轮收尾自动 `--push`（原地替换），开场自动 `--pull`（best-effort）。
+原云端分流架构（资料库 drive 队列目录、心跳租约、双写分离、`ws_sync.py` 同步层、`云端任务规格说明.md`）
+已整体废弃并移除：`ws_sync.py` 已删除，云端任务不再创建。历史实现见 git 记录。

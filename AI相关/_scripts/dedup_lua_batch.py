@@ -5,8 +5,19 @@ import os, sys, json, hashlib, collections, io
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
-NEW = r"D:\STORMWORKS\AI相关\_提取暂存\_new"
-IDS = sys.argv[1].split(",") if len(sys.argv) > 1 else []
+BASE = r"D:\STORMWORKS\AI相关\_提取暂存"
+# 用法：dedup_lua_batch.py [--] <id,id,...> [--dir _r4]
+#   ids 位置参数与 "--" 占位兼容（-- 后可接 id 列表）；--dir 指定批次子目录，默认 _new
+_a = sys.argv[1:]
+_dir = "_new"
+if "--dir" in _a:
+    _k = _a.index("--dir")
+    if len(_a) > _k + 1:
+        _dir = _a[_k + 1]
+    _a = _a[:_k] + _a[_k + 2:]          # 去掉 --dir 及其取值，避免被当成 id
+NEW = _dir if os.path.isdir(_dir) else os.path.join(BASE, _dir)
+_pos = [x for x in _a if x not in ("--", "-")]      # 剩下的裸参数即 id 列表
+IDS = [x for x in _pos[0].split(",") if x] if _pos else []
 
 census = {}
 cp = os.path.join(NEW, "_census.json")

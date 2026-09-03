@@ -6,8 +6,18 @@ import os, sys, io, hashlib
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 BASE = r"D:\STORMWORKS\AI相关\_提取暂存"
-NEW = os.path.join(BASE, "_new")
-IDS = sys.argv[1].split(",") if len(sys.argv) > 1 else []
+# 用法：diff_lua_batch.py [--] <id,id,...> [--dir _r4]
+#   ids 位置参数与 "--" 占位兼容（-- 后可接 id 列表）；--dir 指定批次子目录，默认 _new
+_a = sys.argv[1:]
+_dir = "_new"
+if "--dir" in _a:
+    _k = _a.index("--dir")
+    if len(_a) > _k + 1:
+        _dir = _a[_k + 1]
+    _a = _a[:_k] + _a[_k + 2:]
+NEW = _dir if os.path.isdir(_dir) else os.path.join(BASE, _dir)
+_pos = [x for x in _a if x not in ("--", "-")]
+IDS = [x for x in _pos[0].split(",") if x] if _pos else []
 
 
 def body_of(p):

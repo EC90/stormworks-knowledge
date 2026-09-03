@@ -31,6 +31,8 @@
   python ws_rank.py --crawl 4 --weights trend=0.3,subs=0.25,upd=0.05,pop=0.15,fresh=0.25
   python ws_rank.py --browse mostrecent 37 3   # 只抓浏览页并打印 id（排序 起始页 页数），
                                                # 供「完整性轨」按游标推进，不排名不写榜
+  python ws_rank.py --no-lua 3789845973,3791184134   # 标记「已确认无 Lua」，永不再进 --top
+  python ws_rank.py --no-lua --list            # 查看已标记清单
 
 产出
   D:\\STORMWORKS\\AI相关\\_meta\\ws_ranked.json
@@ -72,6 +74,29 @@ BONUS = {"已订阅": 8, "已暂存": 5, "已提取": 3}
 WS = r"D:\STORMWORKS"
 RANKED = os.path.join(WS, "AI相关", "_meta", "ws_ranked.json")
 CFG = os.path.join(WS, "工作区导航", "路径配置.json")
+# 已确认「不含任何 Lua 块」的 id 白名单。没有它，这类作品每轮都会排在 TOP 前面被重复下载。
+NO_LUA_FILE = os.path.join(WS, "AI相关", "_meta", "ws_no_lua.json")
+DONE_STATES = ("已学习", "无Lua")      # --top / --crawl 待办里要剔除的终态
+
+
+def load_no_lua():
+    try:
+        if os.path.isfile(NO_LUA_FILE):
+            return set(json.load(open(NO_LUA_FILE, encoding="utf-8")))
+    except Exception:
+        pass
+    return set()
+
+
+def save_no_lua(ids):
+    s = load_no_lua() | {str(i).strip() for i in ids if str(i).strip()}
+    os.makedirs(os.path.dirname(NO_LUA_FILE), exist_ok=True)
+    json.dump(sorted(s), open(NO_LUA_FILE, "w", encoding="utf-8"),
+              ensure_ascii=False, indent=1)
+    return s
+
+
+NO_LUA = load_no_lua()          # 模块级缓存，state_of() 直接读
 
 
 # ---------------------------------------------------------------- 路径解析
@@ -128,6 +153,8 @@ def browse_pages(sort, pages, start=1):
 def state_of(tid, idx, workshop):
     if idx.get(tid, {}).get("learned"):
         return "已学习"
+    if tid in NO_LUA:
+        return "无Lua"
     if os.path.isdir(os.path.join(workshop, tid)):
         return "已订阅"
     if os.path.isdir(os.path.join(ref.STAGED, tid)):
@@ -248,7 +275,7 @@ def cmd_crawl(pages, sorts, weights, doc):
 
     score_items(items, weights)
     save_ranked(doc, weights, crawl_info, "；".join(notes))
-    todo = [i for i in items.values() if i.get("state") != "已学习"]
+    todo = [i for i in items.values() if i.get("state") not in DONE_STATES]
     top = sorted(todo, key=lambda x: -x.get("score", 0))[:12]
     print(f"\n[done] 候选池 {len(items)} 个，其中待学习 {len(todo)} 个")
     print(f"[done] 榜单已写入 {RANKED}")
@@ -261,7 +288,7 @@ def cmd_crawl(pages, sorts, weights, doc):
 
 def cmd_show(n, doc, include_all):
     items = [i for i in (doc.get("items") or {}).values()
-             if include_all or i.get("state") != "已学习"]
+             if include_all or i.get("state") not in DONE_STATES]
     items.sort(key=lambda x: -x.get("score", 0))
     print(f"{'#':>3} {'score':>6}  {'id':<12} {'订阅':>7}  {'更新':<11} {'状态':<6} 标题")
     print("-" * 96)
@@ -274,7 +301,16 @@ def cmd_show(n, doc, include_all):
 
 
 def cmd_top(n, doc):
-    items = [i for i in (doc.get("items") or {}).values() if i.get("state") != "已学习"]
+    # 每次都重算状态：否则上一轮写入的 "新" 会盖掉本轮刚标记的无 Lua / 刚写进例题的已学习
+    workshop = resolve_workshop()
+    idx = ref.load_index()
+    for tid, it in (doc.get("items") or {}).items():
+        it["state"] = state_of(tid, idx, workshop)
+    score_items(doc.setdefault("items", {}), dict(W_DEFAULT))
+    save_ranked(doc, doc.get("weights") or dict(W_DEFAULT), doc.get("crawl", {}),
+                doc.get("note", ""))
+    items = [i for i in (doc.get("items") or {}).values()
+             if i.get("state") not in DONE_STATES]
     items.sort(key=lambda x: -x.get("score", 0))
     print(" ".join(i["id"] for i in items[:n]))
 
@@ -286,6 +322,19 @@ def main():
         return
     weights = parse_weights(a[a.index("--weights") + 1]) if "--weights" in a else dict(W_DEFAULT)
     doc = load_ranked()
+
+    if "--no-lua" in a:                      # 标记「已确认无 Lua」，之后不再进 --top
+        k = a.index("--no-lua")
+        raw = a[k + 1] if len(a) > k + 1 else ""
+        ids = [x for x in re.split(r"[,\s]+", raw) if x]
+        if not ids:
+            print("用法：ws_rank.py --no-lua <id,id,...>  或 --no-lua --list")
+        elif ids[0] == "--list":
+            print(" ".join(sorted(load_no_lua())) or "（空）")
+        else:
+            s = save_no_lua(ids)
+            print(f"[no-lua] 已标记 {len(ids)} 个，累计 {len(s)} 个 → {NO_LUA_FILE}")
+        return
 
     if "--crawl" in a:
         k = a.index("--crawl")
