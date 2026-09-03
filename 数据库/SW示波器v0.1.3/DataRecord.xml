@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<microprocessor name="Data Recorder" description="No description set." width="1" length="1" id_counter="20" id_counter_node="7" sym4="13607" sym5="21841" sym6="22353" sym7="21841" sym8="21841" sym9="12833" sym11="18" sym12="21" sym13="53" sym14="85" sym15="53">
+	<nodes>
+		<n id="6" component_id="12">
+			<node label="data" mode="1" type="5" description="The input signal to be processed."/>
+		</n>
+		<n id="7" component_id="18">
+			<node label="debug" type="6" description="The input signal to be processed.">
+				<position z="1"/>
+			</node>
+		</n>
+	</nodes>
+	<group>
+		<data>
+			<inputs/>
+			<outputs/>
+		</data>
+		<components>
+			<c type="56">
+				<object id="13" script='INTV=15
+UPLOAD_TABLE={}
+
+function onTick()
+	I,O=input,output
+	GN,GB=I.getNumber,I.getBool
+	P=property
+	PN,PB,PT=P.getNumber,P.getBool,P.getText
+	num_table=split(PT("Which number ouput to monitor(split by ,)"),",")
+	bool_table=split(PT("Which bool ouput to monitor(split by ,)"),",")
+	value=""
+	for key, tmpa in pairs(num_table) do
+		if key==1 then
+			value=string.format("%.4f", GN(tmpa))
+		else
+			value=value..string.format(",%.4f", GN(tmpa))
+		end
+	end
+	for key, tmpa in pairs(bool_table) do
+		if GB(tmpa) then
+			tmp=1
+		else
+			tmp=0
+		end
+		if value=="" then
+			value=value..string.format("%d", tmp)
+		else
+			value=value..string.format(",%d", tmp)
+		end
+	end
+	table.insert(UPLOAD_TABLE, value)
+
+	if INTV==1 then
+		upload_value=table.concat(UPLOAD_TABLE, "|||")
+		async.httpGet(5588, string.format("/send?value=%s", upload_value))
+		UPLOAD_TABLE={}
+		INTV=15
+	else
+		INTV=INTV-1
+	end
+end
+
+function onDraw()
+	S=screen
+	Text,TextBox,Color,Line,RectF,Rect,Circle,CircleF,Triangle,TriangleF=S.drawText,S.drawTextBox,S.setColor,S.drawLine,S.drawRectF,S.drawRect,S.drawCircle,S.drawCircleF,S.drawTriangle,S.drawTriangleF
+	w,h=S.getWidth(),S.getHeight()
+	TextBox(0,0,w,h,dump(num_table))
+end
+
+function httpReply(port, request_body, response_body) end
+
+function split(a,b)if b==nil then b="%s"end;local c={}for d in string.gmatch(a,"([^"..b.."]+)")do table.insert(c,d)end;return c end
+
+function dump(b)if type(b)==&apos;table&apos;then local d=&apos;{ &apos;for e,f in pairs(b)do if type(e)~=&apos;number&apos;then e=&apos;"&apos;..e..&apos;"&apos;end;d=d..&apos;[&apos;..e..&apos;] = &apos;..dump(f)..&apos;,\n&apos;end;return d..&apos;} &apos;else return tostring(b)end end
+'>
+					<pos x="1.5" y="-1"/>
+					<in1 component_id="12">
+						<v bools="6"/>
+					</in1>
+				</object>
+			</c>
+			<c type="58">
+				<object id="14" n="Which number ouput to monitor(split by ,)" v="1,2">
+					<pos y="0.75"/>
+				</object>
+			</c>
+			<c type="58">
+				<object id="15" n="Which bool ouput to monitor(split by ,)" v="1,2,3,4">
+					<pos y="0.25"/>
+				</object>
+			</c>
+			<c type="34">
+				<object id="19" n="port">
+					<pos x="1.5" y="0.75"/>
+					<out1 v="5588"/>
+					<v text="5588" value="5588"/>
+				</object>
+			</c>
+			<c type="20">
+				<object id="20" name="on/off">
+					<pos x="1.5" y="0.25"/>
+					<items>
+						<i l="on">
+							<v text="0"/>
+						</i>
+						<i l="off">
+							<v text="1" value="1"/>
+						</i>
+					</items>
+				</object>
+			</c>
+		</components>
+		<components_bridge>
+			<c type="4">
+				<object id="12">
+					<pos y="-0.75"/>
+					<in1>
+						<v bools="6"/>
+					</in1>
+					<out1>
+						<v bools="6"/>
+					</out1>
+				</object>
+			</c>
+			<c type="7">
+				<object id="18">
+					<pos x="3" y="-1"/>
+					<in1 component_id="13" node_index="1"/>
+				</object>
+			</c>
+		</components_bridge>
+		<groups/>
+		<component_states>
+			<c0 id="13" script='INTV=15
+UPLOAD_TABLE={}
+
+function onTick()
+	I,O=input,output
+	GN,GB=I.getNumber,I.getBool
+	P=property
+	PN,PB,PT=P.getNumber,P.getBool,P.getText
+	num_table=split(PT("Which number ouput to monitor(split by ,)"),",")
+	bool_table=split(PT("Which bool ouput to monitor(split by ,)"),",")
+	value=""
+	for key, tmpa in pairs(num_table) do
+		if key==1 then
+			value=string.format("%.4f", GN(tmpa))
+		else
+			value=value..string.format(",%.4f", GN(tmpa))
+		end
+	end
+	for key, tmpa in pairs(bool_table) do
+		if GB(tmpa) then
+			tmp=1
+		else
+			tmp=0
+		end
+		if value=="" then
+			value=value..string.format("%d", tmp)
+		else
+			value=value..string.format(",%d", tmp)
+		end
+	end
+	table.insert(UPLOAD_TABLE, value)
+
+	if INTV==1 then
+		upload_value=table.concat(UPLOAD_TABLE, "|||")
+		async.httpGet(5588, string.format("/send?value=%s", upload_value))
+		UPLOAD_TABLE={}
+		INTV=15
+	else
+		INTV=INTV-1
+	end
+end
+
+function onDraw()
+	S=screen
+	Text,TextBox,Color,Line,RectF,Rect,Circle,CircleF,Triangle,TriangleF=S.drawText,S.drawTextBox,S.setColor,S.drawLine,S.drawRectF,S.drawRect,S.drawCircle,S.drawCircleF,S.drawTriangle,S.drawTriangleF
+	w,h=S.getWidth(),S.getHeight()
+	TextBox(0,0,w,h,dump(num_table))
+end
+
+function httpReply(port, request_body, response_body) end
+
+function split(a,b)if b==nil then b="%s"end;local c={}for d in string.gmatch(a,"([^"..b.."]+)")do table.insert(c,d)end;return c end
+
+function dump(b)if type(b)==&apos;table&apos;then local d=&apos;{ &apos;for e,f in pairs(b)do if type(e)~=&apos;number&apos;then e=&apos;"&apos;..e..&apos;"&apos;end;d=d..&apos;[&apos;..e..&apos;] = &apos;..dump(f)..&apos;,\n&apos;end;return d..&apos;} &apos;else return tostring(b)end end
+'>
+				<pos x="1.5" y="-1"/>
+				<in1 component_id="12">
+					<v bools="6"/>
+				</in1>
+			</c0>
+			<c1 id="14" n="Which number ouput to monitor(split by ,)" v="1,2">
+				<pos y="0.75"/>
+			</c1>
+			<c2 id="15" n="Which bool ouput to monitor(split by ,)" v="1,2,3,4">
+				<pos y="0.25"/>
+			</c2>
+			<c3 id="19" n="port">
+				<pos x="1.5" y="0.75"/>
+				<out1 v="5588"/>
+				<v text="5588" value="5588"/>
+			</c3>
+			<c4 id="20" name="on/off">
+				<pos x="1.5" y="0.25"/>
+				<items>
+					<i l="on">
+						<v text="0"/>
+					</i>
+					<i l="off">
+						<v text="1" value="1"/>
+					</i>
+				</items>
+			</c4>
+		</component_states>
+		<component_bridge_states>
+			<c0 id="12">
+				<pos y="-0.75"/>
+				<in1>
+					<v bools="6"/>
+				</in1>
+				<out1>
+					<v bools="6"/>
+				</out1>
+			</c0>
+			<c1 id="18">
+				<pos x="3" y="-1"/>
+				<in1 component_id="13" node_index="1"/>
+			</c1>
+		</component_bridge_states>
+		<group_states/>
+	</group>
+</microprocessor>
+

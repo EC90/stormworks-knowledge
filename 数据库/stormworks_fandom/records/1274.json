@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Compass sensor",
+  "display_title": "Compass sensor",
+  "summary": "Alias for Compass Sensor",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Compass Sensor"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Compass sensor -> Compass Sensor",
+    "plain_text": "Redirect: Compass sensor -> Compass Sensor",
+    "char_count": 42,
+    "word_count": 6,
+    "sha256": "9c618479735ed8828721747cdc48204aa83b820c87ba04408eeaba6cb2c5517a"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Compass Sensor",
+    "target_url": "https://stormworks.fandom.com/wiki/Compass_Sensor",
+    "target_page_id": 1273,
+    "target_revision_id": 4718
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Compass_sensor",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1274,
+    "revision_id": 2869,
+    "revision_timestamp": "2022-01-10T04:41:06Z",
+    "retrieved_at": "2026-08-31T10:01:22+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

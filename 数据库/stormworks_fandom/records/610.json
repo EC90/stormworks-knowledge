@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Boat",
+  "display_title": "Boat",
+  "summary": "Alias for Wiki/Vehicles/Water/Boat",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Vehicles/Water/Boat"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Boat -> Wiki/Vehicles/Water/Boat",
+    "plain_text": "Redirect: Boat -> Wiki/Vehicles/Water/Boat",
+    "char_count": 42,
+    "word_count": 4,
+    "sha256": "329bbb9b2b14319f3696f490462632e9b9403eccbbfd6f35924629f0a584fe69"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Vehicles/Water/Boat",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Vehicles/Water/Boat",
+    "target_page_id": 275,
+    "target_revision_id": 4599
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Boat",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 610,
+    "revision_id": 1334,
+    "revision_timestamp": "2019-03-16T17:36:27Z",
+    "retrieved_at": "2026-08-31T10:00:56+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

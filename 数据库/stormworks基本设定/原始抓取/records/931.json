@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Mechanics/Basic Physics",
+  "display_title": "Gameplay/Mechanics/Basic Physics",
+  "summary": "Basic Physics\nStormworks contains a distinctive physics system\nPhysics Of Mechanics\nThe Mechanic Physics of Stormworks follows a simplified version from real life, which the gravitational acceleration turns from\ng\nS\nE\n=\n9.81\nm\ns\n2\n{\\textstyle g_{SE}={\\frac {9.81m}{s^{2}}}}\nto\ng\nS\nE\n=\n10\nm\ns\n2\n{\\textstyle g_{SE}={\\frac {10m}{s^{2}}}}\nConstants\nStormworks Earth Gravitational acceleration:\ng\nS\nE\n=\n10\nm\ns\n2\n{\\textstyle g_{SE}={\\frac {10m}{s^{2}}}}\nStormworks Force unit:\n1\nn\nS\n=\n1\nk\ng\n10\nm\ns\n−\n2\n=\n0.1\nk\ng\nF\n{\\textstyle 1n_{S}={\\frac {1kg}{10ms^{-}2}}=0.1kgF}\nMomentum (Pivots/Hinges/Tracks):\nMechani",
+  "categories": [
+    "Citation_needed",
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Basic Physics [ edit page ]",
+      "anchor": "Basic_Physics_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Physics Of Mechanics",
+      "anchor": "Physics_Of_Mechanics"
+    },
+    {
+      "level": 3,
+      "title": "Constants",
+      "anchor": "Constants"
+    },
+    {
+      "level": 2,
+      "title": "Physics Of Fluid",
+      "anchor": "Physics_Of_Fluid"
+    },
+    {
+      "level": 3,
+      "title": "Pressure and Flow",
+      "anchor": "Pressure_and_Flow"
+    },
+    {
+      "level": 3,
+      "title": "Diffusion",
+      "anchor": "Diffusion"
+    },
+    {
+      "level": 3,
+      "title": "Liquid",
+      "anchor": "Liquid"
+    },
+    {
+      "level": 3,
+      "title": "Gas",
+      "anchor": "Gas"
+    },
+    {
+      "level": 2,
+      "title": "Aerodynamic",
+      "anchor": "Aerodynamic"
+    },
+    {
+      "level": 2,
+      "title": "RPS",
+      "anchor": "RPS"
+    },
+    {
+      "level": 2,
+      "title": "Physics Engine",
+      "anchor": "Physics_Engine"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Mechanics"
+  ],
+  "external_links": [
+    "https://en.wikipedia.org/wiki/Bullet_(software)"
+  ],
+  "images": [
+    {
+      "url": "https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/9c64173e70bfb4ea295932ce0a76e5566f95082c",
+      "thumbnail_url": "https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/9c64173e70bfb4ea295932ce0a76e5566f95082c",
+      "alt": "{\\textstyle g_{SE}={\\frac {9.81m}{s^{2}}}}",
+      "width": null,
+      "height": null
+    },
+    {
+      "url": "https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/6e3b6751696652a9356119be15f78275a2c59829",
+      "thumbnail_url": "https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/6e3b6751696652a9356119be15f78275a2c59829",
+      "alt": "{\\textstyle g_{SE}={\\frac {10m}{s^{2}}}}",
+      "width": null,
+      "height": null
+    },
+    {
+      "url": "https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/0abf756d46a275abebbe8a12f5c70e698f65b05c",
+      "thumbnail_url": "https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/0abf756d46a275abebbe8a12f5c70e698f65b05c",
+      "alt": "{\\textstyle 1n_{S}={\\frac {1kg}{10ms^{-}2}}=0.1kgF}",
+      "width": null,
+      "height": null
+    }
+  ],
+  "tables": [],
+  "content": {
+    "markdown": "## Basic Physics\n\nStormworks contains a distinctive physics system\n\n## Physics Of Mechanics\n\nThe Mechanic Physics of Stormworks follows a simplified version from real life, which the gravitational acceleration turns from\n\ng\n\nS\nE\n=\n\n9.81\nm\n\ns\n\n2\n{\\textstyle g\\_{SE}={\\frac {9.81m}{s^{2}}}}\n![{\\textstyle g_{SE}={\\frac {9.81m}{s^{2}}}}](https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/9c64173e70bfb4ea295932ce0a76e5566f95082c) to\n\ng\n\nS\nE\n=\n\n10\nm\n\ns\n\n2\n{\\textstyle g\\_{SE}={\\frac {10m}{s^{2}}}}\n![{\\textstyle g_{SE}={\\frac {10m}{s^{2}}}}](https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/6e3b6751696652a9356119be15f78275a2c59829)\n\n### Constants\n\nStormworks Earth Gravitational acceleration:\n\ng\n\nS\nE\n=\n\n10\nm\n\ns\n\n2\n{\\textstyle g\\_{SE}={\\frac {10m}{s^{2}}}}\n![{\\textstyle g_{SE}={\\frac {10m}{s^{2}}}}](https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/6e3b6751696652a9356119be15f78275a2c59829)\nStormworks Force unit:\n\n1\n\nn\n\nS\n=\n\n1\nk\ng\n\n10\nm\n\ns\n\n−\n2\n=\n0.1\nk\ng\nF\n{\\textstyle 1n\\_{S}={\\frac {1kg}{10ms^{-}2}}=0.1kgF}\n![{\\textstyle 1n_{S}={\\frac {1kg}{10ms^{-}2}}=0.1kgF}](https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/0abf756d46a275abebbe8a12f5c70e698f65b05c)\n\nMomentum (Pivots/Hinges/Tracks):\n\n- Mechanical parts like Pivots will produce an incredible amount of momentum. That means fast spinning velocity pivots will start to rotate your vehicle, even if the vehicle has a huge mass!\n\n## Physics Of Fluid\n\nThe Fluid Physics of Stormworks follows a simplified physics which seems unrealistic due to its physics property.\n\n### Pressure and Flow\n\nThe flow and the pressure of stormworks fluid is based on pressure gradient, which means the fluid in higher pressure tank or room are tend to move to lower pressure area\n\n### Diffusion\n\nFluids are miscible between gases and liquids, which means they will balance the concentration when two rooms or tanks are connected(without single flow components, e.g., fluid flow valve, electric pumps), no matter the pressure and its gradient.\nHowever, relief valves can limit the fluid diffusion. When connecting two liquid storage spaces with a liquid relief valve, the diffusion will only occur for liquid but not gas, the same as the gas relief valve\n\n### Liquid\n\nSignificantly, liquids in stormworks are not compressible\n\n### Gas\n\n## Aerodynamic\n\n## RPS\n\n## Physics Engine\n\nPhysics engine used: [Bullet](https://en.wikipedia.org/wiki/Bullet_(software))\n\nThe physics in this game tend to be worse than in other physics based games in alpha/beta/early access state [*[citation needed](https://en.wikipedia.org/wiki/Citation_needed \"wikipedia:Citation needed\")*].\nSometimes the behaviour of the engine is still not realistic (e.g. high forces of pivots turning the entire vehicle).\nThe air drag in this game is much more than it is in real life, the air acts like a soup. Thus propellers and jets are more powerful. This also makes gliding difficult. Lift forces are barely noticable as the main force keeping flying objects up is their velocity.",
+    "plain_text": "Basic Physics\nStormworks contains a distinctive physics system\nPhysics Of Mechanics\nThe Mechanic Physics of Stormworks follows a simplified version from real life, which the gravitational acceleration turns from\ng\nS\nE\n=\n9.81\nm\ns\n2\n{\\textstyle g_{SE}={\\frac {9.81m}{s^{2}}}}\nto\ng\nS\nE\n=\n10\nm\ns\n2\n{\\textstyle g_{SE}={\\frac {10m}{s^{2}}}}\nConstants\nStormworks Earth Gravitational acceleration:\ng\nS\nE\n=\n10\nm\ns\n2\n{\\textstyle g_{SE}={\\frac {10m}{s^{2}}}}\nStormworks Force unit:\n1\nn\nS\n=\n1\nk\ng\n10\nm\ns\n−\n2\n=\n0.1\nk\ng\nF\n{\\textstyle 1n_{S}={\\frac {1kg}{10ms^{-}2}}=0.1kgF}\nMomentum (Pivots/Hinges/Tracks):\nMechanical parts like Pivots will produce an incredible amount of momentum. That means fast spinning velocity pivots will start to rotate your vehicle, even if the vehicle has a huge mass!\nPhysics Of Fluid\nThe Fluid Physics of Stormworks follows a simplified physics which seems unrealistic due to its physics property.\nPressure and Flow\nThe flow and the pressure of stormworks fluid is based on pressure gradient, which means the fluid in higher pressure tank or room are tend to move to lower pressure area\nDiffusion\nFluids are miscible between gases and liquids, which means they will balance the concentration when two rooms or tanks are connected(without single flow components, e.g., fluid flow valve, electric pumps), no matter the pressure and its gradient.\nHowever, relief valves can limit the fluid diffusion. When connecting two liquid storage spaces with a liquid relief valve, the diffusion will only occur for liquid but not gas, the same as the gas relief valve\nLiquid\nSignificantly, liquids in stormworks are not compressible\nGas\nAerodynamic\nRPS\nPhysics Engine\nPhysics engine used:\nBullet\nThe physics in this game tend to be worse than in other physics based games in alpha/beta/early access state\n[\ncitation needed\n]\n.\nSometimes the behaviour of the engine is still not realistic (e.g. high forces of pivots turning the entire vehicle).\nThe air drag in this game is much more than it is in real life, the air acts like a soup. Thus propellers and jets are more powerful. This also makes gliding difficult. Lift forces are barely noticable as the main force keeping flying objects up is their velocity.",
+    "char_count": 3054,
+    "word_count": 380,
+    "sha256": "f8ed796be89f56523eb76608466cdb70e3b7c6d57cd6b87ff0bd54a8f5eb4c3e"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Basic_Physics",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 931,
+    "revision_id": 4225,
+    "revision_timestamp": "2025-05-14T06:15:44Z",
+    "retrieved_at": "2026-08-30T14:37:31+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

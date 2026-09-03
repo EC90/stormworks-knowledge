@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Seaplane",
+  "display_title": "Seaplane",
+  "summary": "Alias for Wiki/Guides/Seaplanes",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Guides/Seaplanes"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Seaplane -> Wiki/Guides/Seaplanes",
+    "plain_text": "Redirect: Seaplane -> Wiki/Guides/Seaplanes",
+    "char_count": 43,
+    "word_count": 4,
+    "sha256": "c750248494bb8e3a192955603506ca97cb0a4c27ab6120af184d33cd140e5f55"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Guides/Seaplanes",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Seaplanes",
+    "target_page_id": 1008,
+    "target_revision_id": 3989
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Seaplane",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1326,
+    "revision_id": 2983,
+    "revision_timestamp": "2022-01-28T18:26:10Z",
+    "retrieved_at": "2026-08-31T10:04:53+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

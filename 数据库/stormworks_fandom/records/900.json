@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Fluids guide",
+  "display_title": "Fluids guide",
+  "summary": "Alias for Wiki/Guides/Fluids",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Guides/Fluids"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Fluids guide -> Wiki/Guides/Fluids",
+    "plain_text": "Redirect: Fluids guide -> Wiki/Guides/Fluids",
+    "char_count": 44,
+    "word_count": 5,
+    "sha256": "219b985a825da901507716d5b294aae8e634138d0d5ca3bfa5e57248afbe539b"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Guides/Fluids",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Fluids",
+    "target_page_id": 598,
+    "target_revision_id": 4631
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Fluids_guide",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 900,
+    "revision_id": 1736,
+    "revision_timestamp": "2019-03-31T21:15:40Z",
+    "retrieved_at": "2026-08-31T10:02:01+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

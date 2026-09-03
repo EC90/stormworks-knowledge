@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Game Mechanics/Mechanics",
+  "display_title": "Wiki/Game Mechanics/Mechanics",
+  "summary": "Alias for Gameplay/Mechanics/Basic Physics",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Mechanics/Basic Physics"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Game Mechanics/Mechanics -> Gameplay/Mechanics/Basic Physics",
+    "plain_text": "Redirect: Wiki/Game Mechanics/Mechanics -> Gameplay/Mechanics/Basic Physics",
+    "char_count": 75,
+    "word_count": 6,
+    "sha256": "d58f57587c5f90fc46f895feb2a66e49a73a2ef3429c3e63d097a4b8608b9b9d"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Mechanics/Basic Physics",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Basic_Physics",
+    "target_page_id": 931,
+    "target_revision_id": 4225
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Mechanics",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1705,
+    "revision_id": 4671,
+    "revision_timestamp": "2025-10-26T01:01:10Z",
+    "retrieved_at": "2026-08-31T10:11:50+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

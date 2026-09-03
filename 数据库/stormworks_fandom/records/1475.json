@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Large Boats Research",
+  "display_title": "Large Boats Research",
+  "summary": "Large Boats is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Research",
+    "Shipping Research",
+    "Wiki/Building/Components/Blocks",
+    "Wiki/Building/Components/Propulsion",
+    "Wiki/Building/Components/Specialist Equipment",
+    "Wiki/Building/Components/Vehicle Control",
+    "Wiki/Building/Components/Windows"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Largeboatsresearch.png/revision/latest?cb=20240421181801",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Largeboatsresearch.png/revision/latest?cb=20240421181801",
+      "alt": "Largeboatsresearch",
+      "width": "48",
+      "height": "48"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Helm"
+        ],
+        [
+          "[Windows](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Windows)",
+          "Porthole"
+        ],
+        [
+          "[Windows](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Windows)",
+          "Porthole Small"
+        ],
+        [
+          "Specialist Equipment",
+          "Foghorn"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Azimuth Thruster"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Large Propeller"
+        ],
+        [
+          "[Blocks](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Blocks)",
+          "Stair Step"
+        ],
+        [
+          "[Blocks](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Blocks)",
+          "Stair Top"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Small Pitchable Propeller"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Pitchable Propeller"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Large Boats\n\n[![Largeboatsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Largeboatsresearch.png/revision/latest?cb=20240421181801)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Largeboatsresearch.png/revision/latest?cb=20240421181801)\n\n### Research Points\n\n10\n\n### Research Time\n\n1h 5m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[Shipping](https://stormworks.fandom.com/wiki/Shipping_Research)\n\nLarge Boats is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Helm |\n| [Windows](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Windows) | Porthole |\n| [Windows](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Windows) | Porthole Small |\n| Specialist Equipment | Foghorn |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Azimuth Thruster |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Large Propeller |\n| [Blocks](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Blocks) | Stair Step |\n| [Blocks](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Blocks) | Stair Top |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Small Pitchable Propeller |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Pitchable Propeller |",
+    "plain_text": "Large Boats\n\nResearch Points\n\n10\n\nResearch Time\n\n1h 5m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nShipping\n\nLarge Boats is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nVehicle Control\n\nHelm\n\nWindows\n\nPorthole\n\nWindows\n\nPorthole Small\n\nSpecialist Equipment\n\nFoghorn\n\nPropulsion\n\nAzimuth Thruster\n\nPropulsion\n\nLarge Propeller\n\nBlocks\n\nStair Step\n\nBlocks\n\nStair Top\n\nPropulsion\n\nSmall Pitchable Propeller\n\nPropulsion\n\nPitchable Propeller",
+    "char_count": 1617,
+    "word_count": 61,
+    "sha256": "28ca55ea83bbfdc51bb2210063935a63379e2c757fefcffe72cda0c925041a86"
+  },
+  "wikitext": "{{Research\n  | name=Large Boats\n  | image=[File:Largeboatsresearch.png]\n  | points=10\n  | time= 1h 5m\n  | unlock= Initially Available\n  | a1=[[Shipping Research|Shipping]]\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Large Boats is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Helm\n|-\n|[[Wiki/Building/Components/Windows|Windows]]||Porthole\n|-\n|[[Wiki/Building/Components/Windows|Windows]]||Porthole Small\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Foghorn\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Azimuth Thruster\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Large Propeller\n|-\n|[[Wiki/Building/Components/Blocks|Blocks]]||Stair Step\n|-\n|[[Wiki/Building/Components/Blocks|Blocks]]||Stair Top\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Small Pitchable Propeller\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Pitchable Propeller\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Large_Boats_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1475,
+    "revision_id": 3740,
+    "revision_timestamp": "2024-04-21T18:18:25Z",
+    "retrieved_at": "2026-08-31T10:03:49+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

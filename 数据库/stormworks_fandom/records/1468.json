@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Doors Research",
+  "display_title": "Doors Research",
+  "summary": "Doors is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Custom Doors Research",
+    "Docking Doors Research",
+    "Research",
+    "Wiki/Building/Components/Mechanics"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e4/Doorsresearch.png/revision/latest?cb=20240421181044",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e4/Doorsresearch.png/revision/latest?cb=20240421181044",
+      "alt": "Doorsresearch",
+      "width": "49",
+      "height": "49"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Sliding Door (Electric)"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Sliding Hatch (Electric)"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Sliding Door"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Hinged Door"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Sliding Hatch"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Hinged Hatch"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Doors\n\n[![Doorsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e4/Doorsresearch.png/revision/latest?cb=20240421181044)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e4/Doorsresearch.png/revision/latest?cb=20240421181044)\n\n### Research Points\n\n5\n\n### Research Time\n\n0h 50m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[Custom Doors](https://stormworks.fandom.com/wiki/Custom_Doors_Research)\n\n### Makes available\n\n[Docking Doors](https://stormworks.fandom.com/wiki/Docking_Doors_Research)\n\nDoors is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Sliding Door (Electric) |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Sliding Hatch (Electric) |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Sliding Door |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Hinged Door |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Sliding Hatch |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Hinged Hatch |",
+    "plain_text": "Doors\n\nResearch Points\n\n5\n\nResearch Time\n\n0h 50m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nCustom Doors\n\nMakes available\n\nDocking Doors\n\nDoors is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nMechanics\n\nSliding Door (Electric)\n\nMechanics\n\nSliding Hatch (Electric)\n\nMechanics\n\nSliding Door\n\nMechanics\n\nHinged Door\n\nMechanics\n\nSliding Hatch\n\nMechanics\n\nHinged Hatch",
+    "char_count": 1365,
+    "word_count": 54,
+    "sha256": "d59d6353bfbde4c75a42c2bd239feadadea78dc7a97ddad2744bf7400b98d4a6"
+  },
+  "wikitext": "{{Research\n  | name=Doors\n  | image=[File:Doorsresearch.png]\n  | points=5\n  | time= 0h 50m\n  | unlock= Initially Available\n  | a1=[[Custom Doors Research|Custom Doors]]\n  | a2=[[Docking Doors Research|Docking Doors]]\n  | a3=\n  | a4=\n  | a5=\n}}Doors is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Sliding Door (Electric)\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Sliding Hatch (Electric)\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Sliding Door\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Hinged Door\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Sliding Hatch\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Hinged Hatch\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Doors_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1468,
+    "revision_id": 3728,
+    "revision_timestamp": "2024-04-21T18:11:13Z",
+    "retrieved_at": "2026-08-31T10:01:33+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

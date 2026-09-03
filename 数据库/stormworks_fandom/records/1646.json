@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Gamemodes/Classic",
+  "display_title": "Wiki/Gamemodes/Classic",
+  "summary": "Alias for Gameplay/Gamemodes/Classic",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Gamemodes/Classic"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Gamemodes/Classic -> Gameplay/Gamemodes/Classic",
+    "plain_text": "Redirect: Wiki/Gamemodes/Classic -> Gameplay/Gamemodes/Classic",
+    "char_count": 62,
+    "word_count": 4,
+    "sha256": "92d26fe1f1d38dd73ab4d4ec37d9b1a43ae39d01e20d0b1bfc84d7ac9a824ca6"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Gamemodes/Classic",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Classic",
+    "target_page_id": 602,
+    "target_revision_id": 4531
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Gamemodes/Classic",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1646,
+    "revision_id": 4116,
+    "revision_timestamp": "2025-05-14T01:40:02Z",
+    "retrieved_at": "2026-08-31T10:11:58+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

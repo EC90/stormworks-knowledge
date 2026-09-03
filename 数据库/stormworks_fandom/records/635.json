@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Displays",
+  "display_title": "Gameplay/Workbench/Components/Displays",
+  "summary": "Input 1 (Composite): used to set values for displays of this panel",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Displays     [ edit page ]",
+      "anchor": "Displays_[_edit_page_]"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Workbench",
+    "Gameplay/Workbench/Components"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7f/Artifical_Horizon.jpg/revision/latest?cb=20190317005131",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7f/Artifical_Horizon.jpg/revision/latest/scale-to-width-down/100?cb=20190317005131",
+      "alt": "Artifical Horizon",
+      "width": "100",
+      "height": "108"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/64/Compass_Ball.jpg/revision/latest?cb=20190317005147",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/64/Compass_Ball.jpg/revision/latest/scale-to-width-down/100?cb=20190317005147",
+      "alt": "Compass Ball",
+      "width": "100",
+      "height": "108"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Displays?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Displays?action=edit). |\n| --- | --- |\n\n## Displays\n\nArtifical Horizon\n\n[![Artifical Horizon](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7f/Artifical_Horizon.jpg/revision/latest/scale-to-width-down/100?cb=20190317005131)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7f/Artifical_Horizon.jpg/revision/latest?cb=20190317005131)\n\n- Used for orientation (azimuth)\n\nCompass Ball\n\n[![Compass Ball](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/64/Compass_Ball.jpg/revision/latest/scale-to-width-down/100?cb=20190317005147)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/64/Compass_Ball.jpg/revision/latest?cb=20190317005147)\n\n- Used for orientation (north, east, south, west)\n\nDial\n\n[![Dial](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e7/Dial.jpg/revision/latest?cb=20190317005205)\n\n- Input 1 (Number): the number to display\n- You can select minimum and maximum of the display\n\nDigital Display\n\n[![Digital Display](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ab/Digital_Display.jpg/revision/latest?cb=20190317005155)\n\n- Input 1 (Number): the number to display\n- You can select minimum and maximum of the display\n\nGauge Display\n\n[![Gauge Display](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/43/Gauge_Display.jpg/revision/latest?cb=20190317005212)\n\n- Input 1 (Number): the number to display as white line\n- Input 2 (Number): the number to display as red line\n- You can select minimum and maximum of the display\n\nInstrument Panel\n\n[![Instrument Panel](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/83/Instrument_Panel.jpg/revision/latest?cb=20190317005222)\n\n- A combination of 4 other displays or user input\n- Input 1 (Composite): used to set values for displays of this panel\n- Output (Composite) input signal, overwrittеn by switches and buttons on this panel\n- You can connect several panels in series",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nDisplays\n\nArtifical Horizon\n\nUsed for orientation (azimuth)\n\nCompass Ball\n\nUsed for orientation (north, east, south, west)\n\nDial\n\nInput 1 (Number): the number to display\n\nYou can select minimum and maximum of the display\n\nDigital Display\n\nInput 1 (Number): the number to display\n\nYou can select minimum and maximum of the display\n\nGauge Display\n\nInput 1 (Number): the number to display as white line\n\nInput 2 (Number): the number to display as red line\n\nYou can select minimum and maximum of the display\n\nInstrument Panel\n\nA combination of 4 other displays or user input\n\nInput 1 (Composite): used to set values for displays of this panel\n\nOutput (Composite) input signal, overwrittеn by switches and buttons on this panel\n\nYou can connect several panels in series",
+    "char_count": 2780,
+    "word_count": 136,
+    "sha256": "78cfaccb6c48784960cfbfc68976f95d03db3fa177e2f62bf671d846f48c9869"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=\n\n\n\n{{Wiki_Component_Description | title=Artifical Horizon| image=Artifical Horizon.jpg | content=&nbsp;\n* Used for orientation (azimuth)\n}}\n{{Wiki_Component_Description | title=Compass Ball| image=Compass Ball.jpg | content=&nbsp;\n* Used for orientation (north, east, south, west)\n}}\n{{Wiki_Component_Description | title=Dial| image=Dial.jpg | content=&nbsp;\n* Input 1 (Number): the number to display\n* You can select minimum and maximum of the display\n}}\n{{Wiki_Component_Description | title=Digital Display| image=Digital Display.jpg | content=&nbsp;\n* Input 1 (Number): the number to display\n* You can select minimum and maximum of the display\n}}\n{{Wiki_Component_Description | title=Gauge Display| image=Gauge Display.jpg | content=&nbsp;\n* Input 1 (Number): the number to display as white line\n* Input 2 (Number): the number to display as red line\n* You can select minimum and maximum of the display\n}}\n{{Wiki_Component_Description | title=Instrument Panel| image=Instrument Panel.jpg | content=&nbsp;\n* A combination of 4 other displays or user input\n* Input 1 (Composite): used to set values for displays of this panel\n* Output (Composite) input signal, overwrittеn by switches and buttons on this panel\n* You can connect several panels in series\n}}\n\n\n\n}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Displays",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 635,
+    "revision_id": 4153,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-31T10:02:42+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

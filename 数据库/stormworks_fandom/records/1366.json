@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Camera Stabilized",
+  "display_title": "Camera Stabilized",
+  "summary": "Alias for Camera stabilized",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Camera stabilized"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Camera Stabilized -> Camera stabilized",
+    "plain_text": "Redirect: Camera Stabilized -> Camera stabilized",
+    "char_count": 48,
+    "word_count": 6,
+    "sha256": "48b525557346f9050df01312c2e0c004b431d74df21d03f49d46671efe5bf9cf"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Camera stabilized",
+    "target_url": "https://stormworks.fandom.com/wiki/Camera_stabilized",
+    "target_page_id": 1361,
+    "target_revision_id": 3157
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Camera_Stabilized",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1366,
+    "revision_id": 3067,
+    "revision_timestamp": "2022-02-12T06:38:14Z",
+    "retrieved_at": "2026-08-31T10:01:11+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

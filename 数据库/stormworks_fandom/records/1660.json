@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Displays",
+  "display_title": "Wiki/Building/Components/Displays",
+  "summary": "Alias for Gameplay/Workbench/Components/Displays",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Displays"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Displays -> Gameplay/Workbench/Components/Displays",
+    "plain_text": "Redirect: Wiki/Building/Components/Displays -> Gameplay/Workbench/Components/Displays",
+    "char_count": 85,
+    "word_count": 4,
+    "sha256": "cc3cd3f749c6b1290197b675ca7bbb9fe4864b0cada03bf2c052ef74ce69f23a"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Displays",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Displays",
+    "target_page_id": 635,
+    "target_revision_id": 4153
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1660,
+    "revision_id": 4154,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-31T10:11:10+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

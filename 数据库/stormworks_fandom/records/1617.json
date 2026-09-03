@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Rails",
+  "display_title": "Rails",
+  "summary": "GYATT FOR THE RIZZ",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "GYATT FOR THE RIZZ",
+    "plain_text": "GYATT FOR THE RIZZ",
+    "char_count": 18,
+    "word_count": 4,
+    "sha256": "4208ecf2dc829436eec4eb3656ebae2e3f0d472605d0537447d7a9a20edde831"
+  },
+  "wikitext": "GYATT FOR THE RIZZ",
+  "data_quality": "low",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Rails",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1617,
+    "revision_id": 4001,
+    "revision_timestamp": "2025-03-25T02:02:16Z",
+    "retrieved_at": "2026-08-31T10:04:45+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

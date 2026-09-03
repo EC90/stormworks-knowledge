@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Person Operations",
+  "display_title": "Wiki/Building/Components/Person Operations",
+  "summary": "Alias for Gameplay/Workbench/Components/Person Operations",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Person Operations"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Person Operations -> Gameplay/Workbench/Components/Person Operations",
+    "plain_text": "Redirect: Wiki/Building/Components/Person Operations -> Gameplay/Workbench/Components/Person Operations",
+    "char_count": 103,
+    "word_count": 6,
+    "sha256": "ff965dfe49f894da7ae7a36c21f96dc9baa06faa719e4bfc951a6ac4065230c8"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Person Operations",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Person_Operations",
+    "target_page_id": 630,
+    "target_revision_id": 4167
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Person_Operations",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1667,
+    "revision_id": 4168,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-31T10:11:17+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

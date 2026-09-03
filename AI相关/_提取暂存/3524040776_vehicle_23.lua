@@ -1,0 +1,40 @@
+-- source: steam id 3524040776 / vehicle.xml block#23
+-- url: https://steamcommunity.com/sharedfiles/filedetails/?id=3524040776
+GN=input.getNumber
+GB=input.getBool
+SN=output.setNumber
+SB=output.setBool
+PN=property.getNumber
+M=math
+Mb=M.abs
+U=M.cos
+Mf=M.floor
+V=M.sin
+Mr=M.sqrt
+P=M.pi*2
+invert=PN('invert zoom control')
+isAK=PN('key binding')
+function onTick()
+	lr=GN(1+isAK)
+	ud=GN(2+isAK)
+	sA=GB(4)
+	rdr=GB(5)
+	stb=GB(6)
+	if sA then a=1 else a=0 end
+	if rdr then b=1 else b=0 end
+	if stb then c=1 else c=0 end
+	SN(1,Mf((lr*0.98+1)*50)*100000+Mf((ud*0.98+1)*50)*1000+a*100+b*10+c*1)
+	zoomin=2.5+invert*0.5
+	zoomout=2.5-invert*0.5
+	if GB(zoomout) then
+		SN(2,9)
+	elseif GB(zoomin) then
+		SN(2,1)
+	else SN(2,5)
+	end
+	if GB(31) then
+		SN(3,1)
+	else
+		SN(3,0)
+	end
+end

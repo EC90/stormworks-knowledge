@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Oil Industry Research",
+  "display_title": "Oil Industry Research",
+  "summary": "Oil industry is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Research",
+    "Wiki/Building/Components/Fluids",
+    "Wiki/Building/Components/Industry"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620",
+      "alt": "Genericresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "Industry",
+          "Electric Furnace"
+        ],
+        [
+          "Industry",
+          "Industrial Diesel Furnace"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids)",
+          "Centrifugal Separator"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids)",
+          "Fractional Distillation Port"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids)",
+          "Slurry Filter"
+        ],
+        [
+          "Industry",
+          "Oil Rig Drill Connector"
+        ],
+        [
+          "Industry",
+          "Oil Rig Rotary Table"
+        ],
+        [
+          "Industry",
+          "Oil Rig Drill Clamp"
+        ],
+        [
+          "Industry",
+          "Oil Rig Rod Storage"
+        ],
+        [
+          "Industry",
+          "Oil Rig Drill Swivel"
+        ],
+        [
+          "Industry",
+          "Oil Rig Well Head"
+        ],
+        [
+          "Industry",
+          "Oil Rig Pumpjack"
+        ],
+        [
+          "Industry",
+          "Oil Rig Drill Clamp (End)"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Oil Industry\n\n[![Genericresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)\n\n### Research Points\n\n10\n\n### Research Time\n\n1h 15m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\nOil industry is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| Industry | Electric Furnace |\n| Industry | Industrial Diesel Furnace |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids) | Centrifugal Separator |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids) | Fractional Distillation Port |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids) | Slurry Filter |\n| Industry | Oil Rig Drill Connector |\n| Industry | Oil Rig Rotary Table |\n| Industry | Oil Rig Drill Clamp |\n| Industry | Oil Rig Rod Storage |\n| Industry | Oil Rig Drill Swivel |\n| Industry | Oil Rig Well Head |\n| Industry | Oil Rig Pumpjack |\n| Industry | Oil Rig Drill Clamp (End) |",
+    "plain_text": "Oil Industry\n\nResearch Points\n\n10\n\nResearch Time\n\n1h 15m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nOil industry is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nIndustry\n\nElectric Furnace\n\nIndustry\n\nIndustrial Diesel Furnace\n\nFluid\n\nCentrifugal Separator\n\nFluid\n\nFractional Distillation Port\n\nFluid\n\nSlurry Filter\n\nIndustry\n\nOil Rig Drill Connector\n\nIndustry\n\nOil Rig Rotary Table\n\nIndustry\n\nOil Rig Drill Clamp\n\nIndustry\n\nOil Rig Rod Storage\n\nIndustry\n\nOil Rig Drill Swivel\n\nIndustry\n\nOil Rig Well Head\n\nIndustry\n\nOil Rig Pumpjack\n\nIndustry\n\nOil Rig Drill Clamp (End)",
+    "char_count": 1230,
+    "word_count": 85,
+    "sha256": "6d970c764ed54c2574af9db38fb29323776bcd2bcbce1414c1c5d56db2af2ce6"
+  },
+  "wikitext": "{{Research\n  | name=Oil Industry\n  | image=[File:Genericresearch.png]\n  | points=10\n  | time= 1h 15m\n  | unlock= Initially Available\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Oil industry is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Electric Furnace\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Industrial Diesel Furnace\n|-\n|[[Wiki/Building/Components/Fluids|Fluid]]||Centrifugal Separator\n|-\n|[[Wiki/Building/Components/Fluids|Fluid]]||Fractional Distillation Port\n|-\n|[[Wiki/Building/Components/Fluids|Fluid]]||Slurry Filter\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Oil Rig Drill Connector\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Oil Rig Rotary Table\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Oil Rig Drill Clamp\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Oil Rig Rod Storage\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Oil Rig Drill Swivel\n|-\n|[[Wiki/Building/Components/Industry|Industry]]\n|Oil Rig Well Head\n|-\n|[[Wiki/Building/Components/Industry|Industry]]\n|Oil Rig Pumpjack\n|-\n|[[Wiki/Building/Components/Industry|Industry]]\n|Oil Rig Drill Clamp (End)\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Oil_Industry_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1478,
+    "revision_id": 3744,
+    "revision_timestamp": "2024-04-21T18:20:30Z",
+    "retrieved_at": "2026-08-31T10:04:27+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

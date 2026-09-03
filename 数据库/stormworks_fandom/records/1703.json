@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Game Mechanics/Lua",
+  "display_title": "Wiki/Game Mechanics/Lua",
+  "summary": "Alias for Gameplay/Mechanics/Lua",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Mechanics/Lua"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Game Mechanics/Lua -> Gameplay/Mechanics/Lua",
+    "plain_text": "Redirect: Wiki/Game Mechanics/Lua -> Gameplay/Mechanics/Lua",
+    "char_count": 59,
+    "word_count": 5,
+    "sha256": "27104d663b1f1e150f9b3574695b35f17fa5e2ca5358aff18f97fa7c500f9151"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Mechanics/Lua",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Lua",
+    "target_page_id": 1102,
+    "target_revision_id": 4245
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Lua",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1703,
+    "revision_id": 4246,
+    "revision_timestamp": "2025-05-14T06:15:44Z",
+    "retrieved_at": "2026-08-31T10:11:48+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

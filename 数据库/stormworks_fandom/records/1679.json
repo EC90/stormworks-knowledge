@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Video",
+  "display_title": "Wiki/Building/Components/Video",
+  "summary": "Alias for Gameplay/Workbench/Components/Video",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Video"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Video -> Gameplay/Workbench/Components/Video",
+    "plain_text": "Redirect: Wiki/Building/Components/Video -> Gameplay/Workbench/Components/Video",
+    "char_count": 79,
+    "word_count": 4,
+    "sha256": "759ab39ae67c6cee2aee9781eca0efb85351c013aa373b518b5255b9de512c97"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Video",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video",
+    "target_page_id": 1115,
+    "target_revision_id": 4191
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Video",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1679,
+    "revision_id": 4192,
+    "revision_timestamp": "2025-05-14T02:40:55Z",
+    "retrieved_at": "2026-08-31T10:11:29+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

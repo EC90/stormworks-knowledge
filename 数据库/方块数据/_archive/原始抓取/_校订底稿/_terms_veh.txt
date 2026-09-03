@@ -1,0 +1,71 @@
+Player Sensor
+Wind Sensor
+Rain Sensor
+Humidity Sensor
+Temperature Sensor
+Tilt Sensor
+Physics Sensor
+Linear Speed Sensor
+Distance Sensor
+Laser Distance Sensor
+Laser Point Sensor
+Laser Beacon
+Compass Sensor
+Altimeter
+GPS
+Torque Meter
+Basic Radar
+Phalanx Radar
+Radar Dish
+Radar AWACS
+Missile Radar
+Sonar
+Fluid Pressure Sensor
+Fluid Meter
+Clock
+Wheel Small
+Wheel Medium
+Wheel 3x3
+Wheel 3x3 Suspension
+Wheel 5x5
+Wheel 5x5 Suspension
+Wheel 7x7
+Wheel 7x7 Suspension
+Wheel 9x9
+Wheel 9x9 Suspension
+Large Landing Wheel
+Wheel Coaster
+Tank Wheel Large
+Tank Wheel Medium
+Tank Wheel Small
+Tank Drive Wheel Large
+Tank Drive Wheel Medium
+Tank Drive Wheel Small
+Ski Small
+Ski
+Control Surface Small
+Control Surface Medium
+Control Surface Large
+Rudder
+Fin Rudder
+Wing Front Section
+Wing Section Small
+Wing Section Medium
+Wing Section Large
+Wing Section XLarge
+Wing Section XXLarge
+Throttle Lever
+Push Button
+Toggle Button
+Lockable Button
+Key Button
+Keypad Small
+Keypad Large
+Helm
+Pilot Seat
+Pilot Seat HOTAS
+Pilot Seat Compact
+Driver Seat
+Instrument Panel
+Passenger Seat
+Padded Seat

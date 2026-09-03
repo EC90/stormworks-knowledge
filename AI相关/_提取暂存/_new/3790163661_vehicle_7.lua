@@ -1,0 +1,26 @@
+-- source: steam id 3790163661 / vehicle.xml block#7
+-- url: https://steamcommunity.com/sharedfiles/filedetails/?id=3790163661
+function onTick()
+x=input.getNumber(1)
+y=input.getNumber(2)
+z=math.floor(input.getNumber(3))
+zoom=input.getNumber(4)
+TSx=input.getNumber(5)
+TSy=input.getNumber(6)
+nx=math.floor(input.getNumber(7))
+ny=math.floor(input.getNumber(8))
+comp=input.getNumber(9)
+end
+function onDraw()
+w=screen.getWidth()
+h=screen.getHeight()
+screen.drawMap(nx,ny,zoom)
+screen.setMapColorOcean(20,25,80)
+screen.setMapColorShallows(20,40,100)
+screen.setMapColorLand(70,70,70)
+screen.setMapColorGrass(40,60,30)
+screen.setMapColorSand(110,75,35)
+screen.setMapColorSnow(150,150,150)
+screen.setMapColorRock(40,20,15)
+screen.setMapColorGravel(55,30,20)
+end

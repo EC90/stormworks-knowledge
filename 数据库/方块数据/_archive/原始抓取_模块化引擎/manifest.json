@@ -1,0 +1,18 @@
+{
+  "site": "https://wikiwiki.jp",
+  "wiki": "sbarjp",
+  "note": "wikiwiki.jp（非 MediaWiki）。正文取自 div#content，已过滤 ::cmd/edit 链接与侧边栏。",
+  "pages": [
+    {
+      "wiki": "sbarjp",
+      "page": "MODULAR ENGINES",
+      "url": "https://wikiwiki.jp/sbarjp/MODULAR%20ENGINES",
+      "last_modified": "2023-07-08",
+      "chars": 15135,
+      "internal_links": []
+    }
+  ],
+  "failed": [],
+  "ok": 1,
+  "failed_count": 0
+}

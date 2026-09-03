@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Industrial Frontier DLC",
+  "display_title": "Industrial Frontier DLC",
+  "summary": "The Industrial Frontier DLC added the\nArid Island\n, ore mining and processing, and a variety of wild and domesticated animals including\nStormwoofs\n.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Patch history",
+      "anchor": "Patch_history"
+    },
+    {
+      "level": 3,
+      "title": "V1.11.6",
+      "anchor": "V1.11.6"
+    },
+    {
+      "level": 3,
+      "title": "V1.7.0",
+      "anchor": "V1.7.0"
+    },
+    {
+      "level": 3,
+      "title": "V1.6.3-5",
+      "anchor": "V1.6.3-5"
+    },
+    {
+      "level": 3,
+      "title": "V1.6.2",
+      "anchor": "V1.6.2"
+    }
+  ],
+  "internal_links": [
+    "Arid Island",
+    "Stormwoof",
+    "V1.11.6",
+    "V1.6.2",
+    "V1.6.3-5",
+    "V1.7.0"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "The Industrial Frontier DLC added the [Arid Island](https://stormworks.fandom.com/wiki/Arid_Island), ore mining and processing, and a variety of wild and domesticated animals including [Stormwoofs](https://stormworks.fandom.com/wiki/Stormwoof).\n\n## Patch history\n\n### [V1.11.6](https://stormworks.fandom.com/wiki/V1.11.6)\n\nFeature - [Industrial Frontier DLC] Animal Missions\n\n- Transport farm animals\n- Find a lost dog\n- Rescue an animal to a sanctuary\n- Hunt a dangerous animal [with Search and Destroy DLC]\n- Rescue survivors from an animal attack [with Search and Destroy DLC]\n\n### [V1.7.0](https://stormworks.fandom.com/wiki/V1.7.0)\n\nAdded oil drilling and extraction, oil refining (to make diesel and jet fuel), and four land-based oil wells around the [Arid Island](https://stormworks.fandom.com/wiki/Arid_Island). The Arid Islands oil wells come with wellheads already attached for ease of moving onto drilling, extraction, and refining.\n\n### [V1.6.3-5](https://stormworks.fandom.com/wiki/V1.6.3-5)\n\n\"Zombie Apocalypse mode is a new Addon which will be enabled over the Halloween period for players with both 'Search and Destroy' and 'Industrial Frontier' DLCs enabled. We recommend disabling the DLC weapons AI script as minimum when playing with this addon and if players wish to turn off this addon they can disable it as usual in the addon selector on the new game menu.\"\n\n### [V1.6.2](https://stormworks.fandom.com/wiki/V1.6.2)\n\nAdded the Industrial Frontier DLC to the game.",
+    "plain_text": "The Industrial Frontier DLC added the\nArid Island\n, ore mining and processing, and a variety of wild and domesticated animals including\nStormwoofs\n.\n\nPatch history\n\nV1.11.6\n\nFeature - [Industrial Frontier DLC] Animal Missions\n\nTransport farm animals\n\nFind a lost dog\n\nRescue an animal to a sanctuary\n\nHunt a dangerous animal [with Search and Destroy DLC]\n\nRescue survivors from an animal attack [with Search and Destroy DLC]\n\nV1.7.0\n\nAdded oil drilling and extraction, oil refining (to make diesel and jet fuel), and four land-based oil wells around the\nArid Island\n. The Arid Islands oil wells come with wellheads already attached for ease of moving onto drilling, extraction, and refining.\n\nV1.6.3-5\n\n\"Zombie Apocalypse mode is a new Addon which will be enabled over the Halloween period for players with both 'Search and Destroy' and 'Industrial Frontier' DLCs enabled. We recommend disabling the DLC weapons AI script as minimum when playing with this addon and if players wish to turn off this addon they can disable it as usual in the addon selector on the new game menu.\"\n\nV1.6.2\n\nAdded the Industrial Frontier DLC to the game.",
+    "char_count": 1487,
+    "word_count": 192,
+    "sha256": "5bbf918189273eeb8f6bc6f28c9480ca700ac595611d26a0c08db833564aa1c0"
+  },
+  "wikitext": "The Industrial Frontier DLC added the [[Arid Island]], ore mining and processing, and a variety of wild and domesticated animals including [[Stormwoof]]s.\n\n== Patch history ==\n\n===[[V1.11.6]]===\nFeature - [Industrial Frontier DLC] Animal Missions\n\n* Transport farm animals\n* Find a lost dog\n* Rescue an animal to a sanctuary\n* Hunt a dangerous animal [with Search and Destroy DLC]\n* Rescue survivors from an animal attack [with Search and Destroy DLC]\n\n===[[V1.7.0]]===\nAdded oil drilling and extraction, oil refining (to make diesel and jet fuel), and four land-based oil wells around the [[Arid Island]]. The Arid Islands oil wells come with wellheads already attached for ease of moving onto drilling, extraction, and refining.\n\n===[[V1.6.3-5]]===\n\"Zombie Apocalypse mode is a new Addon which will be enabled over the Halloween period for players with both 'Search and Destroy' and 'Industrial Frontier' DLCs enabled. We recommend disabling the DLC weapons AI script as minimum when playing with this addon and if players wish to turn off this addon they can disable it as usual in the addon selector on the new game menu.\"\n\n===[[V1.6.2]]===\nAdded the Industrial Frontier DLC to the game.",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Industrial_Frontier_DLC",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1833,
+    "revision_id": 4509,
+    "revision_timestamp": "2025-07-22T11:21:16Z",
+    "retrieved_at": "2026-08-31T10:03:33+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

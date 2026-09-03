@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Planes",
+  "display_title": "Planes",
+  "summary": "Alias for Wiki/Vehicles/Air/Plane",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Vehicles/Air/Plane"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Planes -> Wiki/Vehicles/Air/Plane",
+    "plain_text": "Redirect: Planes -> Wiki/Vehicles/Air/Plane",
+    "char_count": 43,
+    "word_count": 4,
+    "sha256": "71b9252d60f47e4f85e93419c92ac26593524d1fbe0fcc5523c4dc18d613a21a"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Vehicles/Air/Plane",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Vehicles/Air/Plane",
+    "target_page_id": 273,
+    "target_revision_id": 2166
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Planes",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 527,
+    "revision_id": 1368,
+    "revision_timestamp": "2019-03-16T18:14:19Z",
+    "retrieved_at": "2026-08-31T10:04:33+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

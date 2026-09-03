@@ -1,0 +1,691 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Research",
+  "display_title": "Gameplay/Research",
+  "summary": "Research is a feature that only exists in the\nClassic\n game mode.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Research Tree",
+      "anchor": "Research_Tree"
+    }
+  ],
+  "internal_links": [
+    "Advanced Displays Research",
+    "Advanced Fluid Management Research",
+    "Advanced Logic Research",
+    "Advanced Rescue Equipment Research",
+    "Advanced Sensors Research",
+    "Afterburner Research",
+    "Arctic Land Vehicles Research",
+    "Arctic Rescue Research",
+    "Basic Logic Research",
+    "Basic Mechanics Research",
+    "Behaviour Research",
+    "Buttons Research",
+    "Compact Mechanics Research",
+    "Custom Doors Research",
+    "Decorations Research",
+    "Deep Sea Diving Research",
+    "Displays Research",
+    "Diving Equipment Research",
+    "Docking Doors Research",
+    "Doors Research",
+    "Electrics Research",
+    "Firefighting Equipment Research",
+    "Fluid Management Research",
+    "Functions Research",
+    "Heavy Aircraft Research",
+    "Heavy Land Vehicles Research",
+    "Heavy Modular Engines Research",
+    "Helicopters Research",
+    "High Capacity Electrics Research",
+    "Industrial Equipment Research",
+    "Jet Ducting Research",
+    "Jets Research",
+    "Keypads Research",
+    "Land Vehicles Research",
+    "Large Boats Research",
+    "Large Jets Research",
+    "Loot Crate",
+    "Medium Modular Engines Research",
+    "Modular Engines Research",
+    "Navigation Research",
+    "Nuclear Power Research",
+    "Oil Industry Research",
+    "Planes Research",
+    "Radar and Sonar Research",
+    "Radio RX Research",
+    "Railings Research",
+    "Rescue Equipment Research",
+    "Sensors Research",
+    "Shipping Research",
+    "Sleep",
+    "Solid Rockets Research",
+    "Space Research",
+    "Steam Power Research",
+    "Tank Tracks Large Research",
+    "Tank Tracks Medium Research",
+    "Tank Tracks Small Research",
+    "Time",
+    "Trains Research",
+    "Video Equipment Research",
+    "VTOL Research",
+    "Water Jets Research",
+    "Weapons Research",
+    "Weather Sensors Research",
+    "Wiki/Gamemodes/Classic",
+    "Wiki/Missions"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/59/Basiclogicresearch.png/revision/latest?cb=20240421180345",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/59/Basiclogicresearch.png/revision/latest?cb=20240421180345",
+      "alt": "Basiclogicresearch",
+      "width": "50",
+      "height": "50"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/25/Basicmechanicsresearch.png/revision/latest?cb=20240421180539",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/25/Basicmechanicsresearch.png/revision/latest?cb=20240421180539",
+      "alt": "Basicmechanicsresearch",
+      "width": "46",
+      "height": "46"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Buttonsresearch.png/revision/latest?cb=20240421180647",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Buttonsresearch.png/revision/latest?cb=20240421180647",
+      "alt": "Buttonsresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "table-progress-tracking",
+        "article-table",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "",
+          "",
+          "Research",
+          "Points",
+          "Time (H:MM)",
+          "Tier",
+          "Prerequisites"
+        ],
+        [
+          "",
+          "[![Basiclogicresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/59/Basiclogicresearch.png/revision/latest?cb=20240421180345)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/59/Basiclogicresearch.png/revision/latest?cb=20240421180345)",
+          "[Basic Logic](https://stormworks.fandom.com/wiki/Basic_Logic_Research)",
+          "2",
+          "1:35",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Basicmechanicsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/25/Basicmechanicsresearch.png/revision/latest?cb=20240421180539)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/25/Basicmechanicsresearch.png/revision/latest?cb=20240421180539)",
+          "[Basic Mechanics](https://stormworks.fandom.com/wiki/Basic_Mechanics_Research)",
+          "10",
+          "1:10",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Buttonsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Buttonsresearch.png/revision/latest?cb=20240421180647)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Buttonsresearch.png/revision/latest?cb=20240421180647)",
+          "[Buttons](https://stormworks.fandom.com/wiki/Buttons_Research)",
+          "1",
+          "0:35",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Decorationsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c5/Decorationsresearch.png/revision/latest?cb=20240421180756)",
+          "[Decorations](https://stormworks.fandom.com/wiki/Decorations_Research)",
+          "1",
+          "0:25",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Displaysresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7c/Displaysresearch.png/revision/latest?cb=20240421180843)",
+          "[Displays](https://stormworks.fandom.com/wiki/Displays_Research)",
+          "1",
+          "0:25",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Doorsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e4/Doorsresearch.png/revision/latest?cb=20240421181044)",
+          "[Doors](https://stormworks.fandom.com/wiki/Doors_Research)",
+          "5",
+          "0:50",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Electricsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Electricsresearch.png/revision/latest?cb=20240421181203)",
+          "[Electrics](https://stormworks.fandom.com/wiki/Electrics_Research)",
+          "10",
+          "0:45",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Fluidmanagementresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/57/Fluidmanagementresearch.png/revision/latest?cb=20240421181345)",
+          "[Fluid Management](https://stormworks.fandom.com/wiki/Fluid_Management_Research)",
+          "1",
+          "0:25",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Helicoptersresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/68/Helicoptersresearch.png/revision/latest?cb=20240421181506)",
+          "[Helicopters](https://stormworks.fandom.com/wiki/Helicopters_Research)",
+          "15",
+          "1:00",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)",
+          "[Industrial Equipment](https://stormworks.fandom.com/wiki/Industrial_Equipment_Research)",
+          "10",
+          "1:00",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Landvehiclesresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Landvehiclesresearch.png/revision/latest?cb=20240421181714)",
+          "[Land Vehicles](https://stormworks.fandom.com/wiki/Land_Vehicles_Research)",
+          "7",
+          "1:00",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Largeboatsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Largeboatsresearch.png/revision/latest?cb=20240421181801)",
+          "[Large Boats](https://stormworks.fandom.com/wiki/Large_Boats_Research)",
+          "10",
+          "1:05",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)",
+          "[Modular Engines](https://stormworks.fandom.com/wiki/Modular_Engines_Research)",
+          "10",
+          "2:25",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Navigationradarresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Navigationradarresearch.png/revision/latest?cb=20240421181928)",
+          "[Navigation](https://stormworks.fandom.com/wiki/Navigation_Research)",
+          "4",
+          "0:50",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)",
+          "[Oil Industry](https://stormworks.fandom.com/wiki/Oil_Industry_Research)",
+          "10",
+          "1:15",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Rescueequipmentresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c5/Rescueequipmentresearch.png/revision/latest?cb=20240421182057)",
+          "[Rescue Equipment](https://stormworks.fandom.com/wiki/Rescue_Equipment_Research)",
+          "10",
+          "1:10",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Sensorsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/ff/Sensorsresearch.png/revision/latest?cb=20240421182142)",
+          "[Sensors](https://stormworks.fandom.com/wiki/Sensors_Research)",
+          "1",
+          "0:50",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Solidrocketsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/94/Solidrocketsresearch.png/revision/latest?cb=20240421182223)",
+          "[Solid Rockets](https://stormworks.fandom.com/wiki/Solid_Rockets_Research)",
+          "10",
+          "1:30",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)",
+          "[Weapons](https://stormworks.fandom.com/wiki/Weapons_Research)",
+          "10",
+          "7:40",
+          "0",
+          "Initially Available"
+        ],
+        [
+          "",
+          "[![Advanceddisplaysresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/99/Advanceddisplaysresearch.png/revision/latest?cb=20240421182339)",
+          "[Advanced Displays](https://stormworks.fandom.com/wiki/Advanced_Displays_Research)",
+          "6",
+          "0:50",
+          "1",
+          "[Displays](https://stormworks.fandom.com/wiki/Displays_Research)"
+        ],
+        [
+          "",
+          "[![Advancedfluidmanagementresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a6/Advancedfluidmanagementresearch.png/revision/latest?cb=20240421182418)",
+          "[Advanced Fluid Management](https://stormworks.fandom.com/wiki/Advanced_Fluid_Management_Research)",
+          "20",
+          "1:10",
+          "1",
+          "[Fluid Management](https://stormworks.fandom.com/wiki/Fluid_Management_Research)"
+        ],
+        [
+          "",
+          "[![Advancedlogicresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4d/Advancedlogicresearch.png/revision/latest?cb=20240421182512)",
+          "[Advanced Logic](https://stormworks.fandom.com/wiki/Advanced_Logic_Research)",
+          "4",
+          "1:10",
+          "1",
+          "[Basic Logic](https://stormworks.fandom.com/wiki/Basic_Logic_Research)"
+        ],
+        [
+          "",
+          "[![Advancedrescueequipmentresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bf/Advancedrescueequipmentresearch.png/revision/latest?cb=20240421182602)",
+          "[Advanced Rescue Equipment](https://stormworks.fandom.com/wiki/Advanced_Rescue_Equipment_Research)",
+          "20",
+          "1:00",
+          "1",
+          "[Rescue Equipment](https://stormworks.fandom.com/wiki/Rescue_Equipment_Research)"
+        ],
+        [
+          "",
+          "[![Advancedsensorsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/12/Advancedsensorsresearch.png/revision/latest?cb=20240421182643)",
+          "[Advanced Sensors](https://stormworks.fandom.com/wiki/Advanced_Sensors_Research)",
+          "6",
+          "1:20",
+          "1",
+          "[Sensors](https://stormworks.fandom.com/wiki/Sensors_Research)"
+        ],
+        [
+          "",
+          "[![Arcticlandvehiclesresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fd/Arcticlandvehiclesresearch.png/revision/latest?cb=20240421182856)",
+          "[Arctic Land Vehicles](https://stormworks.fandom.com/wiki/Arctic_Land_Vehicles_Research)",
+          "6",
+          "0:30",
+          "1",
+          "[Land Vehicles](https://stormworks.fandom.com/wiki/Land_Vehicles_Research)"
+        ],
+        [
+          "",
+          "[![Arcticrescueresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/96/Arcticrescueresearch.png/revision/latest?cb=20240421182930)",
+          "[Arctic Rescue](https://stormworks.fandom.com/wiki/Arctic_Rescue_Research)",
+          "10",
+          "0:30",
+          "1",
+          "[Rescue Equipment](https://stormworks.fandom.com/wiki/Rescue_Equipment_Research)"
+        ],
+        [
+          "",
+          "[![Behaviourresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b7/Behaviourresearch.png/revision/latest?cb=20240421183036)",
+          "[Behaviour](https://stormworks.fandom.com/wiki/Behaviour_Research)",
+          "2",
+          "1:00",
+          "1",
+          "[Basic Logic](https://stormworks.fandom.com/wiki/Basic_Logic_Research)"
+        ],
+        [
+          "",
+          "[![Compactmechanicsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/42/Compactmechanicsresearch.png/revision/latest?cb=20240421183739)",
+          "[Compact Mechanics](https://stormworks.fandom.com/wiki/Compact_Mechanics_Research)",
+          "20",
+          "1:20",
+          "1",
+          "[Basic Mechanics](https://stormworks.fandom.com/wiki/Basic_Mechanics_Research)"
+        ],
+        [
+          "",
+          "[![Customdoorsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Customdoorsresearch.png/revision/latest?cb=20240421183835)",
+          "[Custom Doors](https://stormworks.fandom.com/wiki/Custom_Doors_Research)",
+          "10",
+          "1:10",
+          "1",
+          "[Doors](https://stormworks.fandom.com/wiki/Doors_Research)"
+        ],
+        [
+          "",
+          "[![Divingequipmentresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ee/Divingequipmentresearch.png/revision/latest?cb=20240421183922)",
+          "[Diving Equipment](https://stormworks.fandom.com/wiki/Diving_Equipment_Research)",
+          "10",
+          "0:30",
+          "1",
+          "[Rescue Equipment](https://stormworks.fandom.com/wiki/Rescue_Equipment_Research)"
+        ],
+        [
+          "",
+          "[![Dockingdoorsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/20/Dockingdoorsresearch.png/revision/latest?cb=20240421184010)",
+          "[Docking Doors](https://stormworks.fandom.com/wiki/Docking_Doors_Research)",
+          "15",
+          "0:30",
+          "1",
+          "[Doors](https://stormworks.fandom.com/wiki/Doors_Research)"
+        ],
+        [
+          "",
+          "[![Firefightingequipmentresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/df/Firefightingequipmentresearch.png/revision/latest?cb=20240421184048)",
+          "[Firefighting Equipment](https://stormworks.fandom.com/wiki/Firefighting_Equipment_Research)",
+          "14",
+          "0:40",
+          "1",
+          "[Rescue Equipment](https://stormworks.fandom.com/wiki/Rescue_Equipment_Research)"
+        ],
+        [
+          "",
+          "[![Functionsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cc/Functionsresearch.png/revision/latest?cb=20240421184137)",
+          "[Functions](https://stormworks.fandom.com/wiki/Functions_Research)",
+          "4",
+          "0:50",
+          "1",
+          "[Basic Logic](https://stormworks.fandom.com/wiki/Basic_Logic_Research)"
+        ],
+        [
+          "",
+          "[![Heavylandvehiclesresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cc/Heavylandvehiclesresearch.png/revision/latest?cb=20240421184219)",
+          "[Heavy Land Vehicles](https://stormworks.fandom.com/wiki/Heavy_Land_Vehicles_Research)",
+          "20",
+          "1:10",
+          "1",
+          "[Land Vehicles](https://stormworks.fandom.com/wiki/Land_Vehicles_Research)"
+        ],
+        [
+          "",
+          "[![Hicapradiorxresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d8/Hicapradiorxresearch.png/revision/latest?cb=20240421184318)",
+          "[High Capacity Electrics](https://stormworks.fandom.com/wiki/High_Capacity_Electrics_Research)",
+          "20",
+          "1:00",
+          "1",
+          "[Electrics](https://stormworks.fandom.com/wiki/Electrics_Research)"
+        ],
+        [
+          "",
+          "[![Keypadsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ef/Keypadsresearch.png/revision/latest?cb=20240421184437)",
+          "[Keypads](https://stormworks.fandom.com/wiki/Keypads_Research)",
+          "2",
+          "0:30",
+          "1",
+          "[Buttons](https://stormworks.fandom.com/wiki/Buttons_Research)"
+        ],
+        [
+          "",
+          "[![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)",
+          "[Medium Modular Engines](https://stormworks.fandom.com/wiki/Medium_Modular_Engines_Research)",
+          "20",
+          "2:30",
+          "1",
+          "[Modular Engines](https://stormworks.fandom.com/wiki/Modular_Engines_Research)"
+        ],
+        [
+          "",
+          "[![Planesresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Planesresearch.png/revision/latest?cb=20240421184607)",
+          "[Planes](https://stormworks.fandom.com/wiki/Planes_Research)",
+          "20",
+          "1:50",
+          "1",
+          "[Helicopters](https://stormworks.fandom.com/wiki/Helicopters_Research)"
+        ],
+        [
+          "",
+          "[![Navigationradarresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Navigationradarresearch.png/revision/latest?cb=20240421181928)",
+          "[Radar and Sonar](https://stormworks.fandom.com/wiki/Radar_and_Sonar_Research)",
+          "20",
+          "2:10",
+          "1",
+          "[Navigation](https://stormworks.fandom.com/wiki/Navigation_Research)"
+        ],
+        [
+          "",
+          "[![Hicapradiorxresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d8/Hicapradiorxresearch.png/revision/latest?cb=20240421184318)",
+          "[Radio RX](https://stormworks.fandom.com/wiki/Radio_RX_Research)",
+          "20",
+          "2:00",
+          "1",
+          "[Electrics](https://stormworks.fandom.com/wiki/Electrics_Research)"
+        ],
+        [
+          "",
+          "[![Railingsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/76/Railingsresearch.png/revision/latest?cb=20240421184755)",
+          "[Railings](https://stormworks.fandom.com/wiki/Railings_Research)",
+          "6",
+          "2:10",
+          "1",
+          "[Decorations](https://stormworks.fandom.com/wiki/Decorations_Research)"
+        ],
+        [
+          "",
+          "[![Shippingresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5a/Shippingresearch.png/revision/latest?cb=20240421184840)",
+          "[Shipping](https://stormworks.fandom.com/wiki/Shipping_Research)",
+          "20",
+          "1:00",
+          "1",
+          "[Large Boats](https://stormworks.fandom.com/wiki/Large_Boats_Research)"
+        ],
+        [
+          "",
+          "[![Spaceresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/67/Spaceresearch.png/revision/latest?cb=20240421184917)",
+          "[Space](https://stormworks.fandom.com/wiki/Space_Research)",
+          "20",
+          "2:10",
+          "1",
+          "[Solid Rockets](https://stormworks.fandom.com/wiki/Solid_Rockets_Research)"
+        ],
+        [
+          "",
+          "[![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)",
+          "[Steam Power](https://stormworks.fandom.com/wiki/Steam_Power_Research)",
+          "20",
+          "1:50",
+          "1",
+          "[Industrial Equipment](https://stormworks.fandom.com/wiki/Industrial_Equipment_Research)"
+        ],
+        [
+          "",
+          "[![Waterjetsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9e/Waterjetsresearch.png/revision/latest?cb=20240421185041)",
+          "[Water Jets](https://stormworks.fandom.com/wiki/Water_Jets_Research)",
+          "20",
+          "0:30",
+          "1",
+          "[Fluid Management](https://stormworks.fandom.com/wiki/Fluid_Management_Research)"
+        ],
+        [
+          "",
+          "[![Weathersensorsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2a/Weathersensorsresearch.png/revision/latest?cb=20240421185120)",
+          "[Weather Sensors](https://stormworks.fandom.com/wiki/Weather_Sensors_Research)",
+          "14",
+          "0:40",
+          "1",
+          "[Sensors](https://stormworks.fandom.com/wiki/Sensors_Research)"
+        ],
+        [
+          "",
+          "[![Deepseadivingresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/53/Deepseadivingresearch.png/revision/latest?cb=20240421185754)",
+          "[Deep Sea Diving](https://stormworks.fandom.com/wiki/Deep_Sea_Diving_Research)",
+          "30",
+          "0:40",
+          "2",
+          "[Diving Equipment](https://stormworks.fandom.com/wiki/Diving_Equipment_Research)"
+        ],
+        [
+          "",
+          "[![Heavyaircraftresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/40/Heavyaircraftresearch.png/revision/latest?cb=20240421185837)",
+          "[Heavy Aircraft](https://stormworks.fandom.com/wiki/Heavy_Aircraft_Research)",
+          "30",
+          "2:10",
+          "2",
+          "[Planes](https://stormworks.fandom.com/wiki/Planes_Research)"
+        ],
+        [
+          "",
+          "[![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)",
+          "[Heavy Modular Engines](https://stormworks.fandom.com/wiki/Heavy_Modular_Engines_Research)",
+          "30",
+          "2:40",
+          "2",
+          "[Medium Modular Engines](https://stormworks.fandom.com/wiki/Medium_Modular_Engines_Research)"
+        ],
+        [
+          "",
+          "[![Jetsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Jetsresearch.png/revision/latest?cb=20240421185955)",
+          "[Jets](https://stormworks.fandom.com/wiki/Jets_Research)",
+          "30",
+          "2:55",
+          "2",
+          "[Planes](https://stormworks.fandom.com/wiki/Planes_Research)"
+        ],
+        [
+          "",
+          "[![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)",
+          "[Nuclear Power](https://stormworks.fandom.com/wiki/Nuclear_Power_Research)",
+          "30",
+          "1:40",
+          "2",
+          "[Steam Power](https://stormworks.fandom.com/wiki/Steam_Power_Research)"
+        ],
+        [
+          "",
+          "[![Tanktrackssmallresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/95/Tanktrackssmallresearch.png/revision/latest?cb=20240421190108)",
+          "[Tank Tracks Small](https://stormworks.fandom.com/wiki/Tank_Tracks_Small_Research)",
+          "9",
+          "0:55",
+          "2",
+          "[Heavy Land Vehicles](https://stormworks.fandom.com/wiki/Heavy_Land_Vehicles_Research)"
+        ],
+        [
+          "",
+          "[![Trainsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c2/Trainsresearch.png/revision/latest?cb=20240421190153)",
+          "[Trains](https://stormworks.fandom.com/wiki/Trains_Research)",
+          "30",
+          "5:10",
+          "2",
+          "[Heavy Land Vehicles](https://stormworks.fandom.com/wiki/Heavy_Land_Vehicles_Research)"
+        ],
+        [
+          "",
+          "[![Trainsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c2/Trainsresearch.png/revision/latest?cb=20240421190153)",
+          "[Video Equipment](https://stormworks.fandom.com/wiki/Video_Equipment_Research)",
+          "30",
+          "3:40",
+          "2",
+          "[Advanced Displays](https://stormworks.fandom.com/wiki/Advanced_Displays_Research)"
+        ],
+        [
+          "",
+          "[![Afterburnerresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9b/Afterburnerresearch.png/revision/latest?cb=20240421190313)",
+          "[Afterburner](https://stormworks.fandom.com/wiki/Afterburner_Research)",
+          "28",
+          "0:30",
+          "3",
+          "[Jets](https://stormworks.fandom.com/wiki/Jets_Research)"
+        ],
+        [
+          "",
+          "[![Jetductingresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ad/Jetductingresearch.png/revision/latest?cb=20240421190417)",
+          "[Jet Ducting](https://stormworks.fandom.com/wiki/Jet_Ducting_Research)",
+          "8",
+          "1:50",
+          "3",
+          "[Jets](https://stormworks.fandom.com/wiki/Jets_Research)"
+        ],
+        [
+          "",
+          "[![Largejetsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e7/Largejetsresearch.png/revision/latest?cb=20240421190524)",
+          "[Large Jets](https://stormworks.fandom.com/wiki/Large_Jets_Research)",
+          "28",
+          "0:50",
+          "3",
+          "[Jets](https://stormworks.fandom.com/wiki/Jets_Research)"
+        ],
+        [
+          "",
+          "[![Tanktracksmediumresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/51/Tanktracksmediumresearch.png/revision/latest?cb=20240421190607)",
+          "[Tank Tracks Medium](https://stormworks.fandom.com/wiki/Tank_Tracks_Medium_Research)",
+          "40",
+          "1:50",
+          "3",
+          "[Tank Tracks Small](https://stormworks.fandom.com/wiki/Tank_Tracks_Small_Research)"
+        ],
+        [
+          "",
+          "[![Vtolresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1c/Vtolresearch.png/revision/latest?cb=20240421190645)",
+          "[VTOL](https://stormworks.fandom.com/wiki/VTOL_Research)",
+          "32",
+          "0:30",
+          "3",
+          "[Jets](https://stormworks.fandom.com/wiki/Jets_Research)"
+        ],
+        [
+          "",
+          "[![Tanktrackslargeresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f5/Tanktrackslargeresearch.png/revision/latest?cb=20240421190730)",
+          "[Tank Tracks Large](https://stormworks.fandom.com/wiki/Tank_Tracks_Large_Research)",
+          "40",
+          "1:00",
+          "4",
+          "[Tank Tracks Medium](https://stormworks.fandom.com/wiki/Tank_Tracks_Medium_Research)"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "Research is a feature that only exists in the [Classic](https://stormworks.fandom.com/wiki/Wiki/Gamemodes/Classic) game mode.\n\nAccessing the research tree is done through the map, default key: M\n\nYou earn research points by completing [missions](https://stormworks.fandom.com/wiki/Wiki/Missions) and finding [loot crates](https://stormworks.fandom.com/wiki/Loot_Crate).\n\nPrior to starting any research, you must have a sufficient amount of points and have satisfied any prerequisites. To start a research, press the blue research button near the date. The length of in-game time to research takes varies by research. As research uses in-game time, [sleeping](https://stormworks.fandom.com/wiki/Sleep) can be used to bypass the time.\n\n*Information is current as of v1.10.9 - The Gas Spawner Update*\n\n## Research Tree\n\n|  |  | Research | Points | Time (H:MM) | Tier | Prerequisites |\n| --- | --- | --- | --- | --- | --- | --- |\n|  | [![Basiclogicresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/59/Basiclogicresearch.png/revision/latest?cb=20240421180345)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/59/Basiclogicresearch.png/revision/latest?cb=20240421180345) | [Basic Logic](https://stormworks.fandom.com/wiki/Basic_Logic_Research) | 2 | 1:35 | 0 | Initially Available |\n|  | [![Basicmechanicsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/25/Basicmechanicsresearch.png/revision/latest?cb=20240421180539)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/25/Basicmechanicsresearch.png/revision/latest?cb=20240421180539) | [Basic Mechanics](https://stormworks.fandom.com/wiki/Basic_Mechanics_Research) | 10 | 1:10 | 0 | Initially Available |\n|  | [![Buttonsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Buttonsresearch.png/revision/latest?cb=20240421180647)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Buttonsresearch.png/revision/latest?cb=20240421180647) | [Buttons](https://stormworks.fandom.com/wiki/Buttons_Research) | 1 | 0:35 | 0 | Initially Available |\n|  | [![Decorationsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c5/Decorationsresearch.png/revision/latest?cb=20240421180756) | [Decorations](https://stormworks.fandom.com/wiki/Decorations_Research) | 1 | 0:25 | 0 | Initially Available |\n|  | [![Displaysresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7c/Displaysresearch.png/revision/latest?cb=20240421180843) | [Displays](https://stormworks.fandom.com/wiki/Displays_Research) | 1 | 0:25 | 0 | Initially Available |\n|  | [![Doorsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e4/Doorsresearch.png/revision/latest?cb=20240421181044) | [Doors](https://stormworks.fandom.com/wiki/Doors_Research) | 5 | 0:50 | 0 | Initially Available |\n|  | [![Electricsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Electricsresearch.png/revision/latest?cb=20240421181203) | [Electrics](https://stormworks.fandom.com/wiki/Electrics_Research) | 10 | 0:45 | 0 | Initially Available |\n|  | [![Fluidmanagementresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/57/Fluidmanagementresearch.png/revision/latest?cb=20240421181345) | [Fluid Management](https://stormworks.fandom.com/wiki/Fluid_Management_Research) | 1 | 0:25 | 0 | Initially Available |\n|  | [![Helicoptersresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/68/Helicoptersresearch.png/revision/latest?cb=20240421181506) | [Helicopters](https://stormworks.fandom.com/wiki/Helicopters_Research) | 15 | 1:00 | 0 | Initially Available |\n|  | [![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620) | [Industrial Equipment](https://stormworks.fandom.com/wiki/Industrial_Equipment_Research) | 10 | 1:00 | 0 | Initially Available |\n|  | [![Landvehiclesresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Landvehiclesresearch.png/revision/latest?cb=20240421181714) | [Land Vehicles](https://stormworks.fandom.com/wiki/Land_Vehicles_Research) | 7 | 1:00 | 0 | Initially Available |\n|  | [![Largeboatsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Largeboatsresearch.png/revision/latest?cb=20240421181801) | [Large Boats](https://stormworks.fandom.com/wiki/Large_Boats_Research) | 10 | 1:05 | 0 | Initially Available |\n|  | [![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620) | [Modular Engines](https://stormworks.fandom.com/wiki/Modular_Engines_Research) | 10 | 2:25 | 0 | Initially Available |\n|  | [![Navigationradarresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Navigationradarresearch.png/revision/latest?cb=20240421181928) | [Navigation](https://stormworks.fandom.com/wiki/Navigation_Research) | 4 | 0:50 | 0 | Initially Available |\n|  | [![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620) | [Oil Industry](https://stormworks.fandom.com/wiki/Oil_Industry_Research) | 10 | 1:15 | 0 | Initially Available |\n|  | [![Rescueequipmentresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c5/Rescueequipmentresearch.png/revision/latest?cb=20240421182057) | [Rescue Equipment](https://stormworks.fandom.com/wiki/Rescue_Equipment_Research) | 10 | 1:10 | 0 | Initially Available |\n|  | [![Sensorsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/ff/Sensorsresearch.png/revision/latest?cb=20240421182142) | [Sensors](https://stormworks.fandom.com/wiki/Sensors_Research) | 1 | 0:50 | 0 | Initially Available |\n|  | [![Solidrocketsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/94/Solidrocketsresearch.png/revision/latest?cb=20240421182223) | [Solid Rockets](https://stormworks.fandom.com/wiki/Solid_Rockets_Research) | 10 | 1:30 | 0 | Initially Available |\n|  | [![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620) | [Weapons](https://stormworks.fandom.com/wiki/Weapons_Research) | 10 | 7:40 | 0 | Initially Available |\n|  | [![Advanceddisplaysresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/99/Advanceddisplaysresearch.png/revision/latest?cb=20240421182339) | [Advanced Displays](https://stormworks.fandom.com/wiki/Advanced_Displays_Research) | 6 | 0:50 | 1 | [Displays](https://stormworks.fandom.com/wiki/Displays_Research) |\n|  | [![Advancedfluidmanagementresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a6/Advancedfluidmanagementresearch.png/revision/latest?cb=20240421182418) | [Advanced Fluid Management](https://stormworks.fandom.com/wiki/Advanced_Fluid_Management_Research) | 20 | 1:10 | 1 | [Fluid Management](https://stormworks.fandom.com/wiki/Fluid_Management_Research) |\n|  | [![Advancedlogicresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4d/Advancedlogicresearch.png/revision/latest?cb=20240421182512) | [Advanced Logic](https://stormworks.fandom.com/wiki/Advanced_Logic_Research) | 4 | 1:10 | 1 | [Basic Logic](https://stormworks.fandom.com/wiki/Basic_Logic_Research) |\n|  | [![Advancedrescueequipmentresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bf/Advancedrescueequipmentresearch.png/revision/latest?cb=20240421182602) | [Advanced Rescue Equipment](https://stormworks.fandom.com/wiki/Advanced_Rescue_Equipment_Research) | 20 | 1:00 | 1 | [Rescue Equipment](https://stormworks.fandom.com/wiki/Rescue_Equipment_Research) |\n|  | [![Advancedsensorsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/12/Advancedsensorsresearch.png/revision/latest?cb=20240421182643) | [Advanced Sensors](https://stormworks.fandom.com/wiki/Advanced_Sensors_Research) | 6 | 1:20 | 1 | [Sensors](https://stormworks.fandom.com/wiki/Sensors_Research) |\n|  | [![Arcticlandvehiclesresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fd/Arcticlandvehiclesresearch.png/revision/latest?cb=20240421182856) | [Arctic Land Vehicles](https://stormworks.fandom.com/wiki/Arctic_Land_Vehicles_Research) | 6 | 0:30 | 1 | [Land Vehicles](https://stormworks.fandom.com/wiki/Land_Vehicles_Research) |\n|  | [![Arcticrescueresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/96/Arcticrescueresearch.png/revision/latest?cb=20240421182930) | [Arctic Rescue](https://stormworks.fandom.com/wiki/Arctic_Rescue_Research) | 10 | 0:30 | 1 | [Rescue Equipment](https://stormworks.fandom.com/wiki/Rescue_Equipment_Research) |\n|  | [![Behaviourresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b7/Behaviourresearch.png/revision/latest?cb=20240421183036) | [Behaviour](https://stormworks.fandom.com/wiki/Behaviour_Research) | 2 | 1:00 | 1 | [Basic Logic](https://stormworks.fandom.com/wiki/Basic_Logic_Research) |\n|  | [![Compactmechanicsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/42/Compactmechanicsresearch.png/revision/latest?cb=20240421183739) | [Compact Mechanics](https://stormworks.fandom.com/wiki/Compact_Mechanics_Research) | 20 | 1:20 | 1 | [Basic Mechanics](https://stormworks.fandom.com/wiki/Basic_Mechanics_Research) |\n|  | [![Customdoorsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Customdoorsresearch.png/revision/latest?cb=20240421183835) | [Custom Doors](https://stormworks.fandom.com/wiki/Custom_Doors_Research) | 10 | 1:10 | 1 | [Doors](https://stormworks.fandom.com/wiki/Doors_Research) |\n|  | [![Divingequipmentresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ee/Divingequipmentresearch.png/revision/latest?cb=20240421183922) | [Diving Equipment](https://stormworks.fandom.com/wiki/Diving_Equipment_Research) | 10 | 0:30 | 1 | [Rescue Equipment](https://stormworks.fandom.com/wiki/Rescue_Equipment_Research) |\n|  | [![Dockingdoorsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/20/Dockingdoorsresearch.png/revision/latest?cb=20240421184010) | [Docking Doors](https://stormworks.fandom.com/wiki/Docking_Doors_Research) | 15 | 0:30 | 1 | [Doors](https://stormworks.fandom.com/wiki/Doors_Research) |\n|  | [![Firefightingequipmentresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/df/Firefightingequipmentresearch.png/revision/latest?cb=20240421184048) | [Firefighting Equipment](https://stormworks.fandom.com/wiki/Firefighting_Equipment_Research) | 14 | 0:40 | 1 | [Rescue Equipment](https://stormworks.fandom.com/wiki/Rescue_Equipment_Research) |\n|  | [![Functionsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cc/Functionsresearch.png/revision/latest?cb=20240421184137) | [Functions](https://stormworks.fandom.com/wiki/Functions_Research) | 4 | 0:50 | 1 | [Basic Logic](https://stormworks.fandom.com/wiki/Basic_Logic_Research) |\n|  | [![Heavylandvehiclesresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cc/Heavylandvehiclesresearch.png/revision/latest?cb=20240421184219) | [Heavy Land Vehicles](https://stormworks.fandom.com/wiki/Heavy_Land_Vehicles_Research) | 20 | 1:10 | 1 | [Land Vehicles](https://stormworks.fandom.com/wiki/Land_Vehicles_Research) |\n|  | [![Hicapradiorxresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d8/Hicapradiorxresearch.png/revision/latest?cb=20240421184318) | [High Capacity Electrics](https://stormworks.fandom.com/wiki/High_Capacity_Electrics_Research) | 20 | 1:00 | 1 | [Electrics](https://stormworks.fandom.com/wiki/Electrics_Research) |\n|  | [![Keypadsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ef/Keypadsresearch.png/revision/latest?cb=20240421184437) | [Keypads](https://stormworks.fandom.com/wiki/Keypads_Research) | 2 | 0:30 | 1 | [Buttons](https://stormworks.fandom.com/wiki/Buttons_Research) |\n|  | [![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620) | [Medium Modular Engines](https://stormworks.fandom.com/wiki/Medium_Modular_Engines_Research) | 20 | 2:30 | 1 | [Modular Engines](https://stormworks.fandom.com/wiki/Modular_Engines_Research) |\n|  | [![Planesresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Planesresearch.png/revision/latest?cb=20240421184607) | [Planes](https://stormworks.fandom.com/wiki/Planes_Research) | 20 | 1:50 | 1 | [Helicopters](https://stormworks.fandom.com/wiki/Helicopters_Research) |\n|  | [![Navigationradarresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Navigationradarresearch.png/revision/latest?cb=20240421181928) | [Radar and Sonar](https://stormworks.fandom.com/wiki/Radar_and_Sonar_Research) | 20 | 2:10 | 1 | [Navigation](https://stormworks.fandom.com/wiki/Navigation_Research) |\n|  | [![Hicapradiorxresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d8/Hicapradiorxresearch.png/revision/latest?cb=20240421184318) | [Radio RX](https://stormworks.fandom.com/wiki/Radio_RX_Research) | 20 | 2:00 | 1 | [Electrics](https://stormworks.fandom.com/wiki/Electrics_Research) |\n|  | [![Railingsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/76/Railingsresearch.png/revision/latest?cb=20240421184755) | [Railings](https://stormworks.fandom.com/wiki/Railings_Research) | 6 | 2:10 | 1 | [Decorations](https://stormworks.fandom.com/wiki/Decorations_Research) |\n|  | [![Shippingresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5a/Shippingresearch.png/revision/latest?cb=20240421184840) | [Shipping](https://stormworks.fandom.com/wiki/Shipping_Research) | 20 | 1:00 | 1 | [Large Boats](https://stormworks.fandom.com/wiki/Large_Boats_Research) |\n|  | [![Spaceresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/67/Spaceresearch.png/revision/latest?cb=20240421184917) | [Space](https://stormworks.fandom.com/wiki/Space_Research) | 20 | 2:10 | 1 | [Solid Rockets](https://stormworks.fandom.com/wiki/Solid_Rockets_Research) |\n|  | [![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620) | [Steam Power](https://stormworks.fandom.com/wiki/Steam_Power_Research) | 20 | 1:50 | 1 | [Industrial Equipment](https://stormworks.fandom.com/wiki/Industrial_Equipment_Research) |\n|  | [![Waterjetsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9e/Waterjetsresearch.png/revision/latest?cb=20240421185041) | [Water Jets](https://stormworks.fandom.com/wiki/Water_Jets_Research) | 20 | 0:30 | 1 | [Fluid Management](https://stormworks.fandom.com/wiki/Fluid_Management_Research) |\n|  | [![Weathersensorsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2a/Weathersensorsresearch.png/revision/latest?cb=20240421185120) | [Weather Sensors](https://stormworks.fandom.com/wiki/Weather_Sensors_Research) | 14 | 0:40 | 1 | [Sensors](https://stormworks.fandom.com/wiki/Sensors_Research) |\n|  | [![Deepseadivingresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/53/Deepseadivingresearch.png/revision/latest?cb=20240421185754) | [Deep Sea Diving](https://stormworks.fandom.com/wiki/Deep_Sea_Diving_Research) | 30 | 0:40 | 2 | [Diving Equipment](https://stormworks.fandom.com/wiki/Diving_Equipment_Research) |\n|  | [![Heavyaircraftresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/40/Heavyaircraftresearch.png/revision/latest?cb=20240421185837) | [Heavy Aircraft](https://stormworks.fandom.com/wiki/Heavy_Aircraft_Research) | 30 | 2:10 | 2 | [Planes](https://stormworks.fandom.com/wiki/Planes_Research) |\n|  | [![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620) | [Heavy Modular Engines](https://stormworks.fandom.com/wiki/Heavy_Modular_Engines_Research) | 30 | 2:40 | 2 | [Medium Modular Engines](https://stormworks.fandom.com/wiki/Medium_Modular_Engines_Research) |\n|  | [![Jetsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Jetsresearch.png/revision/latest?cb=20240421185955) | [Jets](https://stormworks.fandom.com/wiki/Jets_Research) | 30 | 2:55 | 2 | [Planes](https://stormworks.fandom.com/wiki/Planes_Research) |\n|  | [![Genericresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620) | [Nuclear Power](https://stormworks.fandom.com/wiki/Nuclear_Power_Research) | 30 | 1:40 | 2 | [Steam Power](https://stormworks.fandom.com/wiki/Steam_Power_Research) |\n|  | [![Tanktrackssmallresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/95/Tanktrackssmallresearch.png/revision/latest?cb=20240421190108) | [Tank Tracks Small](https://stormworks.fandom.com/wiki/Tank_Tracks_Small_Research) | 9 | 0:55 | 2 | [Heavy Land Vehicles](https://stormworks.fandom.com/wiki/Heavy_Land_Vehicles_Research) |\n|  | [![Trainsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c2/Trainsresearch.png/revision/latest?cb=20240421190153) | [Trains](https://stormworks.fandom.com/wiki/Trains_Research) | 30 | 5:10 | 2 | [Heavy Land Vehicles](https://stormworks.fandom.com/wiki/Heavy_Land_Vehicles_Research) |\n|  | [![Trainsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c2/Trainsresearch.png/revision/latest?cb=20240421190153) | [Video Equipment](https://stormworks.fandom.com/wiki/Video_Equipment_Research) | 30 | 3:40 | 2 | [Advanced Displays](https://stormworks.fandom.com/wiki/Advanced_Displays_Research) |\n|  | [![Afterburnerresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9b/Afterburnerresearch.png/revision/latest?cb=20240421190313) | [Afterburner](https://stormworks.fandom.com/wiki/Afterburner_Research) | 28 | 0:30 | 3 | [Jets](https://stormworks.fandom.com/wiki/Jets_Research) |\n|  | [![Jetductingresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ad/Jetductingresearch.png/revision/latest?cb=20240421190417) | [Jet Ducting](https://stormworks.fandom.com/wiki/Jet_Ducting_Research) | 8 | 1:50 | 3 | [Jets](https://stormworks.fandom.com/wiki/Jets_Research) |\n|  | [![Largejetsresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e7/Largejetsresearch.png/revision/latest?cb=20240421190524) | [Large Jets](https://stormworks.fandom.com/wiki/Large_Jets_Research) | 28 | 0:50 | 3 | [Jets](https://stormworks.fandom.com/wiki/Jets_Research) |\n|  | [![Tanktracksmediumresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/51/Tanktracksmediumresearch.png/revision/latest?cb=20240421190607) | [Tank Tracks Medium](https://stormworks.fandom.com/wiki/Tank_Tracks_Medium_Research) | 40 | 1:50 | 3 | [Tank Tracks Small](https://stormworks.fandom.com/wiki/Tank_Tracks_Small_Research) |\n|  | [![Vtolresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1c/Vtolresearch.png/revision/latest?cb=20240421190645) | [VTOL](https://stormworks.fandom.com/wiki/VTOL_Research) | 32 | 0:30 | 3 | [Jets](https://stormworks.fandom.com/wiki/Jets_Research) |\n|  | [![Tanktrackslargeresearch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f5/Tanktrackslargeresearch.png/revision/latest?cb=20240421190730) | [Tank Tracks Large](https://stormworks.fandom.com/wiki/Tank_Tracks_Large_Research) | 40 | 1:00 | 4 | [Tank Tracks Medium](https://stormworks.fandom.com/wiki/Tank_Tracks_Medium_Research) |",
+    "plain_text": "Research is a feature that only exists in the\nClassic\n game mode.\n\nAccessing the research tree is done through the map, default key: M\n\nYou earn research points by completing\nmissions\n and finding\nloot crates\n.\n\nPrior to starting any research, you must have a sufficient amount of points and have satisfied any prerequisites. To start a research, press the blue research button near the date. The length of in-game\ntime\n to research takes varies by research. As research uses in-game time,\nsleeping\n can be used to bypass the time.\n\nInformation is current as of v1.10.9 - The Gas Spawner Update\n\nResearch Tree\n\nResearch\n\nPoints\n\nTime (H:MM)\n\nTier\n\nPrerequisites\n\nBasic Logic\n\n2\n\n1:35\n\n0\n\nInitially Available\n\nBasic Mechanics\n\n10\n\n1:10\n\n0\n\nInitially Available\n\nButtons\n\n1\n\n0:35\n\n0\n\nInitially Available\n\nDecorations\n\n1\n\n0:25\n\n0\n\nInitially Available\n\nDisplays\n\n1\n\n0:25\n\n0\n\nInitially Available\n\nDoors\n\n5\n\n0:50\n\n0\n\nInitially Available\n\nElectrics\n\n10\n\n0:45\n\n0\n\nInitially Available\n\nFluid Management\n\n1\n\n0:25\n\n0\n\nInitially Available\n\nHelicopters\n\n15\n\n1:00\n\n0\n\nInitially Available\n\nIndustrial Equipment\n\n10\n\n1:00\n\n0\n\nInitially Available\n\nLand Vehicles\n\n7\n\n1:00\n\n0\n\nInitially Available\n\nLarge Boats\n\n10\n\n1:05\n\n0\n\nInitially Available\n\nModular Engines\n\n10\n\n2:25\n\n0\n\nInitially Available\n\nNavigation\n\n4\n\n0:50\n\n0\n\nInitially Available\n\nOil Industry\n\n10\n\n1:15\n\n0\n\nInitially Available\n\nRescue Equipment\n\n10\n\n1:10\n\n0\n\nInitially Available\n\nSensors\n\n1\n\n0:50\n\n0\n\nInitially Available\n\nSolid Rockets\n\n10\n\n1:30\n\n0\n\nInitially Available\n\nWeapons\n\n10\n\n7:40\n\n0\n\nInitially Available\n\nAdvanced Displays\n\n6\n\n0:50\n\n1\n\nDisplays\n\nAdvanced Fluid Management\n\n20\n\n1:10\n\n1\n\nFluid Management\n\nAdvanced Logic\n\n4\n\n1:10\n\n1\n\nBasic Logic\n\nAdvanced Rescue Equipment\n\n20\n\n1:00\n\n1\n\nRescue Equipment\n\nAdvanced Sensors\n\n6\n\n1:20\n\n1\n\nSensors\n\nArctic Land Vehicles\n\n6\n\n0:30\n\n1\n\nLand Vehicles\n\nArctic Rescue\n\n10\n\n0:30\n\n1\n\nRescue Equipment\n\nBehaviour\n\n2\n\n1:00\n\n1\n\nBasic Logic\n\nCompact Mechanics\n\n20\n\n1:20\n\n1\n\nBasic Mechanics\n\nCustom Doors\n\n10\n\n1:10\n\n1\n\nDoors\n\nDiving Equipment\n\n10\n\n0:30\n\n1\n\nRescue Equipment\n\nDocking Doors\n\n15\n\n0:30\n\n1\n\nDoors\n\nFirefighting Equipment\n\n14\n\n0:40\n\n1\n\nRescue Equipment\n\nFunctions\n\n4\n\n0:50\n\n1\n\nBasic Logic\n\nHeavy Land Vehicles\n\n20\n\n1:10\n\n1\n\nLand Vehicles\n\nHigh Capacity Electrics\n\n20\n\n1:00\n\n1\n\nElectrics\n\nKeypads\n\n2\n\n0:30\n\n1\n\nButtons\n\nMedium Modular Engines\n\n20\n\n2:30\n\n1\n\nModular Engines\n\nPlanes\n\n20\n\n1:50\n\n1\n\nHelicopters\n\nRadar and Sonar\n\n20\n\n2:10\n\n1\n\nNavigation\n\nRadio RX\n\n20\n\n2:00\n\n1\n\nElectrics\n\nRailings\n\n6\n\n2:10\n\n1\n\nDecorations\n\nShipping\n\n20\n\n1:00\n\n1\n\nLarge Boats\n\nSpace\n\n20\n\n2:10\n\n1\n\nSolid Rockets\n\nSteam Power\n\n20\n\n1:50\n\n1\n\nIndustrial Equipment\n\nWater Jets\n\n20\n\n0:30\n\n1\n\nFluid Management\n\nWeather Sensors\n\n14\n\n0:40\n\n1\n\nSensors\n\nDeep Sea Diving\n\n30\n\n0:40\n\n2\n\nDiving Equipment\n\nHeavy Aircraft\n\n30\n\n2:10\n\n2\n\nPlanes\n\nHeavy Modular Engines\n\n30\n\n2:40\n\n2\n\nMedium Modular Engines\n\nJets\n\n30\n\n2:55\n\n2\n\nPlanes\n\nNuclear Power\n\n30\n\n1:40\n\n2\n\nSteam Power\n\nTank Tracks Small\n\n9\n\n0:55\n\n2\n\nHeavy Land Vehicles\n\nTrains\n\n30\n\n5:10\n\n2\n\nHeavy Land Vehicles\n\nVideo Equipment\n\n30\n\n3:40\n\n2\n\nAdvanced Displays\n\nAfterburner\n\n28\n\n0:30\n\n3\n\nJets\n\nJet Ducting\n\n8\n\n1:50\n\n3\n\nJets\n\nLarge Jets\n\n28\n\n0:50\n\n3\n\nJets\n\nTank Tracks Medium\n\n40\n\n1:50\n\n3\n\nTank Tracks Small\n\nVTOL\n\n32\n\n0:30\n\n3\n\nJets\n\nTank Tracks Large\n\n40\n\n1:00\n\n4\n\nTank Tracks Medium",
+    "char_count": 25032,
+    "word_count": 572,
+    "sha256": "e372f21268214e47393cf44583f03f788370c4ec33e52c7bf317f6bf181104cc"
+  },
+  "wikitext": "\nResearch is a feature that only exists in the [[Wiki/Gamemodes/Classic|Classic]] game mode.\n\nAccessing the research tree is done through the map, default key: M\n\nYou earn research points by completing [[Wiki/Missions|missions]] and finding [[Loot Crate|loot crates]].\n\nPrior to starting any research, you must have a sufficient amount of points and have satisfied any prerequisites. To start a research, press the blue research button near the date. The length of in-game [[time]] to research takes varies by research. As research uses in-game time, [[Sleep|sleeping]] can be used to bypass the time.\n\n''<small>Information is current as of v1.10.9 - The Gas Spawner Update</small>''\n\n==Research Tree==\n<table-progress-tracking table-id=\"1\" unique-column-index=\"2\">\n{| class=\"article-table sortable\" \n|-\n!\n!Research !!Points!!Time (H:MM)!!Tier!! Prerequisites\n|-\n|[[File:Basiclogicresearch.png]]||[[Basic Logic Research|Basic Logic]]||2||1:35||0||Initially Available\n|-\n|[[File:Basicmechanicsresearch.png]]||[[Basic Mechanics Research|Basic Mechanics]]||10 ||1:10||0||Initially Available\n|-\n|[[File:Buttonsresearch.png]]||[[Buttons Research|Buttons]]||1||0:35||0||Initially Available\n|-\n|[[File:Decorationsresearch.png]]||[[Decorations Research|Decorations]]||1||0:25||0||Initially Available\n|-\n|[[File:Displaysresearch.png]] ||[[Displays Research|Displays]]||1||0:25||0||Initially Available\n|-\n|[[File:Doorsresearch.png]]||[[Doors Research|Doors]]||5||0:50||0||Initially Available\n|-\n|[[File:Electricsresearch.png]]||[[Electrics Research|Electrics]]||10||0:45||0||Initially Available\n|-\n|[[File:Fluidmanagementresearch.png]]||[[Fluid Management Research|Fluid Management]]||1||0:25||0||Initially Available\n|-\n|[[File:Helicoptersresearch.png]]||[[Helicopters Research|Helicopters]]||15||1:00||0||Initially Available\n|-\n|[[File:Genericresearch.png]]||[[Industrial Equipment Research|Industrial Equipment]]||10||1:00||0||Initially Available\n|-\n|[[File:Landvehiclesresearch.png]]||[[Land Vehicles Research|Land Vehicles]]||7||1:00||0||Initially Available\n|-\n|[[File:Largeboatsresearch.png]]||[[Large Boats Research|Large Boats]] ||10||1:05||0||Initially Available \n|-\n|[[File:Genericresearch.png]]||[[Modular Engines Research|Modular Engines]]||10||2:25||0||Initially Available\n|-\n|[[File:Navigationradarresearch.png]]||[[Navigation Research|Navigation]]||4||0:50||0||Initially Available\n|-\n|[[File:Genericresearch.png]]||[[Oil Industry Research|Oil Industry]]||10||1:15||0||Initially Available\n|-\n|[[File:Rescueequipmentresearch.png]]||[[Rescue Equipment Research|Rescue Equipment]]||10||1:10||0||Initially Available\n|-\n|[[File:Sensorsresearch.png]]||[[Sensors Research|Sensors]]||1||0:50||0||Initially Available \n|-\n|[[File:Solidrocketsresearch.png]]||[[Solid Rockets Research|Solid Rockets]]||10||1:30||0||Initially Available\n|-\n|[[File:Genericresearch.png]]||[[Weapons Research|Weapons]]||10||7:40||0||Initially Available\n|-\n|[[File:Advanceddisplaysresearch.png]]||[[Advanced Displays Research|Advanced Displays]] ||6|| 0:50||1||[[Displays Research|Displays]]\n|-\n|[[File:Advancedfluidmanagementresearch.png]]||[[Advanced Fluid Management Research|Advanced Fluid Management]]||20|| 1:10|| 1||[[Fluid Management Research|Fluid Management]] \n|-\n| [[File:Advancedlogicresearch.png]]||[[Advanced Logic Research|Advanced Logic]]||4||1:10||1||[[Basic Logic Research|Basic Logic]]\n|-\n|[[File:Advancedrescueequipmentresearch.png]]||[[Advanced Rescue Equipment Research|Advanced Rescue Equipment]]||20||1:00 ||1||[[Rescue Equipment Research|Rescue Equipment]]\n|-\n|[[File:Advancedsensorsresearch.png]]||[[Advanced Sensors Research|Advanced Sensors]]||6||1:20||1||[[Sensors Research|Sensors]]\n|-\n|[[File:Arcticlandvehiclesresearch.png]]||[[Arctic Land Vehicles Research|Arctic Land Vehicles]] ||6||0:30||1||[[Land Vehicles Research|Land Vehicles]]\n|-\n|[[File:Arcticrescueresearch.png]]||[[Arctic Rescue Research|Arctic Rescue]]||10|| 0:30||1||[[Rescue Equipment Research|Rescue Equipment]]\n|-\n|[[File:Behaviourresearch.png]]||[[Behaviour Research|Behaviour]]||2||1:00||1||[[Basic Logic Research|Basic Logic]]\n|-\n|[[File:Compactmechanicsresearch.png]]||[[Compact Mechanics Research|Compact Mechanics]]||20||1:20||1||[[Basic Mechanics Research|Basic Mechanics]]\n|-\n|[[File:Customdoorsresearch.png]]||[[Custom Doors Research|Custom Doors]]||10||1:10||1||[[Doors Research|Doors]]\n|-\n|[[File:Divingequipmentresearch.png]]||[[Diving Equipment Research|Diving Equipment]]||10||0:30||1||[[Rescue Equipment Research|Rescue Equipment]]\n|-\n|[[File:Dockingdoorsresearch.png]]||[[Docking Doors Research|Docking Doors]]||15||0:30||1||[[Doors Research|Doors]]\n|-\n|[[File:Firefightingequipmentresearch.png]]||[[Firefighting Equipment Research|Firefighting Equipment]]||14||0:40||1||[[Rescue Equipment Research|Rescue Equipment]]\n|-\n|[[File:Functionsresearch.png]]||[[Functions Research|Functions]]||4||0:50||1||[[Basic Logic Research|Basic Logic]]\n|-\n|[[File:Heavylandvehiclesresearch.png]]||[[Heavy Land Vehicles Research|Heavy Land Vehicles]]||20||1:10||1||[[Land Vehicles Research|Land Vehicles]]\n|-\n|[[File:Hicapradiorxresearch.png]]||[[High Capacity Electrics Research|High Capacity Electrics]]||20||1:00||1||[[Electrics Research|Electrics]]\n|-\n|[[File:Keypadsresearch.png]]||[[Keypads Research|Keypads]]||2||0:30||1|| [[Buttons Research|Buttons]]\n|-\n|[[File:Genericresearch.png]] ||[[Medium Modular Engines Research|Medium Modular Engines]]||20||2:30||1||[[Modular Engines Research|Modular Engines]]\n|-\n|[[File:Planesresearch.png]]||[[Planes Research|Planes]]||20||1:50||1|| [[Helicopters Research|Helicopters]]\n|-\n|[[File:Navigationradarresearch.png]]||[[Radar and Sonar Research|Radar and Sonar]]||20 ||2:10|| 1||[[Navigation Research|Navigation]]\n|-\n|[[File:Hicapradiorxresearch.png]]||[[Radio RX Research|Radio RX]]||20||2:00||1||[[Electrics Research|Electrics]]\n|-\n|[[File:Railingsresearch.png]]||[[Railings Research|Railings]]||6||2:10||1||[[Decorations Research|Decorations]] \n|-\n|[[File:Shippingresearch.png]]||[[Shipping Research|Shipping]]||20||1:00||1||[[Large Boats Research|Large Boats]]\n|-\n|[[File:Spaceresearch.png]]||[[Space Research|Space]]||20||2:10||1||[[Solid Rockets Research|Solid Rockets]]\n|-\n|[[File:Genericresearch.png]]||[[Steam Power Research|Steam Power]]||20||1:50||1||[[Industrial Equipment Research|Industrial Equipment]]\n|-\n|[[File:Waterjetsresearch.png]]||[[Water Jets Research|Water Jets]]||20||0:30||1||[[Fluid Management Research|Fluid Management]]\n|-\n|[[File:Weathersensorsresearch.png]]||[[Weather Sensors Research|Weather Sensors]]||14||0:40 ||1||[[Sensors Research|Sensors]]\n|-\n|[[File:Deepseadivingresearch.png]]||[[Deep Sea Diving Research|Deep Sea Diving]]||30||0:40||2||[[Diving Equipment Research|Diving Equipment]]\n|-\n|[[File:Heavyaircraftresearch.png]]||[[Heavy Aircraft Research|Heavy Aircraft]]||30 ||2:10||2||[[Planes Research|Planes]]\n|-\n|[[File:Genericresearch.png]]||[[Heavy Modular Engines Research|Heavy Modular Engines]] ||30||2:40||2||[[Medium Modular Engines Research|Medium Modular Engines]]\n|-\n|[[File:Jetsresearch.png]]||[[Jets Research|Jets]]||30||2:55||2||[[Planes Research|Planes]]\n|-\n|[[File:Genericresearch.png]]||[[Nuclear Power Research|Nuclear Power]]||30||1:40||2||[[Steam Power Research|Steam Power]] \n|-\n|[[File:Tanktrackssmallresearch.png]]||[[Tank Tracks Small Research|Tank Tracks Small]]||9||0:55||2||[[Heavy Land Vehicles Research|Heavy Land Vehicles]]\n|-\n|[[File:Trainsresearch.png]]||[[Trains Research|Trains]]||30||5:10||2||[[Heavy Land Vehicles Research|Heavy Land Vehicles]] \n|-\n|[[File:Trainsresearch.png]]||[[Video Equipment Research|Video Equipment]]|| 30||3:40||2||[[Advanced Displays Research|Advanced Displays]]\n|-\n|[[File:Afterburnerresearch.png]]||[[Afterburner Research|Afterburner]]||28||0:30||3||[[Jets Research|Jets]]\n|-\n|[[File:Jetductingresearch.png]]||[[Jet Ducting Research|Jet Ducting]]||8||1:50||3||[[Jets Research|Jets]]\n|-\n|[[File:Largejetsresearch.png]]||[[Large Jets Research|Large Jets]] ||28|| 0:50||3||[[Jets Research|Jets]] \n|-\n|[[File:Tanktracksmediumresearch.png]]||[[Tank Tracks Medium Research|Tank Tracks Medium]]||40||1:50||3||[[Tank Tracks Small Research|Tank Tracks Small]]\n|-\n|[[File:Vtolresearch.png]]||[[VTOL Research|VTOL]]||32||0:30||3||[[Jets Research|Jets]]\n|-\n|[[File:Tanktrackslargeresearch.png]]||[[Tank Tracks Large Research|Tank Tracks Large]]||40||1:00||4||[[Tank Tracks Medium Research|Tank Tracks Medium]]\n|}</table-progress-tracking>",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1433,
+    "revision_id": 4646,
+    "revision_timestamp": "2025-09-15T14:27:12Z",
+    "retrieved_at": "2026-08-31T10:02:34+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

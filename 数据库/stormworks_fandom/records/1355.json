@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Camera small",
+  "display_title": "Camera small",
+  "summary": "A relatively cheap, lightweight\ncamera\n with a variety of uses including remote-control video-guided missiles, reversing cameras for land vehicles and ships, crane alignment view cameras, hazmat robot cameras, hull damage inspection cameras, etc.",
+  "template": "Infobox component",
+  "attributes": {
+    "Name": "Camera Small",
+    "Image": "200px",
+    "Mass": "5",
+    "Dimensions": "1×1×1",
+    "Cost": "$1,000",
+    "Logic inputs": "None",
+    "Logic outputs": "Video (Camera feed)",
+    "Connections": "Electric",
+    "Since version": "V0.7.1"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| Name | Camera Small |\n| Image | 200px |\n| Mass | 5 |\n| Dimensions | 1×1×1 |\n| Cost | $1,000 |\n| Logic inputs | None |\n| Logic outputs | Video (Camera feed) |\n| Connections | Electric |\n| Since version | V0.7.1 |",
+  "categories": [
+    "Cameras",
+    "Components",
+    "Electric_components",
+    "Stubs"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Notes",
+      "anchor": "Notes"
+    },
+    {
+      "level": 3,
+      "title": "FOV / Zoom",
+      "anchor": "FOV_/_Zoom"
+    },
+    {
+      "level": 2,
+      "title": "Patch history",
+      "anchor": "Patch_history"
+    },
+    {
+      "level": 3,
+      "title": "V0.10.19-22",
+      "anchor": "V0.10.19-22"
+    },
+    {
+      "level": 3,
+      "title": "V0.9.28-32",
+      "anchor": "V0.9.28-32"
+    },
+    {
+      "level": 3,
+      "title": "V0.9.1-2",
+      "anchor": "V0.9.1-2"
+    },
+    {
+      "level": 3,
+      "title": "V0.8.16-18",
+      "anchor": "V0.8.16-18"
+    },
+    {
+      "level": 3,
+      "title": "V0.7.6-7",
+      "anchor": "V0.7.6-7"
+    },
+    {
+      "level": 3,
+      "title": "V0.7.1",
+      "anchor": "V0.7.1"
+    }
+  ],
+  "internal_links": [
+    "V0.10.19-22",
+    "V0.7.1",
+    "V0.7.6-7",
+    "V0.8.16-18",
+    "V0.9.1-2",
+    "V0.9.28-32",
+    "Wiki/Building/Components/Video/Cameras"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Camera_small?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Camera_small?action=edit). |\n| --- | --- |\n\n\"A camera with video output feed\".\n\n## Notes\n\nA relatively cheap, lightweight [camera](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Video/Cameras) with a variety of uses including remote-control video-guided missiles, reversing cameras for land vehicles and ships, crane alignment view cameras, hazmat robot cameras, hull damage inspection cameras, etc.\n\n### FOV / Zoom\n\nUnlike all of the other cameras, the small camera has a fixed field of view of 70 degrees, the same as a player using default settings, so effectively a fixed zoom value of 1:1 with player vision. Note that when connected to monitor with a rectangular (but not square) screen, only the narrow dimension has the exactly 70-degree FOV - the wider dimension gets a larger FOV in proportion to the difference so that the image is not stretched.\n\n## Patch history\n\n### [V0.10.19-22](https://stormworks.fandom.com/wiki/V0.10.19-22)\n\n- Fix - Recategorized cameras and speakers\n\n### [V0.9.28-32](https://stormworks.fandom.com/wiki/V0.9.28-32)\n\n- Fix - Camera feed visually not disappearing completely on signal loss\n- Fix - Camera feed and lua overlay transparencies fighting\n\n### [V0.9.1-2](https://stormworks.fandom.com/wiki/V0.9.1-2)\n\n- Fix - Vehicle cameras not using graphics quality settings\n\n### [V0.8.16-18](https://stormworks.fandom.com/wiki/V0.8.16-18)\n\n- Fix - Rain and snow not displaying correctly when video camera is active\n- Fix - Flickering player flashlight when video camera is active in 1st person view\n\n### [V0.7.6-7](https://stormworks.fandom.com/wiki/V0.7.6-7)\n\n- Fix - camera meshes appear correctly when flipped\n- Fix - cameras now render water correctly when inside vehicle compartment\n\n### [V0.7.1](https://stormworks.fandom.com/wiki/V0.7.1)\n\n- Feature - Added 3 camera components (small, medium and gimbal)\n- Feature - New video logic type used for transferring camera and video feeds between components\n- Feature - Added 4 monitor components to view camera and video feeds\n  - Video logic can be chained through several scripts to layer many draw commands together, making it possible to build self-contained UI microcontrollers\n- Feature - Added 2 video radio components (transmitter and receiver)\n- Similar to radio antennas, but they transmit a video signal\n- Quality of video signal will degrade over long distances",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\n\"A camera with video output feed\".\n\nNotes\n\nA relatively cheap, lightweight\ncamera\n with a variety of uses including remote-control video-guided missiles, reversing cameras for land vehicles and ships, crane alignment view cameras, hazmat robot cameras, hull damage inspection cameras, etc.\n\nFOV / Zoom\n\nUnlike all of the other cameras, the small camera has a fixed field of view of 70 degrees, the same as a player using default settings, so effectively a fixed zoom value of 1:1 with player vision. Note that when connected to monitor with a rectangular (but not square) screen, only the narrow dimension has the exactly 70-degree FOV - the wider dimension gets a larger FOV in proportion to the difference so that the image is not stretched.\n\nPatch history\n\nV0.10.19-22\n\nFix - Recategorized cameras and speakers\n\nV0.9.28-32\n\nFix - Camera feed visually not disappearing completely on signal loss\n\nFix - Camera feed and lua overlay transparencies fighting\n\nV0.9.1-2\n\nFix - Vehicle cameras not using graphics quality settings\n\nV0.8.16-18\n\nFix - Rain and snow not displaying correctly when video camera is active\n\nFix - Flickering player flashlight when video camera is active in 1st person view\n\nV0.7.6-7\n\nFix - camera meshes appear correctly when flipped\n\nFix - cameras now render water correctly when inside vehicle compartment\n\nV0.7.1\n\nFeature - Added 3 camera components (small, medium and gimbal)\n\nFeature - New video logic type used for transferring camera and video feeds between components\n\nFeature - Added 4 monitor components to view camera and video feeds\n\nVideo logic can be chained through several scripts to layer many draw commands together, making it possible to build self-contained UI microcontrollers\n\nFeature - Added 2 video radio components (transmitter and receiver)\n\nSimilar to radio antennas, but they transmit a video signal\n\nQuality of video signal will degrade over long distances",
+    "char_count": 2789,
+    "word_count": 319,
+    "sha256": "3c798573327a2724501ec2440aacc0ef2f6eca501b82e63c8b454738746026c7"
+  },
+  "wikitext": "{{Stub}}\n\n\"A camera with video output feed\".\n\n{{Infobox component\n|Name = Camera Small\n|Image = [[File:Camera_small.png|200px]]\n|Prerequisite =\n|Mass = 5\n|Dimensions = 1×1×1\n|Cost = $1,000\n|Range = \n|Power = \n|Force = \n|Fluid capacity = \n|Electric charge =\n|Torque = \n|Logic inputs = None\n|Logic outputs = Video (Camera feed)\n|Connections = Electric\n|Adjustable parameters = \n|Since version = [[V0.7.1]]\n}}\n\n== Notes ==\nA relatively cheap, lightweight [[Wiki/Building/Components/Video/Cameras|camera]] with a variety of uses including remote-control video-guided missiles, reversing cameras for land vehicles and ships, crane alignment view cameras, hazmat robot cameras, hull damage inspection cameras, etc.\n\n=== FOV / Zoom ===\nUnlike all of the other cameras, the small camera has a fixed field of view of 70 degrees, the same as a player using default settings, so effectively a fixed zoom value of 1:1 with player vision. Note that when connected to monitor with a rectangular (but not square) screen, only the narrow dimension has the exactly 70-degree FOV - the wider dimension gets a larger FOV in proportion to the difference so that the image is not stretched.\n\n== Patch history ==\n===[[V0.10.19-22]]===\n* Fix - Recategorized cameras and speakers\n\n===[[V0.9.28-32]]===\n* Fix - Camera feed visually not disappearing completely on signal loss\n* Fix - Camera feed and lua overlay transparencies fighting\n\n===[[V0.9.1-2]]===\n* Fix - Vehicle cameras not using graphics quality settings\n\n===[[V0.8.16-18]]===\n* Fix - Rain and snow not displaying correctly when video camera is active\n* Fix - Flickering player flashlight when video camera is active in 1st person view\n\n===[[V0.7.6-7]]===\n* Fix - camera meshes appear correctly when flipped\n* Fix - cameras now render water correctly when inside vehicle compartment\n\n===[[V0.7.1]]===\n* Feature - Added 3 camera components (small, medium and gimbal)\n* Feature - New video logic type used for transferring camera and video feeds between components\n* Feature - Added 4 monitor components to view camera and video feeds\n** Video logic can be chained through several scripts to layer many draw commands together, making it possible to build self-contained UI microcontrollers\n* Feature - Added 2 video radio components (transmitter and receiver)\n* Similar to radio antennas, but they transmit a video signal\n* Quality of video signal will degrade over long distances\n\n\n[[Category: Cameras]]\n[[Category: Electric components]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Camera_small",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1355,
+    "revision_id": 3054,
+    "revision_timestamp": "2022-02-12T05:25:33Z",
+    "retrieved_at": "2026-08-31T10:01:08+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

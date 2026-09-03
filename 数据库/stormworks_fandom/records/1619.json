@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Mechanics/Basic Physics Concept",
+  "display_title": "Gameplay/Mechanics/Basic Physics Concept",
+  "summary": "Stormworks simulates the real world classical physics, but for many specifics are approximate rather than equal to real like",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Basic Physics Concept     [ edit page ]",
+      "anchor": "Basic_Physics_Concept_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Physics",
+      "anchor": "Physics"
+    },
+    {
+      "level": 2,
+      "title": "Units",
+      "anchor": "Units"
+    },
+    {
+      "level": 2,
+      "title": "Constants",
+      "anchor": "Constants"
+    },
+    {
+      "level": 3,
+      "title": "Motion and Force",
+      "anchor": "Motion_and_Force"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Mechanics"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Basic_Physics_Concept?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Basic_Physics_Concept?action=edit). |\n| --- | --- |\n\n## Basic Physics Concept\n\nStormworks simulates the real world classical physics, but for many specifics are approximate rather than equal to real like\n\n## Physics\n\n## Units\n\nTo have a better discussion and regulation, Here are the list of unit in stormworks.\n\n1SN(Stormworks Newton) = 0.1KGF 1SW(Stormworks Watts)\n\n## Constants\n\nHere are some constants\n\n### Motion and Force\n\nGravitational Pull: 10m/s2 Force: 1SN = 0.1KGF",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nBasic Physics Concept\n\nStormworks simulates the real world classical physics, but for many specifics are approximate rather than equal to real like\n\nPhysics\n\nUnits\n\nTo have a better discussion and regulation, Here are the list of unit in stormworks.\n\n1SN(Stormworks Newton) = 0.1KGF\n1SW(Stormworks Watts)\n\nConstants\n\nHere are some constants\n\nMotion and Force\n\nGravitational Pull: 10m/s\n2\n\nForce: 1SN = 0.1KGF",
+    "char_count": 913,
+    "word_count": 76,
+    "sha256": "a4e61956726d82b284a760428a6930369189d57419c699d47d5cf6e906e83b33"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\n\nStormworks simulates the real world classical physics, but for many specifics are approximate rather than equal to real like\n==Physics==\n\n==Units==\nTo have a better discussion and regulation, Here are the list of unit in stormworks.\n\n1SN(Stormworks Newton) = 0.1KGF\n1SW(Stormworks Watts) \n\n==Constants==\nHere are some constants \n===Motion and Force===\nGravitational Pull: 10m/s<sup>2</sup>\n<br>\nForce: 1SN = 0.1KGF\n\n\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Basic_Physics_Concept",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1619,
+    "revision_id": 4227,
+    "revision_timestamp": "2025-05-14T06:15:44Z",
+    "retrieved_at": "2026-08-31T10:02:16+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

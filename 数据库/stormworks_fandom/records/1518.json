@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Tank Tracks Large Research",
+  "display_title": "Tank Tracks Large Research",
+  "summary": "Land Vehicles\n,\nHeavy Land Vehicles\n,\nTank Tracks Small\n,\nTank Tracks Medium",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Heavy Land Vehicles Research",
+    "Land Vehicles Research",
+    "Research",
+    "Tank Tracks Medium Research",
+    "Tank Tracks Small Research",
+    "Wiki/Building/Components/Vehicle Control"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f5/Tanktrackslargeresearch.png/revision/latest?cb=20240421190730",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f5/Tanktrackslargeresearch.png/revision/latest?cb=20240421190730",
+      "alt": "Tanktrackslargeresearch",
+      "width": "48",
+      "height": "48"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Tank Wheel (Huge)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Tank Drive Wheel (Huge)"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Tank Tracks Large\n\n[![Tanktrackslargeresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f5/Tanktrackslargeresearch.png/revision/latest?cb=20240421190730)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f5/Tanktrackslargeresearch.png/revision/latest?cb=20240421190730)\n\n### Research Points\n\n40\n\n### Research Time\n\n1h 0m\n\n## Research Path\n\n### Unlocked by\n\n[Land Vehicles](https://stormworks.fandom.com/wiki/Land_Vehicles_Research), [Heavy Land Vehicles](https://stormworks.fandom.com/wiki/Heavy_Land_Vehicles_Research), [Tank Tracks Small](https://stormworks.fandom.com/wiki/Tank_Tracks_Small_Research), [Tank Tracks Medium](https://stormworks.fandom.com/wiki/Tank_Tracks_Medium_Research)\n\nTank tracks large is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Tank Wheel (Huge) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Tank Drive Wheel (Huge) |",
+    "plain_text": "Tank Tracks Large\n\nResearch Points\n\n40\n\nResearch Time\n\n1h 0m\n\nResearch Path\n\nUnlocked by\n\nLand Vehicles\n,\nHeavy Land Vehicles\n,\nTank Tracks Small\n,\nTank Tracks Medium\n\nTank tracks large is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nVehicle Control\n\nTank Wheel (Huge)\n\nVehicle Control\n\nTank Drive Wheel (Huge)",
+    "char_count": 1149,
+    "word_count": 50,
+    "sha256": "08d82f55ddde55279d6cf052f80218f0d9cc9f1e38ef28fb208d8dc74139349d"
+  },
+  "wikitext": "{{Research\n  | name=Tank Tracks Large\n  | image=[File:Tanktrackslargeresearch.png]\n  | points=40\n  | time= 1h 0m\n  | unlock= [[Land Vehicles Research|Land Vehicles]], [[Heavy Land Vehicles Research|Heavy Land Vehicles]], [[Tank Tracks Small Research|Tank Tracks Small]], [[Tank Tracks Medium Research|Tank Tracks Medium]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Tank tracks large is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Tank Wheel (Huge)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Tank Drive Wheel (Huge)\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Tank_Tracks_Large_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1518,
+    "revision_id": 3833,
+    "revision_timestamp": "2024-04-21T19:07:55Z",
+    "retrieved_at": "2026-08-31T10:05:19+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

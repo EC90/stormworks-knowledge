@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Behaviour Research",
+  "display_title": "Behaviour Research",
+  "summary": "Behaviour is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Basic Logic Research",
+    "Research",
+    "Wiki/Building/Components/Logic"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b7/Behaviourresearch.png/revision/latest?cb=20240421183036",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b7/Behaviourresearch.png/revision/latest?cb=20240421183036",
+      "alt": "Behaviourresearch",
+      "width": "48",
+      "height": "48"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Blinker"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Counter"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Delay"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Counter (Ping Pong)"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Capacitor"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Behaviour\n\n[![Behaviourresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b7/Behaviourresearch.png/revision/latest?cb=20240421183036)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b7/Behaviourresearch.png/revision/latest?cb=20240421183036)\n\n### Research Points\n\n2\n\n### Research Time\n\n1h 0m\n\n## Research Path\n\n### Unlocked by\n\n[Basic Logic](https://stormworks.fandom.com/wiki/Basic_Logic_Research)\n\nBehaviour is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Blinker |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Counter |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Delay |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Counter (Ping Pong) |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Capacitor |",
+    "plain_text": "Behaviour\n\nResearch Points\n\n2\n\nResearch Time\n\n1h 0m\n\nResearch Path\n\nUnlocked by\n\nBasic Logic\n\nBehaviour is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nLogic\n\nBlinker\n\nLogic\n\nCounter\n\nLogic\n\nDelay\n\nLogic\n\nCounter (Ping Pong)\n\nLogic\n\nCapacitor",
+    "char_count": 1065,
+    "word_count": 38,
+    "sha256": "07a26d46d065a285be310407b25d7652d8c22731263c4eb61b6c56f10a1ad213"
+  },
+  "wikitext": "{{Research\n  | name=Behaviour\n  | image=[File:Behaviourresearch.png]\n  | points=2\n  | time= 1h 0m\n  | unlock= [[Basic Logic Research|Basic Logic]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Behaviour is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Logic|Logic]]||Blinker\n|-\n|[[Wiki/Building/Components/Logic|Logic]]||Counter\n|-\n|[[Wiki/Building/Components/Logic|Logic]]||Delay\n|-\n|[[Wiki/Building/Components/Logic|Logic]]||Counter (Ping Pong)\n|-\n|[[Wiki/Building/Components/Logic|Logic]]||Capacitor\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Behaviour_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1461,
+    "revision_id": 3839,
+    "revision_timestamp": "2024-04-21T20:04:19Z",
+    "retrieved_at": "2026-08-31T10:00:54+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

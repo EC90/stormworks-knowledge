@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Large Rotor",
+  "display_title": "Large Rotor",
+  "summary": "The large rotor is the largest traditional\nhelicopter\n main\nrotor\n included in\nStormworks: Build and Rescue\n. It is usually served by a\ngyro\n to help keep your aircraft stable, and requires power from an\nengine\n.",
+  "template": "Infobox",
+  "attributes": {
+    "name": "Large Rotor",
+    "image": "200px",
+    "prerequisite": "Helicopters (tech)",
+    "dimensions": "3x3x2 (excludes blades)",
+    "mass": "{{Property|mass}} 20",
+    "force": "{{Property|force}} 200,000",
+    "logicinput1": "{{Property|number}} Pitch",
+    "logicinput2": "{{Property|number}} Roll",
+    "logicinput3": "{{Property|number}} Collective",
+    "connection1": "{{Property|power}} RPS",
+    "connection2": "{{Property|power}} RPS",
+    "adjustparam1": "Number of blades",
+    "adjustparam2": "Blade pitch"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| name | Large Rotor |\n| image | 200px |\n| prerequisite | Helicopters (tech) |\n| dimensions | 3x3x2 (excludes blades) |\n| mass | {{Property\\|mass}} 20 |\n| force | {{Property\\|force}} 200,000 |\n| logicinput1 | {{Property\\|number}} Pitch |\n| logicinput2 | {{Property\\|number}} Roll |\n| logicinput3 | {{Property\\|number}} Collective |\n| connection1 | {{Property\\|power}} RPS |\n| connection2 | {{Property\\|power}} RPS |\n| adjustparam1 | Number of blades |\n| adjustparam2 | Blade pitch |",
+  "categories": [
+    "Components",
+    "Stubs"
+  ],
+  "sections": [],
+  "internal_links": [
+    "Engine",
+    "Gyro",
+    "Helicopter",
+    "Helicopters (tech)",
+    "Research",
+    "Rotor",
+    "Stormworks: Build and Rescue"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f6/Large_Rotor_Description.png/revision/latest?cb=20200304132603",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f6/Large_Rotor_Description.png/revision/latest/scale-to-width-down/268?cb=20200304132603",
+      "alt": "Large Rotor Description",
+      "width": "270",
+      "height": "232"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "mass 20",
+          "force 200,000"
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "number Pitch",
+          "number Roll"
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "number Collective"
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "power RPS",
+          "power RPS"
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "Number of blades",
+          "Blade pitch"
+        ]
+      ]
+    },
+    {
+      "index": 6,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Large_Rotor?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Large Rotor\n\n[![Large Rotor Description](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f6/Large_Rotor_Description.png/revision/latest/scale-to-width-down/268?cb=20200304132603)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f6/Large_Rotor_Description.png/revision/latest?cb=20200304132603)\n\n### [Prerequisite](https://stormworks.fandom.com/wiki/Research)\n\nHelicopters (tech)\n\n### Dimensions\n\n3x3x2 (excludes blades)\n\n## Properties\n\n| mass 20 | force 200,000 |\n| --- | --- |\n\n## Logics Inputs\n\n| number Pitch | number Roll |\n| --- | --- |\n\n| number Collective |\n\n## Connections\n\n| power RPS | power RPS |\n| --- | --- |\n\n## Adjustable parameters\n\n| Number of blades | Blade pitch |\n| --- | --- |\n\n| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Large_Rotor?action=edit). |\n| --- | --- |\n\nThe large rotor is the largest traditional [helicopter](https://stormworks.fandom.com/wiki/Helicopter) main rotor included in [Stormworks: Build and Rescue](https://stormworks.fandom.com/wiki/Stormworks:_Build_and_Rescue). It is usually served by a [gyro](https://stormworks.fandom.com/wiki/Gyro) to help keep your aircraft stable, and requires power from an [engine](https://stormworks.fandom.com/wiki/Engine).\n\nWhen placing the large rotor you have an option to use positive or neutral rotor pitch. Neutral pitch is used when you want to use the rotor's collective control to ascend and descend. If you configure your rotor blades to be positive pitched, the amount of upwards force generated by the blades is always directly proportional to their rotation speed.",
+    "plain_text": "Large Rotor\n\nPrerequisite\n\nHelicopters (tech)\n\nDimensions\n\n3x3x2 (excludes blades)\n\nProperties\n\nmass\n 20\n\nforce\n 200,000\n\nLogics Inputs\n\nnumber\n Pitch\n\nnumber\n Roll\n\nnumber\n Collective\n\nConnections\n\npower\n RPS\n\npower\n RPS\n\nAdjustable parameters\n\nNumber of blades\n\nBlade pitch\n\nThis article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nThe large rotor is the largest traditional\nhelicopter\n main\nrotor\n included in\nStormworks: Build and Rescue\n. It is usually served by a\ngyro\n to help keep your aircraft stable, and requires power from an\nengine\n.\n\nWhen placing the large rotor you have an option to use positive or neutral rotor pitch. Neutral pitch is used when you want to use the rotor's collective control to ascend and descend. If you configure your rotor blades to be positive pitched, the amount of upwards force generated by the blades is always directly proportional to their rotation speed.",
+    "char_count": 1967,
+    "word_count": 143,
+    "sha256": "e93533f4d89b2b2573064c7f25d9cb29aa6150ac17c78169766d988af9ec1cea"
+  },
+  "wikitext": "{{Infobox\n  | name=Large Rotor\n  | image=[[File:Large Rotor Description.png|200px]]\n  | prerequisite=[[Helicopters (tech)]]\n  | cost=\n  | dimensions= 3x3x2 (excludes blades)\n  | fluidcapacity=\n  | introduced=\n  \n  | mass= {{Property|mass}} 20\n  | motor=\n  | force= {{Property|force}} 200,000\n  | power=\n  | motor_speed=\n \n  | logicinput1= {{Property|number}} Pitch\n  | logicinput2= {{Property|number}} Roll\n  | logicinput3= {{Property|number}} Collective\n  | logicinput4= \n  | logicinput5=\n  | logicinput6=\n\n  | logicoutput1=\n  | logicoutput2=\n  | logicoutput3=\n  | logicoutput4=\n  | logicoutput5=\n  | logicoutput6=\n\n  | connection1= {{Property|power}} RPS\n  | connection2= {{Property|power}} RPS\n  | connection3= \n  | connection4=\n  | connection5=\n  | connection6=\n  \n  | adjustparam1= Number of blades\n  | adjustparam2= Blade pitch\n}}\n\n\n{{Stub}}\nThe large rotor is the largest traditional [[helicopter]] main [[rotor]] included in [[Stormworks: Build and Rescue]]. It is usually served by a [[gyro]] to help keep your aircraft stable, and requires power from an [[engine]]. \n\nWhen placing the large rotor you have an option to use positive or neutral rotor pitch. Neutral pitch is used when you want to use the rotor's collective control to ascend and descend. If you configure your rotor blades to be positive pitched, the amount of upwards force generated by the blades is always directly proportional to their rotation speed.\n\n[[Category: Components|Images needing improvement]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Large_Rotor",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 542,
+    "revision_id": 3471,
+    "revision_timestamp": "2023-08-11T19:28:00Z",
+    "retrieved_at": "2026-08-31T10:03:52+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

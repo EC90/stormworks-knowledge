@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Medium Engine",
+  "display_title": "Medium Engine",
+  "summary": "The medium engine is a\ndiesel engine\n which offers the highest power-to-weight ratio of any of the built-in diesel engines. used on planes for his design (power at the other side then other imputs and outputs)",
+  "template": "Infobox",
+  "attributes": {
+    "name": "Medium engine",
+    "image": "200x200px",
+    "cost": "$1000",
+    "mass": "{{property|mass}} 80",
+    "power": "{{property|power}} 60000",
+    "logicinput1": "{{property|number}} Throttle",
+    "logicinput2": "{{property|onoff}} Starter",
+    "logicoutput1": "{{property|number}} RPS",
+    "logicoutput2": "{{property|number}} Temperature",
+    "connection1": "{{property|torque}} RPS",
+    "connection2": "{{property|fluid}} Fuel",
+    "connection3": "{{property|fluid}} Air",
+    "connection4": "{{property|fluid}} In coolant",
+    "connection5": "{{property|fluid}} Out coolant",
+    "connection6": "{{property|fluid}} Fuel {{property|fluid}} Exhaust {{property|electric}} Electric"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| name | Medium engine |\n| image | 200x200px |\n| cost | $1000 |\n| mass | {{property\\|mass}} 80 |\n| power | {{property\\|power}} 60000 |\n| logicinput1 | {{property\\|number}} Throttle |\n| logicinput2 | {{property\\|onoff}} Starter |\n| logicoutput1 | {{property\\|number}} RPS |\n| logicoutput2 | {{property\\|number}} Temperature |\n| connection1 | {{property\\|torque}} RPS |\n| connection2 | {{property\\|fluid}} Fuel |\n| connection3 | {{property\\|fluid}} Air |\n| connection4 | {{property\\|fluid}} In coolant |\n| connection5 | {{property\\|fluid}} Out coolant |\n| connection6 | {{property\\|fluid}} Fuel {{property\\|fluid}} Exhaust {{property\\|electric}} Electric |",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [],
+  "internal_links": [
+    "Research",
+    "Wiki/Building/Components/Propulsion/DieselEngines"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/28/Aircraft_Engine.jpg/revision/latest?cb=20190317005355",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/28/Aircraft_Engine.jpg/revision/latest/scale-to-width-down/268?cb=20190317005355",
+      "alt": "Aircraft Engine",
+      "width": "270",
+      "height": "250"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Medium_Engine?action=edit)."
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "mass 80",
+          "power 60000"
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "number Throttle",
+          "onoff Starter"
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "number RPS",
+          "number Temperature"
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "torque RPS",
+          "fluid Fuel"
+        ]
+      ]
+    },
+    {
+      "index": 6,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "fluid Air",
+          "fluid In coolant"
+        ]
+      ]
+    },
+    {
+      "index": 7,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "fluid Out coolant",
+          "fluid Fuel fluid Exhaust electric Electric"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Medium_Engine?action=edit). |\n| --- | --- |\n\nThe medium engine is a [diesel engine](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion/DieselEngines) which offers the highest power-to-weight ratio of any of the built-in diesel engines. used on planes for his design (power at the other side then other imputs and outputs)\n\n## Medium engine\n\n[![Aircraft Engine](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/28/Aircraft_Engine.jpg/revision/latest/scale-to-width-down/268?cb=20190317005355)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/28/Aircraft_Engine.jpg/revision/latest?cb=20190317005355)\n\n### Cost\n\n$1000\n\n## Properties\n\n| mass 80 | power 60000 |\n| --- | --- |\n\n## Logics Inputs\n\n| number Throttle | onoff Starter |\n| --- | --- |\n\n## Logic Outputs\n\n| number RPS | number Temperature |\n| --- | --- |\n\n## Connections\n\n| torque RPS | fluid Fuel |\n| --- | --- |\n\n| fluid Air | fluid In coolant |\n| --- | --- |\n\n| fluid Out coolant | fluid Fuel fluid Exhaust electric Electric |\n| --- | --- |",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nThe medium engine is a\ndiesel engine\n which offers the highest power-to-weight ratio of any of the built-in diesel engines. used on planes for his design (power at the other side then other imputs and outputs)\n\nMedium engine\n\nCost\n\n$1000\n\nProperties\n\nmass\n 80\n\npower\n 60000\n\nLogics Inputs\n\nnumber\n Throttle\n\nonoff\n Starter\n\nLogic Outputs\n\nnumber\n RPS\n\nnumber\n Temperature\n\nConnections\n\ntorque\n RPS\n\nfluid\n Fuel\n\nfluid\n Air\n\nfluid\n In coolant\n\nfluid\n Out coolant\n\nfluid\n Fuel\nfluid\n Exhaust\nelectric\n Electric",
+    "char_count": 1474,
+    "word_count": 91,
+    "sha256": "697dd4d7ede2d08342e29c081ec632e4977eb356830ccfc51816a4018475c1e7"
+  },
+  "wikitext": "{{Stub}}\n\nThe medium engine is a [[Wiki/Building/Components/Propulsion/DieselEngines|diesel engine]] which offers the highest power-to-weight ratio of any of the built-in diesel engines. used on planes for his design (power at the other side then other imputs and outputs)\n\n{{Infobox|name=Medium engine|image=[[File:Aircraft Engine.jpg|200x200px]]|cost=$1000|mass={{property|mass}} 80|power={{property|power}} 60000|logicinput1={{property|number}} Throttle|logicinput2={{property|onoff}} Starter|logicoutput1={{property|number}} RPS|logicoutput2={{property|number}} Temperature|connection1={{property|torque}} RPS|connection2={{property|fluid}} Fuel|connection3={{property|fluid}} Air|connection4={{property|fluid}} In coolant|connection5={{property|fluid}} Out coolant|connection6={{property|fluid}} Fuel {{property|fluid}} Exhaust {{property|electric}} Electric}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Medium_Engine",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1322,
+    "revision_id": 4724,
+    "revision_timestamp": "2026-08-17T16:24:58Z",
+    "retrieved_at": "2026-08-31T10:04:07+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Sensors",
+  "display_title": "Gameplay/Workbench/Components/Sensors",
+  "summary": "Sensors\nEnvironment\nPlayer Sensor\nOutput 1 (Number): Number of players detected\nOutput 2 (On/Off): if at least one player is detected\nTypes:\nSphere (Trigger is a ball around the sensor)\nHemisphere (is half of a ball = just in the front)\nMode:\nDetect All\nDetect Players\nDetect NPCs\nRadius:\nMinimum 0.25m (1 block)\nMaximum 10m (40 blocks)\nWind Sensor\nOutput 1 (Number): Relative direction of the wind\nOutput 2 (Number): Relative speed of the wind (in m/s)\nRain Sensor\nOutput 1 (Number): How intense its raining (0 - Sunny, 1 - Thunderstorm)\nHumidity Sensor\nOutput 1 (Number): Humidity (0 - No fog, 1 -",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Sensors [ edit page ]",
+      "anchor": "Sensors_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Environment",
+      "anchor": "Environment"
+    },
+    {
+      "level": 2,
+      "title": "Position of Vehicle relative to the world",
+      "anchor": "Position_of_Vehicle_relative_to_the_world"
+    },
+    {
+      "level": 2,
+      "title": "Mechanical",
+      "anchor": "Mechanical"
+    },
+    {
+      "level": 2,
+      "title": "Radar",
+      "anchor": "Radar"
+    },
+    {
+      "level": 2,
+      "title": "Sonar",
+      "anchor": "Sonar"
+    },
+    {
+      "level": 2,
+      "title": "Fluid",
+      "anchor": "Fluid"
+    },
+    {
+      "level": 2,
+      "title": "Other",
+      "anchor": "Other"
+    }
+  ],
+  "internal_links": [
+    "Compass Sensor",
+    "Gameplay",
+    "Gameplay/Workbench",
+    "Gameplay/Workbench/Components",
+    "Radar"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/99/Player_Sensor.jpg/revision/latest?cb=20190419122800",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/99/Player_Sensor.jpg/revision/latest/scale-to-width-down/100?cb=20190419122800",
+      "alt": "Player Sensor",
+      "width": "100",
+      "height": "106"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/41/Wind_Sensor.jpg/revision/latest?cb=20190317011242",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/41/Wind_Sensor.jpg/revision/latest/scale-to-width-down/100?cb=20190317011242",
+      "alt": "Wind Sensor",
+      "width": "100",
+      "height": "123"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a2/Rain_Sensor.jpg/revision/latest?cb=20190317011222",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Rain Sensor",
+      "width": "100",
+      "height": "111"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/dc/Humidity_Sensor.jpg/revision/latest?cb=20190317011207",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Humidity Sensor",
+      "width": "100",
+      "height": "103"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/87/Temperature_Sensor.png/revision/latest?cb=20200130202517",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Temperature Sensor",
+      "width": "100",
+      "height": "108"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/8b/Tilt_Sensor.jpg/revision/latest?cb=20190317011229",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Tilt Sensor",
+      "width": "100",
+      "height": "101"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Linear_Speed_Sensor.jpg/revision/latest?cb=20190317011212",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Linear Speed Sensor",
+      "width": "100",
+      "height": "107"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/73/Distance_Sensor.jpg/revision/latest?cb=20190317011132",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Distance Sensor",
+      "width": "100",
+      "height": "104"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/84/Laser_Distance_Sensor.png/revision/latest?cb=20200130200837",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Laser Distance Sensor",
+      "width": "100",
+      "height": "170"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b7/Laser_Point_Sensor.png/revision/latest?cb=20200130200841",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Laser Point Sensor",
+      "width": "100",
+      "height": "147"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5e/Laser_Beacon.png/revision/latest?cb=20200130200845",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Laser Beacon",
+      "width": "100",
+      "height": "119"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f8/Compass_Sensor.jpg/revision/latest?cb=20190317011124",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Compass Sensor",
+      "width": "100",
+      "height": "108"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/08/Altimeter.jpg/revision/latest?cb=20190317011110",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Altimeter",
+      "width": "100",
+      "height": "108"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f3/GPS.jpg/revision/latest?cb=20190317011201",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "GPS",
+      "width": "100",
+      "height": "122"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/22/Torque_Meter.jpg/revision/latest?cb=20190317011236",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Torque Meter",
+      "width": "100",
+      "height": "91"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/07/Stormworks-radar-basic.jpg/revision/latest?cb=20240829151115",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Stormworks-radar-basic",
+      "width": "100",
+      "height": "60"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9f/Strormworks-Radar-Phalanx.jpg/revision/latest?cb=20240829151115",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Strormworks-Radar-Phalanx",
+      "width": "100",
+      "height": "102"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Stormworks-radar-dish.jpg/revision/latest?cb=20240829151115",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Stormworks-radar-dish",
+      "width": "100",
+      "height": "70"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a1/Stormworks-radar-awacs.jpg/revision/latest?cb=20240829151114",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Stormworks-radar-awacs",
+      "width": "100",
+      "height": "53"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/42/Stormworks-radar-missle.jpg/revision/latest?cb=20240829151115",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Stormworks-radar-missle",
+      "width": "100",
+      "height": "105"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ed/Stormworks-smal-sonar.jpg/revision/latest?cb=20240829150026",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Stormworks-smal-sonar",
+      "width": "100",
+      "height": "72"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/ba/Stormworks-Medium-Sonar.jpg/revision/latest?cb=20240829152459",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Stormworks-Medium-Sonar",
+      "width": "100",
+      "height": "85"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/00/Stormworks-Large-Sonar.jpg/revision/latest?cb=20240829152500",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Stormworks-Large-Sonar",
+      "width": "100",
+      "height": "82"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1d/Fluid_Pressure_Sensor.jpg/revision/latest?cb=20190317011155",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Pressure Sensor",
+      "width": "100",
+      "height": "82"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/08/Fluid_Meter.jpg/revision/latest?cb=20190317011147",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Meter",
+      "width": "100",
+      "height": "108"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/20/Clock.jpg/revision/latest?cb=20190317011116",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Clock",
+      "width": "100",
+      "height": "105"
+    }
+  ],
+  "tables": [],
+  "content": {
+    "markdown": "## Sensors\n\n## Environment\n\nPlayer Sensor\n\n[![Player Sensor](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/99/Player_Sensor.jpg/revision/latest/scale-to-width-down/100?cb=20190419122800)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/99/Player_Sensor.jpg/revision/latest?cb=20190419122800)\n\n- Output 1 (Number): Number of players detected\n- Output 2 (On/Off): if at least one player is detected\n\nTypes:\n\n- Sphere (Trigger is a ball around the sensor)\n- Hemisphere (is half of a ball = just in the front)\n\nMode:\n\n- Detect All\n- Detect Players\n- Detect NPCs\n\nRadius:\n\n- Minimum 0.25m (1 block)\n- Maximum 10m (40 blocks)\n\nWind Sensor\n\n[![Wind Sensor](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/41/Wind_Sensor.jpg/revision/latest/scale-to-width-down/100?cb=20190317011242)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/41/Wind_Sensor.jpg/revision/latest?cb=20190317011242)\n\n- Output 1 (Number): Relative direction of the wind\n- Output 2 (Number): Relative speed of the wind (in m/s)\n\nRain Sensor\n\n[![Rain Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a2/Rain_Sensor.jpg/revision/latest?cb=20190317011222)\n\n- Output 1 (Number): How intense its raining (0 - Sunny, 1 - Thunderstorm)\n\nHumidity Sensor\n\n[![Humidity Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/dc/Humidity_Sensor.jpg/revision/latest?cb=20190317011207)\n\n- Output 1 (Number): Humidity (0 - No fog, 1 - Max fog)\n\nTemperature Sensor\n\n[![Temperature Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/87/Temperature_Sensor.png/revision/latest?cb=20200130202517)\n\n- Output 1 (Number): Ambient room temperature in °C\n\n## Position of Vehicle relative to the world\n\nTilt Sensor\n\n[![Tilt Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/8b/Tilt_Sensor.jpg/revision/latest?cb=20190317011229)\n\n- Output 1 (Number): The \"angle\" of tilt. 0.25 is +90 degree, -0.25 is -90 degree. Zero is defined by the direction of the block (blue arrow when placing).\n\nPhysics Sensor\n\n[![Linear Speed Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Linear_Speed_Sensor.jpg/revision/latest?cb=20190317011212)\n\n- The physics sensor component combines functionality of several other sensors into a single block. The sensor outputs position, rotation, linear and angular speeds over 14 composite channels detailed on the component, where the red arrow is the X-axis, the green arrow is the Y-axis, and the blue arrow is the Z-axis.\n\nThe composite output is:\n\n- Output 1 to 3 (Number): X, Y and Z position of the block\n- Output 4 to 6 (Number): Euler rotation X, Y and Z of the block\n- Output 7 to 9 (Number): Linear velocity X, Y and Z of the block\n- Output 10 to 12 (Number): Angular velocity X, Y and Z of the block\n- Output 13 (Number): Absolute linear velocity of the block\n- Output 14 (Number): Absolute angular velocity of the block\n- Output 15 (Number): Local Z tilt (pitch)\n- Output 16 (Number): Local X tilt (roll)\n- Output 17 (Number): Compass heading (-0.5 to 0.5)\n\nNote that modifying physics sensor in xml to make it invisible also disturbs output 17.\n\nLinear Speed Sensor\n\n[![Linear Speed Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Linear_Speed_Sensor.jpg/revision/latest?cb=20190317011212)\n\n- Output 1 (Number): Speed in m/s.\n\nThere are different modes:\n\n- Absolute: The speed without caring about direction.\n- Horizontal: The horizontal speed.\n- Vertical: The vertical speed.\n- Directional: The speed in the axis of the sensor. This is the only mode in which the orientation of the sensor matters.\n\nDistance Sensor\n\n[![Distance Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/73/Distance_Sensor.jpg/revision/latest?cb=20190317011132)\n\n- Output 1 (Number): Distance to the next block (in the direction of blue arrow when placing). Max range: 500m\n- when nothing is detected, it will output 500m.\n\nLaser Distance Sensor\n\n[![Laser Distance Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/84/Laser_Distance_Sensor.png/revision/latest?cb=20200130200837)\n\n- Similar to distance sensor, but has a higher max range (4000m).\n- when nothing is detected, it will output 4000m.\n- also shows a cool laser beam when active\n- Optional IR mode hides visible laser (unless using Night Vision)\n\nLaser Point Sensor\n\n[![Laser Point Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b7/Laser_Point_Sensor.png/revision/latest?cb=20200130200841)\n\n- can detect laser beacons and tell you in which direction the laser beacon is.\n\nLaser Beacon\n\n[![Laser Beacon](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5e/Laser_Beacon.png/revision/latest?cb=20200130200845)\n\nNeeded for the Laser Point Sensor.\n\n[Compass Sensor](https://stormworks.fandom.com/wiki/Compass_Sensor \"Compass Sensor\")\n\n[![Compass Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f8/Compass_Sensor.jpg/revision/latest?cb=20190317011124)\n\n- Output 1 (Number): your direction relative to the north\n\nAltimeter\n\n[![Altimeter](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/08/Altimeter.jpg/revision/latest?cb=20190317011110)\n\n- Output 1 (Number): the height relative to the sea level in meters.\n\nGPS\n\n[![GPS](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f3/GPS.jpg/revision/latest?cb=20190317011201)\n\n- Output 1 (Number): the x coordinate.\n- Output 2 (Number): the y coordinate.\n\n## Mechanical\n\nTorque Meter\n\n[![Torque Meter](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/22/Torque_Meter.jpg/revision/latest?cb=20190317011236)\n\n- Output 1 (Number): the RPS (rotations per second).\n- Output 2 (Number): the force.\n\n## Radar\n\nBasic Radar\n\n[![Stormworks-radar-basic](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/07/Stormworks-radar-basic.jpg/revision/latest?cb=20240829151115)\n\n- Can detect vehicles and persons in a radius around it.\n- For more informations on the radar Please visit\n- [https://stormworks.fandom.com/wiki/Radar](https://stormworks.fandom.com/wiki/Radar \"Radar\")\n\nPhalanx Radar\n\n[![Strormworks-Radar-Phalanx](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9f/Strormworks-Radar-Phalanx.jpg/revision/latest?cb=20240829151115)\n\n- Can detect vehicles and persons in a radius around it.\n\nRadar Dish / Large radar\n\n[![Stormworks-radar-dish](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Stormworks-radar-dish.jpg/revision/latest?cb=20240829151115)\n\n- Can detect vehicles and persons in a radius around it.\n\nRadar AWACS / Huge Radar\n\n[![Stormworks-radar-awacs](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a1/Stormworks-radar-awacs.jpg/revision/latest?cb=20240829151114)\n\n- Can detect vehicles and persons in a radius around it.\n- Largest Radar in game\n\nMissle Radar\n\n[![Stormworks-radar-missle](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/42/Stormworks-radar-missle.jpg/revision/latest?cb=20240829151115)\n\n- Can detect vehicles and persons in a radius around it.\n- Desinged to be used on missles\n- Has a specialized composite port to be able to connect to rocket fins\n\n## Sonar\n\nA sonar that returns information about detected objects within range. This sensor outputs the relative angle to underwater sound waves. The sensor can passively detect certain noisy components such as propellers or engines, but it can also send out a loud ping to detect quiet underwater bodies. While the ping input is held, passive signals will be suppressed. After activating, another ping will overwrite the previous one, and no further data will be returned from the old signal.\n\nSmal Sonar\n\n[![Stormworks-smal-sonar](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ed/Stormworks-smal-sonar.jpg/revision/latest?cb=20240829150026)\n\n- Can detect Bodies in a radius of 60km around it.\n- Has a specialized composite port to be able to connect to rocket fins\n\nSmal Sonar\n\n[![Stormworks-Medium-Sonar](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/ba/Stormworks-Medium-Sonar.jpg/revision/latest?cb=20240829152459)\n\n- Can detect Bodies in a radius of 100km around it.\n\nSmal Sonar\n\n[![Stormworks-Large-Sonar](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/00/Stormworks-Large-Sonar.jpg/revision/latest?cb=20240829152500)\n\n- Can detect Bodies in a radius of 200km around it.\n\n## Fluid\n\nFluid Pressure Sensor\n\n[![Fluid Pressure Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1d/Fluid_Pressure_Sensor.jpg/revision/latest?cb=20190317011155)\n\n- Output 1 (Number): the pressure.\n\nFluid Meter\n\n[![Fluid Meter](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/08/Fluid_Meter.jpg/revision/latest?cb=20190317011147)\n\n- Output 1 (Number): the capacity of the surrounding room.\n- Output 2 (Number): the amount of fluid in the surrounding room in liters.\n\n## Other\n\nClock\n\n[![Clock](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/20/Clock.jpg/revision/latest?cb=20190317011116)\n\n- Output 1 (Number): the current time (0 = 12am, 0.5 = 12pm)",
+    "plain_text": "Sensors\nEnvironment\nPlayer Sensor\nOutput 1 (Number): Number of players detected\nOutput 2 (On/Off): if at least one player is detected\nTypes:\nSphere (Trigger is a ball around the sensor)\nHemisphere (is half of a ball = just in the front)\nMode:\nDetect All\nDetect Players\nDetect NPCs\nRadius:\nMinimum 0.25m (1 block)\nMaximum 10m (40 blocks)\nWind Sensor\nOutput 1 (Number): Relative direction of the wind\nOutput 2 (Number): Relative speed of the wind (in m/s)\nRain Sensor\nOutput 1 (Number): How intense its raining (0 - Sunny, 1 - Thunderstorm)\nHumidity Sensor\nOutput 1 (Number): Humidity (0 - No fog, 1 - Max fog)\nTemperature Sensor\nOutput 1 (Number): Ambient room temperature in °C\nPosition of Vehicle relative to the world\nTilt Sensor\nOutput 1 (Number): The \"angle\" of tilt. 0.25 is +90 degree, -0.25 is -90 degree. Zero is defined by the direction of the block (blue arrow when placing).\nPhysics Sensor\nThe physics sensor component combines functionality of several other sensors into a single block. The sensor outputs position, rotation, linear and angular speeds over 14 composite channels detailed on the component, where the red arrow is the X-axis, the green arrow is the Y-axis, and the blue arrow is the Z-axis.\nThe composite output is:\nOutput 1 to 3 (Number): X, Y and Z position of the block\nOutput 4 to 6 (Number): Euler rotation X, Y and Z of the block\nOutput 7 to 9 (Number): Linear velocity X, Y and Z of the block\nOutput 10 to 12 (Number): Angular velocity X, Y and Z of the block\nOutput 13 (Number): Absolute linear velocity of the block\nOutput 14 (Number): Absolute angular velocity of the block\nOutput 15 (Number): Local Z tilt (pitch)\nOutput 16 (Number): Local X tilt (roll)\nOutput 17 (Number): Compass heading (-0.5 to 0.5)\nNote that modifying physics sensor in xml to make it invisible also disturbs output 17.\nLinear Speed Sensor\nOutput 1 (Number): Speed in m/s.\nThere are different modes:\nAbsolute: The speed without caring about direction.\nHorizontal: The horizontal speed.\nVertical: The vertical speed.\nDirectional: The speed in the axis of the sensor. This is the only mode in which the orientation of the sensor matters.\nDistance Sensor\nOutput 1 (Number): Distance to the next block (in the direction of blue arrow when placing). Max range: 500m\nwhen nothing is detected, it will output 500m.\nLaser Distance Sensor\nSimilar to distance sensor, but has a higher max range (4000m).\nwhen nothing is detected, it will output 4000m.\nalso shows a cool laser beam when active\nOptional IR mode hides visible laser (unless using Night Vision)\nLaser Point Sensor\ncan detect laser beacons and tell you in which direction the laser beacon is.\nLaser Beacon\nNeeded for the Laser Point Sensor.\nCompass Sensor\nOutput 1 (Number): your direction relative to the north\nAltimeter\nOutput 1 (Number): the height relative to the sea level in meters.\nGPS\nOutput 1 (Number): the x coordinate.\nOutput 2 (Number): the y coordinate.\nMechanical\nTorque Meter\nOutput 1 (Number): the RPS (rotations per second).\nOutput 2 (Number): the force.\nRadar\nBasic Radar\nCan detect vehicles and persons in a radius around it.\nFor more informations on the radar Please visit\nhttps://stormworks.fandom.com/wiki/Radar\nPhalanx Radar\nCan detect vehicles and persons in a radius around it.\nRadar Dish / Large radar\nCan detect vehicles and persons in a radius around it.\nRadar AWACS / Huge Radar\nCan detect vehicles and persons in a radius around it.\nLargest Radar in game\nMissle Radar\nCan detect vehicles and persons in a radius around it.\nDesinged to be used on missles\nHas a specialized composite port to be able to connect to rocket fins\nSonar\nA sonar that returns information about detected objects within range. This sensor outputs the relative angle to underwater sound waves. The sensor can passively detect certain noisy components such as propellers or engines, but it can also send out a loud ping to detect quiet underwater bodies. While the ping input is held, passive signals will be suppressed. After activating, another ping will overwrite the previous one, and no further data will be returned from the old signal.\nSmal Sonar\nCan detect Bodies in a radius of 60km around it.\nHas a specialized composite port to be able to connect to rocket fins\nSmal Sonar\nCan detect Bodies in a radius of 100km around it.\nSmal Sonar\nCan detect Bodies in a radius of 200km around it.\nFluid\nFluid Pressure Sensor\nOutput 1 (Number): the pressure.\nFluid Meter\nOutput 1 (Number): the capacity of the surrounding room.\nOutput 2 (Number): the amount of fluid in the surrounding room in liters.\nOther\nClock\nOutput 1 (Number): the current time (0 = 12am, 0.5 = 12pm)",
+    "char_count": 11498,
+    "word_count": 799,
+    "sha256": "c41aecd283bb95101155fc395505a96225ce0f3ef76bf0c918a090df5398c70f"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Sensors",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 636,
+    "revision_id": 4637,
+    "revision_timestamp": "2025-08-24T02:28:59Z",
+    "retrieved_at": "2026-08-30T15:13:10+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

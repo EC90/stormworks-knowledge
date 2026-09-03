@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Mechanics",
+  "display_title": "Gameplay/Workbench/Components/Mechanics",
+  "summary": "Pipes: As specified in their names (Fluid or Rotation (RPS)) NOTE: The Compact pivot does not have a pipe in-, nor output",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Mechanics     [ edit page ]",
+      "anchor": "Mechanics_[_edit_page_]"
+    },
+    {
+      "level": 3,
+      "title": "Robotic Pivots",
+      "anchor": "Robotic_Pivots"
+    },
+    {
+      "level": 4,
+      "title": "'\"`UNIQ--postMath-00000001-QINU`\"'",
+      "anchor": "'\"`UNIQ--postMath-00000001-QINU`\"'"
+    },
+    {
+      "level": 4,
+      "title": "Compact Robotic Pivot",
+      "anchor": "Compact_Robotic_Pivot"
+    },
+    {
+      "level": 4,
+      "title": "Robotic Pivot Power",
+      "anchor": "Robotic_Pivot_Power"
+    },
+    {
+      "level": 4,
+      "title": "Robotic Pivot Fluid",
+      "anchor": "Robotic_Pivot_Fluid"
+    },
+    {
+      "level": 3,
+      "title": "Velocity Pivots",
+      "anchor": "Velocity_Pivots"
+    },
+    {
+      "level": 4,
+      "title": "Compact Velocity Pivot",
+      "anchor": "Compact_Velocity_Pivot"
+    },
+    {
+      "level": 4,
+      "title": "Velocity Pivot",
+      "anchor": "Velocity_Pivot"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Workbench",
+    "Gameplay/Workbench/Components"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0b/Compact_Robotic_Pivot.jpg/revision/latest?cb=20190317010334",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0b/Compact_Robotic_Pivot.jpg/revision/latest/scale-to-width-down/100?cb=20190317010334",
+      "alt": "Compact Robotic Pivot",
+      "width": "100",
+      "height": "146"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a0/Compact_Velocity_Pivot.jpg/revision/latest?cb=20190419120842",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a0/Compact_Velocity_Pivot.jpg/revision/latest/scale-to-width-down/100?cb=20190419120842",
+      "alt": "Compact Velocity Pivot",
+      "width": "100",
+      "height": "146"
+    },
+    {
+      "url": "https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/8410f879ea4d8557071da630658163c7932ded53",
+      "thumbnail_url": "https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/8410f879ea4d8557071da630658163c7932ded53",
+      "alt": "{\\displaystyle x=CustomAngle\\div 90}",
+      "width": null,
+      "height": null
+    },
+    {
+      "url": "https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/dee806ef4be5d1f455c685445ac8d3bb97136bde",
+      "thumbnail_url": "https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/dee806ef4be5d1f455c685445ac8d3bb97136bde",
+      "alt": "{\\textstyle 38.7\\div 90=0.43}",
+      "width": null,
+      "height": null
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Mechanics?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Mechanics?action=edit). |\n| --- | --- |\n\n## Mechanics\n\nCompact Robotic Pivot\n\n[![Compact Robotic Pivot](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0b/Compact_Robotic_Pivot.jpg/revision/latest/scale-to-width-down/100?cb=20190317010334)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0b/Compact_Robotic_Pivot.jpg/revision/latest?cb=20190317010334)\n\nCompact Velocity Pivot\n\n[![Compact Velocity Pivot](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a0/Compact_Velocity_Pivot.jpg/revision/latest/scale-to-width-down/100?cb=20190419120842)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a0/Compact_Velocity_Pivot.jpg/revision/latest?cb=20190419120842)\n\nSmall Connector\n\n[![Connector Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ed/Connector_Small.jpg/revision/latest?cb=20190317010346)\n\nLarge Connector\n\n[![Connector Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/41/Connector_Large.jpg/revision/latest?cb=20190317010340)\n\nHinge Connector\n\n[![Hinge Connector](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/22/Hinge_Connector.jpg/revision/latest?cb=20190317010504)\n\nDoor Dock Small\n\n[![Door Dock Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/28/Door_Dock_Small.jpg/revision/latest?cb=20190317010400)\n\nDoor Dock Large\n\n[![Door Dock Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d9/Door_Dock_Large.jpg/revision/latest?cb=20190317010352)\n\nDoor Frame Controller\n\n[![Door Frame Controller](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6d/Door_Frame_Controller.jpg/revision/latest?cb=20190317010406)\n\nDoor Frame Corner\n\n[![Door Frame Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b8/Door_Frame_Corner.jpg/revision/latest?cb=20190317010412)\n\nDoor Frame Edge\n\n[![Door Frame Edge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/42/Door_Frame_Edge.jpg/revision/latest?cb=20190317010417)\n\nDoor Panel Corner\n\n[![Door Panel Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/dc/Door_Panel_Corner.jpg/revision/latest?cb=20190317010425)\n\nDoor Panel Edge\n\n[![Door Panel Edge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3f/Door_Panel_Edge.jpg/revision/latest?cb=20190317010431)\n\nHatch\n\n[![Hatch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5f/Hatch.jpg/revision/latest?cb=20190317010456)\n\nDoor\n\n[![Door](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/dc/Door.jpg/revision/latest?cb=20190317010439)\n\nRobotic Door Hinge\n\n[![Robotic Door Hinge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f3/Robotic_Door_Hinge.jpg/revision/latest?cb=20190317010609)\n\nLinear Track Base Small\n\n[![Linear Track Base Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/05/Linear_Track_Base_Small.jpg/revision/latest?cb=20190317010517)\n\nLinear Track Extension Small\n\n[![Linear Track Extension Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5a/Linear_Track_Extension_Small.jpg/revision/latest?cb=20190317010529)\n\nLinear Track Base\n\n[![Linear Track Base](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/92/Linear_Track_Base.jpg/revision/latest?cb=20190317010524)\n\nLinear Track Extension\n\n[![Linear Track Extension](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f2/Linear_Track_Extension.jpg/revision/latest?cb=20190317010535)\n\nMagnet\n\n[![Magnet](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/ce/Magnet.jpg/revision/latest?cb=20190317010542)\n\nPiston\n\n[![Piston](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a1/Piston.jpg/revision/latest?cb=20190317010554)\n\nPiston Suspension\n\n[![Piston Suspension](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Piston_Suspension.jpg/revision/latest?cb=20190317010548)\n\nPivot\n\n[![Pivot](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/de/Pivot.jpg/revision/latest?cb=20190317010601)\n\nRobotic Hinge\n\n[![Robotic Hinge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/17/Robotic_Hinge.jpg/revision/latest?cb=20190317010617)\n\nVelocity Pivot\n\n[![Velocity Pivot](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/87/Velocity_Pivot.jpg/revision/latest?cb=20190317010703)\n\nRobotic Pivot Power\n\n[![Robotic Pivot Power](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1a/Robotic_Pivot_Power.jpg/revision/latest?cb=20190317010630)\n\nRobotic Pivot Fluid\n\n[![Robotic Pivot Fluid](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/89/Robotic_Pivot_Fluid.jpg/revision/latest?cb=20190317010624)\n\nSliding Connector Track\n\n[![Sliding Connector Track](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/36/Sliding_Connector_Track.jpg/revision/latest?cb=20190317010642)\n\nSliding Connector Gripper\n\n[![Sliding Connector Gripper](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ef/Sliding_Connector_Gripper.jpg/revision/latest?cb=20190317010636)\n\nSuspension\n\n[![Suspension](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/38/Suspension.jpg/revision/latest?cb=20190317010648)\n\nVehicle Parachute\n\n[![Vehicle Parachute](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/8d/Vehicle_Parachute.jpg/revision/latest?cb=20190317010655)\n\nWinch Small\n\n[![Winch Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/de/Winch_Small.jpg/revision/latest?cb=20190317010722)\n\nWinch Large\n\n[![Winch Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c8/Winch_Large.jpg/revision/latest?cb=20190317010712)\n\nLanding Float\n\n[![Landing Float](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a5/Landing_Float.jpg/revision/latest?cb=20190317010509)\n\nFloats on water.\n\n### Robotic Pivots\n\n- Input:\n  - Logic (number): Rotation Target\n  - Pipes: As specified in their names (Fluid or Rotation (RPS)) NOTE: The Compact pivot does not have a pipe in-, nor output\n- Output:\n  - Pipes: As specified\n\nRobotic pivots can, as their name suggests, pivot to a specified destination. This destination can be -90 to 90 degrees from the starting position (1/4th of a turn in both directions. However, if you input a number, it should be between -1 and 1, since the input isn't understood by the robotic pivot in degrees. This means that if you want to turn the pivot to 45°, then your input has to be 0.5. Due to this, if you want to turn to a very specific, not easily converted angle, (like 38.7°) you have to use a bit of maths. The formula is the following:\n\n#### x = C u s t o m A n g l e ÷ 90 {\\displaystyle x=CustomAngle\\div 90} ![{\\displaystyle x=CustomAngle\\div 90}](https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/8410f879ea4d8557071da630658163c7932ded53)\n\nwhere \"x\" is the number the pivot needs. From this, with our example, we get 38.7 ÷ 90 = 0.43 {\\textstyle 38.7\\div 90=0.43} ![{\\textstyle 38.7\\div 90=0.43}](https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/dee806ef4be5d1f455c685445ac8d3bb97136bde), meaning our input will be 0.43.\n\n#### Compact Robotic Pivot\n\n- The smallest one of the bunch, with no extra features\n\n#### Robotic Pivot Power\n\n- One of the 2 big ones\n- Can be used as an RPS Passthrough. For example if you're building a custom rail truck, and you want to power the wheels, you use this pivot for putting the RPS from the engine to the wheels\n\n#### Robotic Pivot Fluid\n\n- The 2nd big guy\n- Has a built-in fluid passthrough, meaning you can pass fluids through it. Custom fire extinguisher turrets come to mind as an example, directing the water from the fluid tanks to the adjustable nozzle.\n\n### Velocity Pivots\n\n- Input:\n  - Logic (number): Rotation Speed\n- Output:\n  - Logic (number): Pivot Angle (ONLY on the big version)\n\nVelocity Pivots are usually used where either a constant motion is required, or a Robotic Pivot's maximum angles are too much of a limitation. The non-compact version is the go-to usually for many builders, because of that extra angle output. That makes a lot more things possible, because without that, you can never be sure if your pivot is actually at the place it is supposed to be.\n\n#### Compact Velocity Pivot\n\n- The small one, you tell it how to spin and it will try its best\n\n#### Velocity Pivot\n\n- Used either the same way as the small one, without using the angle output\n- OR by using the angle output, and attaching it to a PID, you can accurately tell it where to go, thereby opening up many possibilities, for example, for turrets that you want to turn all the way around.",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nMechanics\n\nCompact Robotic Pivot\n\nCompact Velocity Pivot\n\nSmall Connector\n\nLarge Connector\n\nHinge Connector\n\nDoor Dock Small\n\nDoor Dock Large\n\nDoor Frame Controller\n\nDoor Frame Corner\n\nDoor Frame Edge\n\nDoor Panel Corner\n\nDoor Panel Edge\n\nHatch\n\nDoor\n\nRobotic Door Hinge\n\nLinear Track Base Small\n\nLinear Track Extension Small\n\nLinear Track Base\n\nLinear Track Extension\n\nMagnet\n\nPiston\n\nPiston Suspension\n\nPivot\n\nRobotic Hinge\n\nVelocity Pivot\n\nRobotic Pivot Power\n\nRobotic Pivot Fluid\n\nSliding Connector Track\n\nSliding Connector Gripper\n\nSuspension\n\nVehicle Parachute\n\nWinch Small\n\nWinch Large\n\nLanding Float\n\nFloats on water.\n\nRobotic Pivots\n\nInput:\n\nLogic (number): Rotation Target\n\nPipes: As specified in their names (Fluid or Rotation (RPS)) NOTE: The Compact pivot does not have a pipe in-, nor output\n\nOutput:\n\nPipes: As specified\n\nRobotic pivots can, as their name suggests, pivot to a specified destination. This destination can be -90 to 90 degrees from the starting position (1/4th of a turn in both directions. However, if you input a number, it should be between -1 and 1, since the input isn't understood by the robotic pivot in degrees. This means that if you want to turn the pivot to 45°, then your input has to be 0.5. Due to this, if you want to turn to a very specific, not easily converted angle, (like 38.7°) you have to use a bit of maths. The formula is the following:\n\nx\n\n=\n\nC\n\nu\n\ns\n\nt\n\no\n\nm\n\nA\n\nn\n\ng\n\nl\n\ne\n\n÷\n\n90\n\n{\\displaystyle x=CustomAngle\\div 90}\n\nwhere \"x\" is the number the pivot needs. From this, with our example, we get\n\n38.7\n\n÷\n\n90\n\n=\n\n0.43\n\n{\\textstyle 38.7\\div 90=0.43}\n\n, meaning our input will be 0.43.\n\nCompact Robotic Pivot\n\nThe smallest one of the bunch, with no extra features\n\nRobotic Pivot Power\n\nOne of the 2 big ones\n\nCan be used as an RPS Passthrough. For example if you're building a custom rail truck, and you want to power the wheels, you use this pivot for putting the RPS from the engine to the wheels\n\nRobotic Pivot Fluid\n\nThe 2nd big guy\n\nHas a built-in fluid passthrough, meaning you can pass fluids through it. Custom fire extinguisher turrets come to mind as an example, directing the water from the fluid tanks to the adjustable nozzle.\n\nVelocity Pivots\n\nInput:\n\nLogic (number): Rotation Speed\n\nOutput:\n\nLogic (number): Pivot Angle (ONLY on the big version)\n\nVelocity Pivots are usually used where either a constant motion is required, or a Robotic Pivot's maximum angles are too much of a limitation. The non-compact version is the go-to usually for many builders, because of that extra angle output. That makes a lot more things possible, because without that, you can never be sure if your pivot is actually at the place it is supposed to be.\n\nCompact Velocity Pivot\n\nThe small one, you tell it how to spin and it will try its best\n\nVelocity Pivot\n\nUsed either the same way as the small one, without using the angle output\n\nOR by using the angle output, and attaching it to a PID, you can accurately tell it where to go, thereby opening up many possibilities, for example, for turrets that you want to turn all the way around.",
+    "char_count": 12084,
+    "word_count": 553,
+    "sha256": "52701213b556a34dd69bc5d61fe61c6f4bb8cb97f951f54f83aa2c26cbcda73f"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=\n\n\n\n\n{{Wiki_Component_Description | title=Compact Robotic Pivot | image=Compact Robotic Pivot.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Compact Velocity Pivot | image=Compact Velocity Pivot.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Small Connector | image=Connector Small.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Large Connector | image=Connector Large.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Hinge Connector | image=Hinge Connector.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Door Dock Small | image=Door Dock Small.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Door Dock Large | image=Door Dock Large.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Door Frame Controller | image=Door Frame Controller.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Door Frame Corner | image=Door Frame Corner.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Door Frame Edge | image=Door Frame Edge.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Door Panel Corner | image=Door Panel Corner.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Door Panel Edge | image=Door Panel Edge.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Hatch | image=Hatch.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Door | image=Door.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Robotic Door Hinge | image=Robotic Door Hinge.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Linear Track Base Small | image=Linear Track Base Small.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Linear Track Extension Small | image=Linear Track Extension Small.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Linear Track Base | image=Linear Track Base.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Linear Track Extension | image=Linear Track Extension.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Magnet | image=Magnet.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Piston | image=Piston.jpg | content=&nbsp;\n\n}}\n\n{{Wiki_Component_Description | title=Piston Suspension | image=Piston Suspension.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Pivot | image=Pivot.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Robotic Hinge | image=Robotic Hinge.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Velocity Pivot | image=Velocity Pivot.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Robotic Pivot Power | image=Robotic Pivot Power.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Robotic Pivot Fluid | image=Robotic Pivot Fluid.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Sliding Connector Track | image=Sliding Connector Track.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Sliding Connector Gripper | image=Sliding Connector Gripper.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Suspension | image=Suspension.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Vehicle Parachute | image=Vehicle Parachute.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Winch Small | image=Winch Small.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Winch Large | image=Winch Large.jpg | content=&nbsp;\n\n}}\n{{Wiki_Component_Description | title=Landing Float | image=Landing Float.jpg | content=&nbsp;\nFloats on water.\n}}\n\n\n\n\n}}\n\n===<u>Robotic Pivots</u>===\n\n*Input: \n**Logic (number): Rotation Target\n**Pipes: As specified in their names (Fluid or Rotation (RPS)) NOTE: The Compact pivot does not have a pipe in-, nor output\n*Output:\n**Pipes: As specified\n\nRobotic pivots can, as their name suggests, pivot to a specified destination. This destination can be -90 to 90 degrees from the starting position (1/4th of a turn in both directions. However, if you input a number, it should be between -1 and 1, since the input isn't understood by the robotic pivot in degrees. This means that if you want to turn the pivot to 45°, then your input has to be 0.5. Due to this, if you want to turn to a very specific, not easily converted angle, (like 38.7°) you have to use a bit of maths. The formula is the following:\n\n====<math>x = Custom Angle \\div 90</math>====\nwhere \"x\" is the number the pivot needs. From this, with our example, we get <math display=\"inline\">38.7 \\div 90 = 0.43</math>, meaning our input will be 0.43.\n\n====Compact Robotic Pivot====\n\n*The smallest one of the bunch, with no extra features\n\n====Robotic Pivot Power====\n\n*One of the 2 big ones\n*Can be used as an RPS Passthrough. For example if you're building a custom rail truck, and you want to power the wheels, you use this pivot for putting the RPS from the engine to the wheels\n\n====Robotic Pivot Fluid====\n\n*The 2nd big guy\n*Has a built-in fluid passthrough, meaning you can pass fluids through it. Custom fire extinguisher turrets come to mind as an example, directing the water from the fluid tanks to the adjustable nozzle.\n\n=== <u>Velocity Pivots</u> ===\n\n* Input:\n** Logic (number): Rotation Speed\n* Output:\n** Logic (number): Pivot Angle (ONLY on the big version)\n\nVelocity Pivots are usually used where either a constant motion is required, or a Robotic Pivot's maximum angles are too much of a limitation. The non-compact version is the go-to usually for many builders, because of that extra angle output. That makes a lot more things possible, because without that, you can never be sure if your pivot is actually at the place it is supposed to be.\n\n==== Compact Velocity Pivot ====\n\n* The small one, you tell it how to spin and it will try its best\n\n==== Velocity Pivot ====\n\n* Used either the same way as the small one, without using the angle output\n* OR by using the angle output, and attaching it to a PID, you can accurately tell it where to go, thereby opening up many possibilities, for example, for turrets that you want to turn all the way around.",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Mechanics",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 627,
+    "revision_id": 4165,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-31T10:02:48+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Hardpoint",
+  "display_title": "Gameplay/Workbench/Components/Hardpoint",
+  "summary": "Hardpoints are detachable connectors similar to\nsmall connectors\n, except that the attached part is rigidly connected and will not snap loose until it is specifically released or launched.\nUses\nHardpoints are primarily used for carrying various types of ordnance (torpedoes, missiles, bombs), but also have a wide variety of other less obvious uses:\nDrop tanks (hardpoints come with fluid connectors to facilitate this)\nRocket pods (makes it possible to reload rocket launchers)\nFlare pods (as above, but for chaff/flares)\nSensor pods (especially for\nradar\nthat can track your own missiles)\nSupply dr",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Uses",
+      "anchor": "Uses"
+    },
+    {
+      "level": 3,
+      "title": "Sensor pods",
+      "anchor": "Sensor_pods"
+    },
+    {
+      "level": 2,
+      "title": "Attaching to hardpoints",
+      "anchor": "Attaching_to_hardpoints"
+    }
+  ],
+  "internal_links": [
+    "Hardpoint connector attachment",
+    "Hardpoint connector body",
+    "Radar",
+    "Rope",
+    "Rope anchor",
+    "Small connector",
+    "Small winch"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Hardpoints are detachable connectors similar to small connectors, except that the attached part is rigidly connected and will not snap loose until it is specifically released or launched.\n\n## Uses\n\nHardpoints are primarily used for carrying various types of ordnance (torpedoes, missiles, bombs), but also have a wide variety of other less obvious uses:\n\n- Drop tanks (hardpoints come with fluid connectors to facilitate this)\n- Rocket pods (makes it possible to reload rocket launchers)\n- Flare pods (as above, but for chaff/flares)\n- Sensor pods (especially for [radar](https://stormworks.fandom.com/wiki/Radar \"Radar\") that can track your own missiles)\n- Supply drops\n\n### Sensor pods\n\nA sensor pod spawned in as a separate vehicle can be attached to hardpoint. A hardpoint connector attachment provides both composite input and output, allowing the radar data to be transferred to the vehicle through its hardpoint connector body. Note that radar normally does not detect the vehicle its on, nor any of its \"subgrids\", even if they've been detached like missiles and bombs. With a sensor pod as a different vehicle, it can detect the vehicle its on, including any of its deployed ordnance, making it possible to operate remote-controlled missiles with no built-in gps or transmitter antennas on the missile (for example, could use an initial remote-controlled phase with target prediction guidance, followed by switching over to a self-controlled phase with augmented proportional navigation).\n\nAlternatively, if reloading a vehicle and it is desired to not detect the vehicle's own launched ordnance, a sensor pod spawned as part of the same \"vehicle\" with a group of ordnance will not detect the items spawned with it.\n\n## Attaching to hardpoints\n\nAttaching a hardpoint connector to a hardpoint body requires high precision. An easy way to achieve the required precision is to have [small winches](https://stormworks.fandom.com/wiki/Small_winch \"Small winch\") on either side of the hardpoint body, and rope anchors with matching spacing on the pod or ordnance. Then, a player can simply push/pull the payload close to the hardpoint, attach [ropes](https://stormworks.fandom.com/wiki/Rope \"Rope\") between the winches and rope anchors, and winch the payload precisely into position.\n\nAlternatively, a small payload lift can be built, though this tends to result in much slower reloading due to needing to precisely align it in two axes before raising the payload into position. If it has raised edges, these may also interfere with any other ordnance already loaded near the hardpoint.",
+    "plain_text": "Hardpoints are detachable connectors similar to\nsmall connectors\n, except that the attached part is rigidly connected and will not snap loose until it is specifically released or launched.\nUses\nHardpoints are primarily used for carrying various types of ordnance (torpedoes, missiles, bombs), but also have a wide variety of other less obvious uses:\nDrop tanks (hardpoints come with fluid connectors to facilitate this)\nRocket pods (makes it possible to reload rocket launchers)\nFlare pods (as above, but for chaff/flares)\nSensor pods (especially for\nradar\nthat can track your own missiles)\nSupply drops\nSensor pods\nA sensor pod spawned in as a separate vehicle can be attached to hardpoint. A\nhardpoint connector attachment\nprovides both composite input and output, allowing the radar data to be transferred to the vehicle through its\nhardpoint connector body\n. Note that radar normally does not detect the vehicle its on, nor any of its \"subgrids\", even if they've been detached like missiles and bombs. With a sensor pod as a different vehicle, it can detect the vehicle its on, including any of its deployed ordnance, making it possible to operate remote-controlled missiles with no built-in gps or transmitter antennas on the missile (for example, could use an initial remote-controlled phase with target prediction guidance, followed by switching over to a self-controlled phase with augmented proportional navigation).\nAlternatively, if reloading a vehicle and it is desired to not detect the vehicle's own launched ordnance, a sensor pod spawned as part of the same \"vehicle\" with a group of ordnance will not detect the items spawned with it.\nAttaching to hardpoints\nAttaching a hardpoint connector to a hardpoint body requires high precision. An easy way to achieve the required precision is to have\nsmall winches\non either side of the hardpoint body, and\nrope anchors\nwith matching spacing on the pod or ordnance. Then, a player can simply push/pull the payload close to the hardpoint, attach\nropes\nbetween the winches and rope anchors, and winch the payload precisely into position.\nAlternatively, a small payload lift can be built, though this tends to result in much slower reloading due to needing to precisely align it in two axes before raising the payload into position. If it has raised edges, these may also interfere with any other ordnance already loaded near the hardpoint.",
+    "char_count": 2589,
+    "word_count": 391,
+    "sha256": "0cfa9705767588766e9b79621f4db0fdff39e0c93634c03dedd00e11a53edbdb"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Hardpoint",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1271,
+    "revision_id": 4159,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-30T15:12:55+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

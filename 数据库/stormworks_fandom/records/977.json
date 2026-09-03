@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki/Standards/Features",
+  "display_title": "Wiki/Standards/Features",
+  "summary": "Every Standard Label/Badge can have multiple feature codes.\nIf you meet the rules for the features you can add them to your badge.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Standard",
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Features     [ edit page ]",
+      "anchor": "Features_[_edit_page_]"
+    },
+    {
+      "level": 3,
+      "title": "Example",
+      "anchor": "Example"
+    },
+    {
+      "level": 3,
+      "title": "Global feature rules",
+      "anchor": "Global_feature_rules"
+    },
+    {
+      "level": 3,
+      "title": "Local feature rules",
+      "anchor": "Local_feature_rules"
+    }
+  ],
+  "internal_links": [
+    "Wiki",
+    "Wiki/Standards",
+    "Wiki/Standards/Land",
+    "Wiki/Standards/Land/Truck",
+    "Wiki/Standards/Water"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Standards/Features?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Standards/Features?action=edit). |\n| --- | --- |\n\n## Features\n\nEvery Standard Label/Badge can have multiple feature codes. If you meet the rules for the features you can add them to your badge.\n\n### Example\n\nYou have the Standard:\n\nStandard\n\nAP1\n\nYou now add a stabilizing system and waypoint travel system, allowing you to use the badge:\n\nStandard\n\nAP1 sw\n\n### Global feature rules\n\n- a this vehicle uses the advanced mode/advanced engines\n- l this vehicle has a winch or extendable pole with a connector (usually the small connector) to connect to other things and transport them\n- s this vehicle has a stabilizing mode (e.g. keep speed, altitude, direction)\n- w this vehicle can travel to a waypoint autonomously\n- r this vehicles movement can be controlled remotely (remotely means by connector composite or radio communication! For example: brakes, speed, steering, ...)\n- + this vehicle has some crazy autonomous functionality (e.g. autonomous takeoff/waypoint/landing)\n- x this vehicle provides emergency exit procedures. For example: escape door, life raft, parachutes\n\n### Local feature rules\n\n- b Used by [Land vehicles](https://stormworks.fandom.com/wiki/Wiki/Standards/Land)\n- c Used by [Land vehicles](https://stormworks.fandom.com/wiki/Wiki/Standards/Land)\n- t Used by [Trucks](https://stormworks.fandom.com/wiki/Wiki/Standards/Land/Truck)\n- o Used by [Water vehicles](https://stormworks.fandom.com/wiki/Wiki/Standards/Water)",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nFeatures\n\nEvery Standard Label/Badge can have multiple feature codes.\nIf you meet the rules for the features you can add them to your badge.\n\nExample\n\nYou have the Standard:\n\nStandard\n\nA\nP\n1\n\nYou now add a stabilizing system and waypoint travel system, allowing you to use the badge:\n\nStandard\n\nA\nP\n1\n\nsw\n\nGlobal feature rules\n\na\n this vehicle uses the advanced mode/advanced engines\n\nl\n this vehicle has a winch or extendable pole with a connector (usually the small connector) to connect to other things and transport them\n\ns\n this vehicle has a stabilizing mode (e.g. keep speed, altitude, direction)\n\nw\n this vehicle can travel to a waypoint autonomously\n\nr\n this vehicles movement can be controlled remotely (remotely means by connector composite or radio communication! For example: brakes, speed, steering, ...)\n\n+\n this vehicle has some crazy autonomous functionality (e.g. autonomous takeoff/waypoint/landing)\n\nx\n this vehicle provides emergency exit procedures. For example: escape door, life raft, parachutes\n\nLocal feature rules\n\nb\n Used by\n Land vehicles\n\nc\n Used by\n Land vehicles\n\nt\n Used by\n Trucks\n\no\n Used by\n Water vehicles",
+    "char_count": 1863,
+    "word_count": 195,
+    "sha256": "8fd9ee58ba09c2133b53bca8b480af165ffc66abbcdc11b9933b3e74e4269a53"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\n\n\nEvery Standard Label/Badge can have multiple feature codes.\nIf you meet the rules for the features you can add them to your badge.\n<br>\n===Example===\nYou have the Standard:{{Standard | type=Air | typeshort=A | subtype=Plane | subtypeshort=P | version=1 | features= | size=}}\nYou now add a stabilizing system and waypoint travel system, allowing you to use the badge:{{Standard | type=Air | typeshort=A | subtype=Plane | subtypeshort=P | version=1 | features=sw | size=}}\n\n\n\n\n===Global feature rules===\n* <span style=\"color: #f48331; font-weight: bold; font-size: 150%\">a</span> this vehicle uses the advanced mode/advanced engines\n* <span style=\"color: #f48331; font-weight: bold; font-size: 150%\">l</span> this vehicle has a winch or extendable pole with a connector (usually the small connector) to connect to other things and transport them\n* <span style=\"color: #f48331; font-weight: bold; font-size: 150%\">s</span> this vehicle has a stabilizing mode (e.g. keep speed, altitude, direction)\n* <span style=\"color: #f48331; font-weight: bold; font-size: 150%\">w</span> this vehicle can travel to a waypoint autonomously\n* <span style=\"color: #f48331; font-weight: bold; font-size: 150%\">r</span> this vehicles movement can be controlled remotely (remotely means by connector composite or radio communication! For example: brakes, speed, steering, ...)\n* <span style=\"color: #f48331; font-weight: bold; font-size: 150%\">+</span> this vehicle has some crazy autonomous functionality (e.g. autonomous takeoff/waypoint/landing)\n* <span style=\"color: #f48331; font-weight: bold; font-size: 150%\">x</span> this vehicle provides emergency exit procedures. For example: escape door, life raft, parachutes\n\n===Local feature rules===\n* <span style=\"color: #f48331; font-weight: bold; font-size: 150%\">b</span> Used by [[Wiki/Standards/Land | Land vehicles]]\n* <span style=\"color: #f48331; font-weight: bold; font-size: 150%\">c</span> Used by [[Wiki/Standards/Land | Land vehicles]]\n* <span style=\"color: #f48331; font-weight: bold; font-size: 150%\">t</span> Used by [[Wiki/Standards/Land/Truck | Trucks]]\n* <span style=\"color: #f48331; font-weight: bold; font-size: 150%\">o</span> Used by [[Wiki/Standards/Water | Water vehicles]]\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Standards/Features",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 977,
+    "revision_id": 2104,
+    "revision_timestamp": "2019-05-19T20:05:57Z",
+    "retrieved_at": "2026-08-31T10:12:37+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

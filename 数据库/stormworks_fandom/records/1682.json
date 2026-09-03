@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Windows",
+  "display_title": "Wiki/Building/Components/Windows",
+  "summary": "Alias for Gameplay/Workbench/Components/Windows",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Windows"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Windows -> Gameplay/Workbench/Components/Windows",
+    "plain_text": "Redirect: Wiki/Building/Components/Windows -> Gameplay/Workbench/Components/Windows",
+    "char_count": 83,
+    "word_count": 4,
+    "sha256": "6ca473217fbad3d3966962004c7fd08b15a7d3e29a5d0c1642b6f3bd4a20beb9"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Windows",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Windows",
+    "target_page_id": 1616,
+    "target_revision_id": 4197
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Windows",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1682,
+    "revision_id": 4198,
+    "revision_timestamp": "2025-05-14T02:40:56Z",
+    "retrieved_at": "2026-08-31T10:11:32+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

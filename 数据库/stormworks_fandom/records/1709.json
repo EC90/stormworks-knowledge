@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Game Mechanics/Trim",
+  "display_title": "Wiki/Game Mechanics/Trim",
+  "summary": "Alias for Gameplay/Mechanics/Trim",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Mechanics/Trim"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Game Mechanics/Trim -> Gameplay/Mechanics/Trim",
+    "plain_text": "Redirect: Wiki/Game Mechanics/Trim -> Gameplay/Mechanics/Trim",
+    "char_count": 61,
+    "word_count": 5,
+    "sha256": "925d1a17f675aec368af8a742cd28083d0c592f40ba906652f2c308dc863c198"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Mechanics/Trim",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Trim",
+    "target_page_id": 953,
+    "target_revision_id": 4257
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Trim",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1709,
+    "revision_id": 4258,
+    "revision_timestamp": "2025-05-14T06:15:45Z",
+    "retrieved_at": "2026-08-31T10:11:54+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,38 @@
+Add
+Subtract
+Multiply
+Divide
+Abs
+Clamp
+Constant Number
+Exponent
+Greater Than
+Less Than
+Threshold Gate
+Modulo
+Numerical Inverter
+Numerical Junction
+Numerical Switchbox
+Trigonometry
+And
+Or
+Not
+Xor
+Constant On
+JK Flip Flop
+SR Latch
+Push to Toggle
+Blinker
+Capacitor
+Delay
+Counter
+Counter (Ping Pong)
+Memory
+Up/Down
+Function
+Microcontroller
+Gyro
+PID Controller
+Composite
+Composite Data Send
+Composite Data Receive

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Game Mechanics/Logic",
+  "display_title": "Wiki/Game Mechanics/Logic",
+  "summary": "Alias for Gameplay/Mechanics/Logic",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Mechanics/Logic"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Game Mechanics/Logic -> Gameplay/Mechanics/Logic",
+    "plain_text": "Redirect: Wiki/Game Mechanics/Logic -> Gameplay/Mechanics/Logic",
+    "char_count": 63,
+    "word_count": 5,
+    "sha256": "59f2df960cdba9ff6b9342793222ecbdb3582b06abd57cebda5715a3e54a5d5a"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Mechanics/Logic",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Logic",
+    "target_page_id": 904,
+    "target_revision_id": 4243
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Logic",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1702,
+    "revision_id": 4244,
+    "revision_timestamp": "2025-05-14T06:15:44Z",
+    "retrieved_at": "2026-08-31T10:11:47+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

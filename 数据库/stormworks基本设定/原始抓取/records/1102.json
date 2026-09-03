@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Mechanics/Lua",
+  "display_title": "Gameplay/Mechanics/Lua",
+  "summary": "Lua\nIntroduction\nStormworks offers a special logic component, the \"Script\". It allows you to program Lua code that can interact with composite data and draw onto video signals.\nIf you want to use Lua in Stormworks\nread the Lua Guide",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Lua [ edit page ]",
+      "anchor": "Lua_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Introduction",
+      "anchor": "Introduction"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Mechanics",
+    "Wiki/Guides/Lua"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "## Lua\n\n## Introduction\n\nStormworks offers a special logic component, the \"Script\". It allows you to program Lua code that can interact with composite data and draw onto video signals.\n\nIf you want to use Lua in Stormworks [read the Lua Guide](https://stormworks.fandom.com/wiki/Wiki/Guides/Lua \"Wiki/Guides/Lua\")",
+    "plain_text": "Lua\nIntroduction\nStormworks offers a special logic component, the \"Script\". It allows you to program Lua code that can interact with composite data and draw onto video signals.\nIf you want to use Lua in Stormworks\nread the Lua Guide",
+    "char_count": 313,
+    "word_count": 40,
+    "sha256": "0d7188b8023010732265d10e38667bce59563c2b226296af76a1b1c2819f959b"
+  },
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Lua",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1102,
+    "revision_id": 4245,
+    "revision_timestamp": "2025-05-14T06:15:44Z",
+    "retrieved_at": "2026-08-30T14:37:46+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

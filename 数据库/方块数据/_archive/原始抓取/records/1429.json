@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Transponders",
+  "display_title": "Gameplay/Workbench/Components/Transponders",
+  "summary": "Transponders are used as emergency rescue beacons to locate players and vehicles in need of help.\nMechanics\nWhen a transponder is activated, active transponder locators will occasionally generate transponder pulses. The frequency of the transponder pulses is proportional to the distance from the transponder, so you get more frequent transponder pulses as you get closer.\nFrequency\nThe distance and frequency relationship is closely approximated by the following formula:\n0.02*d+5 = t\nWhere d is the distance (in meters) and t is the time (in ticks which are 1/60th of a second).\nConversely:\nd = t*5",
+  "categories": [],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Mechanics",
+      "anchor": "Mechanics"
+    },
+    {
+      "level": 3,
+      "title": "Frequency",
+      "anchor": "Frequency"
+    },
+    {
+      "level": 3,
+      "title": "Range",
+      "anchor": "Range"
+    },
+    {
+      "level": 2,
+      "title": "Personal equipment",
+      "anchor": "Personal_equipment"
+    }
+  ],
+  "internal_links": [],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Transponders are used as emergency rescue beacons to locate players and vehicles in need of help.\n\n## Mechanics\n\nWhen a transponder is activated, active transponder locators will occasionally generate transponder pulses. The frequency of the transponder pulses is proportional to the distance from the transponder, so you get more frequent transponder pulses as you get closer.\n\n### Frequency\n\nThe distance and frequency relationship is closely approximated by the following formula:\n\n```\n0.02*d+5 = t\n```\n\nWhere d is the distance (in meters) and t is the time (in ticks which are 1/60th of a second).\n\nConversely:\n\n```\nd = t*50 - 250\n```\n\n### Range\n\nThe maximum range for transponders (if there is one) is over 110 km, i.e. far enough for signals to span from the desert landmass in the south to the arctic airbase in the north.\n\nThe minimum range for vehicle transponders is about 250 meters. Below this distance, no matter how close the transponder and transponder locator become, there will still be an interval of 10 ticks between each transponder pulse. Handheld locators can help to home in on signals within this distance if the source isn't obvious.\n\n## Personal equipment\n\nHandheld transponders are available to players. These can be set to a man-overboard mode which will automatically turn on if the player becomes submerged.\n\nHandheld radio signal locators can also be used to narrow down the precise location of a signal. They work similar to vehicle-mounted transponder locators by providing audible beeps which get more frequent as you get closer. They have a shorter detection range but also work better at short distances. They reach their maximum beep rate at about 50 meters from a transponder, allowing for somewhat better precision than vehicle-mounted locators.",
+    "plain_text": "Transponders are used as emergency rescue beacons to locate players and vehicles in need of help.\nMechanics\nWhen a transponder is activated, active transponder locators will occasionally generate transponder pulses. The frequency of the transponder pulses is proportional to the distance from the transponder, so you get more frequent transponder pulses as you get closer.\nFrequency\nThe distance and frequency relationship is closely approximated by the following formula:\n0.02*d+5 = t\nWhere d is the distance (in meters) and t is the time (in ticks which are 1/60th of a second).\nConversely:\nd = t*50 - 250\nRange\nThe maximum range for transponders (if there is one) is over 110 km, i.e. far enough for signals to span from the desert landmass in the south to the arctic airbase in the north.\nThe minimum range for vehicle transponders is about 250 meters. Below this distance, no matter how close the transponder and transponder locator become, there will still be an interval of 10 ticks between each transponder pulse. Handheld locators can help to home in on signals within this distance if the source isn't obvious.\nPersonal equipment\nHandheld transponders are available to players. These can be set to a man-overboard mode which will automatically turn on if the player becomes submerged.\nHandheld radio signal locators can also be used to narrow down the precise location of a signal. They work similar to vehicle-mounted transponder locators by providing audible beeps which get more frequent as you get closer. They have a shorter detection range but also work better at short distances. They reach their maximum beep rate at about 50 meters from a transponder, allowing for somewhat better precision than vehicle-mounted locators.",
+    "char_count": 1784,
+    "word_count": 288,
+    "sha256": "f46f37d3189fb094048f473a087ab18d335c8cc48a5f6a6126fc8d5951a6ea10"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Transponders",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1429,
+    "revision_id": 4185,
+    "revision_timestamp": "2025-05-14T02:40:55Z",
+    "retrieved_at": "2026-08-30T15:13:15+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "site": "https://wikiwiki.jp",
+  "wiki": "sbarjp",
+  "note": "wikiwiki.jp（非 MediaWiki）。正文取自 div#content，已过滤 ::cmd/edit 链接与侧边栏。",
+  "pages": [],
+  "failed": [
+    {
+      "page": "MenuBar",
+      "error": "403"
+    }
+  ],
+  "ok": 0,
+  "failed_count": 1
+}

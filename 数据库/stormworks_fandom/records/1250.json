@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki/Guides/Lua/Stormworks API",
+  "display_title": "Wiki/Guides/Lua/Stormworks API",
+  "summary": "These are callback functions that can be added to a script and are called automatically when their specified conditions are met, the simplest callback function is\nonTick()\n which is called every game tick.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Pages_using_deprecated_source_tags"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Vehicle API",
+      "anchor": "Vehicle_API"
+    },
+    {
+      "level": 2,
+      "title": "Mission API",
+      "anchor": "Mission_API"
+    },
+    {
+      "level": 3,
+      "title": "Server Functions",
+      "anchor": "Server_Functions"
+    },
+    {
+      "level": 3,
+      "title": "Callbacks",
+      "anchor": "Callbacks"
+    },
+    {
+      "level": 4,
+      "title": "onTick(game_ticks)",
+      "anchor": "onTick(game_ticks)"
+    },
+    {
+      "level": 3,
+      "title": "Matrix Functions",
+      "anchor": "Matrix_Functions"
+    },
+    {
+      "level": 4,
+      "title": "matrix.multiply",
+      "anchor": "matrix.multiply"
+    },
+    {
+      "level": 4,
+      "title": "matrix.invert",
+      "anchor": "matrix.invert"
+    },
+    {
+      "level": 4,
+      "title": "matrix.transpose",
+      "anchor": "matrix.transpose"
+    },
+    {
+      "level": 4,
+      "title": "matrix.indentity",
+      "anchor": "matrix.indentity"
+    },
+    {
+      "level": 2,
+      "title": "Lua API",
+      "anchor": "Lua_API"
+    }
+  ],
+  "internal_links": [],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "## Vehicle API\n\n## Mission API\n\n### Server Functions\n\n### Callbacks\n\nThese are callback functions that can be added to a script and are called automatically when their specified conditions are met, the simplest callback function is `onTick()` which is called every game tick.\n\n#### onTick(game_ticks)\n\nCalled every game tick. `game_ticks` refers to the number of ticks that have passed this frame (normally 1, while sleeping 400).\n\n### Matrix Functions\n\n#### matrix.multiply\n\nMultiplies two matrices together.\n\n```\nout_matrix=matrix.multiply(matrix1,matrix2)\n```\n\n#### matrix.invert\n\nInverts a matrix.\n\n#### matrix.transpose\n\n#### matrix.indentity\n\n## Lua API",
+    "plain_text": "Vehicle API\n\nMission API\n\nServer Functions\n\nCallbacks\n\nThese are callback functions that can be added to a script and are called automatically when their specified conditions are met, the simplest callback function is\nonTick()\n which is called every game tick.\n\nonTick(game_ticks)\n\nCalled every game tick.\ngame_ticks\n refers to the number of ticks that have passed this frame (normally 1, while sleeping 400).\n\nMatrix Functions\n\nmatrix.multiply\n\nMultiplies two matrices together.\n\nout_matrix\n=\nmatrix\n.\nmultiply\n(\nmatrix1\n,\nmatrix2\n)\n\nmatrix.invert\n\nInverts a matrix.\n\nmatrix.transpose\n\nmatrix.indentity\n\nLua API",
+    "char_count": 659,
+    "word_count": 87,
+    "sha256": "9af7e5b6009445414f08b35a00cedf379b8e88fbfa292089bed37d853c829e4b"
+  },
+  "wikitext": "== Vehicle API ==\n\n== Mission API ==\n=== Server Functions ===\n\n=== Callbacks ===\nThese are callback functions that can be added to a script and are called automatically when their specified conditions are met, the simplest callback function is <code>onTick()</code> which is called every game tick.\n\n==== onTick(game_ticks) ====\nCalled every game tick. <code>game_ticks</code> refers to the number of ticks that have passed this frame (normally 1, while sleeping 400).\n\n=== Matrix Functions ===\n\n==== matrix.multiply ====\nMultiplies two matrices together.\n<source lang=\"lua\">out_matrix = matrix.multiply(matrix1, matrix2)</source>\n\n==== matrix.invert ====\nInverts a matrix.\n\n==== matrix.transpose ====\n\n==== matrix.indentity ====\n\n== Lua API ==",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Lua/Stormworks_API",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1250,
+    "revision_id": 2748,
+    "revision_timestamp": "2021-03-17T03:23:42Z",
+    "retrieved_at": "2026-08-31T10:12:21+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

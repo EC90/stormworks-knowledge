@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Advanced Rescue Equipment Research",
+  "display_title": "Advanced Rescue Equipment Research",
+  "summary": "Advanced rescue equipment is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Rescue Equipment Research",
+    "Research",
+    "Wiki/Building/Components/Mechanics",
+    "Wiki/Building/Components/Specialist Equipment"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bf/Advancedrescueequipmentresearch.png/revision/latest?cb=20240421182602",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bf/Advancedrescueequipmentresearch.png/revision/latest?cb=20240421182602",
+      "alt": "Advancedrescueequipmentresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "Specialist Equipment",
+          "Large Winch"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Mag All"
+        ],
+        [
+          "Specialist Equipment",
+          "Siren"
+        ],
+        [
+          "Specialist Equipment",
+          "Mounted End-Effector"
+        ],
+        [
+          "Specialist Equipment",
+          "Mounted Welder"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Advanced Rescue Equipment\n\n[![Advancedrescueequipmentresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bf/Advancedrescueequipmentresearch.png/revision/latest?cb=20240421182602)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bf/Advancedrescueequipmentresearch.png/revision/latest?cb=20240421182602)\n\n### Research Points\n\n20\n\n### Research Time\n\n1h 0m\n\n## Research Path\n\n### Unlocked by\n\n[Rescue Equipment](https://stormworks.fandom.com/wiki/Rescue_Equipment_Research)\n\nAdvanced rescue equipment is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| Specialist Equipment | Large Winch |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Mag All |\n| Specialist Equipment | Siren |\n| Specialist Equipment | Mounted End-Effector |\n| Specialist Equipment | Mounted Welder |",
+    "plain_text": "Advanced Rescue Equipment\n\nResearch Points\n\n20\n\nResearch Time\n\n1h 0m\n\nResearch Path\n\nUnlocked by\n\nRescue Equipment\n\nAdvanced rescue equipment is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nSpecialist Equipment\n\nLarge Winch\n\nMechanics\n\nMag All\n\nSpecialist Equipment\n\nSiren\n\nSpecialist Equipment\n\nMounted End-Effector\n\nSpecialist Equipment\n\nMounted Welder",
+    "char_count": 952,
+    "word_count": 49,
+    "sha256": "866cd5c40b63d4ea1483f327c5dabf83e2d9ebe3f4d9e4585d06371f6e4d88e6"
+  },
+  "wikitext": "{{Research\n  | name=Advanced Rescue Equipment\n  | image=[File:Advancedrescueequipmentresearch.png]\n  | points=20\n  | time= 1h 0m\n  | unlock= [[Rescue Equipment Research|Rescue Equipment]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Advanced rescue equipment is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Large Winch\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Mag All\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Siren\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Mounted End-Effector\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Mounted Welder\n|}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Advanced_Rescue_Equipment_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1485,
+    "revision_id": 3759,
+    "revision_timestamp": "2024-04-21T18:26:30Z",
+    "retrieved_at": "2026-08-31T10:00:36+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

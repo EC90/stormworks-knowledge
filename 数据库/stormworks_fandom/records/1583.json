@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Physics Flooder",
+  "display_title": "Physics Flooder",
+  "summary": "\"A device that floods am enclosed volume with\nphysics\n for optimisation [sic]. Floods an enclosed volume with massless physics, allowing for physics shape optimisation without compromising vehicle integrity.\"\nSee\npatch notes\n relating to this block\nhere. (external link)",
+  "template": "Infobox",
+  "attributes": {
+    "name": "Physics Flooder",
+    "image": "File:Physicsflooder.png",
+    "prerequisite": "none",
+    "category": "Blocks",
+    "cost": "$20",
+    "introduced": "V1.0.29",
+    "mass": "{{Property|mass}} 1"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| name | Physics Flooder |\n| image | File:Physicsflooder.png |\n| prerequisite | none |\n| category | Blocks |\n| cost | $20 |\n| introduced | V1.0.29 |\n| mass | {{Property\\|mass}} 1 |",
+  "categories": [
+    "Blocks",
+    "Stubs"
+  ],
+  "sections": [],
+  "internal_links": [
+    "Patch notes",
+    "Research",
+    "V1.0.29",
+    "Wiki/Building/Components/Blocks",
+    "Wiki/Game Mechanics/Physics"
+  ],
+  "external_links": [
+    "https://steamdb.info/patchnotes/6123828/"
+  ],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Physicsflooder.png/revision/latest?cb=20240421223539",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Physicsflooder.png/revision/latest?cb=20240421223539",
+      "alt": "Physicsflooder",
+      "width": "121",
+      "height": "115"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Physics_Flooder?action=edit)."
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "mass 1"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Physics_Flooder?action=edit). |\n| --- | --- |\n\n## Physics Flooder\n\n[![Physicsflooder](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Physicsflooder.png/revision/latest?cb=20240421223539)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Physicsflooder.png/revision/latest?cb=20240421223539)\n\n### [Prerequisite](https://stormworks.fandom.com/wiki/Research)\n\nnone\n\n### Category\n\n[Blocks](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Blocks)\n\n### Cost\n\n$20\n\n### Introduced\n\n[V1.0.29](https://stormworks.fandom.com/wiki/V1.0.29)\n\n## Properties\n\n| mass 1 |\n\n> *\"A device that floods am enclosed volume with [physics](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Physics) for optimisation [sic]. Floods an enclosed volume with massless physics, allowing for physics shape optimisation without compromising vehicle integrity.\"*\n\nSee [patch notes](https://stormworks.fandom.com/wiki/Patch_notes) relating to this block [here. (external link)](https://steamdb.info/patchnotes/6123828/)",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nPhysics Flooder\n\nPrerequisite\n\nnone\n\nCategory\n\nBlocks\n\nCost\n\n$20\n\nIntroduced\n\nV1.0.29\n\nProperties\n\nmass\n 1\n\n\"A device that floods am enclosed volume with\nphysics\n for optimisation [sic]. Floods an enclosed volume with massless physics, allowing for physics shape optimisation without compromising vehicle integrity.\"\nSee\npatch notes\n relating to this block\nhere. (external link)",
+    "char_count": 1464,
+    "word_count": 65,
+    "sha256": "5113d580200b4c2dfb47d5af2523b970362858c95974ca5c446edc92662908fb"
+  },
+  "wikitext": "{{stub}}{{Infobox\n  | name=Physics Flooder\n  | image=[[File:Physicsflooder.png]]\n  | prerequisite=none\n  |category=[[Wiki/Building/Components/Blocks|Blocks]]| cost=$20\n  | dimensions=\n  | fluidcapacity=\n  | introduced=[[V1.0.29]]\n  \n  | mass= {{Property|mass}} 1\n  | motor=\n  | force=\n  | power=\n  | motor_speed=\n\n  | logicinput1= \n  | logicinput2=\n  | logicinput3=\n  | logicinput4=\n  | logicinput5=\n  | logicinput6=\n\n  | logicoutput1= \n  | logicoutput2=\n  | logicoutput3=\n  | logicoutput4=\n  | logicoutput5=\n  | logicoutput6=\n\n  | connection1= \n  | connection2=\n  | connection3=\n  | connection4=\n  | connection5=\n  | connection6=\n  \n  | adjustparam1=\n  | adjustparam2=\n}}<blockquote>''\"A device that floods am enclosed volume with [[Wiki/Game Mechanics/Physics|physics]] for optimisation [sic]. Floods an enclosed volume with massless physics, allowing for physics shape optimisation without compromising vehicle integrity.\"''</blockquote>See [[patch notes]] relating to this block [https://steamdb.info/patchnotes/6123828/ here. (external link)]\n[[Category:Blocks]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Physics_Flooder",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1583,
+    "revision_id": 4294,
+    "revision_timestamp": "2025-07-05T02:05:35Z",
+    "retrieved_at": "2026-08-31T10:04:30+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

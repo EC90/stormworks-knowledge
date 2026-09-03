@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Camera Small",
+  "display_title": "Camera Small",
+  "summary": "Alias for Camera small",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Camera small"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Camera Small -> Camera small",
+    "plain_text": "Redirect: Camera Small -> Camera small",
+    "char_count": 38,
+    "word_count": 6,
+    "sha256": "37fe4c11e6a224e2387ae34a8d9e2421f3a4a30d2d3c82c96c49486e20956a54"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Camera small",
+    "target_url": "https://stormworks.fandom.com/wiki/Camera_small",
+    "target_page_id": 1355,
+    "target_revision_id": 3054
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Camera_Small",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1363,
+    "revision_id": 3064,
+    "revision_timestamp": "2022-02-12T06:36:57Z",
+    "retrieved_at": "2026-08-31T10:01:09+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

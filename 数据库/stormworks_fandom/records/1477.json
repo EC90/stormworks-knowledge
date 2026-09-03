@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Navigation Research",
+  "display_title": "Navigation Research",
+  "summary": "Navigation is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Radar and Sonar Research",
+    "Research",
+    "Wiki/Building/Components/Displays",
+    "Wiki/Building/Components/Sensors"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Navigationradarresearch.png/revision/latest?cb=20240421181928",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Navigationradarresearch.png/revision/latest?cb=20240421181928",
+      "alt": "Navigationradarresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Artificial Horizon"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Compass Ball"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Altimeter"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "GPS Sensor"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Compass Sensor"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Clock"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Temperature Probe"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Navigation\n\n[![Navigationradarresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Navigationradarresearch.png/revision/latest?cb=20240421181928)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Navigationradarresearch.png/revision/latest?cb=20240421181928)\n\n### Research Points\n\n4\n\n### Research Time\n\n0h 50m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[Radar and Sonar](https://stormworks.fandom.com/wiki/Radar_and_Sonar_Research)\n\nNavigation is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Artificial Horizon |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Compass Ball |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Altimeter |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | GPS Sensor |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Compass Sensor |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Clock |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Temperature Probe |",
+    "plain_text": "Navigation\n\nResearch Points\n\n4\n\nResearch Time\n\n0h 50m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nRadar and Sonar\n\nNavigation is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nDisplays\n\nArtificial Horizon\n\nDisplays\n\nCompass Ball\n\nSensors\n\nAltimeter\n\nSensors\n\nGPS Sensor\n\nSensors\n\nCompass Sensor\n\nDisplays\n\nClock\n\nSensors\n\nTemperature Probe",
+    "char_count": 1372,
+    "word_count": 50,
+    "sha256": "4c832081dfbb5ed6f80abf5d2f900558ce1a60312ff89c54891262891bf7f237"
+  },
+  "wikitext": "{{Research\n  | name=Navigation\n  | image=[File:Navigationradarresearch.png]\n  | points=4\n  | time= 0h 50m\n  | unlock= Initially Available\n  | a1=[[Radar and Sonar Research|Radar and Sonar]]\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Navigation is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Artificial Horizon\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Compass Ball\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Altimeter\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||GPS Sensor\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Compass Sensor\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Clock\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Temperature Probe\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Navigation_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1477,
+    "revision_id": 3743,
+    "revision_timestamp": "2024-04-21T18:19:55Z",
+    "retrieved_at": "2026-08-31T10:04:20+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

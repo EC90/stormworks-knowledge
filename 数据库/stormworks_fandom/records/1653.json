@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building",
+  "display_title": "Wiki/Building",
+  "summary": "Alias for Gameplay/Workbench",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building -> Gameplay/Workbench",
+    "plain_text": "Redirect: Wiki/Building -> Gameplay/Workbench",
+    "char_count": 45,
+    "word_count": 4,
+    "sha256": "cfccadab7b10ea3e2440aae66a5cc51522ed4b33f7e36f58be4bdbbb47266fb3"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench",
+    "target_page_id": 606,
+    "target_revision_id": 4139
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1653,
+    "revision_id": 4140,
+    "revision_timestamp": "2025-05-14T02:40:53Z",
+    "retrieved_at": "2026-08-31T10:11:03+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

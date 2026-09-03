@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Basics",
+  "display_title": "Basics",
+  "summary": "Alias for Wiki/Guides/Basics",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Guides/Basics"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Basics -> Wiki/Guides/Basics",
+    "plain_text": "Redirect: Basics -> Wiki/Guides/Basics",
+    "char_count": 38,
+    "word_count": 4,
+    "sha256": "5592ffd4f2986466ce18b5856f19b3134bb91616fdf43043f13502e478d75f3f"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Guides/Basics",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Basics",
+    "target_page_id": 596,
+    "target_revision_id": 3187
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Basics",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 899,
+    "revision_id": 1734,
+    "revision_timestamp": "2019-03-31T21:07:36Z",
+    "retrieved_at": "2026-08-31T10:00:52+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

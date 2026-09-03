@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Volcanic Chain",
+  "display_title": "Volcanic Chain",
+  "summary": "The volcanic chain (located south west of the sawyer Islands) features an archipelago with a total of 21 landmasses (13 of which are realistically usable), they are also arranged much like the Hawaiian Islands.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Geography (Location)",
+      "anchor": "Geography_(Location)"
+    },
+    {
+      "level": 2,
+      "title": "Underwater Features",
+      "anchor": "Underwater_Features"
+    },
+    {
+      "level": 2,
+      "title": "Surface Features",
+      "anchor": "Surface_Features"
+    },
+    {
+      "level": 2,
+      "title": "Locations",
+      "anchor": "Locations"
+    }
+  ],
+  "internal_links": [
+    "Gameplay/Gamemodes/Career",
+    "Gameplay/Gamemodes/Classic",
+    "Loot crate",
+    "Nuclear power"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "## Geography (Location)\n\nThe volcanic chain (located south west of the sawyer Islands) features an archipelago with a total of 21 landmasses (13 of which are realistically usable), they are also arranged much like the Hawaiian Islands.\n\n## Underwater Features\n\nThe Islands also have unique underwater features, which include, but are not limited to:\n\n- Underwater \"hills\"\n\n- Four unique underwater sites (Killmans Scuttle, Natarera Ruins, Andzen Trench and the Lair of Mobius)\n\n- Immense network of complex underwater caves (Lair of Mobius). At the indicated map coordinates, the cave can be directly entered and explored by a diver or submarine. There are also three islands which have cave entrances on land. The caves contain uranium ore deposits, necessary for getting the fuel to spawn vehicles which use [nuclear power](https://stormworks.fandom.com/wiki/Nuclear_power) in [career](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Career) or [classic](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Classic).\n\n## Surface Features\n\nMost of the Islands present in the archipelago have active volcanos on them, adding to the unique atmosphere.\n\nThe archipelago Includes 10 named Islands, Including: (From left to right by location)\n\n- G Tugg Peak\n\n- Cod Cape\n\n- Sid V Point\n\n- Mount Gerunimo\n\n- Mount Spider\n\n- Mount Murtak\n\n- Rootin Tootin Rock\n\n- Mount Trapdoor\n\n- Mount GB Danny\n\n+ Main Landmass\n\n## Locations\n\nThe Volcanic Chain includes 3 main surface locations, including:\n\n- **EggNog Cave**. The cave itself is underwater, but the entrance is accessed on the surface around the middle of the northern side of the island. There is a short, narrow, somewhat uneven path from the beach into the mouth of the cave. Connects to the Lair of Mobius cave system as discussed above.\n\n- **Lorgs Cove**. There is an underwater cave near the center of the island which is accessed from the surface. Connects to the Lair of Mobius cave system as discussed above. The northeastern beach provides a flat, wide open space for moving a submersible over land to enter the cave. [Loot chests](https://stormworks.fandom.com/wiki/Loot_crate) may be found near the entrance to the cave.\n\n- **Cavern of Thales** There is an underwater cave accessed from the surface. The cave entrance is at the southeastern side of the island and faces east. Connects to the Lair of Mobius cave system as discussed above. There is a large beach providing a relatively flat route for moving submersibles into the cave. Loot chests may be found near the entrance to the cave.",
+    "plain_text": "Geography (Location)\n\nThe volcanic chain (located south west of the sawyer Islands) features an archipelago with a total of 21 landmasses (13 of which are realistically usable), they are also arranged much like the Hawaiian Islands.\n\nUnderwater Features\n\nThe Islands also have unique underwater features, which include, but are not limited to:\n\n- Underwater \"hills\"\n\n- Four unique underwater sites (Killmans Scuttle, Natarera Ruins, Andzen Trench and the Lair of Mobius)\n\n- Immense network of complex underwater caves (Lair of Mobius). At the indicated map coordinates, the cave can be directly entered and explored by a diver or submarine. There are also three islands which have cave entrances on land. The caves contain uranium ore deposits, necessary for getting the fuel to spawn vehicles which use\nnuclear power\n in\ncareer\n or\nclassic\n.\n\nSurface Features\n\nMost of the Islands present in the archipelago have active volcanos on them, adding to the unique atmosphere.\n\nThe archipelago Includes 10 named Islands, Including: (From left to right by location)\n\n- G Tugg Peak\n\n- Cod Cape\n\n- Sid V Point\n\n- Mount Gerunimo\n\n- Mount Spider\n\n- Mount Murtak\n\n- Rootin Tootin Rock\n\n- Mount Trapdoor\n\n- Mount GB Danny\n\n+ Main Landmass\n\nLocations\n\nThe Volcanic Chain includes 3 main surface locations, including:\n\n-\nEggNog Cave\n. The cave itself is underwater, but the entrance is accessed on the surface around the middle of the northern side of the island. There is a short, narrow, somewhat uneven path from the beach into the mouth of the cave. Connects to the Lair of Mobius cave system as discussed above.\n\n-\nLorgs Cove\n. There is an underwater cave near the center of the island which is accessed from the surface. Connects to the Lair of Mobius cave system as discussed above. The northeastern beach provides a flat, wide open space for moving a submersible over land to enter the cave.\nLoot chests\n may be found near the entrance to the cave.\n\n-\nCavern of Thales\n There is an underwater cave accessed from the surface. The cave entrance is at the southeastern side of the island and faces east. Connects to the Lair of Mobius cave system as discussed above. There is a large beach providing a relatively flat route for moving submersibles into the cave. Loot chests may be found near the entrance to the cave.",
+    "char_count": 2556,
+    "word_count": 373,
+    "sha256": "e5e1dffa0516d74c822fc59526036e4652cfa527ccf2799e3bd2d32959eb9c03"
+  },
+  "wikitext": "== Geography (Location) ==\nThe volcanic chain (located south west of the sawyer Islands) features an archipelago with a total of 21 landmasses (13 of which are realistically usable), they are also arranged much like the Hawaiian Islands.\n\n== Underwater Features ==\nThe Islands also have unique underwater features, which include, but are not limited to:\n\n- Underwater \"hills\"\n\n- Four unique underwater sites (Killmans Scuttle, Natarera Ruins, Andzen Trench and the Lair of Mobius)\n\n- Immense network of complex underwater caves (Lair of Mobius). At the indicated map coordinates, the cave can be directly entered and explored by a diver or submarine. There are also three islands which have cave entrances on land. The caves contain uranium ore deposits, necessary for getting the fuel to spawn vehicles which use [[nuclear power]] in [[Gameplay/Gamemodes/Career|career]] or [[Gameplay/Gamemodes/Classic|classic]].\n\n== Surface Features ==\nMost of the Islands present in the archipelago have active volcanos on them, adding to the unique atmosphere.\n\nThe archipelago Includes 10 named Islands, Including: (From left to right by location)\n\n- G Tugg Peak\n\n- Cod Cape\n\n- Sid V Point\n\n- Mount Gerunimo\n\n- Mount Spider \n\n- Mount Murtak\n\n- Rootin Tootin Rock\n\n- Mount Trapdoor\n\n- Mount GB Danny\n\n+ Main Landmass\n\n== Locations ==\nThe Volcanic Chain includes 3 main surface locations, including:\n\n- '''EggNog Cave'''. The cave itself is underwater, but the entrance is accessed on the surface around the middle of the northern side of the island. There is a short, narrow, somewhat uneven path from the beach into the mouth of the cave. Connects to the Lair of Mobius cave system as discussed above.\n\n- '''Lorgs Cove'''. There is an underwater cave near the center of the island which is accessed from the surface. Connects to the Lair of Mobius cave system as discussed above. The northeastern beach provides a flat, wide open space for moving a submersible over land to enter the cave. [[loot crate|Loot chest]]s may be found near the entrance to the cave.\n\n- '''Cavern of Thales''' There is an underwater cave accessed from the surface. The cave entrance is at the southeastern side of the island and faces east. Connects to the Lair of Mobius cave system as discussed above. There is a large beach providing a relatively flat route for moving submersibles into the cave. Loot chests may be found near the entrance to the cave.",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Volcanic_Chain",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1718,
+    "revision_id": 4588,
+    "revision_timestamp": "2025-08-11T16:06:20Z",
+    "retrieved_at": "2026-08-31T10:10:53+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

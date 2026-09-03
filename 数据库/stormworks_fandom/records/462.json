@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki/Guides",
+  "display_title": "Wiki/Guides",
+  "summary": "If you need general information about game mechanics see\nWiki/Game_Mechanics\n.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Guides     [ edit page ]",
+      "anchor": "Guides_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Subpages",
+      "anchor": "Subpages"
+    },
+    {
+      "level": 2,
+      "title": "Lua Scripts",
+      "anchor": "Lua_Scripts"
+    },
+    {
+      "level": 2,
+      "title": "Lua Video Tutorial",
+      "anchor": "Lua_Video_Tutorial"
+    },
+    {
+      "level": 2,
+      "title": "Lua IDE",
+      "anchor": "Lua_IDE"
+    },
+    {
+      "level": 2,
+      "title": "Ship building",
+      "anchor": "Ship_building"
+    },
+    {
+      "level": 2,
+      "title": "Submarine",
+      "anchor": "Submarine"
+    },
+    {
+      "level": 2,
+      "title": "Collision Warning / Radar",
+      "anchor": "Collision_Warning_/_Radar"
+    },
+    {
+      "level": 2,
+      "title": "Russian Guides",
+      "anchor": "Russian_Guides"
+    },
+    {
+      "level": 3,
+      "title": "Корабли-Гайд - Строим правильный корпус #1",
+      "anchor": "Корабли-Гайд_-_Строим_правильный_корпус_#1"
+    },
+    {
+      "level": 3,
+      "title": "Корабли-Гайд - Как создать силовую группу #2",
+      "anchor": "Корабли-Гайд_-_Как_создать_силовую_группу_#2"
+    },
+    {
+      "level": 3,
+      "title": "Корабли-Гайд - Двойное управление и датчик скорости #3",
+      "anchor": "Корабли-Гайд_-_Двойное_управление_и_датчик_скорости_#3"
+    },
+    {
+      "level": 3,
+      "title": "Корабли-Гайд - Кастомный бак для топлива #4",
+      "anchor": "Корабли-Гайд_-_Кастомный_бак_для_топлива_#4"
+    },
+    {
+      "level": 3,
+      "title": "Корабли-Гайд - Схема управления двигателем на логике #5",
+      "anchor": "Корабли-Гайд_-_Схема_управления_двигателем_на_логике_#5"
+    },
+    {
+      "level": 3,
+      "title": "Корабли-Гайд - RGB индикаторы и немного про микроконтроллеры  #6",
+      "anchor": "Корабли-Гайд_-_RGB_индикаторы_и_немного_про_микроконтроллеры_#6"
+    },
+    {
+      "level": 3,
+      "title": "Основы вертолетов #1",
+      "anchor": "Основы_вертолетов_#1"
+    },
+    {
+      "level": 3,
+      "title": "Основы вертолетов #2",
+      "anchor": "Основы_вертолетов_#2"
+    },
+    {
+      "level": 3,
+      "title": "Гибрид. SR Latch",
+      "anchor": "Гибрид._SR_Latch"
+    },
+    {
+      "level": 3,
+      "title": "Разговоры о деталях. Часть 1",
+      "anchor": "Разговоры_о_деталях._Часть_1"
+    },
+    {
+      "level": 3,
+      "title": "Разговоры о деталях. Часть 2",
+      "anchor": "Разговоры_о_деталях._Часть_2"
+    },
+    {
+      "level": 3,
+      "title": "Логика - Цифровые преобразования",
+      "anchor": "Логика_-_Цифровые_преобразования"
+    },
+    {
+      "level": 3,
+      "title": "ПИД - удержание скорости",
+      "anchor": "ПИД_-_удержание_скорости"
+    }
+  ],
+  "internal_links": [
+    "Wiki",
+    "Wiki/Building/Components",
+    "Wiki/Building/Editor",
+    "Wiki/Game Mechanics",
+    "Wiki/Guides/",
+    "Wiki/Guides/Airplanes",
+    "Wiki/Guides/Basics",
+    "Wiki/Guides/Dedicated Server",
+    "Wiki/Guides/Electricity",
+    "Wiki/Guides/Engine",
+    "Wiki/Guides/Fluids",
+    "Wiki/Guides/Gearbox",
+    "Wiki/Guides/Gyro",
+    "Wiki/Guides/Helicopters",
+    "Wiki/Guides/Logic",
+    "Wiki/Guides/Lua",
+    "Wiki/Guides/Mechanics",
+    "Wiki/Guides/Music"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Guides?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Guides?action=edit). |\n| --- | --- |\n\n## Guides\n\n- Every subpage may contain text guides and/or linked videos\n- If you need general information about game mechanics see [Wiki/Game_Mechanics](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics).\n- If you want to know more about components see [Wiki/Building/Components](https://stormworks.fandom.com/wiki/Wiki/Building/Components).\n- If you want to know more about the vehicle editor see [Wiki/Building/Editor](https://stormworks.fandom.com/wiki/Wiki/Building/Editor).\n\n## Subpages\n\n[Basics](https://stormworks.fandom.com/wiki/Wiki/Guides/Basics) [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Guides/Mechanics) [Fluids](https://stormworks.fandom.com/wiki/Wiki/Guides/Fluids) [Electricity](https://stormworks.fandom.com/wiki/Wiki/Guides/Electricity) [Logic](https://stormworks.fandom.com/wiki/Wiki/Guides/Logic) [Airplanes](https://stormworks.fandom.com/wiki/Wiki/Guides/Airplanes) [Helicopters](https://stormworks.fandom.com/wiki/Wiki/Guides/Helicopters) [Gearbox](https://stormworks.fandom.com/wiki/Wiki/Guides/Gearbox) [Engine](https://stormworks.fandom.com/wiki/Wiki/Guides/Engine) [Gyro](https://stormworks.fandom.com/wiki/Wiki/Guides/Gyro) [Music](https://stormworks.fandom.com/wiki/Wiki/Guides/Music) [Lua](https://stormworks.fandom.com/wiki/Wiki/Guides/Lua) [Dedicated Server](https://stormworks.fandom.com/wiki/Wiki/Guides/Dedicated_Server)\n\nDo you think a subpage is missing?\n\n## Lua Scripts\n\n[This page](https://stormworks.fandom.com/wiki/Wiki/Guides/Lua) contains a nice and fast guide for writing Lua Scripts.\n\n## Lua Video Tutorial\n\n## Lua IDE\n\n## Ship building\n\n## Submarine\n\n## Collision Warning / Radar\n\n## Russian Guides\n\n### Корабли-Гайд - Строим правильный корпус #1\n\n### Корабли-Гайд - Как создать силовую группу #2\n\n### Корабли-Гайд - Двойное управление и датчик скорости #3\n\n### Корабли-Гайд - Кастомный бак для топлива #4\n\n### Корабли-Гайд - Схема управления двигателем на логике #5\n\n### Корабли-Гайд - RGB индикаторы и немного про микроконтроллеры #6\n\n### Основы вертолетов #1\n\n### Основы вертолетов #2\n\n### Гибрид. SR Latch\n\n### Разговоры о деталях. Часть 1\n\n### Разговоры о деталях. Часть 2\n\n### Логика - Цифровые преобразования\n\n### ПИД - удержание скорости",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nGuides\n\nEvery subpage may contain text guides and/or linked videos\n\nIf you need general information about game mechanics see\nWiki/Game_Mechanics\n.\n\nIf you want to know more about components see\nWiki/Building/Components\n.\n\nIf you want to know more about the vehicle editor see\nWiki/Building/Editor\n.\n\nSubpages\n\n Basics\n\n Mechanics\n\n Fluids\n\n Electricity\n\n Logic\n\n Airplanes\n\n Helicopters\n\n Gearbox\n\n Engine\n\n Gyro\n\n Music\n\n Lua\n\n Dedicated Server\n\nDo you think a subpage is missing?\n\nLua Scripts\n\n This page\n contains a nice and fast guide for writing Lua Scripts.\n\nLua Video Tutorial\n\nLua IDE\n\nShip building\n\nSubmarine\n\nCollision Warning / Radar\n\nRussian Guides\n\nКорабли-Гайд - Строим правильный корпус #1\n\nКорабли-Гайд - Как создать силовую группу #2\n\nКорабли-Гайд - Двойное управление и датчик скорости #3\n\nКорабли-Гайд - Кастомный бак для топлива #4\n\nКорабли-Гайд - Схема управления двигателем на логике #5\n\nКорабли-Гайд - RGB индикаторы и немного про микроконтроллеры  #6\n\nОсновы вертолетов #1\n\nОсновы вертолетов #2\n\nГибрид. SR Latch\n\nРазговоры о деталях. Часть 1\n\nРазговоры о деталях. Часть 2\n\nЛогика - Цифровые преобразования\n\nПИД - удержание скорости",
+    "char_count": 2667,
+    "word_count": 179,
+    "sha256": "63ed5502c580840bccaec7b00119f73eeba89a55857f036ae70a64fd0e413763"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\n\n* Every subpage may contain text guides and/or linked videos\n* If you need general information about game mechanics see [[Wiki/Game_Mechanics]].\n* If you want to know more about components see [[Wiki/Building/Components]].\n* If you want to know more about the vehicle editor see [[Wiki/Building/Editor]].\n\n{{Wiki_Page/subpages|Basics|Mechanics|Fluids|Electricity|Logic|Airplanes|Helicopters|Gearbox|Engine|Gyro|Music|Lua|Dedicated Server||||}}\n\n==Lua Scripts==\n[[Wiki/Guides/Lua | This page]] contains a nice and fast guide for writing Lua Scripts.\n\n==Lua Video Tutorial==\n{{#ev:youtube|https://www.youtube.com/watch?v=Uv5NTZtQe9Q&list=PLFRedzlVFwBACmmpHMmsU_E8vc-TpwVVZ}}\n\n==Lua IDE==\n{{#ev:youtube|www.youtube.com/watch?v=Z8cLxmVd07c}}\n\n==Ship building==\n{{#ev:youtube|www.youtube.com/watch?v=bWq6knqmic4}}\n{{#ev:youtube|www.youtube.com/watch?v=hVqjjGmWqQQ}}\n\n==Submarine==\n{{#ev:youtube|www.youtube.com/watch?v=BPgMb1NMmn8}}\n{{#ev:youtube|www.youtube.com/watch?v=kQUluT7mKXw}}\n{{#ev:youtube|www.youtube.com/watch?v=9KJmn5iY45E}}\n{{#ev:youtube|www.youtube.com/watch?v=qN66Va6zJqI}}\n{{#ev:youtube|www.youtube.com/watch?v=nPRE9kkLBog}}\n\n\n==Collision Warning / Radar==\n{{#ev:youtube|www.youtube.com/watch?v=9QWpYvF-kDQ}}\n{{#ev:youtube|www.youtube.com/watch?v=xmK8cqzqzlw}}\n\n==Russian Guides==\n\n===Корабли-Гайд - Строим правильный корпус #1=== \n{{#ev:youtube|www.youtube.com/watch?v=db-R_cMGcZE}}\n\n===Корабли-Гайд - Как создать силовую группу #2=== \n{{#ev:youtube|www.youtube.com/watch?v=M0uaIFQUfJY}}\n\n===Корабли-Гайд - Двойное управление и датчик скорости #3=== \n{{#ev:youtube|www.youtube.com/watch?v=eYSupZgwPcE}}\n\n===Корабли-Гайд - Кастомный бак для топлива #4=== \n{{#ev:youtube|www.youtube.com/watch?v=aINfRfLGspU}}\n\n===Корабли-Гайд - Схема управления двигателем на логике #5=== \n{{#ev:youtube|www.youtube.com/watch?v=LYD6AYkjifU}}\n\n===Корабли-Гайд - RGB индикаторы и немного про микроконтроллеры  #6=== \n{{#ev:youtube|www.youtube.com/watch?v=NHUv-clZ1HY}}\n\n===Основы вертолетов #1=== \n{{#ev:youtube|www.youtube.com/watch?v=IQLRMykQzsc}}\n\n===Основы вертолетов #2=== \n{{#ev:youtube|www.youtube.com/watch?v=C8w9gZZNRUY}}\n\n===Гибрид. SR Latch=== \n{{#ev:youtube|www.youtube.com/watch?v=sUC1DTgg3Pg}}\n\n===Разговоры о деталях. Часть 1=== \n{{#ev:youtube|www.youtube.com/watch?v=HNoXLbV---E}}\n\n===Разговоры о деталях. Часть 2=== \n{{#ev:youtube|www.youtube.com/watch?v=kyO6Tpmh-7I}}\n\n===Логика - Цифровые преобразования=== \n{{#ev:youtube|www.youtube.com/watch?v=oJeJbzPO3VA}}\n\n===ПИД - удержание скорости=== \n{{#ev:youtube|www.youtube.com/watch?v=JmGuhJS-FDg}}\n\n\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Guides",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 462,
+    "revision_id": 2637,
+    "revision_timestamp": "2020-10-06T18:10:02Z",
+    "retrieved_at": "2026-08-31T10:12:02+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

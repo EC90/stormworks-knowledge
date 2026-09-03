@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Steam Power Research",
+  "display_title": "Steam Power Research",
+  "summary": "Steam power is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Industrial Equipment Research",
+    "Nuclear Power Research",
+    "Research",
+    "Wiki/Building/Components/Industry",
+    "Wiki/Game Mechanics/Fluids"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620",
+      "alt": "Genericresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "Industry",
+          "Firebox"
+        ],
+        [
+          "Industry",
+          "Firebox Large"
+        ],
+        [
+          "Industry",
+          "Steam Boiler"
+        ],
+        [
+          "Industry",
+          "Steam Condenser"
+        ],
+        [
+          "Industry",
+          "Steam Turbine"
+        ],
+        [
+          "Industry",
+          "Steam Piston (Small)"
+        ],
+        [
+          "Industry",
+          "Steam Piston (Medium)"
+        ],
+        [
+          "Industry",
+          "Steam Piston (Large)"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Steam Whistle"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Steam Power\n\n[![Genericresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)\n\n### Research Points\n\n20\n\n### Research Time\n\n1h 50m\n\n## Research Path\n\n### Unlocked by\n\n[Industrial Equipment](https://stormworks.fandom.com/wiki/Industrial_Equipment_Research)\n\n### Makes available\n\n[Nuclear Power](https://stormworks.fandom.com/wiki/Nuclear_Power_Research)\n\nSteam power is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| Industry | Firebox |\n| Industry | Firebox Large |\n| Industry | Steam Boiler |\n| Industry | Steam Condenser |\n| Industry | Steam Turbine |\n| Industry | Steam Piston (Small) |\n| Industry | Steam Piston (Medium) |\n| Industry | Steam Piston (Large) |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Steam Whistle |",
+    "plain_text": "Steam Power\n\nResearch Points\n\n20\n\nResearch Time\n\n1h 50m\n\nResearch Path\n\nUnlocked by\n\nIndustrial Equipment\n\nMakes available\n\nNuclear Power\n\nSteam power is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nIndustry\n\nFirebox\n\nIndustry\n\nFirebox Large\n\nIndustry\n\nSteam Boiler\n\nIndustry\n\nSteam Condenser\n\nIndustry\n\nSteam Turbine\n\nIndustry\n\nSteam Piston (Small)\n\nIndustry\n\nSteam Piston (Medium)\n\nIndustry\n\nSteam Piston (Large)\n\nFluid\n\nSteam Whistle",
+    "char_count": 1063,
+    "word_count": 61,
+    "sha256": "81194d177502674eb7dcc069502ad74f214c37caeb2908d784f8f3f02d4f85a7"
+  },
+  "wikitext": "{{Research\n  | name=Steam Power\n  | image=[File:Genericresearch.png]\n  | points=20\n  | time= 1h 50m\n  | unlock= [[Industrial Equipment Research|Industrial Equipment]]\n  | a1=[[Nuclear Power Research|Nuclear Power]]\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Steam power is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Firebox\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Firebox Large\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Steam Boiler\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Steam Condenser\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Steam Turbine\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Steam Piston (Small)\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Steam Piston (Medium)\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Steam Piston (Large)\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]||Steam Whistle\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Steam_Power_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1502,
+    "revision_id": 3803,
+    "revision_timestamp": "2024-04-21T18:50:25Z",
+    "retrieved_at": "2026-08-31T10:05:09+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

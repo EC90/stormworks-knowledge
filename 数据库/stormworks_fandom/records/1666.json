@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Mechanics",
+  "display_title": "Wiki/Building/Components/Mechanics",
+  "summary": "Alias for Gameplay/Workbench/Components/Mechanics",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Mechanics"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Mechanics -> Gameplay/Workbench/Components/Mechanics",
+    "plain_text": "Redirect: Wiki/Building/Components/Mechanics -> Gameplay/Workbench/Components/Mechanics",
+    "char_count": 87,
+    "word_count": 4,
+    "sha256": "34953b8df1c924849fff004ee8d09fb342246a620c9b06ff61865858df59b897"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Mechanics",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Mechanics",
+    "target_page_id": 627,
+    "target_revision_id": 4165
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1666,
+    "revision_id": 4166,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-31T10:11:16+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

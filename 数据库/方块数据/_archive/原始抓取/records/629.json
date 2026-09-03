@@ -1,0 +1,299 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Fluids",
+  "display_title": "Gameplay/Workbench/Components/Fluids",
+  "summary": "Fluids\nPipe Straight\nTransports fluids.\nPipe Angle\nTransports fluids.\nPipe T-Piece\nTransports fluids.\nPipe T-Pice Corner\nTransports fluids.\nPipe Cross\nTransports fluids.\nPipe Cross Corner\nTransports fluids.\nPipe Omni\nTransports fluids.\nEnclosed Pipe Straight\nTransports fluids.\nEnclosed Pipe Angle\nTransports fluids.\nEnclosed Pipe T-Piece\nTransports fluids.\nEnclosed Pipe T-Pice Corner\nTransports fluids.\nEnclosed Pipe Cross\nTransports fluids.\nEnclosed Pipe Cross Corner\nTransports fluids.\nEnclosed Pipe Omni\nTransports fluids.\nTank Small\nStores fluids. Max capacity is 31.25 liters.\nTank Medium\nStor",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Fluids [ edit page ]",
+      "anchor": "Fluids_[_edit_page_]"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Workbench",
+    "Gameplay/Workbench/Components",
+    "Wiki/Gamemodes/Creative"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9b/Pipe_Straight.jpg/revision/latest?cb=20190317004715",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9b/Pipe_Straight.jpg/revision/latest/scale-to-width-down/100?cb=20190317004715",
+      "alt": "Pipe Straight",
+      "width": "100",
+      "height": "103"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ae/Pipe_Angle.jpg/revision/latest?cb=20190317004700",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ae/Pipe_Angle.jpg/revision/latest/scale-to-width-down/100?cb=20190317004700",
+      "alt": "Pipe Angle",
+      "width": "100",
+      "height": "98"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d0/Pipe_T-Piece.jpg/revision/latest?cb=20190419114528",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pipe T-Piece",
+      "width": "100",
+      "height": "97"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/90/Pipe_T-Pice_Corner.png/revision/latest?cb=20200129224006",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pipe T-Pice Corner",
+      "width": "100",
+      "height": "116"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d9/Pipe_Cross.png/revision/latest?cb=20200129224204",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pipe Cross",
+      "width": "100",
+      "height": "113"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5e/Pipe_Cross_Corner.png/revision/latest?cb=20200129224056",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pipe Cross Corner",
+      "width": "100",
+      "height": "98"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0f/Pipe_Omni.png/revision/latest?cb=20200129224250",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pipe Omni",
+      "width": "100",
+      "height": "96"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1e/Pipe_Enclosed_Straight.jpg/revision/latest?cb=20190419114624",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pipe Enclosed Straight",
+      "width": "100",
+      "height": "107"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/39/Pipe_Enclosed_Angle.jpg/revision/latest?cb=20190419114648",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pipe Enclosed Angle",
+      "width": "100",
+      "height": "96"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cb/Pipe_Enclosed_T-Piece.jpg/revision/latest?cb=20190419114705",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pipe Enclosed T-Piece",
+      "width": "100",
+      "height": "123"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e9/Pipe_Enclosed_T-Pice_Corner.png/revision/latest?cb=20200129224442",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pipe Enclosed T-Pice Corner",
+      "width": "100",
+      "height": "103"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/37/Pipe_Enclosed_Cross.png/revision/latest?cb=20200129224519",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pipe Enclosed Cross",
+      "width": "100",
+      "height": "107"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2e/Pipe_Enclosed_Cross_Corner.png/revision/latest?cb=20200129224526",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pipe Enclosed Cross Corner",
+      "width": "100",
+      "height": "100"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/35/Pipe_Enclosed_Omni.png/revision/latest?cb=20200129224532",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pipe Enclosed Omni",
+      "width": "100",
+      "height": "103"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e2/Tank_Small.jpg/revision/latest?cb=20190317005757",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Tank Small",
+      "width": "100",
+      "height": "98"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/39/Tank_Medium.jpg/revision/latest?cb=20190419114401",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Tank Medium",
+      "width": "100",
+      "height": "95"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fe/Tank_Large.jpg/revision/latest?cb=20190317005751",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Tank Large",
+      "width": "100",
+      "height": "98"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/de/Fluid_Valve_Variable.jpg/revision/latest?cb=20190317005738",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Valve Variable",
+      "width": "100",
+      "height": "130"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b8/Fluid_Valve_On_Off.jpg/revision/latest?cb=20190317005731",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Valve On Off",
+      "width": "100",
+      "height": "124"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7c/Fluid_Nozzle.jpg/revision/latest?cb=20190419114734",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Nozzle",
+      "width": "100",
+      "height": "126"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9d/Fluid_Exhaust.jpg/revision/latest?cb=20190317005604",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Exhaust",
+      "width": "100",
+      "height": "171"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1f/Fluid_Flow_Valve.jpg/revision/latest?cb=20190317005616",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Flow Valve",
+      "width": "100",
+      "height": "168"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a0/Fluid_Filter.jpg/revision/latest?cb=20190317005610",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Filter",
+      "width": "100",
+      "height": "193"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a4/Fluid_Spawner.jpg/revision/latest?cb=20190317005726",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Spawner",
+      "width": "100",
+      "height": "113"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/82/Fluid_Port.jpg/revision/latest?cb=20190317005658",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Port",
+      "width": "100",
+      "height": "109"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/84/Fluid_Slot_Port.jpg/revision/latest?cb=20190317005720",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Slot Port",
+      "width": "100",
+      "height": "87"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ac/Fluid_Intake.jpg/revision/latest?cb=20190317005639",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Intake",
+      "width": "100",
+      "height": "104"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4a/Fluid_Heat_Sink.jpg/revision/latest?cb=20190317005632",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Heat Sink",
+      "width": "100",
+      "height": "94"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/82/Fluid_Heat_Radiator.jpg/revision/latest?cb=20190317005624",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Heat Radiator",
+      "width": "100",
+      "height": "97"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d3/Fluid_Pump.jpg/revision/latest?cb=20190317005712",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Pump",
+      "width": "100",
+      "height": "81"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a9/Fluid_Pump_Large.jpg/revision/latest?cb=20190317005706",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Pump Large",
+      "width": "100",
+      "height": "100"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/37/Connector_Fluid.jpg/revision/latest?cb=20190317005548",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Connector Fluid",
+      "width": "100",
+      "height": "105"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a1/Fluid_Cannon.jpg/revision/latest?cb=20190317005555",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Fluid Cannon",
+      "width": "100",
+      "height": "90"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/89/Robotic_Pivot_Fluid.jpg/revision/latest?cb=20190317010624",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Robotic Pivot Fluid",
+      "width": "100",
+      "height": "88"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e4/Hose.jpg/revision/latest?cb=20190317005744",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Hose",
+      "width": "100",
+      "height": "86"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5b/Anchor_Fluid_Hose.png/revision/latest?cb=20200130195306",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Anchor Fluid Hose",
+      "width": "100",
+      "height": "110"
+    }
+  ],
+  "tables": [],
+  "content": {
+    "markdown": "## Fluids\n\nPipe Straight\n\n[![Pipe Straight](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9b/Pipe_Straight.jpg/revision/latest/scale-to-width-down/100?cb=20190317004715)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9b/Pipe_Straight.jpg/revision/latest?cb=20190317004715)\n\nTransports fluids.\n\nPipe Angle\n\n[![Pipe Angle](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ae/Pipe_Angle.jpg/revision/latest/scale-to-width-down/100?cb=20190317004700)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ae/Pipe_Angle.jpg/revision/latest?cb=20190317004700)\n\nTransports fluids.\n\nPipe T-Piece\n\n[![Pipe T-Piece](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d0/Pipe_T-Piece.jpg/revision/latest?cb=20190419114528)\n\nTransports fluids.\n\nPipe T-Pice Corner\n\n[![Pipe T-Pice Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/90/Pipe_T-Pice_Corner.png/revision/latest?cb=20200129224006)\n\nTransports fluids.\n\nPipe Cross\n\n[![Pipe Cross](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d9/Pipe_Cross.png/revision/latest?cb=20200129224204)\n\nTransports fluids.\n\nPipe Cross Corner\n\n[![Pipe Cross Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5e/Pipe_Cross_Corner.png/revision/latest?cb=20200129224056)\n\nTransports fluids.\n\nPipe Omni\n\n[![Pipe Omni](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0f/Pipe_Omni.png/revision/latest?cb=20200129224250)\n\nTransports fluids.\n\nEnclosed Pipe Straight\n\n[![Pipe Enclosed Straight](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1e/Pipe_Enclosed_Straight.jpg/revision/latest?cb=20190419114624)\n\nTransports fluids.\n\nEnclosed Pipe Angle\n\n[![Pipe Enclosed Angle](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/39/Pipe_Enclosed_Angle.jpg/revision/latest?cb=20190419114648)\n\nTransports fluids.\n\nEnclosed Pipe T-Piece\n\n[![Pipe Enclosed T-Piece](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cb/Pipe_Enclosed_T-Piece.jpg/revision/latest?cb=20190419114705)\n\nTransports fluids.\n\nEnclosed Pipe T-Pice Corner\n\n[![Pipe Enclosed T-Pice Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e9/Pipe_Enclosed_T-Pice_Corner.png/revision/latest?cb=20200129224442)\n\nTransports fluids.\n\nEnclosed Pipe Cross\n\n[![Pipe Enclosed Cross](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/37/Pipe_Enclosed_Cross.png/revision/latest?cb=20200129224519)\n\nTransports fluids.\n\nEnclosed Pipe Cross Corner\n\n[![Pipe Enclosed Cross Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2e/Pipe_Enclosed_Cross_Corner.png/revision/latest?cb=20200129224526)\n\nTransports fluids.\n\nEnclosed Pipe Omni\n\n[![Pipe Enclosed Omni](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/35/Pipe_Enclosed_Omni.png/revision/latest?cb=20200129224532)\n\nTransports fluids.\n\nTank Small\n\n[![Tank Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e2/Tank_Small.jpg/revision/latest?cb=20190317005757)\n\nStores fluids. Max capacity is 31.25 liters.\n\nTank Medium\n\n[![Tank Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/39/Tank_Medium.jpg/revision/latest?cb=20190419114401)\n\nStores fluids. Max capacity is 187.5 liters.\n\nTank Large\n\n[![Tank Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fe/Tank_Large.jpg/revision/latest?cb=20190317005751)\n\nStores fluids. Max capacity is 703.125 liters.\n\nFluid Valve Variable\n\n[![Fluid Valve Variable](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/de/Fluid_Valve_Variable.jpg/revision/latest?cb=20190317005738)\n\n- Input 1 (Number): flow (0=no flow, 0.5=half flow, 1=full flow)\n\nLimits the flow of fluid variable.\n\nFluid Valve On/Off\n\n[![Fluid Valve On Off](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b8/Fluid_Valve_On_Off.jpg/revision/latest?cb=20190317005731)\n\n- Input 1 (On/Off): flow (0=no flow, 1=full flow)\n\nToggles the flow of fluid variable.\n\nFluid Nozzle\n\n[![Fluid Nozzle](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7c/Fluid_Nozzle.jpg/revision/latest?cb=20190419114734)\n\nEjects fluids like a sprinkler.\n\nFluid Exhaust\n\n[![Fluid Exhaust](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9d/Fluid_Exhaust.jpg/revision/latest?cb=20190317005604)\n\nEjects fluids.\n\nFluid Flow Valve (Directional)\n\n[![Fluid Flow Valve](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1f/Fluid_Flow_Valve.jpg/revision/latest?cb=20190317005616)\n\nAllows fluid to flow in only one direction.\n\nFluid Filter\n\n[![Fluid Filter](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a0/Fluid_Filter.jpg/revision/latest?cb=20190317005610)\n\nAllows the selected fluids to pass through.\n\nFluid Spawner\n\n[![Fluid Spawner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a4/Fluid_Spawner.jpg/revision/latest?cb=20190317005726)\n\nCan spawn different fluids. Must be placed inside a room. Only available in [creative mode](https://stormworks.fandom.com/wiki/Wiki/Gamemodes/Creative \"Wiki/Gamemodes/Creative\").\n\nFluid Port\n\n[![Fluid Port](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/82/Fluid_Port.jpg/revision/latest?cb=20190317005658)\n\nCan be used to transfer fluids from one room to another or the environment.\n\nFluid Slot Port\n\n[![Fluid Slot Port](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/84/Fluid_Slot_Port.jpg/revision/latest?cb=20190317005720)\n\nCan be used to transfer fluids from one room to another or the environment. Note that although this port is larger than the regular fluid port, it does not allow any faster fluid flow.\n\nFluid Intake\n\n[![Fluid Intake](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ac/Fluid_Intake.jpg/revision/latest?cb=20190317005639)\n\nCan be used to transfer fluids from one room to another or the environment.\n\nFluid Heat Sink\n\n[![Fluid Heat Sink](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4a/Fluid_Heat_Sink.jpg/revision/latest?cb=20190317005632)\n\nCools fluids.\n\nFluid Heat Radiator\n\n[![Fluid Heat Radiator](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/82/Fluid_Heat_Radiator.jpg/revision/latest?cb=20190317005624)\n\nCools fluids.\n\nFluid Pump\n\n[![Fluid Pump](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d3/Fluid_Pump.jpg/revision/latest?cb=20190317005712)\n\nCan move fluids inside pipes.\n\nFluid Pump Large\n\n[![Fluid Pump Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a9/Fluid_Pump_Large.jpg/revision/latest?cb=20190317005706)\n\nCan move fluids inside pipes.\n\nFluid Connector\n\n[![Connector Fluid](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/37/Connector_Fluid.jpg/revision/latest?cb=20190317005548)\n\nConnects with other connectors. Allows transfer of fluids.\n\nFluid Cannon\n\n[![Fluid Cannon](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a1/Fluid_Cannon.jpg/revision/latest?cb=20190317005555)\n\nFires fluids into variable directions.\n\nRobotic Pivot Fluid\n\n[![Robotic Pivot Fluid](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/89/Robotic_Pivot_Fluid.jpg/revision/latest?cb=20190317010624)\n\nA rotatable pivot with 2 fluid connections.\n\nHose\n\n[![Hose](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e4/Hose.jpg/revision/latest?cb=20190317005744)\n\nAn extendable cable that can transfer fluids.\n\nAnchor Fluid Hose\n\n[![Anchor Fluid Hose](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5b/Anchor_Fluid_Hose.png/revision/latest?cb=20200130195306)\n\nYou can connect fluid hoses between two of these blocks.",
+    "plain_text": "Fluids\nPipe Straight\nTransports fluids.\nPipe Angle\nTransports fluids.\nPipe T-Piece\nTransports fluids.\nPipe T-Pice Corner\nTransports fluids.\nPipe Cross\nTransports fluids.\nPipe Cross Corner\nTransports fluids.\nPipe Omni\nTransports fluids.\nEnclosed Pipe Straight\nTransports fluids.\nEnclosed Pipe Angle\nTransports fluids.\nEnclosed Pipe T-Piece\nTransports fluids.\nEnclosed Pipe T-Pice Corner\nTransports fluids.\nEnclosed Pipe Cross\nTransports fluids.\nEnclosed Pipe Cross Corner\nTransports fluids.\nEnclosed Pipe Omni\nTransports fluids.\nTank Small\nStores fluids. Max capacity is 31.25 liters.\nTank Medium\nStores fluids. Max capacity is 187.5 liters.\nTank Large\nStores fluids. Max capacity is 703.125 liters.\nFluid Valve Variable\nInput 1 (Number): flow (0=no flow, 0.5=half flow, 1=full flow)\nLimits the flow of fluid variable.\nFluid Valve On/Off\nInput 1 (On/Off): flow (0=no flow, 1=full flow)\nToggles the flow of fluid variable.\nFluid Nozzle\nEjects fluids like a sprinkler.\nFluid Exhaust\nEjects fluids.\nFluid Flow Valve (Directional)\nAllows fluid to flow in only one direction.\nFluid Filter\nAllows the selected fluids to pass through.\nFluid Spawner\nCan spawn different fluids. Must be placed inside a room. Only available in\ncreative mode\n.\nFluid Port\nCan be used to transfer fluids from one room to another or the environment.\nFluid Slot Port\nCan be used to transfer fluids from one room to another or the environment. Note that although this port is larger than the regular fluid port, it does not allow any faster fluid flow.\nFluid Intake\nCan be used to transfer fluids from one room to another or the environment.\nFluid Heat Sink\nCools fluids.\nFluid Heat Radiator\nCools fluids.\nFluid Pump\nCan move fluids inside pipes.\nFluid Pump Large\nCan move fluids inside pipes.\nFluid Connector\nConnects with other connectors. Allows transfer of fluids.\nFluid Cannon\nFires fluids into variable directions.\nRobotic Pivot Fluid\nA rotatable pivot with 2 fluid connections.\nHose\nAn extendable cable that can transfer fluids.\nAnchor Fluid Hose\nYou can connect fluid hoses between two of these blocks.",
+    "char_count": 10821,
+    "word_count": 337,
+    "sha256": "a28449898019e1cf06fc01e01dac071199d634fc97c033aaac3bf19d9f7e5447"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Fluids",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 629,
+    "revision_id": 4303,
+    "revision_timestamp": "2025-07-11T05:31:18Z",
+    "retrieved_at": "2026-08-30T15:12:53+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

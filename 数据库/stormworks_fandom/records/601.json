@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Gamemodes",
+  "display_title": "Gameplay/Gamemodes",
+  "summary": "This article is about difficulty settings. For the workbench editor setting, see\nWiki/Building/Advanced Mode\n.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [
+    {
+      "level": 1,
+      "title": "Gamemodes",
+      "anchor": "Gamemodes"
+    },
+    {
+      "level": 2,
+      "title": "Subpages",
+      "anchor": "Subpages"
+    }
+  ],
+  "internal_links": [
+    "Gameplay/Gamemodes/",
+    "Gameplay/Gamemodes/Career",
+    "Gameplay/Gamemodes/Classic",
+    "Gameplay/Gamemodes/Creative",
+    "Gameplay/Gamemodes/Custom",
+    "Wiki/Building/Advanced Mode"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/ucp-internal-test-starter-commons/images/6/69/Disambig.png/revision/latest/scale-to-width-down/18?cb=20200818143606",
+      "thumbnail_url": "https://static.wikia.nocookie.net/ucp-internal-test-starter-commons/images/6/69/Disambig.png/revision/latest/scale-to-width-down/18?cb=20200818143606",
+      "alt": "Disambig",
+      "width": "18",
+      "height": "15"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes?action=edit)."
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "![Disambig](https://static.wikia.nocookie.net/ucp-internal-test-starter-commons/images/6/69/Disambig.png/revision/latest/scale-to-width-down/18?cb=20200818143606)",
+          "*This article is about difficulty settings. For the workbench editor setting, see [Wiki/Building/Advanced Mode](https://stormworks.fandom.com/wiki/Wiki/Building/Advanced_Mode).*"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes?action=edit). |\n| --- | --- |\n\n| ![Disambig](https://static.wikia.nocookie.net/ucp-internal-test-starter-commons/images/6/69/Disambig.png/revision/latest/scale-to-width-down/18?cb=20200818143606) | *This article is about difficulty settings. For the workbench editor setting, see [Wiki/Building/Advanced Mode](https://stormworks.fandom.com/wiki/Wiki/Building/Advanced_Mode).* |\n| --- | --- |\n\n# Gamemodes\n\nWhen starting a new game you are prompted to choose your game mode. This can't be changed later, unless you go and edit the save's files.\n\n## Subpages\n\n[Career](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Career) [Creative](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Creative) [Custom](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Custom) [Classic](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Classic)\n\nDo you think a subpage is missing?",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nThis article is about difficulty settings. For the workbench editor setting, see\nWiki/Building/Advanced Mode\n.\n\nGamemodes\n\nWhen starting a new game you are prompted to choose your game mode. This can't be changed later, unless you go and edit the save's files.\n\nSubpages\n\n Career\n\n Creative\n\n Custom\n\n Classic\n\nDo you think a subpage is missing?",
+    "char_count": 1321,
+    "word_count": 69,
+    "sha256": "0992cc6f1c839ce3ec48f7804e0d5cc0f8095d221bed106e4e9d94b7f245c98e"
+  },
+  "wikitext": "{{stub}}\n{{disambigMsg|difficulty settings|the workbench editor setting|Wiki/Building/Advanced Mode}}\n= Gamemodes =\nWhen starting a new game you are prompted to choose your game mode. This can't be changed later, unless you go and edit the save's files.\n{{Wiki_Page/subpages|Career|Creative|Custom|Classic|||||||||||}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Gamemodes",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 601,
+    "revision_id": 4111,
+    "revision_timestamp": "2025-05-14T01:40:02Z",
+    "retrieved_at": "2026-08-31T10:02:08+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

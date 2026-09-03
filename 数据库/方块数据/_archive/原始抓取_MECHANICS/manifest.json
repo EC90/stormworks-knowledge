@@ -1,0 +1,18 @@
+{
+  "site": "https://wikiwiki.jp",
+  "wiki": "sbarjp",
+  "note": "wikiwiki.jp（非 MediaWiki）。正文取自 div#content，已过滤 ::cmd/edit 链接与侧边栏。",
+  "pages": [
+    {
+      "wiki": "sbarjp",
+      "page": "MECHANICS",
+      "url": "https://wikiwiki.jp/sbarjp/MECHANICS",
+      "last_modified": "2025-06-23",
+      "chars": 53342,
+      "internal_links": []
+    }
+  ],
+  "failed": [],
+  "ok": 1,
+  "failed_count": 0
+}

@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Arid Island",
+  "display_title": "Arid Island",
+  "summary": "The Arid Island is a large group of landmass situated in the south of the map in Stormworks available to players with the\nIndustrial Frontier DLC\n. Often referred to as \"Arid\" by players. The Arid Island is part of the Industrial Frontier DLC. Arid Island contain numerous landmarks and structures, many connected by\nrails\n.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Overview",
+      "anchor": "Overview"
+    }
+  ],
+  "internal_links": [
+    "Industrial Frontier DLC",
+    "North Meier Outpost",
+    "Rails"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "## Overview\n\nThe Arid Island is a large group of landmass situated in the south of the map in Stormworks available to players with the [Industrial Frontier DLC](https://stormworks.fandom.com/wiki/Industrial_Frontier_DLC). Often referred to as \"Arid\" by players. The Arid Island is part of the Industrial Frontier DLC. Arid Island contain numerous landmarks and structures, many connected by [rails](https://stormworks.fandom.com/wiki/Rails).\n\nArid Island is covered in [rails](https://stormworks.fandom.com/wiki/Rails), with comparatively fewer roads present. There are many major landmarks on the Arid Islands including a run down power plant, several airports/landing strips and a launch site for space vehicles.\n\nThe default starting location for players with the Industrial Frontier DLC is [North Meier Outpost](https://stormworks.fandom.com/wiki/North_Meier_Outpost).",
+    "plain_text": "Overview\n\nThe Arid Island is a large group of landmass situated in the south of the map in Stormworks available to players with the\nIndustrial Frontier DLC\n. Often referred to as \"Arid\" by players. The Arid Island is part of the Industrial Frontier DLC. Arid Island contain numerous landmarks and structures, many connected by\nrails\n.\n\nArid Island is covered in\nrails\n, with comparatively fewer roads present. There are many major landmarks on the Arid Islands including a run down power plant, several airports/landing strips and a launch site for space vehicles.\n\nThe default starting location for players with the Industrial Frontier DLC is\nNorth Meier Outpost\n.",
+    "char_count": 872,
+    "word_count": 107,
+    "sha256": "c8550be0bfe76741cffc43ea3f6231ee3fe59ab45a2d4163f6559276ed50e205"
+  },
+  "wikitext": "\n==Overview==\nThe Arid Island is a large group of landmass situated in the south of the map in Stormworks available to players with the [[Industrial Frontier DLC]]. Often referred to as \"Arid\" by players. The Arid Island is part of the Industrial Frontier DLC. Arid Island contain numerous landmarks and structures, many connected by [[Rails|rails]].\n\nArid Island is covered in [[Rails|rails]], with comparatively fewer roads present. There are many major landmarks on the Arid Islands including a run down power plant, several airports/landing strips and a launch site for space vehicles.\n\nThe default starting location for players with the Industrial Frontier DLC is [[North Meier Outpost]].",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Arid_Island",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1598,
+    "revision_id": 4510,
+    "revision_timestamp": "2025-07-22T11:22:24Z",
+    "retrieved_at": "2026-08-31T10:00:45+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

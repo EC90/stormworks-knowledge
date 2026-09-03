@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Electric furnace",
+  "display_title": "Electric furnace",
+  "summary": "Electric furnaces are a source of heat generated from electricity.",
+  "template": "Infobox",
+  "attributes": {
+    "name": "Electric furnace",
+    "image": "200px",
+    "category": "Industry",
+    "cost": "$900",
+    "mass": "{{property|mass}} 220",
+    "logicinput1": "{{property|onoff}} Enable",
+    "logicoutput1": "{{property|number}} Temperature",
+    "connection1": "{{property|fluid}} Coolant In",
+    "connection2": "{{property|fluid}} Coolant Out",
+    "connection3": "{{property|electric}} Electric"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| name | Electric furnace |\n| image | 200px |\n| category | Industry |\n| cost | $900 |\n| mass | {{property\\|mass}} 220 |\n| logicinput1 | {{property\\|onoff}} Enable |\n| logicoutput1 | {{property\\|number}} Temperature |\n| connection1 | {{property\\|fluid}} Coolant In |\n| connection2 | {{property\\|fluid}} Coolant Out |\n| connection3 | {{property\\|electric}} Electric |",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Mechanics",
+      "anchor": "Mechanics"
+    }
+  ],
+  "internal_links": [
+    "Research"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7a/Electric_Furnace.png/revision/latest?cb=20260817153847",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7a/Electric_Furnace.png/revision/latest/scale-to-width-down/268?cb=20260817153847",
+      "alt": "Electric Furnace",
+      "width": "270",
+      "height": "299"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Electric_furnace?action=edit)."
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "mass 220"
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "onoff Enable"
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "number Temperature"
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "fluid Coolant In",
+          "fluid Coolant Out"
+        ]
+      ]
+    },
+    {
+      "index": 6,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "electric Electric"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Electric_furnace?action=edit). |\n| --- | --- |\n\nElectric furnaces are a source of heat generated from electricity.\n\nIt's recommended to circulate the fluid through the furnace for better efficiency\n\n## Electric furnace\n\n[![Electric Furnace](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7a/Electric_Furnace.png/revision/latest/scale-to-width-down/268?cb=20260817153847)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7a/Electric_Furnace.png/revision/latest?cb=20260817153847)\n\n### Category\n\nIndustry\n\n### Cost\n\n$900\n\n## Properties\n\n| mass 220 |\n\n## Logics Inputs\n\n| onoff Enable |\n\n## Logic Outputs\n\n| number Temperature |\n\n## Connections\n\n| fluid Coolant In | fluid Coolant Out |\n| --- | --- |\n\n| electric Electric |\n\n## Mechanics\n\nElectric furnaces heat fluid using electricity. The fluid can reach a maximum temperature of ~372 inside the furnace when no fluid is moving through it.\n\nThe heat generation of the furnace slows down the higher the temperature is\n\nElectric furnaces also produce ambient heat.",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nElectric furnaces are a source of heat generated from electricity.\n\nIt's recommended to circulate the fluid through the furnace for better efficiency\n\nElectric furnace\n\nCategory\n\nIndustry\n\nCost\n\n$900\n\nProperties\n\nmass\n 220\n\nLogics Inputs\n\nonoff\n Enable\n\nLogic Outputs\n\nnumber\n Temperature\n\nConnections\n\nfluid\n Coolant In\n\nfluid\n Coolant Out\n\nelectric\n Electric\n\nMechanics\n\nElectric furnaces heat fluid using electricity. The fluid can reach a maximum temperature of ~372 inside the furnace when no fluid is moving through it.\n\nThe heat generation of the furnace slows down the higher the temperature is\n\nElectric furnaces also produce ambient heat.",
+    "char_count": 1469,
+    "word_count": 106,
+    "sha256": "f2d5503b40d0b9b6f897820ee61250aaf2b9c0320f16e3e20f096888d4645b04"
+  },
+  "wikitext": "{{Stub}}\n\nElectric furnaces are a source of heat generated from electricity.\n\nIt's recommended to circulate the fluid through the furnace for better efficiency\n\n{{Infobox|name=Electric furnace|image=[[File:Electric Furnace.png|200px]]|category=Industry|cost=$900|mass={{property|mass}} 220|logicinput1={{property|onoff}} Enable|logicoutput1={{property|number}} Temperature|connection1={{property|fluid}} Coolant In|connection2={{property|fluid}} Coolant Out|connection3={{property|electric}} Electric}}\n\n== Mechanics ==\nElectric furnaces heat fluid using electricity. The fluid can reach a maximum temperature of ~372 inside the furnace when no fluid is moving through it.\n\nThe heat generation of the furnace slows down the higher the temperature is\n\nElectric furnaces also produce ambient heat.",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Electric_furnace",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1857,
+    "revision_id": 4723,
+    "revision_timestamp": "2026-08-17T15:56:56Z",
+    "retrieved_at": "2026-08-31T10:01:37+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

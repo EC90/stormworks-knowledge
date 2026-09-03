@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Fluid Tank Large",
+  "display_title": "Fluid Tank Large",
+  "summary": "Alias for Gameplay/Mechanics/Fluids",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Mechanics/Fluids"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Fluid Tank Large -> Gameplay/Mechanics/Fluids",
+    "plain_text": "Redirect: Fluid Tank Large -> Gameplay/Mechanics/Fluids",
+    "char_count": 55,
+    "word_count": 6,
+    "sha256": "c3ba769c10e01028d0f778eae91ebec67e84ed0920e44fb1f6a598f1d251e808"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Mechanics/Fluids",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Fluids",
+    "target_page_id": 881,
+    "target_revision_id": 4694
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Fluid_Tank_Large",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 514,
+    "revision_id": 4684,
+    "revision_timestamp": "2025-10-26T01:01:53Z",
+    "retrieved_at": "2026-08-31T10:01:56+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

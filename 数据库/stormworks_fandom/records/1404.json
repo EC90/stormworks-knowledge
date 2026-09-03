@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Guides/Lua/Special advise and little known facts",
+  "display_title": "Wiki/Guides/Lua/Special advise and little known facts",
+  "summary": "Alias for Wiki/Guides/Lua/Special Advice for Lua",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Guides/Lua/Special Advice for Lua"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Guides/Lua/Special advise and little known facts -> Wiki/Guides/Lua/Special Advice for Lua",
+    "plain_text": "Redirect: Wiki/Guides/Lua/Special advise and little known facts -> Wiki/Guides/Lua/Special Advice for Lua",
+    "char_count": 105,
+    "word_count": 12,
+    "sha256": "dee0fb443f75fa0db8969714dfeab38e925c1a3c0104bd23aa75a45c26cc1fb8"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Guides/Lua/Special Advice for Lua",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Lua/Special_Advice_for_Lua",
+    "target_page_id": 1184,
+    "target_revision_id": 3291
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Lua/Special_advise_and_little_known_facts",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1404,
+    "revision_id": 3292,
+    "revision_timestamp": "2022-12-18T03:32:16Z",
+    "retrieved_at": "2026-08-31T10:12:20+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Game Mechanics/Fuel",
+  "display_title": "Wiki/Game Mechanics/Fuel",
+  "summary": "Alias for Gameplay/Mechanics/Fuel",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Mechanics/Fuel"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Game Mechanics/Fuel -> Gameplay/Mechanics/Fuel",
+    "plain_text": "Redirect: Wiki/Game Mechanics/Fuel -> Gameplay/Mechanics/Fuel",
+    "char_count": 61,
+    "word_count": 5,
+    "sha256": "54cf57452b4bbb4c413397a4771b71cd37df141d48bda56b8b06a7229f9e513f"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Mechanics/Fuel",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Fuel",
+    "target_page_id": 949,
+    "target_revision_id": 4582
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fuel",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1700,
+    "revision_id": 4240,
+    "revision_timestamp": "2025-05-14T06:15:44Z",
+    "retrieved_at": "2026-08-31T10:11:45+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

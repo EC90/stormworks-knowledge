@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "BVG Logistics Depot",
+  "display_title": "BVG Logistics Depot",
+  "summary": "BVG Logistics Depot viewed facing west. Diesel fuel sale gantry is at the end of the pier on the right.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Locations"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Features",
+      "anchor": "Features"
+    }
+  ],
+  "internal_links": [
+    "Shipping container",
+    "Wiki/Game Mechanics/Fuel"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/23/BVG_Logistics_Depot.png/revision/latest?cb=20220217190304",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/23/BVG_Logistics_Depot.png/revision/latest/scale-to-width-down/356?cb=20220217190304",
+      "alt": "BVG Logistics Depot viewed facing west. Diesel fuel sale gantry is at the end of the pier on the right.",
+      "width": "356",
+      "height": "200"
+    }
+  ],
+  "tables": [],
+  "content": {
+    "markdown": "[![BVG Logistics Depot viewed facing west. Diesel fuel sale gantry is at the end of the pier on the right.](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/23/BVG_Logistics_Depot.png/revision/latest/scale-to-width-down/356?cb=20220217190304)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/23/BVG_Logistics_Depot.png/revision/latest?cb=20220217190304)\n\n[https://stormworks.fandom.com/wiki/File:BVG_Logistics_Depot.png](https://stormworks.fandom.com/wiki/File:BVG_Logistics_Depot.png)\n\nBVG Logistics Depot viewed facing west. Diesel fuel sale gantry is at the end of the pier on the right.\n\nBVG Logistics Depot is a non-purchasable island in the arctic.\n\n## Features\n\nIt has a freight area for picking up and dropping off [shipping containers](https://stormworks.fandom.com/wiki/Shipping_container) which can be brought in/out by ship or by rail. Since it is the only freight terminal in the arctic, each of its shipping containers can be transported south for prices ranging from (at least) as little as $18,000 to as much as $46,000.\n\n[Diesel fuel](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fuel#Diesel) can also be sold here at a high price (about $5/L) at the pump crane near the water. The winch for its fuel hose offers enough slack to reach the train terminals directly.\n\nNote that the large building with the green roof is heated but does not have any beds, so it is not possible to skip time here to wait for better weather unless you have a bed on your own vehicle to do so. Since there are no vehicle spawning facilities, there is no way to refuel or repair your vehicle here unless you've brought your own supplies to do so.",
+    "plain_text": "BVG Logistics Depot viewed facing west. Diesel fuel sale gantry is at the end of the pier on the right.\n\nBVG Logistics Depot is a non-purchasable island in the arctic.\n\nFeatures\n\nIt has a freight area for picking up and dropping off\nshipping containers\n which can be brought in/out by ship or by rail. Since it is the only freight terminal in the arctic, each of its shipping containers can be transported south for prices ranging from (at least) as little as $18,000 to as much as $46,000.\n\nDiesel fuel\n can also be sold here at a high price (about $5/L) at the pump crane near the water. The winch for its fuel hose offers enough slack to reach the train terminals directly.\n\nNote that the large building with the green roof is heated but does not have any beds, so it is not possible to skip time here to wait for better weather unless you have a bed on your own vehicle to do so. Since there are no vehicle spawning facilities, there is no way to refuel or repair your vehicle here unless you've brought your own supplies to do so.",
+    "char_count": 1687,
+    "word_count": 199,
+    "sha256": "82d676f4f2c03bc78705b03bb5f22c40d6c30d2ed32d1b684ff08c0c840235da"
+  },
+  "wikitext": "[[File:BVG Logistics Depot.png|thumb|356x356px|BVG Logistics Depot viewed facing west. Diesel fuel sale gantry is at the end of the pier on the right.]]\n\nBVG Logistics Depot is a non-purchasable island in the arctic.\n\n== Features ==\nIt has a freight area for picking up and dropping off [[shipping container]]s which can be brought in/out by ship or by rail. Since it is the only freight terminal in the arctic, each of its shipping containers can be transported south for prices ranging from (at least) as little as $18,000 to as much as $46,000.\n\n[[Wiki/Game Mechanics/Fuel#Diesel|Diesel fuel]] can also be sold here at a high price (about $5/L) at the pump crane near the water. The winch for its fuel hose offers enough slack to reach the train terminals directly.\n\nNote that the large building with the green roof is heated but does not have any beds, so it is not possible to skip time here to wait for better weather unless you have a bed on your own vehicle to do so. Since there are no vehicle spawning facilities, there is no way to refuel or repair your vehicle here unless you've brought your own supplies to do so.\n\n[[Category: Locations]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/BVG_Logistics_Depot",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1373,
+    "revision_id": 3629,
+    "revision_timestamp": "2024-03-13T17:04:39Z",
+    "retrieved_at": "2026-08-31T10:01:03+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

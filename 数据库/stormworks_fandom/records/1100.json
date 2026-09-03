@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Standards/Train Standards",
+  "display_title": "Wiki/Standards/Train Standards",
+  "summary": "Alias for Wiki/Standards/Land/Train/Rail Vehicle Standards",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Standards/Land/Train/Rail Vehicle Standards"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Standards/Train Standards -> Wiki/Standards/Land/Train/Rail Vehicle Standards",
+    "plain_text": "Redirect: Wiki/Standards/Train Standards -> Wiki/Standards/Land/Train/Rail Vehicle Standards",
+    "char_count": 92,
+    "word_count": 7,
+    "sha256": "44910076ad74d85869c83016e2b209e878e0eb184e9de4dd482ebeb31194db4b"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Standards/Land/Train/Rail Vehicle Standards",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Standards/Land/Train/Rail_Vehicle_Standards",
+    "target_page_id": 935,
+    "target_revision_id": 3365
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Standards/Train_Standards",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1100,
+    "revision_id": 3560,
+    "revision_timestamp": "2023-11-15T15:46:45Z",
+    "retrieved_at": "2026-08-31T10:12:45+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

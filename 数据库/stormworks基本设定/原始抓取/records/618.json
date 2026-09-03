@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Mechanics",
+  "display_title": "Gameplay/Mechanics",
+  "summary": "Mechanics\nYou can read the pages below for more details:\nSubpages\nBuoyancy\nElectricity\nCenter of Mass\nFluids\nFuel\nLift\nLogic\nLua\nMechanical Power\nMechanics\nPhysics\nRopes\nTrim\nWheels\nDo you think a subpage is missing?",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Mechanics [ edit page ]",
+      "anchor": "Mechanics_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Subpages",
+      "anchor": "Subpages"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Mechanics/",
+    "Gameplay/Mechanics/Buoyancy",
+    "Gameplay/Mechanics/Center of Mass",
+    "Gameplay/Mechanics/Electricity",
+    "Gameplay/Mechanics/Fluids",
+    "Gameplay/Mechanics/Fuel",
+    "Gameplay/Mechanics/Lift",
+    "Gameplay/Mechanics/Logic",
+    "Gameplay/Mechanics/Lua",
+    "Gameplay/Mechanics/Mechanical Power",
+    "Gameplay/Mechanics/Mechanics",
+    "Gameplay/Mechanics/Physics",
+    "Gameplay/Mechanics/Ropes",
+    "Gameplay/Mechanics/Trim",
+    "Gameplay/Mechanics/Wheels"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "## Mechanics\n\nYou can read the pages below for more details:\n\n## Subpages\n\n[Buoyancy](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Buoyancy \"Gameplay/Mechanics/Buoyancy\") [Electricity](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Electricity \"Gameplay/Mechanics/Electricity\") [Center of Mass](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Center_of_Mass \"Gameplay/Mechanics/Center of Mass\") [Fluids](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Fluids \"Gameplay/Mechanics/Fluids\") [Fuel](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Fuel \"Gameplay/Mechanics/Fuel\") [Lift](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Lift \"Gameplay/Mechanics/Lift\") [Logic](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Logic \"Gameplay/Mechanics/Logic\") [Lua](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Lua \"Gameplay/Mechanics/Lua\") [Mechanical Power](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Mechanical_Power \"Gameplay/Mechanics/Mechanical Power\") [Mechanics](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Mechanics \"Gameplay/Mechanics/Mechanics\") [Physics](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Physics \"Gameplay/Mechanics/Physics\") [Ropes](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Ropes \"Gameplay/Mechanics/Ropes\") [Trim](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Trim \"Gameplay/Mechanics/Trim\") [Wheels](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Wheels \"Gameplay/Mechanics/Wheels\")\n\nDo you think a subpage is missing?",
+    "plain_text": "Mechanics\nYou can read the pages below for more details:\nSubpages\nBuoyancy\nElectricity\nCenter of Mass\nFluids\nFuel\nLift\nLogic\nLua\nMechanical Power\nMechanics\nPhysics\nRopes\nTrim\nWheels\nDo you think a subpage is missing?",
+    "char_count": 1550,
+    "word_count": 35,
+    "sha256": "c6e5539dc439dc5d201b5af08c8f6d2cca33807f92441b54e915d06d3bdea7ea"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 618,
+    "revision_id": 4300,
+    "revision_timestamp": "2025-07-10T19:43:06Z",
+    "retrieved_at": "2026-08-30T14:37:29+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

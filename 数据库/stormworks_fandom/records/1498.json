@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Radio RX Research",
+  "display_title": "Radio RX Research",
+  "summary": "Radio RX is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Electrics Research",
+    "Research",
+    "Wiki/Building/Components/Displays",
+    "Wiki/Building/Components/Sensors",
+    "Wiki/Building/Components/Specialist Equipment",
+    "Wiki/Building/Components/Vehicle Control"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d8/Hicapradiorxresearch.png/revision/latest?cb=20240421184318",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d8/Hicapradiorxresearch.png/revision/latest?cb=20240421184318",
+      "alt": "Hicapradiorxresearch",
+      "width": "48",
+      "height": "48"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Radio RX Small"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Radio RX Medium"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Radio RX Large"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Radio RX Huge"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Radio Video Recv"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Radio Video Emit"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Microphone"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Speaker (Small)"
+        ],
+        [
+          "Specialist Equipment",
+          "Megaphone Speaker (Small)"
+        ],
+        [
+          "Specialist Equipment",
+          "Megaphone Speaker (Large)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Keep Active Block"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Radio RX\n\n[![Hicapradiorxresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d8/Hicapradiorxresearch.png/revision/latest?cb=20240421184318)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d8/Hicapradiorxresearch.png/revision/latest?cb=20240421184318)\n\n### Research Points\n\n20\n\n### Research Time\n\n2h 0m\n\n## Research Path\n\n### Unlocked by\n\n[Electrics](https://stormworks.fandom.com/wiki/Electrics_Research)\n\nRadio RX is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Radio RX Small |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Radio RX Medium |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Radio RX Large |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Radio RX Huge |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Radio Video Recv |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Radio Video Emit |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Microphone |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Speaker (Small) |\n| Specialist Equipment | Megaphone Speaker (Small) |\n| Specialist Equipment | Megaphone Speaker (Large) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Keep Active Block |",
+    "plain_text": "Radio RX\n\nResearch Points\n\n20\n\nResearch Time\n\n2h 0m\n\nResearch Path\n\nUnlocked by\n\nElectrics\n\nRadio RX is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nVehicle Control\n\nRadio RX Small\n\nVehicle Control\n\nRadio RX Medium\n\nVehicle Control\n\nRadio RX Large\n\nVehicle Control\n\nRadio RX Huge\n\nVehicle Control\n\nRadio Video Recv\n\nVehicle Control\n\nRadio Video Emit\n\nSensors\n\nMicrophone\n\nDisplays\n\nSpeaker (Small)\n\nSpecialist Equipment\n\nMegaphone Speaker (Small)\n\nSpecialist Equipment\n\nMegaphone Speaker (Large)\n\nVehicle Control\n\nKeep Active Block",
+    "char_count": 1736,
+    "word_count": 77,
+    "sha256": "e61061e66f2e743cfad27ca1d5a910dcdf583eb4bd715178b61eccd262b4e7ff"
+  },
+  "wikitext": "{{Research\n  | name=Radio RX\n  | image=[File:Hicapradiorxresearch.png]\n  | points=20\n  | time= 2h 0m\n  | unlock= [[Electrics Research|Electrics]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Radio RX is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Radio RX Small\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Radio RX Medium\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Radio RX Large\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Radio RX Huge\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Radio Video Recv\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Radio Video Emit\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Microphone\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Speaker (Small)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Megaphone Speaker (Small)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]\n|Megaphone Speaker (Large)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]\n|Keep Active Block\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Radio_RX_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1498,
+    "revision_id": 3850,
+    "revision_timestamp": "2024-04-21T20:17:20Z",
+    "retrieved_at": "2026-08-31T10:04:43+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

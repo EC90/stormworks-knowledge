@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Gyro",
+  "display_title": "Gyro",
+  "summary": "Alias for Wiki/Guides/Gyro",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Guides/Gyro"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Gyro -> Wiki/Guides/Gyro",
+    "plain_text": "Redirect: Gyro -> Wiki/Guides/Gyro",
+    "char_count": 34,
+    "word_count": 4,
+    "sha256": "16079bb84390fb3eb43cd05f7753ac4eae785e75998463c8bf5358a1fab0038d"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Guides/Gyro",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Gyro",
+    "target_page_id": 545,
+    "target_revision_id": 4575
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gyro",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 951,
+    "revision_id": 1868,
+    "revision_timestamp": "2019-05-14T14:16:07Z",
+    "retrieved_at": "2026-08-31T10:03:14+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

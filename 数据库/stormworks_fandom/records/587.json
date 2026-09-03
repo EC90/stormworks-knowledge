@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki/Vehicles",
+  "display_title": "Wiki/Vehicles",
+  "summary": "In\nStormworks: Build and Rescue\n, players design or import\nvehicles\n to use in\n missions\n for their rescue operations, including\n planes\n,\n helicopters\n,\n boats\n,\n submersibles\n, and\n trains\n. Players can either use\nvehicle workbenches\n to design their own vehicles, or to spawn vehicles made by other players through the Steam Workshop (\nlearn more here\n).",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Subpages",
+      "anchor": "Subpages"
+    }
+  ],
+  "internal_links": [
+    "Stormworks: Build and Rescue",
+    "Wiki/Building",
+    "Wiki/Guides",
+    "Wiki/Missions",
+    "Wiki/Vehicles/Air",
+    "Wiki/Vehicles/Air/Helicopter",
+    "Wiki/Vehicles/Air/Plane",
+    "Wiki/Vehicles/Land",
+    "Wiki/Vehicles/Land/Train",
+    "Wiki/Vehicles/Water",
+    "Wiki/Vehicles/Water/Boat",
+    "Wiki/Vehicles/Water/Submersible",
+    "Wiki/Workshop"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "In *[Stormworks: Build and Rescue](https://stormworks.fandom.com/wiki/Stormworks:_Build_and_Rescue)*, players design or import **vehicles** to use in [missions](https://stormworks.fandom.com/wiki/Wiki/Missions) for their rescue operations, including [planes](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Air/Plane), [helicopters](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Air/Helicopter), [boats](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Water/Boat),[submersibles](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Water/Submersible), and [trains](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Land/Train). Players can either use [vehicle workbenches](https://stormworks.fandom.com/wiki/Wiki/Building#Workbenches) to design their own vehicles, or to spawn vehicles made by other players through the Steam Workshop ([learn more here](https://stormworks.fandom.com/wiki/Wiki/Workshop)).\n\nYou can find out more about \"*how to build vehicles*\" in the [guide section](https://stormworks.fandom.com/wiki/Wiki/Guides).\n\n## Subpages\n\n- [Wiki/Vehicles/Air](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Air)\n- [Wiki/Vehicles/Land](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Land)\n- [Wiki/Vehicles/Water](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Water)",
+    "plain_text": "In\nStormworks: Build and Rescue\n, players design or import\nvehicles\n to use in\n missions\n for their rescue operations, including\n planes\n,\n helicopters\n,\n boats\n,\n submersibles\n, and\n trains\n. Players can either use\nvehicle workbenches\n to design their own vehicles, or to spawn vehicles made by other players through the Steam Workshop (\nlearn more here\n).\n\nYou can find out more about \"\nhow to build vehicles\n\" in the\n guide section\n.\n\nSubpages\n\nWiki/Vehicles/Air\n\nWiki/Vehicles/Land\n\nWiki/Vehicles/Water",
+    "char_count": 1280,
+    "word_count": 75,
+    "sha256": "ce7cee7c9ced6da7faf40fd6566105eb6dd9673dece588b381fece3974c0f73e"
+  },
+  "wikitext": "In ''[[Stormworks: Build and Rescue]]'', players design or import '''vehicles''' to use in [[Wiki/Missions | missions]] for their rescue operations, including [[Wiki/Vehicles/Air/Plane | planes]], [[Wiki/Vehicles/Air/Helicopter | helicopters]], [[Wiki/Vehicles/Water/Boat | boats]],[[Wiki/Vehicles/Water/Submersible | submersibles]], and [[Wiki/Vehicles/Land/Train | trains]]. Players can either use [[Wiki/Building#Workbenches|vehicle workbenches]] to design their own vehicles, or to spawn vehicles made by other players through the Steam Workshop ([[Wiki/Workshop |learn more here]]).\n\nYou can find out more about \"''how to build vehicles''\" in the [[Wiki/Guides | guide section]].\n\n== Subpages ==\n* [[Wiki/Vehicles/Air]]\n* [[Wiki/Vehicles/Land]]\n* [[Wiki/Vehicles/Water]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Vehicles",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 587,
+    "revision_id": 3176,
+    "revision_timestamp": "2022-04-01T16:19:03Z",
+    "retrieved_at": "2026-08-31T10:12:51+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

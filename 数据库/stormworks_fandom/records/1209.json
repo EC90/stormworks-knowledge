@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "V0.9.7",
+  "display_title": "V0.9.7",
+  "summary": "Alias for V0.9.7-8",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "V0.9.7-8"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: V0.9.7 -> V0.9.7-8",
+    "plain_text": "Redirect: V0.9.7 -> V0.9.7-8",
+    "char_count": 28,
+    "word_count": 4,
+    "sha256": "aa0e107af2283198ebbebb54da769046b049315ff8be4203c19c3d0447dab441"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "V0.9.7-8",
+    "target_url": "https://stormworks.fandom.com/wiki/V0.9.7-8",
+    "target_page_id": 1208,
+    "target_revision_id": 2672
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/V0.9.7",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1209,
+    "revision_id": 2673,
+    "revision_timestamp": "2020-12-18T18:19:39Z",
+    "retrieved_at": "2026-08-31T10:07:57+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

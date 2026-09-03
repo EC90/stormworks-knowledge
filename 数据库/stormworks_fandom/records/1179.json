@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki/Guides/Lua",
+  "display_title": "Wiki/Guides/Lua",
+  "summary": "Lua is used in script components. It can read and write composite data, so it can do the same stuff other logic components can do, but in a programatic way.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Lua     [ edit page ]",
+      "anchor": "Lua_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Subpages",
+      "anchor": "Subpages"
+    },
+    {
+      "level": 2,
+      "title": "Tools to program Lua scripts",
+      "anchor": "Tools_to_program_Lua_scripts"
+    },
+    {
+      "level": 3,
+      "title": "PonyIDE",
+      "anchor": "PonyIDE"
+    },
+    {
+      "level": 3,
+      "title": "VSCode Extension",
+      "anchor": "VSCode_Extension"
+    },
+    {
+      "level": 2,
+      "title": "Lua Video Tutorial",
+      "anchor": "Lua_Video_Tutorial"
+    }
+  ],
+  "internal_links": [
+    "Wiki",
+    "Wiki/Guides",
+    "Wiki/Guides/Lua/",
+    "Wiki/Guides/Lua/Exploring the Stormworks Lua API",
+    "Wiki/Guides/Lua/Learning Lua as a beginner",
+    "Wiki/Guides/Lua/Learning Lua as a programer",
+    "Wiki/Guides/Lua/Special Advice for Lua"
+  ],
+  "external_links": [
+    "https://discord.gg/qvZwnym",
+    "https://lua.flaffipony.rocks",
+    "https://marketplace.visualstudio.com/items?itemName=NameousChangey.lifeboatapi",
+    "https://www.youtube.com/watch?v=2oroLYoOV_Q"
+  ],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Guides/Lua?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Guides/Lua?action=edit). |\n| --- | --- |\n\n## Lua\n\n## Subpages\n\n[Learning Lua as a beginner](https://stormworks.fandom.com/wiki/Wiki/Guides/Lua/Learning_Lua_as_a_beginner) [Learning Lua as a programer](https://stormworks.fandom.com/wiki/Wiki/Guides/Lua/Learning_Lua_as_a_programer) [Exploring the Stormworks Lua API](https://stormworks.fandom.com/wiki/Wiki/Guides/Lua/Exploring_the_Stormworks_Lua_API) [Special Advice for Lua](https://stormworks.fandom.com/wiki/Wiki/Guides/Lua/Special_Advice_for_Lua)\n\nDo you think a subpage is missing?\n\nLua is used in script components. It can read and write composite data, so it can do the same stuff other logic components can do, but in a programatic way.\n\nIt can also draw stuff on a monitor or over a camera feed.\n\nIf you need more assistance or have more questions, you can always join the [Official Stormworks Discord](https://discord.gg/qvZwnym) and ask your questions in the #lua channel.\n\n**Please choose which kind of user you are**\n\n- You have no experience in programing? go to [Learning Lua as a beginner](https://stormworks.fandom.com/wiki/Wiki/Guides/Lua/Learning_Lua_as_a_beginner)\n- You have experience in another language? go to [Learning Lua as a programer](https://stormworks.fandom.com/wiki/Wiki/Guides/Lua/Learning_Lua_as_a_programer)\n- You have experience in Lua? go to [Exploring the Stormworks Lua API](https://stormworks.fandom.com/wiki/Wiki/Guides/Lua/Exploring_the_Stormworks_Lua_API)\n- You have experience in Lua in Stormworks? go to [Special advice and little known facts](https://stormworks.fandom.com/wiki/Wiki/Guides/Lua/Special_Advice_for_Lua)\n\n## Tools to program Lua scripts\n\n### PonyIDE\n\nIn case you already know a little bit, or watched one of those tutorials, you can use this website to program scripts. [https://lua.flaffipony.rocks](https://lua.flaffipony.rocks) Advantages compared to the original editor in game\n\n- undo/redo function\n- autocompletion\n- debug scripts with print()\n- zooming\n- simulate inputs and properties\n- minifier\n- UI Builder\n- share scripts with other people\n\n### VSCode Extension\n\nFor those who wish to take their Lua further, an extension has been created for VSCode - a professional development environment.\n\nYou can use this to develop lua scripts on **Windows** *(Note, Mac and Linux are not yet supported)*\n\nDownload here, or search \"Stormworks\" in VSCode: [https://marketplace.visualstudio.com/items?itemName=NameousChangey.lifeboatapi](https://marketplace.visualstudio.com/items?itemName=NameousChangey.lifeboatapi)\n\nAdvantages over the ingame editor, and online editing tools:\n\n- Full debugger support with breakpoints\n- Full intellisense/code-hinting\n- Ability to organise code into libraries and re-use functions across multiple scripts\n- More powerful Stormworks Minifier\n- More accurate Stormworks Simulator\n- Multi-screen & Multi-MC simulation support\n- As a desktop tool:\n  - Can more easily store code on github\n  - Can more easily chain build processes with other tools\n- EmmyLua type hinting\n- Redundancy Remover syntax\n- Access to built-in utilities library, including Vector math library\n\nSee the quick feature rundown here: [https://www.youtube.com/watch?v=2oroLYoOV_Q](https://www.youtube.com/watch?v=2oroLYoOV_Q)\n\n## Lua Video Tutorial",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nLua\n\nSubpages\n\n Learning Lua as a beginner\n\n Learning Lua as a programer\n\n Exploring the Stormworks Lua API\n\n Special Advice for Lua\n\nDo you think a subpage is missing?\n\nLua is used in script components. It can read and write composite data, so it can do the same stuff other logic components can do, but in a programatic way.\n\nIt can also draw stuff on a monitor or over a camera feed.\n\nIf you need more assistance or have more questions, you can always join the\nOfficial Stormworks Discord\n and ask your questions in the #lua channel.\n\nPlease choose which kind of user you are\n\nYou have no experience in programing?   go to\n Learning Lua as a beginner\n\nYou have experience in another language?   go to\n Learning Lua as a programer\n\nYou have experience in Lua?   go to\n Exploring the Stormworks Lua API\n\nYou have experience in Lua in Stormworks?   go to\n Special advice and little known facts\n\nTools to program Lua scripts\n\nPonyIDE\n\nIn case you already know a little bit, or watched one of those tutorials, you can use this website to program scripts.\n\nhttps://lua.flaffipony.rocks\n\nAdvantages compared to the original editor in game\n\nundo/redo function\n\nautocompletion\n\ndebug scripts with print()\n\nzooming\n\nsimulate inputs and properties\n\nminifier\n\nUI Builder\n\nshare scripts with other people\n\nVSCode Extension\n\nFor those who wish to take their Lua further, an extension has been created for VSCode - a professional development environment.\n\nYou can use this to develop lua scripts on\nWindows\n\n(Note, Mac and Linux are not yet supported)\n\nDownload here, or search \"Stormworks\" in VSCode:\n\nhttps://marketplace.visualstudio.com/items?itemName=NameousChangey.lifeboatapi\n\nAdvantages over the ingame editor, and online editing tools:\n\nFull debugger support with breakpoints\n\nFull intellisense/code-hinting\n\nAbility to organise code into libraries and re-use functions across multiple scripts\n\nMore powerful Stormworks Minifier\n\nMore accurate Stormworks Simulator\n\nMulti-screen & Multi-MC simulation support\n\nAs a desktop tool:\n\nCan more easily store code on github\n\nCan more easily chain build processes with other tools\n\nEmmyLua type hinting\n\nRedundancy Remover syntax\n\nAccess to built-in utilities library, including Vector math library\n\nSee the quick feature rundown here:\n\nhttps://www.youtube.com/watch?v=2oroLYoOV_Q\n\nLua Video Tutorial",
+    "char_count": 3685,
+    "word_count": 382,
+    "sha256": "076f3ef49195068aa20992f0d8a18e10fc30aa7e422ca07e60fca7191ebfc72a"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\n\n{{Wiki_Page/subpages|Learning Lua as a beginner|Learning Lua as a programer|Exploring the Stormworks Lua API|Special Advice for Lua|||||||||||}}\n\nLua is used in script components. It can read and write composite data, so it can do the same stuff other logic components can do, but in a programatic way.\n\nIt can also draw stuff on a monitor or over a camera feed.\n\n\n\nIf you need more assistance or have more questions, you can always join the [https://discord.gg/qvZwnym Official Stormworks Discord] and ask your questions in the #lua channel.\n\n'''Please choose which kind of user you are'''\n\n* You have no experience in programing?   go to [[Wiki/Guides/Lua/Learning_Lua_as_a_beginner | Learning Lua as a beginner]]\n* You have experience in another language?   go to [[Wiki/Guides/Lua/Learning_Lua_as_a_programer | Learning Lua as a programer]]\n* You have experience in Lua?   go to [[Wiki/Guides/Lua/Exploring_the_Stormworks_Lua_API | Exploring the Stormworks Lua API]]\n* You have experience in Lua in Stormworks?   go to [[Wiki/Guides/Lua/Special_Advice_for_Lua | Special advice and little known facts]]\n\n\n\n==Tools to program Lua scripts==\n\n===PonyIDE===\nIn case you already know a little bit, or watched one of those tutorials, you can use this website to program scripts.\n<br>\n<br>\nhttps://lua.flaffipony.rocks\n<br>\n<br>\nAdvantages compared to the original editor in game\n* undo/redo function\n* autocompletion\n* debug scripts with print()\n* zooming\n* simulate inputs and properties\n* minifier\n* UI Builder\n* share scripts with other people\n\n===VSCode Extension===\nFor those who wish to take their Lua further, an extension has been created for VSCode - a professional development environment.\n\nYou can use this to develop lua scripts on '''Windows''' ''(Note, Mac and Linux are not yet supported)''\n\nDownload here, or search \"Stormworks\" in VSCode:  \nhttps://marketplace.visualstudio.com/items?itemName=NameousChangey.lifeboatapi\n\nAdvantages over the ingame editor, and online editing tools:\n* Full debugger support with breakpoints\n* Full intellisense/code-hinting\n* Ability to organise code into libraries and re-use functions across multiple scripts\n* More powerful Stormworks Minifier\n* More accurate Stormworks Simulator\n* Multi-screen & Multi-MC simulation support\n* As a desktop tool:\n** Can more easily store code on github\n** Can more easily chain build processes with other tools\n* EmmyLua type hinting\n* Redundancy Remover syntax\n* Access to built-in utilities library, including Vector math library\n\nSee the quick feature rundown here:\nhttps://www.youtube.com/watch?v=2oroLYoOV_Q\n\n==Lua Video Tutorial==\n{{#ev:youtube|https://www.youtube.com/watch?v=Uv5NTZtQe9Q&list=PLFRedzlVFwBACmmpHMmsU_E8vc-TpwVVZ}}\n\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Lua",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1179,
+    "revision_id": 3293,
+    "revision_timestamp": "2022-12-18T03:35:12Z",
+    "retrieved_at": "2026-08-31T10:12:15+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

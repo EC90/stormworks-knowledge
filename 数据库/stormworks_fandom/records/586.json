@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki/Vehicles/Land/Train",
+  "display_title": "Wiki/Vehicles/Land/Train",
+  "summary": "Trains are good for cargo delivery because all terminals have a train track leading to them, and don't require constant attention from the user to drive. Some stations have train spawn points at them.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Wheels",
+      "anchor": "Wheels"
+    },
+    {
+      "level": 2,
+      "title": "Speed",
+      "anchor": "Speed"
+    },
+    {
+      "level": 3,
+      "title": "Wheel slip",
+      "anchor": "Wheel_slip"
+    },
+    {
+      "level": 2,
+      "title": "Rail Switches",
+      "anchor": "Rail_Switches"
+    },
+    {
+      "level": 2,
+      "title": "Derailing",
+      "anchor": "Derailing"
+    },
+    {
+      "level": 2,
+      "title": "Some wheels are bugged",
+      "anchor": "Some_wheels_are_bugged"
+    },
+    {
+      "level": 2,
+      "title": "Update v1.5.17",
+      "anchor": "Update_v1.5.17"
+    }
+  ],
+  "internal_links": [
+    "Wiki/Standards/Train Standards"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/58/Train_Wheelslip.jpg/revision/latest?cb=20231229124704",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/58/Train_Wheelslip.jpg/revision/latest/scale-to-width-down/180?cb=20231229124704",
+      "alt": "This train is not feeling well because it has glowing sparks shooting out from its wheels.",
+      "width": "180",
+      "height": "75"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/52/Sawyer_North_Rail_Signals.jpg/revision/latest?cb=20231229123522",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/52/Sawyer_North_Rail_Signals.jpg/revision/latest/scale-to-width-down/180?cb=20231229123522",
+      "alt": "Rail signals at the Sawyer north harbour",
+      "width": "180",
+      "height": "180"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Land/Train?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Land/Train?action=edit). |\n| --- | --- |\n\nTrains are good for cargo delivery because all terminals have a train track leading to them, and don't require constant attention from the user to drive. Some stations have train spawn points at them.\n\n## Wheels\n\nTrains use Train Wheel Assemblies to attach to rails and will automatically snap to rails when getting close enough. Every assembly has brakes and an indicator for wheel slip.\n\nThere are three categories of train wheels:\n\n- Unpowered\n- Regular\n- Steam\n\nUnpowered wheels will connect to the rails, but don't provide propulsion. Regular wheels have a Power node, allowing them to be powered and moving the train forwards. A negative amount of RPS will cause them to spin backwards.\n\nSteam wheels rely on a Train Wheel Drive Piston to convert steam to movement. Steam wheel components must be directly adjacent in order to connect.\n\n## Speed\n\n[![This train is not feeling well because it has glowing sparks shooting out from its wheels.](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/58/Train_Wheelslip.jpg/revision/latest/scale-to-width-down/180?cb=20231229124704)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/58/Train_Wheelslip.jpg/revision/latest?cb=20231229124704)\n\n[https://stormworks.fandom.com/wiki/File:Train_Wheelslip.jpg](https://stormworks.fandom.com/wiki/File:Train_Wheelslip.jpg)\n\nA train experiencing wheel slip\n\nTrain speed is influenced by size and wheel count. Bigger or heavier trains will not be able to go as fast, and trains with more powered axles will have more traction and a higher top speed.\n\n### Wheel slip\n\nWhen your train approaches its speed limit, it will start to experience wheel slip. Wheels will start slipping when they are moving too fast relative to the ground. A speed difference of 3 m/s will cause them to slip.\n\nYou can calculate how close a regular-size wheel is to slipping using the formula:\n\n- abs( (CURRENT_SPEED ) - (RPS_AT_WHEELS) ) * pi / 9.6\n- If this function outputs a value of >1, your train will start to slip, so a value below that is ideal.\n\nCURRENT_SPEED is the speed (in m/s) measured from a linear speed sensor pointing forward. RPS_AT_WHEELS can be measured by a torque sensor.\n\nabs( ) is a function that converts negative numbers to postitive ones. We use it because we don't care about negative rps or speed.\n\n## Rail Switches\n\n[![Rail signals at the Sawyer north harbour](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/52/Sawyer_North_Rail_Signals.jpg/revision/latest/scale-to-width-down/180?cb=20231229123522)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/52/Sawyer_North_Rail_Signals.jpg/revision/latest?cb=20231229123522)\n\n[https://stormworks.fandom.com/wiki/File:Sawyer_North_Rail_Signals.jpg](https://stormworks.fandom.com/wiki/File:Sawyer_North_Rail_Signals.jpg)\n\nRail signals at the Sawyer north harbour\n\nThere are two methods of controlling rail swithches: manually or by remote controlling.\n\nThe switch is controlled by the signal next to it. The default direction for switches is always the right side. By pressing the button present at each signal, you can toggle the direction the switch is set to. The signal also listens on Radio frequency 440: A composite signal containing true on channel 1 will also toggle the signal.\n\nThe switch will not reset when unloading or leaving the world.\n\n## Derailing\n\nTrains can derail when their wheels get damaged. This usually happens when taking a corner too fast. After being repaired, a train can be placed back on the rails and will snap into place.\n\nUnless derailed, a train cannot be removed from rails unless it passes over the end of the track. No amount of force can lift a train upwards off the rails.\n\n## Some wheels are bugged\n\nThere are some train wheel assembly components available that contain multiple axles in a single component. Despite having more wheels, they do not provide more traction. In fact, their stats are identical to their single-axle counterpart. Affected components are:\n\n- Train Wheel Assembly Classic\n- Train Wheel Assembly x2\n- Train Wheel Assembly x3\n\n## Update v1.5.17\n\nTrains need to be able to be driven on train tracks. Here are the different Train Wheel Assemblies that allow that to happen: There are different types in game: The \"Steam\"\n\n- There are 3 types in game, The large, The Medium and the small one.\n- To use Them you will need the relevant Train wheel Drive Piston (The Large Train Wheel Assembly Needs The large Piston, The Medium Train Wheel Assembly The Medium piston and the small Train wheel The small piston)\n\nThe \"Classic\"*The Old train Wheel was the only one before update v.1.5.17 . The \"Normal\"\n\n- It is just like the classic in that it has an input for power and exists in 3 sizes, unlike the classic which has only one size.\n- The 4 Sizes are:\n\nTrain wheel assembly x1, Train wheel assembly x1 small, Train wheel assembly x2 and Train wheel assembly x3 which all have different numbers of train wheels\n\nThe \"Flanged\"\n\n- Unpowered Train wheels\n\n[Train Standards](https://stormworks.fandom.com/wiki/Wiki/Standards/Train_Standards)",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nTrains are good for cargo delivery because all terminals have a train track leading to them, and don't require constant attention from the user to drive. Some stations have train spawn points at them.\n\nWheels\n\nTrains use Train Wheel Assemblies to attach to rails and will automatically snap to rails when getting close enough. Every assembly has brakes and an indicator for wheel slip.\n\nThere are three categories of train wheels:\n\nUnpowered\n\nRegular\n\nSteam\n\nUnpowered wheels will connect to the rails, but don't provide propulsion. Regular wheels have a Power node, allowing them to be powered and moving the train forwards. A negative amount of RPS will cause them to spin backwards.\n\nSteam wheels rely on a Train Wheel Drive Piston to convert steam to movement. Steam wheel components must be directly adjacent in order to connect.\n\nSpeed\n\nA train experiencing wheel slip\n\nTrain speed is influenced by size and wheel count. Bigger or heavier trains will not be able to go as fast, and trains with more powered axles will have more traction and a higher top speed.\n\nWheel slip\n\nWhen your train approaches its speed limit, it will start to experience wheel slip. Wheels will start slipping when they are moving too fast relative to the ground. A speed difference of 3 m/s will cause them to slip.\n\nYou can calculate how close a regular-size wheel is to slipping using the formula:\n\nabs( (CURRENT_SPEED ) - (RPS_AT_WHEELS) ) * pi / 9.6\n\nIf this function outputs a value of >1, your train will start to slip, so a value below that is ideal.\n\nCURRENT_SPEED is the speed (in m/s) measured from a linear speed sensor pointing forward. RPS_AT_WHEELS can be measured by a torque sensor.\n\nabs( ) is a function that converts negative numbers to postitive ones. We use it because we don't care about negative rps or speed.\n\nRail Switches\n\nRail signals at the Sawyer north harbour\n\nThere are two methods of controlling rail swithches: manually or by remote controlling.\n\nThe switch is controlled by the signal next to it. The default direction for switches is always the right side. By pressing the button present at each signal, you can toggle the direction the switch is set to. The signal also listens on Radio frequency 440: A composite signal containing true on channel 1 will also toggle the signal.\n\nThe switch will not reset when unloading or leaving the world.\n\nDerailing\n\nTrains can derail when their wheels get damaged. This usually happens when taking a corner too fast. After being repaired, a train can be placed back on the rails and will snap into place.\n\nUnless derailed, a train cannot be removed from rails unless it passes over the end of the track. No amount of force can lift a train upwards off the rails.\n\nSome wheels are bugged\n\nThere are some train wheel assembly components available that contain multiple axles in a single component. Despite having more wheels, they do not provide more traction. In fact, their stats are identical to their single-axle counterpart. Affected components are:\n\nTrain Wheel Assembly Classic\n\nTrain Wheel Assembly x2\n\nTrain Wheel Assembly x3\n\nUpdate v1.5.17\n\nTrains need to be able to be driven on train tracks. Here are the different Train Wheel Assemblies that allow that to happen: There are different types in game: The \"Steam\"\n\nThere are 3 types in game, The large, The Medium and the small one.\n\nTo use Them you will need the relevant Train wheel Drive Piston (The Large Train Wheel Assembly Needs The large Piston, The Medium Train Wheel Assembly The Medium piston and the small Train wheel The small piston)\n\nThe \"Classic\"*The Old train Wheel was the only one before update v.1.5.17 .\nThe \"Normal\"\n\nIt is just like the classic in that it has an input for power and exists in 3 sizes, unlike the classic which has only one size.\n\nThe 4 Sizes are:\n\nTrain wheel assembly x1, Train wheel assembly x1 small, Train wheel assembly x2 and Train wheel assembly x3 which all have different numbers of train wheels\n\nThe \"Flanged\"\n\nUnpowered Train wheels\n\n Train Standards",
+    "char_count": 5579,
+    "word_count": 705,
+    "sha256": "675f9fd89c4ea4b4b9552a363bcb3aaf39abb56f486fb03ae54dd0d36bc3ef50"
+  },
+  "wikitext": "{{stub}}Trains are good for cargo delivery because all terminals have a train track leading to them, and don't require constant attention from the user to drive. Some stations have train spawn points at them.\n\n== Wheels ==\nTrains use Train Wheel Assemblies to attach to rails and will automatically snap to rails when getting close enough. Every assembly has brakes and an indicator for wheel slip. \n\nThere are three categories of train wheels:\n\n* Unpowered\n* Regular\n* Steam\n\nUnpowered wheels will connect to the rails, but don't provide propulsion. Regular wheels have a Power node, allowing them to be powered and moving the train forwards. A negative amount of RPS will cause them to spin backwards.\n\nSteam wheels rely on a Train Wheel Drive Piston to convert steam to movement. Steam wheel components must be directly adjacent in order to connect.\n\n== Speed ==\n[[File:Train Wheelslip.jpg|alt=This train is not feeling well because it has glowing sparks shooting out from its wheels.|thumb|A train experiencing wheel slip]]\nTrain speed is influenced by size and wheel count. Bigger or heavier trains will not be able to go as fast, and trains with more powered axles will have more traction and a higher top speed.\n\n=== Wheel slip ===\nWhen your train approaches its speed limit, it will start to experience wheel slip. Wheels will start slipping when they are moving too fast relative to the ground. A speed difference of 3 m/s will cause them to slip.\n\nYou can calculate how close a regular-size wheel is to slipping using the formula:\n\n* abs( (CURRENT_SPEED ) - (RPS_AT_WHEELS) ) * pi / 9.6\n* If this function outputs a value of >1, your train will start to slip, so a value below that is ideal.\n\nCURRENT_SPEED is the speed (in m/s) measured from a linear speed sensor pointing forward. RPS_AT_WHEELS can be measured by a torque sensor.\n\nabs( ) is a function that converts negative numbers to postitive ones. We use it because we don't care about negative rps or speed.\n\n== Rail Switches ==\n[[File:Sawyer North Rail Signals.jpg|thumb|Rail signals at the Sawyer north harbour]]\nThere are two methods of controlling rail swithches: manually or by remote controlling.\n\nThe switch is controlled by the signal next to it. The default direction for switches is always the right side. By pressing the button present at each signal, you can toggle the direction the switch is set to. The signal also listens on Radio frequency 440: A composite signal containing true on channel 1 will also toggle the signal.\n\nThe switch will not reset when unloading or leaving the world.\n\n== Derailing ==\nTrains can derail when their wheels get damaged. This usually happens when taking a corner too fast. After being repaired, a train can be placed back on the rails and will snap into place.\n\nUnless derailed, a train cannot be removed from rails unless it passes over the end of the track. No amount of force can lift a train upwards off the rails.\n\n== Some wheels are bugged ==\nThere are some train wheel assembly components available that contain multiple axles in a single component. Despite having more wheels, they do not provide more traction. In fact, their stats are identical to their single-axle counterpart. Affected components are:\n\n* Train Wheel Assembly Classic\n* Train Wheel Assembly x2\n* Train Wheel Assembly x3\n\n== Update v1.5.17 ==\nTrains need to be able to be driven on train tracks. Here are the different Train Wheel Assemblies that allow that to happen: There are different types in game: The \"Steam\"\n*There are 3 types in game, The large, The Medium and the small one.\n*To use Them you will need the relevant Train wheel Drive Piston (The Large Train Wheel Assembly Needs The large Piston, The Medium Train Wheel Assembly The Medium piston and the small Train wheel The small piston)\nThe \"Classic\"*The Old train Wheel was the only one before update v.1.5.17 .\nThe \"Normal\"\n*It is just like the classic in that it has an input for power and exists in 3 sizes, unlike the classic which has only one size.\n*The 4 Sizes are:\nTrain wheel assembly x1, Train wheel assembly x1 small, Train wheel assembly x2 and Train wheel assembly x3 which all have different numbers of train wheels\n\nThe \"Flanged\"\n*Unpowered Train wheels\n[[Wiki/Standards/Train_Standards | Train Standards]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Vehicles/Land/Train",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 586,
+    "revision_id": 3582,
+    "revision_timestamp": "2023-12-29T13:21:53Z",
+    "retrieved_at": "2026-08-31T10:12:59+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

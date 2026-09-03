@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki/Guides/Logic",
+  "display_title": "Wiki/Guides/Logic",
+  "summary": "The Stormworks logic building is operated by a connection between 2 logic nodes. There are 6 categories of logic connections: electrical, data, composite, video, audio, & rope.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Logic     [ edit page ]",
+      "anchor": "Logic_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "NODES",
+      "anchor": "NODES"
+    },
+    {
+      "level": 3,
+      "title": "Electrical",
+      "anchor": "Electrical"
+    },
+    {
+      "level": 3,
+      "title": "Data",
+      "anchor": "Data"
+    },
+    {
+      "level": 3,
+      "title": "Composite",
+      "anchor": "Composite"
+    },
+    {
+      "level": 3,
+      "title": "Video",
+      "anchor": "Video"
+    },
+    {
+      "level": 3,
+      "title": "Audio",
+      "anchor": "Audio"
+    },
+    {
+      "level": 3,
+      "title": "Rope",
+      "anchor": "Rope"
+    }
+  ],
+  "internal_links": [
+    "Wiki",
+    "Wiki/Guides"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Guides/Logic?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Guides/Logic?action=edit). |\n| --- | --- |\n\n## Logic\n\nLogics are needed to control your vehicles.\n\n## NODES\n\nThe Stormworks logic building is operated by a connection between 2 logic nodes. There are 6 categories of logic connections: electrical, data, composite, video, audio, & rope.\n\n### Electrical\n\nElectrical nodes are a standard yellow color. With infinite electric disabled, all components must be attached to electricity: most conveniently, in the form of a battery. A benefit of electrical nodes is that there is no designated input and output. Instead, the node can easily just be connected to one another.\n\n### Data\n\nThe standard data nodes come in 2 colors, red and green (the 2 colors most difficult for colorblind people to tell apart). The red data nodes are for on/off connections, while the green data nodes are for numerical connections. An on/off data node must be connected to another on/off data node. A number data node must be connected to another number data node.\n\n### Composite\n\nComposite node are a purple color. For composite data to be utilized, a microcontroller must be used to convert the signal into other logic nodes. Many component have a composite output; however, this output will not always need to be used.\n\n### Video\n\nVideo nodes are a light blue color. Video can be taken from a camera and sent to a monitor, and lua can be used to add to a video.\n\n### Audio\n\nAudio nodes are a yellowish, brownish color. Audio can be connected between microphones and speakers.\n\n### Rope\n\nRope nodes are a black color. Ropes can be attached between nodes in a similar way to the way electrical nodes are connected. The ropes connecting between these nodes will only be seen once a vehicle is spawned.\n\nFor all of the logic nodes other than electrical and rope, the nodes must be connected between an input and an output. The logic output node of a component is the smaller dot, without a hole in it. The logic input of a component is the larger circle, with a hole in it. The only way a logic connection will work is if an output is connected to an input of the same color (ie: for video that would be blue small dot connected to blue larger circle.\n\nIn the video below, there is a tutorial:",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nLogic\n\nLogics are needed to control your vehicles.\n\nNODES\n\nThe Stormworks logic building is operated by a connection between 2 logic nodes. There are 6 categories of logic connections: electrical, data, composite, video, audio, & rope.\n\nElectrical\n\nElectrical nodes are a standard yellow color. With infinite electric disabled, all components must be attached to electricity: most conveniently, in the form of a battery. A benefit of electrical nodes is that there is no designated input and output. Instead, the node can easily just be connected to one another.\n\nData\n\nThe standard data nodes come in 2 colors, red and green (the 2 colors most difficult for colorblind people to tell apart). The red data nodes are for on/off connections, while the green data nodes are for numerical connections. An on/off data node must be connected to another on/off data node. A number data node must be connected to another number data node.\n\nComposite\n\nComposite node are a purple color. For composite data to be utilized, a microcontroller must be used to convert the signal into other logic nodes. Many component have a composite output; however, this output will not always need to be used.\n\nVideo\n\nVideo nodes are a light blue color. Video can be taken from a camera and sent to a monitor, and lua can be used to add to a video.\n\nAudio\n\nAudio nodes are a yellowish, brownish color. Audio can be connected between microphones and speakers.\n\nRope\n\nRope nodes are a black color. Ropes can be attached between nodes in a similar way to the way electrical nodes are connected. The ropes connecting between these nodes will only be seen once a vehicle is spawned.\n\nFor all of the logic nodes other than electrical and rope, the nodes must be connected between an input and an output. The logic output node of a component is the smaller dot, without a hole in it. The logic input of a component is the larger circle, with a hole in it. The only way a logic connection will work is if an output is connected to an input of the same color (ie: for video that would be blue small dot connected to blue larger circle.\n\nIn the video below, there is a tutorial:",
+    "char_count": 2640,
+    "word_count": 389,
+    "sha256": "fbe78d90d970e3b2fcc1b875b5c7292eb9c8ddc174e300bf6d8a17ff2dd5cf76"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\n\n\n\nLogics are needed to control your vehicles.\n==NODES==\nThe Stormworks logic building is operated by a connection between 2 logic nodes. There are 6 categories of logic connections: electrical, data, composite, video, audio, & rope.\n===Electrical===\nElectrical nodes are a standard yellow color. With infinite electric disabled, all components must be attached to electricity: most conveniently, in the form of a battery. A benefit of electrical nodes is that there is no designated input and output. Instead, the node can easily just be connected to one another.\n===Data===\nThe standard data nodes come in 2 colors, red and green (the 2 colors most difficult for colorblind people to tell apart). The red data nodes are for on/off connections, while the green data nodes are for numerical connections. An on/off data node must be connected to another on/off data node. A number data node must be connected to another number data node.\n===Composite===\nComposite node are a purple color. For composite data to be utilized, a microcontroller must be used to convert the signal into other logic nodes. Many component have a composite output; however, this output will not always need to be used.\n===Video===\nVideo nodes are a light blue color. Video can be taken from a camera and sent to a monitor, and lua can be used to add to a video.\n===Audio===\nAudio nodes are a yellowish, brownish color. Audio can be connected between microphones and speakers.\n===Rope===\nRope nodes are a black color. Ropes can be attached between nodes in a similar way to the way electrical nodes are connected. The ropes connecting between these nodes will only be seen once a vehicle is spawned.\n\nFor all of the logic nodes other than electrical and rope, the nodes must be connected between an input and an output. The logic output node of a component is the smaller dot, without a hole in it. The logic input of a component is the larger circle, with a hole in it. The only way a logic connection will work is if an output is connected to an input of the same color (ie: for video that would be blue small dot connected to blue larger circle.\n\nIn the video below, there is a tutorial:\n\n{{#ev:youtube|www.youtube.com/watch?v=sItxqZPppB0}}\n\n\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Logic",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 600,
+    "revision_id": 3344,
+    "revision_timestamp": "2023-05-29T06:50:05Z",
+    "retrieved_at": "2026-08-31T10:12:14+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

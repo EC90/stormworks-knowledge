@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Boiler",
+  "display_title": "Boiler",
+  "summary": "Alias for Steam boiler",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Steam boiler"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Boiler -> Steam boiler",
+    "plain_text": "Redirect: Boiler -> Steam boiler",
+    "char_count": 32,
+    "word_count": 5,
+    "sha256": "6da1ea4cc11f0ba8ec6697719a73fe7b4063f2eb2b1525564f7ee263db8b7b7b"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Steam boiler",
+    "target_url": "https://stormworks.fandom.com/wiki/Steam_boiler",
+    "target_page_id": 1253,
+    "target_revision_id": 4719
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Boiler",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1844,
+    "revision_id": 4580,
+    "revision_timestamp": "2025-08-07T03:35:28Z",
+    "retrieved_at": "2026-08-31T10:00:58+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

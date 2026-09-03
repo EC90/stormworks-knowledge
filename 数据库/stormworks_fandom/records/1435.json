@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Basic Logic Research",
+  "display_title": "Basic Logic Research",
+  "summary": "Basic logic is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Advanced Logic Research",
+    "Behaviour Research",
+    "Functions Research",
+    "Research",
+    "Wiki/Building/Components/Logic"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/59/Basiclogicresearch.png/revision/latest?cb=20240421180345",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/59/Basiclogicresearch.png/revision/latest?cb=20240421180345",
+      "alt": "Basiclogicresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Add"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Subtract"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Multiply"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Divide"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Clamp"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Threshold Gate"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Push to Toggle"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Greater-Than"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Numerical Inverter"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Abs"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Numerical Switchbox"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Numerical Junction"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Modulo"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Less-Than"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Basic Logic Research\n\n[![Basiclogicresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/59/Basiclogicresearch.png/revision/latest?cb=20240421180345)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/59/Basiclogicresearch.png/revision/latest?cb=20240421180345)\n\n### Research Points\n\n2\n\n### Research Time\n\n1h 35m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[Advanced Logic](https://stormworks.fandom.com/wiki/Advanced_Logic_Research)\n\n### Makes available\n\n[Behaviour](https://stormworks.fandom.com/wiki/Behaviour_Research)\n\n### Makes available\n\n[Functions](https://stormworks.fandom.com/wiki/Functions_Research)\n\nBasic logic is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Add |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Subtract |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Multiply |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Divide |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Clamp |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Threshold Gate |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Push to Toggle |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Greater-Than |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Numerical Inverter |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Abs |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Numerical Switchbox |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Numerical Junction |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Modulo |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Less-Than |",
+    "plain_text": "Basic Logic Research\n\nResearch Points\n\n2\n\nResearch Time\n\n1h 35m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nAdvanced Logic\n\nMakes available\n\nBehaviour\n\nMakes available\n\nFunctions\n\nBasic logic is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nLogic\n\nAdd\n\nLogic\n\nSubtract\n\nLogic\n\nMultiply\n\nLogic\n\nDivide\n\nLogic\n\nClamp\n\nLogic\n\nThreshold Gate\n\nLogic\n\nPush to Toggle\n\nLogic\n\nGreater-Than\n\nLogic\n\nNumerical Inverter\n\nLogic\n\nAbs\n\nLogic\n\nNumerical Switchbox\n\nLogic\n\nNumerical Junction\n\nLogic\n\nModulo\n\nLogic\n\nLess-Than",
+    "char_count": 2142,
+    "word_count": 75,
+    "sha256": "a95328b9877ce65a1e7ab764af53d8fa928db420aaed6b51e2b97578586d9568"
+  },
+  "wikitext": "{{Research\n  | name=\n  | image=[File:Basiclogicresearch.png]\n  | points=2\n  | time= 1h 35m\n  | unlock= Initially Available\n  | a1=[[Advanced Logic Research|Advanced Logic]]\n  | a2=[[Behaviour Research|Behaviour]]\n  | a3=[[Functions Research|Functions]]\n  | a4=\n  | a5=\n}}\n\nBasic logic is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n! Category !! Component\n|-\n| [[Wiki/Building/Components/Logic|Logic]]|| Add\n|-\n| [[Wiki/Building/Components/Logic|Logic]]|| Subtract\n|-\n| [[Wiki/Building/Components/Logic|Logic]]|| Multiply\n|-\n| [[Wiki/Building/Components/Logic|Logic]]|| Divide\n|-\n| [[Wiki/Building/Components/Logic|Logic]]|| Clamp\n|-\n| [[Wiki/Building/Components/Logic|Logic]]|| Threshold Gate\n|-\n| [[Wiki/Building/Components/Logic|Logic]]|| Push to Toggle\n|-\n| [[Wiki/Building/Components/Logic|Logic]]|| Greater-Than\n|-\n| [[Wiki/Building/Components/Logic|Logic]]|| Numerical Inverter\n|-\n| [[Wiki/Building/Components/Logic|Logic]]|| Abs\n|-\n| [[Wiki/Building/Components/Logic|Logic]]|| Numerical Switchbox\n|-\n| [[Wiki/Building/Components/Logic|Logic]]|| Numerical Junction\n|-\n| [[Wiki/Building/Components/Logic|Logic]]|| Modulo\n|-\n| [[Wiki/Building/Components/Logic|Logic]]|| Less-Than\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Basic_Logic_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1435,
+    "revision_id": 3856,
+    "revision_timestamp": "2024-04-21T20:25:32Z",
+    "retrieved_at": "2026-08-31T10:00:50+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

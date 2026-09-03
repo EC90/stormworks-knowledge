@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Behavior",
+  "display_title": "Behavior",
+  "summary": "Alias for Behaviour Research",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Behaviour Research"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Behavior -> Behaviour Research",
+    "plain_text": "Redirect: Behavior -> Behaviour Research",
+    "char_count": 40,
+    "word_count": 5,
+    "sha256": "4fc27e4e271469f6d69f79e2ef1f08c0bc649596206aa121b5e0ead59ec10e13"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Behaviour Research",
+    "target_url": "https://stormworks.fandom.com/wiki/Behaviour_Research",
+    "target_page_id": 1461,
+    "target_revision_id": 3839
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Behavior",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1544,
+    "revision_id": 3771,
+    "revision_timestamp": "2024-04-21T18:32:58Z",
+    "retrieved_at": "2026-08-31T10:00:53+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

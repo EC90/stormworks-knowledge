@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Diesel Engines",
+  "display_title": "Diesel Engines",
+  "summary": "Alias for Gameplay/Workbench/Components/Propulsion/DieselEngines",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Propulsion/DieselEngines"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Diesel Engines -> Gameplay/Workbench/Components/Propulsion/DieselEngines",
+    "plain_text": "Redirect: Diesel Engines -> Gameplay/Workbench/Components/Propulsion/DieselEngines",
+    "char_count": 82,
+    "word_count": 5,
+    "sha256": "87495ff85fb976a06d7031987741ef475714368c4b4e340d320c7cad414d5128"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Propulsion/DieselEngines",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Propulsion/DieselEngines",
+    "target_page_id": 1200,
+    "target_revision_id": 4716
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Diesel_Engines",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1091,
+    "revision_id": 4662,
+    "revision_timestamp": "2025-10-25T14:13:58Z",
+    "retrieved_at": "2026-08-31T10:01:28+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "site": "https://wikiwiki.jp",
+  "wiki": "sbarjp",
+  "note": "wikiwiki.jp（非 MediaWiki）。正文取自 div#content，已过滤 ::cmd/edit 链接与侧边栏。",
+  "pages": [
+    {
+      "wiki": "sbarjp",
+      "page": "SENSORS",
+      "url": "https://wikiwiki.jp/sbarjp/SENSORS",
+      "last_modified": "2025-05-10",
+      "chars": 34038,
+      "internal_links": [
+        "DISPLAYS",
+        "LOGIC",
+        "MECHANICS",
+        "SPECIALIST EQUIPMENT",
+        "ゲームモード",
+        "ミッション一覧",
+        "検証"
+      ]
+    }
+  ],
+  "failed": [],
+  "ok": 1,
+  "failed_count": 0
+}

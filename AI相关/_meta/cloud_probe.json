@@ -1,0 +1,46 @@
+{
+ "schema": 1,
+ "generated_utc": "2026-09-03T02:21:40Z",
+ "host_mode": "unknown",
+ "environment": {
+  "python_version": "3.13.14",
+  "platform": "win32",
+  "tmp_dir": "C:\\Users\\EC90\\AppData\\Local\\Temp",
+  "tmp_writable": true,
+  "tmp_free_mb": 319453.6
+ },
+ "environment_ms": 1.7,
+ "network": {
+  "api_steampowered": {
+   "ok": true,
+   "http_code": 200,
+   "bytes": 1,
+   "ms": 510.3,
+   "host": "api.steampowered.com"
+  },
+  "steamcommunity_browse": {
+   "ok": true,
+   "http_code": 200,
+   "bytes": 1,
+   "ms": 1358.3,
+   "host": "steamcommunity.com"
+  },
+  "steam_cdn": {
+   "ok": true,
+   "http_code": 206,
+   "bytes": 1024,
+   "ms": 332.7,
+   "host": "steamcdn-a.akamaihd.net"
+  }
+ },
+ "network_ms": 2201.9,
+ "steamcmd": {
+  "skipped": true,
+  "note": "显式跳过"
+ },
+ "library": {
+  "attempted": false,
+  "note": "跳过（未指定 --lib-upload）"
+ },
+ "wallclock_ms": 2203.6
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Gyroscope",
+  "display_title": "Gyroscope",
+  "summary": "Alias for Wiki/Guides/Gyro",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Guides/Gyro"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Gyroscope -> Wiki/Guides/Gyro",
+    "plain_text": "Redirect: Gyroscope -> Wiki/Guides/Gyro",
+    "char_count": 39,
+    "word_count": 4,
+    "sha256": "5e8b37cec09059273188c5e7b5205f0e9367b57c5e6de491bd4954a0f43c376b"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Guides/Gyro",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Gyro",
+    "target_page_id": 545,
+    "target_revision_id": 4575
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gyroscope",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 543,
+    "revision_id": 2547,
+    "revision_timestamp": "2020-04-13T12:25:51Z",
+    "retrieved_at": "2026-08-31T10:03:15+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

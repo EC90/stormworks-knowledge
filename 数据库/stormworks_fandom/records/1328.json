@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Medium engine",
+  "display_title": "Medium engine",
+  "summary": "Alias for Medium Engine",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Medium Engine"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Medium engine -> Medium Engine",
+    "plain_text": "Redirect: Medium engine -> Medium Engine",
+    "char_count": 40,
+    "word_count": 6,
+    "sha256": "813869fa40b6bac27c4bf80721a78debd3733f18337be57db0ec29d0497f562d"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Medium Engine",
+    "target_url": "https://stormworks.fandom.com/wiki/Medium_Engine",
+    "target_page_id": 1322,
+    "target_revision_id": 4724
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Medium_engine",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1328,
+    "revision_id": 2985,
+    "revision_timestamp": "2022-01-28T18:28:37Z",
+    "retrieved_at": "2026-08-31T10:04:08+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

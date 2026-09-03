@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Land Vehicles Research",
+  "display_title": "Land Vehicles Research",
+  "summary": "Land vehicles is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Arctic Land Vehicles Research",
+    "Heavy Land Vehicles Research",
+    "Research",
+    "Wiki/Building/Components/Specialist Equipment",
+    "Wiki/Building/Components/Vehicle Control"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Landvehiclesresearch.png/revision/latest?cb=20240421181714",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Landvehiclesresearch.png/revision/latest?cb=20240421181714",
+      "alt": "Landvehiclesresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Wheel 3x3"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Wheel 5x5"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Wheel 3x3 (Suspension)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Wheel 5x5 (Suspension)"
+        ],
+        [
+          "Specialist Equipment",
+          "Small Spotlight (Block)"
+        ],
+        [
+          "Specialist Equipment",
+          "Small Spotlight (Mounted)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Medium Wheel"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Small Wheel"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Land Vehicles\n\n[![Landvehiclesresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Landvehiclesresearch.png/revision/latest?cb=20240421181714)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Landvehiclesresearch.png/revision/latest?cb=20240421181714)\n\n### Research Points\n\n7\n\n### Research Time\n\n1h 0m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[Arctic Land Vehicles](https://stormworks.fandom.com/wiki/Arctic_Land_Vehicles_Research)\n\n### Makes available\n\n[Heavy Land Vehicles](https://stormworks.fandom.com/wiki/Heavy_Land_Vehicles_Research)\n\nLand vehicles is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Wheel 3x3 |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Wheel 5x5 |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Wheel 3x3 (Suspension) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Wheel 5x5 (Suspension) |\n| Specialist Equipment | Small Spotlight (Block) |\n| Specialist Equipment | Small Spotlight (Mounted) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Medium Wheel |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Small Wheel |",
+    "plain_text": "Land Vehicles\n\nResearch Points\n\n7\n\nResearch Time\n\n1h 0m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nArctic Land Vehicles\n\nMakes available\n\nHeavy Land Vehicles\n\nLand vehicles is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nVehicle Control\n\nWheel 3x3\n\nVehicle Control\n\nWheel 5x5\n\nVehicle Control\n\nWheel 3x3 (Suspension)\n\nVehicle Control\n\nWheel 5x5 (Suspension)\n\nSpecialist Equipment\n\nSmall Spotlight (Block)\n\nSpecialist Equipment\n\nSmall Spotlight (Mounted)\n\nVehicle Control\n\nMedium Wheel\n\nVehicle Control\n\nSmall Wheel",
+    "char_count": 1595,
+    "word_count": 74,
+    "sha256": "62e9a89e96288ebccda69adc65add0649506c236426a1cab797d620a863dff5f"
+  },
+  "wikitext": "{{Research\n  | name=Land Vehicles\n  | image=[File:Landvehiclesresearch.png]\n  | points=7\n  | time= 1h 0m\n  | unlock= Initially Available\n  | a1=[[Arctic Land Vehicles Research|Arctic Land Vehicles]]\n  | a2=[[Heavy Land Vehicles Research|Heavy Land Vehicles]]\n  | a3=\n  | a4=\n  | a5=\n}}Land vehicles is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Wheel 3x3\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Wheel 5x5\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Wheel 3x3 (Suspension)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Wheel 5x5 (Suspension)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Small Spotlight (Block)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Small Spotlight (Mounted)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Medium Wheel\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Small Wheel\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Land_Vehicles_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1474,
+    "revision_id": 3738,
+    "revision_timestamp": "2024-04-21T18:17:42Z",
+    "retrieved_at": "2026-08-31T10:03:48+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

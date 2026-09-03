@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench",
+  "display_title": "Gameplay/Workbench",
+  "summary": "Workbenches allow you to spawn and edit creations by interacting with them. You can also download vehicles off the workshop to spawn at their respective workbenches",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Workbench     [ edit page ]",
+      "anchor": "Workbench_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Workbenches",
+      "anchor": "Workbenches"
+    },
+    {
+      "level": 2,
+      "title": "Mirroring",
+      "anchor": "Mirroring"
+    },
+    {
+      "level": 2,
+      "title": "Sectioning",
+      "anchor": "Sectioning"
+    },
+    {
+      "level": 2,
+      "title": "Painting",
+      "anchor": "Painting"
+    },
+    {
+      "level": 3,
+      "title": "Paint modes",
+      "anchor": "Paint_modes"
+    },
+    {
+      "level": 2,
+      "title": "Selection grid",
+      "anchor": "Selection_grid"
+    },
+    {
+      "level": 2,
+      "title": "Microcontollers",
+      "anchor": "Microcontollers"
+    },
+    {
+      "level": 2,
+      "title": "Controls",
+      "anchor": "Controls"
+    },
+    {
+      "level": 2,
+      "title": "Subpages",
+      "anchor": "Subpages"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Workbench/",
+    "Gameplay/Workbench/Components",
+    "Gameplay/Workbench/Editor",
+    "Gameplay/Workbench/Lua Programming",
+    "Gameplay/Workbench/Microcontrollers",
+    "Key Assignment",
+    "Wiki/Building/Microcontrollers"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/45/Painting_Tool.jpg/revision/latest?cb=20231229121618",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/45/Painting_Tool.jpg/revision/latest/scale-to-width-down/180?cb=20231229121618",
+      "alt": "The Paint tool's different brushes and custom colour menu",
+      "width": "180",
+      "height": "250"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench?action=edit). |\n| --- | --- |\n\n## Workbench\n\nWorkbenches allow you to spawn and edit creations by interacting with them. You can also download vehicles off the workshop to spawn at their respective workbenches\n\nThis page was last updated for Stormworks v1.9.17 (November 2023).\n\n## Workbenches\n\nWorkbenches may be located near docks, hangars, and train stations. Workbenches at different locations have different sizes for their available construction area. In career mode, it's typical to earn money and use it to purchase larger islands to gain access to larger construction spaces.\n\nNote that blocks are 0.25 meters long, so size measurements for construction areas given in meters are just 1/4 the number of blocks that can be fit into the space.\n\nThe current workbench construction areas are as follows:\n\n- Rocket workbench (highest for now) 21.75x56.75x21.75 m (near Oneil airbase, Monkey Brain Launch site)\n- Medium Dock (longest for now) 56.75x21.75x19.75 m (Creative Base, Multiplayer Base, Harbour Base, Mainland Dock, Arctic Island Base, Custom Base Large Boat and Custom Base Submarine)\n- Medium Hangar (widest for now) 34.25x35.75x9.25 m (Creative Base, Military Base, Mainland Airstrip and Arctic Island Base)\n- Small Dock 14.25x6.75x6.75 m (Starter Base and Custom Base Small Boat)\n- Small Hangar 17.75x15.75x5.25 m (Helicopter Base and Airstrip Base)\n- Train Depot 24.25x4.25x5.25 m (Mainland Dock, Keys Dock and Arctic Island Stations)\n\nNote that the Custom Base islands also have workbenches for designing structures which can be placed when editing a mission.\n\n## Mirroring\n\nSymmetry modes are availabe in the top right of the screen in the workbench editor. These allow for symmetry across one of three planes, and the planes can be adjusted using the move widget.\n\n## Sectioning\n\nTo see inside of large vehicles, section planes can be used to show the vehicle as if it were cut in half. Like the mirroring planes, a move widget is available to adjust the position.\n\n## Painting\n\n[![The Paint tool's different brushes and custom colour menu](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/45/Painting_Tool.jpg/revision/latest/scale-to-width-down/180?cb=20231229121618)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/45/Painting_Tool.jpg/revision/latest?cb=20231229121618)\n\n[https://stormworks.fandom.com/wiki/File:Painting_Tool.jpg](https://stormworks.fandom.com/wiki/File:Painting_Tool.jpg)\n\nThe Paint tool with all menus extended\n\nVehicles can be colored within the build editor. Default colors are provided, though custom colors can be created and used with the large circle at the bottom of the color selection panel.\n\n### Paint modes\n\nNote that 'additive' paint mode does not blend its color with an existing color - it will simply replace the color on blocks without special features. However, blocks with special features, like indicator lights, paintable indicators, buttons, and instrument panels can have the color they produce when lit up set using 'additive' paint mode.\n\n## Selection grid\n\nThe selection grid can be used to cut, copy and paste parts of a vehicle. It can also import other vehicles, allowing players to design and optimize subcomponents which can then be used across multiple vehicles.\n\n## Microcontollers\n\n*Main article: *[Wiki/Building/Microcontrollers](https://stormworks.fandom.com/wiki/Wiki/Building/Microcontrollers)\n\nMicrocontrollers can be used to implement customized logic to control a vehicle.\n\n## Controls\n\nSee [Key Assignment: Vehicle editor](https://stormworks.fandom.com/wiki/Key_Assignment#Vehicle_editor).\n\n## Subpages\n\n[Components](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components) [Editor](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Editor) [Microcontrollers](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Microcontrollers) [Lua Programming](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Lua_Programming)\n\nDo you think a subpage is missing?",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nWorkbench\n\nWorkbenches allow you to spawn and edit creations by interacting with them. You can also download vehicles off the workshop to spawn at their respective workbenches\n\nThis page was last updated for Stormworks v1.9.17 (November 2023).\n\nWorkbenches\n\nWorkbenches may be located near docks, hangars, and train stations. Workbenches at different locations have different sizes for their available construction area. In career mode, it's typical to earn money and use it to purchase larger islands to gain access to larger construction spaces.\n\nNote that blocks are 0.25 meters long, so size measurements for construction areas given in meters are just 1/4 the number of blocks that can be fit into the space.\n\nThe current workbench construction areas are as follows:\n\nRocket workbench (highest for now) 21.75x56.75x21.75 m (near Oneil airbase, Monkey Brain Launch site)\n\nMedium Dock (longest for now) 56.75x21.75x19.75 m (Creative Base, Multiplayer Base, Harbour Base, Mainland Dock, Arctic Island Base, Custom Base Large Boat and Custom Base Submarine)\n\nMedium Hangar (widest for now) 34.25x35.75x9.25 m (Creative Base, Military Base, Mainland Airstrip and Arctic Island Base)\n\nSmall Dock 14.25x6.75x6.75 m (Starter Base and Custom Base Small Boat)\n\nSmall Hangar 17.75x15.75x5.25 m (Helicopter Base and Airstrip Base)\n\nTrain Depot 24.25x4.25x5.25 m (Mainland Dock, Keys Dock and Arctic Island Stations)\n\nNote that the Custom Base islands also have workbenches for designing structures which can be placed when editing a mission.\n\nMirroring\n\nSymmetry modes are availabe in the top right of the screen in the workbench editor. These allow for symmetry across one of three planes, and the planes can be adjusted using the move widget.\n\nSectioning\n\nTo see inside of large vehicles, section planes can be used to show the vehicle as if it were cut in half. Like the mirroring planes, a move widget is available to adjust the position.\n\nPainting\n\nThe Paint tool with all menus extended\n\nVehicles can be colored within the build editor. Default colors are provided, though custom colors can be created and used with the large circle at the bottom of the color selection panel.\n\nPaint modes\n\nNote that 'additive' paint mode does not blend its color with an existing color - it will simply replace the color on blocks without special features. However, blocks with special features, like indicator lights, paintable indicators, buttons, and instrument panels can have the color they produce when lit up set using 'additive' paint mode.\n\nSelection grid\n\nThe selection grid can be used to cut, copy and paste parts of a vehicle. It can also import other vehicles, allowing players to design and optimize subcomponents which can then be used across multiple vehicles.\n\nMicrocontollers\n\nMain article:\nWiki/Building/Microcontrollers\n\nMicrocontrollers can be used to implement customized logic to control a vehicle.\n\nControls\n\nSee\nKey Assignment: Vehicle editor\n.\n\nSubpages\n\n Components\n\n Editor\n\n Microcontrollers\n\n Lua Programming\n\nDo you think a subpage is missing?",
+    "char_count": 4430,
+    "word_count": 505,
+    "sha256": "ff20982b4960cc27130b1a0ddfdbf11746f1dd58b3042c302720b18b07e7b1cf"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\nWorkbenches allow you to spawn and edit creations by interacting with them. You can also download vehicles off the workshop to spawn at their respective workbenches\n\nThis page was last updated for Stormworks v1.9.17 (November 2023).\n\n== Workbenches ==\nWorkbenches may be located near docks, hangars, and train stations. Workbenches at different locations have different sizes for their available construction area. In career mode, it's typical to earn money and use it to purchase larger islands to gain access to larger construction spaces.\n\nNote that blocks are 0.25 meters long, so size measurements for construction areas given in meters are just 1/4 the number of blocks that can be fit into the space.\n\nThe current workbench construction areas are as follows:\n\n* Rocket workbench (highest for now) 21.75x56.75x21.75 m (near Oneil airbase, Monkey Brain Launch site)\n* Medium Dock (longest for now) 56.75x21.75x19.75 m (Creative Base, Multiplayer Base, Harbour Base, Mainland Dock, Arctic Island Base, Custom Base Large Boat and Custom Base Submarine)\n* Medium Hangar (widest for now) 34.25x35.75x9.25 m (Creative Base, Military Base, Mainland Airstrip and Arctic Island Base)\n* Small Dock 14.25x6.75x6.75 m (Starter Base and Custom Base Small Boat)\n* Small Hangar 17.75x15.75x5.25 m (Helicopter Base and Airstrip Base)\n* Train Depot 24.25x4.25x5.25 m (Mainland Dock, Keys Dock and Arctic Island Stations)\n\nNote that the Custom Base islands also have workbenches for designing structures which can be placed when editing a mission.\n\n== Mirroring ==\nSymmetry modes are availabe in the top right of the screen in the workbench editor. These allow for symmetry across one of three planes, and the planes can be adjusted using the move widget.\n\n== Sectioning ==\nTo see inside of large vehicles, section planes can be used to show the vehicle as if it were cut in half. Like the mirroring planes, a move widget is available to adjust the position.\n\n== Painting ==\n[[File:Painting Tool.jpg|alt=The Paint tool's different brushes and custom colour menu|thumb|The Paint tool with all menus extended]]\n\nVehicles can be colored within the build editor. Default colors are provided, though custom colors can be created and used with the large circle at the bottom of the color selection panel.\n\n=== Paint modes ===\nNote that 'additive' paint mode does not blend its color with an existing color - it will simply replace the color on blocks without special features. However, blocks with special features, like indicator lights, paintable indicators, buttons, and instrument panels can have the color they produce when lit up set using 'additive' paint mode.\n\n== Selection grid ==\nThe selection grid can be used to cut, copy and paste parts of a vehicle. It can also import other vehicles, allowing players to design and optimize subcomponents which can then be used across multiple vehicles.\n\n== Microcontollers ==\n{{Main|Wiki/Building/Microcontrollers}}\n\nMicrocontrollers can be used to implement customized logic to control a vehicle.\n\n== Controls ==\nSee [[Key Assignment#Vehicle editor|Key Assignment: Vehicle editor]].\n\n{{Wiki_Page/subpages|Components|Editor|Microcontrollers|Lua Programming|||||||||||}}\n\n\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 606,
+    "revision_id": 4139,
+    "revision_timestamp": "2025-05-14T02:40:53Z",
+    "retrieved_at": "2026-08-31T10:02:35+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

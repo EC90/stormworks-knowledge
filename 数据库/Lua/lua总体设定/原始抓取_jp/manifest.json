@@ -1,0 +1,33 @@
+{
+  "site": "https://wikiwiki.jp",
+  "wiki": "sbarjp",
+  "note": "wikiwiki.jp（非 MediaWiki）。正文取自 div#content，已过滤 ::cmd/edit 链接与侧边栏。",
+  "pages": [
+    {
+      "wiki": "sbarjp",
+      "page": "Luaスクリプト/初心者向けLua回路講座",
+      "url": "https://wikiwiki.jp/sbarjp/Lua%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%97%E3%83%88/%E5%88%9D%E5%BF%83%E8%80%85%E5%90%91%E3%81%91Lua%E5%9B%9E%E8%B7%AF%E8%AC%9B%E5%BA%A7",
+      "last_modified": "2020-12-09",
+      "chars": 26562,
+      "internal_links": [
+        "Luaスクリプト",
+        "Luaスクリプト/Lua初心者講座",
+        "コンポジット信号とは",
+        "マイクロコントローラー"
+      ]
+    },
+    {
+      "wiki": "sbarjp",
+      "page": "Lua例文集",
+      "url": "https://wikiwiki.jp/sbarjp/Lua%E4%BE%8B%E6%96%87%E9%9B%86",
+      "last_modified": "2026-07-11",
+      "chars": 7782,
+      "internal_links": [
+        "PIDバランス制御"
+      ]
+    }
+  ],
+  "failed": [],
+  "ok": 2,
+  "failed_count": 0
+}

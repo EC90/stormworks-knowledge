@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki/Guides/Basics",
+  "display_title": "Wiki/Guides/Basics",
+  "summary": "in the options screen enable the checkbox at\nTutorial enabled",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Basics     [ edit page ]",
+      "anchor": "Basics_[_edit_page_]"
+    }
+  ],
+  "internal_links": [
+    "Wiki",
+    "Wiki/Guides"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Guides/Basics?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Guides/Basics?action=edit). |\n| --- | --- |\n\n## Basics\n\nTo learn the basics start the ingame tutorial:\n\n- in the menu create a new game\n- in the options screen enable the checkbox at `Tutorial enabled`\n\nAnd/Or take a look at this video:",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nBasics\n\nTo learn the basics start the ingame tutorial:\n\nin the menu create a new game\n\nin the options screen enable the checkbox at\nTutorial enabled\n\nAnd/Or take a look at this video:",
+    "char_count": 660,
+    "word_count": 46,
+    "sha256": "eee62417a72e26430ed10d5b3eb7835d6f8eeeaea7568cca8dad2af2febeb343"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\n\n\nTo learn the basics start the ingame tutorial:\n* in the menu create a new game\n* in the options screen enable the checkbox at <code>Tutorial enabled</code>\n\nAnd/Or take a look at this video:\n{{#ev:youtube|https://www.youtube.com/watch?v=tKQv_0GZ00g}}\n\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Basics",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 596,
+    "revision_id": 3187,
+    "revision_timestamp": "2022-04-09T18:55:01Z",
+    "retrieved_at": "2026-08-31T10:12:04+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

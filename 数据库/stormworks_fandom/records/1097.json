@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Airlock",
+  "display_title": "Airlock",
+  "summary": "An Airlock is an entrance most used in submersibles which involve two door docks (or custom doors) and water pumps, when a player enters the airlock, they press a button to flood or dry an airlock and then open the door to go in or out of the vehicle.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [],
+  "internal_links": [],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Airlock?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Airlock?action=edit). |\n| --- | --- |\n\nAn Airlock is an entrance most used in submersibles which involve two door docks (or custom doors) and water pumps, when a player enters the airlock, they press a button to flood or dry an airlock and then open the door to go in or out of the vehicle.",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nAn Airlock is an entrance most used in submersibles which involve two door docks (or custom doors) and water pumps, when a player enters the airlock, they press a button to flood or dry an airlock and then open the door to go in or out of the vehicle.",
+    "char_count": 709,
+    "word_count": 61,
+    "sha256": "4c518ab5bf0b83d92a7a2cf61fb7dc4fbe97e5f1c9fbe1be9167d088f6eea020"
+  },
+  "wikitext": "{{Stub}}\n\nAn Airlock is an entrance most used in submersibles which involve two door docks (or custom doors) and water pumps, when a player enters the airlock, they press a button to flood or dry an airlock and then open the door to go in or out of the vehicle.",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Airlock",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1097,
+    "revision_id": 2518,
+    "revision_timestamp": "2020-03-02T15:11:12Z",
+    "retrieved_at": "2026-08-31T10:00:40+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

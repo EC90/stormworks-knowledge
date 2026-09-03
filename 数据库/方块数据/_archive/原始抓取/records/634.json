@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Electricity",
+  "display_title": "Gameplay/Workbench/Components/Electricity",
+  "summary": "Electricity\nStorage\nCurrently the only components that store electricity are batteries and hardpoint connectors.  Batteries have no inputs and output a value of their total power between 1 and 0 (75% would output 0.75).  Hardpoint connectors have no output to read their battery level.  As batteries deplete, their output scales down resulting in, for example, lower electrical engine RPM and dimmer lights. Unlike fuel tanks, batteries will spawn full when playing with limited fuel option.\nMaximum battery power (small or big) is 600kW and is proportional to its voltage; max voltage for batteries",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Electricity [ edit page ]",
+      "anchor": "Electricity_[_edit_page_]"
+    },
+    {
+      "level": 3,
+      "title": "Storage",
+      "anchor": "Storage"
+    },
+    {
+      "level": 3,
+      "title": "Production",
+      "anchor": "Production"
+    },
+    {
+      "level": 3,
+      "title": "Consumption",
+      "anchor": "Consumption"
+    },
+    {
+      "level": 3,
+      "title": "Utilities",
+      "anchor": "Utilities"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Workbench",
+    "Gameplay/Workbench/Components"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f9/Battery_Small.jpg/revision/latest?cb=20190317005248",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f9/Battery_Small.jpg/revision/latest/scale-to-width-down/100?cb=20190317005248",
+      "alt": "Battery Small",
+      "width": "100",
+      "height": "93"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d1/Battery_Medium.jpg/revision/latest?cb=20190317005237",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d1/Battery_Medium.jpg/revision/latest/scale-to-width-down/100?cb=20190317005237",
+      "alt": "Battery Medium",
+      "width": "100",
+      "height": "98"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/8a/Battery_Large.jpg/revision/latest?cb=20190317005232",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Battery Large",
+      "width": "100",
+      "height": "98"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4e/Hardpoint_Connector.png/revision/latest?cb=20221009062735",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Hardpoint Connector",
+      "width": "100",
+      "height": "100"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ab/Generator_Small.jpg/revision/latest?cb=20190317005337",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Generator Small",
+      "width": "100",
+      "height": "98"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c2/Generator_Medium.jpg/revision/latest?cb=20190317005330",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Generator Medium",
+      "width": "100",
+      "height": "97"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/96/Generator_Large.jpg/revision/latest?cb=20190317005322",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Generator Large",
+      "width": "100",
+      "height": "100"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Solar_Cell.jpg/revision/latest?cb=20190317005343",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Solar Cell",
+      "width": "100",
+      "height": "110"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/54/Electric_Circuit_Breaker.jpg/revision/latest?cb=20190317005307",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Electric Circuit Breaker",
+      "width": "100",
+      "height": "112"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5e/Electric_Relay.jpg/revision/latest?cb=20190317005315",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Electric Relay",
+      "width": "100",
+      "height": "87"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f9/Connector_Electric.jpg/revision/latest?cb=20190317005254",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Connector Electric",
+      "width": "100",
+      "height": "111"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b4/Anchor_Electrical_Cable.png/revision/latest?cb=20200130195219",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Anchor Electrical Cable",
+      "width": "100",
+      "height": "116"
+    }
+  ],
+  "tables": [],
+  "content": {
+    "markdown": "## Electricity\n\n### Storage\n\nCurrently the only components that store electricity are batteries and hardpoint connectors. Batteries have no inputs and output a value of their total power between 1 and 0 (75% would output 0.75). Hardpoint connectors have no output to read their battery level. As batteries deplete, their output scales down resulting in, for example, lower electrical engine RPM and dimmer lights. Unlike fuel tanks, batteries will spawn full when playing with limited fuel option.\n\n- Maximum battery power (small or big) is 600kW and is proportional to its voltage; max voltage for batteries in game is 1. We can calculate needed count of motors and batteries for needed power.\n\nBattery Small\n\n[![Battery Small](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f9/Battery_Small.jpg/revision/latest/scale-to-width-down/100?cb=20190317005248)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f9/Battery_Small.jpg/revision/latest?cb=20190317005248)\n\n- Stores 1600 kJ\n- Mass 10\n- Blocks 2\n- Shape 1 X 2 X 1\n- Best for place-ability\n\nBattery Medium\n\n[![Battery Medium](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d1/Battery_Medium.jpg/revision/latest/scale-to-width-down/100?cb=20190317005237)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d1/Battery_Medium.jpg/revision/latest?cb=20190317005237)\n\n- Stores 12800 kJ\n- Mass 60\n- Blocks 12\n- Shape 3 X 2 X 2\n- Best for Capacity Per Mass\n\nBattery Large\n\n[![Battery Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/8a/Battery_Large.jpg/revision/latest?cb=20190317005232)\n\n- Stores 256000 kJ\n- Mass 800\n- Blocks 175\n- Shape 7 X 5 X 5\n- Best for Capacity Per Block\n\nHardpoint Connector Attachment\n\n[![Hardpoint Connector](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4e/Hardpoint_Connector.png/revision/latest?cb=20221009062735)\n\n- Stores 300 kJ\n- Mass 2\n- Blocks 2\n- Shape 1 X 1 X 2 (Physics Hitbox 1 X 1 X 1)\n- Best for vehicles that need little electricity for a short time, like missiles.\n\n### Production\n\nPower calc\n\n- We can calculate producing power with formula: Power [kWatts] = RPS^2\\*Pp, where i called Pp = generator power potential.\n- Pp Alternator = 0.00540\n- Pp SmallGen = 0.00642\n- Pp MedGen = 0.24100\n- Pp BigGen = 1.13800\n- kJoule/kWatt i called game electricity power unit.\n\nGenerator Small\n\n[![Generator Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ab/Generator_Small.jpg/revision/latest?cb=20190317005337)\n\n- Produces electrical power\n- As of v1.3.13, a small generator directly attached to a small prefab engine at ~20 RPS can fully charge an empty small battery in approximately 10 minutes; this is a non-optimized setup, gear ratios can improve this.\n\nGenerator Medium\n\n[![Generator Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c2/Generator_Medium.jpg/revision/latest?cb=20190317005330)\n\n- Produces electrical power\n- As of v1.3.13, a medium generator directly attached to a medium prefab engine at ~20 RPS can fully charge an empty small battery in approximately 16 seconds; this is a non-optimized setup, gear ratios can improve this.\n\nGenerator Large\n\n[![Generator Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/96/Generator_Large.jpg/revision/latest?cb=20190317005322)\n\n- Produces electrical power\n- As of v1.3.13, a large generator directly attached to a large prefab engine at ~20 RPS can fully charge an empty small battery in approximately 3.5 seconds; this is a non-optimized setup, gear ratios can improve this.\n\nSolar Cell\n\n[![Solar Cell](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Solar_Cell.jpg/revision/latest?cb=20190317005343)\n\n- Produces electrical power (low amounts)\n- As of v1.3.13, one Solar Cell can fully charge an empty small battery in approximately 83 real world hours when in direct sunlight; weather and darkness can decrease this.\n\n### Consumption\n\nMost components require electricity in varying amounts.\n\n### Utilities\n\nElectric Circuit Breaker\n\n[![Electric Circuit Breaker](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/54/Electric_Circuit_Breaker.jpg/revision/latest?cb=20190317005307)\n\n- a switch the player can interact with. When activated it will connect its two electric connectionpoints.\n\nElectric Relay\n\n[![Electric Relay](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5e/Electric_Relay.jpg/revision/latest?cb=20190317005315)\n\n- Input 1 (On/Off): toggle electric connection\n- same as Electric Circuit Break but you can toggle it via the input\n\nElectric Connector\n\n[![Connector Electric](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f9/Connector_Electric.jpg/revision/latest?cb=20190317005254)\n\n- Can connect to other connectors\n- can transfer electricity between vehicles\n\nAnchor Electrical Cable\n\n[![Anchor Electrical Cable](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b4/Anchor_Electrical_Cable.png/revision/latest?cb=20200130195219)\n\nYou can connect electrical cable between two of these blocks.",
+    "plain_text": "Electricity\nStorage\nCurrently the only components that store electricity are batteries and hardpoint connectors.  Batteries have no inputs and output a value of their total power between 1 and 0 (75% would output 0.75).  Hardpoint connectors have no output to read their battery level.  As batteries deplete, their output scales down resulting in, for example, lower electrical engine RPM and dimmer lights. Unlike fuel tanks, batteries will spawn full when playing with limited fuel option.\nMaximum battery power (small or big) is 600kW and is proportional to its voltage; max voltage for batteries in game is 1. We can calculate needed count of motors and batteries for needed power.\nBattery Small\nStores 1600 kJ\nMass 10\nBlocks 2\nShape 1 X 2 X 1\nBest for place-ability\nBattery Medium\nStores 12800 kJ\nMass 60\nBlocks 12\nShape 3 X 2 X 2\nBest for Capacity Per Mass\nBattery Large\nStores 256000 kJ\nMass 800\nBlocks 175\nShape 7 X 5 X 5\nBest for Capacity Per Block\nHardpoint Connector Attachment\nStores 300 kJ\nMass 2\nBlocks 2\nShape 1 X 1 X 2 (Physics Hitbox 1 X 1 X 1)\nBest for vehicles that need little electricity for a short time, like missiles.\nProduction\nPower calc\nWe can calculate producing power with formula: Power [kWatts] = RPS^2*Pp, where i called Pp = generator power potential.\nPp Alternator = 0.00540\nPp SmallGen   = 0.00642\nPp MedGen     = 0.24100\nPp BigGen     = 1.13800\nkJoule/kWatt i called game electricity power unit.\nGenerator Small\nProduces electrical power\nAs of v1.3.13, a small generator directly attached to a small prefab engine at ~20 RPS can fully charge an empty small battery in approximately 10 minutes; this is a non-optimized setup, gear ratios can improve this.\nGenerator Medium\nProduces electrical power\nAs of v1.3.13, a medium generator directly attached to a medium prefab engine at ~20 RPS can fully charge an empty small battery in approximately 16 seconds; this is a non-optimized setup, gear ratios can improve this.\nGenerator Large\nProduces electrical power\nAs of v1.3.13, a large generator directly attached to a large prefab engine at ~20 RPS can fully charge an empty small battery in approximately 3.5 seconds; this is a non-optimized setup, gear ratios can improve this.\nSolar Cell\nProduces electrical power (low amounts)\nAs of v1.3.13, one Solar Cell can fully charge an empty small battery in approximately 83\nreal world hours\nwhen in direct sunlight; weather and darkness can decrease this.\nConsumption\nMost components require electricity in varying amounts.\nUtilities\nElectric Circuit Breaker\na switch the player can interact with. When activated it will connect its two electric connectionpoints.\nElectric Relay\nInput 1 (On/Off): toggle electric connection\nsame as Electric Circuit Break but you can toggle it via the input\nElectric Connector\nCan connect to other connectors\ncan transfer electricity between vehicles\nAnchor Electrical Cable\nYou can connect electrical cable between two of these blocks.",
+    "char_count": 6036,
+    "word_count": 500,
+    "sha256": "2fdd796ad7d8a59830378f411bc7a78d581fd49bc6db0aad310a9e6e2e7abd23"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Electricity",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 634,
+    "revision_id": 4155,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-30T15:12:52+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

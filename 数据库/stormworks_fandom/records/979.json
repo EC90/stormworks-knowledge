@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki/Standards/Air/Plane",
+  "display_title": "Wiki/Standards/Air/Plane",
+  "summary": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nStandard:\nPlane\n\nStandard\n\nA\nP\n1\n\nCreate your badge here\n\nRules of this standard\n\n Parent standard rules apply\n\nStable landing and takeoff system\n\nFeature rules\n\nsee\n global feature rules\n\nSize rules\n\nNone - This standard does not have any size dependent rules",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Standard",
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Standard:  Plane",
+      "anchor": "Standard:_Plane"
+    },
+    {
+      "level": 3,
+      "title": "Rules of this standard",
+      "anchor": "Rules_of_this_standard"
+    },
+    {
+      "level": 3,
+      "title": "Feature rules",
+      "anchor": "Feature_rules"
+    },
+    {
+      "level": 3,
+      "title": "Size rules",
+      "anchor": "Size_rules"
+    }
+  ],
+  "internal_links": [
+    "Wiki",
+    "Wiki/Standards",
+    "Wiki/Standards/Air",
+    "Wiki/Standards/Features"
+  ],
+  "external_links": [
+    "https://sws.flaffipony.rocks?s=AP1%20%20"
+  ],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Standards/Air/Plane?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Standards/Air/Plane?action=edit). |\n| --- | --- |\n\n## Standard: **Plane**\n\nStandard\n\nAP1\n\n[Create your badge here](https://sws.flaffipony.rocks?s=AP1%20%20)\n\n### Rules of this standard\n\n- [Parent standard rules apply](https://stormworks.fandom.com/wiki/Wiki/Standards/Air)\n- Stable landing and takeoff system\n\n### Feature rules\n\n- see [global feature rules](https://stormworks.fandom.com/wiki/Wiki/Standards/Features)\n\n### Size rules\n\n- None - This standard does not have any size dependent rules",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nStandard:\nPlane\n\nStandard\n\nA\nP\n1\n\nCreate your badge here\n\nRules of this standard\n\n Parent standard rules apply\n\nStable landing and takeoff system\n\nFeature rules\n\nsee\n global feature rules\n\nSize rules\n\nNone - This standard does not have any size dependent rules",
+    "char_count": 920,
+    "word_count": 53,
+    "sha256": "f2c99adf0a14d6821cef540d54745b977c929ee9cd227ae70bbb697866f0254e"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Standards_Page | type=Air | typeshort=A | subtype=Plane | subtypeshort=P | version=1 | features= | size= | content=<!--\nStart editing here -->\n\n\n\n===Rules of this standard===\n* [[Wiki/Standards/Air | Parent standard rules apply]]\n* Stable landing and takeoff system\n\n===Feature rules===\n* see [[Wiki/Standards/Features | global feature rules]]\n\n===Size rules===\n* None - This standard does not have any size dependent rules\n\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Standards/Air/Plane",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 979,
+    "revision_id": 2092,
+    "revision_timestamp": "2019-05-19T19:43:32Z",
+    "retrieved_at": "2026-08-31T10:12:35+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

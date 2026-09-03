@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Planes Research",
+  "display_title": "Planes Research",
+  "summary": "Planes is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Heavy Aircraft Research",
+    "Helicopters Research",
+    "Jets Research",
+    "Research",
+    "Wiki/Building/Components/Propulsion",
+    "Wiki/Building/Components/Specialist Equipment",
+    "Wiki/Building/Components/Vehicle Control"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Planesresearch.png/revision/latest?cb=20240421184607",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Planesresearch.png/revision/latest?cb=20240421184607",
+      "alt": "Planesresearch",
+      "width": "48",
+      "height": "48"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Medium Engine"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Aircraft Propeller"
+        ],
+        [
+          "Specialist Equipment",
+          "Outfit Inventory (Parachute)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Wing Front Section (Small)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Wing Section (Small)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Wing Section (Medium)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Control Surface (Medium)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Large Landing Wheel"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Planes\n\n[![Planesresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Planesresearch.png/revision/latest?cb=20240421184607)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Planesresearch.png/revision/latest?cb=20240421184607)\n\n### Research Points\n\n20\n\n### Research Time\n\n1h 50m\n\n## Research Path\n\n### Unlocked by\n\n[Helicopters](https://stormworks.fandom.com/wiki/Helicopters_Research)\n\n### Makes available\n\n[Heavy Aircraft](https://stormworks.fandom.com/wiki/Heavy_Aircraft_Research)\n\n### Makes available\n\n[Jets](https://stormworks.fandom.com/wiki/Jets_Research)\n\nPlanes is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Medium Engine |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Aircraft Propeller |\n| Specialist Equipment | Outfit Inventory (Parachute) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Wing Front Section (Small) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Wing Section (Small) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Wing Section (Medium) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Control Surface (Medium) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Large Landing Wheel |",
+    "plain_text": "Planes\n\nResearch Points\n\n20\n\nResearch Time\n\n1h 50m\n\nResearch Path\n\nUnlocked by\n\nHelicopters\n\nMakes available\n\nHeavy Aircraft\n\nMakes available\n\nJets\n\nPlanes is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nPropulsion\n\nMedium Engine\n\nPropulsion\n\nAircraft Propeller\n\nSpecialist Equipment\n\nOutfit Inventory (Parachute)\n\nVehicle Control\n\nWing Front Section (Small)\n\nVehicle Control\n\nWing Section (Small)\n\nVehicle Control\n\nWing Section (Medium)\n\nVehicle Control\n\nControl Surface (Medium)\n\nVehicle Control\n\nLarge Landing Wheel",
+    "char_count": 1664,
+    "word_count": 69,
+    "sha256": "5edb10275d38f27ada7c99d0adbfc34ce1f7de48f790d1fc4f77f2b6a21a1ed7"
+  },
+  "wikitext": "{{Research\n  | name=Planes\n  | image=[File:Planesresearch.png]\n  | points=20\n  | time= 1h 50m\n  | unlock= [[Helicopters Research|Helicopters]]\n  | a1=[[Heavy Aircraft Research|Heavy Aircraft]]\n  | a2=[[Jets Research|Jets]]\n  | a3=\n  | a4=\n  | a5=\n}}Planes is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Medium Engine\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Aircraft Propeller\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Outfit Inventory (Parachute)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Wing Front Section (Small)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Wing Section (Small)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Wing Section (Medium)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Control Surface (Medium)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Large Landing Wheel\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Planes_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1496,
+    "revision_id": 3795,
+    "revision_timestamp": "2024-04-21T18:46:28Z",
+    "retrieved_at": "2026-08-31T10:04:34+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

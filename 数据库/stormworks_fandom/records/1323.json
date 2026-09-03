@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Center of mass",
+  "display_title": "Center of mass",
+  "summary": "Alias for Gameplay/Mechanics/Center of Mass",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Mechanics/Center of Mass"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Center of mass -> Gameplay/Mechanics/Center of Mass",
+    "plain_text": "Redirect: Center of mass -> Gameplay/Mechanics/Center of Mass",
+    "char_count": 61,
+    "word_count": 8,
+    "sha256": "f671ce4a80d2b23527f985d5791f7dda9c65e91369263562476cfe61bdf05cc3"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Mechanics/Center of Mass",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Center_of_Mass",
+    "target_page_id": 952,
+    "target_revision_id": 4233
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Center_of_mass",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1323,
+    "revision_id": 4678,
+    "revision_timestamp": "2025-10-26T01:01:35Z",
+    "retrieved_at": "2026-08-31T10:01:14+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

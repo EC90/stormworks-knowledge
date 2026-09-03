@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Submarines",
+  "display_title": "Submarines",
+  "summary": "Alias for Wiki/Vehicles/Water/Submersible",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Vehicles/Water/Submersible"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Submarines -> Wiki/Vehicles/Water/Submersible",
+    "plain_text": "Redirect: Submarines -> Wiki/Vehicles/Water/Submersible",
+    "char_count": 55,
+    "word_count": 4,
+    "sha256": "474abf88f676ad8ec276062fbb84858d1467772b2d3684ae046ff40541838eb2"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Vehicles/Water/Submersible",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Vehicles/Water/Submersible",
+    "target_page_id": 276,
+    "target_revision_id": 3281
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Submarines",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 528,
+    "revision_id": 1371,
+    "revision_timestamp": "2019-03-16T18:15:10Z",
+    "retrieved_at": "2026-08-31T10:05:15+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

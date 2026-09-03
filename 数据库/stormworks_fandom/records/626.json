@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Vehicle Control",
+  "display_title": "Gameplay/Workbench/Components/Vehicle Control",
+  "summary": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nVehicle Control\n\nWheels\n\nWheel Small\n\nWheel Medium\n\nWheel 3x3\n\nWheel 3x3 Suspension\n\nWheel 5x5\n\nWheel 5x5 Suspension\n\nWheel 7x7\n\nWheel 7x7 Suspension\n\nWheel 9x9\n\nWheel 9x9 Suspension\n\nLarge Landing Wheel\n\nWheel Coaster\n\nTracks\n\nTank Wheel Large\n\nTank Wheel Medium\n\nTank Wheel Small\n\nTank Drive Wheel Large\n\nTank Drive Wheel Medium\n\nTank Drive Wheel Small\n\nSkis\n\nSki Small\n\nSki\n\nAir/Water control surfaces\n\nControl Surface (Small)\n\nControl Surface (Medium)\n\nControl Surface (Large)\n\nRudder\n\nFin Rudder\n\nWing Front Section\n\nWing Section (Sma",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Vehicle Control     [ edit page ]",
+      "anchor": "Vehicle_Control_[_edit_page_]"
+    },
+    {
+      "level": 1,
+      "title": "Wheels",
+      "anchor": "Wheels"
+    },
+    {
+      "level": 2,
+      "title": "Tracks",
+      "anchor": "Tracks"
+    },
+    {
+      "level": 1,
+      "title": "Skis",
+      "anchor": "Skis"
+    },
+    {
+      "level": 1,
+      "title": "Air/Water control surfaces",
+      "anchor": "Air/Water_control_surfaces"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Workbench",
+    "Gameplay/Workbench/Components"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3e/Wheel_Small.jpg/revision/latest?cb=20190317011058",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3e/Wheel_Small.jpg/revision/latest/scale-to-width-down/100?cb=20190317011058",
+      "alt": "Wheel Small",
+      "width": "100",
+      "height": "86"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/41/Wheel_Medium.jpg/revision/latest?cb=20190317011052",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/41/Wheel_Medium.jpg/revision/latest/scale-to-width-down/100?cb=20190317011052",
+      "alt": "Wheel Medium",
+      "width": "100",
+      "height": "99"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Vehicle_Control?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Vehicle_Control?action=edit). |\n| --- | --- |\n\n## Vehicle Control\n\n# Wheels\n\nWheel Small\n\n[![Wheel Small](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3e/Wheel_Small.jpg/revision/latest/scale-to-width-down/100?cb=20190317011058)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3e/Wheel_Small.jpg/revision/latest?cb=20190317011058)\n\nWheel Medium\n\n[![Wheel Medium](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/41/Wheel_Medium.jpg/revision/latest/scale-to-width-down/100?cb=20190317011052)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/41/Wheel_Medium.jpg/revision/latest?cb=20190317011052)\n\nWheel 3x3\n\n[![Wheel 3x3](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/17/Wheel_3x3.jpg/revision/latest?cb=20190419120225)\n\nWheel 3x3 Suspension\n\n[![Wheel 3x3 Suspension](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/61/Wheel_3x3_Suspension.jpg/revision/latest?cb=20190419120239)\n\nWheel 5x5\n\n[![Wheel 5x5](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1b/Wheel_5x5.jpg/revision/latest?cb=20190419120250)\n\nWheel 5x5 Suspension\n\n[![Wheel 5x5 Suspension](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ed/Wheel_5x5_Suspension.jpg/revision/latest?cb=20190419120302)\n\nWheel 7x7\n\n[![Wheel 7x7](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/46/Wheel_7x7.jpg/revision/latest?cb=20190419120324)\n\nWheel 7x7 Suspension\n\n[![Wheel 7x7 Suspension](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fd/Wheel_7x7_Suspension.jpg/revision/latest?cb=20190419120338)\n\nWheel 9x9\n\n[![Wheel 9x9](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4e/Wheel_9x9.jpg/revision/latest?cb=20190419120351)\n\nWheel 9x9 Suspension\n\n[![Wheel 9x9 Suspension](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7f/Wheel_9x9_Suspension.jpg/revision/latest?cb=20190419120403)\n\nLarge Landing Wheel\n\n[![Landing Wheel Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a4/Landing_Wheel_Large.jpg/revision/latest?cb=20190317010923)\n\nWheel Coaster\n\n[![Wheel Coaster](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/35/Wheel_Coaster.jpg/revision/latest?cb=20190317011045)\n\n## Tracks\n\nTank Wheel Large\n\n[![Tank Wheel Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/51/Tank_Wheel_Large.png/revision/latest?cb=20200130194334)\n\nTank Wheel Medium\n\n[![Tank Wheel Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/db/Tank_Wheel_Medium.png/revision/latest?cb=20200130194339)\n\nTank Wheel Small\n\n[![Tank Wheel Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/53/Tank_Wheel_Small.png/revision/latest?cb=20200130194346)\n\nTank Drive Wheel Large\n\n[![Tank Drive Wheel Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0e/Tank_Drive_Wheel_Large.png/revision/latest?cb=20200130194355)\n\nTank Drive Wheel Medium\n\n[![Tank Drive Wheel Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/15/Tank_Drive_Wheel_Medium.png/revision/latest?cb=20200130194402)\n\nTank Drive Wheel Small\n\n[![Tank Drive Wheel Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3f/Tank_Drive_Wheel_Small.png/revision/latest?cb=20200130194406)\n\n# Skis\n\nSki Small\n\n[![Ski Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bd/Ski_Small.jpg/revision/latest?cb=20190419120701)\n\nSki\n\n[![Ski](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/47/Ski.jpg/revision/latest?cb=20190419120713)\n\n# Air/Water control surfaces\n\nControl Surface (Small)\n\n[![Control Surface Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Control_Surface_Small.jpg/revision/latest?cb=20190317011421)\n\nControl Surface (Medium)\n\n[![Control Surface Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ee/Control_Surface_Medium.jpg/revision/latest?cb=20190317011415)\n\nControl Surface (Large)\n\n[![Control Surface Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Control_Surface_Large.jpg/revision/latest?cb=20190317011409)\n\nRudder\n\n[![Rudder](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/23/Rudder.jpg/revision/latest?cb=20190317011435)\n\nFin Rudder\n\n[![Fin Rudder](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/69/Fin_Rudder.jpg/revision/latest?cb=20190317011428)\n\nWing Front Section\n\n[![Wing Front Section](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Wing_Front_Section.jpg/revision/latest?cb=20190317011455)\n\nWing Section (Small)\n\n[![Wing Section Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2e/Wing_Section_Small.jpg/revision/latest?cb=20190317011513)\n\nWing Section (Medium)\n\n[![Wing Section Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/03/Wing_Section_Medium.jpg/revision/latest?cb=20190317011507)\n\nWing Section (Large)\n\n[![Wing Section Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cc/Wing_Section_Large.jpg/revision/latest?cb=20190317011500)\n\nWing Section (XLarge)\n\n[![Wing Section XLarge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/03/Wing_Section_XLarge.jpg/revision/latest?cb=20190317011519)\n\nWing Section (XXLarge)\n\n[![Wing Section XXLarge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/02/Wing_Section_XXLarge.jpg/revision/latest?cb=20190317011526)",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nVehicle Control\n\nWheels\n\nWheel Small\n\nWheel Medium\n\nWheel 3x3\n\nWheel 3x3 Suspension\n\nWheel 5x5\n\nWheel 5x5 Suspension\n\nWheel 7x7\n\nWheel 7x7 Suspension\n\nWheel 9x9\n\nWheel 9x9 Suspension\n\nLarge Landing Wheel\n\nWheel Coaster\n\nTracks\n\nTank Wheel Large\n\nTank Wheel Medium\n\nTank Wheel Small\n\nTank Drive Wheel Large\n\nTank Drive Wheel Medium\n\nTank Drive Wheel Small\n\nSkis\n\nSki Small\n\nSki\n\nAir/Water control surfaces\n\nControl Surface (Small)\n\nControl Surface (Medium)\n\nControl Surface (Large)\n\nRudder\n\nFin Rudder\n\nWing Front Section\n\nWing Section (Small)\n\nWing Section (Medium)\n\nWing Section (Large)\n\nWing Section (XLarge)\n\nWing Section (XXLarge)",
+    "char_count": 8594,
+    "word_count": 104,
+    "sha256": "2bf1434e8a605233461fa7e435ae364cf15fd665057ef55e96badfbfeadfa5fd"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=\n\n=Wheels=\n{{Wiki_Component_Description | title=Wheel Small | image=Wheel Small.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Wheel Medium | image=Wheel Medium.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Wheel 3x3 | image=Wheel 3x3.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Wheel 3x3 Suspension| image=Wheel 3x3 Suspension.jpg | content=\n\n}}{{Wiki_Component_Description | title=Wheel 5x5 | image=Wheel 5x5.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Wheel 5x5 Suspension| image=Wheel 5x5 Suspension.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Wheel 7x7 | image=Wheel 7x7.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Wheel 7x7 Suspension| image=Wheel 7x7 Suspension.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Wheel 9x9 | image=Wheel 9x9.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Wheel 9x9 Suspension| image=Wheel 9x9 Suspension.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Large Landing Wheel | image=Landing Wheel Large.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Wheel Coaster | image=Wheel Coaster.jpg | content=\n\n}}\n\n==Tracks==\n{{Wiki_Component_Description | title=Tank Wheel Large | image=Tank Wheel Large.png | content=\n\n}}\n{{Wiki_Component_Description | title=Tank Wheel Medium | image=Tank Wheel Medium.png | content=\n\n}}\n{{Wiki_Component_Description | title=Tank Wheel Small | image=Tank Wheel Small.png | content=\n\n}}\n{{Wiki_Component_Description | title=Tank Drive Wheel Large | image=Tank Drive Wheel Large.png | content=\n\n}}\n{{Wiki_Component_Description | title=Tank Drive Wheel Medium | image=Tank Drive Wheel Medium.png | content=\n\n}}\n{{Wiki_Component_Description | title=Tank Drive Wheel Small | image=Tank Drive Wheel Small.png | content=\n\n}}\n\n=Skis=\n{{Wiki_Component_Description | title=Ski Small | image=Ski Small.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Ski | image=Ski.jpg | content=\n\n}}\n\n=Air/Water control surfaces=\n{{Wiki_Component_Description | title=Control Surface (Small) | image=Control Surface Small.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Control Surface (Medium) | image=Control Surface Medium.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Control Surface (Large) | image=Control Surface Large.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Rudder | image=Rudder.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Fin Rudder | image=Fin Rudder.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Wing Front Section | image=Wing Front Section.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Wing Section (Small) | image=Wing Section Small.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Wing Section (Medium) | image=Wing Section Medium.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Wing Section (Large) | image=Wing Section Large.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Wing Section (XLarge) | image=Wing Section XLarge.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Wing Section (XXLarge) | image=Wing Section XXLarge.jpg | content=\n\n}}\n\n\n\n\n\n}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Vehicle_Control",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 626,
+    "revision_id": 4189,
+    "revision_timestamp": "2025-05-14T02:40:55Z",
+    "retrieved_at": "2026-08-31T10:03:00+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

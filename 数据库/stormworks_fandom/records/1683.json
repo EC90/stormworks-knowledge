@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Editor",
+  "display_title": "Wiki/Building/Editor",
+  "summary": "Alias for Gameplay/Workbench/Editor",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Editor"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Editor -> Gameplay/Workbench/Editor",
+    "plain_text": "Redirect: Wiki/Building/Editor -> Gameplay/Workbench/Editor",
+    "char_count": 59,
+    "word_count": 4,
+    "sha256": "f4bac5f2758506821b2556ca794517e0be65b00354ecc7187f0368ae42b54f80"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Editor",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Editor",
+    "target_page_id": 607,
+    "target_revision_id": 4199
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Editor",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1683,
+    "revision_id": 4200,
+    "revision_timestamp": "2025-05-14T02:40:56Z",
+    "retrieved_at": "2026-08-31T10:11:33+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

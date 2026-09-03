@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "V0.9.4.6",
+  "display_title": "V0.9.4.6",
+  "summary": "This article is\nDeprecated\n according to some contributor's report.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Deprecated"
+  ],
+  "sections": [],
+  "internal_links": [],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/ucp-internal-test-starter-commons/images/d/db/Icon_delete.png/revision/latest?cb=20200818143445",
+      "thumbnail_url": "https://static.wikia.nocookie.net/ucp-internal-test-starter-commons/images/d/db/Icon_delete.png/revision/latest?cb=20200818143445",
+      "alt": "Deprecated",
+      "width": "80",
+      "height": "35"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Deprecated](https://static.wikia.nocookie.net/ucp-internal-test-starter-commons/images/d/db/Icon_delete.png/revision/latest?cb=20200818143445)](https://static.wikia.nocookie.net/ucp-internal-test-starter-commons/images/d/db/Icon_delete.png/revision/latest?cb=20200818143445)",
+          "*Deprecated!* *This article is [Deprecated](https://stormworks.fandom.com/wiki/Category:Deprecated) according to some contributor's report. *Please offer a [Reason](https://stormworks.fandom.com/wiki/V0.9.4.6?action=edit) To allow admin to remove it. Reason: \"*e.g. this page is about version that is deprecated few versions ago*\" Request date: \"*e.g. 2025/Jan/01*\""
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Deprecated](https://static.wikia.nocookie.net/ucp-internal-test-starter-commons/images/d/db/Icon_delete.png/revision/latest?cb=20200818143445)](https://static.wikia.nocookie.net/ucp-internal-test-starter-commons/images/d/db/Icon_delete.png/revision/latest?cb=20200818143445) | *Deprecated!* *This article is [Deprecated](https://stormworks.fandom.com/wiki/Category:Deprecated) according to some contributor's report. *Please offer a [Reason](https://stormworks.fandom.com/wiki/V0.9.4.6?action=edit) To allow admin to remove it. Reason: \"*e.g. this page is about version that is deprecated few versions ago*\" Request date: \"*e.g. 2025/Jan/01*\" |\n| --- | --- |",
+    "plain_text": "Deprecated!\n\nThis article is\nDeprecated\n according to some contributor's report.\n\nPlease offer a\nReason\n To allow admin to remove it.\n\nReason: \"\ne.g. this page is about version that is deprecated few versions ago\n\"\n\nRequest date: \"\ne.g. 2025/Jan/01\n\"",
+    "char_count": 663,
+    "word_count": 42,
+    "sha256": "4b59ea3a0d8ff86d90154641767e564cd8ab32426c0b0778555457636cedad18"
+  },
+  "wikitext": "{{Delete|Title typo, see [[V0.9.6]] instead}}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/V0.9.4.6",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1093,
+    "revision_id": 2315,
+    "revision_timestamp": "2019-10-25T17:48:18Z",
+    "retrieved_at": "2026-08-31T10:07:55+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

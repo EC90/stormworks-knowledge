@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Mechanics/Basic Physics Concept",
+  "display_title": "Gameplay/Mechanics/Basic Physics Concept",
+  "summary": "Basic Physics Concept\nStormworks simulates the real world classical physics, but for many specifics are approximate rather than equal to real like\nPhysics\nUnits\nTo have a better discussion and regulation, Here are the list of unit in stormworks.\n1SN(Stormworks Newton) = 0.1KGF\n1SW(Stormworks Watts)\nConstants\nHere are some constants\nMotion and Force\nGravitational Pull: 10m/s\n2\nForce: 1SN = 0.1KGF",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Basic Physics Concept [ edit page ]",
+      "anchor": "Basic_Physics_Concept_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Physics",
+      "anchor": "Physics"
+    },
+    {
+      "level": 2,
+      "title": "Units",
+      "anchor": "Units"
+    },
+    {
+      "level": 2,
+      "title": "Constants",
+      "anchor": "Constants"
+    },
+    {
+      "level": 3,
+      "title": "Motion and Force",
+      "anchor": "Motion_and_Force"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Mechanics"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "## Basic Physics Concept\n\nStormworks simulates the real world classical physics, but for many specifics are approximate rather than equal to real like\n\n## Physics\n\n## Units\n\nTo have a better discussion and regulation, Here are the list of unit in stormworks.\n\n1SN(Stormworks Newton) = 0.1KGF\n1SW(Stormworks Watts)\n\n## Constants\n\nHere are some constants\n\n### Motion and Force\n\nGravitational Pull: 10m/s2\n\nForce: 1SN = 0.1KGF",
+    "plain_text": "Basic Physics Concept\nStormworks simulates the real world classical physics, but for many specifics are approximate rather than equal to real like\nPhysics\nUnits\nTo have a better discussion and regulation, Here are the list of unit in stormworks.\n1SN(Stormworks Newton) = 0.1KGF\n1SW(Stormworks Watts)\nConstants\nHere are some constants\nMotion and Force\nGravitational Pull: 10m/s\n2\nForce: 1SN = 0.1KGF",
+    "char_count": 423,
+    "word_count": 64,
+    "sha256": "3c652299a4a1c5ef2e6a015fffef94f728fefe64dd477c51ff543774b5afe859"
+  },
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Basic_Physics_Concept",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1619,
+    "revision_id": 4227,
+    "revision_timestamp": "2025-05-14T06:15:44Z",
+    "retrieved_at": "2026-08-30T14:37:32+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

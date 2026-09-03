@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Decorative/Lights",
+  "display_title": "Wiki/Building/Components/Decorative/Lights",
+  "summary": "Alias for Gameplay/Workbench/Components/Decorative/Lights",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Decorative/Lights"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Decorative/Lights -> Gameplay/Workbench/Components/Decorative/Lights",
+    "plain_text": "Redirect: Wiki/Building/Components/Decorative/Lights -> Gameplay/Workbench/Components/Decorative/Lights",
+    "char_count": 103,
+    "word_count": 4,
+    "sha256": "785d93e27698a3087fd52ba6f656f651a811fa3f8135a8b01bafaad76b9ae1db"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Decorative/Lights",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Decorative/Lights",
+    "target_page_id": 628,
+    "target_revision_id": 4151
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative/Lights",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1659,
+    "revision_id": 4152,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-31T10:11:09+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

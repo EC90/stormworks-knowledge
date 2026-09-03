@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Gamemodes",
+  "display_title": "Wiki/Gamemodes",
+  "summary": "Alias for Gameplay/Gamemodes",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Gamemodes"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Gamemodes -> Gameplay/Gamemodes",
+    "plain_text": "Redirect: Wiki/Gamemodes -> Gameplay/Gamemodes",
+    "char_count": 46,
+    "word_count": 4,
+    "sha256": "4704fef636071752904bbc258fbddab064d7a857cc5e47216539d4ba6288c58a"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Gamemodes",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Gamemodes",
+    "target_page_id": 601,
+    "target_revision_id": 4111
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Gamemodes",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1644,
+    "revision_id": 4112,
+    "revision_timestamp": "2025-05-14T01:40:02Z",
+    "retrieved_at": "2026-08-31T10:11:56+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

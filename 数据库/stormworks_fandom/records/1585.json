@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Enclosed Pipes",
+  "display_title": "Enclosed Pipes",
+  "summary": "Enclosed pipes function the same as\nstandard pipes\n with the only difference being their 1x1\nblock\n form factor. This makes them useful to transfer fluids through sealed walls, to save space by hiding pipes inside structures, or simply for aesthetics. Enclosed pipes are not discernible from normal blocks unless the end is visible.",
+  "template": "Infobox",
+  "attributes": {
+    "name": "Enclosed Pipe",
+    "image": "File:Pipe Enclosed Straight.jpg",
+    "prerequisite": "none",
+    "category": "Blocks",
+    "cost": "$5",
+    "mass": "{{Property|mass}} 1"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| name | Enclosed Pipe |\n| image | File:Pipe Enclosed Straight.jpg |\n| prerequisite | none |\n| category | Blocks |\n| cost | $5 |\n| mass | {{Property\\|mass}} 1 |",
+  "categories": [
+    "Blocks",
+    "Stubs"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "See Also",
+      "anchor": "See_Also"
+    }
+  ],
+  "internal_links": [
+    "Block",
+    "Pipes",
+    "Research",
+    "Wiki/Building/Components/Blocks",
+    "Wiki/Building/Components/Fluids",
+    "Wiki/Game Mechanics/Fluids"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1e/Pipe_Enclosed_Straight.jpg/revision/latest?cb=20190419114624",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1e/Pipe_Enclosed_Straight.jpg/revision/latest?cb=20190419114624",
+      "alt": "Pipe Enclosed Straight",
+      "width": "186",
+      "height": "199"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Enclosed_Pipes?action=edit)."
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "mass 1"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Enclosed_Pipes?action=edit). |\n| --- | --- |\n\n## Enclosed Pipe\n\n[![Pipe Enclosed Straight](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1e/Pipe_Enclosed_Straight.jpg/revision/latest?cb=20190419114624)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1e/Pipe_Enclosed_Straight.jpg/revision/latest?cb=20190419114624)\n\n### [Prerequisite](https://stormworks.fandom.com/wiki/Research)\n\nnone\n\n### Category\n\n[Blocks](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Blocks)\n\n### Cost\n\n$5\n\n## Properties\n\n| mass 1 |\n\nEnclosed pipes function the same as\n\n[standard pipes](https://stormworks.fandom.com/wiki/Pipes)\n\nwith the only difference being their 1x1\n\n[block](https://stormworks.fandom.com/wiki/Block)\n\nform factor. This makes them useful to transfer fluids through sealed walls, to save space by hiding pipes inside structures, or simply for aesthetics. Enclosed pipes are not discernible from normal blocks unless the end is visible.\n\nThere are several pipe variations with angles and intersections. All variations have a cost of $5 and a mass of 1, which is the same as standard pipes.\n\n- Pipe Straight (Enclosed)\n- Pipe Angle (Enclosed)\n- Pipe Angle Corner (Enclosed)\n- Pipe T-Piece (Enclosed)\n- Pipe T-Piece Corner (Enclosed)\n- Pipe Cross (Enclosed)\n- Pipe Cross Corner (Enclosed)\n- Pipe Omni (Enclosed) (6-way)\n\n## See Also\n\n- [Pipes](https://stormworks.fandom.com/wiki/Pipes)\n- [Fluid Mechanics](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)\n- [Fluid Components](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids)",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nEnclosed Pipe\n\nPrerequisite\n\nnone\n\nCategory\n\nBlocks\n\nCost\n\n$5\n\nProperties\n\nmass\n 1\n\nEnclosed pipes function the same as\nstandard pipes\n with the only difference being their 1x1\nblock\n form factor. This makes them useful to transfer fluids through sealed walls, to save space by hiding pipes inside structures, or simply for aesthetics. Enclosed pipes are not discernible from normal blocks unless the end is visible.\n\nThere are several pipe variations with angles and intersections. All variations have a cost of $5 and a mass of 1, which is the same as standard pipes.\n\nPipe Straight (Enclosed)\n\nPipe Angle (Enclosed)\n\nPipe Angle Corner (Enclosed)\n\nPipe T-Piece (Enclosed)\n\nPipe T-Piece Corner (Enclosed)\n\nPipe Cross (Enclosed)\n\nPipe Cross Corner (Enclosed)\n\nPipe Omni (Enclosed) (6-way)\n\nSee Also\n\nPipes\n\nFluid Mechanics\n\nFluid Components",
+    "char_count": 2021,
+    "word_count": 142,
+    "sha256": "669fd269ae4200c8761a63ee285291fdd5c37a9635d48ab65407cfc75d17b34a"
+  },
+  "wikitext": "{{stub}}{{Infobox\n  | name=Enclosed Pipe\n  | image=[[File:Pipe Enclosed Straight.jpg]]\n  | prerequisite=none\n  |category=[[Wiki/Building/Components/Blocks|Blocks]]| cost=$5\n  | dimensions=\n  | fluidcapacity=\n  | introduced=\n  \n  | mass= {{Property|mass}} 1\n  | motor=\n  | force=\n  | power=\n  | motor_speed=\n\n  | logicinput1= \n  | logicinput2=\n  | logicinput3=\n  | logicinput4=\n  | logicinput5=\n  | logicinput6=\n\n  | logicoutput1= \n  | logicoutput2=\n  | logicoutput3=\n  | logicoutput4=\n  | logicoutput5=\n  | logicoutput6=\n\n  | connection1= \n  | connection2=\n  | connection3=\n  | connection4=\n  | connection5=\n  | connection6=\n  \n  | adjustparam1=\n  | adjustparam2=\n}}Enclosed pipes function the same as [[Pipes|standard pipes]] with the only difference being their 1x1 [[block]] form factor. This makes them useful to transfer fluids through sealed walls, to save space by hiding pipes inside structures, or simply for aesthetics. Enclosed pipes are not discernible from normal blocks unless the end is visible.\n\nThere are several pipe variations with angles and intersections. All variations have a cost of $5 and a mass of 1, which is the same as standard pipes.\n*Pipe Straight (Enclosed)\n*Pipe Angle (Enclosed)\n*Pipe Angle Corner (Enclosed)\n*Pipe T-Piece (Enclosed)\n*Pipe T-Piece Corner (Enclosed)\n*Pipe Cross (Enclosed)\n*Pipe Cross Corner (Enclosed)\n*Pipe Omni (Enclosed) (6-way)\n==See Also==\n\n* [[Pipes]]\n* [[Wiki/Game Mechanics/Fluids|Fluid Mechanics]]\n* [[Wiki/Building/Components/Fluids|Fluid Components]]\n[[Category:Blocks]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Enclosed_Pipes",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1585,
+    "revision_id": 3891,
+    "revision_timestamp": "2024-04-21T23:52:53Z",
+    "retrieved_at": "2026-08-31T10:01:41+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

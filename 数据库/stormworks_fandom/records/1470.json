@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Helicopters Research",
+  "display_title": "Helicopters Research",
+  "summary": "Helicopters is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Planes Research",
+    "Research",
+    "Wiki/Building/Components/Propulsion",
+    "Wiki/Building/Components/Sensors",
+    "Wiki/Building/Components/Specialist Equipment",
+    "Wiki/Building/Components/Vehicle Control"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/68/Helicoptersresearch.png/revision/latest?cb=20240421181506",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/68/Helicoptersresearch.png/revision/latest?cb=20240421181506",
+      "alt": "Helicoptersresearch",
+      "width": "48",
+      "height": "48"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Rotor (Tail)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Rotor (Small)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Rotor (Light)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Rotor End (Light)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Rotor Propeller (Small)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Rotor Propeller End (Small)"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Gyro"
+        ],
+        [
+          "Specialist Equipment",
+          "Landing Float"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Control Surface (Small)"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Helicopters\n\n[![Helicoptersresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/68/Helicoptersresearch.png/revision/latest?cb=20240421181506)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/68/Helicoptersresearch.png/revision/latest?cb=20240421181506)\n\n### Research Points\n\n15\n\n### Research Time\n\n1h 0m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[Planes](https://stormworks.fandom.com/wiki/Planes_Research)\n\nHelicopters is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Rotor (Tail) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Rotor (Small) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Rotor (Light) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Rotor End (Light) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Rotor Propeller (Small) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Rotor Propeller End (Small) |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Gyro |\n| Specialist Equipment | Landing Float |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Control Surface (Small) |",
+    "plain_text": "Helicopters\n\nResearch Points\n\n15\n\nResearch Time\n\n1h 0m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nPlanes\n\nHelicopters is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nPropulsion\n\nRotor (Tail)\n\nPropulsion\n\nRotor (Small)\n\nPropulsion\n\nRotor (Light)\n\nPropulsion\n\nRotor End (Light)\n\nPropulsion\n\nRotor Propeller (Small)\n\nPropulsion\n\nRotor Propeller End (Small)\n\nSensors\n\nGyro\n\nSpecialist Equipment\n\nLanding Float\n\nVehicle Control\n\nControl Surface (Small)",
+    "char_count": 1564,
+    "word_count": 62,
+    "sha256": "9d204c7edc2ddb5715993eed184a7b4d1bf36f40a3c78002f0bb3389991f1bcf"
+  },
+  "wikitext": "{{Research\n  | name=Helicopters\n  | image=[File:Helicoptersresearch.png]\n  | points=15\n  | time= 1h 0m\n  | unlock= Initially Available\n  | a1=[[Planes Research|Planes]]\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Helicopters is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Rotor (Tail)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Rotor (Small)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Rotor (Light)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Rotor End (Light)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Rotor Propeller (Small)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Rotor Propeller End (Small)\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Gyro\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Landing Float\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Control Surface (Small)\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Helicopters_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1470,
+    "revision_id": 3734,
+    "revision_timestamp": "2024-04-21T18:15:38Z",
+    "retrieved_at": "2026-08-31T10:03:26+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

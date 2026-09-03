@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Dog",
+  "display_title": "Dog",
+  "summary": "Alias for Stormwoof",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Stormwoof"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Dog -> Stormwoof",
+    "plain_text": "Redirect: Dog -> Stormwoof",
+    "char_count": 26,
+    "word_count": 4,
+    "sha256": "7e19df6df2935667751a7000935952c19fd2a6d5b4666de35de5fc22ffea9ae6"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Stormwoof",
+    "target_url": "https://stormworks.fandom.com/wiki/Stormwoof",
+    "target_page_id": 1827,
+    "target_revision_id": 4552
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Dog",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1828,
+    "revision_id": 4490,
+    "revision_timestamp": "2025-07-20T14:00:18Z",
+    "retrieved_at": "2026-08-31T10:01:32+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

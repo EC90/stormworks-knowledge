@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Camera Gimbal",
+  "display_title": "Camera Gimbal",
+  "summary": "Alias for Camera gimbal",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Camera gimbal"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Camera Gimbal -> Camera gimbal",
+    "plain_text": "Redirect: Camera Gimbal -> Camera gimbal",
+    "char_count": 40,
+    "word_count": 6,
+    "sha256": "94c883b33f33b46b0823c16d10dbdf971598d1bb9b953adf5bdac5beeeb66b81"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Camera gimbal",
+    "target_url": "https://stormworks.fandom.com/wiki/Camera_gimbal",
+    "target_page_id": 1359,
+    "target_revision_id": 3156
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Camera_Gimbal",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1365,
+    "revision_id": 3066,
+    "revision_timestamp": "2022-02-12T06:37:47Z",
+    "retrieved_at": "2026-08-31T10:01:05+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

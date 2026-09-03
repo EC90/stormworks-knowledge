@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Helicopter",
+  "display_title": "Helicopter",
+  "summary": "Alias for Wiki/Vehicles/Air/Helicopter",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Vehicles/Air/Helicopter"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Helicopter -> Wiki/Vehicles/Air/Helicopter",
+    "plain_text": "Redirect: Helicopter -> Wiki/Vehicles/Air/Helicopter",
+    "char_count": 52,
+    "word_count": 4,
+    "sha256": "a4d92954e357f64e29124aa620fc26d213993869997e0cd70b3c57dd5cda04fc"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Vehicles/Air/Helicopter",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Vehicles/Air/Helicopter",
+    "target_page_id": 274,
+    "target_revision_id": 4541
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Helicopter",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 616,
+    "revision_id": 1348,
+    "revision_timestamp": "2019-03-16T17:43:52Z",
+    "retrieved_at": "2026-08-31T10:03:24+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,35 @@
+2026-08-30 23:12:23,129 | INFO | Stormworks Fandom knowledge crawler 1.0.0
+2026-08-30 23:12:23,578 | WARNING | robots.txt unreadable (403 Client Error: Forbidden for url: https://stormworks.fandom.com/robots.txt); continuing with the configured 1.0s request delay because this crawler only calls https://stormworks.fandom.com/api.php
+2026-08-30 23:12:28,332 | INFO | Selected 28 page(s)
+2026-08-30 23:12:36,269 | INFO | Stormworks Fandom knowledge crawler 1.0.0
+2026-08-30 23:12:36,549 | WARNING | robots.txt unreadable (403 Client Error: Forbidden for url: https://stormworks.fandom.com/robots.txt); continuing with the configured 1.0s request delay because this crawler only calls https://stormworks.fandom.com/api.php
+2026-08-30 23:12:40,904 | INFO | Selected 28 page(s)
+2026-08-30 23:12:40,905 | INFO | [1/28] fetching: Gameplay/Workbench/Components
+2026-08-30 23:12:42,552 | INFO | [2/28] fetching: Gameplay/Workbench/Components/Blocks
+2026-08-30 23:12:43,974 | INFO | [3/28] fetching: Gameplay/Workbench/Components/Compass Sensor
+2026-08-30 23:12:45,258 | INFO | [4/28] fetching: Gameplay/Workbench/Components/Decorative
+2026-08-30 23:12:46,782 | INFO | [5/28] fetching: Gameplay/Workbench/Components/Decorative/Lights
+2026-08-30 23:12:48,228 | INFO | [6/28] fetching: Gameplay/Workbench/Components/Displays
+2026-08-30 23:12:50,517 | INFO | [7/28] fetching: Gameplay/Workbench/Components/Electricity
+2026-08-30 23:12:52,108 | INFO | [8/28] fetching: Gameplay/Workbench/Components/Fluids
+2026-08-30 23:12:53,660 | INFO | [9/28] fetching: Gameplay/Workbench/Components/Hardpoint
+2026-08-30 23:12:55,264 | INFO | [10/28] fetching: Gameplay/Workbench/Components/Lights
+2026-08-30 23:12:56,733 | INFO | [11/28] fetching: Gameplay/Workbench/Components/Logic
+2026-08-30 23:12:58,310 | INFO | [12/28] fetching: Gameplay/Workbench/Components/Mechanics
+2026-08-30 23:12:59,809 | INFO | [13/28] fetching: Gameplay/Workbench/Components/Person Operations
+2026-08-30 23:13:01,286 | INFO | [14/28] fetching: Gameplay/Workbench/Components/Propulsion
+2026-08-30 23:13:02,793 | INFO | [15/28] fetching: Gameplay/Workbench/Components/Propulsion/DieselEngines
+2026-08-30 23:13:04,824 | INFO | [16/28] fetching: Gameplay/Workbench/Components/Propulsion/Gearbox
+2026-08-30 23:13:06,233 | INFO | [17/28] fetching: Gameplay/Workbench/Components/Radio
+2026-08-30 23:13:07,806 | INFO | [18/28] fetching: Gameplay/Workbench/Components/Search and Destroy
+2026-08-30 23:13:09,356 | INFO | [19/28] fetching: Gameplay/Workbench/Components/Sensors
+2026-08-30 23:13:10,874 | INFO | [20/28] fetching: Gameplay/Workbench/Components/Sound
+2026-08-30 23:13:12,371 | INFO | [21/28] fetching: Gameplay/Workbench/Components/Space
+2026-08-30 23:13:13,906 | INFO | [22/28] fetching: Gameplay/Workbench/Components/Transponders
+2026-08-30 23:13:15,451 | INFO | [23/28] fetching: Gameplay/Workbench/Components/User Input
+2026-08-30 23:13:16,873 | INFO | [24/28] fetching: Gameplay/Workbench/Components/Vehicle Control
+2026-08-30 23:13:18,484 | INFO | [25/28] fetching: Gameplay/Workbench/Components/Video
+2026-08-30 23:13:19,865 | INFO | [26/28] fetching: Gameplay/Workbench/Components/Video/Cameras
+2026-08-30 23:13:21,436 | INFO | [27/28] fetching: Gameplay/Workbench/Components/Video/Monitors
+2026-08-30 23:13:22,992 | INFO | [28/28] fetching: Gameplay/Workbench/Components/Windows
+2026-08-30 23:13:26,398 | INFO | Done: records=28 articles=26 redirects=2 chunks=62 fetched=28 skipped=0 failed=0

@@ -1,0 +1,70 @@
+{
+  "site": "https://wikiwiki.jp",
+  "wiki": "sbarjp",
+  "note": "wikiwiki.jp（非 MediaWiki）。正文取自 div#content，已过滤 ::cmd/edit 链接与侧边栏。",
+  "pages": [
+    {
+      "wiki": "sbarjp",
+      "page": "SENSORS",
+      "url": "https://wikiwiki.jp/sbarjp/SENSORS",
+      "last_modified": "2025-05-10",
+      "chars": 34038,
+      "internal_links": [
+        "DISPLAYS",
+        "LOGIC",
+        "MECHANICS",
+        "SPECIALIST EQUIPMENT",
+        "ゲームモード",
+        "ミッション一覧",
+        "検証"
+      ]
+    },
+    {
+      "wiki": "sbarjp",
+      "page": "クラフトガイド/レーダー系",
+      "url": "https://wikiwiki.jp/sbarjp/%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88%E3%82%AC%E3%82%A4%E3%83%89/%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%E7%B3%BB",
+      "last_modified": "2020-02-27",
+      "chars": 1445,
+      "internal_links": []
+    },
+    {
+      "wiki": "sbarjp",
+      "page": "クラフトガイド/新レーダー系",
+      "url": "https://wikiwiki.jp/sbarjp/%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88%E3%82%AC%E3%82%A4%E3%83%89/%E6%96%B0%E3%83%AC%E3%83%BC%E3%83%80%E3%83%BC%E7%B3%BB",
+      "last_modified": "2025-08-18",
+      "chars": 7618,
+      "internal_links": []
+    },
+    {
+      "wiki": "sbarjp",
+      "page": "誘導兵器",
+      "url": "https://wikiwiki.jp/sbarjp/%E8%AA%98%E5%B0%8E%E5%85%B5%E5%99%A8",
+      "last_modified": "2026-05-18",
+      "chars": 14977,
+      "internal_links": [
+        "マイクロコントローラー"
+      ]
+    },
+    {
+      "wiki": "sbarjp",
+      "page": "コンポジット信号とは",
+      "url": "https://wikiwiki.jp/sbarjp/%E3%82%B3%E3%83%B3%E3%83%9D%E3%82%B8%E3%83%83%E3%83%88%E4%BF%A1%E5%8F%B7%E3%81%A8%E3%81%AF",
+      "last_modified": "2020-03-29",
+      "chars": 9355,
+      "internal_links": []
+    },
+    {
+      "wiki": "sbarjp",
+      "page": "検証",
+      "url": "https://wikiwiki.jp/sbarjp/%E6%A4%9C%E8%A8%BC",
+      "last_modified": "2026-01-07",
+      "chars": 12339,
+      "internal_links": [
+        "拠点購入ガイド"
+      ]
+    }
+  ],
+  "failed": [],
+  "ok": 6,
+  "failed_count": 0
+}

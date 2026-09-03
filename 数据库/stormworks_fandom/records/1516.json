@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "VTOL Research",
+  "display_title": "VTOL Research",
+  "summary": "VTOL is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Helicopters Research",
+    "Jets Research",
+    "Planes Research",
+    "Research",
+    "Wiki/Building/Components/Jet Engines"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1c/Vtolresearch.png/revision/latest?cb=20240421190645",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1c/Vtolresearch.png/revision/latest?cb=20240421190645",
+      "alt": "Vtolresearch",
+      "width": "49",
+      "height": "49"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "Jet Engines",
+          "Jet Exhaust Rotating"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## VTOL\n\n[![Vtolresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1c/Vtolresearch.png/revision/latest?cb=20240421190645)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1c/Vtolresearch.png/revision/latest?cb=20240421190645)\n\n### Research Points\n\n32\n\n### Research Time\n\n0h 30m\n\n## Research Path\n\n### Unlocked by\n\n[Helicopters](https://stormworks.fandom.com/wiki/Helicopters_Research), [Planes](https://stormworks.fandom.com/wiki/Planes_Research), [Jets](https://stormworks.fandom.com/wiki/Jets_Research)\n\nVTOL is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| Jet Engines | Jet Exhaust Rotating |",
+    "plain_text": "VTOL\n\nResearch Points\n\n32\n\nResearch Time\n\n0h 30m\n\nResearch Path\n\nUnlocked by\n\nHelicopters\n,\nPlanes\n,\nJets\n\nVTOL is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nJet Engines\n\nJet Exhaust Rotating",
+    "char_count": 744,
+    "word_count": 32,
+    "sha256": "0a8b2ac95a655ac515ef906983a13061583fad28ace537b8d22ad0b6a57094ba"
+  },
+  "wikitext": "{{Research\n  | name=VTOL\n  | image=[File:Vtolresearch.png]\n  | points=32\n  | time= 0h 30m\n  | unlock= [[Helicopters Research|Helicopters]], [[Planes Research|Planes]], [[Jets Research|Jets]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}VTOL is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Jet Engines|Jet Engines]]||Jet Exhaust Rotating\n|}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/VTOL_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1516,
+    "revision_id": 3831,
+    "revision_timestamp": "2024-04-21T19:07:05Z",
+    "retrieved_at": "2026-08-31T10:10:56+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

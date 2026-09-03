@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Advanced Fluid Management Research",
+  "display_title": "Advanced Fluid Management Research",
+  "summary": "Advanced fluid management is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Fluid Management Research",
+    "Research",
+    "Wiki/Game Mechanics/Fluids"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a6/Advancedfluidmanagementresearch.png/revision/latest?cb=20240421182418",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a6/Advancedfluidmanagementresearch.png/revision/latest?cb=20240421182418",
+      "alt": "Advancedfluidmanagementresearch",
+      "width": "49",
+      "height": "49"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Fluid Tank Large"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Large Fluid Pump"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Fluid Heat Sink"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Fluid Pressure Sensor"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Fluid Variable Valve"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Desalinator"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Advanced Fluid Management\n\n[![Advancedfluidmanagementresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a6/Advancedfluidmanagementresearch.png/revision/latest?cb=20240421182418)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a6/Advancedfluidmanagementresearch.png/revision/latest?cb=20240421182418)\n\n### Research Points\n\n20\n\n### Research Time\n\n1h 10m\n\n## Research Path\n\n### Unlocked by\n\n[Fluid Management](https://stormworks.fandom.com/wiki/Fluid_Management_Research)\n\nAdvanced fluid management is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Fluid Tank Large |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Large Fluid Pump |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Fluid Heat Sink |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Fluid Pressure Sensor |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Fluid Variable Valve |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Desalinator |",
+    "plain_text": "Advanced Fluid Management\n\nResearch Points\n\n20\n\nResearch Time\n\n1h 10m\n\nResearch Path\n\nUnlocked by\n\nFluid Management\n\nAdvanced fluid management is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nFluid\n\nFluid Tank Large\n\nFluid\n\nLarge Fluid Pump\n\nFluid\n\nFluid Heat Sink\n\nFluid\n\nFluid Pressure Sensor\n\nFluid\n\nFluid Variable Valve\n\nFluid\n\nDesalinator",
+    "char_count": 1261,
+    "word_count": 52,
+    "sha256": "67416d157bf014aebd425006e4828fcfa87f3ffe1ef323aba417a6c786037515"
+  },
+  "wikitext": "{{Research\n  | name=Advanced Fluid Management\n  | image=[File:Advancedfluidmanagementresearch.png]\n  | points=20\n  | time= 1h 10m\n  | unlock= [[Fluid Management Research|Fluid Management]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Advanced fluid management is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]||Fluid Tank Large\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]||Large Fluid Pump\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]||Fluid Heat Sink\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]||Fluid Pressure Sensor\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]||Fluid Variable Valve\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]||Desalinator\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Advanced_Fluid_Management_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1484,
+    "revision_id": 3755,
+    "revision_timestamp": "2024-04-21T18:24:54Z",
+    "retrieved_at": "2026-08-31T10:00:34+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

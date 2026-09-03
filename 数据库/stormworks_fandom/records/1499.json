@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Railings Research",
+  "display_title": "Railings Research",
+  "summary": "Railings is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Decorations Research",
+    "Research",
+    "Wiki/Building/Components/Decorative"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/76/Railingsresearch.png/revision/latest?cb=20240421184755",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/76/Railingsresearch.png/revision/latest?cb=20240421184755",
+      "alt": "Railingsresearch",
+      "width": "49",
+      "height": "49"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative)",
+          "Railing Segment End"
+        ],
+        [
+          "[Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative)",
+          "Railing Segment Corner"
+        ],
+        [
+          "[Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative)",
+          "Railing Segment Middle"
+        ],
+        [
+          "[Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative)",
+          "Railing Segment Extension"
+        ],
+        [
+          "[Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative)",
+          "Railing Segment Corner Diagonal"
+        ],
+        [
+          "[Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative)",
+          "Railing Segment Middle Diagonal"
+        ],
+        [
+          "[Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative)",
+          "Railing Segment Extension Incline"
+        ],
+        [
+          "[Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative)",
+          "Railing Segment End Diagonal"
+        ],
+        [
+          "[Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative)",
+          "Railing Segment Extension Diagonal"
+        ],
+        [
+          "[Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative)",
+          "Railing Segment Curve"
+        ],
+        [
+          "[Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative)",
+          "Railing Segment Incline"
+        ],
+        [
+          "[Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative)",
+          "Railing Segment End Incline"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Railings\n\n[![Railingsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/76/Railingsresearch.png/revision/latest?cb=20240421184755)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/76/Railingsresearch.png/revision/latest?cb=20240421184755)\n\n### Research Points\n\n6\n\n### Research Time\n\n2h 10m\n\n## Research Path\n\n### Unlocked by\n\n[Decorations](https://stormworks.fandom.com/wiki/Decorations_Research)\n\nRailings is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative) | Railing Segment End |\n| [Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative) | Railing Segment Corner |\n| [Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative) | Railing Segment Middle |\n| [Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative) | Railing Segment Extension |\n| [Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative) | Railing Segment Corner Diagonal |\n| [Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative) | Railing Segment Middle Diagonal |\n| [Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative) | Railing Segment Extension Incline |\n| [Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative) | Railing Segment End Diagonal |\n| [Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative) | Railing Segment Extension Diagonal |\n| [Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative) | Railing Segment Curve |\n| [Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative) | Railing Segment Incline |\n| [Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative) | Railing Segment End Incline |",
+    "plain_text": "Railings\n\nResearch Points\n\n6\n\nResearch Time\n\n2h 10m\n\nResearch Path\n\nUnlocked by\n\nDecorations\n\nRailings is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nDecorative\n\nRailing Segment End\n\nDecorative\n\nRailing Segment Corner\n\nDecorative\n\nRailing Segment Middle\n\nDecorative\n\nRailing Segment Extension\n\nDecorative\n\nRailing Segment Corner Diagonal\n\nDecorative\n\nRailing Segment Middle Diagonal\n\nDecorative\n\nRailing Segment Extension Incline\n\nDecorative\n\nRailing Segment End Diagonal\n\nDecorative\n\nRailing Segment Extension Diagonal\n\nDecorative\n\nRailing Segment Curve\n\nDecorative\n\nRailing Segment Incline\n\nDecorative\n\nRailing Segment End Incline",
+    "char_count": 2024,
+    "word_count": 79,
+    "sha256": "cf02b8600cc7c7fedee36a4e84e59a3833171028efae5e0fa54a8d63b965a757"
+  },
+  "wikitext": "{{Research\n  | name=Railings\n  | image=[File:Railingsresearch.png]\n  | points=6\n  | time= 2h 10m\n  | unlock= [[Decorations Research|Decorations]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Railings is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Decorative|Decorative]]||Railing Segment End\n|-\n|[[Wiki/Building/Components/Decorative|Decorative]]||Railing Segment Corner\n|-\n|[[Wiki/Building/Components/Decorative|Decorative]]||Railing Segment Middle\n|-\n|[[Wiki/Building/Components/Decorative|Decorative]]||Railing Segment Extension\n|-\n|[[Wiki/Building/Components/Decorative|Decorative]]||Railing Segment Corner Diagonal\n|-\n|[[Wiki/Building/Components/Decorative|Decorative]]||Railing Segment Middle Diagonal\n|-\n|[[Wiki/Building/Components/Decorative|Decorative]]||Railing Segment Extension Incline\n|-\n|[[Wiki/Building/Components/Decorative|Decorative]]||Railing Segment End Diagonal\n|-\n|[[Wiki/Building/Components/Decorative|Decorative]]||Railing Segment Extension Diagonal\n|-\n|[[Wiki/Building/Components/Decorative|Decorative]]\n|Railing Segment Curve\n|-\n|[[Wiki/Building/Components/Decorative|Decorative]]\n|Railing Segment Incline\n|-\n|[[Wiki/Building/Components/Decorative|Decorative]]\n|Railing Segment End Incline\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Railings_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1499,
+    "revision_id": 3846,
+    "revision_timestamp": "2024-04-21T20:12:51Z",
+    "retrieved_at": "2026-08-31T10:04:44+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

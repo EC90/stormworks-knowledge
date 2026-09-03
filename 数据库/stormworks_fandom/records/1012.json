@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Fluid tank large",
+  "display_title": "Fluid tank large",
+  "summary": "A large fluid tank, most commonly used in long-range ships and aircraft.",
+  "template": "Infobox",
+  "attributes": {
+    "name": "Fluid Tank Large",
+    "image": "200px",
+    "prerequisite": "Advanced Fluid Management",
+    "cost": "$20",
+    "dimensions": "5×3×3",
+    "fluidcapacity": "703.125",
+    "mass": "{{Property|mass}}",
+    "logicoutput1": "{{Property|number}} Tank Contents",
+    "connection1": "{{Property|fluid}} Stored Fluid",
+    "connection2": "{{Property|fluid}} Stored Fluid",
+    "adjustparam1": "Fluid Type",
+    "adjustparam2": "Fill Level"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| name | Fluid Tank Large |\n| image | 200px |\n| prerequisite | Advanced Fluid Management |\n| cost | $20 |\n| dimensions | 5×3×3 |\n| fluidcapacity | 703.125 |\n| mass | {{Property\\|mass}} |\n| logicoutput1 | {{Property\\|number}} Tank Contents |\n| connection1 | {{Property\\|fluid}} Stored Fluid |\n| connection2 | {{Property\\|fluid}} Stored Fluid |\n| adjustparam1 | Fluid Type |\n| adjustparam2 | Fill Level |",
+  "categories": [
+    "Fluid_components"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "See also",
+      "anchor": "See_also"
+    }
+  ],
+  "internal_links": [
+    "Advanced Fluid Management (tech)",
+    "Fluid tank medium",
+    "Fluid tank small",
+    "Research"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fe/Tank_Large.jpg/revision/latest?cb=20190317005751",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fe/Tank_Large.jpg/revision/latest/scale-to-width-down/268?cb=20190317005751",
+      "alt": "Tank Large",
+      "width": "270",
+      "height": "265"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "mass"
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "number Tank Contents"
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "fluid Stored Fluid",
+          "fluid Stored Fluid"
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "Fluid Type",
+          "Fill Level"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Fluid Tank Large\n\n[![Tank Large](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fe/Tank_Large.jpg/revision/latest/scale-to-width-down/268?cb=20190317005751)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fe/Tank_Large.jpg/revision/latest?cb=20190317005751)\n\n### [Prerequisite](https://stormworks.fandom.com/wiki/Research)\n\nAdvanced Fluid Management\n\n### Cost\n\n$20\n\n### Dimensions\n\n5×3×3\n\n### Capacity\n\n703.125\n\n## Properties\n\n| mass |\n\n## Logic Outputs\n\n| number Tank Contents |\n\n## Connections\n\n| fluid Stored Fluid | fluid Stored Fluid |\n| --- | --- |\n\n## Adjustable parameters\n\n| Fluid Type | Fill Level |\n| --- | --- |\n\nA large fluid tank, most commonly used in long-range ships and aircraft.\n\nFluid tanks can hold the following fluids:\n\n- Fresh Water\n- Sea Water\n- Diesel\n- Jet Fuel\n- Slurry\n\n## See also\n\n- [Fluid tank small](https://stormworks.fandom.com/wiki/Fluid_tank_small)\n- [Fluid tank medium](https://stormworks.fandom.com/wiki/Fluid_tank_medium)",
+    "plain_text": "Fluid Tank Large\n\nPrerequisite\n\nAdvanced Fluid Management\n\nCost\n\n$20\n\nDimensions\n\n5×3×3\n\nCapacity\n\n703.125\n\nProperties\n\nmass\n\nLogic Outputs\n\nnumber\n Tank Contents\n\nConnections\n\nfluid\n Stored Fluid\n\nfluid\n Stored Fluid\n\nAdjustable parameters\n\nFluid Type\n\nFill Level\n\nA large fluid tank, most commonly used in long-range ships and aircraft.\n\nFluid tanks can hold the following fluids:\n\nFresh Water\n\nSea Water\n\nDiesel\n\nJet Fuel\n\nSlurry\n\nSee also\n\nFluid tank small\n\nFluid tank medium",
+    "char_count": 1004,
+    "word_count": 72,
+    "sha256": "082127109febf566e9eda61310f10ece276f9ebaeb6155b4f74df4122dbc03ce"
+  },
+  "wikitext": "{{Infobox\n  | name=Fluid Tank Large\n  | image= [[File:Tank Large.jpg|200px]]\n  | prerequisite= [[Advanced Fluid Management (tech)|Advanced Fluid Management]]\n  | cost=$20\n  | dimensions=5×3×3\n  | fluidcapacity= 703.125\n  | introduced=\n  \n  | mass= {{Property|mass}}\n  | motor=\n  | force=\n  | power=\n  | motor_speed=\n\n  | logicinput1= \n  | logicinput2=\n  | logicinput3=\n  | logicinput4=\n  | logicinput5=\n  | logicinput6=\n\n  | logicoutput1= {{Property|number}} Tank Contents\n  | logicoutput2=\n  | logicoutput3=\n  | logicoutput4=\n  | logicoutput5=\n  | logicoutput6=\n\n  | connection1= {{Property|fluid}} Stored Fluid\n  | connection2= {{Property|fluid}} Stored Fluid\n  | connection3=\n  | connection4=\n  | connection5=\n  | connection6=\n  \n  | adjustparam1= Fluid Type\n  | adjustparam2= Fill Level\n}}\n\nA large fluid tank, most commonly used in long-range ships and aircraft.\n\nFluid tanks can hold the following fluids:\n* Fresh Water\n* Sea Water\n* Diesel\n* Jet Fuel\n* Slurry\n\n== See also ==\n* [[Fluid tank small]]\n* [[Fluid tank medium]]\n\n[[Category: Fluid components]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Fluid_tank_large",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1012,
+    "revision_id": 3475,
+    "revision_timestamp": "2023-08-11T19:52:54Z",
+    "retrieved_at": "2026-08-31T10:01:57+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

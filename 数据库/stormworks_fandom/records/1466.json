@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Decorations Research",
+  "display_title": "Decorations Research",
+  "summary": "Decorations is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Railings Research",
+    "Research",
+    "Wiki/Building/Components/Decorative"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c5/Decorationsresearch.png/revision/latest?cb=20240421180756",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c5/Decorationsresearch.png/revision/latest?cb=20240421180756",
+      "alt": "Decorationsresearch",
+      "width": "49",
+      "height": "49"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative)",
+          "Large Tyre"
+        ],
+        [
+          "[Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative)",
+          "Small Tyre"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Decorations Research\n\n[![Decorationsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c5/Decorationsresearch.png/revision/latest?cb=20240421180756)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c5/Decorationsresearch.png/revision/latest?cb=20240421180756)\n\n### Research Points\n\n1\n\n### Research Time\n\n0h 25m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[Railings](https://stormworks.fandom.com/wiki/Railings_Research)\n\nDecorations is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative) | Large Tyre |\n| [Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative) | Small Tyre |",
+    "plain_text": "Decorations Research\n\nResearch Points\n\n1\n\nResearch Time\n\n0h 25m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nRailings\n\nDecorations is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nDecorative\n\nLarge Tyre\n\nDecorative\n\nSmall Tyre",
+    "char_count": 868,
+    "word_count": 36,
+    "sha256": "2bc9ae5f6ca10122aee193a6963aaa9cda10070ec53b86dbc72152b53f59d873"
+  },
+  "wikitext": "{{Research\n  | name=\n  | image=[File:Decorationsresearch.png]\n  | points=1\n  | time= 0h 25m\n  | unlock= Initially Available\n  | a1=[[Railings Research|Railings]]\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Decorations is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Decorative|Decorative]]||Large Tyre\n|-\n|[[Wiki/Building/Components/Decorative|Decorative]]||Small Tyre\n|}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Decorations_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1466,
+    "revision_id": 3845,
+    "revision_timestamp": "2024-04-21T20:12:17Z",
+    "retrieved_at": "2026-08-31T10:01:26+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

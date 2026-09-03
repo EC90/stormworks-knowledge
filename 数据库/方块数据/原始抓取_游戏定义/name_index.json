@@ -1,0 +1,6365 @@
+{
+ "Block": {
+  "file": "01_block.xml",
+  "mass": "1.000000",
+  "value": "2",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Static Block": {
+  "file": "01_block_static.xml",
+  "mass": "1",
+  "value": "10",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Weight Block": {
+  "file": "01_block_weight.xml",
+  "mass": "10.000000",
+  "value": "5",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Wedge": {
+  "file": "02_wedge.xml",
+  "mass": "0.5",
+  "value": "2",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Pyramid": {
+  "file": "03_pyramid.xml",
+  "mass": "0.25",
+  "value": "2",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Inverse Pyramid": {
+  "file": "04_invpyramid.xml",
+  "mass": "0.75",
+  "value": "2",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Wedge 1x2": {
+  "file": "05_wedge_2.xml",
+  "mass": "1",
+  "value": "2",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Pyramid 1x2": {
+  "file": "06_pyramid_2.xml",
+  "mass": "0.5",
+  "value": "2",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Inverse Pyramid 1x2": {
+  "file": "07_invpyramid_2.xml",
+  "mass": "1.5",
+  "value": "2",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Wedge 1x4": {
+  "file": "08_wedge_4.xml",
+  "mass": "2",
+  "value": "4",
+  "vox": "1x1x4",
+  "size_m": "0.25x0.25x1.00",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Pyramid 1x4": {
+  "file": "09_pyramid_4.xml",
+  "mass": "1",
+  "value": "4",
+  "vox": "1x1x4",
+  "size_m": "0.25x0.25x1.00",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Inverse Pyramid 1x4": {
+  "file": "10_invpyramid_4.xml",
+  "mass": "3",
+  "value": "4",
+  "vox": "1x1x4",
+  "size_m": "0.25x0.25x1.00",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Pyramid 2x2": {
+  "file": "11_pyramid_2x2.xml",
+  "mass": "1",
+  "value": "4",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Pyramid 2x4": {
+  "file": "12_pyramid_2x4.xml",
+  "mass": "2",
+  "value": "8",
+  "vox": "2x1x4",
+  "size_m": "0.50x0.25x1.00",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Pyramid 4x4": {
+  "file": "13_pyramid_4x4.xml",
+  "mass": "4",
+  "value": "16",
+  "vox": "4x1x4",
+  "size_m": "1.00x0.25x1.00",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Inverse Pyramid 2x2": {
+  "file": "14_invpyramid_2x2.xml",
+  "mass": "3",
+  "value": "4",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Inverse Pyramid 2x4": {
+  "file": "15_invpyramid_2x4.xml",
+  "mass": "6",
+  "value": "8",
+  "vox": "2x1x4",
+  "size_m": "0.50x0.25x1.00",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Inverse Pyramid 4x4": {
+  "file": "16_invpyramid_4x4.xml",
+  "mass": "12",
+  "value": "16",
+  "vox": "4x1x4",
+  "size_m": "1.00x0.25x1.00",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Air-Liquid Heat Exchanger 1x2": {
+  "file": "air_exchanger.xml",
+  "mass": "2",
+  "value": "15",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Air-Liquid Heat Exchanger 5x2": {
+  "file": "air_exchanger_5_2.xml",
+  "mass": "7",
+  "value": "30",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Air-Liquid Heat Exchanger 5x3": {
+  "file": "air_exchanger_5_3.xml",
+  "mass": "45",
+  "value": "50",
+  "vox": "3x3x5",
+  "size_m": "0.75x0.75x1.25",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Air-Liquid Heat Exchanger 9x3": {
+  "file": "air_exchanger_9_3.xml",
+  "mass": "81",
+  "value": "80",
+  "vox": "3x3x9",
+  "size_m": "0.75x0.75x2.25",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Air-Liquid Heat Exchanger 9x5": {
+  "file": "air_exchanger_9_5.xml",
+  "mass": "225",
+  "value": "150",
+  "vox": "5x5x9",
+  "size_m": "1.25x1.25x2.25",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Air Filter": {
+  "file": "air_filter.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "air",
+  "n_logic": 1
+ },
+ "Medium Engine": {
+  "file": "aircraft_engine.xml",
+  "mass": "80",
+  "value": "1000",
+  "vox": "3x4x7",
+  "size_m": "0.75x1.00x1.75",
+  "tags": "aeroplane,airplane,basic",
+  "n_logic": 12
+ },
+ "Aircraft Propeller": {
+  "file": "aircraft_propeller.xml",
+  "mass": "2",
+  "value": "125",
+  "vox": "11x2x11",
+  "size_m": "2.75x0.50x2.75",
+  "tags": "aeroplane,airplane,basic",
+  "n_logic": 2
+ },
+ "Altimeter": {
+  "file": "altimeter.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "aeroplane,airplane,helicopter",
+  "n_logic": 1
+ },
+ "Angular Speed Sensor": {
+  "file": "angular_speed_sensor.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Artificial Horizon": {
+  "file": "artificial_horizon.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Astronomy Sensor": {
+  "file": "astronomy_sensor.xml",
+  "mass": "1",
+  "value": "150",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Azimuth Thruster": {
+  "file": "azimuth_thruster.xml",
+  "mass": "4",
+  "value": "150",
+  "vox": "3x3x4",
+  "size_m": "0.75x0.75x1.00",
+  "tags": "boat,propeller,basic",
+  "n_logic": 1
+ },
+ "Barometer": {
+  "file": "barometer.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Electric Battery Large": {
+  "file": "battery_large.xml",
+  "mass": "800",
+  "value": "10000",
+  "vox": "7x5x5",
+  "size_m": "1.75x1.25x1.25",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Electric Battery Medium": {
+  "file": "battery_medium.xml",
+  "mass": "60",
+  "value": "1200",
+  "vox": "3x2x2",
+  "size_m": "0.75x0.50x0.50",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Electric Battery Small": {
+  "file": "battery_small.xml",
+  "mass": "10",
+  "value": "150",
+  "vox": "2x1x1",
+  "size_m": "0.50x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Buoyancy Float Block": {
+  "file": "buoyancy_float_block.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "4x4x4",
+  "size_m": "1.00x1.00x1.00",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Buoyancy Float Pyramid": {
+  "file": "buoyancy_float_pyramid.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "4x4x4",
+  "size_m": "1.00x1.00x1.00",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Buoyancy Float Wedge": {
+  "file": "buoyancy_float_wedge.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "4x4x4",
+  "size_m": "1.00x1.00x1.00",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Key Button": {
+  "file": "button_key.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Large Keypad": {
+  "file": "button_keypad_large.xml",
+  "mass": "1",
+  "value": "40",
+  "vox": "1x2x2",
+  "size_m": "0.25x0.50x0.50",
+  "tags": "button,input",
+  "n_logic": 5
+ },
+ "Small Keypad": {
+  "file": "button_keypad_small.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "button,input",
+  "n_logic": 3
+ },
+ "Lockable Button": {
+  "file": "button_lock.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Push Button": {
+  "file": "button_push.xml",
+  "mass": "1.000000",
+  "value": "10",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Push Button (2 Sided)": {
+  "file": "button_push_2side.xml",
+  "mass": "1",
+  "value": "10",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Throttle Lever": {
+  "file": "button_throttle_lever.xml",
+  "mass": "1",
+  "value": "30",
+  "vox": "2x2x1",
+  "size_m": "0.50x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 4
+ },
+ "Toggle Button": {
+  "file": "button_toggle.xml",
+  "mass": "1.000000",
+  "value": "10",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Toggle Button (2 Sided)": {
+  "file": "button_toggle_2side.xml",
+  "mass": "1",
+  "value": "10",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Buzzer": {
+  "file": "buzzer.xml",
+  "mass": "1",
+  "value": "100",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "sound,audio,siren",
+  "n_logic": 2
+ },
+ "Camera Gimbal": {
+  "file": "camera_gimbal.xml",
+  "mass": "50",
+  "value": "5000",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Camera Stabilized": {
+  "file": "camera_gimbal_laser.xml",
+  "mass": "60",
+  "value": "50000",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "laser,lazer",
+  "n_logic": 12
+ },
+ "Camera Medium": {
+  "file": "camera_med.xml",
+  "mass": "10",
+  "value": "3000",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Camera Small": {
+  "file": "camera_small.xml",
+  "mass": "5",
+  "value": "1000",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Catalytic Converter": {
+  "file": "catalytic_converter.xml",
+  "mass": "1",
+  "value": "100",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Clock": {
+  "file": "clock.xml",
+  "mass": "1",
+  "value": "100",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Compass Ball": {
+  "file": "compass.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Compass Sensor": {
+  "file": "compass_sensor.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Electric Connector": {
+  "file": "connector_electric.xml",
+  "mass": "2",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "magnet",
+  "n_logic": 7
+ },
+ "Hardpoint Connector Body": {
+  "file": "connector_hardpoint_a.xml",
+  "mass": "2",
+  "value": "20",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "",
+  "n_logic": 9
+ },
+ "Hardpoint Connector Attachment": {
+  "file": "connector_hardpoint_b.xml",
+  "mass": "2",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 7
+ },
+ "Hardpoint Connector Attachment (Round)": {
+  "file": "connector_hardpoint_b_round.xml",
+  "mass": "2",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 7
+ },
+ "Hinge Connector": {
+  "file": "connector_hinge.xml",
+  "mass": "3.000000",
+  "value": "40",
+  "vox": "1x2x3",
+  "size_m": "0.25x0.50x0.75",
+  "tags": "magnet",
+  "n_logic": 7
+ },
+ "Large Connector": {
+  "file": "connector_large.xml",
+  "mass": "20",
+  "value": "50",
+  "vox": "3x2x3",
+  "size_m": "0.75x0.50x0.75",
+  "tags": "magnet",
+  "n_logic": 13
+ },
+ "Sliding Connector Gripper": {
+  "file": "connector_slider_gripper.xml",
+  "mass": "2",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Sliding Connector Track": {
+  "file": "connector_slider_track.xml",
+  "mass": "2",
+  "value": "10",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Small Connector": {
+  "file": "connector_small.xml",
+  "mass": "2.000000",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "magnet",
+  "n_logic": 7
+ },
+ "Torque Connector": {
+  "file": "connector_torque.xml",
+  "mass": "2",
+  "value": "20",
+  "vox": "",
+  "size_m": "",
+  "tags": "magnet",
+  "n_logic": 7
+ },
+ "Fluid Connector": {
+  "file": "connector_water.xml",
+  "mass": "2",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "magnet",
+  "n_logic": 7
+ },
+ "Control Fin Large": {
+  "file": "control_fin_large.xml",
+  "mass": "10",
+  "value": "350",
+  "vox": "1x3x3",
+  "size_m": "0.25x0.75x0.75",
+  "tags": "boat,basic",
+  "n_logic": 2
+ },
+ "Control Fin Medium": {
+  "file": "control_fin_medium.xml",
+  "mass": "5",
+  "value": "150",
+  "vox": "1x2x3",
+  "size_m": "0.25x0.50x0.75",
+  "tags": "boat,basic",
+  "n_logic": 2
+ },
+ "Control Fin Small": {
+  "file": "control_fin_small.xml",
+  "mass": "2",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "boat,basic",
+  "n_logic": 2
+ },
+ "Control Surface (Large)": {
+  "file": "control_surface_large.xml",
+  "mass": "25",
+  "value": "500",
+  "vox": "",
+  "size_m": "",
+  "tags": "airplane,aeroplane,basic",
+  "n_logic": 2
+ },
+ "Control Surface (Medium)": {
+  "file": "control_surface_medium.xml",
+  "mass": "15",
+  "value": "250",
+  "vox": "",
+  "size_m": "",
+  "tags": "airplane,aeroplane,basic",
+  "n_logic": 2
+ },
+ "Control Surface (Small)": {
+  "file": "control_surface_small.xml",
+  "mass": "10",
+  "value": "150",
+  "vox": "",
+  "size_m": "",
+  "tags": "airplane,aeroplane,basic",
+  "n_logic": 2
+ },
+ "Cryo Cooler": {
+  "file": "cryo_cooler.xml",
+  "mass": "4",
+  "value": "30",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 8
+ },
+ "Data Logger (Bool)": {
+  "file": "data_logger_bool.xml",
+  "mass": "1",
+  "value": "1",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Data Logger (Number)": {
+  "file": "data_logger_number.xml",
+  "mass": "1",
+  "value": "1",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Desalinator": {
+  "file": "desalinator.xml",
+  "mass": "5",
+  "value": "400",
+  "vox": "1x5x1",
+  "size_m": "0.25x1.25x0.25",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Dial": {
+  "file": "dial.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Digital Display": {
+  "file": "digital_display.xml",
+  "mass": "2.000000",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Distance Sensor": {
+  "file": "distance_sensor.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "laser,lazer",
+  "n_logic": 2
+ },
+ "Fractional Distillation Port": {
+  "file": "distillation_tray.xml",
+  "mass": "36",
+  "value": "80",
+  "vox": "3x5x3",
+  "size_m": "0.75x1.25x0.75",
+  "tags": "oil,refining,refine",
+  "n_logic": 1
+ },
+ "Sliding Door (Electric)": {
+  "file": "door.xml",
+  "mass": "20",
+  "value": "70",
+  "vox": "1x7x6",
+  "size_m": "0.25x1.75x1.50",
+  "tags": "door,basic",
+  "n_logic": 2
+ },
+ "Hinged Dock Door": {
+  "file": "door_dock_large.xml",
+  "mass": "20",
+  "value": "300",
+  "vox": "9x5x1",
+  "size_m": "2.25x1.25x0.25",
+  "tags": "door,basic",
+  "n_logic": 10
+ },
+ "Hinged Dock Hatch": {
+  "file": "door_dock_small.xml",
+  "mass": "15",
+  "value": "200",
+  "vox": "5x5x1",
+  "size_m": "1.25x1.25x0.25",
+  "tags": "door,basic",
+  "n_logic": 10
+ },
+ "Door Frame Controller": {
+  "file": "door_frame_controller.xml",
+  "mass": "10",
+  "value": "100",
+  "vox": "2x1x1",
+  "size_m": "0.50x0.25x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Door Frame Corner": {
+  "file": "door_frame_corner.xml",
+  "mass": "15",
+  "value": "50",
+  "vox": "2x2x1",
+  "size_m": "0.50x0.50x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Door Frame Edge": {
+  "file": "door_frame_straight.xml",
+  "mass": "5",
+  "value": "10",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Sliding Door": {
+  "file": "door_manual.xml",
+  "mass": "20",
+  "value": "50",
+  "vox": "1x7x6",
+  "size_m": "0.25x1.75x1.50",
+  "tags": "door,basic",
+  "n_logic": 1
+ },
+ "Hinged Door": {
+  "file": "door_manual_large.xml",
+  "mass": "20",
+  "value": "200",
+  "vox": "7x4x1",
+  "size_m": "1.75x1.00x0.25",
+  "tags": "door,basic",
+  "n_logic": 1
+ },
+ "Sliding Hatch": {
+  "file": "door_manual_sliding_small.xml",
+  "mass": "20",
+  "value": "40",
+  "vox": "1x3x6",
+  "size_m": "0.25x0.75x1.50",
+  "tags": "door,basic",
+  "n_logic": 1
+ },
+ "Hinged Hatch": {
+  "file": "door_manual_small.xml",
+  "mass": "15",
+  "value": "150",
+  "vox": "3x4x1",
+  "size_m": "0.75x1.00x0.25",
+  "tags": "door,basic",
+  "n_logic": 1
+ },
+ "Door Panel Corner": {
+  "file": "door_panel_corner.xml",
+  "mass": "5",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Door Panel Edge": {
+  "file": "door_panel_straight.xml",
+  "mass": "5",
+  "value": "10",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Electric Circuit Breaker": {
+  "file": "electric_curcuit_breaker.xml",
+  "mass": "1",
+  "value": "100",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Electric Charger": {
+  "file": "electric_diode.xml",
+  "mass": "1",
+  "value": "100",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Electric Relay": {
+  "file": "electric_relay.xml",
+  "mass": "1",
+  "value": "100",
+  "vox": "3x1x1",
+  "size_m": "0.75x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Hydrogen Electrolyser": {
+  "file": "electrolyser.xml",
+  "mass": "16",
+  "value": "575",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Small Engine": {
+  "file": "engine.xml",
+  "mass": "30",
+  "value": "400",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "basic",
+  "n_logic": 11
+ },
+ "Large Engine": {
+  "file": "engine_diesel.xml",
+  "mass": "400",
+  "value": "3000",
+  "vox": "5x8x11",
+  "size_m": "1.25x2.00x2.75",
+  "tags": "basic",
+  "n_logic": 12
+ },
+ "Large Ducted Fan": {
+  "file": "fan_large.xml",
+  "mass": "10",
+  "value": "100",
+  "vox": "7x1x7",
+  "size_m": "1.75x0.25x1.75",
+  "tags": "rotor,aeroplane,airplane,helicopter,basic",
+  "n_logic": 1
+ },
+ "Small Ducted Fan": {
+  "file": "fan_small.xml",
+  "mass": "6",
+  "value": "50",
+  "vox": "5x1x5",
+  "size_m": "1.25x0.25x1.25",
+  "tags": "rotor,aeroplane,airplane,helicopter,basic",
+  "n_logic": 1
+ },
+ "Fishfinder": {
+  "file": "fish_finder.xml",
+  "mass": "10",
+  "value": "500",
+  "vox": "",
+  "size_m": "",
+  "tags": "sonar",
+  "n_logic": 3
+ },
+ "Flag (Large)": {
+  "file": "flag_large.xml",
+  "mass": "3",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Flag (Medium)": {
+  "file": "flag_medium.xml",
+  "mass": "2",
+  "value": "75",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Flag (Small)": {
+  "file": "flag_small.xml",
+  "mass": "1",
+  "value": "25",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Flare Launcher": {
+  "file": "flare_launcher.xml",
+  "mass": "1",
+  "value": "10",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Fluid Exhaust": {
+  "file": "fluid_exhaust.xml",
+  "mass": "1",
+  "value": "100",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Fluid Filter": {
+  "file": "fluid_filter_v2.xml",
+  "mass": "5",
+  "value": "400",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Fluid Heat Sink": {
+  "file": "fluid_heat_sink.xml",
+  "mass": "18",
+  "value": "300",
+  "vox": "5x3x1",
+  "size_m": "1.25x0.75x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Fluid Intake": {
+  "file": "fluid_intake.xml",
+  "mass": "1",
+  "value": "100",
+  "vox": "3x2x1",
+  "size_m": "0.75x0.50x0.25",
+  "tags": "air",
+  "n_logic": 1
+ },
+ "Fluid Port End": {
+  "file": "fluid_port_end.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "air,basic",
+  "n_logic": 1
+ },
+ "Fluid Pressure Sensor": {
+  "file": "fluid_pressure.xml",
+  "mass": "4",
+  "value": "100",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Fluid Heat Radiator": {
+  "file": "fluid_radiator.xml",
+  "mass": "10",
+  "value": "200",
+  "vox": "3x3x1",
+  "size_m": "0.75x0.75x0.25",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Fluid Heat Radiator 3x3 (Electric)": {
+  "file": "fluid_radiator_electric.xml",
+  "mass": "10",
+  "value": "400",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Fluid Heat Radiator 5x5 (Electric)": {
+  "file": "fluid_radiator_electric_5.xml",
+  "mass": "25",
+  "value": "700",
+  "vox": "5x1x5",
+  "size_m": "1.25x0.25x1.25",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Gas Tank (Small)": {
+  "file": "fluid_tank_compressed_gas_1_3.xml",
+  "mass": "2",
+  "value": "20",
+  "vox": "",
+  "size_m": "",
+  "tags": "fluid",
+  "n_logic": 3
+ },
+ "Gas Tank (Medium)": {
+  "file": "fluid_tank_compressed_gas_1_7.xml",
+  "mass": "5",
+  "value": "20",
+  "vox": "",
+  "size_m": "",
+  "tags": "fluid",
+  "n_logic": 3
+ },
+ "Gas Tank (Large)": {
+  "file": "fluid_tank_compressed_gas_3_7.xml",
+  "mass": "12",
+  "value": "20",
+  "vox": "3x7x3",
+  "size_m": "0.75x1.75x0.75",
+  "tags": "fluid",
+  "n_logic": 3
+ },
+ "Gas Tank (Huge)": {
+  "file": "fluid_tank_compressed_gas_5_9.xml",
+  "mass": "22",
+  "value": "20",
+  "vox": "5x9x5",
+  "size_m": "1.25x2.25x1.25",
+  "tags": "fluid",
+  "n_logic": 3
+ },
+ "Fluid Tank Large": {
+  "file": "fluid_tank_large.xml",
+  "mass": "22",
+  "value": "20",
+  "vox": "3x3x5",
+  "size_m": "0.75x0.75x1.25",
+  "tags": "basic",
+  "n_logic": 4
+ },
+ "Fluid Tank Medium": {
+  "file": "fluid_tank_medium.xml",
+  "mass": "6",
+  "value": "20",
+  "vox": "2x2x3",
+  "size_m": "0.50x0.50x0.75",
+  "tags": "basic",
+  "n_logic": 4
+ },
+ "Fluid Tank Small": {
+  "file": "fluid_tank_small.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "basic",
+  "n_logic": 4
+ },
+ "Fluid Flow Valve": {
+  "file": "fluid_valve_flow.xml",
+  "mass": "4",
+  "value": "100",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Fluid On/Off Valve": {
+  "file": "fluid_valve_on_off.xml",
+  "mass": "4",
+  "value": "100",
+  "vox": "2x2x1",
+  "size_m": "0.50x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 5
+ },
+ "Fluid On/Off Valve (Manual)": {
+  "file": "fluid_valve_on_off_manual.xml",
+  "mass": "1",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Fluid Variable Valve": {
+  "file": "fluid_valve_variable.xml",
+  "mass": "4",
+  "value": "100",
+  "vox": "2x2x1",
+  "size_m": "0.50x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 5
+ },
+ "Foghorn": {
+  "file": "foghorn.xml",
+  "mass": "5",
+  "value": "200",
+  "vox": "4x3x3",
+  "size_m": "1.00x0.75x0.75",
+  "tags": "boat,sound,audio",
+  "n_logic": 2
+ },
+ "Friction Pad": {
+  "file": "friction_block.xml",
+  "mass": "1",
+  "value": "15",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Electric Furnace": {
+  "file": "furnace_electric.xml",
+  "mass": "220",
+  "value": "900",
+  "vox": "3x5x3",
+  "size_m": "0.75x1.25x0.75",
+  "tags": "firebox",
+  "n_logic": 5
+ },
+ "Industrial Diesel Furnace": {
+  "file": "furnace_industrial.xml",
+  "mass": "350",
+  "value": "750",
+  "vox": "5x5x7",
+  "size_m": "1.25x1.25x1.75",
+  "tags": "firebox",
+  "n_logic": 8
+ },
+ "Gas Meter": {
+  "file": "gas_measure.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 3
+ },
+ "And": {
+  "file": "gate_bool_and.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Blinker": {
+  "file": "gate_bool_blink.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Capacitor": {
+  "file": "gate_bool_capacitor.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Constant On Signal": {
+  "file": "gate_bool_constant.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Delay": {
+  "file": "gate_bool_delay.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Not": {
+  "file": "gate_bool_not.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Or": {
+  "file": "gate_bool_or.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Xor": {
+  "file": "gate_bool_xor.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Abs": {
+  "file": "gate_float_abs.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Add": {
+  "file": "gate_float_add.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Clamp": {
+  "file": "gate_float_clamp.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Constant Number": {
+  "file": "gate_float_constant.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Counter": {
+  "file": "gate_float_counter.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Counter (Ping Pong)": {
+  "file": "gate_float_counter_ping_pong.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Divide": {
+  "file": "gate_float_divide.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Exponent": {
+  "file": "gate_float_exponent.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "square,cube,root,sqrt,pow",
+  "n_logic": 2
+ },
+ "Greater-than": {
+  "file": "gate_float_greater_than.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Numerical Inverter": {
+  "file": "gate_float_invert.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Less-Than": {
+  "file": "gate_float_less_than.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Modulo": {
+  "file": "gate_float_modulo.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Multiply": {
+  "file": "gate_float_multiply.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Memory Register": {
+  "file": "gate_float_register.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Trigonometry": {
+  "file": "gate_float_sin.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "sine,cosine,tangent,asin,atan,acos,inverse,function",
+  "n_logic": 2
+ },
+ "Subtract": {
+  "file": "gate_float_subtract.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Numerical Junction": {
+  "file": "gate_float_switch.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Numerical Switchbox": {
+  "file": "gate_float_switch_input.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Threshold Gate": {
+  "file": "gate_float_threshold.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Function (3 inputs)": {
+  "file": "gate_function_large.xml",
+  "mass": "1",
+  "value": "100",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Function (1 input)": {
+  "file": "gate_function_small.xml",
+  "mass": "1",
+  "value": "80",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 2
+ },
+ "JK Flip-Flop": {
+  "file": "gate_jk_flipflop.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 4
+ },
+ "PID Controller": {
+  "file": "gate_pid_controller.xml",
+  "mass": "1.000000",
+  "value": "100",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Push to Toggle": {
+  "file": "gate_push_to_toggle.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 2
+ },
+ "SR Latch": {
+  "file": "gate_sr_latch.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Power Add": {
+  "file": "gate_torque_add.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Power Meter": {
+  "file": "gate_torque_multimeter.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Train Junction Controller": {
+  "file": "gate_train_junction.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Up/Down": {
+  "file": "gate_up_down.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Gauge Display": {
+  "file": "gauge_display.xml",
+  "mass": "2.000000",
+  "value": "20",
+  "vox": "1x2x2",
+  "size_m": "0.25x0.50x0.50",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Large Generator": {
+  "file": "generator_large.xml",
+  "mass": "400",
+  "value": "12000",
+  "vox": "5x5x5",
+  "size_m": "1.25x1.25x1.25",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Medium Generator": {
+  "file": "generator_medium.xml",
+  "mass": "100",
+  "value": "2000",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Small Generator": {
+  "file": "generator_small.xml",
+  "mass": "5",
+  "value": "600",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Giant Propeller": {
+  "file": "giga_prop_small.xml",
+  "mass": "100",
+  "value": "500",
+  "vox": "9x3x9",
+  "size_m": "2.25x0.75x2.25",
+  "tags": "boat,basic",
+  "n_logic": 1
+ },
+ "GPS Sensor": {
+  "file": "gps_sensor.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Autocannon Belt (Corner)": {
+  "file": "gun_belt_corner.xml",
+  "mass": "3",
+  "value": "100",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "weapon,autocannon,belt",
+  "n_logic": 1
+ },
+ "Autocannon Belt (Corner Flat)": {
+  "file": "gun_belt_corner_flat.xml",
+  "mass": "9",
+  "value": "100",
+  "vox": "1x3x3",
+  "size_m": "0.25x0.75x0.75",
+  "tags": "weapon,autocannon,belt",
+  "n_logic": 1
+ },
+ "Battle Cannon Belt (Corner Inner)": {
+  "file": "gun_belt_corner_flat_l.xml",
+  "mass": "9",
+  "value": "100",
+  "vox": "1x3x3",
+  "size_m": "0.25x0.75x0.75",
+  "tags": "weapon,cannon,belt,battle",
+  "n_logic": 1
+ },
+ "Battle Cannon Belt (Corner Outer)": {
+  "file": "gun_belt_corner_flat_reverse_l.xml",
+  "mass": "9",
+  "value": "100",
+  "vox": "1x3x3",
+  "size_m": "0.25x0.75x0.75",
+  "tags": "weapon,cannon,belt,battle",
+  "n_logic": 1
+ },
+ "Artillery Cannon Belt (Corner Outer)": {
+  "file": "gun_belt_corner_flat_reverse_xl.xml",
+  "mass": "15",
+  "value": "100",
+  "vox": "1x4x4",
+  "size_m": "0.25x1.00x1.00",
+  "tags": "weapon,cannon,belt,artillery",
+  "n_logic": 1
+ },
+ "Bertha Cannon Belt (Corner Outer)": {
+  "file": "gun_belt_corner_flat_reverse_xxl.xml",
+  "mass": "138",
+  "value": "100",
+  "vox": "3x7x7",
+  "size_m": "0.75x1.75x1.75",
+  "tags": "weapon,cannon,belt,bertha",
+  "n_logic": 1
+ },
+ "Artillery Cannon Belt (Corner Inner)": {
+  "file": "gun_belt_corner_flat_xl.xml",
+  "mass": "15",
+  "value": "100",
+  "vox": "1x4x4",
+  "size_m": "0.25x1.00x1.00",
+  "tags": "weapon,cannon,belt,artillery",
+  "n_logic": 1
+ },
+ "Bertha Cannon Belt (Corner Inner)": {
+  "file": "gun_belt_corner_flat_xxl.xml",
+  "mass": "138",
+  "value": "100",
+  "vox": "3x7x7",
+  "size_m": "0.75x1.75x1.75",
+  "tags": "weapon,cannon,belt,bertha",
+  "n_logic": 1
+ },
+ "Battle Cannon Belt (Corner)": {
+  "file": "gun_belt_corner_l.xml",
+  "mass": "3",
+  "value": "100",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "weapon,cannon,belt,battle",
+  "n_logic": 1
+ },
+ "Artillery Cannon Belt (Corner)": {
+  "file": "gun_belt_corner_xl.xml",
+  "mass": "4",
+  "value": "100",
+  "vox": "1x1x4",
+  "size_m": "0.25x0.25x1.00",
+  "tags": "weapon,cannon,belt,artillery",
+  "n_logic": 1
+ },
+ "Bertha Cannon Belt (Corner)": {
+  "file": "gun_belt_corner_xxl.xml",
+  "mass": "63",
+  "value": "100",
+  "vox": "3x3x7",
+  "size_m": "0.75x0.75x1.75",
+  "tags": "weapon,cannon,belt,bertha",
+  "n_logic": 1
+ },
+ "Autocannon Belt (Flexible)": {
+  "file": "gun_belt_flex.xml",
+  "mass": "3",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "weapon,autocannon,belt",
+  "n_logic": 1
+ },
+ "Battle Cannon Belt (Flexible)": {
+  "file": "gun_belt_flex_l.xml",
+  "mass": "3",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "weapon,cannon,belt,battle",
+  "n_logic": 1
+ },
+ "Artillery Cannon Belt (Flexible)": {
+  "file": "gun_belt_flex_xl.xml",
+  "mass": "4",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "weapon,cannon,belt,artillery",
+  "n_logic": 1
+ },
+ "Bertha Cannon Belt (Flexible)": {
+  "file": "gun_belt_flex_xxl.xml",
+  "mass": "63",
+  "value": "100",
+  "vox": "3x4x7",
+  "size_m": "0.75x1.00x1.75",
+  "tags": "weapon,cannon,belt,bertha",
+  "n_logic": 1
+ },
+ "Autocannon Belt (Junction)": {
+  "file": "gun_belt_junction.xml",
+  "mass": "3",
+  "value": "100",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "weapon,autocannon,belt",
+  "n_logic": 2
+ },
+ "Battle Cannon Belt (Junction)": {
+  "file": "gun_belt_junction_l.xml",
+  "mass": "3",
+  "value": "100",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "weapon,cannon,belt,battle",
+  "n_logic": 2
+ },
+ "Artillery Cannon Belt (Junction)": {
+  "file": "gun_belt_junction_xl.xml",
+  "mass": "4",
+  "value": "100",
+  "vox": "1x1x4",
+  "size_m": "0.25x0.25x1.00",
+  "tags": "weapon,cannon,belt,artillery",
+  "n_logic": 2
+ },
+ "Bertha Cannon Belt (Junction)": {
+  "file": "gun_belt_junction_xxl.xml",
+  "mass": "63",
+  "value": "100",
+  "vox": "3x3x7",
+  "size_m": "0.75x0.75x1.75",
+  "tags": "weapon,cannon,belt,bertha",
+  "n_logic": 2
+ },
+ "Autocannon Belt (Feeder)": {
+  "file": "gun_belt_loader.xml",
+  "mass": "4",
+  "value": "100",
+  "vox": "1x1x4",
+  "size_m": "0.25x0.25x1.00",
+  "tags": "weapon,autocannon,belt",
+  "n_logic": 3
+ },
+ "Battle Cannon Belt (Feeder)": {
+  "file": "gun_belt_loader_l.xml",
+  "mass": "4",
+  "value": "100",
+  "vox": "1x1x4",
+  "size_m": "0.25x0.25x1.00",
+  "tags": "weapon,cannon,belt,battle",
+  "n_logic": 3
+ },
+ "Artillery Cannon Belt (Feeder)": {
+  "file": "gun_belt_loader_xl.xml",
+  "mass": "5",
+  "value": "100",
+  "vox": "1x1x5",
+  "size_m": "0.25x0.25x1.25",
+  "tags": "weapon,cannon,belt,artillery",
+  "n_logic": 3
+ },
+ "Bertha Cannon Belt (Feeder)": {
+  "file": "gun_belt_loader_xxl.xml",
+  "mass": "90",
+  "value": "100",
+  "vox": "3x3x10",
+  "size_m": "0.75x0.75x2.50",
+  "tags": "weapon,cannon,belt,bertha",
+  "n_logic": 3
+ },
+ "Autocannon Belt (Connector)": {
+  "file": "gun_belt_receiver.xml",
+  "mass": "3",
+  "value": "100",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "weapon,autocannon,belt",
+  "n_logic": 2
+ },
+ "Battle Cannon Belt (Connector)": {
+  "file": "gun_belt_receiver_l.xml",
+  "mass": "3",
+  "value": "100",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "weapon,cannon,belt,battle",
+  "n_logic": 2
+ },
+ "Artillery Cannon Belt (Connector)": {
+  "file": "gun_belt_receiver_xl.xml",
+  "mass": "4",
+  "value": "100",
+  "vox": "1x1x4",
+  "size_m": "0.25x0.25x1.00",
+  "tags": "weapon,cannon,belt,artillery",
+  "n_logic": 2
+ },
+ "Bertha Cannon Belt (Connector)": {
+  "file": "gun_belt_receiver_xxl.xml",
+  "mass": "63",
+  "value": "100",
+  "vox": "3x3x7",
+  "size_m": "0.75x0.75x1.75",
+  "tags": "weapon,cannon,belt,bertha",
+  "n_logic": 2
+ },
+ "Autocannon Belt (Straight)": {
+  "file": "gun_belt_straight.xml",
+  "mass": "3",
+  "value": "100",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "weapon,autocannon,belt",
+  "n_logic": 1
+ },
+ "Battle Cannon Belt (Straight)": {
+  "file": "gun_belt_straight_l.xml",
+  "mass": "3",
+  "value": "100",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "weapon,cannon,belt,battle",
+  "n_logic": 1
+ },
+ "Artillery Cannon Belt (Straight)": {
+  "file": "gun_belt_straight_xl.xml",
+  "mass": "4",
+  "value": "100",
+  "vox": "1x1x4",
+  "size_m": "0.25x0.25x1.00",
+  "tags": "weapon,cannon,belt,artillery",
+  "n_logic": 1
+ },
+ "Bertha Cannon Belt (Straight)": {
+  "file": "gun_belt_straight_xxl.xml",
+  "mass": "63",
+  "value": "100",
+  "vox": "3x3x7",
+  "size_m": "0.75x0.75x1.75",
+  "tags": "weapon,cannon,belt,bertha",
+  "n_logic": 1
+ },
+ "Autocannon Ammo Drum (Large)": {
+  "file": "gun_drum_large.xml",
+  "mass": "40",
+  "value": "100",
+  "vox": "4x3x4",
+  "size_m": "1.00x0.75x1.00",
+  "tags": "weapon,autocannon,belt",
+  "n_logic": 1
+ },
+ "Autocannon Ammo Drum (Medium)": {
+  "file": "gun_drum_medium.xml",
+  "mass": "20",
+  "value": "100",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "weapon,autocannon,belt",
+  "n_logic": 1
+ },
+ "Autocannon Ammo Drum (Small)": {
+  "file": "gun_drum_small.xml",
+  "mass": "10",
+  "value": "100",
+  "vox": "2x3x2",
+  "size_m": "0.50x0.75x0.50",
+  "tags": "weapon,autocannon,belt",
+  "n_logic": 1
+ },
+ "Machine Gun Ammo Box": {
+  "file": "gun_drum_xsmall.xml",
+  "mass": "5",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "weapon,machinegun,belt",
+  "n_logic": 1
+ },
+ "Machine Gun Ammo Box (Large)": {
+  "file": "gun_drum_xsmall_2.xml",
+  "mass": "20",
+  "value": "30",
+  "vox": "",
+  "size_m": "",
+  "tags": "weapon,machinegun,belt",
+  "n_logic": 1
+ },
+ "Battle Cannon": {
+  "file": "gun_l.xml",
+  "mass": "100",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "weapon,cannon,battle",
+  "n_logic": 4
+ },
+ "Battle Cannon Barrel Extension": {
+  "file": "gun_l_barrel_3.xml",
+  "mass": "40",
+  "value": "50",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "weapon,cannon,battle",
+  "n_logic": 0
+ },
+ "Battle Cannon Muzzle Brake": {
+  "file": "gun_l_muzzle_2.xml",
+  "mass": "40",
+  "value": "50",
+  "vox": "3x4x3",
+  "size_m": "0.75x1.00x0.75",
+  "tags": "weapon,cannon,battle",
+  "n_logic": 0
+ },
+ "Heavy Autocannon": {
+  "file": "gun_m.xml",
+  "mass": "50",
+  "value": "100",
+  "vox": "1x10x1",
+  "size_m": "0.25x2.50x0.25",
+  "tags": "weapon,autocannon",
+  "n_logic": 4
+ },
+ "Heavy Autocannon Barrel Extension": {
+  "file": "gun_m_barrel_3.xml",
+  "mass": "20",
+  "value": "50",
+  "vox": "1x3x2",
+  "size_m": "0.25x0.75x0.50",
+  "tags": "weapon,autocannon",
+  "n_logic": 0
+ },
+ "Heavy Autocannon Muzzle Brake": {
+  "file": "gun_m_muzzle_2.xml",
+  "mass": "20",
+  "value": "50",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "weapon,autocannon",
+  "n_logic": 0
+ },
+ "Rocket Launcher": {
+  "file": "gun_rocket_launcher.xml",
+  "mass": "50",
+  "value": "100",
+  "vox": "1x8x1",
+  "size_m": "0.25x2.00x0.25",
+  "tags": "weapon,explosive",
+  "n_logic": 3
+ },
+ "Light Autocannon": {
+  "file": "gun_s.xml",
+  "mass": "25",
+  "value": "100",
+  "vox": "2x6x1",
+  "size_m": "0.50x1.50x0.25",
+  "tags": "weapon,autocannon",
+  "n_logic": 3
+ },
+ "Light Autocannon Barrel Extension": {
+  "file": "gun_s_barrel.xml",
+  "mass": "10",
+  "value": "50",
+  "vox": "1x3x1",
+  "size_m": "0.25x0.75x0.25",
+  "tags": "weapon,autocannon",
+  "n_logic": 0
+ },
+ "Light Autocannon Muzzle Brake": {
+  "file": "gun_s_muzzle_3.xml",
+  "mass": "3",
+  "value": "50",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "weapon,autocannon",
+  "n_logic": 0
+ },
+ "Rotary Autocannon": {
+  "file": "gun_v.xml",
+  "mass": "400",
+  "value": "100",
+  "vox": "4x13x2",
+  "size_m": "1.00x3.25x0.50",
+  "tags": "weapon,autocannon",
+  "n_logic": 3
+ },
+ "Rotary Autocannon Barrel Extension": {
+  "file": "gun_v_barrel.xml",
+  "mass": "40",
+  "value": "50",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "weapon,autocannon",
+  "n_logic": 0
+ },
+ "Artillery Cannon": {
+  "file": "gun_xl.xml",
+  "mass": "200",
+  "value": "100",
+  "vox": "3x22x3",
+  "size_m": "0.75x5.50x0.75",
+  "tags": "weapon,cannon,artillery",
+  "n_logic": 4
+ },
+ "Artillery Cannon Barrel Extension": {
+  "file": "gun_xl_barrel_3.xml",
+  "mass": "80",
+  "value": "50",
+  "vox": "3x4x3",
+  "size_m": "0.75x1.00x0.75",
+  "tags": "weapon,cannon,artillery",
+  "n_logic": 0
+ },
+ "Artillery Cannon Muzzle Brake": {
+  "file": "gun_xl_muzzle_2.xml",
+  "mass": "80",
+  "value": "50",
+  "vox": "3x5x3",
+  "size_m": "0.75x1.25x0.75",
+  "tags": "weapon,cannon,artillery",
+  "n_logic": 0
+ },
+ "Machine Gun": {
+  "file": "gun_xs.xml",
+  "mass": "10",
+  "value": "50",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "weapon,machinegun",
+  "n_logic": 2
+ },
+ "Bertha Cannon": {
+  "file": "gun_xxl.xml",
+  "mass": "500",
+  "value": "100",
+  "vox": "5x30x5",
+  "size_m": "1.25x7.50x1.25",
+  "tags": "weapon,cannon,bertha",
+  "n_logic": 4
+ },
+ "Bertha Cannon Barrel Extension": {
+  "file": "gun_xxl_barrel.xml",
+  "mass": "200",
+  "value": "50",
+  "vox": "3x4x3",
+  "size_m": "0.75x1.00x0.75",
+  "tags": "weapon,cannon,bertha",
+  "n_logic": 0
+ },
+ "Gyro": {
+  "file": "gyro.xml",
+  "mass": "10.000000",
+  "value": "500",
+  "vox": "5x1x3",
+  "size_m": "1.25x0.25x0.75",
+  "tags": "helicopter",
+  "n_logic": 10
+ },
+ "Reaction Wheel": {
+  "file": "gyroscopic_stabilizer.xml",
+  "mass": "15",
+  "value": "300",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Reaction Wheel (Large)": {
+  "file": "gyroscopic_stabilizer_large.xml",
+  "mass": "80",
+  "value": "700",
+  "vox": "5x3x5",
+  "size_m": "1.25x0.75x1.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Reaction Wheel (Small)": {
+  "file": "gyroscopic_stabilizer_small.xml",
+  "mass": "2",
+  "value": "150",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Handle": {
+  "file": "handle.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Sliding Hatch (Electric)": {
+  "file": "hatch.xml",
+  "mass": "15",
+  "value": "50",
+  "vox": "1x3x6",
+  "size_m": "0.25x0.75x1.50",
+  "tags": "door,basic",
+  "n_logic": 2
+ },
+ "Air-Air Heat Exchanger 2x2": {
+  "file": "heat_exchanger_2_2.xml",
+  "mass": "4",
+  "value": "30",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Air-Air Heat Exchanger 2x5": {
+  "file": "heat_exchanger_5_5.xml",
+  "mass": "10",
+  "value": "70",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Air-Air Heat Exchanger 3x9": {
+  "file": "heat_exchanger_9_9.xml",
+  "mass": "27",
+  "value": "100",
+  "vox": "3x9x9",
+  "size_m": "0.75x2.25x2.25",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Heater": {
+  "file": "heater.xml",
+  "mass": "3",
+  "value": "50",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Heavy Rotor": {
+  "file": "heavy_rotor.xml",
+  "mass": "10",
+  "value": "850",
+  "vox": "25x4x25",
+  "size_m": "6.25x1.00x6.25",
+  "tags": "rotor,helicopter,basic",
+  "n_logic": 4
+ },
+ "Heavy Large Rotor": {
+  "file": "heavy_rotor_large.xml",
+  "mass": "20",
+  "value": "1450",
+  "vox": "37x4x37",
+  "size_m": "9.25x1.00x9.25",
+  "tags": "rotor,helicopter,basic",
+  "n_logic": 4
+ },
+ "Huge Rotor": {
+  "file": "huge_rotor.xml",
+  "mass": "20",
+  "value": "250",
+  "vox": "33x3x33",
+  "size_m": "8.25x0.75x8.25",
+  "tags": "rotor,helicopter,basic",
+  "n_logic": 4
+ },
+ "Humidity Sensor": {
+  "file": "humidity_sensor.xml",
+  "mass": "1",
+  "value": "400",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Hydrogen Fuel Cell": {
+  "file": "hydrogen_fuel_cell.xml",
+  "mass": "50",
+  "value": "800",
+  "vox": "3x5x3",
+  "size_m": "0.75x1.25x0.75",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Impact Sensor": {
+  "file": "impact_sensor.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Indicator Light": {
+  "file": "indicator.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Indicator Light (RGB)": {
+  "file": "indicator_rgb.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Instrument Panel": {
+  "file": "instrument_display.xml",
+  "mass": "1",
+  "value": "200",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Liquid-Liquid Heat Exchanger 2x2": {
+  "file": "intercooler.xml",
+  "mass": "4",
+  "value": "30",
+  "vox": "1x2x2",
+  "size_m": "0.25x0.50x0.50",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Liquid-Liquid Heat Exchanger 5x5": {
+  "file": "intercooler_large.xml",
+  "mass": "16",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Equipment inventory (Binoculars)": {
+  "file": "inventory_equipment_binoculars.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Equipment inventory (C4 Explosive)": {
+  "file": "inventory_equipment_c4.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "weapon,explosive",
+  "n_logic": 1
+ },
+ "Equipment inventory (C4 Detonator)": {
+  "file": "inventory_equipment_c4_detonator.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "weapon,explosive",
+  "n_logic": 1
+ },
+ "Equipment inventory (Cable)": {
+  "file": "inventory_equipment_cable.xml",
+  "mass": "3",
+  "value": "200",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Equipment inventory (Compass)": {
+  "file": "inventory_equipment_compass.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Equipment inventory (Defibrillator)": {
+  "file": "inventory_equipment_defibrillator.xml",
+  "mass": "3",
+  "value": "200",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Equipment inventory (Dog Whistle)": {
+  "file": "inventory_equipment_dog_whistle.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Equipment inventory (Fire Extinguisher)": {
+  "file": "inventory_equipment_fire_extinguisher.xml",
+  "mass": "3",
+  "value": "200",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "basic,mission",
+  "n_logic": 1
+ },
+ "Equipment inventory (First Aid Kit)": {
+  "file": "inventory_equipment_first_aid.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic,mission",
+  "n_logic": 1
+ },
+ "Equipment inventory (Fishing Rod)": {
+  "file": "inventory_equipment_fishing_rod.xml",
+  "mass": "3",
+  "value": "200",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "basic,fishing",
+  "n_logic": 1
+ },
+ "Equipment inventory (Flare)": {
+  "file": "inventory_equipment_flare.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Equipment inventory (Flaregun)": {
+  "file": "inventory_equipment_flaregun.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Equipment inventory (Flaregun Ammo)": {
+  "file": "inventory_equipment_flaregun_ammo.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Equipment inventory (Flashlight)": {
+  "file": "inventory_equipment_flashlight.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Equipment inventory (Radiation Detector)": {
+  "file": "inventory_equipment_geiger_counter.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "geiger,radiation",
+  "n_logic": 1
+ },
+ "Equipment inventory (Glowstick)": {
+  "file": "inventory_equipment_glowstick.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Equipment Inventory (Hand Grenade)": {
+  "file": "inventory_equipment_grenade.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "weapon,explosive",
+  "n_logic": 1
+ },
+ "Equipment inventory (Hose)": {
+  "file": "inventory_equipment_hose.xml",
+  "mass": "3",
+  "value": "200",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Equipment inventory (Night Vision Binoculars)": {
+  "file": "inventory_equipment_night_vision_binoculars.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Equipment inventory (Oxygen Mask)": {
+  "file": "inventory_equipment_oxygen_mask.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Equipment inventory (Pistol)": {
+  "file": "inventory_equipment_pistol.xml",
+  "mass": "1",
+  "value": "200",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "weapon,firearm,gun",
+  "n_logic": 1
+ },
+ "Equipment Inventory (Pistol Ammo)": {
+  "file": "inventory_equipment_pistol_ammo.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "weapon,firearm,gun",
+  "n_logic": 1
+ },
+ "Equipment inventory (Radio)": {
+  "file": "inventory_equipment_radio.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Equipment inventory (Radio Signal Locator)": {
+  "file": "inventory_equipment_radio_signal_locator.xml",
+  "mass": "3",
+  "value": "200",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "mission",
+  "n_logic": 1
+ },
+ "Equipment inventory (Remote Control Unit)": {
+  "file": "inventory_equipment_remote_control.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Equipment inventory (Rifle)": {
+  "file": "inventory_equipment_rifle.xml",
+  "mass": "3",
+  "value": "200",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "weapon,firearm,gun",
+  "n_logic": 1
+ },
+ "Equipment inventory (Rifle Ammo)": {
+  "file": "inventory_equipment_rifle_ammo.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "weapon,firearm,gun",
+  "n_logic": 1
+ },
+ "Equipment inventory (Rope)": {
+  "file": "inventory_equipment_rope.xml",
+  "mass": "3",
+  "value": "200",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Equipment inventory (SMG)": {
+  "file": "inventory_equipment_smg.xml",
+  "mass": "3",
+  "value": "200",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "weapon,firearm,gun",
+  "n_logic": 1
+ },
+ "Equipment inventory (SMG Ammo)": {
+  "file": "inventory_equipment_smg_ammo.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "weapon,firearm,gun",
+  "n_logic": 1
+ },
+ "Equipment inventory (Speargun)": {
+  "file": "inventory_equipment_speargun.xml",
+  "mass": "3",
+  "value": "200",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "weapon,firearm,gun",
+  "n_logic": 1
+ },
+ "Equipment inventory (Speargun Ammo)": {
+  "file": "inventory_equipment_speargun_ammo.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "weapon,firearm,gun",
+  "n_logic": 1
+ },
+ "Equipment inventory (Strobe Light)": {
+  "file": "inventory_equipment_strobe_light.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Equipment inventory (Strobe Light, Infrared)": {
+  "file": "inventory_equipment_strobe_light_infrared.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Equipment inventory (Transponder)": {
+  "file": "inventory_equipment_transponder.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "mission",
+  "n_logic": 1
+ },
+ "Equipment inventory (Underwater Welding Torch)": {
+  "file": "inventory_equipment_underwater_welding_torch.xml",
+  "mass": "3",
+  "value": "200",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Equipment inventory (Welding Torch)": {
+  "file": "inventory_equipment_welding_torch.xml",
+  "mass": "3",
+  "value": "200",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Large equipment inventory (Empty)": {
+  "file": "inventory_medium.xml",
+  "mass": "3",
+  "value": "50",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Outfit Inventory (Empty)": {
+  "file": "inventory_outfit.xml",
+  "mass": "9",
+  "value": "50",
+  "vox": "3x3x1",
+  "size_m": "0.75x0.75x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Outfit Inventory (Arctic)": {
+  "file": "inventory_outfit_arctic.xml",
+  "mass": "9",
+  "value": "500",
+  "vox": "3x3x1",
+  "size_m": "0.75x0.75x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Outfit Inventory (Diving)": {
+  "file": "inventory_outfit_diving.xml",
+  "mass": "9",
+  "value": "2000",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Outfit Inventory (Firefighter)": {
+  "file": "inventory_outfit_firefighter.xml",
+  "mass": "9",
+  "value": "500",
+  "vox": "3x3x1",
+  "size_m": "0.75x0.75x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Outfit Inventory (Firefighter SCBA)": {
+  "file": "inventory_outfit_firefighter_scba.xml",
+  "mass": "9",
+  "value": "1000",
+  "vox": "3x3x1",
+  "size_m": "0.75x0.75x0.25",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Outfit Inventory (Hazmat)": {
+  "file": "inventory_outfit_hazmat.xml",
+  "mass": "9",
+  "value": "500",
+  "vox": "3x3x1",
+  "size_m": "0.75x0.75x0.25",
+  "tags": "basic,radiation",
+  "n_logic": 1
+ },
+ "Outfit Inventory (Parachute)": {
+  "file": "inventory_outfit_parachute.xml",
+  "mass": "9",
+  "value": "500",
+  "vox": "3x3x1",
+  "size_m": "0.75x0.75x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Outfit Inventory (Scuba)": {
+  "file": "inventory_outfit_scuba.xml",
+  "mass": "9",
+  "value": "500",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Outfit Inventory (Space)": {
+  "file": "inventory_outfit_space_suit.xml",
+  "mass": "9",
+  "value": "5000",
+  "vox": "",
+  "size_m": "",
+  "tags": "space",
+  "n_logic": 2
+ },
+ "Outfit Inventory (Space Exploration)": {
+  "file": "inventory_outfit_space_suit_exploration.xml",
+  "mass": "9",
+  "value": "10000",
+  "vox": "",
+  "size_m": "",
+  "tags": "space",
+  "n_logic": 2
+ },
+ "Outfit Inventory (Armor Vest)": {
+  "file": "inventory_outfit_wep_armor_vest.xml",
+  "mass": "9",
+  "value": "1500",
+  "vox": "3x3x1",
+  "size_m": "0.75x0.75x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Outfit Inventory (Black Hawk Vest)": {
+  "file": "inventory_outfit_wep_black_hawk_vest.xml",
+  "mass": "9",
+  "value": "500",
+  "vox": "3x3x1",
+  "size_m": "0.75x0.75x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Outfit Inventory (Bomb Disposal)": {
+  "file": "inventory_outfit_wep_bomb_disposal.xml",
+  "mass": "9",
+  "value": "1500",
+  "vox": "3x3x1",
+  "size_m": "0.75x0.75x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Outfit Inventory (Chest Rig)": {
+  "file": "inventory_outfit_wep_chest_rig.xml",
+  "mass": "9",
+  "value": "500",
+  "vox": "3x3x1",
+  "size_m": "0.75x0.75x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Outfit Inventory (Plate Vest)": {
+  "file": "inventory_outfit_wep_plate_vest.xml",
+  "mass": "9",
+  "value": "800",
+  "vox": "3x3x1",
+  "size_m": "0.75x0.75x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Small equipment inventory (Empty)": {
+  "file": "inventory_small.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Jet Combustion Chamber": {
+  "file": "jet_engine_combustion_chamber.xml",
+  "mass": "20",
+  "value": "200",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Jet Compressor": {
+  "file": "jet_engine_compressor.xml",
+  "mass": "20",
+  "value": "200",
+  "vox": "3x5x3",
+  "size_m": "0.75x1.25x0.75",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Jet Duct Angle": {
+  "file": "jet_engine_duct_angle.xml",
+  "mass": "5",
+  "value": "50",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Jet Duct Cross": {
+  "file": "jet_engine_duct_cross.xml",
+  "mass": "5",
+  "value": "50",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Jet Duct Diagonal": {
+  "file": "jet_engine_duct_diagonal.xml",
+  "mass": "5",
+  "value": "50",
+  "vox": "3x3x4",
+  "size_m": "0.75x0.75x1.00",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Jet Duct Straight": {
+  "file": "jet_engine_duct_straight.xml",
+  "mass": "3",
+  "value": "30",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Jet Duct T": {
+  "file": "jet_engine_duct_t.xml",
+  "mass": "5",
+  "value": "50",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Jet Exhaust Afterburner": {
+  "file": "jet_engine_exhaust_afterburner.xml",
+  "mass": "10",
+  "value": "750",
+  "vox": "3x5x3",
+  "size_m": "0.75x1.25x0.75",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Jet Exhaust": {
+  "file": "jet_engine_exhaust_basic.xml",
+  "mass": "5",
+  "value": "500",
+  "vox": "3x2x3",
+  "size_m": "0.75x0.50x0.75",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Jet Exhaust Rotating": {
+  "file": "jet_engine_exhaust_rotating.xml",
+  "mass": "10",
+  "value": "800",
+  "vox": "3x4x3",
+  "size_m": "0.75x1.00x0.75",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Large Jet Intake": {
+  "file": "jet_engine_intake_large.xml",
+  "mass": "10",
+  "value": "500",
+  "vox": "7x2x7",
+  "size_m": "1.75x0.50x1.75",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Small Jet Intake": {
+  "file": "jet_engine_intake_small.xml",
+  "mass": "5",
+  "value": "250",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Jet Turbine Medium": {
+  "file": "jet_engine_turbine_medium.xml",
+  "mass": "20",
+  "value": "200",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Jet Turbine Small": {
+  "file": "jet_engine_turbine_small.xml",
+  "mass": "15",
+  "value": "150",
+  "vox": "3x2x3",
+  "size_m": "0.75x0.50x0.75",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Keel (Large)": {
+  "file": "keel_large.xml",
+  "mass": "2000",
+  "value": "2000",
+  "vox": "3x9x25",
+  "size_m": "0.75x2.25x6.25",
+  "tags": "boat,basic",
+  "n_logic": 0
+ },
+ "Keel (Medium)": {
+  "file": "keel_medium.xml",
+  "mass": "1000",
+  "value": "1000",
+  "vox": "3x7x15",
+  "size_m": "0.75x1.75x3.75",
+  "tags": "boat,basic",
+  "n_logic": 0
+ },
+ "Keel (Small)": {
+  "file": "keel_small.xml",
+  "mass": "500",
+  "value": "300",
+  "vox": "",
+  "size_m": "",
+  "tags": "boat,basic",
+  "n_logic": 0
+ },
+ "Ladder": {
+  "file": "ladder_small.xml",
+  "mass": "3.000000",
+  "value": "5",
+  "vox": "3x4x1",
+  "size_m": "0.75x1.00x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Landing Float": {
+  "file": "landing_float.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "3x3x9",
+  "size_m": "0.75x0.75x2.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Large Propeller": {
+  "file": "large_propeller.xml",
+  "mass": "20",
+  "value": "250",
+  "vox": "5x2x5",
+  "size_m": "1.25x0.50x1.25",
+  "tags": "boat,basic",
+  "n_logic": 1
+ },
+ "Large Rotor": {
+  "file": "large_rotor.xml",
+  "mass": "10",
+  "value": "150",
+  "vox": "33x3x33",
+  "size_m": "8.25x0.75x8.25",
+  "tags": "rotor,helicopter,basic",
+  "n_logic": 4
+ },
+ "Laser Beacon": {
+  "file": "laser_beacon.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Laser Distance Sensor": {
+  "file": "laser_distance_sensor.xml",
+  "mass": "1",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Laser Point Sensor": {
+  "file": "laser_point_sensor.xml",
+  "mass": "2",
+  "value": "100",
+  "vox": "1x3x1",
+  "size_m": "0.25x0.75x0.25",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Linear Track Base": {
+  "file": "linear_base.xml",
+  "mass": "3",
+  "value": "40",
+  "vox": "3x2x1",
+  "size_m": "0.75x0.50x0.25",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Compact Linear Track Base": {
+  "file": "linear_compact_base.xml",
+  "mass": "2.000000",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Compact Linear Track Head": {
+  "file": "linear_compact_head.xml",
+  "mass": "3.000000",
+  "value": "0",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Compact Linear Track Extension": {
+  "file": "linear_compact_module.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Linear Track Head": {
+  "file": "linear_head.xml",
+  "mass": "3",
+  "value": "0",
+  "vox": "3x1x1",
+  "size_m": "0.75x0.25x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Pneumatic Piston": {
+  "file": "linear_matic_b.xml",
+  "mass": "3",
+  "value": "0",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Linear Track Extension": {
+  "file": "linear_module.xml",
+  "mass": "3.000000",
+  "value": "10",
+  "vox": "3x2x1",
+  "size_m": "0.75x0.50x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Linear Speed Sensor": {
+  "file": "linear_speed_sensor.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Liquid Fuel Rocket": {
+  "file": "liquid_rocket.xml",
+  "mass": "60",
+  "value": "4500",
+  "vox": "5x9x5",
+  "size_m": "1.25x2.25x1.25",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Liquid Fuel Rocket (Large)": {
+  "file": "liquid_rocket_large.xml",
+  "mass": "80",
+  "value": "6500",
+  "vox": "7x13x7",
+  "size_m": "1.75x3.25x1.75",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Liquid Fuel Rocket (Small)": {
+  "file": "liquid_rocket_small.xml",
+  "mass": "40",
+  "value": "2500",
+  "vox": "3x7x3",
+  "size_m": "0.75x1.75x0.75",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Lobster Pot": {
+  "file": "lobster_pot.xml",
+  "mass": "45",
+  "value": "150",
+  "vox": "5x3x5",
+  "size_m": "1.25x0.75x1.25",
+  "tags": "crab,fishing",
+  "n_logic": 2
+ },
+ "Mag All": {
+  "file": "magall.xml",
+  "mass": "5",
+  "value": "250",
+  "vox": "1x3x1",
+  "size_m": "0.25x0.75x0.25",
+  "tags": "magnet",
+  "n_logic": 4
+ },
+ "Map Icon Block": {
+  "file": "map_icon.xml",
+  "mass": "1",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Microphone": {
+  "file": "mic.xml",
+  "mass": "1",
+  "value": "250",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Microprocessor": {
+  "file": "microprocessor.xml",
+  "mass": "1",
+  "value": "100",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Mineral Converter": {
+  "file": "mineral_converter.xml",
+  "mass": "80",
+  "value": "250000",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "steam,coal",
+  "n_logic": 2
+ },
+ "Mineral Drill": {
+  "file": "mineral_drill.xml",
+  "mass": "110",
+  "value": "20000",
+  "vox": "3x6x3",
+  "size_m": "0.75x1.50x0.75",
+  "tags": "mining,ore,coal",
+  "n_logic": 1
+ },
+ "Modular Engine Air Manifold": {
+  "file": "modular_engine_air_manifold.xml",
+  "mass": "1",
+  "value": "10",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Air Ram": {
+  "file": "modular_engine_air_ram.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "air",
+  "n_logic": 1
+ },
+ "Modular Engine Alternator": {
+  "file": "modular_engine_alternator.xml",
+  "mass": "1",
+  "value": "30",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Modular Engine Clutch 1x1": {
+  "file": "modular_engine_clutch.xml",
+  "mass": "1",
+  "value": "15",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Modular Engine Clutch 3x3": {
+  "file": "modular_engine_clutch_3x3.xml",
+  "mass": "9",
+  "value": "25",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Modular Engine Clutch 5x5": {
+  "file": "modular_engine_clutch_5x5.xml",
+  "mass": "25",
+  "value": "50",
+  "vox": "5x1x5",
+  "size_m": "1.25x0.25x1.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Modular Engine Coolant Manifold": {
+  "file": "modular_engine_coolant_manifold.xml",
+  "mass": "1",
+  "value": "10",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Modular Engine Crankshaft 1x1": {
+  "file": "modular_engine_crankshaft.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Modular Engine Crankshaft 3x1": {
+  "file": "modular_engine_crankshaft_3x1.xml",
+  "mass": "9",
+  "value": "50",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Modular Engine Crankshaft 3x3": {
+  "file": "modular_engine_crankshaft_3x3.xml",
+  "mass": "27",
+  "value": "150",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Modular Engine Crankshaft 5x5": {
+  "file": "modular_engine_crankshaft_5x5.xml",
+  "mass": "100",
+  "value": "350",
+  "vox": "5x5x5",
+  "size_m": "1.25x1.25x1.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Modular Engine Crankshaft Converter 3 to 1": {
+  "file": "modular_engine_crankshaft_converter_3x3.xml",
+  "mass": "9",
+  "value": "75",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Modular Engine Crankshaft Converter 5 to 3": {
+  "file": "modular_engine_crankshaft_converter_5x5.xml",
+  "mass": "27",
+  "value": "275",
+  "vox": "5x1x5",
+  "size_m": "1.25x0.25x1.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Modular Engine Cylinder 1x1": {
+  "file": "modular_engine_cylinder_straight.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Modular Engine Drive Belt 1x1": {
+  "file": "modular_engine_drive_belt.xml",
+  "mass": "1",
+  "value": "30",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Modular Engine Exhaust Manifold (Corner)": {
+  "file": "modular_engine_exhaust_manifold_corner.xml",
+  "mass": "1",
+  "value": "10",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Modular Engine Exhaust Manifold (Straight)": {
+  "file": "modular_engine_exhaust_manifold_straight.xml",
+  "mass": "1",
+  "value": "10",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Modular Engine Fluid Pump": {
+  "file": "modular_engine_fluid_pump.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Modular Engine Flywheel 1x1": {
+  "file": "modular_engine_flywheel.xml",
+  "mass": "100",
+  "value": "450",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Modular Engine Flywheel 3x3": {
+  "file": "modular_engine_flywheel_3x3.xml",
+  "mass": "200",
+  "value": "650",
+  "vox": "5x1x5",
+  "size_m": "1.25x0.25x1.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Modular Engine Flywheel 5x5": {
+  "file": "modular_engine_flywheel_5x5.xml",
+  "mass": "300",
+  "value": "850",
+  "vox": "7x1x7",
+  "size_m": "1.75x0.25x1.75",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Gearbox 1x1": {
+  "file": "modular_engine_gearbox_1x1.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 4
+ },
+ "Gearbox 3x3": {
+  "file": "modular_engine_gearbox_3x3.xml",
+  "mass": "9",
+  "value": "100",
+  "vox": "3x2x3",
+  "size_m": "0.75x0.50x0.75",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Gearbox 5x5": {
+  "file": "modular_engine_gearbox_5x5.xml",
+  "mass": "25",
+  "value": "150",
+  "vox": "5x3x5",
+  "size_m": "1.25x0.75x1.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Modular Engine Fuel Manifold": {
+  "file": "modular_engine_intake_manifold.xml",
+  "mass": "1",
+  "value": "10",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Modular Engine Manifold (Corner)": {
+  "file": "modular_engine_manifold_corner.xml",
+  "mass": "1",
+  "value": "10",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Modular Engine Manifold (Straight)": {
+  "file": "modular_engine_manifold_straight.xml",
+  "mass": "1",
+  "value": "10",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Modular Engine Manifold (T)": {
+  "file": "modular_engine_manifold_t.xml",
+  "mass": "1",
+  "value": "10",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Modular Engine Cylinder 3x3": {
+  "file": "modular_engine_piston_3x3.xml",
+  "mass": "27",
+  "value": "100",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Modular Engine Cylinder 5x5": {
+  "file": "modular_engine_piston_5x5.xml",
+  "mass": "100",
+  "value": "150",
+  "vox": "5x5x5",
+  "size_m": "1.25x1.25x1.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Modular Engine Drive Belt 3x3": {
+  "file": "modular_engine_power_manifold_3x3.xml",
+  "mass": "9",
+  "value": "80",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Modular Engine Drive Belt 5x5": {
+  "file": "modular_engine_power_manifold_5x5.xml",
+  "mass": "27",
+  "value": "160",
+  "vox": "5x1x5",
+  "size_m": "1.25x0.25x1.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Modular Engine Temperature Sensor": {
+  "file": "modular_engine_sensor_temperature.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Modular Engine Starter": {
+  "file": "modular_engine_starter.xml",
+  "mass": "1",
+  "value": "30",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Monitor 1x1": {
+  "file": "monitor_1.xml",
+  "mass": "4",
+  "value": "500",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Monitor 1x2": {
+  "file": "monitor_1x2.xml",
+  "mass": "8",
+  "value": "1000",
+  "vox": "2x1x1",
+  "size_m": "0.50x0.25x0.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Monitor 1x3": {
+  "file": "monitor_1x3.xml",
+  "mass": "12",
+  "value": "1500",
+  "vox": "3x1x1",
+  "size_m": "0.75x0.25x0.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Monitor 2x2": {
+  "file": "monitor_2.xml",
+  "mass": "16",
+  "value": "2000",
+  "vox": "2x1x2",
+  "size_m": "0.50x0.25x0.50",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Monitor 2x3": {
+  "file": "monitor_2x3.xml",
+  "mass": "24",
+  "value": "3000",
+  "vox": "3x1x2",
+  "size_m": "0.75x0.25x0.50",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Monitor 3x3": {
+  "file": "monitor_3.xml",
+  "mass": "36",
+  "value": "4500",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Monitor 5x3": {
+  "file": "monitor_5.xml",
+  "mass": "60",
+  "value": "7500",
+  "vox": "5x1x3",
+  "size_m": "1.25x0.25x0.75",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Monitor 9x5": {
+  "file": "monitor_9.xml",
+  "mass": "180",
+  "value": "20000",
+  "vox": "9x1x5",
+  "size_m": "2.25x0.25x1.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "HUD Small": {
+  "file": "monitor_hud_1.xml",
+  "mass": "2",
+  "value": "2000",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "HUD Large": {
+  "file": "monitor_hud_3.xml",
+  "mass": "18",
+  "value": "10000",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Large Electric Motor": {
+  "file": "motor_large.xml",
+  "mass": "400",
+  "value": "5000",
+  "vox": "5x5x5",
+  "size_m": "1.25x1.25x1.25",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Medium Electric Motor": {
+  "file": "motor_medium.xml",
+  "mass": "100",
+  "value": "1500",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Small Electric Motor": {
+  "file": "motor_small.xml",
+  "mass": "5",
+  "value": "450",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Compact Pivot": {
+  "file": "multibody_compact_pivot_b.xml",
+  "mass": "1.000000",
+  "value": "0",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Compact Robotic Pivot": {
+  "file": "multibody_compact_pivot_robotic_a.xml",
+  "mass": "1.000000",
+  "value": "40",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Compact Pivot (Power)": {
+  "file": "multibody_compact_pivot_torque_b.xml",
+  "mass": "1",
+  "value": "",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Compact Velocity Pivot": {
+  "file": "multibody_compact_pivot_velocity_a.xml",
+  "mass": "1.000000",
+  "value": "40",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Robotic Door Hinge": {
+  "file": "multibody_door_hinge_b.xml",
+  "mass": "3",
+  "value": "0",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Piston Suspension": {
+  "file": "multibody_piston_suspension_b.xml",
+  "mass": "20",
+  "value": "0",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Pivot": {
+  "file": "multibody_pivot_b.xml",
+  "mass": "1.000000",
+  "value": "0",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Pivot (Power)": {
+  "file": "multibody_pivot_torque_b.xml",
+  "mass": "1",
+  "value": "",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Robotic Hinge": {
+  "file": "multibody_robotic_hinge_01_b.xml",
+  "mass": "3",
+  "value": "0",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Robotic Pivot (Power)": {
+  "file": "multibody_robotic_pivot_01_a.xml",
+  "mass": "9",
+  "value": "200",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Robotic Pivot (Fluid)": {
+  "file": "multibody_robotic_pivot_01_a_fluid.xml",
+  "mass": "9",
+  "value": "200",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Robotic Pivot": {
+  "file": "multibody_velocity_pivot_b.xml",
+  "mass": "1",
+  "value": "0",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Suspension": {
+  "file": "multibody_suspension_b.xml",
+  "mass": "3",
+  "value": "0",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Turret Ring (Large)": {
+  "file": "multibody_turret_large_b.xml",
+  "mass": "36",
+  "value": "0",
+  "vox": "9x1x9",
+  "size_m": "2.25x0.25x2.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Turret Ring (Medium)": {
+  "file": "multibody_turret_medium_b.xml",
+  "mass": "22",
+  "value": "0",
+  "vox": "7x1x7",
+  "size_m": "1.75x0.25x1.75",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Turret Ring (Small)": {
+  "file": "multibody_turret_small_b.xml",
+  "mass": "14",
+  "value": "0",
+  "vox": "5x1x5",
+  "size_m": "1.25x0.25x1.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Velocity Pivot (Fluid)": {
+  "file": "multibody_velocity_pivot_01_a_fluid.xml",
+  "mass": "9",
+  "value": "200",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Velocity Pivot (Power)": {
+  "file": "multibody_velocity_pivot_01_a_torque.xml",
+  "mass": "9",
+  "value": "200",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Velocity Pivot": {
+  "file": "multibody_velocity_pivot_a.xml",
+  "mass": "9.000000",
+  "value": "25",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Keep Active Block": {
+  "file": "no_sleep.xml",
+  "mass": "1",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "no_sleep",
+  "n_logic": 0
+ },
+ "Oil Rig Drill Connector": {
+  "file": "oil_rig_drill_connector.xml",
+  "mass": "50",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Oil Rig Rotary Table": {
+  "file": "oil_rig_drill_driver.xml",
+  "mass": "500",
+  "value": "1000",
+  "vox": "7x3x7",
+  "size_m": "1.75x0.75x1.75",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Oil Rig Drill Clamp": {
+  "file": "oil_rig_drill_grabber.xml",
+  "mass": "30",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Oil Rig Drill Clamp (End)": {
+  "file": "oil_rig_drill_grabber_end.xml",
+  "mass": "5",
+  "value": "500",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Oil Rig Rod Storage": {
+  "file": "oil_rig_drill_storage.xml",
+  "mass": "10",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Oil Rig Drill Swivel": {
+  "file": "oil_rig_drill_swivel.xml",
+  "mass": "30",
+  "value": "1000",
+  "vox": "3x5x3",
+  "size_m": "0.75x1.25x0.75",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Oil Rig Pumpjack": {
+  "file": "oil_rig_pumpjack.xml",
+  "mass": "200",
+  "value": "1000",
+  "vox": "3x11x3",
+  "size_m": "0.75x2.75x0.75",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Oil Rig Pumpjack B": {
+  "file": "oil_rig_pumpjack_b.xml",
+  "mass": "500",
+  "value": "0",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Oil Rig Well Head": {
+  "file": "oil_rig_well_head.xml",
+  "mass": "1000",
+  "value": "5000",
+  "vox": "9x25x9",
+  "size_m": "2.25x6.25x2.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Vehicle Parachute": {
+  "file": "parachute.xml",
+  "mass": "5",
+  "value": "500",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Passenger Seat": {
+  "file": "seat_passenger.xml",
+  "mass": "6",
+  "value": "50",
+  "vox": "3x5x3",
+  "size_m": "0.75x1.25x0.75",
+  "tags": "basic,seat",
+  "n_logic": 1
+ },
+ "Physics Flooder": {
+  "file": "physics_flooder.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Physics Sensor": {
+  "file": "physics_sensor.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Player Sensor": {
+  "file": "player_sensor.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Contact Sensor": {
+  "file": "pressure_sensor.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Small Propeller": {
+  "file": "propeller.xml",
+  "mass": "3",
+  "value": "75",
+  "vox": "1x3x1",
+  "size_m": "0.25x0.75x0.25",
+  "tags": "boat,basic",
+  "n_logic": 1
+ },
+ "Pitchable Propeller": {
+  "file": "propeller_pitch.xml",
+  "mass": "40",
+  "value": "300",
+  "vox": "11x3x11",
+  "size_m": "2.75x0.75x2.75",
+  "tags": "boat,basic",
+  "n_logic": 2
+ },
+ "Large Pitchable Propeller": {
+  "file": "propeller_pitch_large.xml",
+  "mass": "100",
+  "value": "600",
+  "vox": "19x5x19",
+  "size_m": "4.75x1.25x4.75",
+  "tags": "boat,basic",
+  "n_logic": 2
+ },
+ "Small Pitchable Propeller": {
+  "file": "propeller_pitch_small.xml",
+  "mass": "10",
+  "value": "75",
+  "vox": "",
+  "size_m": "",
+  "tags": "boat,basic",
+  "n_logic": 2
+ },
+ "Radar": {
+  "file": "radar.xml",
+  "mass": "10",
+  "value": "1000",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 7
+ },
+ "Radar (Basic)": {
+  "file": "radar_advanced.xml",
+  "mass": "10",
+  "value": "1000",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Radar (AWACS)": {
+  "file": "radar_advanced_awacs.xml",
+  "mass": "1100",
+  "value": "10000",
+  "vox": "37x5x37",
+  "size_m": "9.25x1.25x9.25",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Radar (Dish)": {
+  "file": "radar_dish.xml",
+  "mass": "150",
+  "value": "3000",
+  "vox": "21x10x11",
+  "size_m": "5.25x2.50x2.75",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Radar (Missile)": {
+  "file": "radar_advanced_missile.xml",
+  "mass": "5",
+  "value": "800",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Laser Sensor (Missile)": {
+  "file": "radar_advanced_missile_laser.xml",
+  "mass": "5",
+  "value": "800",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Radar (Phalanx)": {
+  "file": "radar_advanced_phalanx.xml",
+  "mass": "55",
+  "value": "2000",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Radar Detector": {
+  "file": "radar_detector.xml",
+  "mass": "1",
+  "value": "1000",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Radar (Huge)": {
+  "file": "radar_huge.xml",
+  "mass": "1100",
+  "value": "10000",
+  "vox": "37x5x37",
+  "size_m": "9.25x1.25x9.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Radar (Large)": {
+  "file": "radar_large.xml",
+  "mass": "300",
+  "value": "5000",
+  "vox": "7x16x7",
+  "size_m": "1.75x4.00x1.75",
+  "tags": "",
+  "n_logic": 9
+ },
+ "Sonar (Large)": {
+  "file": "sonar_advanced_7.xml",
+  "mass": "200",
+  "value": "4000",
+  "vox": "7x5x7",
+  "size_m": "1.75x1.25x1.75",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Sonar (Small)": {
+  "file": "sonar_advanced.xml",
+  "mass": "10",
+  "value": "1000",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Radiation Detector": {
+  "file": "radiation_detector.xml",
+  "mass": "1",
+  "value": "250",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "geiger,radiation",
+  "n_logic": 1
+ },
+ "Railing Segment Extension Incline": {
+  "file": "railing_extension_angle.xml",
+  "mass": "2",
+  "value": "30",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Railing Segment Incline": {
+  "file": "railing_segment_angle.xml",
+  "mass": "2",
+  "value": "30",
+  "vox": "1x5x1",
+  "size_m": "0.25x1.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Railing Segment End Incline": {
+  "file": "railing_segment_angle_end.xml",
+  "mass": "2",
+  "value": "30",
+  "vox": "1x5x1",
+  "size_m": "0.25x1.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Railing Segment Corner": {
+  "file": "railing_segment_corner.xml",
+  "mass": "2",
+  "value": "30",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Railing Segment Corner Diagonal": {
+  "file": "railing_segment_corner_diag.xml",
+  "mass": "2",
+  "value": "30",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Railing Segment Curve": {
+  "file": "railing_segment_curve.xml",
+  "mass": "5",
+  "value": "40",
+  "vox": "3x4x3",
+  "size_m": "0.75x1.00x0.75",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Railing Segment End": {
+  "file": "railing_segment_end.xml",
+  "mass": "2",
+  "value": "30",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Railing Segment End Diagonal": {
+  "file": "railing_segment_end_diag.xml",
+  "mass": "2",
+  "value": "30",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Railing Segment Extension": {
+  "file": "railing_segment_extension.xml",
+  "mass": "2",
+  "value": "30",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Railing Segment Extension Diagonal": {
+  "file": "railing_segment_extension_diag.xml",
+  "mass": "2",
+  "value": "30",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Railing Segment Middle": {
+  "file": "railing_segment_middle.xml",
+  "mass": "2",
+  "value": "30",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Railing Segment Middle Diagonal": {
+  "file": "railing_segment_middle_diag.xml",
+  "mass": "2",
+  "value": "30",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Rain Sensor": {
+  "file": "rain_sensor.xml",
+  "mass": "1",
+  "value": "180",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "RCS Thruster": {
+  "file": "rcs_thruster.xml",
+  "mass": "1",
+  "value": "140",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Gas Relief Valve": {
+  "file": "relief_valve_gas.xml",
+  "mass": "2",
+  "value": "150",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic,fluid,filter",
+  "n_logic": 3
+ },
+ "Liquid Relief Valve": {
+  "file": "relief_valve_liquid.xml",
+  "mass": "2",
+  "value": "150",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic,fluid,filter",
+  "n_logic": 3
+ },
+ "Rope Anchor": {
+  "file": "rope_hook.xml",
+  "mass": "1",
+  "value": "15",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Electrical Cable Anchor": {
+  "file": "rope_hook_composite.xml",
+  "mass": "1",
+  "value": "15",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 10
+ },
+ "Fluid Hose Anchor": {
+  "file": "rope_hook_fluid.xml",
+  "mass": "1",
+  "value": "15",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Net Anchor": {
+  "file": "rope_hook_net.xml",
+  "mass": "3",
+  "value": "15",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic,fishing",
+  "n_logic": 5
+ },
+ "Sail Anchor": {
+  "file": "rope_hook_sail.xml",
+  "mass": "3",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Medium Winch": {
+  "file": "winch_a.xml",
+  "mass": "20",
+  "value": "250",
+  "vox": "3x2x1",
+  "size_m": "0.75x0.50x0.25",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Huge Winch": {
+  "file": "winch_huge_a.xml",
+  "mass": "400",
+  "value": "5000",
+  "vox": "9x7x7",
+  "size_m": "2.25x1.75x1.75",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Large Winch": {
+  "file": "winch_large_a.xml",
+  "mass": "100",
+  "value": "800",
+  "vox": "3x4x3",
+  "size_m": "0.75x1.00x0.75",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Small Winch": {
+  "file": "winch_electric.xml",
+  "mass": "10",
+  "value": "100",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Rotating Light": {
+  "file": "rotating_light.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "beacon,warning",
+  "n_logic": 2
+ },
+ "Tilt Sensor": {
+  "file": "rotation_sensor.xml",
+  "mass": "1.000000",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Rotor (Large)": {
+  "file": "rotor_coaxial_large.xml",
+  "mass": "20",
+  "value": "1050",
+  "vox": "",
+  "size_m": "",
+  "tags": "rotor,helicopter,basic",
+  "n_logic": 5
+ },
+ "Rotor (Light)": {
+  "file": "rotor_coaxial_light.xml",
+  "mass": "4",
+  "value": "150",
+  "vox": "",
+  "size_m": "",
+  "tags": "rotor,helicopter,basic",
+  "n_logic": 5
+ },
+ "Rotor End (Light)": {
+  "file": "rotor_coaxial_light_end.xml",
+  "mass": "4",
+  "value": "150",
+  "vox": "",
+  "size_m": "",
+  "tags": "rotor,helicopter,basic",
+  "n_logic": 4
+ },
+ "Rotor Propeller (Large)": {
+  "file": "rotor_coaxial_prop.xml",
+  "mass": "30",
+  "value": "1850",
+  "vox": "",
+  "size_m": "",
+  "tags": "rotor,helicopter,basic",
+  "n_logic": 5
+ },
+ "Rotor Propeller End (Large)": {
+  "file": "rotor_coaxial_prop_end.xml",
+  "mass": "30",
+  "value": "1850",
+  "vox": "31x3x31",
+  "size_m": "7.75x0.75x7.75",
+  "tags": "rotor,helicopter,basic",
+  "n_logic": 4
+ },
+ "Rotor Propeller (Small)": {
+  "file": "rotor_coaxial_prop_small.xml",
+  "mass": "20",
+  "value": "850",
+  "vox": "",
+  "size_m": "",
+  "tags": "rotor,helicopter,basic",
+  "n_logic": 5
+ },
+ "Rotor Propeller End (Small)": {
+  "file": "rotor_coaxial_prop_small_end.xml",
+  "mass": "20",
+  "value": "850",
+  "vox": "21x3x21",
+  "size_m": "5.25x0.75x5.25",
+  "tags": "rotor,helicopter,basic",
+  "n_logic": 4
+ },
+ "Rotor (Small)": {
+  "file": "rotor_coaxial_small.xml",
+  "mass": "10",
+  "value": "250",
+  "vox": "",
+  "size_m": "",
+  "tags": "rotor,helicopter,basic",
+  "n_logic": 5
+ },
+ "Rudder": {
+  "file": "rudder.xml",
+  "mass": "10",
+  "value": "150",
+  "vox": "",
+  "size_m": "",
+  "tags": "boat,basic",
+  "n_logic": 2
+ },
+ "Fin Rudder": {
+  "file": "rudder_surface.xml",
+  "mass": "5",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "boat,basic",
+  "n_logic": 2
+ },
+ "RX Directional": {
+  "file": "rx_directional.xml",
+  "mass": "20",
+  "value": "5000",
+  "vox": "5x4x5",
+  "size_m": "1.25x1.00x1.25",
+  "tags": "",
+  "n_logic": 12
+ },
+ "RX Directional (Large)": {
+  "file": "rx_directional_large.xml",
+  "mass": "35",
+  "value": "8000",
+  "vox": "9x6x9",
+  "size_m": "2.25x1.50x2.25",
+  "tags": "",
+  "n_logic": 12
+ },
+ "Radio RX Huge": {
+  "file": "rx_huge_v2.xml",
+  "mass": "20",
+  "value": "3000",
+  "vox": "1x9x1",
+  "size_m": "0.25x2.25x0.25",
+  "tags": "",
+  "n_logic": 8
+ },
+ "Radio RX Large": {
+  "file": "rx_large_v2.xml",
+  "mass": "12",
+  "value": "1000",
+  "vox": "1x5x1",
+  "size_m": "0.25x1.25x0.25",
+  "tags": "",
+  "n_logic": 8
+ },
+ "Radio RX Medium": {
+  "file": "rx_med_v2.xml",
+  "mass": "8",
+  "value": "500",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "",
+  "n_logic": 8
+ },
+ "Radio RX Small": {
+  "file": "rx_small_v2.xml",
+  "mass": "5",
+  "value": "200",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 7
+ },
+ "Radio Video Recv": {
+  "file": "rx_video_r.xml",
+  "mass": "10",
+  "value": "1000",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Radio Video Xmit": {
+  "file": "rx_video_x.xml",
+  "mass": "10",
+  "value": "2000",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Air Scoop Intake 1x1": {
+  "file": "scoop_intake_2.xml",
+  "mass": "1",
+  "value": "30",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Search Light": {
+  "file": "searchlight.xml",
+  "mass": "20",
+  "value": "30",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "spotlight,basic",
+  "n_logic": 3
+ },
+ "Small Spotlight (Block)": {
+  "file": "searchlight_small.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Small Spotlight (Mounted)": {
+  "file": "searchlight_small_2.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Pilot Seat": {
+  "file": "seat.xml",
+  "mass": "24",
+  "value": "100",
+  "vox": "3x6x4",
+  "size_m": "0.75x1.50x1.00",
+  "tags": "basic,seat,control,pilot",
+  "n_logic": 18
+ },
+ "Bed": {
+  "file": "seat_bed.xml",
+  "mass": "20",
+  "value": "250",
+  "vox": "3x4x7",
+  "size_m": "0.75x1.00x1.75",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Compact Pilot Seat": {
+  "file": "seat_compact.xml",
+  "mass": "7",
+  "value": "100",
+  "vox": "3x5x3",
+  "size_m": "0.75x1.25x0.75",
+  "tags": "basic,seat,control,pilot",
+  "n_logic": 18
+ },
+ "Control Handle": {
+  "file": "seat_handle.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "3x7x3",
+  "size_m": "0.75x1.75x0.75",
+  "tags": "basic,seat,control,pilot",
+  "n_logic": 18
+ },
+ "Harness": {
+  "file": "seat_harness.xml",
+  "mass": "20",
+  "value": "150",
+  "vox": "3x6x3",
+  "size_m": "0.75x1.50x0.75",
+  "tags": "basic,seat",
+  "n_logic": 9
+ },
+ "Helm": {
+  "file": "seat_helm.xml",
+  "mass": "15",
+  "value": "150",
+  "vox": "3x7x5",
+  "size_m": "0.75x1.75x1.25",
+  "tags": "basic,seat,control,pilot",
+  "n_logic": 18
+ },
+ "Pilot Seat (HOTAS)": {
+  "file": "seat_hotas.xml",
+  "mass": "50",
+  "value": "250",
+  "vox": "3x6x5",
+  "size_m": "0.75x1.50x1.25",
+  "tags": "basic,seat,control,pilot",
+  "n_logic": 64
+ },
+ "Medical Bed": {
+  "file": "seat_medical.xml",
+  "mass": "40",
+  "value": "2500",
+  "vox": "3x4x7",
+  "size_m": "0.75x1.00x1.75",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Padded Seat": {
+  "file": "seat_padded.xml",
+  "mass": "2",
+  "value": "25",
+  "vox": "2x4x2",
+  "size_m": "0.50x1.00x0.50",
+  "tags": "basic,seat",
+  "n_logic": 1
+ },
+ "Driver seat": {
+  "file": "seat_racing.xml",
+  "mass": "10",
+  "value": "100",
+  "vox": "3x5x4",
+  "size_m": "0.75x1.25x1.00",
+  "tags": "basic,seat,control,pilot",
+  "n_logic": 18
+ },
+ "Saddle Seat": {
+  "file": "seat_saddle.xml",
+  "mass": "5",
+  "value": "75",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic,seat",
+  "n_logic": 18
+ },
+ "Saddle Passenger Seat": {
+  "file": "seat_saddle_passenger.xml",
+  "mass": "3",
+  "value": "25",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic,seat",
+  "n_logic": 1
+ },
+ "Space Seat": {
+  "file": "seat_space.xml",
+  "mass": "3",
+  "value": "500",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic,seat,control,pilot",
+  "n_logic": 19
+ },
+ "Stretcher": {
+  "file": "seat_stretcher.xml",
+  "mass": "80",
+  "value": "250",
+  "vox": "3x3x7",
+  "size_m": "0.75x0.75x1.75",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Centrifugal Separator": {
+  "file": "separator.xml",
+  "mass": "80",
+  "value": "480",
+  "vox": "5x9x5",
+  "size_m": "1.25x2.25x1.25",
+  "tags": "oil",
+  "n_logic": 4
+ },
+ "Paintable Indicator": {
+  "file": "sign.xml",
+  "mass": "2",
+  "value": "100",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "sign,basic",
+  "n_logic": 2
+ },
+ "Paintable Sign": {
+  "file": "sign_na.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Siren": {
+  "file": "siren.xml",
+  "mass": "5",
+  "value": "200",
+  "vox": "3x3x5",
+  "size_m": "0.75x0.75x1.25",
+  "tags": "sound,audio",
+  "n_logic": 2
+ },
+ "Ski": {
+  "file": "ski.xml",
+  "mass": "12",
+  "value": "200",
+  "vox": "3x2x13",
+  "size_m": "0.75x0.50x3.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Ski (Small)": {
+  "file": "ski_small.xml",
+  "mass": "8",
+  "value": "100",
+  "vox": "1x2x9",
+  "size_m": "0.25x0.50x2.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Slurry Filter": {
+  "file": "slurry_filter.xml",
+  "mass": "140",
+  "value": "320",
+  "vox": "5x15x9",
+  "size_m": "1.25x3.75x2.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Light": {
+  "file": "small_light.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Light (RGB)": {
+  "file": "small_light_rgb.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Solar Cell": {
+  "file": "solar.xml",
+  "mass": "2",
+  "value": "400",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Large Solar Cell": {
+  "file": "solar_large.xml",
+  "mass": "40",
+  "value": "8000",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Solid Rocket Fuel (Huge)": {
+  "file": "solid_rocket_huge.xml",
+  "mass": "50",
+  "value": "500",
+  "vox": "7x3x7",
+  "size_m": "1.75x0.75x1.75",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Solid Rocket Fuel (Huge) (Fins)": {
+  "file": "solid_rocket_huge_fins.xml",
+  "mass": "50",
+  "value": "1000",
+  "vox": "7x3x7",
+  "size_m": "1.75x0.75x1.75",
+  "tags": "control,missile",
+  "n_logic": 2
+ },
+ "Solid Rocket Fuel (Large)": {
+  "file": "solid_rocket_large.xml",
+  "mass": "30",
+  "value": "400",
+  "vox": "5x3x5",
+  "size_m": "1.25x0.75x1.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Solid Rocket Fuel (Large) (Fins)": {
+  "file": "solid_rocket_large_fins.xml",
+  "mass": "30",
+  "value": "800",
+  "vox": "5x3x5",
+  "size_m": "1.25x0.75x1.25",
+  "tags": "control,missile",
+  "n_logic": 2
+ },
+ "Solid Rocket Fuel (Medium)": {
+  "file": "solid_rocket_medium.xml",
+  "mass": "20",
+  "value": "200",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Solid Rocket Fuel (Medium) (Fins)": {
+  "file": "solid_rocket_medium_fins.xml",
+  "mass": "20",
+  "value": "400",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "control,missile",
+  "n_logic": 2
+ },
+ "Solid Rocket Booster (Huge)": {
+  "file": "solid_rocket_nozzle_huge.xml",
+  "mass": "50",
+  "value": "2000",
+  "vox": "7x4x7",
+  "size_m": "1.75x1.00x1.75",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Solid Rocket Booster (Large)": {
+  "file": "solid_rocket_nozzle_large.xml",
+  "mass": "30",
+  "value": "800",
+  "vox": "5x4x5",
+  "size_m": "1.25x1.00x1.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Solid Rocket Booster (Medium)": {
+  "file": "solid_rocket_nozzle_medium.xml",
+  "mass": "20",
+  "value": "300",
+  "vox": "3x4x3",
+  "size_m": "0.75x1.00x0.75",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Solid Rocket Booster (Small)": {
+  "file": "solid_rocket_nozzle_small.xml",
+  "mass": "5",
+  "value": "100",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Solid Rocket Fuel (Small)": {
+  "file": "solid_rocket_small.xml",
+  "mass": "5",
+  "value": "100",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Solid Rocket Fuel (Small) (Fins)": {
+  "file": "solid_rocket_small_fins.xml",
+  "mass": "5",
+  "value": "200",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "control,missile",
+  "n_logic": 2
+ },
+ "Sonar (Medium)": {
+  "file": "sonar_advanced_5.xml",
+  "mass": "50",
+  "value": "2000",
+  "vox": "5x3x5",
+  "size_m": "1.25x0.75x1.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Sonar Noisemaker": {
+  "file": "sonar_jammer.xml",
+  "mass": "1",
+  "value": "250",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Speaker (Small)": {
+  "file": "speaker.xml",
+  "mass": "1",
+  "value": "250",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Megaphone Speaker (Large)": {
+  "file": "speaker_large.xml",
+  "mass": "10",
+  "value": "1000",
+  "vox": "3x3x5",
+  "size_m": "0.75x0.75x1.25",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Megaphone Speaker (Small)": {
+  "file": "speaker_medium.xml",
+  "mass": "3",
+  "value": "500",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Stair Step": {
+  "file": "stair_segment.xml",
+  "mass": "6.000000",
+  "value": "20",
+  "vox": "3x1x2",
+  "size_m": "0.75x0.25x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Stair Top": {
+  "file": "stair_top.xml",
+  "mass": "6",
+  "value": "20",
+  "vox": "3x1x2",
+  "size_m": "0.75x0.25x0.50",
+  "tags": "step,basic",
+  "n_logic": 0
+ },
+ "Steam Boiler": {
+  "file": "steam_boiler.xml",
+  "mass": "500",
+  "value": "250",
+  "vox": "5x5x7",
+  "size_m": "1.25x1.25x1.75",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Duct": {
+  "file": "steam_coal_duct.xml",
+  "mass": "12",
+  "value": "50",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "steam,coal,fishing",
+  "n_logic": 1
+ },
+ "Duct Large": {
+  "file": "steam_coal_duct_l.xml",
+  "mass": "112",
+  "value": "150",
+  "vox": "5x5x9",
+  "size_m": "1.25x1.25x2.25",
+  "tags": "steam,coal,fishing",
+  "n_logic": 1
+ },
+ "Duct Medium": {
+  "file": "steam_coal_duct_m.xml",
+  "mass": "62",
+  "value": "100",
+  "vox": "5x5x5",
+  "size_m": "1.25x1.25x1.25",
+  "tags": "steam,coal,fishing",
+  "n_logic": 1
+ },
+ "Firebox": {
+  "file": "steam_coal_firebox.xml",
+  "mass": "100",
+  "value": "100",
+  "vox": "3x3x5",
+  "size_m": "0.75x0.75x1.25",
+  "tags": "steam,coal",
+  "n_logic": 7
+ },
+ "Firebox Large": {
+  "file": "steam_coal_firebox_l.xml",
+  "mass": "400",
+  "value": "200",
+  "vox": "5x5x7",
+  "size_m": "1.25x1.25x1.75",
+  "tags": "steam,coal",
+  "n_logic": 7
+ },
+ "Flexible Duct": {
+  "file": "steam_coal_flex.xml",
+  "mass": "20",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "steam,coal,fishing",
+  "n_logic": 1
+ },
+ "Funnel Duct": {
+  "file": "steam_coal_funnel.xml",
+  "mass": "20",
+  "value": "50",
+  "vox": "3x2x3",
+  "size_m": "0.75x0.50x0.75",
+  "tags": "steam,coal,fishing",
+  "n_logic": 1
+ },
+ "Hopper": {
+  "file": "steam_coal_hopper.xml",
+  "mass": "12",
+  "value": "50",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "steam,coal,fishing",
+  "n_logic": 1
+ },
+ "Hopper Large": {
+  "file": "steam_coal_hopper_l.xml",
+  "mass": "112",
+  "value": "150",
+  "vox": "5x5x9",
+  "size_m": "1.25x1.25x2.25",
+  "tags": "steam,coal,fishing",
+  "n_logic": 1
+ },
+ "Hopper Medium": {
+  "file": "steam_coal_hopper_m.xml",
+  "mass": "62",
+  "value": "100",
+  "vox": "5x5x5",
+  "size_m": "1.25x1.25x1.25",
+  "tags": "steam,coal,fishing",
+  "n_logic": 1
+ },
+ "Vacuum Duct": {
+  "file": "steam_coal_vacuum.xml",
+  "mass": "20",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "steam,coal,fishing",
+  "n_logic": 2
+ },
+ "Steam Condenser": {
+  "file": "steam_condenser.xml",
+  "mass": "250",
+  "value": "250",
+  "vox": "3x5x5",
+  "size_m": "0.75x1.25x1.25",
+  "tags": "",
+  "n_logic": 6
+ },
+ "Nuclear Control Rod": {
+  "file": "steam_nuclear_control_rod.xml",
+  "mass": "100",
+  "value": "250",
+  "vox": "1x17x1",
+  "size_m": "0.25x4.25x0.25",
+  "tags": "reactor",
+  "n_logic": 2
+ },
+ "Nuclear Fuel Assembly": {
+  "file": "steam_nuclear_fuel_assembly.xml",
+  "mass": "80",
+  "value": "500",
+  "vox": "1x12x1",
+  "size_m": "0.25x3.00x0.25",
+  "tags": "reactor",
+  "n_logic": 2
+ },
+ "Nuclear Fuel Rod": {
+  "file": "steam_nuclear_fuel_rod.xml",
+  "mass": "80",
+  "value": "2500",
+  "vox": "1x9x1",
+  "size_m": "0.25x2.25x0.25",
+  "tags": "reactor",
+  "n_logic": 0
+ },
+ "Steam Piston (Small)": {
+  "file": "steam_piston.xml",
+  "mass": "12",
+  "value": "90",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 8
+ },
+ "Steam Piston (Medium)": {
+  "file": "steam_piston_3x3.xml",
+  "mass": "120",
+  "value": "600",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 8
+ },
+ "Steam Piston (Large)": {
+  "file": "steam_piston_5x5.xml",
+  "mass": "300",
+  "value": "2400",
+  "vox": "5x15x5",
+  "size_m": "1.25x3.75x1.25",
+  "tags": "",
+  "n_logic": 8
+ },
+ "Steam Turbine": {
+  "file": "steam_turbine.xml",
+  "mass": "500",
+  "value": "250",
+  "vox": "5x9x5",
+  "size_m": "1.25x2.25x1.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Steam Whistle": {
+  "file": "steam_whistle.xml",
+  "mass": "4",
+  "value": "50",
+  "vox": "1x4x1",
+  "size_m": "0.25x1.00x0.25",
+  "tags": "steam power",
+  "n_logic": 2
+ },
+ "Rotor (Tail)": {
+  "file": "tail_rotor.xml",
+  "mass": "4",
+  "value": "100",
+  "vox": "11x2x11",
+  "size_m": "2.75x0.50x2.75",
+  "tags": "helicopter,basic",
+  "n_logic": 2
+ },
+ "Temperature Probe": {
+  "file": "temperature_probe.xml",
+  "mass": "1",
+  "value": "250",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Clutch": {
+  "file": "torque_clutch.xml",
+  "mass": "2",
+  "value": "50",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 4
+ },
+ "Torque Crank": {
+  "file": "torque_crank.xml",
+  "mass": "4",
+  "value": "25",
+  "vox": "",
+  "size_m": "",
+  "tags": "manual",
+  "n_logic": 1
+ },
+ "Gearbox": {
+  "file": "torque_gearbox_2.xml",
+  "mass": "8",
+  "value": "100",
+  "vox": "1x2x2",
+  "size_m": "0.25x0.50x0.50",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Torque Meter": {
+  "file": "torque_meter.xml",
+  "mass": "4",
+  "value": "25",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Train Wheel Assembly Classic": {
+  "file": "train_wheels.xml",
+  "mass": "400",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 5
+ },
+ "Train Wheel Assembly Flanged A": {
+  "file": "train_wheels_dynamic_flanged.xml",
+  "mass": "200",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Train Wheel Assembly Flanged B": {
+  "file": "train_wheels_dynamic_flanged_b.xml",
+  "mass": "200",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Train Wheel Assembly Flanged C": {
+  "file": "train_wheels_dynamic_flanged_c.xml",
+  "mass": "200",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Train Wheel Assembly Flanged D": {
+  "file": "train_wheels_dynamic_flanged_d.xml",
+  "mass": "200",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Train Wheel Assembly Medium": {
+  "file": "train_wheels_dynamic_steam_basic_mid.xml",
+  "mass": "200",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Train Wheel Assembly Steam Large A": {
+  "file": "train_wheels_dynamic_steam_large.xml",
+  "mass": "400",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "steam",
+  "n_logic": 3
+ },
+ "Train Wheel Assembly Steam Large B": {
+  "file": "train_wheels_dynamic_steam_large_b.xml",
+  "mass": "400",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "steam",
+  "n_logic": 3
+ },
+ "Train Wheel Assembly Steam Medium A": {
+  "file": "train_wheels_dynamic_steam_mid.xml",
+  "mass": "200",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "steam",
+  "n_logic": 3
+ },
+ "Train Wheel Assembly Steam Medium B": {
+  "file": "train_wheels_dynamic_steam_mid_b.xml",
+  "mass": "200",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "steam",
+  "n_logic": 3
+ },
+ "Train Wheel Assembly Steam Small A": {
+  "file": "train_wheels_dynamic_steam_small.xml",
+  "mass": "200",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "steam",
+  "n_logic": 3
+ },
+ "Train Wheel Assembly Steam Small B": {
+  "file": "train_wheels_dynamic_steam_small_b.xml",
+  "mass": "200",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "steam",
+  "n_logic": 3
+ },
+ "Train Wheel Assembly Small": {
+  "file": "train_wheels_dynamic_steam_small_basic.xml",
+  "mass": "200",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Train Wheel Assembly x1": {
+  "file": "train_wheels_dynamic_x1.xml",
+  "mass": "200",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Train Wheel Assembly x1 Small": {
+  "file": "train_wheels_dynamic_x1_small.xml",
+  "mass": "200",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Train Wheel Assembly x1 Small (Compact)": {
+  "file": "train_wheels_dynamic_x1_xsmall.xml",
+  "mass": "150",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Train Wheel Assembly x2": {
+  "file": "train_wheels_dynamic_x2.xml",
+  "mass": "350",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Train Wheel Assembly x3": {
+  "file": "train_wheels_dynamic_x3.xml",
+  "mass": "450",
+  "value": "150",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 5
+ },
+ "Train Wheel Drive Piston Small": {
+  "file": "train_wheels_piston.xml",
+  "mass": "300",
+  "value": "300",
+  "vox": "",
+  "size_m": "",
+  "tags": "steam",
+  "n_logic": 5
+ },
+ "Train Wheel Drive Piston Large": {
+  "file": "train_wheels_piston_large.xml",
+  "mass": "600",
+  "value": "600",
+  "vox": "",
+  "size_m": "",
+  "tags": "steam",
+  "n_logic": 5
+ },
+ "Train Wheel Drive Piston Medium": {
+  "file": "train_wheels_piston_mid.xml",
+  "mass": "400",
+  "value": "400",
+  "vox": "",
+  "size_m": "",
+  "tags": "steam",
+  "n_logic": 5
+ },
+ "Pipe Angle": {
+  "file": "trans_angle.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Pipe Angle (Enclosed)": {
+  "file": "trans_block_angle.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Pipe Angle Corner (Enclosed)": {
+  "file": "trans_block_corner.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Pipe Cross (Enclosed)": {
+  "file": "trans_block_cross.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Pipe Cross Corner (Enclosed)": {
+  "file": "trans_block_cross_corner.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Pipe Omni (Enclosed)": {
+  "file": "trans_block_omni.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Pipe Straight (Enclosed)": {
+  "file": "trans_block_straight.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Pipe T-Piece (Enclosed)": {
+  "file": "trans_block_t.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Pipe T-Piece Corner (Enclosed)": {
+  "file": "trans_block_t_corner.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Pipe Angle Corner": {
+  "file": "trans_corner.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Pipe Cross": {
+  "file": "trans_cross.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Pipe Cross Corner": {
+  "file": "trans_cross_corner.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Pipe Omni": {
+  "file": "trans_omni.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Pipe Straight": {
+  "file": "trans_straight.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Pipe T-Piece": {
+  "file": "trans_t.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Pipe T-Piece Corner": {
+  "file": "trans_t_corner.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Transponder": {
+  "file": "transponder.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic,mission",
+  "n_logic": 2
+ },
+ "Transponder Locator": {
+  "file": "transponder_locator.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "basic,mission",
+  "n_logic": 3
+ },
+ "Turbine Engine": {
+  "file": "turbine.xml",
+  "mass": "45",
+  "value": "150",
+  "vox": "3x3x7",
+  "size_m": "0.75x0.75x1.75",
+  "tags": "basic",
+  "n_logic": 4
+ },
+ "Impeller Pump": {
+  "file": "turbocharger.xml",
+  "mass": "9",
+  "value": "50",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Impeller Pump (Small)": {
+  "file": "turbocharger_small.xml",
+  "mass": "1",
+  "value": "40",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Large Tyre": {
+  "file": "tyre_large.xml",
+  "mass": "12",
+  "value": "20",
+  "vox": "5x2x5",
+  "size_m": "1.25x0.50x1.25",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Small Tyre": {
+  "file": "tyre_small.xml",
+  "mass": "4",
+  "value": "15",
+  "vox": "3x1x3",
+  "size_m": "0.75x0.25x0.75",
+  "tags": "",
+  "n_logic": 0
+ },
+ "Mounted End-Effector": {
+  "file": "vehicle_tool_interact.xml",
+  "mass": "10",
+  "value": "1000",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Mounted Welder": {
+  "file": "vehicle_tool_welder.xml",
+  "mass": "10",
+  "value": "1000",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Viewing Scope": {
+  "file": "viewing_scope.xml",
+  "mass": "5",
+  "value": "2000",
+  "vox": "",
+  "size_m": "",
+  "tags": "",
+  "n_logic": 3
+ },
+ "Warhead Body (Large)": {
+  "file": "warhead_body_large.xml",
+  "mass": "400",
+  "value": "100",
+  "vox": "5x9x5",
+  "size_m": "1.25x2.25x1.25",
+  "tags": "weapons,explosive",
+  "n_logic": 1
+ },
+ "Warhead Body (Medium)": {
+  "file": "warhead_body_medium.xml",
+  "mass": "80",
+  "value": "50",
+  "vox": "3x5x3",
+  "size_m": "0.75x1.25x0.75",
+  "tags": "weapons,explosive",
+  "n_logic": 1
+ },
+ "Warhead Body (Small)": {
+  "file": "warhead_body_small.xml",
+  "mass": "15",
+  "value": "25",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "weapons,explosive",
+  "n_logic": 1
+ },
+ "Warhead (EMP)": {
+  "file": "warhead_emp.xml",
+  "mass": "500",
+  "value": "200",
+  "vox": "5x13x5",
+  "size_m": "1.25x3.25x1.25",
+  "tags": "weapons,explosive",
+  "n_logic": 1
+ },
+ "Warhead (Large)": {
+  "file": "warhead_large.xml",
+  "mass": "400",
+  "value": "100",
+  "vox": "5x9x5",
+  "size_m": "1.25x2.25x1.25",
+  "tags": "weapons,explosive",
+  "n_logic": 1
+ },
+ "Warhead (Medium)": {
+  "file": "warhead_medium.xml",
+  "mass": "80",
+  "value": "50",
+  "vox": "3x5x3",
+  "size_m": "0.75x1.25x0.75",
+  "tags": "weapons,explosive",
+  "n_logic": 1
+ },
+ "Warhead (Small)": {
+  "file": "warhead_small.xml",
+  "mass": "15",
+  "value": "25",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "weapons,explosive",
+  "n_logic": 1
+ },
+ "Water Extractor": {
+  "file": "water_extractor.xml",
+  "mass": "20",
+  "value": "100",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "industry,space",
+  "n_logic": 3
+ },
+ "Hose": {
+  "file": "water_hose.xml",
+  "mass": "25",
+  "value": "100",
+  "vox": "3x4x3",
+  "size_m": "0.75x1.00x0.75",
+  "tags": "",
+  "n_logic": 5
+ },
+ "winch end": {
+  "file": "winch_large_b.xml",
+  "mass": "20",
+  "value": "0",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "",
+  "n_logic": 1
+ },
+ "Fluid Port": {
+  "file": "water_outlet.xml",
+  "mass": "1",
+  "value": "50",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "pump",
+  "n_logic": 1
+ },
+ "Fluid Jet": {
+  "file": "water_jet.xml",
+  "mass": "10",
+  "value": "3000",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 6
+ },
+ "Liquid Meter": {
+  "file": "water_measure.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "fluid,measure",
+  "n_logic": 3
+ },
+ "Fluid Nozzle": {
+  "file": "water_nozzle.xml",
+  "mass": "1",
+  "value": "100",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "cannon,basic",
+  "n_logic": 3
+ },
+ "Fluid Pump": {
+  "file": "water_pump.xml",
+  "mass": "4",
+  "value": "100",
+  "vox": "3x1x1",
+  "size_m": "0.75x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 5
+ },
+ "Large Fluid Pump": {
+  "file": "water_pump_large.xml",
+  "mass": "10",
+  "value": "200",
+  "vox": "2x2x2",
+  "size_m": "0.50x0.50x0.50",
+  "tags": "basic",
+  "n_logic": 5
+ },
+ "Fluid Pump (Manual)": {
+  "file": "water_pump_manual.xml",
+  "mass": "4",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 3
+ },
+ "Fluid Spawner": {
+  "file": "water_spawner.xml",
+  "mass": "1",
+  "value": "20",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Fluid Slot Port": {
+  "file": "water_suction_duct.xml",
+  "mass": "12",
+  "value": "100",
+  "vox": "3x2x4",
+  "size_m": "0.75x0.50x1.00",
+  "tags": "basic",
+  "n_logic": 1
+ },
+ "Fluid Cannon": {
+  "file": "watercannon.xml",
+  "mass": "11",
+  "value": "100",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "",
+  "n_logic": 4
+ },
+ "Wheel 3x3": {
+  "file": "wheel_advanced_3.xml",
+  "mass": "10",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering,basic",
+  "n_logic": 4
+ },
+ "Wheel 3x3 (Suspension)": {
+  "file": "wheel_advanced_3_sus.xml",
+  "mass": "15",
+  "value": "150",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering",
+  "n_logic": 4
+ },
+ "Wheel 5x5": {
+  "file": "wheel_advanced_5.xml",
+  "mass": "20",
+  "value": "150",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering,basic",
+  "n_logic": 4
+ },
+ "Wheel 5x5 (Suspension)": {
+  "file": "wheel_advanced_5_sus.xml",
+  "mass": "30",
+  "value": "200",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering",
+  "n_logic": 4
+ },
+ "Wheel 7x7": {
+  "file": "wheel_advanced_7.xml",
+  "mass": "40",
+  "value": "200",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering,basic",
+  "n_logic": 4
+ },
+ "Wheel 7x7 (Suspension)": {
+  "file": "wheel_advanced_7_sus.xml",
+  "mass": "60",
+  "value": "250",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering",
+  "n_logic": 4
+ },
+ "Wheel 9x9": {
+  "file": "wheel_advanced_9.xml",
+  "mass": "80",
+  "value": "250",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering,basic",
+  "n_logic": 4
+ },
+ "Wheel 9x9 (Suspension)": {
+  "file": "wheel_advanced_9_sus.xml",
+  "mass": "120",
+  "value": "300",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering",
+  "n_logic": 4
+ },
+ "Wheel Coaster": {
+  "file": "wheel_coaster.xml",
+  "mass": "4",
+  "value": "25",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Large Landing Wheel": {
+  "file": "wheel_coaster_large.xml",
+  "mass": "8",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 2
+ },
+ "Medium Wheel": {
+  "file": "wheel_medium.xml",
+  "mass": "10",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering,basic",
+  "n_logic": 4
+ },
+ "Small Wheel": {
+  "file": "wheel_small.xml",
+  "mass": "5",
+  "value": "30",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering,basic",
+  "n_logic": 4
+ },
+ "Tank Wheel (Small)": {
+  "file": "wheel_tank_1.xml",
+  "mass": "20",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering",
+  "n_logic": 1
+ },
+ "Tank Wheel (Small/Wide)": {
+  "file": "wheel_tank_1_wide.xml",
+  "mass": "25",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering",
+  "n_logic": 1
+ },
+ "Tank Wheel (Large)": {
+  "file": "wheel_tank_5.xml",
+  "mass": "40",
+  "value": "250",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering",
+  "n_logic": 1
+ },
+ "Tank Wheel (Medium)": {
+  "file": "wheel_tank_5_2.xml",
+  "mass": "30",
+  "value": "200",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering",
+  "n_logic": 1
+ },
+ "Tank Wheel (Huge)": {
+  "file": "wheel_tank_7.xml",
+  "mass": "80",
+  "value": "350",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering",
+  "n_logic": 1
+ },
+ "Tank Drive Wheel (Small)": {
+  "file": "wheel_tank_drive_1.xml",
+  "mass": "20",
+  "value": "200",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering",
+  "n_logic": 2
+ },
+ "Tank Drive Wheel (Small/Wide)": {
+  "file": "wheel_tank_drive_1_wide.xml",
+  "mass": "25",
+  "value": "250",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering",
+  "n_logic": 2
+ },
+ "Tank Drive Wheel (Large)": {
+  "file": "wheel_tank_drive_5.xml",
+  "mass": "40",
+  "value": "350",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering",
+  "n_logic": 2
+ },
+ "Tank Drive Wheel (Medium)": {
+  "file": "wheel_tank_drive_5_2.xml",
+  "mass": "30",
+  "value": "300",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering",
+  "n_logic": 2
+ },
+ "Tank Drive Wheel (Huge)": {
+  "file": "wheel_tank_drive_7.xml",
+  "mass": "80",
+  "value": "450",
+  "vox": "",
+  "size_m": "",
+  "tags": "steerable,steering",
+  "n_logic": 2
+ },
+ "Rope Pulley": {
+  "file": "winch_pulley.xml",
+  "mass": "25",
+  "value": "250",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 4
+ },
+ "Electric Cable Pulley": {
+  "file": "winch_pulley_cable.xml",
+  "mass": "25",
+  "value": "250",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 4
+ },
+ "Electric Cable Pulley (Corner)": {
+  "file": "winch_pulley_cable_corner.xml",
+  "mass": "25",
+  "value": "250",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 4
+ },
+ "Rope Pulley (Corner)": {
+  "file": "winch_pulley_corner.xml",
+  "mass": "25",
+  "value": "250",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 4
+ },
+ "Fluid Hose Pulley": {
+  "file": "winch_pulley_hose.xml",
+  "mass": "25",
+  "value": "250",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 6
+ },
+ "Fluid Hose Pulley (Corner)": {
+  "file": "winch_pulley_hose_corner.xml",
+  "mass": "25",
+  "value": "250",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 6
+ },
+ "Wind Sensor": {
+  "file": "wind_sensor.xml",
+  "mass": "1",
+  "value": "200",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "",
+  "n_logic": 2
+ },
+ "Window 1x1": {
+  "file": "window_1x1.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Inverse Pyramid 1x1": {
+  "file": "window_1x1_inv_pyramid.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Pyramid 1x1x1": {
+  "file": "window_1x1_pyramid.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Angle 1x1x1": {
+  "file": "window_1x1_wedge.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window 1x2": {
+  "file": "window_2x1.xml",
+  "mass": "2",
+  "value": "10",
+  "vox": "1x2x1",
+  "size_m": "0.25x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window 2x2": {
+  "file": "window_2x2.xml",
+  "mass": "3",
+  "value": "20",
+  "vox": "1x2x2",
+  "size_m": "0.25x0.50x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Inverse Pyramid 2x2x2": {
+  "file": "window_2x2_inv_pyramid.xml",
+  "mass": "2",
+  "value": "15",
+  "vox": "2x2x2",
+  "size_m": "0.50x0.50x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Pyramid 2x2x2": {
+  "file": "window_2x2_pyramid.xml",
+  "mass": "2",
+  "value": "15",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window 2x3": {
+  "file": "window_3x2.xml",
+  "mass": "4",
+  "value": "25",
+  "vox": "1x3x2",
+  "size_m": "0.25x0.75x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Angle 2x3x3": {
+  "file": "window_angle_l_2x3x3.xml",
+  "mass": "4",
+  "value": "10",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Angle 1x2x2": {
+  "file": "window_angle_m_1x2x2.xml",
+  "mass": "2",
+  "value": "20",
+  "vox": "2x2x1",
+  "size_m": "0.50x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Angle 2x2x2": {
+  "file": "window_angle_m_2x2x2.xml",
+  "mass": "3",
+  "value": "30",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Angle 3x2x2": {
+  "file": "window_angle_m_3x2x2.xml",
+  "mass": "4",
+  "value": "60",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Angle 2x1x1": {
+  "file": "window_angle_s_1x2.xml",
+  "mass": "1",
+  "value": "10",
+  "vox": "1x1x2",
+  "size_m": "0.25x0.25x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Angle 1x4x4": {
+  "file": "window_angle_xl_1x4x4.xml",
+  "mass": "3",
+  "value": "80",
+  "vox": "4x4x1",
+  "size_m": "1.00x1.00x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Angle 2x4x4": {
+  "file": "window_angle_xl_2x4x4.xml",
+  "mass": "5",
+  "value": "160",
+  "vox": "4x4x2",
+  "size_m": "1.00x1.00x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Angle 3x4x4": {
+  "file": "window_angle_xl_3x4x4.xml",
+  "mass": "6",
+  "value": "240",
+  "vox": "4x4x3",
+  "size_m": "1.00x1.00x0.75",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Corner 3x4": {
+  "file": "window_corner.xml",
+  "mass": "4.000000",
+  "value": "60",
+  "vox": "1x4x3",
+  "size_m": "0.25x1.00x0.75",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Pyramid 3x3x3": {
+  "file": "window_corner_2.xml",
+  "mass": "4",
+  "value": "135",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Corner Full 1x1": {
+  "file": "window_corner_full_1x1.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "1x1x1",
+  "size_m": "0.25x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Corner Full 4x4": {
+  "file": "window_corner_full_large.xml",
+  "mass": "5",
+  "value": "80",
+  "vox": "1x4x4",
+  "size_m": "0.25x1.00x1.00",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Corner Full 3x3": {
+  "file": "window_corner_full_medium.xml",
+  "mass": "4",
+  "value": "45",
+  "vox": "1x3x3",
+  "size_m": "0.25x0.75x0.75",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Corner Full 2x2": {
+  "file": "window_corner_full_small.xml",
+  "mass": "2",
+  "value": "20",
+  "vox": "1x2x2",
+  "size_m": "0.25x0.50x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Corner 2x3": {
+  "file": "window_corner_small.xml",
+  "mass": "2",
+  "value": "30",
+  "vox": "1x3x2",
+  "size_m": "0.25x0.75x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Diamond 1x3x4": {
+  "file": "window_diamond_l_1x3x4.xml",
+  "mass": "2",
+  "value": "30",
+  "vox": "4x3x1",
+  "size_m": "1.00x0.75x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Diamond 2x3x4": {
+  "file": "window_diamond_l_2x3x4.xml",
+  "mass": "4",
+  "value": "60",
+  "vox": "5x3x2",
+  "size_m": "1.25x0.75x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Diamond 3x3x4": {
+  "file": "window_diamond_l_3x3x4.xml",
+  "mass": "5",
+  "value": "90",
+  "vox": "6x3x3",
+  "size_m": "1.50x0.75x0.75",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Diamond 1x2x3": {
+  "file": "window_diamond_m_1x2x3.xml",
+  "mass": "2",
+  "value": "15",
+  "vox": "3x2x1",
+  "size_m": "0.75x0.50x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Diamond 2x2x3": {
+  "file": "window_diamond_m_2x2x3.xml",
+  "mass": "3",
+  "value": "30",
+  "vox": "4x2x2",
+  "size_m": "1.00x0.50x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Diamond 3x2x3": {
+  "file": "window_diamond_m_3x2x3.xml",
+  "mass": "4",
+  "value": "45",
+  "vox": "5x2x3",
+  "size_m": "1.25x0.50x0.75",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Diamond 1x1x2": {
+  "file": "window_diamond_s_1x1.xml",
+  "mass": "1",
+  "value": "5",
+  "vox": "2x1x1",
+  "size_m": "0.50x0.25x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Diamond 1x4x5": {
+  "file": "window_diamond_xl_1x4x5.xml",
+  "mass": "3",
+  "value": "50",
+  "vox": "",
+  "size_m": "",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Diamond 2x4x5": {
+  "file": "window_diamond_xl_2x4x5.xml",
+  "mass": "5",
+  "value": "100",
+  "vox": "6x4x2",
+  "size_m": "1.50x1.00x0.50",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Diamond 3x4x5": {
+  "file": "window_diamond_xl_3x4x5.xml",
+  "mass": "5",
+  "value": "150",
+  "vox": "7x4x3",
+  "size_m": "1.75x1.00x0.75",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window 3x3": {
+  "file": "window_large.xml",
+  "mass": "4.000000",
+  "value": "45",
+  "vox": "1x3x3",
+  "size_m": "0.25x0.75x0.75",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Angle 3x3x3": {
+  "file": "window_large_angle.xml",
+  "mass": "5",
+  "value": "135",
+  "vox": "3x3x3",
+  "size_m": "0.75x0.75x0.75",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window 1x3": {
+  "file": "window_narrow.xml",
+  "mass": "2.000000",
+  "value": "15",
+  "vox": "1x3x1",
+  "size_m": "0.25x0.75x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Angle 1x3x3": {
+  "file": "window_narrow_angle.xml",
+  "mass": "2.000000",
+  "value": "45",
+  "vox": "3x3x1",
+  "size_m": "0.75x0.75x0.25",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Porthole Small": {
+  "file": "window_port.xml",
+  "mass": "6",
+  "value": "30",
+  "vox": "1x3x3",
+  "size_m": "0.25x0.75x0.75",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Porthole": {
+  "file": "window_porthole.xml",
+  "mass": "8.000000",
+  "value": "50",
+  "vox": "1x5x3",
+  "size_m": "0.25x1.25x0.75",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Window Angle 3x1x1": {
+  "file": "window_small_angle.xml",
+  "mass": "2.000000",
+  "value": "15",
+  "vox": "1x1x3",
+  "size_m": "0.25x0.25x0.75",
+  "tags": "basic",
+  "n_logic": 0
+ },
+ "Wing Section (Large)": {
+  "file": "wing_large.xml",
+  "mass": "20",
+  "value": "500",
+  "vox": "3x7x16",
+  "size_m": "0.75x1.75x4.00",
+  "tags": "airplane,aeroplane,basic",
+  "n_logic": 0
+ },
+ "Wing Section (Medium)": {
+  "file": "wing_medium.xml",
+  "mass": "15",
+  "value": "350",
+  "vox": "",
+  "size_m": "",
+  "tags": "airplane,aeroplane,basic",
+  "n_logic": 0
+ },
+ "Wing Section (Small)": {
+  "file": "wing_small.xml",
+  "mass": "8",
+  "value": "150",
+  "vox": "",
+  "size_m": "",
+  "tags": "airplane,aeroplane,basic",
+  "n_logic": 0
+ },
+ "Wing Front Section (Small)": {
+  "file": "wing_small_front.xml",
+  "mass": "5",
+  "value": "100",
+  "vox": "",
+  "size_m": "",
+  "tags": "airplane,aeroplane,basic",
+  "n_logic": 0
+ },
+ "Wing Section (XLarge)": {
+  "file": "wing_xl.xml",
+  "mass": "30",
+  "value": "800",
+  "vox": "3x7x22",
+  "size_m": "0.75x1.75x5.50",
+  "tags": "airplane,aeroplane,basic",
+  "n_logic": 0
+ },
+ "Wing Section (XXLarge)": {
+  "file": "wing_xxl.xml",
+  "mass": "50",
+  "value": "1500",
+  "vox": "3x7x28",
+  "size_m": "0.75x1.75x7.00",
+  "tags": "airplane,aeroplane",
+  "n_logic": 0
+ }
+}

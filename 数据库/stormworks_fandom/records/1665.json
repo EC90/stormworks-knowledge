@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Logic",
+  "display_title": "Wiki/Building/Components/Logic",
+  "summary": "Alias for Gameplay/Workbench/Components/Logic",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Logic"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Logic -> Gameplay/Workbench/Components/Logic",
+    "plain_text": "Redirect: Wiki/Building/Components/Logic -> Gameplay/Workbench/Components/Logic",
+    "char_count": 79,
+    "word_count": 4,
+    "sha256": "cb73437e720469af7e8d922f6578ae9ab93ce3f328554a88e610a211097e412e"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Logic",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Logic",
+    "target_page_id": 632,
+    "target_revision_id": 4163
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1665,
+    "revision_id": 4164,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-31T10:11:15+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,1041 @@
+[
+ {
+  "hash": "d2208cd33b9c7b811ae35d55dc01dd78",
+  "rep": "3790163661_vehicle_0.lua",
+  "chars": 3939,
+  "score": 41,
+  "copies": 1,
+  "files": [
+   "3790163661_vehicle_0.lua"
+  ]
+ },
+ {
+  "hash": "a5ee40ff1290b80b4a5009d8e513c492",
+  "rep": "3790163661_vehicle_8.lua",
+  "chars": 3487,
+  "score": 38,
+  "copies": 1,
+  "files": [
+   "3790163661_vehicle_8.lua"
+  ]
+ },
+ {
+  "hash": "74bebe266b2edbc90f12c8c82c68ed47",
+  "rep": "3790163661_vehicle_5.lua",
+  "chars": 3465,
+  "score": 37,
+  "copies": 1,
+  "files": [
+   "3790163661_vehicle_5.lua"
+  ]
+ },
+ {
+  "hash": "637ae326e6dee23cea4967e2057c91b1",
+  "rep": "3790163661_vehicle_6.lua",
+  "chars": 3442,
+  "score": 37,
+  "copies": 1,
+  "files": [
+   "3790163661_vehicle_6.lua"
+  ]
+ },
+ {
+  "hash": "e6ff07d4fab9e96d2dca35eea595f0d8",
+  "rep": "3790163661_vehicle_9.lua",
+  "chars": 2610,
+  "score": 37,
+  "copies": 1,
+  "files": [
+   "3790163661_vehicle_9.lua"
+  ]
+ },
+ {
+  "hash": "8391e123bcc4de819cf91c1e8ad95270",
+  "rep": "3790163661_vehicle_11.lua",
+  "chars": 1923,
+  "score": 33,
+  "copies": 1,
+  "files": [
+   "3790163661_vehicle_11.lua"
+  ]
+ },
+ {
+  "hash": "1bf1715cae383fdcf4671403aa95e242",
+  "rep": "3788743617_vehicle_11.lua",
+  "chars": 915,
+  "score": 24,
+  "copies": 2,
+  "files": [
+   "3788743617_vehicle_11.lua",
+   "3788743617_vehicle_4.lua"
+  ]
+ },
+ {
+  "hash": "157744717f896b22c9b04fc1db4f9788",
+  "rep": "3788743617_vehicle_0.lua",
+  "chars": 891,
+  "score": 24,
+  "copies": 2,
+  "files": [
+   "3788743617_vehicle_0.lua",
+   "3788743617_vehicle_7.lua"
+  ]
+ },
+ {
+  "hash": "d130221e2545c4dd6a652f132664879c",
+  "rep": "3788946785_vehicle_7.lua",
+  "chars": 3456,
+  "score": 21,
+  "copies": 1,
+  "files": [
+   "3788946785_vehicle_7.lua"
+  ]
+ },
+ {
+  "hash": "4bf9f049cf47b5a46054d54d4e065560",
+  "rep": "3788946785_vehicle_9.lua",
+  "chars": 2554,
+  "score": 21,
+  "copies": 1,
+  "files": [
+   "3788946785_vehicle_9.lua"
+  ]
+ },
+ {
+  "hash": "c0bfdc14254e473adb2fe029395e5afe",
+  "rep": "3792235232_vehicle_5.lua",
+  "chars": 3534,
+  "score": 20,
+  "copies": 1,
+  "files": [
+   "3792235232_vehicle_5.lua"
+  ]
+ },
+ {
+  "hash": "b296568688569cd8aefb2390d469e609",
+  "rep": "3791754921_vehicle_0.lua",
+  "chars": 1418,
+  "score": 20,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_0.lua"
+  ]
+ },
+ {
+  "hash": "6507fe61286109cc014d6bd1f22b54a0",
+  "rep": "3791754921_vehicle_1.lua",
+  "chars": 1483,
+  "score": 18,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_1.lua"
+  ]
+ },
+ {
+  "hash": "13950db70c0a8174fe3a297ea04b3ea7",
+  "rep": "3791754921_vehicle_3.lua",
+  "chars": 1250,
+  "score": 17,
+  "copies": 2,
+  "files": [
+   "3791754921_vehicle_3.lua",
+   "3791754921_vehicle_32.lua"
+  ]
+ },
+ {
+  "hash": "68c036f7d3312d76ea5ebc3ed93430c4",
+  "rep": "3791754921_vehicle_2.lua",
+  "chars": 600,
+  "score": 17,
+  "copies": 2,
+  "files": [
+   "3791754921_vehicle_2.lua",
+   "3791754921_vehicle_31.lua"
+  ]
+ },
+ {
+  "hash": "6f040f6cd5938c1f99180e6f5d8cfd4f",
+  "rep": "3791754921_vehicle_33.lua",
+  "chars": 600,
+  "score": 17,
+  "copies": 2,
+  "files": [
+   "3791754921_vehicle_33.lua",
+   "3791754921_vehicle_4.lua"
+  ]
+ },
+ {
+  "hash": "bf0c3b0689361bd72b3907f685b91485",
+  "rep": "3791754921_vehicle_34.lua",
+  "chars": 600,
+  "score": 17,
+  "copies": 2,
+  "files": [
+   "3791754921_vehicle_34.lua",
+   "3791754921_vehicle_5.lua"
+  ]
+ },
+ {
+  "hash": "bb84cb19cec72ad3e8d4c58913389995",
+  "rep": "3791754921_vehicle_35.lua",
+  "chars": 600,
+  "score": 17,
+  "copies": 2,
+  "files": [
+   "3791754921_vehicle_35.lua",
+   "3791754921_vehicle_6.lua"
+  ]
+ },
+ {
+  "hash": "c7fc21599137af1adc146ca05b5d59e6",
+  "rep": "3788946785_vehicle_8.lua",
+  "chars": 2458,
+  "score": 15,
+  "copies": 1,
+  "files": [
+   "3788946785_vehicle_8.lua"
+  ]
+ },
+ {
+  "hash": "d4cca0f6d2cda9895f2b24788ff72137",
+  "rep": "3792899963_vehicle_12.lua",
+  "chars": 4570,
+  "score": 14,
+  "copies": 2,
+  "files": [
+   "3792899963_vehicle_12.lua",
+   "3792899963_vehicle_5.lua"
+  ]
+ },
+ {
+  "hash": "df6b7b0b7638a7994cb47ee32dbe3c15",
+  "rep": "3788743617_vehicle_6.lua",
+  "chars": 2919,
+  "score": 12,
+  "copies": 1,
+  "files": [
+   "3788743617_vehicle_6.lua"
+  ]
+ },
+ {
+  "hash": "19c9157b0d7f2633cb8ee749d8360280",
+  "rep": "3792899963_vehicle_4.lua",
+  "chars": 4056,
+  "score": 11,
+  "copies": 1,
+  "files": [
+   "3792899963_vehicle_4.lua"
+  ]
+ },
+ {
+  "hash": "b307c1a0661ba60484d77e41e14130da",
+  "rep": "3792235232_vehicle_3.lua",
+  "chars": 2344,
+  "score": 11,
+  "copies": 1,
+  "files": [
+   "3792235232_vehicle_3.lua"
+  ]
+ },
+ {
+  "hash": "411d8a49e26538d9a8f41a0eba61e071",
+  "rep": "3788743617_vehicle_12.lua",
+  "chars": 3367,
+  "score": 10,
+  "copies": 1,
+  "files": [
+   "3788743617_vehicle_12.lua"
+  ]
+ },
+ {
+  "hash": "328625b3956e564be499c5dbf652cd66",
+  "rep": "3788743617_vehicle_5.lua",
+  "chars": 3047,
+  "score": 9,
+  "copies": 1,
+  "files": [
+   "3788743617_vehicle_5.lua"
+  ]
+ },
+ {
+  "hash": "7939f10201ded554dd397f9f337cb2e7",
+  "rep": "3792899963_vehicle_13.lua",
+  "chars": 2015,
+  "score": 9,
+  "copies": 20,
+  "files": [
+   "3792899963_vehicle_13.lua",
+   "3792899963_vehicle_15.lua",
+   "3792899963_vehicle_17.lua",
+   "3792899963_vehicle_19.lua",
+   "3792899963_vehicle_21.lua",
+   "3792899963_vehicle_23.lua",
+   "3792899963_vehicle_26.lua",
+   "3792899963_vehicle_28.lua",
+   "3792899963_vehicle_30.lua",
+   "3792899963_vehicle_32.lua",
+   "3792899963_vehicle_34.lua",
+   "3792899963_vehicle_35.lua",
+   "3792899963_vehicle_37.lua",
+   "3792899963_vehicle_40.lua",
+   "3792899963_vehicle_41.lua",
+   "3792899963_vehicle_42.lua",
+   "3792899963_vehicle_43.lua",
+   "3792899963_vehicle_44.lua",
+   "3792899963_vehicle_46.lua",
+   "3792899963_vehicle_47.lua"
+  ]
+ },
+ {
+  "hash": "1c7e147909e9ce5da1e69b2043d46e9e",
+  "rep": "3788946785_vehicle_6.lua",
+  "chars": 860,
+  "score": 9,
+  "copies": 1,
+  "files": [
+   "3788946785_vehicle_6.lua"
+  ]
+ },
+ {
+  "hash": "a285af54bc8cc498c83086c973d1fed4",
+  "rep": "3788946785_vehicle_20.lua",
+  "chars": 1534,
+  "score": 8,
+  "copies": 6,
+  "files": [
+   "3788946785_vehicle_20.lua",
+   "3788946785_vehicle_21.lua",
+   "3788946785_vehicle_22.lua",
+   "3788946785_vehicle_23.lua",
+   "3792899963_vehicle_45.lua",
+   "3792899963_vehicle_48.lua"
+  ]
+ },
+ {
+  "hash": "20bd0521dabd854b54e41df0c1115b54",
+  "rep": "3790163661_vehicle_7.lua",
+  "chars": 625,
+  "score": 8,
+  "copies": 1,
+  "files": [
+   "3790163661_vehicle_7.lua"
+  ]
+ },
+ {
+  "hash": "154c7d858506176d142a148339117c84",
+  "rep": "3788743617_vehicle_14.lua",
+  "chars": 3572,
+  "score": 7,
+  "copies": 1,
+  "files": [
+   "3788743617_vehicle_14.lua"
+  ]
+ },
+ {
+  "hash": "22367a003ed81c9b5506ee1374388599",
+  "rep": "3791064111_vehicle_0.lua",
+  "chars": 1001,
+  "score": 7,
+  "copies": 2,
+  "files": [
+   "3791064111_vehicle_0.lua",
+   "3791064111_vehicle_1.lua"
+  ]
+ },
+ {
+  "hash": "73dfffba172f00a675d7fea06383c526",
+  "rep": "3790163661_vehicle_1.lua",
+  "chars": 679,
+  "score": 7,
+  "copies": 1,
+  "files": [
+   "3790163661_vehicle_1.lua"
+  ]
+ },
+ {
+  "hash": "2f25a3695c5f59a90ffa4a7fb68724f7",
+  "rep": "3788946785_vehicle_0.lua",
+  "chars": 765,
+  "score": 6,
+  "copies": 1,
+  "files": [
+   "3788946785_vehicle_0.lua"
+  ]
+ },
+ {
+  "hash": "1f76fdf909b509f1369ef0c83bc3f5a2",
+  "rep": "3788946785_vehicle_13.lua",
+  "chars": 749,
+  "score": 6,
+  "copies": 2,
+  "files": [
+   "3788946785_vehicle_13.lua",
+   "3788946785_vehicle_14.lua"
+  ]
+ },
+ {
+  "hash": "a5b84ccd3ffcdfe6b4eda2e48a9ff7a7",
+  "rep": "3792899963_vehicle_6.lua",
+  "chars": 709,
+  "score": 6,
+  "copies": 1,
+  "files": [
+   "3792899963_vehicle_6.lua"
+  ]
+ },
+ {
+  "hash": "64516a8c5599c272a0687814cbcecc71",
+  "rep": "3790163661_vehicle_10.lua",
+  "chars": 484,
+  "score": 6,
+  "copies": 1,
+  "files": [
+   "3790163661_vehicle_10.lua"
+  ]
+ },
+ {
+  "hash": "f7e1db6101c329b4b0d7cb3e76c0ea94",
+  "rep": "3789438208_vehicle_3.lua",
+  "chars": 1641,
+  "score": 5,
+  "copies": 1,
+  "files": [
+   "3789438208_vehicle_3.lua"
+  ]
+ },
+ {
+  "hash": "21b25a838a68209dae60578f68194fbd",
+  "rep": "3789438208_vehicle_6.lua",
+  "chars": 535,
+  "score": 5,
+  "copies": 1,
+  "files": [
+   "3789438208_vehicle_6.lua"
+  ]
+ },
+ {
+  "hash": "58581087ac05bebe863cd9715a2d49eb",
+  "rep": "3792235232_vehicle_4.lua",
+  "chars": 4883,
+  "score": 4,
+  "copies": 1,
+  "files": [
+   "3792235232_vehicle_4.lua"
+  ]
+ },
+ {
+  "hash": "1980fe63c53c7c2b49d79dc2478718cb",
+  "rep": "3788946785_vehicle_5.lua",
+  "chars": 897,
+  "score": 4,
+  "copies": 2,
+  "files": [
+   "3788946785_vehicle_5.lua",
+   "3792899963_vehicle_11.lua"
+  ]
+ },
+ {
+  "hash": "8a04ea6426ed96979356e3f0c848df51",
+  "rep": "3789438208_vehicle_7.lua",
+  "chars": 2159,
+  "score": 3,
+  "copies": 1,
+  "files": [
+   "3789438208_vehicle_7.lua"
+  ]
+ },
+ {
+  "hash": "28d5c6bae88cdc10154937919454238d",
+  "rep": "3788743617_vehicle_1.lua",
+  "chars": 984,
+  "score": 3,
+  "copies": 2,
+  "files": [
+   "3788743617_vehicle_1.lua",
+   "3788743617_vehicle_8.lua"
+  ]
+ },
+ {
+  "hash": "778d6fff52edfc9fca831c089bcf0080",
+  "rep": "3788743617_vehicle_2.lua",
+  "chars": 741,
+  "score": 3,
+  "copies": 2,
+  "files": [
+   "3788743617_vehicle_2.lua",
+   "3788743617_vehicle_9.lua"
+  ]
+ },
+ {
+  "hash": "5a49d3ccb67906c2fdc5b097ad5a7fd0",
+  "rep": "3788743617_vehicle_10.lua",
+  "chars": 520,
+  "score": 3,
+  "copies": 2,
+  "files": [
+   "3788743617_vehicle_10.lua",
+   "3788743617_vehicle_3.lua"
+  ]
+ },
+ {
+  "hash": "5c4b4c2b3465406954880e3a62501776",
+  "rep": "3791754921_vehicle_7.lua",
+  "chars": 331,
+  "score": 3,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_7.lua"
+  ]
+ },
+ {
+  "hash": "4b3367f8c9354227df9c5bb317d8708a",
+  "rep": "3792212161_vehicle_0.lua",
+  "chars": 3488,
+  "score": 2,
+  "copies": 2,
+  "files": [
+   "3792212161_vehicle_0.lua",
+   "3792235232_vehicle_0.lua"
+  ]
+ },
+ {
+  "hash": "0f82ac9bdd3231d27be0fdfbe0ceeb91",
+  "rep": "3792235232_vehicle_2.lua",
+  "chars": 3263,
+  "score": 2,
+  "copies": 1,
+  "files": [
+   "3792235232_vehicle_2.lua"
+  ]
+ },
+ {
+  "hash": "c50795daf15404fa31a99c228ca811ab",
+  "rep": "3792212161_vehicle_1.lua",
+  "chars": 2960,
+  "score": 2,
+  "copies": 2,
+  "files": [
+   "3792212161_vehicle_1.lua",
+   "3792235232_vehicle_1.lua"
+  ]
+ },
+ {
+  "hash": "074741c37770b11e24a8cd8f4c35962a",
+  "rep": "3788946785_vehicle_2.lua",
+  "chars": 1099,
+  "score": 2,
+  "copies": 2,
+  "files": [
+   "3788946785_vehicle_2.lua",
+   "3792899963_vehicle_8.lua"
+  ]
+ },
+ {
+  "hash": "30412b7b0a4e3a77a3e20bd20fca0b1b",
+  "rep": "3788946785_vehicle_15.lua",
+  "chars": 727,
+  "score": 2,
+  "copies": 1,
+  "files": [
+   "3788946785_vehicle_15.lua"
+  ]
+ },
+ {
+  "hash": "99d687ea039ec6d9b12aafafe99a93b2",
+  "rep": "3788946785_vehicle_16.lua",
+  "chars": 702,
+  "score": 2,
+  "copies": 1,
+  "files": [
+   "3788946785_vehicle_16.lua"
+  ]
+ },
+ {
+  "hash": "c974c56554adb5ea4d2d281fcb7fa09a",
+  "rep": "3788946785_vehicle_17.lua",
+  "chars": 576,
+  "score": 2,
+  "copies": 1,
+  "files": [
+   "3788946785_vehicle_17.lua"
+  ]
+ },
+ {
+  "hash": "8e1f072c5d0a03987e0bd01aa286bba0",
+  "rep": "3788743617_vehicle_15.lua",
+  "chars": 570,
+  "score": 2,
+  "copies": 1,
+  "files": [
+   "3788743617_vehicle_15.lua"
+  ]
+ },
+ {
+  "hash": "3fe54b384fc28a716f23c86548f22366",
+  "rep": "3788946785_vehicle_11.lua",
+  "chars": 479,
+  "score": 2,
+  "copies": 1,
+  "files": [
+   "3788946785_vehicle_11.lua"
+  ]
+ },
+ {
+  "hash": "5f4df40f08838516b0f8f79ff1e3c7b7",
+  "rep": "3788946785_vehicle_19.lua",
+  "chars": 399,
+  "score": 2,
+  "copies": 1,
+  "files": [
+   "3788946785_vehicle_19.lua"
+  ]
+ },
+ {
+  "hash": "d3b29f313cda220e14d64dece1fed750",
+  "rep": "3788946785_vehicle_10.lua",
+  "chars": 393,
+  "score": 2,
+  "copies": 1,
+  "files": [
+   "3788946785_vehicle_10.lua"
+  ]
+ },
+ {
+  "hash": "9a1aa797c72cdfde0ba4c7e0695786c1",
+  "rep": "3788946785_vehicle_18.lua",
+  "chars": 347,
+  "score": 2,
+  "copies": 1,
+  "files": [
+   "3788946785_vehicle_18.lua"
+  ]
+ },
+ {
+  "hash": "cd40db63de6f8e72f23742e79d44c8ef",
+  "rep": "3789438208_vehicle_0.lua",
+  "chars": 279,
+  "score": 2,
+  "copies": 1,
+  "files": [
+   "3789438208_vehicle_0.lua"
+  ]
+ },
+ {
+  "hash": "dece2ef81f989db5f371500adaf42283",
+  "rep": "3790163661_vehicle_3.lua",
+  "chars": 227,
+  "score": 2,
+  "copies": 1,
+  "files": [
+   "3790163661_vehicle_3.lua"
+  ]
+ },
+ {
+  "hash": "09af44fce1d714b937555e1bdb236da1",
+  "rep": "3790163661_vehicle_2.lua",
+  "chars": 214,
+  "score": 2,
+  "copies": 2,
+  "files": [
+   "3790163661_vehicle_2.lua",
+   "3790163661_vehicle_4.lua"
+  ]
+ },
+ {
+  "hash": "8055c4fdc0abd9fa42a0a0804b4b0283",
+  "rep": "3791754921_vehicle_12.lua",
+  "chars": 3980,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_12.lua"
+  ]
+ },
+ {
+  "hash": "2c9026d8351f6acf1a45aeb398887837",
+  "rep": "3791754921_vehicle_16.lua",
+  "chars": 3970,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_16.lua"
+  ]
+ },
+ {
+  "hash": "9b8d0068b0ef3c43c7ec2a230d33d1e4",
+  "rep": "3791754921_vehicle_8.lua",
+  "chars": 3966,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_8.lua"
+  ]
+ },
+ {
+  "hash": "7be6cdc1e20f879853132bd24b46c4f7",
+  "rep": "3791754921_vehicle_26.lua",
+  "chars": 3955,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_26.lua"
+  ]
+ },
+ {
+  "hash": "59cb3689871bf176cdd0c73752209059",
+  "rep": "3791754921_vehicle_14.lua",
+  "chars": 3953,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_14.lua"
+  ]
+ },
+ {
+  "hash": "81f5e5f34f25c57117f0c72ff91e58dc",
+  "rep": "3791754921_vehicle_18.lua",
+  "chars": 3947,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_18.lua"
+  ]
+ },
+ {
+  "hash": "ca62d58ec23ea5dda9c4c05fe544fee8",
+  "rep": "3791754921_vehicle_10.lua",
+  "chars": 3941,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_10.lua"
+  ]
+ },
+ {
+  "hash": "a44e9bf0c295086fa4031708438201fd",
+  "rep": "3791754921_vehicle_24.lua",
+  "chars": 3940,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_24.lua"
+  ]
+ },
+ {
+  "hash": "1b156ed580ea071a49fbdce788ab586f",
+  "rep": "3791754921_vehicle_22.lua",
+  "chars": 3933,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_22.lua"
+  ]
+ },
+ {
+  "hash": "f945c815e3bc80abd53f76286c1b738e",
+  "rep": "3791754921_vehicle_20.lua",
+  "chars": 3899,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_20.lua"
+  ]
+ },
+ {
+  "hash": "96d325f68983c4ef8d2ee0644fc80050",
+  "rep": "3791754921_vehicle_19.lua",
+  "chars": 3881,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_19.lua"
+  ]
+ },
+ {
+  "hash": "515a4ce67da642662000320da6d1cb36",
+  "rep": "3791754921_vehicle_11.lua",
+  "chars": 3845,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_11.lua"
+  ]
+ },
+ {
+  "hash": "f794a77be2a0de8c6dfd1cc7f85efa16",
+  "rep": "3791754921_vehicle_21.lua",
+  "chars": 3821,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_21.lua"
+  ]
+ },
+ {
+  "hash": "46a1a79bb8b6fc1464aacce121b56eb0",
+  "rep": "3791754921_vehicle_23.lua",
+  "chars": 3699,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_23.lua"
+  ]
+ },
+ {
+  "hash": "96f00a21d268a07e5fd34a7991b284e7",
+  "rep": "3791754921_vehicle_25.lua",
+  "chars": 3617,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_25.lua"
+  ]
+ },
+ {
+  "hash": "034f106af5933bce460a39e0b52b1b65",
+  "rep": "3791754921_vehicle_9.lua",
+  "chars": 3581,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_9.lua"
+  ]
+ },
+ {
+  "hash": "6fdcf77c6de2cbe929db4f1b579befe2",
+  "rep": "3791754921_vehicle_27.lua",
+  "chars": 3553,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_27.lua"
+  ]
+ },
+ {
+  "hash": "00aecd9d627b6f35bb27b642ead74c85",
+  "rep": "3791754921_vehicle_17.lua",
+  "chars": 3486,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_17.lua"
+  ]
+ },
+ {
+  "hash": "06b6a79df0706997a573374d5eeb12ce",
+  "rep": "3791754921_vehicle_13.lua",
+  "chars": 3414,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_13.lua"
+  ]
+ },
+ {
+  "hash": "9eb4ca91bc4a9ad87de0649e1723bf8c",
+  "rep": "3791754921_vehicle_15.lua",
+  "chars": 3246,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_15.lua"
+  ]
+ },
+ {
+  "hash": "4c8b2c7f4b6cebdd69d1ab85fe3f3910",
+  "rep": "3789438208_vehicle_1.lua",
+  "chars": 1246,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3789438208_vehicle_1.lua"
+  ]
+ },
+ {
+  "hash": "2b879ac39bc8a0886c99ce73c9a40fe5",
+  "rep": "3792899963_vehicle_25.lua",
+  "chars": 784,
+  "score": 1,
+  "copies": 2,
+  "files": [
+   "3792899963_vehicle_25.lua",
+   "3792899963_vehicle_39.lua"
+  ]
+ },
+ {
+  "hash": "f49ab1ac4c9df01deb72624216a9de76",
+  "rep": "3788946785_vehicle_12.lua",
+  "chars": 609,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3788946785_vehicle_12.lua"
+  ]
+ },
+ {
+  "hash": "435317462231b2b4f070b80924d5972e",
+  "rep": "3789438208_vehicle_5.lua",
+  "chars": 318,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3789438208_vehicle_5.lua"
+  ]
+ },
+ {
+  "hash": "998eee7e9cd11c9c8e3f74b88c59c699",
+  "rep": "3788743617_vehicle_16.lua",
+  "chars": 256,
+  "score": 1,
+  "copies": 1,
+  "files": [
+   "3788743617_vehicle_16.lua"
+  ]
+ },
+ {
+  "hash": "995391a565864307923fa9c2844f78fa",
+  "rep": "3792899963_vehicle_0.lua",
+  "chars": 6540,
+  "score": 0,
+  "copies": 2,
+  "files": [
+   "3792899963_vehicle_0.lua",
+   "3792899963_vehicle_2.lua"
+  ]
+ },
+ {
+  "hash": "c7a059beb673c729f1bd667efec8121d",
+  "rep": "3792899963_vehicle_1.lua",
+  "chars": 4608,
+  "score": 0,
+  "copies": 2,
+  "files": [
+   "3792899963_vehicle_1.lua",
+   "3792899963_vehicle_3.lua"
+  ]
+ },
+ {
+  "hash": "425bb369745eb1099719e55b007f4cee",
+  "rep": "3788946785_vehicle_1.lua",
+  "chars": 4073,
+  "score": 0,
+  "copies": 2,
+  "files": [
+   "3788946785_vehicle_1.lua",
+   "3792899963_vehicle_7.lua"
+  ]
+ },
+ {
+  "hash": "6a44a7871b1582652afe12a1f9ecdaf4",
+  "rep": "3791064111_vehicle_2.lua",
+  "chars": 4061,
+  "score": 0,
+  "copies": 1,
+  "files": [
+   "3791064111_vehicle_2.lua"
+  ]
+ },
+ {
+  "hash": "0d79694e9ac4d78d84203058a38b1eb5",
+  "rep": "3788946785_vehicle_3.lua",
+  "chars": 3990,
+  "score": 0,
+  "copies": 2,
+  "files": [
+   "3788946785_vehicle_3.lua",
+   "3792899963_vehicle_9.lua"
+  ]
+ },
+ {
+  "hash": "e9067bbbcdf354886fce5bac4a7f8f43",
+  "rep": "3789438208_vehicle_4.lua",
+  "chars": 3487,
+  "score": 0,
+  "copies": 1,
+  "files": [
+   "3789438208_vehicle_4.lua"
+  ]
+ },
+ {
+  "hash": "252a0a1cfc6cd8190c9d840ee755651c",
+  "rep": "3791754921_vehicle_30.lua",
+  "chars": 3392,
+  "score": 0,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_30.lua"
+  ]
+ },
+ {
+  "hash": "c1ece184870fd0528243eb1102b4b6dc",
+  "rep": "3789438208_vehicle_2.lua",
+  "chars": 3339,
+  "score": 0,
+  "copies": 1,
+  "files": [
+   "3789438208_vehicle_2.lua"
+  ]
+ },
+ {
+  "hash": "99e7113f5c3d56b72f257e825a1909b6",
+  "rep": "3791754921_vehicle_29.lua",
+  "chars": 2849,
+  "score": 0,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_29.lua"
+  ]
+ },
+ {
+  "hash": "b5eb11b0a877cd789cba35147d3a64cc",
+  "rep": "3791754921_vehicle_28.lua",
+  "chars": 2359,
+  "score": 0,
+  "copies": 1,
+  "files": [
+   "3791754921_vehicle_28.lua"
+  ]
+ },
+ {
+  "hash": "ac11d266da78aabf95f785b0016e590b",
+  "rep": "3792899963_vehicle_14.lua",
+  "chars": 2042,
+  "score": 0,
+  "copies": 12,
+  "files": [
+   "3792899963_vehicle_14.lua",
+   "3792899963_vehicle_16.lua",
+   "3792899963_vehicle_18.lua",
+   "3792899963_vehicle_20.lua",
+   "3792899963_vehicle_22.lua",
+   "3792899963_vehicle_24.lua",
+   "3792899963_vehicle_27.lua",
+   "3792899963_vehicle_29.lua",
+   "3792899963_vehicle_31.lua",
+   "3792899963_vehicle_33.lua",
+   "3792899963_vehicle_36.lua",
+   "3792899963_vehicle_38.lua"
+  ]
+ },
+ {
+  "hash": "0984b4ef172b83796639e9410244975f",
+  "rep": "3788743617_vehicle_13.lua",
+  "chars": 1043,
+  "score": 0,
+  "copies": 1,
+  "files": [
+   "3788743617_vehicle_13.lua"
+  ]
+ },
+ {
+  "hash": "ccaac331bb452d5462a12ad3ffde3780",
+  "rep": "3788946785_vehicle_4.lua",
+  "chars": 994,
+  "score": 0,
+  "copies": 2,
+  "files": [
+   "3788946785_vehicle_4.lua",
+   "3792899963_vehicle_10.lua"
+  ]
+ }
+]

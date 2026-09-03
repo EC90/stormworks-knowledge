@@ -1,0 +1,3061 @@
+
+
+################################################################################
+## FILE: 624_Gameplay_Workbench_Components.md
+################################################################################
+# Gameplay/Workbench/Components
+
+## Components
+
+The components names on this page might differ from the names used in the games editor (mostly only the order of words changed).
+
+## Subpages
+
+[Blocks](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Blocks "Gameplay/Workbench/Components/Blocks") [Vehicle Control](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Vehicle_Control "Gameplay/Workbench/Components/Vehicle Control") [Mechanics](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Mechanics "Gameplay/Workbench/Components/Mechanics") [Propulsion](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Propulsion "Gameplay/Workbench/Components/Propulsion") Specialist Equipment [Logic](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Logic "Gameplay/Workbench/Components/Logic") [Displays](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Displays "Gameplay/Workbench/Components/Displays") [Sensors](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Sensors "Gameplay/Workbench/Components/Sensors") [Decorative](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Decorative "Gameplay/Workbench/Components/Decorative") [Radio](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Radio "Gameplay/Workbench/Components/Radio") [Fluids](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Fluids "Gameplay/Workbench/Components/Fluids") [Electricity](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Electricity "Gameplay/Workbench/Components/Electricity") Jet Engines Weapons Modular Engines
+
+Do you think a subpage is missing?
+
+## [Blocks](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Blocks "Wiki/Building/Components/Blocks")
+
+Parts without any logic and moving parts.
+For example:
+
+- Cubes
+- Windows
+
+## [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control "Wiki/Building/Components/Vehicle Control")
+
+Parts that help you to steer/move/control a vehicle.
+For example
+
+- Wheels
+- Wings
+- Rudders
+
+## [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics "Wiki/Building/Components/Mechanics")
+
+Parts that can move other things or can be moved itself.
+For example:
+
+- Pivots
+- Hinges
+- Doors
+- Tracks
+- [Hardpoints](https://stormworks.fandom.com/wiki/Hardpoint "Hardpoint")
+
+## [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion "Wiki/Building/Components/Propulsion")
+
+Parts that are used to move vehicles.
+For example:
+
+- Wheels
+- Propellers
+- Engines
+- Gearbox / Clutch
+
+## Specialist Equipment
+
+Parts that perform special actions.
+For example:
+
+- Cameras
+- Beds
+- Handheld Items
+- Pulleys
+
+## [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic "Wiki/Building/Components/Logic")
+
+Parts that interact with the logic network.
+For example:
+
+- Add, subtract, multiply, divide
+- AND, OR, NOT
+- Microcontrollers
+
+## [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays "Wiki/Building/Components/Displays")
+
+Parts that display values from the logic network.
+For example:
+
+- Dial
+- Digital display
+- Artificial Horizon
+
+## [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors "Wiki/Building/Components/Sensors")
+
+Parts that read values from the environment and output values for the logic network.
+For example:
+
+- GPS
+- Speed Sensor
+- Torquemeter
+- Radar/Sonar
+
+## [Decorative](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative "Wiki/Building/Components/Decorative")
+
+Parts are just here to build nice looking vehicles
+For example:
+
+- Rails
+- Tire (not a wheel!)
+
+## [Fluids](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids "Wiki/Building/Components/Fluids")
+
+Parts to handle fluids.
+For example:
+
+- Pipes
+- Pumps
+- Valves
+- Tanks
+
+## [Electricity](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Electricity "Wiki/Building/Components/Electricity")
+
+Parts that interact with the energy network (only used in [Advanced Mode](https://stormworks.fandom.com/wiki/Wiki/Building/Advanced_Mode "Wiki/Building/Advanced Mode").
+For example:
+
+- Relay
+- Battery
+- Generator
+
+## Jet Engines
+
+Parts that are used to build modular jet engines.
+For example:
+
+- Combustion chamber
+- Turbines
+- Intake, ducting, and exhaust
+
+## Weapons
+
+Parts for use with the [Weapons DLC](https://stormworks.fandom.com/wiki/Weapons_DLC "Weapons DLC").
+For example:
+
+- Modular cannons
+- Bombs
+
+## Modular Engines
+
+Parts used to build modular engines.
+For example:
+
+- Clutches
+- Cylinders
+- Belt-driven accessories
+
+## Industry
+
+Parts used with the [Industrial Frontier DLC](https://stormworks.fandom.com/wiki/Industrial_Frontier_DLC "Industrial Frontier DLC").
+For example:
+
+- Ducts
+- Oil rig parts
+- Steam engine parts
+
+## [Windows](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Windows "Wiki/Building/Components/Windows")
+
+Various shapes of window blocks.
+
+---
+
+Source: [Gameplay/Workbench/Components](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components) · Revision 4143 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 625_Gameplay_Workbench_Components_Blocks.md
+################################################################################
+# Gameplay/Workbench/Components/Blocks
+
+## Blocks
+
+Block
+
+[![Block](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/34/Block.jpg/revision/latest/scale-to-width-down/100?cb=20190317004603)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/34/Block.jpg/revision/latest?cb=20190317004603)
+
+The basic block (a cube) you will use to build vehicles, side length 0.25 metres (1 unit). Has a mass of 1.
+
+Wedge
+
+[![Wedge](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d7/Wedge.jpg/revision/latest/scale-to-width-down/100?cb=20190317004805)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d7/Wedge.jpg/revision/latest?cb=20190317004805)
+
+A basic building block for creating faces at a 45 degree angle to the axes. Has a mass of 0.5, takes up 1x1x1 units of space.
+
+Wedge 1x2
+
+[![Wedge 1x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5c/Wedge_1x2.png/revision/latest?cb=20200129211706)
+
+A basic building block for creating faces at a ~27 degree angle to the axes. Has a mass of 1, takes up 1x2x1 units of space.
+
+Wedge 1x4
+
+[![Wedge 1x4](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Wedge_1x4.png/revision/latest?cb=20200129211715)
+
+A basic building block for creating faces at a ~14 degree angle to the axes. Has a mass of 2, takes up 1x4x1 units of space.
+
+Inverse Pyramid
+
+[![Inverse Pyramid](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cf/Inverse_Pyramid.jpg/revision/latest?cb=20190317004630)
+
+A basic building block for creating faces at a 45 degree angle in two directions. Has a mass of 0.75, takes up 1x1x1 units of space.
+
+Inverse Pyramid 1x2
+
+[![Inverse Pyramid 1x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/69/Inverse_Pyramid_1x2.png/revision/latest?cb=20200129211803)
+
+A basic building block for creating faces in two directions. Has a mass of 2, takes up 1x2x1 units of space.
+
+Inverse Pyramid 1x4
+
+[![Inverse Pyramid 1x4](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/26/Inverse_Pyramid_1x4.png/revision/latest?cb=20200129211738)
+
+A basic building block for creating faces in two directions. Has a mass of 3, takes up 1x4x1 units of space.
+
+Inverse Pyramid 2x2
+
+[![Inverse Pyramid 2x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c7/Inverse_Pyramid_2x2.png/revision/latest?cb=20200129211815)
+
+A basic building block for creating faces in two directions. Has a mass of 3, takes up 2x2x1 units of space.
+
+Inverse Pyramid 2x4
+
+[![Inverse Pyramid 2x4](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/da/Inverse_Pyramid_2x4.png/revision/latest?cb=20200129211822)
+
+A basic building block for creating faces in two directions. Has a mass of 6, takes up 2x4x1 units of space.
+
+Inverse Pyramid 4x4
+
+[![Inverse Pyramid 4x4](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e5/Inverse_Pyramid_4x4.png/revision/latest?cb=20200129211838)
+
+A basic building block for creating faces in two directions. Has a mass of 12, takes up 4x4x1 units of space.
+
+Pyramid
+
+[![Pyramid](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d0/Pyramid.jpg/revision/latest?cb=20190317004731)
+
+A basic building block for creating faces at a 45 degree angle in two directions. Has a mass of 0.25, takes up 1x1x1 units of space.
+
+Pyramid 1x2
+
+[![Pyramid 1x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6a/Pyramid_1x2.png/revision/latest?cb=20200129211847)
+
+A basic building block for creating faces in two directions. Has a mass of 0.5, takes up 1x2x1 units of space.
+
+Pyramid 1x4
+
+[![Pyramid 1x4](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0e/Pyramid_1x4.png/revision/latest?cb=20200129211854)
+
+A basic building block for creating faces in two directions. Has a mass of 1, takes up 1x4x1 units of space.
+
+Pyramid 2x2
+
+[![Pyramid 2x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ea/Pyramid_2x2.png/revision/latest?cb=20200129211900)
+
+A basic building block for creating faces in two directions. Has a mass of 1, takes up 2x2x1 units of space.
+
+Pyramid 2x4
+
+[![Pyramid 2x4](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/99/Pyramid_2x4.png/revision/latest?cb=20200129211908)
+
+A basic building block for creating faces in two directions. Has a mass of 2, takes up 2x4x1 units of space.
+
+Pyramid 4x4
+
+[![Pyramid 4x4](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ef/Pyramid_4x4.png/revision/latest?cb=20200129211915)
+
+A basic building block for creating faces in two directions. Has a mass of 4, takes up 4x4x1 units of space.
+
+Weight Block
+
+[![Weight Block](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d8/Weight_Block.jpg/revision/latest?cb=20190317004816)
+
+A version of the regular building block with ten times the mass. Takes up 1x1x1 units of space.
+
+Stair Step
+
+[![Stair Step](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d5/Stair_Step.jpg/revision/latest?cb=20190317004739)
+
+Stair Top
+
+[![Stair Top](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d6/Stair_Top.jpg/revision/latest?cb=20190317004827)
+
+Handle
+
+[![Handle](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b4/Handle.jpg/revision/latest?cb=20190317004618)
+
+A player can grab this and pull the vehicle.
+
+Ladder
+
+[![Ladder](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e0/Ladder.jpg/revision/latest?cb=20190317004642)
+
+Combine at least 2 of them to use as a ladder. There can be a space of 1 block inbetween them and they will still work as 1 ladder.
+
+# Windows
+
+Window 1x1
+
+[![Window1x1](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/97/Window1x1.jpg/revision/latest?cb=20190317011651)
+
+Window 1x1 Wedge
+
+[![Window1x1 Wedge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0d/Window1x1_Wedge.jpg/revision/latest?cb=20190419115218)
+
+Window 1x1 Pyramid
+
+[![Window1x1 Pyramid](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c8/Window1x1_Pyramid.jpg/revision/latest?cb=20190419115232)
+
+Window 1x1 Inverted Pyramid
+
+[![Window1x1 Inverted Pyramid](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a4/Window1x1_Inverted_Pyramid.jpg/revision/latest?cb=20190419115313)
+
+Window 2x1
+
+[![Window2x1](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/38/Window2x1.jpg/revision/latest?cb=20190317011657)
+
+Window 2x2
+
+[![Window2x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a1/Window2x2.jpg/revision/latest?cb=20190317011703)
+
+Window 3x2
+
+[![Window3x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f6/Window3x2.jpg/revision/latest?cb=20190317011709)
+
+Window Large (3x3)
+
+[![Window Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d4/Window_Large.jpg/revision/latest?cb=20190317011627)
+
+Window Narrow (1x3)
+
+[![Window Narrow](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a6/Window_Narrow.jpg/revision/latest?cb=20190317011638)
+
+Window Large Angled
+
+[![Window Large Angled](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3e/Window_Large_Angled.jpg/revision/latest?cb=20190317011607)
+
+Window Narrow Angled
+
+[![Window Narrow Angled](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/93/Window_Narrow_Angled.jpg/revision/latest?cb=20190317011633)
+
+Window Large Corner
+
+[![Window Large Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bf/Window_Large_Corner.jpg/revision/latest?cb=20190317011619)
+
+Window Small Angled
+
+[![Window Small Angled](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/55/Window_Small_Angled.jpg/revision/latest?cb=20190317011644)
+
+Window Corner
+
+[![Window Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/96/Window_Corner.jpg/revision/latest?cb=20190317011549)
+
+Porthole Small
+
+[![Porthole Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/93/Porthole_Small.jpg/revision/latest?cb=20190317011534)
+
+Porthole
+
+[![Porthole](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ac/Porthole.jpg/revision/latest?cb=20190317011542)
+
+---
+
+Source: [Gameplay/Workbench/Components/Blocks](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Blocks) · Revision 4700 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 627_Gameplay_Workbench_Components_Mechanics.md
+################################################################################
+# Gameplay/Workbench/Components/Mechanics
+
+## Mechanics
+
+Compact Robotic Pivot
+
+Compact Velocity Pivot
+
+Small Connector
+
+[![Connector Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ed/Connector_Small.jpg/revision/latest?cb=20190317010346)
+
+Large Connector
+
+[![Connector Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/41/Connector_Large.jpg/revision/latest?cb=20190317010340)
+
+Hinge Connector
+
+[![Hinge Connector](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/22/Hinge_Connector.jpg/revision/latest?cb=20190317010504)
+
+Door Dock Small
+
+[![Door Dock Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/28/Door_Dock_Small.jpg/revision/latest?cb=20190317010400)
+
+Door Dock Large
+
+[![Door Dock Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d9/Door_Dock_Large.jpg/revision/latest?cb=20190317010352)
+
+Door Frame Controller
+
+[![Door Frame Controller](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6d/Door_Frame_Controller.jpg/revision/latest?cb=20190317010406)
+
+Door Frame Corner
+
+[![Door Frame Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b8/Door_Frame_Corner.jpg/revision/latest?cb=20190317010412)
+
+Door Frame Edge
+
+[![Door Frame Edge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/42/Door_Frame_Edge.jpg/revision/latest?cb=20190317010417)
+
+Door Panel Corner
+
+[![Door Panel Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/dc/Door_Panel_Corner.jpg/revision/latest?cb=20190317010425)
+
+Door Panel Edge
+
+[![Door Panel Edge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3f/Door_Panel_Edge.jpg/revision/latest?cb=20190317010431)
+
+Hatch
+
+[![Hatch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5f/Hatch.jpg/revision/latest?cb=20190317010456)
+
+Door
+
+[![Door](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/dc/Door.jpg/revision/latest?cb=20190317010439)
+
+Robotic Door Hinge
+
+[![Robotic Door Hinge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f3/Robotic_Door_Hinge.jpg/revision/latest?cb=20190317010609)
+
+Linear Track Base Small
+
+[![Linear Track Base Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/05/Linear_Track_Base_Small.jpg/revision/latest?cb=20190317010517)
+
+Linear Track Extension Small
+
+[![Linear Track Extension Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5a/Linear_Track_Extension_Small.jpg/revision/latest?cb=20190317010529)
+
+Linear Track Base
+
+[![Linear Track Base](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/92/Linear_Track_Base.jpg/revision/latest?cb=20190317010524)
+
+Linear Track Extension
+
+[![Linear Track Extension](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f2/Linear_Track_Extension.jpg/revision/latest?cb=20190317010535)
+
+Magnet
+
+[![Magnet](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/ce/Magnet.jpg/revision/latest?cb=20190317010542)
+
+Piston
+
+[![Piston](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a1/Piston.jpg/revision/latest?cb=20190317010554)
+
+Piston Suspension
+
+[![Piston Suspension](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Piston_Suspension.jpg/revision/latest?cb=20190317010548)
+
+Pivot
+
+[![Pivot](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/de/Pivot.jpg/revision/latest?cb=20190317010601)
+
+Robotic Hinge
+
+[![Robotic Hinge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/17/Robotic_Hinge.jpg/revision/latest?cb=20190317010617)
+
+Velocity Pivot
+
+[![Velocity Pivot](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/87/Velocity_Pivot.jpg/revision/latest?cb=20190317010703)
+
+Robotic Pivot Power
+
+[![Robotic Pivot Power](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1a/Robotic_Pivot_Power.jpg/revision/latest?cb=20190317010630)
+
+Robotic Pivot Fluid
+
+[![Robotic Pivot Fluid](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/89/Robotic_Pivot_Fluid.jpg/revision/latest?cb=20190317010624)
+
+Sliding Connector Track
+
+[![Sliding Connector Track](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/36/Sliding_Connector_Track.jpg/revision/latest?cb=20190317010642)
+
+Sliding Connector Gripper
+
+[![Sliding Connector Gripper](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ef/Sliding_Connector_Gripper.jpg/revision/latest?cb=20190317010636)
+
+Suspension
+
+[![Suspension](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/38/Suspension.jpg/revision/latest?cb=20190317010648)
+
+Vehicle Parachute
+
+[![Vehicle Parachute](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/8d/Vehicle_Parachute.jpg/revision/latest?cb=20190317010655)
+
+Winch Small
+
+[![Winch Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/de/Winch_Small.jpg/revision/latest?cb=20190317010722)
+
+Winch Large
+
+[![Winch Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c8/Winch_Large.jpg/revision/latest?cb=20190317010712)
+
+Landing Float
+
+[![Landing Float](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a5/Landing_Float.jpg/revision/latest?cb=20190317010509)
+
+Floats on water.
+
+### Robotic Pivots
+
+- Input:
+- Logic (number): Rotation Target
+- Pipes: As specified in their names (Fluid or Rotation (RPS)) NOTE: The Compact pivot does not have a pipe in-, nor output
+- Output:
+- Pipes: As specified
+
+Robotic pivots can, as their name suggests, pivot to a specified destination. This destination can be -90 to 90 degrees from the starting position (1/4th of a turn in both directions. However, if you input a number, it should be between -1 and 1, since the input isn't understood by the robotic pivot in degrees. This means that if you want to turn the pivot to 45°, then your input has to be 0.5. Due to this, if you want to turn to a very specific, not easily converted angle, (like 38.7°) you have to use a bit of maths. The formula is the following:
+
+#### x = C u s t o m A n g l e ÷ 90 {\displaystyle x=CustomAngle\div 90} {\displaystyle x=CustomAngle\div 90}
+
+where "x" is the number the pivot needs. From this, with our example, we get
+
+38.7
+÷
+90
+=
+0.43
+{\textstyle 38.7\div 90=0.43}
+![{\textstyle 38.7\div 90=0.43}](https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/dee806ef4be5d1f455c685445ac8d3bb97136bde), meaning our input will be 0.43.
+
+#### Compact Robotic Pivot
+
+- The smallest one of the bunch, with no extra features
+
+#### Robotic Pivot Power
+
+- One of the 2 big ones
+- Can be used as an RPS Passthrough. For example if you're building a custom rail truck, and you want to power the wheels, you use this pivot for putting the RPS from the engine to the wheels
+
+#### Robotic Pivot Fluid
+
+- The 2nd big guy
+- Has a built-in fluid passthrough, meaning you can pass fluids through it. Custom fire extinguisher turrets come to mind as an example, directing the water from the fluid tanks to the adjustable nozzle.
+
+### Velocity Pivots
+
+- Input:
+- Logic (number): Rotation Speed
+- Output:
+- Logic (number): Pivot Angle (ONLY on the big version)
+
+Velocity Pivots are usually used where either a constant motion is required, or a Robotic Pivot's maximum angles are too much of a limitation. The non-compact version is the go-to usually for many builders, because of that extra angle output. That makes a lot more things possible, because without that, you can never be sure if your pivot is actually at the place it is supposed to be.
+
+#### Compact Velocity Pivot
+
+- The small one, you tell it how to spin and it will try its best
+
+#### Velocity Pivot
+
+- Used either the same way as the small one, without using the angle output
+- OR by using the angle output, and attaching it to a PID, you can accurately tell it where to go, thereby opening up many possibilities, for example, for turrets that you want to turn all the way around.
+
+---
+
+Source: [Gameplay/Workbench/Components/Mechanics](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Mechanics) · Revision 4165 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 633_Gameplay_Workbench_Components_Propulsion.md
+################################################################################
+# Gameplay/Workbench/Components/Propulsion
+
+## Propulsion
+
+# Diesel Engines (producing power)
+
+[Diesel Engines](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion/DieselEngines "Wiki/Building/Components/Propulsion/DieselEngines") burn diesel to produce power. They are the cheapest way of producing power.
+
+Small Engine
+
+[Medium Engine](https://stormworks.fandom.com/wiki/Medium_Engine "Medium Engine")
+
+[![Aircraft Engine](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/28/Aircraft_Engine.jpg/revision/latest/scale-to-width-down/100?cb=20190317005355)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/28/Aircraft_Engine.jpg/revision/latest?cb=20190317005355)
+
+[Large Engine](https://stormworks.fandom.com/wiki/Large_Engine "Large Engine")
+
+[![Diesel Engine Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0a/Diesel_Engine_Large.jpg/revision/latest?cb=20190317005401)
+
+# Electric Motors (producing power)
+
+Electrical motors differ from other engines in that they have an adaptive power output, meaning that it can provide high Torque or high RPS depending on what is needed without requiring a gearbox. They can also supply mechanical power from 0 RPS and so do not require a clutch like the diesel engines to avoid stalling.
+
+Electric Motors consume large amounts of electrical energy and can not (except in very unique cases) be used without another power generating component connected to a generator. At the current state of the game smaller motors seem to be more efficient but even several of them will not provide sufficient output for larger vessels.
+
+Motor Small
+
+[![Motor Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ee/Motor_Small.jpg/revision/latest?cb=20190317010940)
+
+Motor Medium
+
+[![Motor Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Motor_Medium.jpg/revision/latest?cb=20190317010935)
+
+Motor Large
+
+[![Motor Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2d/Motor_Large.jpg/revision/latest?cb=20190317010929)
+
+# Jet Engines (producing power)
+
+Jet Turbine Small
+
+[![Jet Turbine Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/05/Jet_Turbine_Small.jpg/revision/latest?cb=20190317005538)
+
+Jet Turbine Medium
+
+[![Jet Turbine Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c7/Jet_Turbine_Medium.jpg/revision/latest?cb=20190317005532)
+
+Jet Intake Small
+
+[![Jet Intake Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/35/Jet_Intake_Small.jpg/revision/latest?cb=20190317005527)
+
+Jet Intake Medium
+
+[![Jet Intake Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/08/Jet_Intake_Large.jpg/revision/latest?cb=20190317005519)
+
+Jet Compressor
+
+[![Jet Compressor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b2/Jet_Compressor.jpg/revision/latest?cb=20190317005423)
+
+Jet Combustion Chamber
+
+[![Jet Combustion Chamber](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c1/Jet_Combustion_Chamber.jpg/revision/latest?cb=20190317005416)
+
+Jet Duct T-Piece
+
+[![Jet Duct T-Piece](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/08/Jet_Duct_T-Piece.jpg/revision/latest?cb=20190419121038)
+
+Jet Duct Straight
+
+[![Jet Duct Straight](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c5/Jet_Duct_Straight.jpg/revision/latest?cb=20190317005447)
+
+Jet Duct Corner
+
+[![Jet Duct Angle](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1f/Jet_Duct_Angle.jpg/revision/latest?cb=20190317005429)
+
+Jet Duct Diagonal
+
+[![Jet Duct Diagonal](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2a/Jet_Duct_Diagonal.jpg/revision/latest?cb=20190317005441)
+
+Jet Duct Cross
+
+[![Jet Duct Cross](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/13/Jet_Duct_Cross.jpg/revision/latest?cb=20190317005435)
+
+Jet Exhaust Basic
+
+[![Jet Exhaust Basic](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/98/Jet_Exhaust_Basic.jpg/revision/latest?cb=20190317005505)
+
+Jet Exhaust Rotating
+
+[![Jet Exhaust Rotating](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/73/Jet_Exhaust_Rotating.jpg/revision/latest?cb=20190317005512)
+
+Jet Exhaust Afterburner
+
+[![Jet Exhaust Afterburner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Jet_Exhaust_Afterburner.jpg/revision/latest?cb=20190317005458)
+
+# Other
+
+Gearbox
+
+[![Gearbox](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/59/Gearbox.jpg/revision/latest?cb=20190317010448)
+
+More information [here](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion/Gearbox "Wiki/Building/Components/Propulsion/Gearbox") or [here](https://stormworks.fandom.com/wiki/Wiki/Guides/Gearbox "Wiki/Guides/Gearbox")
+Each gearbox has 2 ratios. When the gearbox is given an on signal, the second ratio is engaged. When the gearbox arrows travel with the flow of power it will act as a step down gearbox. By rotating the gearbox through 180 degrees, it can be used as a step up gearbox. A ratio of 1:-1 is also available to allow for reversing the direction of rotation.
+
+Clutch
+
+[![Clutch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/87/Clutch.jpg/revision/latest?cb=20190317010328)
+
+A clutch is used to control the transmission of force transmitted through piping. It has a range from 0 to 1. At value 1 the clutch is fully engaged and will transmit the maximum amount of power from its input to its output. At 0 the clutch is completely disengaged and will transmit no power. A clutch allows you to separate your engine from the drive train to accommodate multiple gears or to let the engine remain running while the load is idle. There is a small power loss associated with using a clutch.
+
+# Air (consuming power)
+
+Aircraft Propeller
+
+[![Aircraft Propeller](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6b/Aircraft_Propeller.jpg/revision/latest?cb=20190317010854)
+
+Tail Rotor
+
+[![Tail Rotor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/14/Tail_Rotor.jpg/revision/latest?cb=20190317011032)
+
+Used to control yaw of helicopters.
+
+Rotor Large
+
+[![Rotor Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/69/Rotor_Large.jpg/revision/latest?cb=20190317011026)
+
+Rotor Huge
+
+[![Rotor Huge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/dd/Rotor_Huge.jpg/revision/latest?cb=20190317011018)
+
+Rotor Heavy
+
+[![Rotor Heavy](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/49/Rotor_Heavy.jpg/revision/latest?cb=20190317011010)
+
+Rotor Heavy Large
+
+[![Rotor Heavy Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1f/Rotor_Heavy_Large.jpg/revision/latest?cb=20190317011003)
+
+Ducted Fan Small
+
+[![Ducted Fan Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b7/Ducted_Fan_Small.jpg/revision/latest?cb=20190317010917)
+
+Ducted Fan Large
+
+[![Ducted Fan Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2e/Ducted_Fan_Large.jpg/revision/latest?cb=20190317010908)
+
+# Water (consuming power)
+
+Propeller Small
+
+[![Propeller Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fa/Propeller_Small.jpg/revision/latest?cb=20190317010957)
+
+Propeller Large
+
+[![Propeller Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/92/Propeller_Large.jpg/revision/latest?cb=20190317010951)
+
+Propeller Giant
+
+[![Propeller Giant](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d2/Propeller_Giant.jpg/revision/latest?cb=20190317010946)
+
+[Fluid Jet](https://stormworks.fandom.com/wiki/Fluid_jet "Fluid jet")
+
+[![Fluid Jet](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d4/Fluid_Jet.jpg/revision/latest?cb=20190317005645)
+
+Azimuth Thruster
+
+[![Azimuth Thruster](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c3/Azimuth_Thruster.jpg/revision/latest?cb=20190317010902)
+
+# Solid Rockets
+
+Solid Rocket Fuel blocks provide the fuel, Solid Rocket Boosters consume that fuel, and act as an engine.
+You can combine multiple fuel blocks with a single engine, just place all of them on top of a booster (top=opposite site of the exhaust).
+You can only start the boosters with a Boolean tick. The booster can not be throttled at will run at full thrust until the fuel source is used up.
+When the fuel number is set to a negative number in xml then the block will have negative mass. Changing the length of the rocket in xml will offset the flame and make the rocket stronger.
+
+Solid Rocket Booster Huge
+
+[![Solid Rocket Booster Huge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/10/Solid_Rocket_Booster_Huge.png/revision/latest?cb=20200130201510)
+
+Solid Rocket Booster Large
+
+[![Solid Rocket Booster Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/25/Solid_Rocket_Booster_Large.png/revision/latest?cb=20200130201517)
+
+Solid Rocket Booster Medium
+
+[![Solid Rocket Booster Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/40/Solid_Rocket_Booster_Medium.png/revision/latest?cb=20200130201522)
+
+Solid Rocket Booster Small
+
+[![Solid Rocket Booster Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3d/Solid_Rocket_Booster_Small.png/revision/latest?cb=20200130201526)
+
+Solid Rocket Fuel Huge
+
+[![Solid Rocket Fuel Huge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7e/Solid_Rocket_Fuel_Huge.png/revision/latest?cb=20200130201532)
+
+Solid Rocket Fuel Large
+
+[![Solid Rocket Fuel Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2c/Solid_Rocket_Fuel_Large.png/revision/latest?cb=20200130201538)
+
+Solid Rocket Fuel Medium
+
+[![Solid Rocket Fuel Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0e/Solid_Rocket_Fuel_Medium.png/revision/latest?cb=20200130201542)
+
+Solid Rocket Fuel Small
+
+[![Solid Rocket Fuel Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/93/Solid_Rocket_Fuel_Small.png/revision/latest?cb=20200130201547)
+
+# Train (consuming power)
+
+Train Wheel Assembly
+
+[![Train Wheel Assembly](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6a/Train_Wheel_Assembly.jpg/revision/latest?cb=20190317011039)
+
+# Wheels (consuming power)
+
+See [control surfaces](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control "Wiki/Building/Components/Vehicle Control").
+
+# Tracks(consuming power)
+
+See [control surfaces](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control "Wiki/Building/Components/Vehicle Control").
+}}
+
+---
+
+Source: [Gameplay/Workbench/Components/Propulsion](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Propulsion) · Revision 4699 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 632_Gameplay_Workbench_Components_Logic.md
+################################################################################
+# Gameplay/Workbench/Components/Logic
+
+## Logic
+
+# Introduction to Logic
+
+There are two key types of logic blocks with an extra section. The first is numeric, numeric logic blocks allow the user to manipulate numerical data, for example plus to input values together. The second is boolean, boolean logic allows for a true or false style of logic, for example opening/closing doors or on/off for lights.
+
+Stormworks has two ways of impliment logic, either directly by placing them on a creation in the workshop, or by using them in a microcontroller.
+
+# Numeric
+
+Add
+
+[![Add](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/76/Add.jpg/revision/latest/scale-to-width-down/100?cb=20190317005907)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/76/Add.jpg/revision/latest?cb=20190317005907)
+
+- Input 1 (Number)
+- Input 2 (Number)
+- Output 1 (Number)
+- adds two numbers
+
+Subtract
+
+[![Subtract](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9f/Subtract.jpg/revision/latest/scale-to-width-down/100?cb=20190317010249)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9f/Subtract.jpg/revision/latest?cb=20190317010249)
+
+- Input 1 (Number)
+- Input 2 (Number)
+- Output 1 (Number)
+- subtracts two numbers
+
+Multiply
+
+[![Multiply](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cb/Multiply.jpg/revision/latest?cb=20190317010141)
+
+- Input 1 (Number)
+- Input 2 (Number)
+- Output 1 (Number)
+- multiplies two numbers
+
+Divide
+
+[![Divide](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a5/Divide.jpg/revision/latest?cb=20190317010023)
+
+- Input 1 (Number)
+- Input 2 (Number)
+- Output 1 (Number)
+- divides two numbers
+
+Abs
+
+[![Abs](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6d/Abs.jpg/revision/latest?cb=20190317005900)
+
+- Input 1 (Number)
+- Output 1 (Number)
+- the absolute value of a number
+
+Clamp
+
+[![Clamp](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/db/Clamp.jpg/revision/latest?cb=20190317005934)
+
+- Input 1 (Number)
+- Output 1 (Number)
+- cuts off the input number at the given limits
+
+Constant Number
+
+[![Constant Number](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/60/Constant_Number.jpg/revision/latest?cb=20190317005944)
+
+- Output 1 (Number): the defined value
+
+Exponent
+
+[![Exponent](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e6/Exponent.jpg/revision/latest?cb=20190317010032)
+
+- Input 1 (Number)
+- Input 2 (Number)
+- Output 1 (Number): the exponent of both inputs
+
+Greater than
+
+[![Greater Than](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e5/Greater_Than.jpg/revision/latest?cb=20190317010051)
+
+- Input 1 (Number)
+- Input 2 (Number)
+- Output 1 (On/Off)
+- Outputs either true or false depending if Input 1 is greater than Input 2 or not.
+
+Less than
+
+[![Less Than](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ae/Less_Than.jpg/revision/latest?cb=20190317010115)
+
+- Input 1 (Number)
+- Input 2 (Number)
+- Output 1 (On/Off)
+- Outputs either true or false depending if Input 1 is less than Input 2 or not.
+
+Threshold Gate
+
+[![Threshold Gate](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/06/Threshold_Gate.jpg/revision/latest?cb=20190317010256)
+
+- The output is "On" if the tested value is in the defined interval
+
+Modulo
+
+[![Modulo](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7e/Modulo.jpg/revision/latest?cb=20190317010134)
+
+- Input 1 (Number)
+- Input 2 (Number)
+- Output 1 (Number)
+- calculate the modulo of two numbers
+
+Numerical Inverter
+
+[![Numerical Inverter](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c7/Numerical_Inverter.jpg/revision/latest?cb=20190317010156)
+
+- Input 1 (Number)
+- Output 1 (Number)
+- inverts the input number: `f(-x)`
+
+Trigonometry
+
+[![Trigonometry](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/8c/Trigonometry.jpg/revision/latest?cb=20190317010303)
+
+- can output different functions such as sin, cos, tan
+
+# Boolean (True/False)
+
+And
+
+[![And](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d3/And.jpg/revision/latest?cb=20190317005912)
+
+- Input 1 (On/Off)
+- Input 2 (On/Off)
+- Output 1 (On/Off)
+- if both inputs are on
+
+Not
+
+[![Not](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/21/Not.jpg/revision/latest?cb=20190317010148)
+
+- Input 1 (On/Off)
+- Output 1 (On/Off)
+- inverts the input ("On"->"Off", "Off"->"On")
+
+Constant On
+
+[![Constant On](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e2/Constant_On.jpg/revision/latest?cb=20190317005952)
+
+- Output 1 (On/Off): always outputs "On"
+
+JK Flip Flop
+
+[![JK Flip Flop](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2c/JK_Flip_Flop.jpg/revision/latest?cb=20190317010106)
+
+- Input 1 (On/Off): Set Flip Flop to "On"
+- Input 2 (Number): Set Flip Flop to "Off"
+- Output 1 (On/Off): state of the Flip Flop
+- Output 2 (On/Off): opposite of the state of the Flip Flop
+
+Or
+
+[![Or](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d6/Or.jpg/revision/latest?cb=20190317010218)
+
+- Input 1 (On/Off)
+- Input 2 (On/Off)
+- Output 1 (On/Off): outputs "On" if input 1 or input 2 or both are "On"
+
+Push to toggle
+
+[![Push To Toggle](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/dd/Push_To_Toggle.jpg/revision/latest?cb=20190317010234)
+
+- Input 1 (On/Off): change the state ("On"->"Off", "Off"->"On")
+- Output 1 (On/Off): state of the toggle
+
+SR Latch
+
+[![SR Latch](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c5/SR_Latch.jpg/revision/latest?cb=20190317010241)
+
+Xor
+
+[![XOR](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e0/XOR.jpg/revision/latest?cb=20190317010319)
+
+- Input 1 (On/Off)
+- Input 2 (On/Off)
+- outputs "On" if only one of the two inputs is "On"
+
+# Composite
+
+# Functions
+
+Function (1 Input)
+
+[![Function 1 Input](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5f/Function_1_Input.jpg/revision/latest?cb=20190317010039)
+
+- Input 1 (Number)
+- Output 1 (Number)
+- applies a defined function onto a value
+
+Function (3 Input)
+
+[![Function 3 Input](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/57/Function_3_Input.jpg/revision/latest?cb=20190317010045)
+
+- Input 1 (Number)
+- Input 2 (Number)
+- Input 3 (Number)
+- Output 1 (Number)
+- Same as Function with 1 input but you can use more different inputs in your function
+
+Clamp: Sets both minimum and maximum values for a number. Although it states "clamp x within y and z" without specifying any order, it does require inputs in the order of (input, min, max).
+
+# Other
+
+Blinker
+
+[![Blinker](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d8/Blinker.jpg/revision/latest?cb=20190317005918)
+
+- Input 1 (On/Off): activate blinker
+- Output 1 (On/Off)
+- outputs "on" in a player defined rate
+
+Capacitor
+
+[![Capacitor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5a/Capacitor.jpg/revision/latest?cb=20190317005925)
+
+- Input 1 (On/Off)
+- Output 1 (On/Off)
+- can delay and/or extend the input signal
+
+Delay
+
+[![Delay](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/16/Delay.jpg/revision/latest?cb=20190317010016)
+
+- Input 1 (On/Off)
+- Output 1 (On/Off)
+- delays the change of the input signal (it will extend and delay the "On" state)
+
+Counter
+
+[![Counter](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4c/Counter.jpg/revision/latest?cb=20190317010006)
+
+- Input 1 (On/Off): is active
+- Output 1 (Number): the current counter value
+- after a defined time increases the counter value by 1
+
+Counter (Ping Pong)
+
+[![Counter Ping Pong](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a4/Counter_Ping_Pong.jpg/revision/latest?cb=20190317010000)
+
+- Input 1 (On/Off): is active
+- Output 1 (Number): the current counter value
+- after a defined time increases the counter value by 1 until it reaches its upper limit. Then it will count -1 until it reaches its lower limit ... and again and again
+
+Memory
+
+[![Memory](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/55/Memory.jpg/revision/latest?cb=20190317010121)
+
+- Input 1 (Number): the value to write to the memory
+- Input 2 (On/Off): write value to memory now
+- Input 3 (On/Off): reset memory to defined value (default: 0)
+- Output 1 (Number): value in the memory
+- can be used to store a value over time
+
+Numerical Junction
+
+[![Numerical Junction](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/70/Numerical_Junction.jpg/revision/latest?cb=20190317010203)
+
+- Input 1 (Number)
+- Input 2 (On/Off): use output 2
+- Output 1 (Number): outputs value of input 1 (if input 2 = "Off")
+- Output 2 (Number): outputs value of input 1 (if input 2 = "On")
+
+Numerical Switchbox
+
+[![Numerical Switchbox](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Numerical_Switchbox.jpg/revision/latest?cb=20190317010212)
+
+- Input 1 (Number)
+- Input 2 (Number)
+- Input 3 (On/Off): use input 2
+- Output 1 (Number): outputs value of input 1 (if input 3 = "Off") and value of input 2 (if input 3 = "On")
+
+Up/Down
+
+[![Up Down](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Up_Down.jpg/revision/latest?cb=20190317010310)
+
+- outputs 1 if "On" and -1 if "Off"
+
+# Microcontroller
+
+[Microcontroller](https://stormworks.fandom.com/wiki/Wiki/Building/Microcontrollers "Wiki/Building/Microcontrollers")
+
+[![Microcontroller](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d5/Microcontroller.jpg/revision/latest?cb=20190317010127)
+
+- This holds logic components and is used to organize groups of logic components and save space. It is the only way to read or write composite data.
+
+Gyro
+
+[![Gyro](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bf/Gyro.jpg/revision/latest?cb=20190317010059)
+
+- Can be used to control a helicopter like vehicle
+
+PID Controller
+
+[![PID Controller](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/71/PID_Controller.jpg/revision/latest?cb=20190317010226)
+
+- Input 1 (Number): the target value
+- Input 2 (Number): the current measured value
+- Input 3 (On/Off): is active
+- Output 1 (Number): the value used to control the measured value
+- can be used to e.g. control the speed and throttle of a vehicle or engine
+
+---
+
+Source: [Gameplay/Workbench/Components/Logic](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Logic) · Revision 4163 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 636_Gameplay_Workbench_Components_Sensors.md
+################################################################################
+# Gameplay/Workbench/Components/Sensors
+
+## Sensors
+
+## Environment
+
+Player Sensor
+
+[![Player Sensor](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/99/Player_Sensor.jpg/revision/latest/scale-to-width-down/100?cb=20190419122800)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/99/Player_Sensor.jpg/revision/latest?cb=20190419122800)
+
+- Output 1 (Number): Number of players detected
+- Output 2 (On/Off): if at least one player is detected
+
+Types:
+
+- Sphere (Trigger is a ball around the sensor)
+- Hemisphere (is half of a ball = just in the front)
+
+Mode:
+
+- Detect All
+- Detect Players
+- Detect NPCs
+
+Radius:
+
+- Minimum 0.25m (1 block)
+- Maximum 10m (40 blocks)
+
+Wind Sensor
+
+[![Wind Sensor](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/41/Wind_Sensor.jpg/revision/latest/scale-to-width-down/100?cb=20190317011242)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/41/Wind_Sensor.jpg/revision/latest?cb=20190317011242)
+
+- Output 1 (Number): Relative direction of the wind
+- Output 2 (Number): Relative speed of the wind (in m/s)
+
+Rain Sensor
+
+[![Rain Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a2/Rain_Sensor.jpg/revision/latest?cb=20190317011222)
+
+- Output 1 (Number): How intense its raining (0 - Sunny, 1 - Thunderstorm)
+
+Humidity Sensor
+
+[![Humidity Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/dc/Humidity_Sensor.jpg/revision/latest?cb=20190317011207)
+
+- Output 1 (Number): Humidity (0 - No fog, 1 - Max fog)
+
+Temperature Sensor
+
+[![Temperature Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/87/Temperature_Sensor.png/revision/latest?cb=20200130202517)
+
+- Output 1 (Number): Ambient room temperature in °C
+
+## Position of Vehicle relative to the world
+
+Tilt Sensor
+
+[![Tilt Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/8b/Tilt_Sensor.jpg/revision/latest?cb=20190317011229)
+
+- Output 1 (Number): The "angle" of tilt. 0.25 is +90 degree, -0.25 is -90 degree. Zero is defined by the direction of the block (blue arrow when placing).
+
+Physics Sensor
+
+[![Linear Speed Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Linear_Speed_Sensor.jpg/revision/latest?cb=20190317011212)
+
+- The physics sensor component combines functionality of several other sensors into a single block. The sensor outputs position, rotation, linear and angular speeds over 14 composite channels detailed on the component, where the red arrow is the X-axis, the green arrow is the Y-axis, and the blue arrow is the Z-axis.
+
+The composite output is:
+
+- Output 1 to 3 (Number): X, Y and Z position of the block
+- Output 4 to 6 (Number): Euler rotation X, Y and Z of the block
+- Output 7 to 9 (Number): Linear velocity X, Y and Z of the block
+- Output 10 to 12 (Number): Angular velocity X, Y and Z of the block
+- Output 13 (Number): Absolute linear velocity of the block
+- Output 14 (Number): Absolute angular velocity of the block
+- Output 15 (Number): Local Z tilt (pitch)
+- Output 16 (Number): Local X tilt (roll)
+- Output 17 (Number): Compass heading (-0.5 to 0.5)
+
+Note that modifying physics sensor in xml to make it invisible also disturbs output 17.
+
+Linear Speed Sensor
+
+[![Linear Speed Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Linear_Speed_Sensor.jpg/revision/latest?cb=20190317011212)
+
+- Output 1 (Number): Speed in m/s.
+
+There are different modes:
+
+- Absolute: The speed without caring about direction.
+- Horizontal: The horizontal speed.
+- Vertical: The vertical speed.
+- Directional: The speed in the axis of the sensor. This is the only mode in which the orientation of the sensor matters.
+
+Distance Sensor
+
+[![Distance Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/73/Distance_Sensor.jpg/revision/latest?cb=20190317011132)
+
+- Output 1 (Number): Distance to the next block (in the direction of blue arrow when placing). Max range: 500m
+- when nothing is detected, it will output 500m.
+
+Laser Distance Sensor
+
+[![Laser Distance Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/84/Laser_Distance_Sensor.png/revision/latest?cb=20200130200837)
+
+- Similar to distance sensor, but has a higher max range (4000m).
+- when nothing is detected, it will output 4000m.
+- also shows a cool laser beam when active
+- Optional IR mode hides visible laser (unless using Night Vision)
+
+Laser Point Sensor
+
+[![Laser Point Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b7/Laser_Point_Sensor.png/revision/latest?cb=20200130200841)
+
+- can detect laser beacons and tell you in which direction the laser beacon is.
+
+Laser Beacon
+
+[![Laser Beacon](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5e/Laser_Beacon.png/revision/latest?cb=20200130200845)
+
+Needed for the Laser Point Sensor.
+
+[Compass Sensor](https://stormworks.fandom.com/wiki/Compass_Sensor "Compass Sensor")
+
+[![Compass Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f8/Compass_Sensor.jpg/revision/latest?cb=20190317011124)
+
+- Output 1 (Number): your direction relative to the north
+
+Altimeter
+
+[![Altimeter](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/08/Altimeter.jpg/revision/latest?cb=20190317011110)
+
+- Output 1 (Number): the height relative to the sea level in meters.
+
+GPS
+
+[![GPS](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f3/GPS.jpg/revision/latest?cb=20190317011201)
+
+- Output 1 (Number): the x coordinate.
+- Output 2 (Number): the y coordinate.
+
+## Mechanical
+
+Torque Meter
+
+[![Torque Meter](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/22/Torque_Meter.jpg/revision/latest?cb=20190317011236)
+
+- Output 1 (Number): the RPS (rotations per second).
+- Output 2 (Number): the force.
+
+## Radar
+
+Basic Radar
+
+[![Stormworks-radar-basic](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/07/Stormworks-radar-basic.jpg/revision/latest?cb=20240829151115)
+
+- Can detect vehicles and persons in a radius around it.
+- For more informations on the radar Please visit
+- [https://stormworks.fandom.com/wiki/Radar](https://stormworks.fandom.com/wiki/Radar "Radar")
+
+Phalanx Radar
+
+[![Strormworks-Radar-Phalanx](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9f/Strormworks-Radar-Phalanx.jpg/revision/latest?cb=20240829151115)
+
+- Can detect vehicles and persons in a radius around it.
+
+Radar Dish / Large radar
+
+[![Stormworks-radar-dish](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Stormworks-radar-dish.jpg/revision/latest?cb=20240829151115)
+
+- Can detect vehicles and persons in a radius around it.
+
+Radar AWACS / Huge Radar
+
+[![Stormworks-radar-awacs](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a1/Stormworks-radar-awacs.jpg/revision/latest?cb=20240829151114)
+
+- Can detect vehicles and persons in a radius around it.
+- Largest Radar in game
+
+Missle Radar
+
+[![Stormworks-radar-missle](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/42/Stormworks-radar-missle.jpg/revision/latest?cb=20240829151115)
+
+- Can detect vehicles and persons in a radius around it.
+- Desinged to be used on missles
+- Has a specialized composite port to be able to connect to rocket fins
+
+## Sonar
+
+A sonar that returns information about detected objects within range. This sensor outputs the relative angle to underwater sound waves. The sensor can passively detect certain noisy components such as propellers or engines, but it can also send out a loud ping to detect quiet underwater bodies. While the ping input is held, passive signals will be suppressed. After activating, another ping will overwrite the previous one, and no further data will be returned from the old signal.
+
+Smal Sonar
+
+[![Stormworks-smal-sonar](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ed/Stormworks-smal-sonar.jpg/revision/latest?cb=20240829150026)
+
+- Can detect Bodies in a radius of 60km around it.
+- Has a specialized composite port to be able to connect to rocket fins
+
+Smal Sonar
+
+[![Stormworks-Medium-Sonar](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/ba/Stormworks-Medium-Sonar.jpg/revision/latest?cb=20240829152459)
+
+- Can detect Bodies in a radius of 100km around it.
+
+Smal Sonar
+
+[![Stormworks-Large-Sonar](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/00/Stormworks-Large-Sonar.jpg/revision/latest?cb=20240829152500)
+
+- Can detect Bodies in a radius of 200km around it.
+
+## Fluid
+
+Fluid Pressure Sensor
+
+[![Fluid Pressure Sensor](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1d/Fluid_Pressure_Sensor.jpg/revision/latest?cb=20190317011155)
+
+- Output 1 (Number): the pressure.
+
+Fluid Meter
+
+[![Fluid Meter](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/08/Fluid_Meter.jpg/revision/latest?cb=20190317011147)
+
+- Output 1 (Number): the capacity of the surrounding room.
+- Output 2 (Number): the amount of fluid in the surrounding room in liters.
+
+## Other
+
+Clock
+
+[![Clock](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/20/Clock.jpg/revision/latest?cb=20190317011116)
+
+- Output 1 (Number): the current time (0 = 12am, 0.5 = 12pm)
+
+---
+
+Source: [Gameplay/Workbench/Components/Sensors](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Sensors) · Revision 4637 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 626_Gameplay_Workbench_Components_Vehicle_Control.md
+################################################################################
+# Gameplay/Workbench/Components/Vehicle Control
+
+## Vehicle Control
+
+# Wheels
+
+Wheel Small
+
+[![Wheel Small](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3e/Wheel_Small.jpg/revision/latest/scale-to-width-down/100?cb=20190317011058)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3e/Wheel_Small.jpg/revision/latest?cb=20190317011058)
+
+Wheel Medium
+
+[![Wheel Medium](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/41/Wheel_Medium.jpg/revision/latest/scale-to-width-down/100?cb=20190317011052)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/41/Wheel_Medium.jpg/revision/latest?cb=20190317011052)
+
+Wheel 3x3
+
+[![Wheel 3x3](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/17/Wheel_3x3.jpg/revision/latest?cb=20190419120225)
+
+Wheel 3x3 Suspension
+
+[![Wheel 3x3 Suspension](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/61/Wheel_3x3_Suspension.jpg/revision/latest?cb=20190419120239)
+
+Wheel 5x5
+
+[![Wheel 5x5](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1b/Wheel_5x5.jpg/revision/latest?cb=20190419120250)
+
+Wheel 5x5 Suspension
+
+[![Wheel 5x5 Suspension](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ed/Wheel_5x5_Suspension.jpg/revision/latest?cb=20190419120302)
+
+Wheel 7x7
+
+[![Wheel 7x7](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/46/Wheel_7x7.jpg/revision/latest?cb=20190419120324)
+
+Wheel 7x7 Suspension
+
+[![Wheel 7x7 Suspension](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fd/Wheel_7x7_Suspension.jpg/revision/latest?cb=20190419120338)
+
+Wheel 9x9
+
+[![Wheel 9x9](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4e/Wheel_9x9.jpg/revision/latest?cb=20190419120351)
+
+Wheel 9x9 Suspension
+
+[![Wheel 9x9 Suspension](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7f/Wheel_9x9_Suspension.jpg/revision/latest?cb=20190419120403)
+
+Large Landing Wheel
+
+[![Landing Wheel Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a4/Landing_Wheel_Large.jpg/revision/latest?cb=20190317010923)
+
+Wheel Coaster
+
+[![Wheel Coaster](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/35/Wheel_Coaster.jpg/revision/latest?cb=20190317011045)
+
+## Tracks
+
+Tank Wheel Large
+
+[![Tank Wheel Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/51/Tank_Wheel_Large.png/revision/latest?cb=20200130194334)
+
+Tank Wheel Medium
+
+[![Tank Wheel Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/db/Tank_Wheel_Medium.png/revision/latest?cb=20200130194339)
+
+Tank Wheel Small
+
+[![Tank Wheel Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/53/Tank_Wheel_Small.png/revision/latest?cb=20200130194346)
+
+Tank Drive Wheel Large
+
+[![Tank Drive Wheel Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0e/Tank_Drive_Wheel_Large.png/revision/latest?cb=20200130194355)
+
+Tank Drive Wheel Medium
+
+[![Tank Drive Wheel Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/15/Tank_Drive_Wheel_Medium.png/revision/latest?cb=20200130194402)
+
+Tank Drive Wheel Small
+
+[![Tank Drive Wheel Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3f/Tank_Drive_Wheel_Small.png/revision/latest?cb=20200130194406)
+
+# Skis
+
+Ski Small
+
+[![Ski Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bd/Ski_Small.jpg/revision/latest?cb=20190419120701)
+
+Ski
+
+[![Ski](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/47/Ski.jpg/revision/latest?cb=20190419120713)
+
+# Air/Water control surfaces
+
+Control Surface (Small)
+
+[![Control Surface Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Control_Surface_Small.jpg/revision/latest?cb=20190317011421)
+
+Control Surface (Medium)
+
+[![Control Surface Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ee/Control_Surface_Medium.jpg/revision/latest?cb=20190317011415)
+
+Control Surface (Large)
+
+[![Control Surface Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Control_Surface_Large.jpg/revision/latest?cb=20190317011409)
+
+Rudder
+
+[![Rudder](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/23/Rudder.jpg/revision/latest?cb=20190317011435)
+
+Fin Rudder
+
+[![Fin Rudder](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/69/Fin_Rudder.jpg/revision/latest?cb=20190317011428)
+
+Wing Front Section
+
+[![Wing Front Section](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Wing_Front_Section.jpg/revision/latest?cb=20190317011455)
+
+Wing Section (Small)
+
+[![Wing Section Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2e/Wing_Section_Small.jpg/revision/latest?cb=20190317011513)
+
+Wing Section (Medium)
+
+[![Wing Section Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/03/Wing_Section_Medium.jpg/revision/latest?cb=20190317011507)
+
+Wing Section (Large)
+
+[![Wing Section Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cc/Wing_Section_Large.jpg/revision/latest?cb=20190317011500)
+
+Wing Section (XLarge)
+
+[![Wing Section XLarge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/03/Wing_Section_XLarge.jpg/revision/latest?cb=20190317011519)
+
+Wing Section (XXLarge)
+
+[![Wing Section XXLarge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/02/Wing_Section_XXLarge.jpg/revision/latest?cb=20190317011526)
+
+---
+
+Source: [Gameplay/Workbench/Components/Vehicle Control](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Vehicle_Control) · Revision 4189 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 631_Gameplay_Workbench_Components_User_Input.md
+################################################################################
+# Gameplay/Workbench/Components/User Input
+
+## User Input
+
+Throttle Lever
+
+[![Throttle Lever](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3e/Throttle_Lever.jpg/revision/latest/scale-to-width-down/100?cb=20190317011401)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3e/Throttle_Lever.jpg/revision/latest?cb=20190317011401)
+
+- Output 1 (Number): the value of the lever
+- You can define the maximum and minimum value
+
+Push Button
+
+[![Button Push](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/98/Button_Push.jpg/revision/latest/scale-to-width-down/100?cb=20190317011311)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/98/Button_Push.jpg/revision/latest?cb=20190317011311)
+
+- Output 1 (On/Off): if pushed
+
+Push Button (2 Sided)
+
+[![Button Push 2 Sided](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4f/Button_Push_2_Sided.jpg/revision/latest?cb=20190317011304)
+
+- Output 1 (On/Off): if pushed
+- can be pushed from both sides of the block
+
+Toggle Button
+
+[![Button Toggle](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/14/Button_Toggle.jpg/revision/latest?cb=20190317011322)
+
+- Output 1 (On/Off): if activated
+
+Toggle Button (2 Sided)
+
+[![Button Toggle 2 Sided](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/70/Button_Toggle_2_Sided.jpg/revision/latest?cb=20190317011316)
+
+- Output 1 (On/Off): if activated
+- can be toggled from both sides of the block
+
+Lockable Button
+
+[![Button Lockable](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c7/Button_Lockable.jpg/revision/latest?cb=20190317011258)
+
+- Output 1 (On/Off): if activated
+- Input 1 (On/Off): if button is unlocked and the player can interact with it
+
+Key Button
+
+[![Button Key](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/19/Button_Key.jpg/revision/latest?cb=20190317011250)
+
+- Output 1 (On/Off): if activated
+- Works like a toggle button but you can define a time needed to activate it (e.g. hold 2 seconds to activate)
+
+Keypad Small
+
+[![Keypad Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c5/Keypad_Small.jpg/revision/latest?cb=20190317011342)
+
+- Output 1 (Number): the value inserted into the keypad
+
+Keypad Large
+
+[![Keypad Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e8/Keypad_Large.jpg/revision/latest?cb=20190317011337)
+
+- Output 1 (Number): the first value inserted into the keypad
+- Output 2 (Number): the second value inserted into the keypad
+
+Helm
+
+[![Helm](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c8/Helm.jpg/revision/latest?cb=20190317011331)
+
+- Output 1 (Number): the rotation (from -1=left to +1=right)
+
+Pilot Seat
+
+[![Pilot Seat](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/af/Pilot_Seat.jpg/revision/latest?cb=20190317011355)
+
+- Output 1 (Number): a/d
+- Output 2 (Number): w/s
+- Output 3 (Number): left/right
+- Output 4 (Number): up/down
+- Output 1 (On/Off): if 1 is pressed
+- Output 2 (On/Off): if 2 is pressed
+- Output 3 (On/Off): if 3 is pressed
+- Output 4 (On/Off): if 4 is pressed
+- Output 5 (On/Off): if 5 is pressed
+- Output 6 (On/Off): if 6 is pressed
+- Output 31 (On/Off): if trigger is pressed
+- Output 32 (On/Off): if occupied
+
+- there is also a composite output which sends even more values, but all combined into one composite
+
+Modes:
+
+- Reset: When e.g. w is pressed the value will rise from 0 to 1, once w is released the value will decrease until 0. The opposite with s: it decreases from 0 to -1
+
+Pilot Seat (HOTAS)
+
+[![Pilot Seat HOTAS](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/50/Pilot_Seat_HOTAS.jpg/revision/latest?cb=20190317011348)
+
+Pilot Seat Compact
+
+[![Pilot Seat Compact](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/77/Pilot_Seat_Compact.png/revision/latest?cb=20200130200350)
+
+Equal to Pilot Seat, but looks different and has a smaller hitbox.
+
+Driver Seat
+
+[![Driver Seat](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/69/Driver_Seat.png/revision/latest?cb=20200130200354)
+
+Equal to Pilot Seat Compact, but looks different.
+
+Instrument Panel
+
+[![Instrument Panel](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/83/Instrument_Panel.jpg/revision/latest?cb=20190317005222)
+
+- Uses composite inputs and outputs with configurable channels from 1-32.
+- Composite inputs: A combination of up to four numeric or boolean inputs to dials, gauges, indicators, seven-segment displays, and/or radial/bar segment displays.
+- Composite output: A combination of up to four outputs from buttons and switches.
+- **Daisy chaining:** Instrument panels can be linked together into a chain so your microcontrollers only need one composite input and output for multiple instrument panels.
+- **Note:** You can't use multiple buttons/switches on the same channels on different panels - if the same channel is used, then only the last panels' button/switch state will control the output.
+
+---
+
+Source: [Gameplay/Workbench/Components/User Input](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/User_Input) · Revision 4187 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 629_Gameplay_Workbench_Components_Fluids.md
+################################################################################
+# Gameplay/Workbench/Components/Fluids
+
+## Fluids
+
+Pipe Straight
+
+[![Pipe Straight](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9b/Pipe_Straight.jpg/revision/latest/scale-to-width-down/100?cb=20190317004715)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9b/Pipe_Straight.jpg/revision/latest?cb=20190317004715)
+
+Transports fluids.
+
+Pipe Angle
+
+[![Pipe Angle](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ae/Pipe_Angle.jpg/revision/latest/scale-to-width-down/100?cb=20190317004700)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ae/Pipe_Angle.jpg/revision/latest?cb=20190317004700)
+
+Transports fluids.
+
+Pipe T-Piece
+
+[![Pipe T-Piece](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d0/Pipe_T-Piece.jpg/revision/latest?cb=20190419114528)
+
+Transports fluids.
+
+Pipe T-Pice Corner
+
+[![Pipe T-Pice Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/90/Pipe_T-Pice_Corner.png/revision/latest?cb=20200129224006)
+
+Transports fluids.
+
+Pipe Cross
+
+[![Pipe Cross](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d9/Pipe_Cross.png/revision/latest?cb=20200129224204)
+
+Transports fluids.
+
+Pipe Cross Corner
+
+[![Pipe Cross Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5e/Pipe_Cross_Corner.png/revision/latest?cb=20200129224056)
+
+Transports fluids.
+
+Pipe Omni
+
+[![Pipe Omni](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0f/Pipe_Omni.png/revision/latest?cb=20200129224250)
+
+Transports fluids.
+
+Enclosed Pipe Straight
+
+[![Pipe Enclosed Straight](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1e/Pipe_Enclosed_Straight.jpg/revision/latest?cb=20190419114624)
+
+Transports fluids.
+
+Enclosed Pipe Angle
+
+[![Pipe Enclosed Angle](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/39/Pipe_Enclosed_Angle.jpg/revision/latest?cb=20190419114648)
+
+Transports fluids.
+
+Enclosed Pipe T-Piece
+
+[![Pipe Enclosed T-Piece](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cb/Pipe_Enclosed_T-Piece.jpg/revision/latest?cb=20190419114705)
+
+Transports fluids.
+
+Enclosed Pipe T-Pice Corner
+
+[![Pipe Enclosed T-Pice Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e9/Pipe_Enclosed_T-Pice_Corner.png/revision/latest?cb=20200129224442)
+
+Transports fluids.
+
+Enclosed Pipe Cross
+
+[![Pipe Enclosed Cross](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/37/Pipe_Enclosed_Cross.png/revision/latest?cb=20200129224519)
+
+Transports fluids.
+
+Enclosed Pipe Cross Corner
+
+[![Pipe Enclosed Cross Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2e/Pipe_Enclosed_Cross_Corner.png/revision/latest?cb=20200129224526)
+
+Transports fluids.
+
+Enclosed Pipe Omni
+
+[![Pipe Enclosed Omni](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/35/Pipe_Enclosed_Omni.png/revision/latest?cb=20200129224532)
+
+Transports fluids.
+
+Tank Small
+
+[![Tank Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e2/Tank_Small.jpg/revision/latest?cb=20190317005757)
+
+Stores fluids. Max capacity is 31.25 liters.
+
+Tank Medium
+
+[![Tank Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/39/Tank_Medium.jpg/revision/latest?cb=20190419114401)
+
+Stores fluids. Max capacity is 187.5 liters.
+
+Tank Large
+
+[![Tank Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fe/Tank_Large.jpg/revision/latest?cb=20190317005751)
+
+Stores fluids. Max capacity is 703.125 liters.
+
+Fluid Valve Variable
+
+[![Fluid Valve Variable](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/de/Fluid_Valve_Variable.jpg/revision/latest?cb=20190317005738)
+
+- Input 1 (Number): flow (0=no flow, 0.5=half flow, 1=full flow)
+
+Limits the flow of fluid variable.
+
+Fluid Valve On/Off
+
+[![Fluid Valve On Off](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b8/Fluid_Valve_On_Off.jpg/revision/latest?cb=20190317005731)
+
+- Input 1 (On/Off): flow (0=no flow, 1=full flow)
+
+Toggles the flow of fluid variable.
+
+Fluid Nozzle
+
+[![Fluid Nozzle](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7c/Fluid_Nozzle.jpg/revision/latest?cb=20190419114734)
+
+Ejects fluids like a sprinkler.
+
+Fluid Exhaust
+
+[![Fluid Exhaust](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9d/Fluid_Exhaust.jpg/revision/latest?cb=20190317005604)
+
+Ejects fluids.
+
+Fluid Flow Valve (Directional)
+
+[![Fluid Flow Valve](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1f/Fluid_Flow_Valve.jpg/revision/latest?cb=20190317005616)
+
+Allows fluid to flow in only one direction.
+
+Fluid Filter
+
+[![Fluid Filter](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a0/Fluid_Filter.jpg/revision/latest?cb=20190317005610)
+
+Allows the selected fluids to pass through.
+
+Fluid Spawner
+
+[![Fluid Spawner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a4/Fluid_Spawner.jpg/revision/latest?cb=20190317005726)
+
+Can spawn different fluids. Must be placed inside a room. Only available in [creative mode](https://stormworks.fandom.com/wiki/Wiki/Gamemodes/Creative "Wiki/Gamemodes/Creative").
+
+Fluid Port
+
+[![Fluid Port](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/82/Fluid_Port.jpg/revision/latest?cb=20190317005658)
+
+Can be used to transfer fluids from one room to another or the environment.
+
+Fluid Slot Port
+
+[![Fluid Slot Port](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/84/Fluid_Slot_Port.jpg/revision/latest?cb=20190317005720)
+
+Can be used to transfer fluids from one room to another or the environment. Note that although this port is larger than the regular fluid port, it does not allow any faster fluid flow.
+
+Fluid Intake
+
+[![Fluid Intake](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ac/Fluid_Intake.jpg/revision/latest?cb=20190317005639)
+
+Can be used to transfer fluids from one room to another or the environment.
+
+Fluid Heat Sink
+
+[![Fluid Heat Sink](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4a/Fluid_Heat_Sink.jpg/revision/latest?cb=20190317005632)
+
+Cools fluids.
+
+Fluid Heat Radiator
+
+[![Fluid Heat Radiator](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/82/Fluid_Heat_Radiator.jpg/revision/latest?cb=20190317005624)
+
+Cools fluids.
+
+Fluid Pump
+
+[![Fluid Pump](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d3/Fluid_Pump.jpg/revision/latest?cb=20190317005712)
+
+Can move fluids inside pipes.
+
+Fluid Pump Large
+
+[![Fluid Pump Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a9/Fluid_Pump_Large.jpg/revision/latest?cb=20190317005706)
+
+Can move fluids inside pipes.
+
+Fluid Connector
+
+[![Connector Fluid](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/37/Connector_Fluid.jpg/revision/latest?cb=20190317005548)
+
+Connects with other connectors. Allows transfer of fluids.
+
+Fluid Cannon
+
+[![Fluid Cannon](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a1/Fluid_Cannon.jpg/revision/latest?cb=20190317005555)
+
+Fires fluids into variable directions.
+
+Robotic Pivot Fluid
+
+[![Robotic Pivot Fluid](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/89/Robotic_Pivot_Fluid.jpg/revision/latest?cb=20190317010624)
+
+A rotatable pivot with 2 fluid connections.
+
+Hose
+
+[![Hose](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e4/Hose.jpg/revision/latest?cb=20190317005744)
+
+An extendable cable that can transfer fluids.
+
+Anchor Fluid Hose
+
+[![Anchor Fluid Hose](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5b/Anchor_Fluid_Hose.png/revision/latest?cb=20200130195306)
+
+You can connect fluid hoses between two of these blocks.
+
+---
+
+Source: [Gameplay/Workbench/Components/Fluids](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Fluids) · Revision 4303 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 634_Gameplay_Workbench_Components_Electricity.md
+################################################################################
+# Gameplay/Workbench/Components/Electricity
+
+## Electricity
+
+### Storage
+
+Currently the only components that store electricity are batteries and hardpoint connectors. Batteries have no inputs and output a value of their total power between 1 and 0 (75% would output 0.75). Hardpoint connectors have no output to read their battery level. As batteries deplete, their output scales down resulting in, for example, lower electrical engine RPM and dimmer lights. Unlike fuel tanks, batteries will spawn full when playing with limited fuel option.
+
+- Maximum battery power (small or big) is 600kW and is proportional to its voltage; max voltage for batteries in game is 1. We can calculate needed count of motors and batteries for needed power.
+
+Battery Small
+
+[![Battery Small](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f9/Battery_Small.jpg/revision/latest/scale-to-width-down/100?cb=20190317005248)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f9/Battery_Small.jpg/revision/latest?cb=20190317005248)
+
+- Stores 1600 kJ
+- Mass 10
+- Blocks 2
+- Shape 1 X 2 X 1
+- Best for place-ability
+
+Battery Medium
+
+[![Battery Medium](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d1/Battery_Medium.jpg/revision/latest/scale-to-width-down/100?cb=20190317005237)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d1/Battery_Medium.jpg/revision/latest?cb=20190317005237)
+
+- Stores 12800 kJ
+- Mass 60
+- Blocks 12
+- Shape 3 X 2 X 2
+- Best for Capacity Per Mass
+
+Battery Large
+
+[![Battery Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/8a/Battery_Large.jpg/revision/latest?cb=20190317005232)
+
+- Stores 256000 kJ
+- Mass 800
+- Blocks 175
+- Shape 7 X 5 X 5
+- Best for Capacity Per Block
+
+Hardpoint Connector Attachment
+
+[![Hardpoint Connector](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4e/Hardpoint_Connector.png/revision/latest?cb=20221009062735)
+
+- Stores 300 kJ
+- Mass 2
+- Blocks 2
+- Shape 1 X 1 X 2 (Physics Hitbox 1 X 1 X 1)
+- Best for vehicles that need little electricity for a short time, like missiles.
+
+### Production
+
+Power calc
+
+- We can calculate producing power with formula: Power [kWatts] = RPS^2\*Pp, where i called Pp = generator power potential.
+- Pp Alternator = 0.00540
+- Pp SmallGen = 0.00642
+- Pp MedGen = 0.24100
+- Pp BigGen = 1.13800
+- kJoule/kWatt i called game electricity power unit.
+
+Generator Small
+
+[![Generator Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ab/Generator_Small.jpg/revision/latest?cb=20190317005337)
+
+- Produces electrical power
+- As of v1.3.13, a small generator directly attached to a small prefab engine at ~20 RPS can fully charge an empty small battery in approximately 10 minutes; this is a non-optimized setup, gear ratios can improve this.
+
+Generator Medium
+
+[![Generator Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c2/Generator_Medium.jpg/revision/latest?cb=20190317005330)
+
+- Produces electrical power
+- As of v1.3.13, a medium generator directly attached to a medium prefab engine at ~20 RPS can fully charge an empty small battery in approximately 16 seconds; this is a non-optimized setup, gear ratios can improve this.
+
+Generator Large
+
+[![Generator Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/96/Generator_Large.jpg/revision/latest?cb=20190317005322)
+
+- Produces electrical power
+- As of v1.3.13, a large generator directly attached to a large prefab engine at ~20 RPS can fully charge an empty small battery in approximately 3.5 seconds; this is a non-optimized setup, gear ratios can improve this.
+
+Solar Cell
+
+[![Solar Cell](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Solar_Cell.jpg/revision/latest?cb=20190317005343)
+
+- Produces electrical power (low amounts)
+- As of v1.3.13, one Solar Cell can fully charge an empty small battery in approximately 83 real world hours when in direct sunlight; weather and darkness can decrease this.
+
+### Consumption
+
+Most components require electricity in varying amounts.
+
+### Utilities
+
+Electric Circuit Breaker
+
+[![Electric Circuit Breaker](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/54/Electric_Circuit_Breaker.jpg/revision/latest?cb=20190317005307)
+
+- a switch the player can interact with. When activated it will connect its two electric connectionpoints.
+
+Electric Relay
+
+[![Electric Relay](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5e/Electric_Relay.jpg/revision/latest?cb=20190317005315)
+
+- Input 1 (On/Off): toggle electric connection
+- same as Electric Circuit Break but you can toggle it via the input
+
+Electric Connector
+
+[![Connector Electric](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f9/Connector_Electric.jpg/revision/latest?cb=20190317005254)
+
+- Can connect to other connectors
+- can transfer electricity between vehicles
+
+Anchor Electrical Cable
+
+[![Anchor Electrical Cable](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b4/Anchor_Electrical_Cable.png/revision/latest?cb=20200130195219)
+
+You can connect electrical cable between two of these blocks.
+
+---
+
+Source: [Gameplay/Workbench/Components/Electricity](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Electricity) · Revision 4155 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 1175_Gameplay_Workbench_Components_Radio.md
+################################################################################
+# Gameplay/Workbench/Components/Radio
+
+Radios allow vehicles and people to share numeric, boolean, audio, and video data. Signal strength is worsened by distance and depleted power sources, and improved with larger antennas (which also increase maximum range). Poor signal strength adds static to audio communication and a grain/static effect to video feeds, but numeric and boolean data are reliable until the maximum range is reached (maximum range is affected by both the transmitter and receiver).
+
+Radios are also required to operate train switches, see below for details.
+
+This article was last updated for Stormworks version [V1.15.2](https://stormworks.fandom.com/wiki/V1.15.2 "V1.15.2") (16 Aug 2025).
+
+## Setup
+
+### Frequencies
+
+Usable frequencies can be any number, within certain limits:
+
+- Only integers can be used.
+- Numbers with a decimal point will get rounded to the nearest integer. For example, 0.5 and everything above it (up to 0.999...) rounds to 1, everything below it (down to 0.000...1) rounds to 0.
+- Numbers larger than 16,777,216 may overlap with nearby numbers.
+- Number precision within Stormworks is limited to +/- 224. Larger and smaller numbers may be used, but they may be converted to some other nearby value, so the limit where sequential radio channels definitely do not overlap is within the bounds of +/-16,777,216.
+- Negative numbers can be used and are distinct from positive numbers (so -1 will not communicate with 1 or vice versa).
+
+Within those bounds, all radio frequencies besides those listed below can be safely used by player creations without other in-game interaction. Note that for all of the in-game systems that respond to radio signals, buttons can be used instead for manual operation; the radio is there for convenience.
+
+- **0-8:** Used by handheld radios and remote controls.
+- **440:** Used to operate junction switches for trains. Whenever there are two possible paths a train could take, junction switches default to sending the train to the right. Sending an 'on' signal on channel 440 while within range of a junction switch will temporarily cause it to send trains to the left.
+
+**Gantry cranes:**
+Gantry cranes are used to buy/sell fish, oil, and fuel. They are all controlled similarly. Sending an 'On' signal on boolean channel 1 causes the crane to toggle its pump/vacuum on or off, buying or selling fuel/oil/fish as appropriate for the crane. Numeric channel 1 can be used to move the crane left / right with values from -1 to 1 (-1 moves left if standing behind the pump, or right if you're in the water in front of it). Numeric channel 2 can be used to move the crane up/down (1 moves up). Only values greater than 0.8 or less than -0.8 will have an effect.
+
+- **1202:** Used by the diesel pump cranes for both buying and selling, such as at the [BVG Logistics Depot](https://stormworks.fandom.com/wiki/BVG_Logistics_Depot "BVG Logistics Depot") (player can sell) in the arctic, at the refinery island (buy), Olsen Bay in the northwest of Sawyer Island (sell), the Sawyer South Freight Terminal (sell), the Uran Power Plant (sell), and the Isle of Donkk (sell).
+- **1267:** Used by crude oil pump cranes where oil can be bought or sold, such as at the Krail Oilworks (buy), the Daylight Oil Refinery in the arctic (buy), the refinery island (sell), or offshore oil rigs (buy).
+- **1863:** Used by jet fuel pump cranes where jet fuel can be bought or sold, such as at the small unnamed airstrip (sell), or the refinery island (buy).
+- **3077** Used by fish market cranes where players can sell [fish](https://stormworks.fandom.com/wiki/Fish "Fish"). Can be found at Terminal Camodo (part of the Donkk island chain), Sawyer Island's [North Harbor](https://stormworks.fandom.com/wiki/North_Harbor "North Harbor"), Sawyer Island's Fishing Village / Sawyer South Freight Terminal, the Uran Power Plant (northwestern part of the [Arid Island](https://stormworks.fandom.com/wiki/Arid_Island "Arid Island")), JSI Dock (southeastern part of the Arid Island), and near Tajin Airstrip (in the arctic).
+
+Note: the Sawyer Island bridges *cannot* be operated by radio; they require someone to press the button on either side to lift them.
+
+## Power consumption
+
+Every antenna requires a small amount of [electricity](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Electricity "Gameplay/Mechanics/Electricity") to operate, as shown below.
+
+Power consumption (transmit mode off/on):
+
+- Radio RX Small: 0 / 0.0057 swatts
+- Radio RX Medium: 0 / 0.0057 swatts
+- Radio RX Large: 0 / 0.014 swatts
+- Radio RX Huge: 0.011 / 0.054 swatts
+- Radio Video Xmit: 0.0057 swatts (always on)
+- Radio Video Recv: 0.0057 swatts (always on)
+- RX Directional: 3.66 / 18.3 swatts
+- RX Directional (Large): 5.49 / 23.8 swatts
+
+## Logic and usage
+
+### Radio RX antennas
+
+These are the antennas vehicles use to transmit numeric, boolean, and audio data. Each antenna can either send or receive, depending on the setting of its transmit mode.
+
+Logic nodes:
+
+- Transmit mode (Boolean input):
+- **Off (or not connected)**: The radio will be in 'listen' mode, and can receive transmissions.
+
+- - **On**: The radio will be in 'transmit' mode, and can send but not receive transmissions.
+
+- Frequency (Numeric input): Can be any value, see the frequencies section above.
+
+- Signal strength (Numeric output): A value from 0 to 1. Will show 0 when no signal is being received. The small radios do not have a signal strength logic node. This can be also be used by radio scanners to automatically detect channels with any active data transfers, and to triangulate transmission locations. Specific types of data transfer can be identified by analyzing the various data channels within the frequency, or checking to see if a microphone connected to the antenna indicates an active audio transmission.
+
+- Data Send (Composite input): The antenna will transmit all data sent to this node while in transmit mode.
+
+- Data Recv (Composite output): Provides any data sent from the strongest nearby source broadcasting on the antenna's frequency setting.
+
+- Audio Send (Audio input): Transmits audio from a microphone, or can relay audio from an antenna on another frequency to bridge communications between distant regions.
+
+- Audio Recv (Audio output): Provides any audio sent from the strongest nearby source broadcasting on the antenna's frequency setting.
+
+### Video antennas
+
+Video transmissions do not interfere with radio communications and vice versa. Video is managed with a separate transmitter and receiver. This can allow a camera on a remotely-operated vehicle to be linked into a monitor display for a control terminal.
+
+### Handheld radios
+
+Handheld radios can be used to communicate with players and interact with autonomous vehicles. The signal strength produced by the handheld radio on a specific frequency can be used to detect a received signal, even though only audio data is being transmitted, and even if there's too much static to understand the audio. Vehicles can also distinguish audio data from other types by connecting the audio to a speaker - the speaker has a logic node to indicate if it is being used to receive a transmission. As such, handheld radios can be used to selectively trigger remotely-activated systems and to communicate via Morse code at longer distances while traveling on foot or in minimalist/lightweight vehicles.
+
+Unfortunately, handheld radios cannot receive data back from autonomous vehicles. While it is theoretically possible to place a buzzer near a microphone in the hopes of creating audible Morse code chirps, in practice microphones will only transmit player voice data, and will only transmit when a player is nearby. However, it is certainly possible to receive audio from vehicles piloted by players.
+
+### Directional antennas
+
+Directional antennas send and receive audio, video, boolean, and numeric data. They must be pointed towards the target device to communicate with and they can communicate with other directional antennas, video antennas, or handheld radios. They take pitch and yaw inputs which can rotate them. The pitch input can rotate the dish up to 36 degrees with respect to the small arrow seen in the build editor, with a 1 pointing the dish in the opposite direction of the arrow. The yaw input causes the dish assembly to spin around on its base up to 1 full 360 degree turn in either direction (so -1 to 1 causes 720 degrees of rotation). Imprecise aiming causes degraded signal quality. Transmission range is increased by altitude (further analysis remains to be done).
+
+## Calculating maximum transmission ranges
+
+In Stormworks transmission ranges are calculated somewhat different than from what you would expect.
+If you want to send a signal from antenna A to antenna B, the maximum range for a successfull transmission depends on:
+
+- range of antenna A
+- range of antenna B
+- battery level of antenna A
+- battery level of antenna B
+
++ any repeaters you have setup in the area
+
+### Calculate maximum distance as sender
+
+maximumDistance = ( rangeAntennaA + rangeAntennaB ) \* batteryLevelA \* batteryLevelB
+
+### Calculate maximum distance as receiver (you must know distance to sender)
+
+Hint: Small antenna has no output for signalStrength, so this does not work!
+
+maximumDistance = distanceToSender / ( 1 - signalStrength )
+
+distanceToSender must be calculated by gps difference:
+
+distanceToSender = math.sqrt( (myGpsX - senderGpsX )^2 + (myGpsY - senderGpsY )^2 )
+
+Hint: You could transmit the gps coordinates via radio.
+
+### Calculate distance to sender (you must know the range of sender antenna and receiver antenna and both battery levels
+
+Hint: Small antenna has no output for signalStrength, so this does not work!
+
+distanceToSender = ( ( rangeAntennaSender + rangeAntennaReceiver ) \* batteryLevelSender \* batteryLevelReceiver ) \* ( 1 - signalStrength )
+
+If you know the sender always has a full battery (e.g. diesel generator) and know the antenna type they are using, you can calculate your distance to the sender without any data over composite:
+
+distanceToSender = ( ( rangeAntennaSender + rangeAntennaReceiver ) \* 1 \* batteryLevelReceiver ) \* ( 1 - signalStrength )
+
+#### Example
+
+Sender antenna: Huge
+Receiver antenna: Small
+Sender antenna range = 20000m
+Receiver antenna range = 100m
+
+Maximum distance between sender and receiver (in case of 100% batteries):
+
+maximumDistance = ( rangeAntennaA + rangeAntennaB ) \*batteryLevelA \* batteryLevelB
+
+```
+maximumDistance = ( 20000m + 100m ) * 1 * 1
+maximumDistance = 20100m * 1 * 1
+maximumDistance = 20100m
+```
+
+Maximum distance between sender and receiver (in case of 100% battery for the sender and 50% battery for the receiver):
+{{code-block | content = maximumDistance = rangeAntennaA \* batteryLevelA + rangeAntennaB \* batteryLevelB
+
+```
+maximumDistance = ( 20000m + 100m ) * 1 * 0.5
+maximumDistance = 20100m * 0.5
+maximumDistance = 10050m
+```
+
+## Controlling train switches
+
+Broadcast Boolean on/off signal on 1st composite channel on frequency(radio channel) 440
+.
+Example:
+Train with antenna (frequency 440) in transmit mode.
+Connect a push button to composite input (boolean channel 1) of the antenna.
+
+Now if you hit the push button, every train switch in range will toggle!
+
+## Vehicle radio antennas
+
+Radio RX Huge
+
+[![Radio RX Huge](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/52/Radio_RX_Huge.png/revision/latest/scale-to-width-down/100?cb=20200130202247)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/52/Radio_RX_Huge.png/revision/latest?cb=20200130202247)
+
+Range: 20km
+
+Radio RX Large
+
+[![Radio RX Large](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ea/Radio_RX_Large.png/revision/latest/scale-to-width-down/100?cb=20200130202252)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ea/Radio_RX_Large.png/revision/latest?cb=20200130202252)
+
+Range: 4km
+
+Radio RX Medium
+
+[![Radio RX Medium](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/95/Radio_RX_Medium.png/revision/latest/scale-to-width-down/100?cb=20200130202257)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/95/Radio_RX_Medium.png/revision/latest?cb=20200130202257)
+
+Range: 1km
+
+Radio RX Small
+
+[![Radio RX Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d0/Radio_RX_Small.png/revision/latest?cb=20200130202302)
+
+Range: 100m
+
+## Video transmitters and receivers
+
+Video receiver
+
+[![Video receiver](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/de/Video_receiver.png/revision/latest?cb=20200130202310)
+
+Range: 10km
+
+Video emitter
+
+[![Video emitter](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e3/Video_emitter.png/revision/latest?cb=20200130202315)
+
+Range: 10km
+
+## Patch history
+
+### [V1.9.21](https://stormworks.fandom.com/wiki/V1.9.21 "V1.9.21")
+
+- Fix - fixed typos in the radio antenna transmit logic nodes
+
+### [V1.4.17](https://stormworks.fandom.com/wiki/V1.4.17 "V1.4.17")
+
+- Fix - #6377 Radio RX composite descriptions are switched
+
+### [V1.3.19](https://stormworks.fandom.com/wiki/V1.3.19 "V1.3.19")
+
+- Balance - Reduced radio voice chat static noise
+
+### [V1.3.13](https://stormworks.fandom.com/wiki/V1.3.13 "V1.3.13")
+
+- Fix - Rx range description for handheld radios/remote control
+
+### [V1.1.23-24](https://stormworks.fandom.com/wiki/V1.1.23-24 "V1.1.23-24")
+
+- Fix - Handheld radio and remote control range being larger than described
+
+### [V1.0.15](https://stormworks.fandom.com/wiki/V1.0.15 "V1.0.15")
+
+- Fix - PTT being disabled when scrolling over hotbar radio equipment
+
+### [V0.10.19-22](https://stormworks.fandom.com/wiki/V0.10.19-22 "V0.10.19-22")
+
+- Balance - Radio parts now consume electricity proportionate to range. x4 when transmitting.
+
+### [V0.9.20](https://stormworks.fandom.com/wiki/V0.9.20 "V0.9.20")
+
+- Fix - Corrected Large Radio cost from 200 -> 2500
+
+### [V0.8.32-33](https://stormworks.fandom.com/wiki/V0.8.32-33 "V0.8.32-33")
+
+- Feature - Microphone Component
+- Feature - 3 Speaker Components
+- Feature - Audio Switchbox Microprocessor Component
+- Rework - Radio Components V2 \*
+- Fix - Voicechat and Quickchat can now be bound to inputs other than keyboard
+
+- Old Radio components are now deprecated, but will still continue to work.
+
+### [V0.7.1](https://stormworks.fandom.com/wiki/V0.7.1 "V0.7.1")
+
+- Feature - Added 4 radio antenna sizes
+- Larger antennas have higher range (up to 40km)
+- Antennas can send and recieve composite data on a set channel
+- Antennas have jiggle physics
+- Radio signal is reduced when travelling through water
+
+- Feature - Added 2 video radio components (transmitter and reciever)
+- Similar to radio antennas, but they transmit a video signal
+- Quality of video signal will degrade over long distances
+
+---
+
+Source: [Gameplay/Workbench/Components/Radio](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Radio) · Revision 4715 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 635_Gameplay_Workbench_Components_Displays.md
+################################################################################
+# Gameplay/Workbench/Components/Displays
+
+## Displays
+
+Artifical Horizon
+
+[![Artifical Horizon](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7f/Artifical_Horizon.jpg/revision/latest/scale-to-width-down/100?cb=20190317005131)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7f/Artifical_Horizon.jpg/revision/latest?cb=20190317005131)
+
+- Used for orientation (azimuth)
+
+Compass Ball
+
+[![Compass Ball](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/64/Compass_Ball.jpg/revision/latest/scale-to-width-down/100?cb=20190317005147)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/64/Compass_Ball.jpg/revision/latest?cb=20190317005147)
+
+- Used for orientation (north, east, south, west)
+
+Dial
+
+[![Dial](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e7/Dial.jpg/revision/latest?cb=20190317005205)
+
+- Input 1 (Number): the number to display
+- You can select minimum and maximum of the display
+
+Digital Display
+
+[![Digital Display](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ab/Digital_Display.jpg/revision/latest?cb=20190317005155)
+
+- Input 1 (Number): the number to display
+- You can select minimum and maximum of the display
+
+Gauge Display
+
+[![Gauge Display](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/43/Gauge_Display.jpg/revision/latest?cb=20190317005212)
+
+- Input 1 (Number): the number to display as white line
+- Input 2 (Number): the number to display as red line
+- You can select minimum and maximum of the display
+
+Instrument Panel
+
+[![Instrument Panel](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/83/Instrument_Panel.jpg/revision/latest?cb=20190317005222)
+
+- A combination of 4 other displays or user input
+- Input 1 (Composite): used to set values for displays of this panel
+- Output (Composite) input signal, overwrittеn by switches and buttons on this panel
+- You can connect several panels in series
+
+---
+
+Source: [Gameplay/Workbench/Components/Displays](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Displays) · Revision 4153 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 630_Gameplay_Workbench_Components_Person_Operations.md
+################################################################################
+# Gameplay/Workbench/Components/Person Operations
+
+## Person Operations
+
+Bed
+
+[![Bed](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/30/Bed.jpg/revision/latest/scale-to-width-down/100?cb=20190317010734)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/30/Bed.jpg/revision/latest?cb=20190317010734)
+
+A place to sleep.
+
+Medical Bed
+
+[![Medical Bed](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/27/Medical_Bed.jpg/revision/latest/scale-to-width-down/100?cb=20190317010753)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/27/Medical_Bed.jpg/revision/latest?cb=20190317010753)
+
+A place for injured persons.
+
+Passenger Seat
+
+[![Passenger Seat](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/59/Passenger_Seat.jpg/revision/latest?cb=20200130200047)
+
+Padded Seat
+
+[![Padded Seat](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/12/Padded_Seat.png/revision/latest?cb=20200130195905)
+
+Stretcher
+
+[![Stretcher](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/07/Stretcher.jpg/revision/latest?cb=20190317010844)
+
+a floating bed to rescue persons, with handles. Can be attached to a winch.
+
+Harness
+
+[![Harness](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Harness.jpg/revision/latest?cb=20190317010742)
+
+Can hold a person. Can be attached to a winch.
+
+Heater
+
+[![Heater](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/55/Heater.jpg/revision/latest?cb=20190317010747)
+
+Makes warm. Helps you survive the arctic.
+
+# Outfits
+
+Outfit Inventory Scuba
+
+[![Outfit Inventory Scuba](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/66/Outfit_Inventory_Scuba.jpg/revision/latest?cb=20190317010831)
+
+Basic equipment for diving.
+
+Outfit Inventory Diving
+
+[![Outfit Inventory Diving](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/01/Outfit_Inventory_Diving.jpg/revision/latest?cb=20190317010806)
+
+Expert diving outfit. Better then Scuba outfit.
+
+Outfit Inventory Parachute
+
+[![Outfit Inventory Parachute](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7d/Outfit_Inventory_Parachute.jpg/revision/latest?cb=20190317010823)
+
+Outfit Inventory Firefighter
+
+[![Outfit Inventory Firefighter](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/61/Outfit_Inventory_Firefighter.jpg/revision/latest?cb=20190317010817)
+
+Outfit Inventory Arctic
+
+[![Outfit Inventory Arctic](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/03/Outfit_Inventory_Arctic.jpg/revision/latest?cb=20190317010759)
+
+Now you can survive in the arctic!
+
+Outfit Inventory Empty
+
+[![Outfit Inventory Empty](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/93/Outfit_Inventory_Empty.jpg/revision/latest?cb=20190317010812)
+
+Can be used to store outfits.
+
+---
+
+Source: [Gameplay/Workbench/Components/Person Operations](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Person_Operations) · Revision 4167 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 637_Gameplay_Workbench_Components_Decorative.md
+################################################################################
+# Gameplay/Workbench/Components/Decorative
+
+## Decorative
+
+## Lights
+
+See here: [Wiki/Building/Components/Decorative/Lights](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative/Lights "Wiki/Building/Components/Decorative/Lights")
+
+## Railing
+
+Railing Corner
+
+[![Railing Corner](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/dd/Railing_Corner.jpg/revision/latest/scale-to-width-down/100?cb=20190317004913)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/dd/Railing_Corner.jpg/revision/latest?cb=20190317004913)
+
+Railing Corner Diagonal
+
+Railing Curve
+
+[![Railing Curve](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ad/Railing_Curve.jpg/revision/latest?cb=20190317004919)
+
+Railing End
+
+[![Railing End](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/15/Railing_End.jpg/revision/latest?cb=20190317004931)
+
+Railing End Diagonal
+
+[![Railing End Diagonal](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4a/Railing_End_Diagonal.jpg/revision/latest?cb=20190317004925)
+
+Railing Straight
+
+[![Railing Straight](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ad/Railing_Straight.jpg/revision/latest?cb=20190419122926)
+
+Railing Incline
+
+[![Railing Incline](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9c/Railing_Incline.jpg/revision/latest?cb=20190317004937)
+
+Railing Straight Diagonal
+
+[![Railing Straight Diagonal](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a0/Railing_Straight_Diagonal.jpg/revision/latest?cb=20190317005104)
+
+Railing Middle
+
+[![Railing Middle](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e8/Railing_Middle.jpg/revision/latest?cb=20190317004951)
+
+Railing Middle Diagonal
+
+[![Railing Middle Diagonal](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6a/Railing_Middle_Diagonal.jpg/revision/latest?cb=20190317004942)
+
+## Other
+
+Tyre Large
+
+[![Tyre Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/03/Tyre_Large.jpg/revision/latest?cb=20190317005113)
+
+Tyre Small
+
+[![Tyre Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ea/Tyre_Small.jpg/revision/latest?cb=20190317005122)
+
+Paintable Sign
+
+[![Paintable Sign](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1c/Paintable_Sign.jpg/revision/latest?cb=20190317004857)
+
+Each of the 9x9 little tiles can be colorized.
+
+Anchor Rope
+
+[![Anchor Rope](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6a/Anchor_Rope.png/revision/latest?cb=20200130195104)
+
+You can connect ropes between two of these blocks.
+
+---
+
+Source: [Gameplay/Workbench/Components/Decorative](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Decorative) · Revision 4149 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 628_Gameplay_Workbench_Components_Decorative_Lights.md
+################################################################################
+# Gameplay/Workbench/Components/Decorative/Lights
+
+## Lights
+
+Search Light
+
+[![Search Light](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5c/Search_Light.jpg/revision/latest/scale-to-width-down/100?cb=20190419114822)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5c/Search_Light.jpg/revision/latest?cb=20190419114822)
+
+Long range light.
+
+Spotlight Small (Block)
+
+Long range light.
+
+Spotlight Small (Mounted)
+
+[![Spotlight Small Mounted](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/71/Spotlight_Small_Mounted.jpg/revision/latest?cb=20190419122043)
+
+Long range light.
+
+Light
+
+[![Light](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/07/Light.jpg/revision/latest?cb=20190317005826)
+
+Normal light.
+
+RGB Light
+
+[![Light RGB](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Light_RGB.jpg/revision/latest?cb=20190317005819)
+
+Color can be controlled via composite input.
+
+Indicator Light
+
+[![Indicator Light](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6a/Indicator_Light.jpg/revision/latest?cb=20190317005814)
+
+Small lamp.
+
+Indicator RGB Light
+
+[![Indicator Light RGB](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/78/Indicator_Light_RGB.jpg/revision/latest?cb=20190317005808)
+
+Color can be controlled via composite input.
+
+Paintable Indicator
+
+[![Paintable Indicator](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/ff/Paintable_Indicator.jpg/revision/latest?cb=20190317005832)
+
+Like the [paintable sign](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative#Other "Wiki/Building/Components/Decorative"), but you can add "additive color" which will glow when the backlight of this block is enabled.
+
+---
+
+Source: [Gameplay/Workbench/Components/Decorative/Lights](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Decorative/Lights) · Revision 4151 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 1271_Gameplay_Workbench_Components_Hardpoint.md
+################################################################################
+# Gameplay/Workbench/Components/Hardpoint
+
+Hardpoints are detachable connectors similar to small connectors, except that the attached part is rigidly connected and will not snap loose until it is specifically released or launched.
+
+## Uses
+
+Hardpoints are primarily used for carrying various types of ordnance (torpedoes, missiles, bombs), but also have a wide variety of other less obvious uses:
+
+- Drop tanks (hardpoints come with fluid connectors to facilitate this)
+- Rocket pods (makes it possible to reload rocket launchers)
+- Flare pods (as above, but for chaff/flares)
+- Sensor pods (especially for [radar](https://stormworks.fandom.com/wiki/Radar "Radar") that can track your own missiles)
+- Supply drops
+
+### Sensor pods
+
+A sensor pod spawned in as a separate vehicle can be attached to hardpoint. A hardpoint connector attachment provides both composite input and output, allowing the radar data to be transferred to the vehicle through its hardpoint connector body. Note that radar normally does not detect the vehicle its on, nor any of its "subgrids", even if they've been detached like missiles and bombs. With a sensor pod as a different vehicle, it can detect the vehicle its on, including any of its deployed ordnance, making it possible to operate remote-controlled missiles with no built-in gps or transmitter antennas on the missile (for example, could use an initial remote-controlled phase with target prediction guidance, followed by switching over to a self-controlled phase with augmented proportional navigation).
+
+Alternatively, if reloading a vehicle and it is desired to not detect the vehicle's own launched ordnance, a sensor pod spawned as part of the same "vehicle" with a group of ordnance will not detect the items spawned with it.
+
+## Attaching to hardpoints
+
+Attaching a hardpoint connector to a hardpoint body requires high precision. An easy way to achieve the required precision is to have [small winches](https://stormworks.fandom.com/wiki/Small_winch "Small winch") on either side of the hardpoint body, and rope anchors with matching spacing on the pod or ordnance. Then, a player can simply push/pull the payload close to the hardpoint, attach [ropes](https://stormworks.fandom.com/wiki/Rope "Rope") between the winches and rope anchors, and winch the payload precisely into position.
+
+Alternatively, a small payload lift can be built, though this tends to result in much slower reloading due to needing to precisely align it in two axes before raising the payload into position. If it has raised edges, these may also interfere with any other ordnance already loaded near the hardpoint.
+
+---
+
+Source: [Gameplay/Workbench/Components/Hardpoint](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Hardpoint) · Revision 4159 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 884_Gameplay_Workbench_Components_Sound.md
+################################################################################
+# Gameplay/Workbench/Components/Sound
+
+## Sound
+
+Buzzer
+
+[![Buzzer](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2e/Buzzer.jpg/revision/latest/scale-to-width-down/100?cb=20190317005139)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2e/Buzzer.jpg/revision/latest?cb=20190317005139)
+
+- Input 1 (On/Off): play a buzzer sound
+
+Conversion of real notes to pitch values [here](https://stormworks.fandom.com/wiki/Wiki/Guides/Music "Wiki/Guides/Music")
+
+Foghorn
+
+[![Foghorn](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c9/Foghorn.jpg/revision/latest/scale-to-width-down/100?cb=20190317004844)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c9/Foghorn.jpg/revision/latest?cb=20190317004844)
+
+- Input 1 (On/Off): play a foghorn sound
+
+Microphone
+
+[![Microphone](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/69/Microphone.png/revision/latest?cb=20200130201056)
+
+- can produce sound data
+
+Speaker Small
+
+[![Speaker Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/07/Speaker_Small.png/revision/latest?cb=20200130201101)
+
+- can play sound data
+
+Megaphone Speaker Small
+
+[![Megaphone Speaker Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/74/Megaphone_Speaker_Small.png/revision/latest?cb=20200130201106)
+
+- can play sound data
+
+Megaphone Speaker Large
+
+[![Megaphone Speaker Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2e/Megaphone_Speaker_Large.png/revision/latest?cb=20200130201109)
+
+- can play sound data
+
+---
+
+Source: [Gameplay/Workbench/Components/Sound](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Sound) · Revision 4181 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 1429_Gameplay_Workbench_Components_Transponders.md
+################################################################################
+# Gameplay/Workbench/Components/Transponders
+
+Transponders are used as emergency rescue beacons to locate players and vehicles in need of help.
+
+## Mechanics
+
+When a transponder is activated, active transponder locators will occasionally generate transponder pulses. The frequency of the transponder pulses is proportional to the distance from the transponder, so you get more frequent transponder pulses as you get closer.
+
+### Frequency
+
+The distance and frequency relationship is closely approximated by the following formula:
+
+```
+0.02*d+5 = t
+```
+
+Where d is the distance (in meters) and t is the time (in ticks which are 1/60th of a second).
+
+Conversely:
+
+```
+d = t*50 - 250
+```
+
+### Range
+
+The maximum range for transponders (if there is one) is over 110 km, i.e. far enough for signals to span from the desert landmass in the south to the arctic airbase in the north.
+
+The minimum range for vehicle transponders is about 250 meters. Below this distance, no matter how close the transponder and transponder locator become, there will still be an interval of 10 ticks between each transponder pulse. Handheld locators can help to home in on signals within this distance if the source isn't obvious.
+
+## Personal equipment
+
+Handheld transponders are available to players. These can be set to a man-overboard mode which will automatically turn on if the player becomes submerged.
+
+Handheld radio signal locators can also be used to narrow down the precise location of a signal. They work similar to vehicle-mounted transponder locators by providing audible beeps which get more frequent as you get closer. They have a shorter detection range but also work better at short distances. They reach their maximum beep rate at about 50 meters from a transponder, allowing for somewhat better precision than vehicle-mounted locators.
+
+---
+
+Source: [Gameplay/Workbench/Components/Transponders](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Transponders) · Revision 4185 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 1115_Gameplay_Workbench_Components_Video.md
+################################################################################
+# Gameplay/Workbench/Components/Video
+
+## Video
+
+## Subpages
+
+[Monitors](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video/Monitors "Gameplay/Workbench/Components/Video/Monitors") [Cameras](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video/Cameras "Gameplay/Workbench/Components/Video/Cameras")
+
+Do you think a subpage is missing?
+
+## [Cameras](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Video/Cameras "Wiki/Building/Components/Video/Cameras")
+
+Cameras produce video data
+
+## [Monitors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Video/Monitors "Wiki/Building/Components/Video/Monitors")
+
+Monitors display video data
+
+---
+
+Source: [Gameplay/Workbench/Components/Video](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video) · Revision 4191 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 1114_Gameplay_Workbench_Components_Video_Cameras.md
+################################################################################
+# Gameplay/Workbench/Components/Video/Cameras
+
+## Cameras
+
+Cameras produce a low resolution video which can be shown on [monitors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Video/Monitors "Wiki/Building/Components/Video/Monitors").
+
+[Camera Stabilized](https://stormworks.fandom.com/wiki/Camera_stabilized "Camera stabilized")
+
+Description: A stabilized gimbal camera with video output feed. Has an infrared mode, variable field of view, stabilized and tracking modes. It will only track terrain, and cannot lock onto vehicles or water.
+
+- you can control rotation (yaw and pitch)
+- you can control fov (zoom)
+- you can control infrared
+- you can enable/disable laser
+- you can enable/disable stabilization
+- you can enable/disable target tracking
+
+Outputs:
+
+- Video
+- composite
+
+Composite values:
+
+- Number 1: coordinate x of laser target
+- Number 2: altitude of laser target
+- Number 3: coordinate y of laser target
+- Bool 1: laser has target
+
+[Camera with Gimbal](https://stormworks.fandom.com/wiki/Camera_gimbal "Camera gimbal")
+
+Description: A gimbal camera with video output feed. Has an infrared mode as well as pivot controls, [and] a variable field of view.
+
+- you can control rotation (yaw and pitch)
+- you can control fov (zoom)
+- you can control infrared
+
+Outputs:
+
+- Video
+
+[Camera Medium](https://stormworks.fandom.com/wiki/Camera_medium "Camera medium")
+
+[![Camera Medium](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bd/Camera_Medium.png/revision/latest?cb=20200129203019)
+
+Description: A camera with video output feed. Has infrared mode as well as variable field of view.
+
+- you can control fov
+- you can control infrared
+
+Outputs:
+
+- Video
+
+[Camera Small](https://stormworks.fandom.com/wiki/Camera_small "Camera small")
+
+[![Camera Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d5/Camera_Small.png/revision/latest?cb=20200129203023)
+
+Description: A camera with video output feed.
+
+- you can control **nothing**
+
+Outputs:
+
+- Video
+
+---
+
+Source: [Gameplay/Workbench/Components/Video/Cameras](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video/Cameras) · Revision 4193 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 1110_Gameplay_Workbench_Components_Video_Monitors.md
+################################################################################
+# Gameplay/Workbench/Components/Video/Monitors
+
+## Monitors
+
+Monitors show data from **Logic Video Connections**. This can be either from a [camera](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Video/Cameras "Wiki/Building/Components/Video/Cameras"), or a [Lua script](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Lua "Wiki/Game Mechanics/Lua").
+Monitors can be mirrored, which also mirrors the video signal!
+
+[![Video Connection](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b3/Video_Connection.jpg/revision/latest/scale-to-width-down/180?cb=20200129200527)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b3/Video_Connection.jpg/revision/latest?cb=20200129200527)
+
+HUD 1x1
+
+[![HUD 1x1](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ea/HUD_1x1.png/revision/latest/scale-to-width-down/100?cb=20200129200933)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ea/HUD_1x1.png/revision/latest?cb=20200129200933)
+
+- can be transparent from the front (side with the video on it)
+- always transparent from the back
+- 32x32 pixels
+
+HUD 3x3
+
+[![HUD 3x3](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/8a/HUD_3x3.png/revision/latest?cb=20200129201004)
+
+- can be transparent from the front (side with the video on it)
+- always transparent from the back
+- 96x96 pixels
+
+Monitor 1x1
+
+[![Monitor 1x1](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/07/Monitor_1x1.png/revision/latest?cb=20200129201917)
+
+- can **not** be transparent
+- 32x32 pixels
+
+Monitor 1x2
+
+[File:Monitor 1x2.png](https://stormworks.fandom.com/wiki/Special:Upload?wpDestFile=Monitor_1x2.png "File:Monitor 1x2.png")
+
+- can **not** be transparent
+- 32x64 pixels
+
+Monitor 1x3
+
+[File:Monitor 1x3.png](https://stormworks.fandom.com/wiki/Special:Upload?wpDestFile=Monitor_1x3.png "File:Monitor 1x3.png")
+
+- can **not** be transparent
+- 32x96 pixels
+
+Monitor 2x2
+
+[![Monitor 2x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/14/Monitor_2x2.png/revision/latest?cb=20200129201931)
+
+- can **not** be transparent
+- 64x64 pixels
+
+Monitor 2x3
+
+[File:Monitor 2x3.png](https://stormworks.fandom.com/wiki/Special:Upload?wpDestFile=Monitor_2x3.png "File:Monitor 2x3.png")
+
+- can **not** be transparent
+- 64x96 pixels
+
+Monitor 3x3
+
+[File:Monitor 3x3.png](https://stormworks.fandom.com/wiki/Special:Upload?wpDestFile=Monitor_3x3.png "File:Monitor 3x3.png")
+
+- can **not** be transparent
+- 96x96 pixels
+
+Monitor 3x5
+
+[![Monitor 3x5](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ec/Monitor_3x5.png/revision/latest?cb=20200129201946)
+
+- can **not** be transparent
+- 160x96 pixels
+
+Monitor 9x5
+
+[![Monitor 6x9](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2f/Monitor_6x9.png/revision/latest?cb=20200129201953)
+
+- can **not** be transparent
+- 288x160 pixels
+
+---
+
+Source: [Gameplay/Workbench/Components/Video/Monitors](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video/Monitors) · Revision 4195 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 1616_Gameplay_Workbench_Components_Windows.md
+################################################################################
+# Gameplay/Workbench/Components/Windows
+
+## Function
+
+Windows in Stormworks as very much like in real life, partially transparent. Though windows in-game have a border around the glass panel suggesting that they are supported by this part.
+
+Windows are Airtight (and also watertight) meaning that they block the passage of water or other fluids even under extreme pressure.
+
+Windows also cannot be damaged by said pressure, and also behaves like other basic building components. **Unless they are modified by XML modification.**
+
+## Types
+
+The windows are partially modular, in the way that are multiple different shapes and sizes to the component, Including 1x1, 1x2, 1x3, 2x2, 2x3 and so on up to 3x3 (maximum size of the length and height, or X for character 1 and Y for character 2).
+
+Angled Modules also exist in-game ,adding a new dimension, Depth , including but not limited to, 1x1x1, 2x1x1, 3x1x1, (First letter being Width, Second is height, and last being depth, or X for character 1, Y for character 2, Z for character 3).
+
+## Painting
+
+There are two painting zones, Including one on the inside and on the outside. Very simple.
+
+## List of all window types
+
+Placeholder
+
+---
+
+Source: [Gameplay/Workbench/Components/Windows](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Windows) · Revision 4197 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 1200_Gameplay_Workbench_Components_Propulsion_DieselEngines.md
+################################################################################
+# Gameplay/Workbench/Components/Propulsion/DieselEngines
+
+## Diesel Engines
+
+Diesel Engines are the cheapest components in the game that produce power. There are 3 variants: Small, which produces 20kW and costs 400$; Medium costs 1000$ and produces 60kW and Large, also 3000$ and 200kW. Diesel Engines require fuel, air, cooling and an exhaust to operate.
+Unlike electric motors, diesel engines can't produce power at 0 min-1 and therefore need to be started. The starter requires electricity to be connected to the engine and will start the engine when the "Starter" input on the Engine is on. It will consume a lot of power and start the engine.
+
+Starters are very powerful. They can produce a lot of torque. The electric requirement scales with the output torque. Because of this behavior you only need one starter to start all of your engines if all of their power ports are linked together, which is helpful because starters are a lot louder than the engines themselves.
+
+If an engine is slowed down to 2rps, either because the throttle is 0 or because the load is too high, it will stall. To prevent stalling vehicles require gearboxes and a clutch.
+
+## Power output
+
+Unlike electric motors, diesel engines don't have a constant power output. The elastic range (the rps range from peak torque to peak power) is 3-18rps for large engines, 3-28RPS for medium engines and 3-40RPS for small. Each engine has about 3 times the power than the one a size smaller.
+
+Engine figures as tested ingame
+
+## Ports
+
+Diesel Engines have ports for air, exhaust, fuel, coolant in and coolant out. Engines will pump the liquids themselves so there is generally no need for external pumps. However, **medium** engines require **pumps** on the fuel, air and exhaust pipes **above ~75rps** and the same is true for **large** engines **above ~40rps**. Additionally, **long** pipes, **gravity** and **external pressure** also decrease engine performance without pumps.
+
+All diesel engine connections, except for power and the rear air port on the medium engine
+
+The engine requires an air connection to the outside. If you place it inside an enclosed room it might run if the space has enough air, but it will quickly use up all the air and stall.
+
+The infinite fuel setting in a custom mode world doesn't help with troubleshooting because it supplies all the engines ports.
+(The engine then only needs power and the starter to start. But it can still overheat.)
+
+For fixing problems, you can set the tooltip detail to: Detailed in the settings and look at the engine in-game (not in the editor). You will then get information for all connections like: power, fuel, temperature, etc.
+
+## Cooling
+
+Diesel Engines require cooling.
+
+If they aren't sufficiently cooled they will heat up past 115°C and overheat. An overheating engine can rev a bit higher than the set RPS limit and produce a lot less torque. If the engines operates for more than a few seconds over 115°C, it will catch fire and eventually explode. The engine will stay somewhat operational until it reached higher temperatures (around 400 - 500°C).
+
+The amount of heat produced only depends on the RPS. Engines can be cooled by either connecting the coolant ports to the sea or to a radiator. If one radiator is not enough multiple can be chained together to improve cooling.
+
+Because custom fluid tanks don't store heat, connecting the coolant ports to one is the same as connecting them to the sea. This is usually regarded as cheating and might be changed in future releases.
+
+At 20 RPS one radiator is enough to cool a small engine sufficiently. 2 for medium and 3 for large. 30rps is about the limit for engines that aren't cooled using seawater.
+
+## Fuel Usage
+
+As detailed in the engine figures, the fuel usage is exponential and only depends on rps. Large engines are most efficient in terms of kw of power per litre of fuel at 7-8RPS, medium at 6-7RPS and the small engine is most efficient at around 10RPS. The maximum efficiency is the same for all engines.
+
+---
+
+Source: [Gameplay/Workbench/Components/Propulsion/DieselEngines](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Propulsion/DieselEngines) · Revision 4716 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 1207_Gameplay_Workbench_Components_Propulsion_Gearbox.md
+################################################################################
+# Gameplay/Workbench/Components/Propulsion/Gearbox
+
+## Basics
+
+[Diesel Engines](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion/DieselEngines "Wiki/Building/Components/Propulsion/DieselEngines") have a small elastic range([explanation](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion/DieselEngines "Wiki/Building/Components/Propulsion/DieselEngines")) and therefore might stall or won't run at optimum RPS. Gearboxes can be used to get more torque or more RPS depending on what is needed. Gearboxes have two ratio settings that you can switch between. On cars they are commonly chained together to create a transmission.
+
+Gearboxes have a 95% efficiency. If gearboxes are connected in a loop they will lock up.
+
+## Gear Ratios
+
+Gear Ratios are defined as
+
+i
+=
+
+M
+
+o
+u
+t
+
+/
+
+M
+
+i
+n
+=
+
+n
+
+i
+n
+
+/
+
+n
+
+o
+u
+t
+{\displaystyle i=M\_{out}/M\_{in}=n\_{in}/n\_{out}}
+![{\displaystyle i=M_{out}/M_{in}=n_{in}/n_{out}}](https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/cd0d3021cdc3fe6f29a70786f07946fb67b7bd4f)
+
+where i is the gear ratio, M is torque and n is RPS
+
+What this means if the gear ratio is for example 2/1, the output torque will be double the input torque (ignoring efficiency) and output RPS will be half the input.
+
+The blue arrows on the gearbox point away from the input and towards the output. Gearboxes can be installed in reverse (the arrows pointing towards the engine) to reverse the gear ratios and get more RPS.
+
+A ratio 1/-1 will cause the output to turn in reverse.
+
+---
+
+Source: [Gameplay/Workbench/Components/Propulsion/Gearbox](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Propulsion/Gearbox) · Revision 4173 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 1269_Gameplay_Workbench_Components_Search_and_Destroy.md
+################################################################################
+# Gameplay/Workbench/Components/Search and Destroy
+
+## Search and Destroy
+
+---
+
+Source: [Gameplay/Workbench/Components/Search and Destroy](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Search_and_Destroy) · Revision 4177 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 1618_Gameplay_Workbench_Components_Space.md
+################################################################################
+# Gameplay/Workbench/Components/Space
+
+---
+
+Source: [Gameplay/Workbench/Components/Space](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Space) · Revision 4183 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 1168_Gameplay_Workbench_Components_Lights.md
+################################################################################
+# Gameplay/Workbench/Components/Lights
+
+Redirects to [Gameplay/Workbench/Components/Decorative/Lights](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Decorative/Lights).
+
+---
+
+Source: [Gameplay/Workbench/Components/Lights](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Lights) · Revision 4660 · CC BY-NC-SA
+
+
+
+################################################################################
+## FILE: 1272_Gameplay_Workbench_Components_Compass_Sensor.md
+################################################################################
+# Gameplay/Workbench/Components/Compass Sensor
+
+Redirects to [Compass Sensor](https://stormworks.fandom.com/wiki/Compass_Sensor).
+
+---
+
+Source: [Gameplay/Workbench/Components/Compass Sensor](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Compass_Sensor) · Revision 4147 · CC BY-NC-SA

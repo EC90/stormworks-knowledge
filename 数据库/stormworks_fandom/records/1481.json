@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Solid Rockets Research",
+  "display_title": "Solid Rockets Research",
+  "summary": "Solid rockets is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Research",
+    "Space Research",
+    "Wiki/Building/Components/Propulsion",
+    "Wiki/Building/Components/Vehicle Control"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/94/Solidrocketsresearch.png/revision/latest?cb=20240421182223",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/94/Solidrocketsresearch.png/revision/latest?cb=20240421182223",
+      "alt": "Solidrocketsresearch",
+      "width": "48",
+      "height": "48"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Solid Rocket Fuel (Small)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Solid Rocket Fuel (Medium)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Solid Rocket Fuel (Large)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Solid Rocket Fuel (Huge)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Solid Rocket Fuel (Small) (Fins)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Solid Rocket Fuel (Medium) (Fins)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Solid Rocket Fuel (Large) (Fins)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Solid Rocket Fuel (Huge) (Fins)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Solid Rocket Booster (Small)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Solid Rocket Booster (Medium)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Solid Rocket Booster (Large)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Solid Rocket Booster (Huge)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Control Fin Small"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Control Fin Medium"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Control Fin Large"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Solid Rockets\n\n[![Solidrocketsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/94/Solidrocketsresearch.png/revision/latest?cb=20240421182223)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/94/Solidrocketsresearch.png/revision/latest?cb=20240421182223)\n\n### Research Points\n\n10\n\n### Research Time\n\n1h 30m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[Space](https://stormworks.fandom.com/wiki/Space_Research)\n\nSolid rockets is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Solid Rocket Fuel (Small) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Solid Rocket Fuel (Medium) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Solid Rocket Fuel (Large) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Solid Rocket Fuel (Huge) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Solid Rocket Fuel (Small) (Fins) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Solid Rocket Fuel (Medium) (Fins) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Solid Rocket Fuel (Large) (Fins) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Solid Rocket Fuel (Huge) (Fins) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Solid Rocket Booster (Small) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Solid Rocket Booster (Medium) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Solid Rocket Booster (Large) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Solid Rocket Booster (Huge) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Control Fin Small |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Control Fin Medium |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Control Fin Large |",
+    "plain_text": "Solid Rockets\n\nResearch Points\n\n10\n\nResearch Time\n\n1h 30m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nSpace\n\nSolid rockets is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nPropulsion\n\nSolid Rocket Fuel (Small)\n\nPropulsion\n\nSolid Rocket Fuel (Medium)\n\nPropulsion\n\nSolid Rocket Fuel (Large)\n\nPropulsion\n\nSolid Rocket Fuel (Huge)\n\nPropulsion\n\nSolid Rocket Fuel (Small) (Fins)\n\nPropulsion\n\nSolid Rocket Fuel (Medium) (Fins)\n\nPropulsion\n\nSolid Rocket Fuel (Large) (Fins)\n\nPropulsion\n\nSolid Rocket Fuel (Huge) (Fins)\n\nPropulsion\n\nSolid Rocket Booster (Small)\n\nPropulsion\n\nSolid Rocket Booster (Medium)\n\nPropulsion\n\nSolid Rocket Booster (Large)\n\nPropulsion\n\nSolid Rocket Booster (Huge)\n\nVehicle Control\n\nControl Fin Small\n\nVehicle Control\n\nControl Fin Medium\n\nVehicle Control\n\nControl Fin Large",
+    "char_count": 2459,
+    "word_count": 110,
+    "sha256": "d16d02322df7cb3c26590657a0d56dec438f92e310a0f000978dd7feb42b1439"
+  },
+  "wikitext": "{{Research\n  | name=Solid Rockets\n  | image=[File:Solidrocketsresearch.png]\n  | points=10\n  | time= 1h 30m\n  | unlock= Initially Available\n  | a1=[[Space Research|Space]]\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Solid rockets is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Solid Rocket Fuel (Small)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Solid Rocket Fuel (Medium)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Solid Rocket Fuel (Large)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Solid Rocket Fuel (Huge)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Solid Rocket Fuel (Small) (Fins)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Solid Rocket Fuel (Medium) (Fins)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Solid Rocket Fuel (Large) (Fins)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Solid Rocket Fuel (Huge) (Fins)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Solid Rocket Booster (Small)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Solid Rocket Booster (Medium)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]\n|Solid Rocket Booster (Large)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]\n|Solid Rocket Booster (Huge)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]\n|Control Fin Small\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]\n|Control Fin Medium\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]\n|Control Fin Large\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Solid_Rockets_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1481,
+    "revision_id": 3750,
+    "revision_timestamp": "2024-04-21T18:22:47Z",
+    "retrieved_at": "2026-08-31T10:05:01+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

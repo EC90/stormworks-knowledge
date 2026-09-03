@@ -1,0 +1,17 @@
+{
+  "_comment": "人工策展覆盖层：由 extract_property_options.py 在自动提取后合并（manual 优先）。来源：exe 字符串簇证据 + 存档实测取值 + Stormworks 游戏内知识。verified=curated 表示人工确认语义，partial 表示需游戏内复核。",
+  "property_ammo_type": {
+    "label": "Ammo Type",
+    "options": ["Unloaded", "Kinetic", "High Explosive", "Fragmentation", "Armor Piercing", "Incendiary"],
+    "verified": "partial",
+    "evidence": "exe 0x140af8d48 'Ammo Type' 标签 + 0x140af8d08 起 6 项连续注册(Unloaded/Kinetic/High Explosive/Fragmentation/Armor Piercing/Incendiary)",
+    "note": "存档 gun_drum_xsmall 实测 property_ammo_type=6 → 至少 7 项，本表可能缺尾项（疑为 Squash Head/EMP），待游戏内下拉复核补全"
+  },
+  "property_ammo_damage": {
+    "label": "Ammo Damage Type",
+    "options": ["Kinetic", "High Explosive", "Fragmentation", "Armor Piercing", "Incendiary"],
+    "verified": "partial",
+    "evidence": "与 property_ammo_type 同源（exe 弹药簇），存档实测取值 {1,3,4,5} ⊂ [0,5)",
+    "note": "取值未含 0 与 6，与 ammo_type 的表位可能不完全一致，待游戏内复核"
+  }
+}

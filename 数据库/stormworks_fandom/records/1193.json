@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Handheld Equipment",
+  "display_title": "Handheld Equipment",
+  "summary": "Alias for Equipment",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Equipment"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Handheld Equipment -> Equipment",
+    "plain_text": "Redirect: Handheld Equipment -> Equipment",
+    "char_count": 41,
+    "word_count": 5,
+    "sha256": "cac1c77229b8047dba6d10e85aa37f1d40e59afcffe31ec5d3389999ecd07301"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Equipment",
+    "target_url": "https://stormworks.fandom.com/wiki/Equipment",
+    "target_page_id": 1194,
+    "target_revision_id": 4587
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Handheld_Equipment",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1193,
+    "revision_id": 4586,
+    "revision_timestamp": "2025-08-11T14:02:44Z",
+    "retrieved_at": "2026-08-31T10:03:16+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

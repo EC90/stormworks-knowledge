@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Lua Programming",
+  "display_title": "Wiki/Building/Lua Programming",
+  "summary": "Alias for Gameplay/Workbench/Lua Programming",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Lua Programming"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Lua Programming -> Gameplay/Workbench/Lua Programming",
+    "plain_text": "Redirect: Wiki/Building/Lua Programming -> Gameplay/Workbench/Lua Programming",
+    "char_count": 77,
+    "word_count": 6,
+    "sha256": "0d74a58f4a29816d5acd5df55b4d84269191a198f837ba0ab714dc771da8ed61"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Lua Programming",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Lua_Programming",
+    "target_page_id": 995,
+    "target_revision_id": 4201
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Lua_Programming",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1684,
+    "revision_id": 4202,
+    "revision_timestamp": "2025-05-14T02:40:56Z",
+    "retrieved_at": "2026-08-31T10:11:34+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

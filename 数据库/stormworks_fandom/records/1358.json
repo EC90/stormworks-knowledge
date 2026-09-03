@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Medium camera",
+  "display_title": "Medium camera",
+  "summary": "Alias for Camera medium",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Camera medium"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Medium camera -> Camera medium",
+    "plain_text": "Redirect: Medium camera -> Camera medium",
+    "char_count": 40,
+    "word_count": 6,
+    "sha256": "f3f3173cc63ef39b8d35dd59c10456928a16807e8db508d5572ecd008c7dfb1a"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Camera medium",
+    "target_url": "https://stormworks.fandom.com/wiki/Camera_medium",
+    "target_page_id": 1357,
+    "target_revision_id": 4695
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Medium_camera",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1358,
+    "revision_id": 3056,
+    "revision_timestamp": "2022-02-12T05:48:19Z",
+    "retrieved_at": "2026-08-31T10:04:06+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

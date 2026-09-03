@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Video",
+  "display_title": "Gameplay/Workbench/Components/Video",
+  "summary": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nVideo\n\nSubpages\n\n Monitors\n\n Cameras\n\nDo you think a subpage is missing?\n\n Cameras\n\nCameras produce video data\n\n Monitors\n\nMonitors display video data",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Video     [ edit page ]",
+      "anchor": "Video_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Subpages",
+      "anchor": "Subpages"
+    },
+    {
+      "level": 2,
+      "title": "Cameras",
+      "anchor": "Cameras"
+    },
+    {
+      "level": 2,
+      "title": "Monitors",
+      "anchor": "Monitors"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Workbench",
+    "Gameplay/Workbench/Components",
+    "Gameplay/Workbench/Components/Video/",
+    "Gameplay/Workbench/Components/Video/Cameras",
+    "Gameplay/Workbench/Components/Video/Monitors",
+    "Wiki/Building/Components/Video/Cameras",
+    "Wiki/Building/Components/Video/Monitors"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video?action=edit). |\n| --- | --- |\n\n## Video\n\n## Subpages\n\n[Monitors](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video/Monitors) [Cameras](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video/Cameras)\n\nDo you think a subpage is missing?\n\n## [Cameras](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Video/Cameras)\n\nCameras produce video data\n\n## [Monitors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Video/Monitors)\n\nMonitors display video data",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nVideo\n\nSubpages\n\n Monitors\n\n Cameras\n\nDo you think a subpage is missing?\n\n Cameras\n\nCameras produce video data\n\n Monitors\n\nMonitors display video data",
+    "char_count": 963,
+    "word_count": 33,
+    "sha256": "3af5eb0dff45ad1dd9ba862105134d7af71802465f06f64831a2a9d9ff3add9f"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\n\n\n\n{{Wiki_Page/subpages|Monitors|Cameras|||||||||||||}}\n\n==[[Wiki/Building/Components/Video/Cameras| Cameras]]==\nCameras produce video data\n\n==[[Wiki/Building/Components/Video/Monitors| Monitors]]==\nMonitors display video data\n\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1115,
+    "revision_id": 4191,
+    "revision_timestamp": "2025-05-14T02:40:55Z",
+    "retrieved_at": "2026-08-31T10:03:01+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

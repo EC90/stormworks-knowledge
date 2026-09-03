@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Propulsion/Gearbox",
+  "display_title": "Gameplay/Workbench/Components/Propulsion/Gearbox",
+  "summary": "Basics\nDiesel Engines\nhave a small elastic range(\nexplanation\n) and therefore might stall or won't run at optimum RPS. Gearboxes can be used to get more torque or more RPS depending on what is needed. Gearboxes have two ratio settings that you can switch between. On cars they are commonly chained together to create a transmission.\nGearboxes have a 95% efficiency. If gearboxes are connected in a loop they will lock up.\nGear Ratios\nGear Ratios are defined as\ni\n=\nM\no\nu\nt\n/\nM\ni\nn\n=\nn\ni\nn\n/\nn\no\nu\nt\n{\\displaystyle i=M_{out}/M_{in}=n_{in}/n_{out}}\nwhere i is the gear ratio, M is torque and n is RPS\nW",
+  "categories": [],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Basics",
+      "anchor": "Basics"
+    },
+    {
+      "level": 2,
+      "title": "Gear Ratios",
+      "anchor": "Gear_Ratios"
+    }
+  ],
+  "internal_links": [
+    "Wiki/Building/Components/Propulsion/DieselEngines"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/cd0d3021cdc3fe6f29a70786f07946fb67b7bd4f",
+      "thumbnail_url": "https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/cd0d3021cdc3fe6f29a70786f07946fb67b7bd4f",
+      "alt": "{\\displaystyle i=M_{out}/M_{in}=n_{in}/n_{out}}",
+      "width": null,
+      "height": null
+    }
+  ],
+  "tables": [],
+  "content": {
+    "markdown": "## Basics\n\n[Diesel Engines](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion/DieselEngines \"Wiki/Building/Components/Propulsion/DieselEngines\") have a small elastic range([explanation](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion/DieselEngines \"Wiki/Building/Components/Propulsion/DieselEngines\")) and therefore might stall or won't run at optimum RPS. Gearboxes can be used to get more torque or more RPS depending on what is needed. Gearboxes have two ratio settings that you can switch between. On cars they are commonly chained together to create a transmission.\n\nGearboxes have a 95% efficiency. If gearboxes are connected in a loop they will lock up.\n\n## Gear Ratios\n\nGear Ratios are defined as\n\ni\n=\n\nM\n\no\nu\nt\n\n/\n\nM\n\ni\nn\n=\n\nn\n\ni\nn\n\n/\n\nn\n\no\nu\nt\n{\\displaystyle i=M\\_{out}/M\\_{in}=n\\_{in}/n\\_{out}}\n![{\\displaystyle i=M_{out}/M_{in}=n_{in}/n_{out}}](https://services.fandom.com/mathoid-facade/v1/media/math/render/svg/cd0d3021cdc3fe6f29a70786f07946fb67b7bd4f)\n\nwhere i is the gear ratio, M is torque and n is RPS\n\nWhat this means if the gear ratio is for example 2/1, the output torque will be double the input torque (ignoring efficiency) and output RPS will be half the input.\n\nThe blue arrows on the gearbox point away from the input and towards the output. Gearboxes can be installed in reverse (the arrows pointing towards the engine) to reverse the gear ratios and get more RPS.\n\nA ratio 1/-1 will cause the output to turn in reverse.",
+    "plain_text": "Basics\nDiesel Engines\nhave a small elastic range(\nexplanation\n) and therefore might stall or won't run at optimum RPS. Gearboxes can be used to get more torque or more RPS depending on what is needed. Gearboxes have two ratio settings that you can switch between. On cars they are commonly chained together to create a transmission.\nGearboxes have a 95% efficiency. If gearboxes are connected in a loop they will lock up.\nGear Ratios\nGear Ratios are defined as\ni\n=\nM\no\nu\nt\n/\nM\ni\nn\n=\nn\ni\nn\n/\nn\no\nu\nt\n{\\displaystyle i=M_{out}/M_{in}=n_{in}/n_{out}}\nwhere i is the gear ratio, M is torque and n is RPS\nWhat this means if the gear ratio is for example 2/1, the output torque will be double the input torque (ignoring efficiency) and output RPS will be half the input.\nThe blue arrows on the gearbox point away from the input and towards the output. Gearboxes can be installed in reverse (the arrows pointing towards the engine) to reverse the gear ratios and get more RPS.\nA ratio 1/-1 will cause the output to turn in reverse.",
+    "char_count": 1491,
+    "word_count": 197,
+    "sha256": "976ef68fdcb3e2028533d264b51efdfabee2f744bfd530dfb7723be20d954ef7"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Propulsion/Gearbox",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1207,
+    "revision_id": 4173,
+    "revision_timestamp": "2025-05-14T02:40:55Z",
+    "retrieved_at": "2026-08-30T15:13:06+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

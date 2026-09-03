@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Game Mechanics/Lift",
+  "display_title": "Wiki/Game Mechanics/Lift",
+  "summary": "Alias for Gameplay/Mechanics/Lift",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Mechanics/Lift"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Game Mechanics/Lift -> Gameplay/Mechanics/Lift",
+    "plain_text": "Redirect: Wiki/Game Mechanics/Lift -> Gameplay/Mechanics/Lift",
+    "char_count": 61,
+    "word_count": 5,
+    "sha256": "4a53f5805e67f69c8b95c373c15af71be204978d879a6c3c86395757dd2fa956"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Mechanics/Lift",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Lift",
+    "target_page_id": 934,
+    "target_revision_id": 4241
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Lift",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1701,
+    "revision_id": 4242,
+    "revision_timestamp": "2025-05-14T06:15:44Z",
+    "retrieved_at": "2026-08-31T10:11:46+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

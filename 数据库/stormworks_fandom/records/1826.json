@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Arid Islands",
+  "display_title": "Arid Islands",
+  "summary": "Alias for Arid Island",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Arid Island"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Arid Islands -> Arid Island",
+    "plain_text": "Redirect: Arid Islands -> Arid Island",
+    "char_count": 37,
+    "word_count": 6,
+    "sha256": "691be1aca1b4d6fc708cc4636e640c3e8f17543da47dbfcb9c2e5d3f5bf12861"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Arid Island",
+    "target_url": "https://stormworks.fandom.com/wiki/Arid_Island",
+    "target_page_id": 1598,
+    "target_revision_id": 4510
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Arid_Islands",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1826,
+    "revision_id": 4480,
+    "revision_timestamp": "2025-07-19T15:50:01Z",
+    "retrieved_at": "2026-08-31T10:00:46+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

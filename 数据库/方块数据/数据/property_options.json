@@ -1,0 +1,2373 @@
+{
+ "_meta": {
+  "generated": "2026-09-03T12:43:55",
+  "exe": "E:\\SteamLibrary\\steamapps\\common\\Stormworks\\stormworks64.exe",
+  "method": "text-lea-code-ref-order (见 SKILL.md)",
+  "golden": {
+   "m_sweep_mode": [
+    "Static",
+    "Clockwise",
+    "Anticlockwise",
+    "Sweep",
+    "Manual"
+   ],
+   "gear_ratio": [
+    "1:1",
+    "1:2",
+    "1:4",
+    "1:8",
+    "1:16",
+    "1:32"
+   ]
+  },
+  "enum_keys_total": 94,
+  "resolved": 10
+ },
+ "properties": {
+  "key": {
+   "label": "\", \"key\":\"",
+   "n": 0,
+   "evidence": "0x1408738b6-0x14087390d",
+   "note": "锚定:key@func; 存在3个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "Bouyancy Pipe -X",
+     "Bouyancy Pipe -Y",
+     "Bouyancy Pipe -Z",
+     "Bouyancy Pipe +X",
+     "Bouyancy Pipe +Y",
+     "Bouyancy Pipe +Z"
+    ],
+    [
+     "Constraint pos parent",
+     "Constraint pos child",
+     "Voxel pos child"
+    ],
+    [
+     "Child Component",
+     "Constraint pos parent",
+     "Constraint pos child",
+     "Voxel pos child",
+     "Cable Radius",
+     "Cable Length"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "Physics Voxel",
+    "Clickable Always Voxel"
+   ]
+  },
+  "mouse": {
+   "label": "mouse",
+   "n": 0,
+   "evidence": "0x1407cda44-0x1407cdb0b",
+   "note": "锚定:pool-min=0x22c; 仅池距锚定，建议游戏内复核; 存在3个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "Camera Speed",
+     "0.0075"
+    ],
+    [
+     "Rotate",
+     "Undo",
+     "Redo",
+     "Generate"
+    ],
+    [
+     "Vehicle",
+     "Advanced",
+     "Structure"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "Save Camera",
+    "Restore Camera"
+   ]
+  },
+  "pad": {
+   "label": "pad",
+   "n": 0,
+   "evidence": "0x1401facfa-0x1401fad77",
+   "note": "锚定:key@func+pool-min=0x1c; 存在3个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "Left",
+     "Right",
+     "Forward",
+     "Backward",
+     "Jump/Swim Up",
+     "Crouch/Swim Down",
+     "Trim Menu",
+     "Sprint",
+     "Walk",
+     "Interact Left",
+     "Interact Right",
+     "Use Equipment"
+    ],
+    [
+     "Add Node",
+     "NODES"
+    ],
+    [
+     "No description set.",
+     "Width",
+     "Length"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "Logic",
+    "Symbol",
+    "Movement",
+    "Camera",
+    "Miscellaneous",
+    "Controller"
+   ]
+  },
+  "third_person_camera_mode": {
+   "label": "Third Person",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "antialiasing_mode": {
+   "label": "Antialiasing Mode",
+   "n": 0,
+   "evidence": "0x14027a245-0x14027a32c",
+   "note": "锚定:pool-min=0x220; 仅池距锚定，建议游戏内复核 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [],
+   "verified": "todo",
+   "candidates": [
+    "Windows",
+    "ProductName"
+   ]
+  },
+  "fps_limit_level": {
+   "label": "FPS Limit",
+   "n": 0,
+   "evidence": "0x14027a245-0x14027a32c",
+   "note": "锚定:pool-min=0x230; 仅池距锚定，建议游戏内复核 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [],
+   "verified": "todo",
+   "candidates": [
+    "Windows",
+    "ProductName"
+   ]
+  },
+  "window_mode": {
+   "label": "Window Mode",
+   "n": 0,
+   "evidence": "0x14027a7db-0x14027a80e",
+   "note": "锚定:pool-min=0x2c8; 仅池距锚定，建议游戏内复核; 存在1个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "Windows",
+     "ProductName"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "Windows 11",
+    "11"
+   ]
+  },
+  "color_palette": {
+   "label": "Color Palette",
+   "n": 0,
+   "evidence": "0x14027a7db-0x14027a80e",
+   "note": "锚定:pool-min=0x290; 仅池距锚定，建议游戏内复核; 存在1个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "Windows",
+     "ProductName"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "Windows 11",
+    "11"
+   ]
+  },
+  "blood_level": {
+   "label": null,
+   "n": 0,
+   "evidence": "0x14027a7db-0x14027a80e",
+   "note": "锚定:pool-min=0x2a0; 仅池距锚定，建议游戏内复核; 存在1个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "Windows",
+     "ProductName"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "Windows 11",
+    "11"
+   ]
+  },
+  "particles_level": {
+   "label": null,
+   "n": 0,
+   "evidence": "0x14027a7db-0x14027a80e",
+   "note": "锚定:pool-min=0x278; 仅池距锚定，建议游戏内复核; 存在1个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "Windows",
+     "ProductName"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "Windows 11",
+    "11"
+   ]
+  },
+  "physics_material_type": {
+   "label": "Physics Material",
+   "n": 0,
+   "evidence": "0x1402a7909-0x1402a7968",
+   "note": "锚定:pool-min=0x40; 仅池距锚定，建议游戏内复核; 存在3个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "Distance",
+     "1.00",
+     "Angle",
+     "15"
+    ],
+    [
+     "Map",
+     "Width",
+     "Height",
+     "X resolution",
+     "Y resolution",
+     "Background color"
+    ],
+    [
+     "Light voxel pos",
+     "Light forward",
+     "Light color",
+     "Light intensity",
+     "Light range",
+     "Light fov",
+     "IES Map",
+     "Infrared",
+     "Pivot",
+     "Rotating light"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "Is Volcanic Additive",
+    "Additive Factor"
+   ]
+  },
+  "grid_size": {
+   "label": null,
+   "n": 0,
+   "evidence": "0x1402a7909-0x1402a7968",
+   "note": "锚定:pool-min=0x1b0; 仅池距锚定，建议游戏内复核; 存在2个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "Map",
+     "Width",
+     "Height",
+     "X resolution",
+     "Y resolution",
+     "Background color"
+    ],
+    [
+     "Light voxel pos",
+     "Light forward",
+     "Light color",
+     "Light intensity",
+     "Light range",
+     "Light fov",
+     "IES Map",
+     "Infrared",
+     "Pivot",
+     "Rotating light"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "Is Volcanic Additive",
+    "Additive Factor"
+   ]
+  },
+  "type": {
+   "label": "type",
+   "n": 0,
+   "evidence": "0x1402b5eea-0x1402b5f3b",
+   "note": "锚定:key@func; 存在3个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "Infrared",
+     "Pivot"
+    ],
+    [
+     "Physics Voxel",
+     "Clickable Always Voxel"
+    ],
+    [
+     "Bouyancy Pipe -X",
+     "Bouyancy Pipe -Y",
+     "Bouyancy Pipe -Z",
+     "Bouyancy Pipe +X",
+     "Bouyancy Pipe +Y",
+     "Bouyancy Pipe +Z"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "Loot",
+    "NPC"
+   ]
+  },
+  "behavior": {
+   "label": "behavior",
+   "n": 0,
+   "evidence": "0x1402b2be1-0x1402b2c38",
+   "note": "锚定:pool-min=0x1c0; 仅池距锚定，建议游戏内复核; 存在1个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "Map",
+     "Width",
+     "Height",
+     "X resolution",
+     "Y resolution",
+     "Background color"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "On by default",
+    "Use wind speed"
+   ]
+  },
+  "marker_type": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "icon": {
+   "label": "icon",
+   "n": 0,
+   "evidence": "0x1402b60e1-0x1402b667f",
+   "note": "锚定:label-run(Icon)+pool-min=0x200; 大簇(>=16项)谨慎采信 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [],
+   "verified": "todo",
+   "candidates": [
+    "None",
+    "Cross",
+    "Wreckage",
+    "Terminal",
+    "Military",
+    "Heritage",
+    "Oil Rig",
+    "Industrial",
+    "Hospital",
+    "Science",
+    "Airport",
+    "Coastguard",
+    "Lighthouse",
+    "Hospital Ship",
+    "Refueler Plane",
+    "Ore",
+    "Ingot",
+    "Fish",
+    "Dollar"
+   ]
+  },
+  "loot_type": {
+   "label": "Loot Type",
+   "n": 0,
+   "evidence": "0x1402b60e1-0x1402b667f",
+   "note": "锚定:pool-min=0x1d8; 仅池距锚定，建议游戏内复核 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [],
+   "verified": "todo",
+   "candidates": [
+    "None",
+    "Cross",
+    "Wreckage",
+    "Terminal",
+    "Military",
+    "Heritage",
+    "Oil Rig",
+    "Industrial",
+    "Hospital",
+    "Science",
+    "Airport",
+    "Coastguard",
+    "Lighthouse",
+    "Hospital Ship",
+    "Refueler Plane",
+    "Ore",
+    "Ingot",
+    "Fish",
+    "Dollar"
+   ]
+  },
+  "fluid_type": {
+   "label": "Fluid Type",
+   "options": [
+    "None",
+    "Cross",
+    "Wreckage",
+    "Terminal",
+    "Military",
+    "Heritage",
+    "Oil Rig",
+    "Industrial",
+    "Hospital",
+    "Science",
+    "Airport",
+    "Coastguard",
+    "Lighthouse",
+    "Hospital Ship",
+    "Refueler Plane",
+    "Ore",
+    "Ingot",
+    "Fish",
+    "Dollar"
+   ],
+   "n": 19,
+   "evidence": "0x1402b60e1-0x1402b667f",
+   "note": "锚定:pool-min=0x1e8; 仅池距锚定，建议游戏内复核",
+   "alt_candidates": [],
+   "verified": "partial",
+   "components": [
+    "fluid_tank_small"
+   ]
+  },
+  "mode": {
+   "label": "Mode",
+   "n": 0,
+   "evidence": "0x14087d781-0x14087d8f3",
+   "note": "锚定:key@func; 存在3个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "Ammo Capacity",
+     "Weapon Ammo Feed",
+     "Barrel Length (Voxels)",
+     "Breech Position",
+     "Breech Normal",
+     "Cart Position",
+     "Cart Normal"
+    ],
+    [
+     "Dynamic rotation axis",
+     "Dynamic side axis"
+    ],
+    [
+     "Space suit",
+     "Space suit explorer",
+     "Firefighting SCBA"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "RX receive",
+    "RX xmit",
+    "RX video",
+    "RX audio",
+    "RX directional",
+    "RX Range",
+    "RX Antenna Length"
+   ]
+  },
+  "rotation": {
+   "label": "rotation",
+   "n": 0,
+   "evidence": "0x140878f84-0x1408791b0",
+   "note": "锚定:key@func+pool-min=0x358; 存在3个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "RX receive",
+     "RX xmit",
+     "RX video",
+     "RX audio",
+     "RX directional",
+     "RX Range",
+     "RX Antenna Length"
+    ],
+    [
+     "Ammo Capacity",
+     "Weapon Ammo Feed",
+     "Barrel Length (Voxels)",
+     "Breech Position",
+     "Breech Normal",
+     "Cart Position",
+     "Cart Normal"
+    ],
+    [
+     "Dynamic rotation axis",
+     "Dynamic side axis"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "Light voxel pos",
+    "Light forward",
+    "Light color",
+    "Light intensity",
+    "Light range",
+    "Light fov",
+    "IES Map",
+    "Infrared",
+    "Pivot",
+    "Rotating light"
+   ]
+  },
+  "shape": {
+   "label": "shape",
+   "n": 0,
+   "evidence": "pool@0x140b5a794",
+   "note": "锚定:label-nb; 仅池距锚定，建议游戏内复核; 存在3个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "RX receive",
+     "RX xmit",
+     "RX video",
+     "RX audio",
+     "RX directional",
+     "RX Range",
+     "RX Antenna Length"
+    ],
+    [
+     "Ammo Capacity",
+     "Weapon Ammo Feed",
+     "Barrel Length (Voxels)",
+     "Breech Position",
+     "Breech Normal",
+     "Cart Position",
+     "Cart Normal"
+    ],
+    [
+     "Dynamic rotation axis",
+     "Dynamic side axis"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "mapToScreen",
+    "async",
+    "property",
+    "temp",
+    "demand",
+    "flow",
+    "factor",
+    "ratio",
+    "emp",
+    "alignment",
+    "lifetime",
+    "onTick",
+    "onDraw"
+   ]
+  },
+  "trans_type": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "coupling_gender": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "use_case": {
+   "label": "use case",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "interact_type": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "zone_type": {
+   "label": "Zone Type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "category": {
+   "label": "Category",
+   "n": 0,
+   "evidence": "pool@0x140b5c8f0",
+   "note": "锚定:label-nb; 仅池距锚定，建议游戏内复核; 存在3个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "RX receive",
+     "RX xmit",
+     "RX video",
+     "RX audio",
+     "RX directional",
+     "RX Range",
+     "RX Antenna Length"
+    ],
+    [
+     "Ammo Capacity",
+     "Weapon Ammo Feed",
+     "Barrel Length (Voxels)",
+     "Breech Position",
+     "Breech Normal",
+     "Cart Position",
+     "Cart Normal"
+    ],
+    [
+     "Dynamic rotation axis",
+     "Dynamic side axis"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "development only",
+    "audio indoor",
+    "deliver mission",
+    "vehicle mission",
+    "character mission",
+    "heater",
+    "surfaces",
+    "voxels",
+    "surface",
+    "couplings",
+    "coupling",
+    "voxel"
+   ]
+  },
+  "block_type": {
+   "label": "block type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "constraint_type": {
+   "label": "constraint type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "constraint_axis": {
+   "label": "constraint axis",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "seat_pose": {
+   "label": "seat pose",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "trans_conn_type": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "wheel_type": {
+   "label": "wheel type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "button_type": {
+   "label": "button type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "light_type": {
+   "label": "light type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "custom_door_type": {
+   "label": "custom door type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "logic_gate_type": {
+   "label": "logic gate",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "indicator_type": {
+   "label": "indicator type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "connector_type": {
+   "label": "connector type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "gyro_type": {
+   "label": "gyro type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "water_component_type": {
+   "label": "water type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "torque_component_type": {
+   "label": "torque type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "jet_engine_component_type": {
+   "label": "jet engine",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "inventory_class": {
+   "label": "inventory class",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "electric_type": {
+   "label": "electric type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "composite_type": {
+   "label": "composite type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "weapon_type": {
+   "label": "weapon type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "weapon_class": {
+   "label": "weapon class",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "weapon_belt_type": {
+   "label": "weapon belt type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "rocket_type": {
+   "label": "rocket type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "engine_module_type": {
+   "label": "module type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "steam_component_type": {
+   "label": "steam type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "nuclear_component_type": {
+   "label": "nuclear type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "radar_type": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "tool_type": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "oil_component_type": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "data_logger_component_type": {
+   "label": "data logger",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "metadata_component_type": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "rudder_type": {
+   "label": "rudder type",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "tile_type": {
+   "label": "tile type",
+   "n": 0,
+   "evidence": "0x1401f5ac0-0x1401f5b6f",
+   "note": "锚定:pool-min=0x10; 仅池距锚定，建议游戏内复核; 存在2个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "New Game",
+     "Waiting for server...",
+     "Joined",
+     "Internet"
+    ],
+    [
+     "Constants",
+     "Operators",
+     "Addition",
+     "Subtraction",
+     "Multiply",
+     "Divide",
+     "Modulo (fmod)",
+     "Power",
+     "Trigonometry (radians)",
+     "Sine",
+     "Cosine",
+     "Tangent",
+     "Arcsine",
+     "Arccosine",
+     "Arctangent",
+     "Atan2"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "Connecting to server...",
+    "Joining game...",
+    "NEW GAME",
+    "LOAD GAME",
+    "NEW MULTIPLAYER GAME",
+    "LOAD MULTIPLAYER GAME",
+    "Invalid password",
+    "Incompatible game version"
+   ]
+  },
+  "hair_mesh": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "upper_mesh": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "mid_mesh": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "lower_mesh": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "glasses_mesh": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "mask_mesh": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "clothing_mesh": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "special_outfit_mesh": {
+   "label": "Special Outfit",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "chest_style": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "leg_style": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "feet_style": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "tsunami_type": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "ai_type": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "gear_ratio": {
+   "label": "Gear Ratio",
+   "options": [
+    "1:1",
+    "1:2",
+    "1:4",
+    "1:8",
+    "1:16",
+    "1:32"
+   ],
+   "n": 6,
+   "evidence": "0x14035a337-0x14035a4bf",
+   "note": "锚定:pool-min=0x1c; golden 校验通过; 存在1个异序候选 XML 实测取值均落在 [0,6)",
+   "alt_candidates": [
+    [
+     "1:-1",
+     "1:1",
+     "6:5",
+     "3:2",
+     "9:5",
+     "2:1",
+     "5:2",
+     "3:1"
+    ]
+   ],
+   "verified": "auto",
+   "components": [
+    "linear_compact_head",
+    "multibody_compact_pivot_b",
+    "multibody_compact_pivot_robotic_a",
+    "multibody_turret_large_a",
+    "multibody_turret_large_b",
+    "multibody_velocity_pivot_a",
+    "multibody_velocity_pivot_b"
+   ]
+  },
+  "color_mode": {
+   "label": "Color Mode",
+   "options": [
+    "Push Button",
+    "Toggle Button"
+   ],
+   "n": 2,
+   "evidence": "0x14039e587-0x14039e5af",
+   "note": "锚定:pool-min=0x130; 仅池距锚定，建议游戏内复核; 存在3个异序候选",
+   "alt_candidates": [
+    [
+     "Push",
+     "Toggle",
+     "Channel Out (on/off)",
+     "Orientation",
+     "Vertical",
+     "Horizontal",
+     "Min Value",
+     "Max Value",
+     "Channel In (number)",
+     "Channel In (on/off)",
+     "Backlight Mode",
+     "Always",
+     "Backlight Signal",
+     "Display Mode",
+     "Number",
+     "On/Off",
+     "Channel In",
+     "Direction",
+     "Up",
+     "Right",
+     "Down",
+     "Left",
+     "Number (bits)"
+    ],
+    [
+     "Push",
+     "Toggle",
+     "Channel Out (on/off)",
+     "Direction",
+     "Up",
+     "Right",
+     "Down",
+     "Left"
+    ],
+    [
+     "Min Value",
+     "Max Value",
+     "Channel In (number)"
+    ]
+   ],
+   "verified": "partial",
+   "components": [
+    "small_light_rgb"
+   ]
+  },
+  "tire_type": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）",
+   "components": [
+    "wheel_advanced_5"
+   ]
+  },
+  "m_sweep_mode": {
+   "label": "Sweep Mode",
+   "options": [
+    "Static",
+    "Clockwise",
+    "Anticlockwise",
+    "Sweep",
+    "Manual"
+   ],
+   "n": 5,
+   "evidence": "0x1403b9def-0x1403b9f75",
+   "note": "锚定:label-run(Sweep Mode)+pool-min=0x1c8; golden 校验通过 XML 实测取值均落在 [0,5)",
+   "alt_candidates": [],
+   "verified": "auto",
+   "components": [
+    "radar_advanced_dish",
+    "radar_advanced_missile"
+   ]
+  },
+  "lss_mode": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "func_type": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "sensor_type": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "sensor_mode": {
+   "label": "Sensor Mode",
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "ordinance_type": {
+   "label": null,
+   "options": [
+    "Ordinance",
+    "Utility",
+    "Fuel",
+    "Unguided bomb",
+    "Laser Guided Bomb",
+    "GPS Guided Bomb",
+    "Rocket",
+    "Rocket Pod",
+    "Laser Guided Missile",
+    "GPS Guided Missile",
+    "Radar Guided Missile",
+    "Torpedo",
+    "Cannon"
+   ],
+   "n": 13,
+   "evidence": "0x1403d240e-0x1403d2887",
+   "note": "锚定:pool-min=0x30; 仅池距锚定，建议游戏内复核",
+   "alt_candidates": [],
+   "verified": "partial",
+   "components": [
+    "connector_hardpoint_a",
+    "connector_hardpoint_b_round",
+    "connector_slider_track"
+   ]
+  },
+  "convert_type": {
+   "label": null,
+   "options": null,
+   "n": 0,
+   "verified": "todo",
+   "evidence": "",
+   "note": "无锚定段（非下拉或需人工复核）"
+  },
+  "flare_type": {
+   "label": null,
+   "options": [
+    "Illumination",
+    "Smoke",
+    "Illumination Parachute",
+    "Smoke Parachute",
+    "Chaff"
+   ],
+   "n": 5,
+   "evidence": "0x14043f781-0x14043f8ba",
+   "note": "锚定:pool-min=0x10; 仅池距锚定，建议游戏内复核",
+   "alt_candidates": [],
+   "verified": "partial",
+   "components": [
+    "flare_launcher"
+   ]
+  },
+  "flare_color": {
+   "label": null,
+   "n": 0,
+   "evidence": "0x14043f781-0x14043f8ba",
+   "note": "锚定:pool-min=0x48; 仅池距锚定，建议游戏内复核 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [],
+   "verified": "todo",
+   "candidates": [
+    "Illumination",
+    "Smoke",
+    "Illumination Parachute",
+    "Smoke Parachute",
+    "Chaff"
+   ]
+  },
+  "fish_state": {
+   "label": null,
+   "n": 0,
+   "evidence": "0x1401c7a82-0x1401c7a9b",
+   "note": "锚定:pool-min=0x3e8; 仅池距锚定，建议游戏内复核; 存在3个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "Proxy-Authorization",
+     "Authorization"
+    ],
+    [
+     "Content-Length",
+     "Authorization",
+     "Proxy-Authorization"
+    ],
+    [
+     "Connection",
+     "Connection established"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "Bearer ",
+    "Proxy-Authorization",
+    "Authorization"
+   ]
+  },
+  "char_render_mode": {
+   "label": null,
+   "n": 0,
+   "evidence": "0x1401db8bc-0x1401db961",
+   "note": "锚定:pool-min=0x170; 仅池距锚定，建议游戏内复核; 存在3个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "FPS",
+     "MB"
+    ],
+    [
+     "Profiler",
+     "F1 to close"
+    ],
+    [
+     "CPU Utilization",
+     "FPS",
+     "Diving Equipment",
+     "Firefighting Outfit",
+     "Scuba Gear",
+     "Parachute",
+     "Thermal Clothing",
+     "Binoculars",
+     "Cable",
+     "Compass",
+     "Defibrillator",
+     "First Aid Kit",
+     "Flaregun",
+     "Flaregun Ammo",
+     "Flashlight",
+     "Hose",
+     "Night Vision Binoculars",
+     "Oxygen Mask",
+     "Radio",
+     "Radio Signal Locator",
+     "Remote Control Unit",
+     "Rope",
+     "Strobe Light",
+     "Strobe Light (infrared)",
+     "Transponder",
+     "Underwater Welding Torch",
+     "Welding Torch"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "PRE FRAME",
+    "HARDWARE"
+   ]
+  },
+  "animal_type": {
+   "label": null,
+   "n": 0,
+   "evidence": "0x1401db8bc-0x1401db961",
+   "note": "锚定:pool-min=0x28; 仅池距锚定，建议游戏内复核; 存在3个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "FPS",
+     "MB"
+    ],
+    [
+     "Profiler",
+     "F1 to close"
+    ],
+    [
+     "CPU Utilization",
+     "FPS",
+     "Diving Equipment",
+     "Firefighting Outfit",
+     "Scuba Gear",
+     "Parachute",
+     "Thermal Clothing",
+     "Binoculars",
+     "Cable",
+     "Compass",
+     "Defibrillator",
+     "First Aid Kit",
+     "Flaregun",
+     "Flaregun Ammo",
+     "Flashlight",
+     "Hose",
+     "Night Vision Binoculars",
+     "Oxygen Mask",
+     "Radio",
+     "Radio Signal Locator",
+     "Remote Control Unit",
+     "Rope",
+     "Strobe Light",
+     "Strobe Light (infrared)",
+     "Transponder",
+     "Underwater Welding Torch",
+     "Welding Torch"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "PRE FRAME",
+    "HARDWARE"
+   ]
+  },
+  "creature_type": {
+   "label": null,
+   "n": 0,
+   "evidence": "0x1401db8bc-0x1401db961",
+   "note": "锚定:pool-min=0x40; 仅池距锚定，建议游戏内复核; 存在3个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "FPS",
+     "MB"
+    ],
+    [
+     "Profiler",
+     "F1 to close"
+    ],
+    [
+     "CPU Utilization",
+     "FPS",
+     "Diving Equipment",
+     "Firefighting Outfit",
+     "Scuba Gear",
+     "Parachute",
+     "Thermal Clothing",
+     "Binoculars",
+     "Cable",
+     "Compass",
+     "Defibrillator",
+     "First Aid Kit",
+     "Flaregun",
+     "Flaregun Ammo",
+     "Flashlight",
+     "Hose",
+     "Night Vision Binoculars",
+     "Oxygen Mask",
+     "Radio",
+     "Radio Signal Locator",
+     "Remote Control Unit",
+     "Rope",
+     "Strobe Light",
+     "Strobe Light (infrared)",
+     "Transponder",
+     "Underwater Welding Torch",
+     "Welding Torch"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "PRE FRAME",
+    "HARDWARE"
+   ]
+  },
+  "flare_state": {
+   "label": null,
+   "n": 0,
+   "evidence": "0x140204552-0x140204ca5",
+   "note": "锚定:pool-min=0xc; 仅池距锚定，建议游戏内复核 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [],
+   "verified": "todo",
+   "candidates": [
+    "Fishing Lure",
+    "Crabs and Lobsters",
+    "Anchovy",
+    "Anglerfish",
+    "Arctic Char",
+    "Ballan Lizardfish",
+    "Ballan Wrasse",
+    "Barreleye Fish",
+    "Black Bream",
+    "Black Dragonfish",
+    "Clownfish",
+    "Cod",
+    "Dolphinfish",
+    "Gulper Eel",
+    "Haddock",
+    "Hake",
+    "Herring",
+    "John Dory",
+    "Labrus",
+    "Lanternfish",
+    "Mackerel",
+    "Midshipman",
+    "Perch",
+    "Pike",
+    "Pinecone Fish",
+    "Pollock",
+    "Red Mullet",
+    "Rockfish",
+    "Sablefish",
+    "Salmon",
+    "Sardine",
+    "Scad",
+    "Sea Bream",
+    "Sea Halibut",
+    "Sea Piranha",
+    "Seabass",
+    "Slimehead",
+    "Snapper",
+    "Golden Snapper",
+    "Snook",
+    "Spadefish",
+    "Trout",
+    "Tubeshoulders Fish",
+    "Viperfish",
+    "Yellowfin Tuna",
+    "Blue Crab",
+    "Brown Box Crab",
+    "Coconut Crab",
+    "Dungeness Crab",
+    "Furry Lobster",
+    "Atlantic Lobster",
+    "Common Lobster",
+    "Horseshoe Crab",
+    "Red Rock Lobster",
+    "Cape Rock Lobster",
+    "Jonah Crab",
+    "King Crab",
+    "Mud Crab",
+    "Munida Lobster",
+    "Ornate Rock Lobster",
+    "Panulirus Interruptus",
+    "Red King Crab",
+    "Reef Lobster",
+    "Slipper Lobster",
+    "Snow Crab",
+    "Southern Rock Lobster",
+    "Spider Crab",
+    "Spiny Lobster",
+    "Stone Crab",
+    "Main",
+    "Arctic",
+    "Sawyer",
+    "Volcanic",
+    "Meier",
+    "Moon",
+    "Stabilization Threshold"
+   ]
+  },
+  "state": {
+   "label": "State",
+   "n": 0,
+   "evidence": "0x140204552-0x140204ca5",
+   "note": "锚定:pool-min=0x2a0; 仅池距锚定，建议游戏内复核 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [],
+   "verified": "todo",
+   "candidates": [
+    "Fishing Lure",
+    "Crabs and Lobsters",
+    "Anchovy",
+    "Anglerfish",
+    "Arctic Char",
+    "Ballan Lizardfish",
+    "Ballan Wrasse",
+    "Barreleye Fish",
+    "Black Bream",
+    "Black Dragonfish",
+    "Clownfish",
+    "Cod",
+    "Dolphinfish",
+    "Gulper Eel",
+    "Haddock",
+    "Hake",
+    "Herring",
+    "John Dory",
+    "Labrus",
+    "Lanternfish",
+    "Mackerel",
+    "Midshipman",
+    "Perch",
+    "Pike",
+    "Pinecone Fish",
+    "Pollock",
+    "Red Mullet",
+    "Rockfish",
+    "Sablefish",
+    "Salmon",
+    "Sardine",
+    "Scad",
+    "Sea Bream",
+    "Sea Halibut",
+    "Sea Piranha",
+    "Seabass",
+    "Slimehead",
+    "Snapper",
+    "Golden Snapper",
+    "Snook",
+    "Spadefish",
+    "Trout",
+    "Tubeshoulders Fish",
+    "Viperfish",
+    "Yellowfin Tuna",
+    "Blue Crab",
+    "Brown Box Crab",
+    "Coconut Crab",
+    "Dungeness Crab",
+    "Furry Lobster",
+    "Atlantic Lobster",
+    "Common Lobster",
+    "Horseshoe Crab",
+    "Red Rock Lobster",
+    "Cape Rock Lobster",
+    "Jonah Crab",
+    "King Crab",
+    "Mud Crab",
+    "Munida Lobster",
+    "Ornate Rock Lobster",
+    "Panulirus Interruptus",
+    "Red King Crab",
+    "Reef Lobster",
+    "Slipper Lobster",
+    "Snow Crab",
+    "Southern Rock Lobster",
+    "Spider Crab",
+    "Spiny Lobster",
+    "Stone Crab",
+    "Main",
+    "Arctic",
+    "Sawyer",
+    "Volcanic",
+    "Meier",
+    "Moon",
+    "Stabilization Threshold"
+   ]
+  },
+  "component_type": {
+   "label": null,
+   "n": 0,
+   "evidence": "0x1401f9b66-0x1401f9c79",
+   "note": "锚定:pool-min=0x8; 仅池距锚定，建议游戏内复核; 存在1个异序候选 无载具实测部件且非比值簇，降级待人工",
+   "alt_candidates": [
+    [
+     "Rotate",
+     "Undo",
+     "Redo",
+     "Generate"
+    ]
+   ],
+   "verified": "todo",
+   "candidates": [
+    "Done",
+    "Clear Parent",
+    "Properties",
+    "Parent to Vehicle",
+    "Replace Vehicle File",
+    "Move",
+    "Rotate",
+    "Resize",
+    "Delete",
+    "Message",
+    "Description",
+    "DELETE LOCATION"
+   ]
+  },
+  "gear_ratio_1": {
+   "label": null,
+   "options": [
+    "1:-1",
+    "1:1",
+    "6:5",
+    "3:2",
+    "9:5",
+    "2:1",
+    "5:2",
+    "3:1"
+   ],
+   "n": 8,
+   "evidence": "0x1403fd2d0-0x1403fd7b5",
+   "note": "锚定:pool-min=0x38; 仅池距锚定，建议游戏内复核",
+   "alt_candidates": [],
+   "verified": "partial",
+   "components": [
+    "modular_engine_gearbox_1x1"
+   ]
+  },
+  "gear_ratio_2": {
+   "label": null,
+   "options": [
+    "1:-1",
+    "1:1",
+    "6:5",
+    "3:2",
+    "9:5",
+    "2:1",
+    "5:2",
+    "3:1"
+   ],
+   "n": 8,
+   "evidence": "0x1403fd2d0-0x1403fd7b5",
+   "note": "锚定:pool-min=0x10; 仅池距锚定，建议游戏内复核",
+   "alt_candidates": [],
+   "verified": "partial",
+   "components": [
+    "modular_engine_gearbox_1x1",
+    "torque_clutch"
+   ]
+  },
+  "property_ammo_type": {
+   "label": "Ammo Type",
+   "options": [
+    "Unloaded",
+    "Kinetic",
+    "High Explosive",
+    "Fragmentation",
+    "Armor Piercing",
+    "Incendiary"
+   ],
+   "verified": "partial",
+   "evidence": "exe 0x140af8d48 'Ammo Type' 标签 + 0x140af8d08 起 6 项连续注册(Unloaded/Kinetic/High Explosive/Fragmentation/Armor Piercing/Incendiary)",
+   "note": "存档 gun_drum_xsmall 实测 property_ammo_type=6 → 至少 7 项，本表可能缺尾项（疑为 Squash Head/EMP），待游戏内下拉复核补全",
+   "n": 6,
+   "manual": true
+  },
+  "property_ammo_damage": {
+   "label": "Ammo Damage Type",
+   "options": [
+    "Kinetic",
+    "High Explosive",
+    "Fragmentation",
+    "Armor Piercing",
+    "Incendiary"
+   ],
+   "verified": "partial",
+   "evidence": "与 property_ammo_type 同源（exe 弹药簇），存档实测取值 {1,3,4,5} ⊂ [0,5)",
+   "note": "取值未含 0 与 6，与 ammo_type 的表位可能不完全一致，待游戏内复核",
+   "n": 5,
+   "manual": true
+  }
+ },
+ "xml_usage": {
+  "trigger": {
+   "components": [
+    "seat_compact",
+    "seat_handle",
+    "seat_racing",
+    "seat_saddle"
+   ],
+   "values": [
+    1
+   ]
+  },
+  "gear_ratio_1": {
+   "components": [
+    "modular_engine_gearbox_1x1"
+   ],
+   "values": [
+    4,
+    5,
+    7
+   ]
+  },
+  "wheel_size": {
+   "components": [
+    "wheel_advanced_5"
+   ],
+   "values": [
+    0
+   ]
+  },
+  "property_ammo_type": {
+   "components": [
+    "gun_drum_xsmall"
+   ],
+   "values": [
+    6
+   ]
+  },
+  "hold_duration": {
+   "components": [
+    "button_key",
+    "button_keypad_large",
+    "button_keypad_small",
+    "button_push",
+    "button_toggle",
+    "button_toggle_2side"
+   ],
+   "values": [
+    0,
+    1
+   ]
+  },
+  "property_ammo_damage": {
+   "components": [
+    "gun_belt_flex",
+    "gun_belt_loader",
+    "gun_belt_straight_l",
+    "gun_drum_small",
+    "gun_drum_xsmall",
+    "gun_l",
+    "gun_l_barrel",
+    "gun_l_muzzle_2",
+    "gun_s",
+    "gun_s_barrel",
+    "gun_s_muzzle_2",
+    "gun_xs",
+    "warhead_body_small"
+   ],
+   "values": [
+    1,
+    3,
+    4,
+    5
+   ]
+  },
+  "bc2": {
+   "components": [
+    "microprocessor",
+    "seat_padded",
+    "window_2x1"
+   ],
+   "values": [
+    969696
+   ]
+  },
+  "tire_type": {
+   "components": [
+    "wheel_advanced_5"
+   ],
+   "values": [
+    0
+   ]
+  },
+  "gear_ratio": {
+   "components": [
+    "linear_compact_head",
+    "multibody_compact_pivot_b",
+    "multibody_compact_pivot_robotic_a",
+    "multibody_turret_large_a",
+    "multibody_turret_large_b",
+    "multibody_velocity_pivot_a",
+    "multibody_velocity_pivot_b"
+   ],
+   "values": [
+    0,
+    2,
+    5
+   ]
+  },
+  "burn_rate": {
+   "components": [
+    "solid_rocket_nozzle_small"
+   ],
+   "values": [
+    0
+   ]
+  },
+  "control_mode_3": {
+   "components": [
+    "seat_handle"
+   ],
+   "values": [
+    1
+   ]
+  },
+  "ac": {
+   "components": [
+    "02_wedge",
+    "05_wedge_2",
+    "battery_small",
+    "button_keypad_small",
+    "button_push",
+    "button_toggle",
+    "gun_belt_straight_l",
+    "gun_drum_xsmall",
+    "instrument_display",
+    "linear_compact_base",
+    "linear_compact_head",
+    "linear_compact_module",
+    "linear_speed_sensor",
+    "mic",
+    "microprocessor",
+    "modular_engine_air_manifold",
+    "monitor_2x3",
+    "monitor_3",
+    "multibody_velocity_pivot_a",
+    "multibody_velocity_pivot_b",
+    "rotating_light",
+    "seat_handle",
+    "seat_padded",
+    "sign_na",
+    "speaker",
+    "trans_angle",
+    "trans_straight",
+    "water_inlet",
+    "window_2x1"
+   ],
+   "values": [
+    141414,
+    454545,
+    455233,
+    969696
+   ]
+  },
+  "hotkey_0": {
+   "components": [
+    "seat_racing",
+    "seat_saddle"
+   ],
+   "values": [
+    1
+   ]
+  },
+  "hotkey_3": {
+   "components": [
+    "seat_saddle"
+   ],
+   "values": [
+    1
+   ]
+  },
+  "input_velocity": {
+   "components": [
+    "linear_compact_base",
+    "linear_compact_head",
+    "multibody_compact_pivot_b",
+    "multibody_compact_pivot_robotic_a",
+    "multibody_turret_large_a",
+    "multibody_turret_large_b",
+    "multibody_velocity_pivot_a",
+    "multibody_velocity_pivot_b",
+    "rope_hook",
+    "rope_hook_fluid",
+    "rope_hook_winch_small"
+   ],
+   "values": [
+    1,
+    5
+   ]
+  },
+  "m_sweep_mode": {
+   "components": [
+    "radar_advanced_dish",
+    "radar_advanced_missile"
+   ],
+   "values": [
+    0
+   ]
+  },
+  "flare_type": {
+   "components": [
+    "flare_launcher"
+   ],
+   "values": [
+    1
+   ]
+  },
+  "fluid_filter": {
+   "components": [
+    "air_exchanger",
+    "air_exchanger_5_2",
+    "catalytic_converter",
+    "fluid_exhaust",
+    "fluid_pressure",
+    "fluid_radiator_electric",
+    "fluid_tank_large",
+    "fluid_tank_medium",
+    "fluid_tank_small",
+    "fluid_valve_flow",
+    "modular_engine_air_ram",
+    "rcs_thruster",
+    "relief_valve_gas",
+    "relief_valve_liquid",
+    "scoop_intake_2",
+    "turbocharger",
+    "water_inlet",
+    "water_measure",
+    "water_spawner"
+   ],
+   "values": [
+    4294967295
+   ]
+  },
+  "grip_factor": {
+   "components": [
+    "wheel_advanced_5",
+    "wheel_tank_1",
+    "wheel_tank_drive_1"
+   ],
+   "values": [
+    0
+   ]
+  },
+  "gear_ratio_2": {
+   "components": [
+    "modular_engine_gearbox_1x1",
+    "torque_clutch"
+   ],
+   "values": [
+    0,
+    1,
+    7
+   ]
+  },
+  "fuel_factor": {
+   "components": [
+    "solid_rocket_nozzle_small"
+   ],
+   "values": [
+    1500
+   ]
+  },
+  "ordinance_type": {
+   "components": [
+    "connector_hardpoint_a",
+    "connector_hardpoint_b_round",
+    "connector_slider_track"
+   ],
+   "values": [
+    1
+   ]
+  },
+  "max_force_scalar": {
+   "components": [
+    "multibody_velocity_pivot_a"
+   ],
+   "values": [
+    0
+   ]
+  },
+  "rcs_threshold": {
+   "components": [
+    "rcs_thruster"
+   ],
+   "values": [
+    1
+   ]
+  },
+  "muzzle_velocity": {
+   "components": [
+    "flare_launcher"
+   ],
+   "values": [
+    20
+   ]
+  },
+  "hotkey_1": {
+   "components": [
+    "seat_saddle"
+   ],
+   "values": [
+    1
+   ]
+  },
+  "m_fov_y": {
+   "components": [
+    "radar_advanced_dish",
+    "radar_advanced_missile"
+   ],
+   "values": [
+    0
+   ]
+  },
+  "fluid_type": {
+   "components": [
+    "fluid_tank_small"
+   ],
+   "values": [
+    0
+   ]
+  },
+  "bc": {
+   "components": [
+    "02_wedge",
+    "05_wedge_2",
+    "battery_small",
+    "button_key",
+    "button_keypad_large",
+    "button_keypad_small",
+    "button_push",
+    "button_toggle",
+    "button_toggle_2side",
+    "gun_belt_loader",
+    "gun_belt_straight_l",
+    "gun_drum_xsmall",
+    "gun_l",
+    "gun_l_barrel",
+    "instrument_display",
+    "linear_compact_base",
+    "linear_compact_head",
+    "linear_compact_module",
+    "linear_speed_sensor",
+    "mic",
+    "microprocessor",
+    "modular_engine_air_manifold",
+    "modular_engine_drive_belt",
+    "modular_engine_gearbox_1x1",
+    "monitor_2x3",
+    "monitor_3",
+    "multibody_velocity_pivot_a",
+    "multibody_velocity_pivot_b",
+    "physics_sensor",
+    "seat_handle",
+    "seat_padded",
+    "sign_na",
+    "small_light",
+    "solid_rocket_small",
+    "speaker",
+    "torque_clutch",
+    "trans_angle",
+    "trans_block_t",
+    "trans_straight",
+    "water_inlet",
+    "wheel_advanced_5",
+    "window_1x1",
+    "window_1x1_wedge",
+    "window_2x1"
+   ],
+   "values": [
+    141414,
+    454545,
+    455233,
+    969696
+   ]
+  },
+  "max_force_scale": {
+   "components": [
+    "water_pump"
+   ],
+   "values": [
+    1
+   ]
+  },
+  "timer_scalar_1": {
+   "components": [
+    "clock",
+    "gate_bool_constant",
+    "gate_float_constant",
+    "gate_function_small",
+    "linear_speed_sensor",
+    "mic",
+    "physics_sensor",
+    "speaker",
+    "temperature_probe",
+    "transponder"
+   ],
+   "values": [
+    0
+   ]
+  },
+  "bc3": {
+   "components": [
+    "microprocessor",
+    "seat_padded",
+    "window_1x1"
+   ],
+   "values": [
+    969696
+   ]
+  },
+  "sc": {
+   "components": [
+    "01_block_weight",
+    "02_wedge",
+    "03_pyramid",
+    "04_invpyramid",
+    "05_wedge_2",
+    "06_pyramid_2",
+    "07_invpyramid_2",
+    "08_wedge_4",
+    "air_exchanger",
+    "air_exchanger_5_2",
+    "battery_large",
+    "battery_medium",
+    "battery_small",
+    "button_keypad_small",
+    "button_push",
+    "button_toggle",
+    "camera_med",
+    "catalytic_converter",
+    "clock",
+    "connector_hardpoint_a",
+    "connector_hardpoint_b_round",
+    "flare_launcher",
+    "fluid_pressure",
+    "fluid_radiator_electric",
+    "fluid_tank_large",
+    "fluid_tank_medium",
+    "fluid_tank_small",
+    "fluid_valve_flow",
+    "gate_bool_constant",
+    "gate_float_constant",
+    "gate_function_small",
+    "generator_small",
+    "gun_belt_flex",
+    "gun_belt_straight_l",
+    "gun_drum_xsmall",
+    "gun_l_barrel",
+    "gun_l_muzzle_2",
+    "gun_s_barrel",
+    "gun_s_muzzle_2",
+    "gun_xs",
+    "instrument_display",
+    "inventory_equipment_fire_extinguisher",
+    "inventory_equipment_first_aid",
+    "linear_compact_base",
+    "linear_compact_head",
+    "linear_compact_module",
+    "linear_speed_sensor",
+    "mic",
+    "microprocessor",
+    "modular_engine_air_manifold",
+    "modular_engine_air_ram",
+    "modular_engine_alternator",
+    "modular_engine_clutch",
+    "modular_engine_coolant_manifold",
+    "modular_engine_crankshaft",
+    "modular_engine_crankshaft_5x5",
+    "modular_engine_crankshaft_converter_3x3",
+    "modular_engine_crankshaft_converter_5x5",
+    "modular_engine_cylinder_straight",
+    "modular_engine_drive_belt",
+    "modular_engine_exhaust_manifold_straight",
+    "modular_engine_flywheel",
+    "modular_engine_gearbox_1x1",
+    "modular_engine_intake_manifold",
+    "modular_engine_manifold_corner",
+    "modular_engine_manifold_t",
+    "modular_engine_piston_5x5",
+    "modular_engine_power_manifold_5x5",
+    "modular_engine_starter",
+    "monitor_1x2",
+    "monitor_2x3",
+    "monitor_3",
+    "motor_medium",
+    "motor_small",
+    "multibody_compact_pivot_b",
+    "multibody_compact_pivot_robotic_a",
+    "multibody_turret_large_a",
+    "multibody_turret_large_b",
+    "multibody_velocity_pivot_a",
+    "multibody_velocity_pivot_b",
+    "no_sleep",
+    "physics_sensor",
+    "radar_advanced_dish",
+    "radar_advanced_missile",
+    "rcs_thruster",
+    "relief_valve_gas",
+    "relief_valve_liquid",
+    "rope_hook_fluid",
+    "rope_hook_winch_small",
+    "rx_huge_v2",
+    "rx_large_v2",
+    "scoop_intake_2",
+    "searchlight_small_2",
+    "seat_compact",
+    "seat_handle",
+    "sign",
+    "sign_na",
+    "small_light_rgb",
+    "solid_rocket_nozzle_small",
+    "solid_rocket_small",
+    "solid_rocket_small_fins",
+    "speaker",
+    "torque_clutch",
+    "trans_angle",
+    "trans_block_angle",
+    "trans_block_corner",
+    "trans_block_straight",
+    "trans_block_t",
+    "trans_corner",
+    "trans_straight",
+    "trans_t",
+    "transponder",
+    "turbocharger",
+    "viewing_scope",
+    "warhead_body_small",
+    "water_inlet",
+    "water_measure",
+    "water_pump",
+    "water_spawner",
+    "wheel_small",
+    "wheel_tank_1",
+    "wheel_tank_5_2",
+    "wheel_tank_drive_1",
+    "wheel_tank_drive_5_2",
+    "window_1x1",
+    "window_1x1_wedge",
+    "window_2x1"
+   ],
+   "values": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    14,
+    16,
+    17,
+    19,
+    21,
+    22,
+    25,
+    26,
+    28,
+    30,
+    32,
+    35,
+    39,
+    46,
+    48,
+    76,
+    78,
+    100,
+    150
+   ]
+  },
+  "m_fov_x": {
+   "components": [
+    "radar_advanced_dish",
+    "radar_advanced_missile"
+   ],
+   "values": [
+    0
+   ]
+  },
+  "color_mode": {
+   "components": [
+    "small_light_rgb"
+   ],
+   "values": [
+    1
+   ]
+  },
+  "fin_factor": {
+   "components": [
+    "solid_rocket_small_fins"
+   ],
+   "values": [
+    -1
+   ]
+  },
+  "timer_scalar_2": {
+   "components": [
+    "clock",
+    "gate_bool_constant",
+    "gate_float_constant",
+    "gate_function_small",
+    "linear_speed_sensor",
+    "mic",
+    "physics_sensor",
+    "speaker",
+    "temperature_probe",
+    "transponder"
+   ],
+   "values": [
+    0
+   ]
+  },
+  "rotation_speed": {
+   "components": [
+    "rotating_light"
+   ],
+   "values": [
+    0
+   ]
+  }
+ }
+}

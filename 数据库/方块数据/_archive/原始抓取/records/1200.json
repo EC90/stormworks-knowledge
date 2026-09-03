@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Propulsion/DieselEngines",
+  "display_title": "Gameplay/Workbench/Components/Propulsion/DieselEngines",
+  "summary": "Diesel Engines\nDiesel Engines are the cheapest components in the game that produce power. There are 3 variants: Small, which produces 20kW and costs 400$; Medium costs 1000$ and produces 60kW and Large, also 3000$ and 200kW. Diesel Engines require fuel, air, cooling and an exhaust to operate.\nUnlike electric motors, diesel engines can't produce power at 0 min\n-1\nand therefore need to be started. The starter requires electricity to be connected to the engine and will start the engine when the \"Starter\" input on the Engine is on. It will consume a lot of power and start the engine.\nStarters are",
+  "categories": [],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Diesel Engines",
+      "anchor": "Diesel_Engines"
+    },
+    {
+      "level": 2,
+      "title": "Power output",
+      "anchor": "Power_output"
+    },
+    {
+      "level": 2,
+      "title": "Ports",
+      "anchor": "Ports"
+    },
+    {
+      "level": 2,
+      "title": "Cooling",
+      "anchor": "Cooling"
+    },
+    {
+      "level": 2,
+      "title": "Fuel Usage",
+      "anchor": "Fuel_Usage"
+    }
+  ],
+  "internal_links": [],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/92/DieselEngine_FiguresV3.png/revision/latest?cb=20201218211043",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/92/DieselEngine_FiguresV3.png/revision/latest/scale-to-width-down/928?cb=20201218211043",
+      "alt": "Engine figures as tested ingame",
+      "width": "928",
+      "height": "411"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6b/DieselEngine_Connections.jpg/revision/latest?cb=20201217165114",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6b/DieselEngine_Connections.jpg/revision/latest/scale-to-width-down/180?cb=20201217165114",
+      "alt": "All diesel engine connections, except for power and the rear air port on the medium engine",
+      "width": "180",
+      "height": "66"
+    }
+  ],
+  "tables": [],
+  "content": {
+    "markdown": "## Diesel Engines\n\nDiesel Engines are the cheapest components in the game that produce power. There are 3 variants: Small, which produces 20kW and costs 400$; Medium costs 1000$ and produces 60kW and Large, also 3000$ and 200kW. Diesel Engines require fuel, air, cooling and an exhaust to operate.\nUnlike electric motors, diesel engines can't produce power at 0 min-1 and therefore need to be started. The starter requires electricity to be connected to the engine and will start the engine when the \"Starter\" input on the Engine is on. It will consume a lot of power and start the engine.\n\nStarters are very powerful. They can produce a lot of torque. The electric requirement scales with the output torque. Because of this behavior you only need one starter to start all of your engines if all of their power ports are linked together, which is helpful because starters are a lot louder than the engines themselves.\n\nIf an engine is slowed down to 2rps, either because the throttle is 0 or because the load is too high, it will stall. To prevent stalling vehicles require gearboxes and a clutch.\n\n## Power output\n\nUnlike electric motors, diesel engines don't have a constant power output. The elastic range (the rps range from peak torque to peak power) is 3-18rps for large engines, 3-28RPS for medium engines and 3-40RPS for small. Each engine has about 3 times the power than the one a size smaller.\n\n[![Engine figures as tested ingame](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/92/DieselEngine_FiguresV3.png/revision/latest/scale-to-width-down/928?cb=20201218211043)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/92/DieselEngine_FiguresV3.png/revision/latest?cb=20201218211043)\n\nEngine figures as tested ingame\n\n## Ports\n\nDiesel Engines have ports for air, exhaust, fuel, coolant in and coolant out. Engines will pump the liquids themselves so there is generally no need for external pumps. However, **medium** engines require **pumps** on the fuel, air and exhaust pipes **above ~75rps** and the same is true for **large** engines **above ~40rps**. Additionally, **long** pipes, **gravity** and **external pressure** also decrease engine performance without pumps.\n\n[![All diesel engine connections, except for power and the rear air port on the medium engine](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6b/DieselEngine_Connections.jpg/revision/latest/scale-to-width-down/180?cb=20201217165114)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6b/DieselEngine_Connections.jpg/revision/latest?cb=20201217165114)\n\nAll diesel engine connections, except for power and the rear air port on the medium engine\n\nThe engine requires an air connection to the outside. If you place it inside an enclosed room it might run if the space has enough air, but it will quickly use up all the air and stall.\n\nThe infinite fuel setting in a custom mode world doesn't help with troubleshooting because it supplies all the engines ports.\n(The engine then only needs power and the starter to start. But it can still overheat.)\n\nFor fixing problems, you can set the tooltip detail to: Detailed in the settings and look at the engine in-game (not in the editor). You will then get information for all connections like: power, fuel, temperature, etc.\n\n## Cooling\n\nDiesel Engines require cooling.\n\nIf they aren't sufficiently cooled they will heat up past 115°C and overheat. An overheating engine can rev a bit higher than the set RPS limit and produce a lot less torque. If the engines operates for more than a few seconds over 115°C, it will catch fire and eventually explode. The engine will stay somewhat operational until it reached higher temperatures (around 400 - 500°C).\n\nThe amount of heat produced only depends on the RPS. Engines can be cooled by either connecting the coolant ports to the sea or to a radiator. If one radiator is not enough multiple can be chained together to improve cooling.\n\nBecause custom fluid tanks don't store heat, connecting the coolant ports to one is the same as connecting them to the sea. This is usually regarded as cheating and might be changed in future releases.\n\nAt 20 RPS one radiator is enough to cool a small engine sufficiently. 2 for medium and 3 for large. 30rps is about the limit for engines that aren't cooled using seawater.\n\n## Fuel Usage\n\nAs detailed in the engine figures, the fuel usage is exponential and only depends on rps. Large engines are most efficient in terms of kw of power per litre of fuel at 7-8RPS, medium at 6-7RPS and the small engine is most efficient at around 10RPS. The maximum efficiency is the same for all engines.",
+    "plain_text": "Diesel Engines\nDiesel Engines are the cheapest components in the game that produce power. There are 3 variants: Small, which produces 20kW and costs 400$; Medium costs 1000$ and produces 60kW and Large, also 3000$ and 200kW. Diesel Engines require fuel, air, cooling and an exhaust to operate.\nUnlike electric motors, diesel engines can't produce power at 0 min\n-1\nand therefore need to be started. The starter requires electricity to be connected to the engine and will start the engine when the \"Starter\" input on the Engine is on. It will consume a lot of power and start the engine.\nStarters are very powerful. They can produce a lot of torque. The electric requirement scales with the output torque. Because of this behavior you only need one starter to start all of your engines if all of their power ports are linked together, which is helpful because starters are a lot louder than the engines themselves.\nIf an engine is slowed down to 2rps, either because the throttle is 0 or because the load is too high, it will stall. To prevent stalling vehicles require gearboxes and a clutch.\nPower output\nUnlike electric motors, diesel engines don't have a constant power output. The elastic range (the rps range from peak torque to peak power) is 3-18rps for large engines, 3-28RPS for medium engines and 3-40RPS for small. Each engine has about 3 times the power than the one a size smaller.\nEngine figures as tested ingame\nPorts\nDiesel Engines have ports for air, exhaust, fuel, coolant in and coolant out.  Engines will pump the liquids themselves so there is generally no need for external pumps. However,\nmedium\nengines require\npumps\non the fuel, air and exhaust pipes\nabove ~75rps\nand the same is true for\nlarge\nengines\nabove ~40rps\n. Additionally,\nlong\npipes,\ngravity\nand\nexternal pressure\nalso decrease engine performance without pumps.\nAll diesel engine connections, except for power and the rear air port on the medium engine\nThe engine requires an air connection to the outside. If you place it inside an enclosed room it might run if the space has enough air, but it will quickly use up all the air and stall.\nThe infinite fuel setting in a custom mode world doesn't help with troubleshooting because it supplies all the engines ports.\n(The engine then only needs power and the starter to start. But it can still overheat.)\nFor fixing problems, you can set the tooltip detail to: Detailed in the settings and look at the engine in-game (not in the editor). You will then get information for all connections like: power, fuel, temperature, etc.\nCooling\nDiesel Engines require cooling.\nIf they aren't sufficiently cooled they will heat up past 115°C and overheat. An overheating engine can rev a bit higher than the set RPS limit and produce a lot less torque. If the engines operates for more than a few seconds over 115°C, it will catch fire and eventually explode. The engine will stay somewhat operational until it reached higher temperatures (around 400 - 500°C).\nThe amount of heat produced only depends on the RPS. Engines can be cooled by either connecting the coolant ports to the sea or to a radiator. If one radiator is not enough multiple can be chained together to improve cooling.\nBecause custom fluid tanks don't store heat, connecting the coolant ports to one is the same as connecting them to the sea. This is usually regarded as cheating and might be changed in future releases.\nAt 20 RPS one radiator is enough to cool a small engine sufficiently. 2 for medium and 3 for large. 30rps is about the limit for engines that aren't cooled using seawater.\nFuel Usage\nAs detailed in the engine figures, the fuel usage is exponential and only depends on rps. Large engines are most efficient in terms of kw of power per litre of fuel at 7-8RPS, medium at 6-7RPS and the small engine is most efficient at around 10RPS. The maximum efficiency is the same for all engines.",
+    "char_count": 4671,
+    "word_count": 689,
+    "sha256": "a8ecb6c41084cbb2bdacba0b17aeb30f1b4d4fa05df5cb5d3035238f7026bcd8"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Propulsion/DieselEngines",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1200,
+    "revision_id": 4716,
+    "revision_timestamp": "2026-07-30T16:22:49Z",
+    "retrieved_at": "2026-08-30T15:13:04+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

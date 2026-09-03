@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Rotors",
+  "display_title": "Rotors",
+  "summary": "Alias for Rotor",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Rotor"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Rotors -> Rotor",
+    "plain_text": "Redirect: Rotors -> Rotor",
+    "char_count": 25,
+    "word_count": 4,
+    "sha256": "c4c699e64a8004fe9e51a9f25001ff8536ffb4e0740d961caa482de39e9b7a9b"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Rotor",
+    "target_url": "https://stormworks.fandom.com/wiki/Rotor",
+    "target_page_id": null,
+    "target_revision_id": null
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Rotors",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 546,
+    "revision_id": 995,
+    "revision_timestamp": "2019-02-17T20:53:42Z",
+    "retrieved_at": "2026-08-31T10:04:51+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

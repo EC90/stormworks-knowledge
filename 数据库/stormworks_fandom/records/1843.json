@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Fish",
+  "display_title": "Fish",
+  "summary": "Fish are an ocean resource which can be caught by hand, caught by fishing pole, or scooped up in huge quantities in nets dragged by fishing trawlers to be sold at fish markets. Crabs and lobsters can also be caught in lobster pots and later sold. Fish provide a substantial source of income for\nclassic\n and\ncareer\n players.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Patch history",
+      "anchor": "Patch_history"
+    },
+    {
+      "level": 3,
+      "title": "V1.12.0",
+      "anchor": "V1.12.0"
+    },
+    {
+      "level": 3,
+      "title": "V1.11.6",
+      "anchor": "V1.11.6"
+    },
+    {
+      "level": 3,
+      "title": "V1.11.0",
+      "anchor": "V1.11.0"
+    },
+    {
+      "level": 2,
+      "title": "External links",
+      "anchor": "External_links"
+    }
+  ],
+  "internal_links": [
+    "Gameplay/Gamemodes/Career",
+    "Gameplay/Gamemodes/Classic",
+    "V1.11.0",
+    "V1.11.6",
+    "V1.12.0"
+  ],
+  "external_links": [
+    "https://geometa.co.uk/support/stormworks/25109",
+    "https://geometa.co.uk/support/stormworks/25141",
+    "https://geometa.co.uk/support/stormworks/25144",
+    "https://geometa.co.uk/support/stormworks/25203",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=3242546987"
+  ],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Fish?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Fish?action=edit). |\n| --- | --- |\n\nFish are an ocean resource which can be caught by hand, caught by fishing pole, or scooped up in huge quantities in nets dragged by fishing trawlers to be sold at fish markets. Crabs and lobsters can also be caught in lobster pots and later sold. Fish provide a substantial source of income for [classic](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Classic) and [career](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Career) players.\n\n## Patch history\n\n### [V1.12.0](https://stormworks.fandom.com/wiki/V1.12.0)\n\n- Feature - Crabbing, lobsters, crabs and crab-pots\n- Feature - Fishing rod fish escaping, fighting and reel mechanics\n- Feature - Fishing rod float and float depth\n- Feature - Workshop fishing tag\n- Feature - Net anchor composite data logic node\n- Fix - [#25141](https://geometa.co.uk/support/stormworks/25141) Fish finder data generation is now more consistent\n- Fix - [#25203](https://geometa.co.uk/support/stormworks/25203) Increased fishing gantry boom length, updated filters\n- Rework - [#25109](https://geometa.co.uk/support/stormworks/25109) Fishing hotspots now spawn huddled around arctic and main biome\n- Balance - [#25144](https://geometa.co.uk/support/stormworks/25144) Increased net max capacity to 512\n\n### [V1.11.6](https://stormworks.fandom.com/wiki/V1.11.6)\n\n- Fix - #24107 Dropping fish duplicating in multiplayer\n- Fix - #24131 Minor fish art asset issues\n- Fix - #24217 Minor control fin art asset issues\n\n### [V1.11.0](https://stormworks.fandom.com/wiki/V1.11.0)\n\n- Feature - Fishing Net\n- Link four fishing net hooks with rope logic links in a planar square to genearte a net\n  - - The sides of nets can be extended and contracted similar to a winch\n  - - Pulling nets through the water will cause them to billow out\n  - - Fish stick to the net and can be released via a logic node input\n\n- Feature - Fish Biomes and Rarity\n  - - Fish now spawn in appropriate biomes based on longitude and depth\n  - - Fish prices are now scaled based on biome rarity\n  - - Fish hotspots exist in the world where the maximum fish density is increased 4x\n  - - Fish hotspot map data can be purchased from fishing data vendors\n  - - Added server.getFishData addon lua command to fetch default prices, equipment type and resource type\n\n- Feature - Fish Finder\n  - - Detects a random fish in the area and outputs the yaw angle and distance.\n\n## External links\n\n- [Steam community: fishing and crabbing](https://steamcommunity.com/sharedfiles/filedetails/?id=3242546987)",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nFish are an ocean resource which can be caught by hand, caught by fishing pole, or scooped up in huge quantities in nets dragged by fishing trawlers to be sold at fish markets. Crabs and lobsters can also be caught in lobster pots and later sold. Fish provide a substantial source of income for\nclassic\n and\ncareer\n players.\n\nPatch history\n\nV1.12.0\n\nFeature - Crabbing, lobsters, crabs and crab-pots\n\nFeature - Fishing rod fish escaping, fighting and reel mechanics\n\nFeature - Fishing rod float and float depth\n\nFeature - Workshop fishing tag\n\nFeature - Net anchor composite data logic node\n\nFix -\n#25141\n Fish finder data generation is now more consistent\n\nFix -\n#25203\n Increased fishing gantry boom length, updated filters\n\nRework -\n#25109\n Fishing hotspots now spawn huddled around arctic and main biome\n\nBalance -\n#25144\n Increased net max capacity to 512\n\nV1.11.6\n\nFix - #24107 Dropping fish duplicating in multiplayer\n\nFix - #24131 Minor fish art asset issues\n\nFix - #24217 Minor control fin art asset issues\n\nV1.11.0\n\nFeature - Fishing Net\n\nLink four fishing net hooks with rope logic links in a planar square to genearte a net\n\n- The sides of nets can be extended and contracted similar to a winch\n\n- Pulling nets through the water will cause them to billow out\n\n- Fish stick to the net and can be released via a logic node input\n\nFeature - Fish Biomes and Rarity\n\n- Fish now spawn in appropriate biomes based on longitude and depth\n\n- Fish prices are now scaled based on biome rarity\n\n- Fish hotspots exist in the world where the maximum fish density is increased 4x\n\n- Fish hotspot map data can be purchased from fishing data vendors\n\n- Added server.getFishData addon lua command to fetch default prices, equipment type and resource type\n\nFeature - Fish Finder\n\n- Detects a random fish in the area and outputs the yaw angle and distance.\n\nExternal links\n\nSteam community: fishing and crabbing",
+    "char_count": 2956,
+    "word_count": 323,
+    "sha256": "24b96e17b52e029b6803d79ce65fa0efe85d9b0628afdc2ef24f1c9eb101c659"
+  },
+  "wikitext": "{{stub}}\n\nFish are an ocean resource which can be caught by hand, caught by fishing pole, or scooped up in huge quantities in nets dragged by fishing trawlers to be sold at fish markets. Crabs and lobsters can also be caught in lobster pots and later sold. Fish provide a substantial source of income for [[Gameplay/Gamemodes/Classic|classic]] and [[Gameplay/Gamemodes/Career|career]] players.\n\n== Patch history ==\n\n=== [[V1.12.0]] ===\n*Feature - Crabbing, lobsters, crabs and crab-pots\n*Feature - Fishing rod fish escaping, fighting and reel mechanics\n*Feature - Fishing rod float and float depth\n*Feature - Workshop fishing tag\n*Feature - Net anchor composite data logic node\n*Fix - [https://geometa.co.uk/support/stormworks/25141 #25141] Fish finder data generation is now more consistent\n*Fix - [https://geometa.co.uk/support/stormworks/25203 #25203] Increased fishing gantry boom length, updated filters\n*Rework - [https://geometa.co.uk/support/stormworks/25109 #25109] Fishing hotspots now spawn huddled around arctic and main biome\n*Balance - [https://geometa.co.uk/support/stormworks/25144 #25144] Increased net max capacity to 512\n\n=== [[V1.11.6]] ===\n* Fix - #24107 Dropping fish duplicating in multiplayer\n* Fix - #24131 Minor fish art asset issues\n* Fix - #24217 Minor control fin art asset issues\n\n=== [[V1.11.0]] ===\n*Feature - Fishing Net\n*Link four fishing net hooks with rope logic links in a planar square to genearte a net\n**- The sides of nets can be extended and contracted similar to a winch\n**- Pulling nets through the water will cause them to billow out\n**- Fish stick to the net and can be released via a logic node input\n\n*Feature - Fish Biomes and Rarity\n**- Fish now spawn in appropriate biomes based on longitude and depth\n**- Fish prices are now scaled based on biome rarity\n**- Fish hotspots exist in the world where the maximum fish density is increased 4x\n**- Fish hotspot map data can be purchased from fishing data vendors\n**- Added server.getFishData addon lua command to fetch default prices, equipment type and resource type\n\n*Feature - Fish Finder\n**- Detects a random fish in the area and outputs the yaw angle and distance.\n\n== External links ==\n* [https://steamcommunity.com/sharedfiles/filedetails/?id=3242546987 Steam community: fishing and crabbing]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Fish",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1843,
+    "revision_id": 4570,
+    "revision_timestamp": "2025-08-02T17:08:00Z",
+    "retrieved_at": "2026-08-31T10:01:47+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

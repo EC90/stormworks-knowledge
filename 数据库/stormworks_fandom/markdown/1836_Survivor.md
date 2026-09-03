@@ -1,0 +1,26 @@
+---
+title: "Survivor"
+source_url: "https://stormworks.fandom.com/wiki/Survivor"
+page_id: 1836
+revision_id: 4555
+revision_timestamp: "2025-07-27T23:10:27Z"
+retrieved_at: "2026-08-31T10:05:17+00:00"
+license: "CC BY-NC-SA"
+license_url: "https://www.fandom.com/licensing"
+record_type: "article"
+categories: ["Stubs"]
+---
+# Survivor
+
+| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Survivor?action=edit). |
+| --- | --- |
+
+Survivors are NPCs in [missions](https://stormworks.fandom.com/wiki/Wiki/Missions) who need to be stabilized and transported to hospitals or [hospital ships](https://stormworks.fandom.com/wiki/Hospital_ship) to be rescued. Survivors carry [strobe lights](https://stormworks.fandom.com/wiki/Equipment#Small_Equipment) set with man-overboard-mode to automatically activate if they end up in the water. Rescuing a survivor rewards the player with $3,000 multiplied by their health (from 0 to 1), so bringing a half-healed survivor to a hospital will only reward $1,500. In [classic mode](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Classic), the player also receives a [research](https://stormworks.fandom.com/wiki/Research) point for each rescued survivor, regardless of their health.
+
+Survivors may be found incapacitated and require a defibrillator to resuscitate. Wounded survivors may also lose health over time, and can become incapacitated if they aren't periodically treated with a med kit or kept in a medical bed.
+
+Survivors can be told to follow the player and will do so reasonably quickly, following along the exact route the player took. They can even follow by swimming over water and walking over rough terrain, although they can sometimes fail to follow the player if the player jumps. The player is also able to pick up and carry survivors which can be useful in any situations where they fail to follow the player.
+
+---
+
+Source: [Survivor](https://stormworks.fandom.com/wiki/Survivor) · Revision 4555 · CC BY-NC-SA

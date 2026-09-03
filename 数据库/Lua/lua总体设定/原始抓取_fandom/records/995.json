@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Lua Programming",
+  "display_title": "Gameplay/Workbench/Lua Programming",
+  "summary": "Lua programming in Stormworks is done inside microcontrollers.\n\"Lua Script\" is a logic component like every other, it has 2 inputs (composite and video) and 2 outputs (composite and video).\nThe lua script can draw stuff onto the video feed and it can read and write composite values.\nThese two functionalities are also split in the code, all the video related stuff is done inside the \"onDraw()\" function while all composite related stuff is done inside the \"onTick()\" function.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Lua Programming     [ edit page ]",
+      "anchor": "Lua_Programming_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Lua in Stormworks",
+      "anchor": "Lua_in_Stormworks"
+    },
+    {
+      "level": 2,
+      "title": "Guide",
+      "anchor": "Guide"
+    },
+    {
+      "level": 2,
+      "title": "Learn Lua",
+      "anchor": "Learn_Lua"
+    },
+    {
+      "level": 2,
+      "title": "Special Lua Editors",
+      "anchor": "Special_Lua_Editors"
+    },
+    {
+      "level": 3,
+      "title": "lua.flaffipony.rocks",
+      "anchor": "lua.flaffipony.rocks"
+    },
+    {
+      "level": 3,
+      "title": "Stormworks VSCode Extension",
+      "anchor": "Stormworks_VSCode_Extension"
+    },
+    {
+      "level": 3,
+      "title": "ZeroBrane",
+      "anchor": "ZeroBrane"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Workbench",
+    "Wiki/Guides/Lua"
+  ],
+  "external_links": [
+    "https://lua.flaffipony.rocks",
+    "https://marketplace.visualstudio.com/items?itemName=NameousChangey.lifeboatapi",
+    "https://studio.zerobrane.com/",
+    "https://www.lua.org/pil/contents.html"
+  ],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Lua_Programming?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Lua_Programming?action=edit). |\n| --- | --- |\n\n## Lua Programming\n\n## Lua in Stormworks\n\nLua programming in Stormworks is done inside microcontrollers. \"Lua Script\" is a logic component like every other, it has 2 inputs (composite and video) and 2 outputs (composite and video). The lua script can draw stuff onto the video feed and it can read and write composite values. These two functionalities are also split in the code, all the video related stuff is done inside the \"onDraw()\" function while all composite related stuff is done inside the \"onTick()\" function.\n\n**Programming Lua in Stormworks comes in with some special rules:**\n\n- each lua script component can contain a maximum of 4096 characters of Lua code\n- only basic Lua libraries are supported: pairs, ipairs, next, tostring, tonumber, math, table, string\n\n**Additonally there are functions you can call to draw onto the video or interact with the composite input and output:**\n\n- screen.drawXxx() functions to draw something on the monitor\n- map.xxx() functions to manipulate a drawn map\n- input.xxx() functions to read input composite\n- output.xxx() functions to write output composite\n- property.xxx() functions to read microcontroller's properties\n\nStormworks offers some code examples and documentation for all functions in the lua code editor (visible when you edit a Lua script component), but you should already have a basic knowledge of programming (any language).\n\n## Guide\n\n[Wiki/Guides/Lua](https://stormworks.fandom.com/wiki/Wiki/Guides/Lua)\n\n## Learn Lua\n\nIf you have no experience in programming learn Lua here: [https://www.lua.org/pil/contents.html](https://www.lua.org/pil/contents.html)\n\n**MrNJersey offers some tutorial videos:**\n\n## Special Lua Editors\n\n### lua.flaffipony.rocks\n\nCrazyFluffyPony offers a website where you can develop Lua code for Stormworks. It behaves 99% like in Stormworks and makes developing code easier. [https://lua.flaffipony.rocks](https://lua.flaffipony.rocks)\n\n### Stormworks VSCode Extension\n\nFor Windows users wanting a full development environment with additional features: - A full debugger - Intellisense and error handling - Code libraries and ability to work across multiple files - Accurate, Multi-Monitor, Stormworks Simulator - Powerful build chain and Minimizer\n\nPlease look at the Stormworks VSCode Extension: [https://marketplace.visualstudio.com/items?itemName=NameousChangey.lifeboatapi](https://marketplace.visualstudio.com/items?itemName=NameousChangey.lifeboatapi)\n\n(Or download VSCode and search \"stormworks\" in the extensions tab)\n\n### ZeroBrane\n\nAlternatively you can download ZeroBrane, a Lua IDE for Windows, Mac and Linux. Just be aware that its made for general Lua programming and not specialised for Stormworks. [https://studio.zerobrane.com/](https://studio.zerobrane.com/)",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nLua Programming\n\nLua in Stormworks\n\nLua programming in Stormworks is done inside microcontrollers.\n\"Lua Script\" is a logic component like every other, it has 2 inputs (composite and video) and 2 outputs (composite and video).\nThe lua script can draw stuff onto the video feed and it can read and write composite values.\nThese two functionalities are also split in the code, all the video related stuff is done inside the \"onDraw()\" function while all composite related stuff is done inside the \"onTick()\" function.\n\nProgramming Lua in Stormworks comes in with some special rules:\n\neach lua script component can contain a maximum of 4096 characters of Lua code\n\nonly basic Lua libraries are supported: pairs, ipairs, next, tostring, tonumber, math, table, string\n\nAdditonally there are functions you can call to draw onto the video or interact with the composite input and output:\n\nscreen.drawXxx() functions to draw something on the monitor\n\nmap.xxx() functions to manipulate a drawn map\n\ninput.xxx() functions to read input composite\n\noutput.xxx() functions to write output composite\n\nproperty.xxx() functions to read microcontroller's properties\n\nStormworks offers some code examples and documentation for all functions in the lua code editor (visible when you edit a Lua script component), but you should already have a basic knowledge of programming (any language).\n\nGuide\n\nWiki/Guides/Lua\n\nLearn Lua\n\nIf you have no experience in programming learn Lua here:\nhttps://www.lua.org/pil/contents.html\n\nMrNJersey offers some tutorial videos:\n\nSpecial Lua Editors\n\nlua.flaffipony.rocks\n\nCrazyFluffyPony offers a website where you can develop Lua code for Stormworks. It behaves 99% like in Stormworks and makes developing code easier.\n\nhttps://lua.flaffipony.rocks\n\nStormworks VSCode Extension\n\nFor Windows users wanting a full development environment with additional features:\n- A full debugger\n- Intellisense and error handling\n- Code libraries and ability to work across multiple files\n- Accurate, Multi-Monitor, Stormworks Simulator\n- Powerful build chain and Minimizer\n\nPlease look at the Stormworks VSCode Extension:\n\nhttps://marketplace.visualstudio.com/items?itemName=NameousChangey.lifeboatapi\n\n(Or download VSCode and search \"stormworks\" in the extensions tab)\n\nZeroBrane\n\nAlternatively you can download ZeroBrane, a Lua IDE for Windows, Mac and Linux. Just be aware that its made for general Lua programming and not specialised for Stormworks.\n\nhttps://studio.zerobrane.com/",
+    "char_count": 3255,
+    "word_count": 387,
+    "sha256": "aae5a4032b8ff45d7d74ec69115748806c8c171d5a67ab4355c6bc2bc1638036"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\n\n\n\n== Lua in Stormworks ==\nLua programming in Stormworks is done inside microcontrollers.\n\"Lua Script\" is a logic component like every other, it has 2 inputs (composite and video) and 2 outputs (composite and video).\nThe lua script can draw stuff onto the video feed and it can read and write composite values.\nThese two functionalities are also split in the code, all the video related stuff is done inside the \"onDraw()\" function while all composite related stuff is done inside the \"onTick()\" function.\n\n\n'''Programming Lua in Stormworks comes in with some special rules:'''\n* each lua script component can contain a maximum of 4096 characters of Lua code\n* only basic Lua libraries are supported: pairs, ipairs, next, tostring, tonumber, math, table, string\n\n\n'''Additonally there are functions you can call to draw onto the video or interact with the composite input and output:'''\n* screen.drawXxx() functions to draw something on the monitor\n* map.xxx() functions to manipulate a drawn map\n* input.xxx() functions to read input composite\n* output.xxx() functions to write output composite\n* property.xxx() functions to read microcontroller's properties\n\n\nStormworks offers some code examples and documentation for all functions in the lua code editor (visible when you edit a Lua script component), but you should already have a basic knowledge of programming (any language).\n\n\n== Guide ==\n[[Wiki/Guides/Lua]]\n\n\n== Learn Lua ==\nIf you have no experience in programming learn Lua here: https://www.lua.org/pil/contents.html\n\n'''MrNJersey offers some tutorial videos:'''\n{{#ev:youtube|www.youtube.com/watch?v=LJrWxG1c8yk}}\n{{#ev:youtube|www.youtube.com/watch?v=a_qOyR3P_hE}}\n{{#ev:youtube|www.youtube.com/watch?v=nD6djrUkPLM}}\n\n== Special Lua Editors ==\n=== lua.flaffipony.rocks ===\nCrazyFluffyPony offers a website where you can develop Lua code for Stormworks. It behaves 99% like in Stormworks and makes developing code easier.\nhttps://lua.flaffipony.rocks\n\n===Stormworks VSCode Extension===\nFor Windows users wanting a full development environment with additional features:\n- A full debugger\n- Intellisense and error handling\n- Code libraries and ability to work across multiple files\n- Accurate, Multi-Monitor, Stormworks Simulator\n- Powerful build chain and Minimizer\n\nPlease look at the Stormworks VSCode Extension:\nhttps://marketplace.visualstudio.com/items?itemName=NameousChangey.lifeboatapi\n\n(Or download VSCode and search \"stormworks\" in the extensions tab)\n\n=== ZeroBrane ===\nAlternatively you can download ZeroBrane, a Lua IDE for Windows, Mac and Linux. Just be aware that its made for general Lua programming and not specialised for Stormworks.\nhttps://studio.zerobrane.com/\n\n\n\n\n\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Lua_Programming",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 995,
+    "revision_id": 4201,
+    "revision_timestamp": "2025-05-14T02:40:56Z",
+    "retrieved_at": "2026-08-30T17:09:58+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Industrial Equipment Research",
+  "display_title": "Industrial Equipment Research",
+  "summary": "Industrial equipment is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Research",
+    "Steam Power Research",
+    "Wiki/Building/Components/Industry",
+    "Wiki/Building/Components/Specialist Equipment"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620",
+      "alt": "Genericresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "Specialist Equipment",
+          "Mineral Drill"
+        ],
+        [
+          "Industry",
+          "Hopper"
+        ],
+        [
+          "Industry",
+          "Hopper Medium"
+        ],
+        [
+          "Industry",
+          "Hopper Large"
+        ],
+        [
+          "Industry",
+          "Duct"
+        ],
+        [
+          "Industry",
+          "Duct Medium"
+        ],
+        [
+          "Industry",
+          "Duct Large"
+        ],
+        [
+          "Industry",
+          "Funnel Duct"
+        ],
+        [
+          "Industry",
+          "Vacuum Duct"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Industrial Equipment\n\n[![Genericresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)\n\n### Research Points\n\n10\n\n### Research Time\n\n1h 0m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[Steam Power](https://stormworks.fandom.com/wiki/Steam_Power_Research)\n\nIndustrial equipment is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| Specialist Equipment | Mineral Drill |\n| Industry | Hopper |\n| Industry | Hopper Medium |\n| Industry | Hopper Large |\n| Industry | Duct |\n| Industry | Duct Medium |\n| Industry | Duct Large |\n| Industry | Funnel Duct |\n| Industry | Vacuum Duct |",
+    "plain_text": "Industrial Equipment\n\nResearch Points\n\n10\n\nResearch Time\n\n1h 0m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nSteam Power\n\nIndustrial equipment is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nSpecialist Equipment\n\nMineral Drill\n\nIndustry\n\nHopper\n\nIndustry\n\nHopper Medium\n\nIndustry\n\nHopper Large\n\nIndustry\n\nDuct\n\nIndustry\n\nDuct Medium\n\nIndustry\n\nDuct Large\n\nIndustry\n\nFunnel Duct\n\nIndustry\n\nVacuum Duct",
+    "char_count": 914,
+    "word_count": 58,
+    "sha256": "4c5d7716e3098098a4afcfe2c81d0b62975896f5a9719b1b0e8a3bbfffc947a7"
+  },
+  "wikitext": "{{Research\n  |name=Industrial Equipment|image=[File:Genericresearch.png]|points=10|time=1h 0m|unlock=Initially Available|a1=[[Steam Power Research|Steam Power]]|a2=|a3=|a4=|a5=}}Industrial equipment is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Mineral Drill\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Hopper\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Hopper Medium\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Hopper Large\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Duct\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Duct Medium\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Duct Large\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Funnel Duct\n|-\n|[[Wiki/Building/Components/Industry|Industry]]||Vacuum Duct\n|}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Industrial_Equipment_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1471,
+    "revision_id": 3736,
+    "revision_timestamp": "2024-04-21T18:16:48Z",
+    "retrieved_at": "2026-08-31T10:03:32+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

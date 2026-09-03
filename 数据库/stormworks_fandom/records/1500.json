@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Shipping Research",
+  "display_title": "Shipping Research",
+  "summary": "Shipping is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Large Boats Research",
+    "Research",
+    "Wiki/Building/Components/Mechanics",
+    "Wiki/Building/Components/Propulsion"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5a/Shippingresearch.png/revision/latest?cb=20240421184840",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5a/Shippingresearch.png/revision/latest?cb=20240421184840",
+      "alt": "Shippingresearch",
+      "width": "49",
+      "height": "49"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Giant Propeller"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Large Engine"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Large Connector"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Hinge Connector"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Large Pitchable Propeller"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Shipping\n\n[![Shippingresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5a/Shippingresearch.png/revision/latest?cb=20240421184840)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5a/Shippingresearch.png/revision/latest?cb=20240421184840)\n\n### Research Points\n\n20\n\n### Research Time\n\n1h 0m\n\n## Research Path\n\n### Unlocked by\n\n[Large Boats](https://stormworks.fandom.com/wiki/Large_Boats_Research)\n\nShipping is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Giant Propeller |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Large Engine |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Large Connector |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Hinge Connector |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Large Pitchable Propeller |",
+    "plain_text": "Shipping\n\nResearch Points\n\n20\n\nResearch Time\n\n1h 0m\n\nResearch Path\n\nUnlocked by\n\nLarge Boats\n\nShipping is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nPropulsion\n\nGiant Propeller\n\nPropulsion\n\nLarge Engine\n\nMechanics\n\nLarge Connector\n\nMechanics\n\nHinge Connector\n\nPropulsion\n\nLarge Pitchable Propeller",
+    "char_count": 1142,
+    "word_count": 42,
+    "sha256": "281159d44737ac71424ff76f143bd1b93810d319a80334ef2cfeeb4495a125ea"
+  },
+  "wikitext": "{{Research\n  | name=Shipping\n  | image=[File:Shippingresearch.png]\n  | points=20\n  | time= 1h 0m\n  | unlock= [[Large Boats Research|Large Boats]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Shipping is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Giant Propeller\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Large Engine\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Large Connector\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Hinge Connector\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Large Pitchable Propeller\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Shipping_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1500,
+    "revision_id": 3800,
+    "revision_timestamp": "2024-04-21T18:49:01Z",
+    "retrieved_at": "2026-08-31T10:04:57+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

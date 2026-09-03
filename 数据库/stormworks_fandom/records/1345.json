@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Fluid jet",
+  "display_title": "Fluid jet",
+  "summary": "Fluid jets are a form of\npropulsion\n with built-in\nthrust pivoting\n ability. They are an especially good choice for making high-speed watercraft. Despite the generic term \"fluid\", fluid jets actually only work with seawater - other fluids will not be expelled.",
+  "template": "Infobox component",
+  "attributes": {
+    "Name": "Fluid Jet",
+    "Image": "200px",
+    "Mass": "10",
+    "Dimensions": "3x3x3 (black section) + 1x3x1 (nozzle) + 2x1x1 (connectors at the end)",
+    "Cost": "$3,000",
+    "Logic inputs": "Number (Vertical Trim), Number (Deflector A), Number (Deflector B)",
+    "Logic outputs": "None",
+    "Connections": "Electric, Fluid (Intake), Power",
+    "Adjustable parameters": "None",
+    "Since version": "V0.5.16"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| Name | Fluid Jet |\n| Image | 200px |\n| Mass | 10 |\n| Dimensions | 3x3x3 (black section) + 1x3x1 (nozzle) + 2x1x1 (connectors at the end) |\n| Cost | $3,000 |\n| Logic inputs | Number (Vertical Trim), Number (Deflector A), Number (Deflector B) |\n| Logic outputs | None |\n| Connections | Electric, Fluid (Intake), Power |\n| Adjustable parameters | None |\n| Since version | V0.5.16 |",
+  "categories": [
+    "Components",
+    "Electric_components"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Fluid requirements",
+      "anchor": "Fluid_requirements"
+    },
+    {
+      "level": 2,
+      "title": "Power requirements",
+      "anchor": "Power_requirements"
+    },
+    {
+      "level": 2,
+      "title": "Inputs",
+      "anchor": "Inputs"
+    },
+    {
+      "level": 2,
+      "title": "Patch history",
+      "anchor": "Patch_history"
+    },
+    {
+      "level": 3,
+      "title": "V0.5.17-19",
+      "anchor": "V0.5.17-19"
+    },
+    {
+      "level": 3,
+      "title": "V0.5.16",
+      "anchor": "V0.5.16"
+    }
+  ],
+  "internal_links": [
+    "Medium engine",
+    "Small engine",
+    "V0.5.16",
+    "V0.5.17-19",
+    "Wiki/Building/Components/Propulsion",
+    "Wiki/Vehicles/Water/Boat"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Fluid jets are a form of [propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) with built-in [thrust pivoting](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Water/Boat#Thrust_pivoting) ability. They are an especially good choice for making high-speed watercraft. Despite the generic term \"fluid\", fluid jets actually only work with seawater - other fluids will not be expelled.\n\n## Fluid requirements\n\nFluid jets can work without a fluid pump at all, simply using their supplied power to move fluid as necessary as long as the fluid intake port is connected to a fluid source. Pumps can be used to increase the fluid supply to the jet to prevent sputtering / intermittent operation.\n\n## Power requirements\n\n- Small engines are not recommended for fluid jets - they struggle to provide anywhere close to the required power except with reduction gearing, high RPS, and/or low clutch settings.\n- A [medium engine](https://stormworks.fandom.com/wiki/Medium_engine) at 1:1 gearing can just barely run a fluid jet while sustaining at ~2.7 RPS. They can work better with reduction gearing and/or a clutch.\n\n## Inputs\n\nThe deflectors take values from 0-1 and convert forward thrust to lateral thrust when activated. The deflectors stay away from the fluid stream at 0, but move towards it as their input value increases.\n\nDeflector A is on the right, deflects the stream to the right, and thus causes a vehicle to turn to the left as it is activated (if the fluid jet is located at the back of the vessel).\n\nDeflector B is on the left, deflects the stream to the left, and thus causes a vehicle to turn to the right as it is activated (if the fluid jet is located at the back of the vessel).\n\nActivating both deflectors in the same proportion will decrease the thrust provided by the water jet, with maximum deflector activation resulting in zero thrust.\n\nVertical trim takes values from -1 to 1. A vertical trim of 1 causes the water stream to be forced downwards, while -1 creates an upward stream. Assuming the fluid jet is located on the back of the vessel, +1 will create a lifting force on the back of the vessel while pitching it downward, while -1 will push the back of the vessel down but pitch the vessel upward.\n\nNote that standard orientation is with the fluid intake port placed below the power connection, and with the deflector B logic input on the left side when viewed from the back of the ship in the vehicle editor (note that mirrored placement will cause mirroring of this orientation, so fluid jets are best to place manually). If you have fluid jets in nonstandard orientation, you will need to reverse some or all of this information.\n\n## Patch history\n\n### [V0.5.17-19](https://stormworks.fandom.com/wiki/V0.5.17-19)\n\n- Fix - Improved water stream rendering for fluid jet\n- Fix - Fixed fluid jet deflector bucket rotation direction\n\n### [V0.5.16](https://stormworks.fandom.com/wiki/V0.5.16)\n\n- Feature - Added Fluid Jet component (water jet that produces thrust and has thrust vectoring)",
+    "plain_text": "Fluid jets are a form of\npropulsion\n with built-in\nthrust pivoting\n ability. They are an especially good choice for making high-speed watercraft. Despite the generic term \"fluid\", fluid jets actually only work with seawater - other fluids will not be expelled.\n\nFluid requirements\n\nFluid jets can work without a fluid pump at all, simply using their supplied power to move fluid as necessary as long as the fluid intake port is connected to a fluid source. Pumps can be used to increase the fluid supply to the jet to prevent sputtering / intermittent operation.\n\nPower requirements\n\nSmall engines\n are not recommended for fluid jets - they struggle to provide anywhere close to the required power except with reduction gearing, high RPS, and/or low clutch settings.\n\nA\nmedium engine\n at 1:1 gearing can just barely run a fluid jet while sustaining at ~2.7 RPS. They can work better with reduction gearing and/or a clutch.\n\nInputs\n\nThe deflectors take values from 0-1 and convert forward thrust to lateral thrust when activated. The deflectors stay away from the fluid stream at 0, but move towards it as their input value increases.\n\nDeflector A is on the right, deflects the stream to the right, and thus causes a vehicle to turn to the left as it is activated (if the fluid jet is located at the back of the vessel).\n\nDeflector B is on the left, deflects the stream to the left, and thus causes a vehicle to turn to the right as it is activated (if the fluid jet is located at the back of the vessel).\n\nActivating both deflectors in the same proportion will decrease the thrust provided by the water jet, with maximum deflector activation resulting in zero thrust.\n\nVertical trim takes values from -1 to 1. A vertical trim of 1 causes the water stream to be forced downwards, while -1 creates an upward stream. Assuming the fluid jet is located on the back of the vessel, +1 will create a lifting force on the back of the vessel while pitching it downward, while -1 will push the back of the vessel down but pitch the vessel upward.\n\nNote that standard orientation is with the fluid intake port placed below the power connection, and with the deflector B logic input on the left side when viewed from the back of the ship in the vehicle editor (note that mirrored placement will cause mirroring of this orientation, so fluid jets are best to place manually). If you have fluid jets in nonstandard orientation, you will need to reverse some or all of this information.\n\nPatch history\n\nV0.5.17-19\n\nFix - Improved water stream rendering for fluid jet\n\nFix - Fixed fluid jet deflector bucket rotation direction\n\nV0.5.16\n\nFeature - Added Fluid Jet component (water jet that produces thrust and has thrust vectoring)",
+    "char_count": 3037,
+    "word_count": 476,
+    "sha256": "e9ec70c3a86bfd61490e9dc7fbc3100df22ca92bfc3d0dc58810a40a74f937e0"
+  },
+  "wikitext": "{{Infobox component\n|Name = Fluid Jet\n|Image = [[FIle:Fluid jet.png|200px]]\n|Prerequisite =\n|Mass = 10\n|Dimensions = 3x3x3 (black section) + 1x3x1 (nozzle) + 2x1x1 (connectors at the end)\n|Cost = $3,000\n|Range = \n|Power = \n|Force = \n|Fluid capacity = \n|Electric charge =\n|Torque = \n|Logic inputs = Number (Vertical Trim), Number (Deflector A), Number (Deflector B)\n|Logic outputs = None\n|Connections = Electric, Fluid (Intake), Power\n|Adjustable parameters = None\n|Since version = [[V0.5.16]]\n}}\n\nFluid jets are a form of [[Wiki/Building/Components/Propulsion|propulsion]] with built-in [[Wiki/Vehicles/Water/Boat#Thrust_pivoting|thrust pivoting]] ability. They are an especially good choice for making high-speed watercraft. Despite the generic term \"fluid\", fluid jets actually only work with seawater - other fluids will not be expelled.\n\n== Fluid requirements ==\nFluid jets can work without a fluid pump at all, simply using their supplied power to move fluid as necessary as long as the fluid intake port is connected to a fluid source. Pumps can be used to increase the fluid supply to the jet to prevent sputtering / intermittent operation.\n\n== Power requirements ==\n* [[Small engine]]s are not recommended for fluid jets - they struggle to provide anywhere close to the required power except with reduction gearing, high RPS, and/or low clutch settings.\n* A [[medium engine]] at 1:1 gearing can just barely run a fluid jet while sustaining at ~2.7 RPS. They can work better with reduction gearing and/or a clutch.\n\n== Inputs ==\nThe deflectors take values from 0-1 and convert forward thrust to lateral thrust when activated. The deflectors stay away from the fluid stream at 0, but move towards it as their input value increases.\n\nDeflector A is on the right, deflects the stream to the right, and thus causes a vehicle to turn to the left as it is activated (if the fluid jet is located at the back of the vessel).\n\nDeflector B is on the left, deflects the stream to the left, and thus causes a vehicle to turn to the right as it is activated (if the fluid jet is located at the back of the vessel).\n\nActivating both deflectors in the same proportion will decrease the thrust provided by the water jet, with maximum deflector activation resulting in zero thrust.\n\nVertical trim takes values from -1 to 1. A vertical trim of 1 causes the water stream to be forced downwards, while -1 creates an upward stream. Assuming the fluid jet is located on the back of the vessel, +1 will create a lifting force on the back of the vessel while pitching it downward, while -1 will push the back of the vessel down but pitch the vessel upward.\n\nNote that standard orientation is with the fluid intake port placed below the power connection, and with the deflector B logic input on the left side when viewed from the back of the ship in the vehicle editor (note that mirrored placement will cause mirroring of this orientation, so fluid jets are best to place manually). If you have fluid jets in nonstandard orientation, you will need to reverse some or all of this information.\n\n== Patch history ==\n=== [[V0.5.17-19]] ===\n* Fix - Improved water stream rendering for fluid jet\n* Fix - Fixed fluid jet deflector bucket rotation direction\n\n=== [[V0.5.16]] ===\n* Feature - Added Fluid Jet component (water jet that produces thrust and has thrust vectoring)\n\n[[Category:Electric components]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Fluid_jet",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1345,
+    "revision_id": 4270,
+    "revision_timestamp": "2025-05-21T16:03:34Z",
+    "retrieved_at": "2026-08-31T10:01:51+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

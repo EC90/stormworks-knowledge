@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Person Operations",
+  "display_title": "Gameplay/Workbench/Components/Person Operations",
+  "summary": "Person Operations\nBed\nA place to sleep.\nMedical Bed\nA place for injured persons.\nPassenger Seat\nPadded Seat\nStretcher\na floating bed to rescue persons, with handles. Can be attached to a winch.\nHarness\nCan hold a person. Can be attached to a winch.\nHeater\nMakes warm. Helps you survive the arctic.\nOutfits\nOutfit Inventory Scuba\nBasic equipment for diving.\nOutfit Inventory Diving\nExpert diving outfit. Better then Scuba outfit.\nOutfit Inventory Parachute\nOutfit Inventory Firefighter\nOutfit Inventory Arctic\nNow you can survive in the arctic!\nOutfit Inventory Empty\nCan be used to store outfits.",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Person Operations [ edit page ]",
+      "anchor": "Person_Operations_[_edit_page_]"
+    },
+    {
+      "level": 1,
+      "title": "Outfits",
+      "anchor": "Outfits"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Workbench",
+    "Gameplay/Workbench/Components"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/30/Bed.jpg/revision/latest?cb=20190317010734",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/30/Bed.jpg/revision/latest/scale-to-width-down/100?cb=20190317010734",
+      "alt": "Bed",
+      "width": "100",
+      "height": "79"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/27/Medical_Bed.jpg/revision/latest?cb=20190317010753",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/27/Medical_Bed.jpg/revision/latest/scale-to-width-down/100?cb=20190317010753",
+      "alt": "Medical Bed",
+      "width": "100",
+      "height": "93"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/59/Passenger_Seat.jpg/revision/latest?cb=20200130200047",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Passenger Seat",
+      "width": "100",
+      "height": "171"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/12/Padded_Seat.png/revision/latest?cb=20200130195905",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Padded Seat",
+      "width": "100",
+      "height": "94"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/07/Stretcher.jpg/revision/latest?cb=20190317010844",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Stretcher",
+      "width": "100",
+      "height": "86"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Harness.jpg/revision/latest?cb=20190317010742",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Harness",
+      "width": "100",
+      "height": "138"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/55/Heater.jpg/revision/latest?cb=20190317010747",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Heater",
+      "width": "100",
+      "height": "93"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/66/Outfit_Inventory_Scuba.jpg/revision/latest?cb=20190317010831",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Outfit Inventory Scuba",
+      "width": "100",
+      "height": "112"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/01/Outfit_Inventory_Diving.jpg/revision/latest?cb=20190317010806",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Outfit Inventory Diving",
+      "width": "100",
+      "height": "104"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7d/Outfit_Inventory_Parachute.jpg/revision/latest?cb=20190317010823",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Outfit Inventory Parachute",
+      "width": "100",
+      "height": "111"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/61/Outfit_Inventory_Firefighter.jpg/revision/latest?cb=20190317010817",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Outfit Inventory Firefighter",
+      "width": "100",
+      "height": "110"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/03/Outfit_Inventory_Arctic.jpg/revision/latest?cb=20190317010759",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Outfit Inventory Arctic",
+      "width": "100",
+      "height": "107"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/93/Outfit_Inventory_Empty.jpg/revision/latest?cb=20190317010812",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Outfit Inventory Empty",
+      "width": "100",
+      "height": "112"
+    }
+  ],
+  "tables": [],
+  "content": {
+    "markdown": "## Person Operations\n\nBed\n\n[![Bed](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/30/Bed.jpg/revision/latest/scale-to-width-down/100?cb=20190317010734)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/30/Bed.jpg/revision/latest?cb=20190317010734)\n\nA place to sleep.\n\nMedical Bed\n\n[![Medical Bed](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/27/Medical_Bed.jpg/revision/latest/scale-to-width-down/100?cb=20190317010753)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/27/Medical_Bed.jpg/revision/latest?cb=20190317010753)\n\nA place for injured persons.\n\nPassenger Seat\n\n[![Passenger Seat](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/59/Passenger_Seat.jpg/revision/latest?cb=20200130200047)\n\nPadded Seat\n\n[![Padded Seat](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/12/Padded_Seat.png/revision/latest?cb=20200130195905)\n\nStretcher\n\n[![Stretcher](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/07/Stretcher.jpg/revision/latest?cb=20190317010844)\n\na floating bed to rescue persons, with handles. Can be attached to a winch.\n\nHarness\n\n[![Harness](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Harness.jpg/revision/latest?cb=20190317010742)\n\nCan hold a person. Can be attached to a winch.\n\nHeater\n\n[![Heater](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/55/Heater.jpg/revision/latest?cb=20190317010747)\n\nMakes warm. Helps you survive the arctic.\n\n# Outfits\n\nOutfit Inventory Scuba\n\n[![Outfit Inventory Scuba](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/66/Outfit_Inventory_Scuba.jpg/revision/latest?cb=20190317010831)\n\nBasic equipment for diving.\n\nOutfit Inventory Diving\n\n[![Outfit Inventory Diving](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/01/Outfit_Inventory_Diving.jpg/revision/latest?cb=20190317010806)\n\nExpert diving outfit. Better then Scuba outfit.\n\nOutfit Inventory Parachute\n\n[![Outfit Inventory Parachute](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7d/Outfit_Inventory_Parachute.jpg/revision/latest?cb=20190317010823)\n\nOutfit Inventory Firefighter\n\n[![Outfit Inventory Firefighter](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/61/Outfit_Inventory_Firefighter.jpg/revision/latest?cb=20190317010817)\n\nOutfit Inventory Arctic\n\n[![Outfit Inventory Arctic](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/03/Outfit_Inventory_Arctic.jpg/revision/latest?cb=20190317010759)\n\nNow you can survive in the arctic!\n\nOutfit Inventory Empty\n\n[![Outfit Inventory Empty](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/93/Outfit_Inventory_Empty.jpg/revision/latest?cb=20190317010812)\n\nCan be used to store outfits.",
+    "plain_text": "Person Operations\nBed\nA place to sleep.\nMedical Bed\nA place for injured persons.\nPassenger Seat\nPadded Seat\nStretcher\na floating bed to rescue persons, with handles. Can be attached to a winch.\nHarness\nCan hold a person. Can be attached to a winch.\nHeater\nMakes warm. Helps you survive the arctic.\nOutfits\nOutfit Inventory Scuba\nBasic equipment for diving.\nOutfit Inventory Diving\nExpert diving outfit. Better then Scuba outfit.\nOutfit Inventory Parachute\nOutfit Inventory Firefighter\nOutfit Inventory Arctic\nNow you can survive in the arctic!\nOutfit Inventory Empty\nCan be used to store outfits.",
+    "char_count": 3805,
+    "word_count": 95,
+    "sha256": "3c19b1b80a55949d0f14ee4a54ff17f558f198246a0a5ee29bd16a6de7236f91"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Person_Operations",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 630,
+    "revision_id": 4167,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-30T15:13:01+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

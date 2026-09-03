@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Mechanics/Fuel",
+  "display_title": "Gameplay/Mechanics/Fuel",
+  "summary": "Fuels are used in\nengines\nto generate\nmechanical power\n. There are four different types of fuel: diesel, jet fuel, coal, and nuclear fuel rods.\nDiesel\nDiesel fuel is used by\nDiesel Engines\n.\nIn\ncareer\nand\nclassic\nmode, vehicles spawn with the diesel provided at the spawn point. This means that you must manually replenish each spawn point, and by extension, any future vehicles you spawn.\nDiesel can be purchased at gantries for 2$/l, and subsequently sold at other Diesel gantries for 3$/l.\nJet fuel\nJet fuel is used by jet combustion chambers in\njet engines\n.\nIn\ncareer\nand\nclassic\nmode, vehicles",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Diesel",
+      "anchor": "Diesel"
+    },
+    {
+      "level": 2,
+      "title": "Jet fuel",
+      "anchor": "Jet_fuel"
+    },
+    {
+      "level": 2,
+      "title": "Coal",
+      "anchor": "Coal"
+    }
+  ],
+  "internal_links": [
+    "Firebox",
+    "Funnel duct",
+    "Gameplay/Gamemodes/Career",
+    "Gameplay/Gamemodes/Classic",
+    "Jet Engines",
+    "Mineral drill",
+    "Sawyer Islands",
+    "Steam boiler",
+    "Terminal Camodo",
+    "Wiki/Building/Components/Propulsion/DieselEngines",
+    "Wiki/Game Mechanics/Mechanical Power",
+    "Wiki/Guides/Engine"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Fuels are used in [engines](https://stormworks.fandom.com/wiki/Wiki/Guides/Engine \"Wiki/Guides/Engine\") to generate [mechanical power](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Mechanical_Power \"Wiki/Game Mechanics/Mechanical Power\"). There are four different types of fuel: diesel, jet fuel, coal, and nuclear fuel rods.\n\n## Diesel\n\nDiesel fuel is used by [Diesel Engines](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion/DieselEngines \"Wiki/Building/Components/Propulsion/DieselEngines\").\n\nIn [career](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Career \"Gameplay/Gamemodes/Career\") and [classic](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Classic \"Gameplay/Gamemodes/Classic\") mode, vehicles spawn with the diesel provided at the spawn point. This means that you must manually replenish each spawn point, and by extension, any future vehicles you spawn.\n\nDiesel can be purchased at gantries for 2$/l, and subsequently sold at other Diesel gantries for 3$/l.\n\n## Jet fuel\n\nJet fuel is used by jet combustion chambers in [jet engines](https://stormworks.fandom.com/wiki/Jet_Engines \"Jet Engines\").\n\nIn [career](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Career \"Gameplay/Gamemodes/Career\") and [classic](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Classic \"Gameplay/Gamemodes/Classic\") mode, vehicles spawn with the jet fuel provided at the spawn point, and if it gets depleted it must be manually replenished, as with diesel fuel above.\n\nNote that jet engines tend to use less fuel than diesel engines to generate the same force, though jet fuel is more expensive.\n\n## Coal\n\nCoal is used by [fireboxes](https://stormworks.fandom.com/wiki/Firebox \"Firebox\") to heat [boilers](https://stormworks.fandom.com/wiki/Steam_boiler \"Steam boiler\") in steam engines.\n\nIn [career](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Career \"Gameplay/Gamemodes/Career\") and [classic](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Classic \"Gameplay/Gamemodes/Classic\") mode, each base starts off with 100 coal which will be placed into any vehicle that spawns with hoppers or ducts set to contain coal. Any additional coal to be used must first be mined using a mineral drill and then dumped into the base's coal hopper using a funnel duct. Alternatively, unused coal will also be returned to the base's storage when the vehicle is brought back to base and despawned.\n\nCoal can also be sold for $2 per unit at either Terminal Camodo east of the Isle of Donkk, at the railway station near O'Neill Airbase in the northeast [Sawyer Islands](https://stormworks.fandom.com/wiki/Sawyer_Islands \"Sawyer Islands\"), or at Terminal Trinite in the arctic.",
+    "plain_text": "Fuels are used in\nengines\nto generate\nmechanical power\n. There are four different types of fuel: diesel, jet fuel, coal, and nuclear fuel rods.\nDiesel\nDiesel fuel is used by\nDiesel Engines\n.\nIn\ncareer\nand\nclassic\nmode, vehicles spawn with the diesel provided at the spawn point. This means that you must manually replenish each spawn point, and by extension, any future vehicles you spawn.\nDiesel can be purchased at gantries for 2$/l, and subsequently sold at other Diesel gantries for 3$/l.\nJet fuel\nJet fuel is used by jet combustion chambers in\njet engines\n.\nIn\ncareer\nand\nclassic\nmode, vehicles spawn with the jet fuel provided at the spawn point, and if it gets depleted it must be manually replenished, as with diesel fuel above.\nNote that jet engines tend to use less fuel than diesel engines to generate the same force, though jet fuel is more expensive.\nCoal\nCoal is used by\nfireboxes\nto heat\nboilers\nin steam engines.\nIn\ncareer\nand\nclassic\nmode, each base starts off with 100 coal which will be placed into any vehicle that spawns with hoppers or ducts set to contain coal. Any additional coal to be used must first be mined using a\nmineral drill\nand then dumped into the base's coal hopper using a\nfunnel duct\n. Alternatively, unused coal will also be returned to the base's storage when the vehicle is brought back to base and despawned.\nCoal can also be sold for $2 per unit at either\nTerminal Camodo\neast of the Isle of Donkk, at the railway station near O'Neill Airbase in the northeast\nSawyer Islands\n, or at Terminal Trinite in the arctic.",
+    "char_count": 2719,
+    "word_count": 280,
+    "sha256": "9efadf7a092a38ec5e3b7a6e53920527a9bda9bfcc847405565258700374639e"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Fuel",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 949,
+    "revision_id": 4582,
+    "revision_timestamp": "2025-08-07T04:31:23Z",
+    "retrieved_at": "2026-08-30T14:37:41+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

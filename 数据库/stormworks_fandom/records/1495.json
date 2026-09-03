@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Medium Modular Engines Research",
+  "display_title": "Medium Modular Engines Research",
+  "summary": "Medium modular engines is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Heavy Modular Engines Research",
+    "Modular Engines Research",
+    "Research",
+    "Wiki/Building/Components/Mechanics",
+    "Wiki/Building/Components/Modular Engines",
+    "Wiki/Game Mechanics/Fluids"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620",
+      "alt": "Genericresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Clutch 3x3"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Crankshaft 3x1"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Crankshaft 3x3"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Crankshaft Converter 3 to 1"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Flywheel 3x3"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Gearbox 3x3"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Cylinder 3x3"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Drive Belt 3x3"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Air-Liquid Heat Exchanger 5x2"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Air-Liquid Heat Exchanger 5x3"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Air-Air Heat Exchanger 2x5"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Fluid Heat Radiator 5x5 (Electric)"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Liquid-Liquid Heat Exchanger 5x5"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Medium Modular Engines\n\n[![Genericresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)\n\n### Research Points\n\n20\n\n### Research Time\n\n2h 30m\n\n## Research Path\n\n### Unlocked by\n\n[Modular Engines](https://stormworks.fandom.com/wiki/Modular_Engines_Research)\n\n### Makes available\n\n[Heavy Modular Engines](https://stormworks.fandom.com/wiki/Heavy_Modular_Engines_Research)\n\nMedium modular engines is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| Modular Engines | Modular Engine Clutch 3x3 |\n| Modular Engines | Modular Engine Crankshaft 3x1 |\n| Modular Engines | Modular Engine Crankshaft 3x3 |\n| Modular Engines | Modular Engine Crankshaft Converter 3 to 1 |\n| Modular Engines | Modular Engine Flywheel 3x3 |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Gearbox 3x3 |\n| Modular Engines | Modular Engine Cylinder 3x3 |\n| Modular Engines | Modular Engine Drive Belt 3x3 |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Air-Liquid Heat Exchanger 5x2 |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Air-Liquid Heat Exchanger 5x3 |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Air-Air Heat Exchanger 2x5 |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Fluid Heat Radiator 5x5 (Electric) |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Liquid-Liquid Heat Exchanger 5x5 |",
+    "plain_text": "Medium Modular Engines\n\nResearch Points\n\n20\n\nResearch Time\n\n2h 30m\n\nResearch Path\n\nUnlocked by\n\nModular Engines\n\nMakes available\n\nHeavy Modular Engines\n\nMedium modular engines is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nModular Engines\n\nModular Engine Clutch 3x3\n\nModular Engines\n\nModular Engine Crankshaft 3x1\n\nModular Engines\n\nModular Engine Crankshaft 3x3\n\nModular Engines\n\nModular Engine Crankshaft Converter 3 to 1\n\nModular Engines\n\nModular Engine Flywheel 3x3\n\nMechanics\n\nGearbox 3x3\n\nModular Engines\n\nModular Engine Cylinder 3x3\n\nModular Engines\n\nModular Engine Drive Belt 3x3\n\nFluid\n\nAir-Liquid Heat Exchanger 5x2\n\nFluid\n\nAir-Liquid Heat Exchanger 5x3\n\nFluid\n\nAir-Air Heat Exchanger 2x5\n\nFluid\n\nFluid Heat Radiator 5x5 (Electric)\n\nFluid\n\nLiquid-Liquid Heat Exchanger 5x5",
+    "char_count": 1761,
+    "word_count": 114,
+    "sha256": "8258a4a64281d060d88e135b5ed1ccbdad52bb4a98110f4e33324a29612ee755"
+  },
+  "wikitext": "{{Research\n  | name=Medium Modular Engines\n  | image=[File:Genericresearch.png]\n  | points=20\n  | time= 2h 30m\n  | unlock= [[Modular Engines Research|Modular Engines]]\n  | a1=[[Heavy Modular Engines Research|Heavy Modular Engines]]\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Medium modular engines is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Clutch 3x3\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Crankshaft 3x1\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Crankshaft 3x3\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Crankshaft Converter 3 to 1\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Flywheel 3x3\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Gearbox 3x3\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Cylinder 3x3\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Drive Belt 3x3\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]||Air-Liquid Heat Exchanger 5x2\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]\n|Air-Liquid Heat Exchanger 5x3\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]\n|Air-Air Heat Exchanger 2x5\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]\n|Fluid Heat Radiator 5x5 (Electric)\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]\n|Liquid-Liquid Heat Exchanger 5x5\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Medium_Modular_Engines_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1495,
+    "revision_id": 3793,
+    "revision_timestamp": "2024-04-21T18:45:49Z",
+    "retrieved_at": "2026-08-31T10:04:10+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

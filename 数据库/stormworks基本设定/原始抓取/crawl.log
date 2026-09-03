@@ -1,0 +1,31 @@
+2026-08-30 22:35:35,274 | INFO | Stormworks Fandom knowledge crawler 1.0.0
+2026-08-30 22:35:35,845 | WARNING | Request failed: 403 Client Error: Forbidden for url: https://stormworks.fandom.com/robots.txt; retrying in 1.0s
+2026-08-30 22:35:37,127 | WARNING | Request failed: 403 Client Error: Forbidden for url: https://stormworks.fandom.com/robots.txt; retrying in 2.2s
+2026-08-30 22:35:39,582 | WARNING | Request failed: 403 Client Error: Forbidden for url: https://stormworks.fandom.com/robots.txt; retrying in 4.3s
+2026-08-30 22:35:44,210 | WARNING | Request failed: 403 Client Error: Forbidden for url: https://stormworks.fandom.com/robots.txt; retrying in 8.5s
+2026-08-30 22:37:03,389 | INFO | Stormworks Fandom knowledge crawler 1.0.0
+2026-08-30 22:37:03,733 | WARNING | robots.txt unreadable (403 Client Error: Forbidden for url: https://stormworks.fandom.com/robots.txt); continuing with the configured 1.0s request delay because this crawler only calls https://stormworks.fandom.com/api.php
+2026-08-30 22:37:08,604 | INFO | Selected 19 page(s)
+2026-08-30 22:37:23,116 | INFO | Stormworks Fandom knowledge crawler 1.0.0
+2026-08-30 22:37:23,512 | WARNING | robots.txt unreadable (403 Client Error: Forbidden for url: https://stormworks.fandom.com/robots.txt); continuing with the configured 1.0s request delay because this crawler only calls https://stormworks.fandom.com/api.php
+2026-08-30 22:37:28,254 | INFO | Selected 19 page(s)
+2026-08-30 22:37:28,254 | INFO | [1/19] fetching: Gameplay/Mechanics
+2026-08-30 22:37:30,077 | INFO | [2/19] fetching: Gameplay/Mechanics/Basic Physics
+2026-08-30 22:37:31,517 | INFO | [3/19] fetching: Gameplay/Mechanics/Basic Physics Concept
+2026-08-30 22:37:32,926 | INFO | [4/19] fetching: Gameplay/Mechanics/Bouyancy
+2026-08-30 22:37:34,274 | INFO | [5/19] fetching: Gameplay/Mechanics/Buoyancy
+2026-08-30 22:37:35,827 | INFO | [6/19] fetching: Gameplay/Mechanics/Center of Mass
+2026-08-30 22:37:37,218 | INFO | [7/19] fetching: Gameplay/Mechanics/Electricity
+2026-08-30 22:37:38,975 | INFO | [8/19] fetching: Gameplay/Mechanics/Fluids
+2026-08-30 22:37:40,588 | INFO | [9/19] fetching: Gameplay/Mechanics/Fuel
+2026-08-30 22:37:41,916 | INFO | [10/19] fetching: Gameplay/Mechanics/Lift
+2026-08-30 22:37:43,312 | INFO | [11/19] fetching: Gameplay/Mechanics/Logic
+2026-08-30 22:37:44,713 | INFO | [12/19] fetching: Gameplay/Mechanics/Lua
+2026-08-30 22:37:46,174 | INFO | [13/19] fetching: Gameplay/Mechanics/Mechanical Power
+2026-08-30 22:37:47,897 | INFO | [14/19] fetching: Gameplay/Mechanics/Mechanics
+2026-08-30 22:37:49,273 | INFO | [15/19] fetching: Gameplay/Mechanics/Physics
+2026-08-30 22:37:50,615 | INFO | [16/19] fetching: Gameplay/Mechanics/Rope
+2026-08-30 22:37:51,992 | INFO | [17/19] fetching: Gameplay/Mechanics/Ropes
+2026-08-30 22:37:53,567 | INFO | [18/19] fetching: Gameplay/Mechanics/Trim
+2026-08-30 22:37:55,039 | INFO | [19/19] fetching: Gameplay/Mechanics/Wheels
+2026-08-30 22:37:56,930 | INFO | Done: records=19 articles=15 redirects=4 chunks=24 fetched=19 skipped=0 failed=0

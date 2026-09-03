@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Logic guide",
+  "display_title": "Logic guide",
+  "summary": "Alias for Wiki/Guides/Logic",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Guides/Logic"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Logic guide -> Wiki/Guides/Logic",
+    "plain_text": "Redirect: Logic guide -> Wiki/Guides/Logic",
+    "char_count": 42,
+    "word_count": 5,
+    "sha256": "193ec47ef8d8f08c571ae75cf29ee23a8b2761548063b322318cf95e106e8032"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Guides/Logic",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Logic",
+    "target_page_id": 600,
+    "target_revision_id": 3344
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Logic_guide",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 902,
+    "revision_id": 1738,
+    "revision_timestamp": "2019-03-31T21:16:23Z",
+    "retrieved_at": "2026-08-31T10:03:59+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

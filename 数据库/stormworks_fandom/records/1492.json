@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Firefighting Equipment Research",
+  "display_title": "Firefighting Equipment Research",
+  "summary": "Firefighting equipment is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Rescue Equipment Research",
+    "Research",
+    "Wiki/Building/Components/Specialist Equipment"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/df/Firefightingequipmentresearch.png/revision/latest?cb=20240421184048",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/df/Firefightingequipmentresearch.png/revision/latest?cb=20240421184048",
+      "alt": "Firefightingequipmentresearch",
+      "width": "48",
+      "height": "48"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "Specialist Equipment",
+          "Outfit Inventory (Firefighter)"
+        ],
+        [
+          "Specialist Equipment",
+          "Fluid Cannon"
+        ],
+        [
+          "Specialist Equipment",
+          "Fluid Nozzle"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Firefighting Equipment\n\n[![Firefightingequipmentresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/df/Firefightingequipmentresearch.png/revision/latest?cb=20240421184048)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/df/Firefightingequipmentresearch.png/revision/latest?cb=20240421184048)\n\n### Research Points\n\n14\n\n### Research Time\n\n0h 40m\n\n## Research Path\n\n### Unlocked by\n\n[Rescue Equipment](https://stormworks.fandom.com/wiki/Rescue_Equipment_Research)\n\nFirefighting equipment is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| Specialist Equipment | Outfit Inventory (Firefighter) |\n| Specialist Equipment | Fluid Cannon |\n| Specialist Equipment | Fluid Nozzle |",
+    "plain_text": "Firefighting Equipment\n\nResearch Points\n\n14\n\nResearch Time\n\n0h 40m\n\nResearch Path\n\nUnlocked by\n\nRescue Equipment\n\nFirefighting equipment is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nSpecialist Equipment\n\nOutfit Inventory (Firefighter)\n\nSpecialist Equipment\n\nFluid Cannon\n\nSpecialist Equipment\n\nFluid Nozzle",
+    "char_count": 820,
+    "word_count": 41,
+    "sha256": "93133c94aa43fb7eb4448bd80fccc4ce4d8704ec461432750ec16e6667d5c566"
+  },
+  "wikitext": "{{Research\n  | name=Firefighting Equipment\n  | image=[File:Firefightingequipmentresearch.png]\n  | points=14\n  | time= 0h 40m\n  | unlock= [[Rescue Equipment Research|Rescue Equipment]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Firefighting equipment is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Outfit Inventory (Firefighter)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Fluid Cannon\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Fluid Nozzle\n|}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Firefighting_Equipment_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1492,
+    "revision_id": 3783,
+    "revision_timestamp": "2024-04-21T18:41:14Z",
+    "retrieved_at": "2026-08-31T10:01:46+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

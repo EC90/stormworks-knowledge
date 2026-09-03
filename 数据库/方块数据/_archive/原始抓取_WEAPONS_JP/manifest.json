@@ -1,0 +1,18 @@
+{
+  "site": "https://wikiwiki.jp",
+  "wiki": "sbarjp",
+  "note": "wikiwiki.jp（非 MediaWiki）。正文取自 div#content，已过滤 ::cmd/edit 链接与侧边栏。",
+  "pages": [
+    {
+      "wiki": "sbarjp",
+      "page": "WEAPONS",
+      "url": "https://wikiwiki.jp/sbarjp/WEAPONS",
+      "last_modified": "2026-01-11",
+      "chars": 31456,
+      "internal_links": []
+    }
+  ],
+  "failed": [],
+  "ok": 1,
+  "failed_count": 0
+}

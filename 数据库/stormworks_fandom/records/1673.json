@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Sensors",
+  "display_title": "Wiki/Building/Components/Sensors",
+  "summary": "Alias for Gameplay/Workbench/Components/Sensors",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Sensors"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Sensors -> Gameplay/Workbench/Components/Sensors",
+    "plain_text": "Redirect: Wiki/Building/Components/Sensors -> Gameplay/Workbench/Components/Sensors",
+    "char_count": 83,
+    "word_count": 4,
+    "sha256": "ce84d13764cd83f0fe3b9301f27c7464bf02bd8aa76ee3586a03b49f6b8f8e50"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Sensors",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Sensors",
+    "target_page_id": 636,
+    "target_revision_id": 4637
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1673,
+    "revision_id": 4180,
+    "revision_timestamp": "2025-05-14T02:40:55Z",
+    "retrieved_at": "2026-08-31T10:11:23+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

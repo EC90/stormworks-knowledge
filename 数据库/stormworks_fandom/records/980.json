@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki/Standards/Air/Control Systems",
+  "display_title": "Wiki/Standards/Air/Control Systems",
+  "summary": "Please add a toggle button to your vehicle that switches betwen those two modes (using numeric switchboxes). Set the default mode to whatever you prefer.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Control Systems     [ edit page ]",
+      "anchor": "Control_Systems_[_edit_page_]"
+    }
+  ],
+  "internal_links": [
+    "Wiki",
+    "Wiki/Standards",
+    "Wiki/Standards/Air"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Standards/Air/Control_Systems?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Standards/Air/Control_Systems?action=edit). |\n| --- | --- |\n\n## Control Systems\n\nThere are two systems used in the workshop: Option A:\n\n- WS Pitch\n- AD Roll\n- ↑ ↓ Throttle/Speed/Collective\n- ← → Yaw\n\nOption B:\n\n- WS Throttle/Speed/Collective\n- AD Yaw\n- ↑ ↓ Pitch\n- ← → Roll\n\nPlease add a toggle button to your vehicle that switches betwen those two modes (using numeric switchboxes). Set the default mode to whatever you prefer.",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nControl Systems\n\nThere are two systems used in the workshop:\n\nOption A:\n\nWS     Pitch\n\nAD      Roll\n\n↑ ↓      Throttle/Speed/Collective\n\n← →   Yaw\n\nOption B:\n\nWS     Throttle/Speed/Collective\n\nAD      Yaw\n\n↑ ↓      Pitch\n\n← →   Roll\n\nPlease add a toggle button to your vehicle that switches betwen those two modes (using numeric switchboxes). Set the default mode to whatever you prefer.",
+    "char_count": 852,
+    "word_count": 67,
+    "sha256": "6d0b288961be284b69906434072c4ae5e0de54ae91101851b89accff03bf2b30"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\n\n\nThere are two systems used in the workshop:\n<br>\nOption A:\n* WS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pitch\n* AD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Roll\n* ↑ ↓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Throttle/Speed/Collective\n* ← →&nbsp;&nbsp;&nbsp;Yaw\n<br>\n<br>\nOption B:\n* WS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Throttle/Speed/Collective\n* AD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yaw\n* ↑ ↓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pitch\n* ← →&nbsp;&nbsp;&nbsp;Roll\n<br>\nPlease add a toggle button to your vehicle that switches betwen those two modes (using numeric switchboxes). Set the default mode to whatever you prefer.\n\n\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Standards/Air/Control_Systems",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 980,
+    "revision_id": 2011,
+    "revision_timestamp": "2019-05-16T01:08:13Z",
+    "retrieved_at": "2026-08-31T10:12:32+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

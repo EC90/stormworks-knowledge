@@ -1,0 +1,459 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Multiplayer",
+  "display_title": "Gameplay/Multiplayer",
+  "summary": "Multiplayer in\nStormworks\n allows for the same game modes as in singleplayer, though allowing these to be played with friends or strangers. Stormworks uses the Steam friend list to display games that your friends are playing, has a public server list in-game, and also allows direct connections to private servers (default port is 25565).",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Multiplayer Communities",
+      "anchor": "Multiplayer_Communities"
+    },
+    {
+      "level": 3,
+      "title": "Dedicated server",
+      "anchor": "Dedicated_server"
+    },
+    {
+      "level": 3,
+      "title": "Server hosts",
+      "anchor": "Server_hosts"
+    },
+    {
+      "level": 3,
+      "title": "Why can't my friend use the workbench?",
+      "anchor": "Why_can't_my_friend_use_the_workbench?"
+    },
+    {
+      "level": 2,
+      "title": "Patch notes",
+      "anchor": "Patch_notes"
+    },
+    {
+      "level": 3,
+      "title": "V1.4.15",
+      "anchor": "V1.4.15"
+    },
+    {
+      "level": 3,
+      "title": "V1.4.7",
+      "anchor": "V1.4.7"
+    },
+    {
+      "level": 3,
+      "title": "V1.4.4",
+      "anchor": "V1.4.4"
+    },
+    {
+      "level": 3,
+      "title": "V1.3.13",
+      "anchor": "V1.3.13"
+    },
+    {
+      "level": 3,
+      "title": "V1.3.0",
+      "anchor": "V1.3.0"
+    },
+    {
+      "level": 3,
+      "title": "V1.2.3-4",
+      "anchor": "V1.2.3-4"
+    },
+    {
+      "level": 3,
+      "title": "V1.1.14-17",
+      "anchor": "V1.1.14-17"
+    },
+    {
+      "level": 3,
+      "title": "V1.1.13",
+      "anchor": "V1.1.13"
+    },
+    {
+      "level": 3,
+      "title": "V1.0.26-27",
+      "anchor": "V1.0.26-27"
+    },
+    {
+      "level": 3,
+      "title": "V1.0.16-17",
+      "anchor": "V1.0.16-17"
+    },
+    {
+      "level": 3,
+      "title": "V1.0.1-14",
+      "anchor": "V1.0.1-14"
+    },
+    {
+      "level": 3,
+      "title": "V1.0.0",
+      "anchor": "V1.0.0"
+    },
+    {
+      "level": 3,
+      "title": "V0.10.32-33",
+      "anchor": "V0.10.32-33"
+    },
+    {
+      "level": 3,
+      "title": "V0.10.27-28",
+      "anchor": "V0.10.27-28"
+    },
+    {
+      "level": 3,
+      "title": "V0.10.23-25",
+      "anchor": "V0.10.23-25"
+    },
+    {
+      "level": 3,
+      "title": "V0.10.10-11",
+      "anchor": "V0.10.10-11"
+    },
+    {
+      "level": 3,
+      "title": "V0.10.3-9",
+      "anchor": "V0.10.3-9"
+    },
+    {
+      "level": 3,
+      "title": "V0.10.2",
+      "anchor": "V0.10.2"
+    },
+    {
+      "level": 3,
+      "title": "V0.9.11",
+      "anchor": "V0.9.11"
+    },
+    {
+      "level": 3,
+      "title": "V0.9.7-8",
+      "anchor": "V0.9.7-8"
+    },
+    {
+      "level": 3,
+      "title": "V0.8.29-31",
+      "anchor": "V0.8.29-31"
+    },
+    {
+      "level": 3,
+      "title": "V0.8.24-28",
+      "anchor": "V0.8.24-28"
+    },
+    {
+      "level": 3,
+      "title": "V0.8.22-23",
+      "anchor": "V0.8.22-23"
+    },
+    {
+      "level": 3,
+      "title": "V0.8.11-14",
+      "anchor": "V0.8.11-14"
+    },
+    {
+      "level": 3,
+      "title": "V0.8.7-10",
+      "anchor": "V0.8.7-10"
+    },
+    {
+      "level": 3,
+      "title": "V0.7.18",
+      "anchor": "V0.7.18"
+    },
+    {
+      "level": 3,
+      "title": "V0.7.2-3",
+      "anchor": "V0.7.2-3"
+    },
+    {
+      "level": 3,
+      "title": "V0.6.21",
+      "anchor": "V0.6.21"
+    },
+    {
+      "level": 3,
+      "title": "V0.6.16-17",
+      "anchor": "V0.6.16-17"
+    },
+    {
+      "level": 3,
+      "title": "V0.6.15",
+      "anchor": "V0.6.15"
+    },
+    {
+      "level": 3,
+      "title": "V0.6.1",
+      "anchor": "V0.6.1"
+    },
+    {
+      "level": 3,
+      "title": "V0.5.15",
+      "anchor": "V0.5.15"
+    },
+    {
+      "level": 3,
+      "title": "V0.5.12-14",
+      "anchor": "V0.5.12-14"
+    },
+    {
+      "level": 3,
+      "title": "V0.5.6",
+      "anchor": "V0.5.6"
+    },
+    {
+      "level": 3,
+      "title": "V0.4.40-41",
+      "anchor": "V0.4.40-41"
+    },
+    {
+      "level": 3,
+      "title": "V0.4.37-39",
+      "anchor": "V0.4.37-39"
+    },
+    {
+      "level": 3,
+      "title": "V0.4.29-30",
+      "anchor": "V0.4.29-30"
+    },
+    {
+      "level": 3,
+      "title": "V0.4.27",
+      "anchor": "V0.4.27"
+    },
+    {
+      "level": 3,
+      "title": "V0.4.21-22",
+      "anchor": "V0.4.21-22"
+    },
+    {
+      "level": 3,
+      "title": "V0.4.2-13",
+      "anchor": "V0.4.2-13"
+    },
+    {
+      "level": 3,
+      "title": "V0.3.9-12",
+      "anchor": "V0.3.9-12"
+    },
+    {
+      "level": 3,
+      "title": "V0.3.4",
+      "anchor": "V0.3.4"
+    },
+    {
+      "level": 3,
+      "title": "V0.3.3",
+      "anchor": "V0.3.3"
+    },
+    {
+      "level": 3,
+      "title": "V0.2.42",
+      "anchor": "V0.2.42"
+    },
+    {
+      "level": 3,
+      "title": "V0.2.41",
+      "anchor": "V0.2.41"
+    },
+    {
+      "level": 3,
+      "title": "V0.2.39-40",
+      "anchor": "V0.2.39-40"
+    },
+    {
+      "level": 3,
+      "title": "V0.2.32-35",
+      "anchor": "V0.2.32-35"
+    },
+    {
+      "level": 3,
+      "title": "V0.2.29-31",
+      "anchor": "V0.2.29-31"
+    },
+    {
+      "level": 3,
+      "title": "V0.2.27-28",
+      "anchor": "V0.2.27-28"
+    },
+    {
+      "level": 3,
+      "title": "V0.2.22-26",
+      "anchor": "V0.2.22-26"
+    },
+    {
+      "level": 3,
+      "title": "V0.2.13-21",
+      "anchor": "V0.2.13-21"
+    },
+    {
+      "level": 3,
+      "title": "V0.2.11-12",
+      "anchor": "V0.2.11-12"
+    },
+    {
+      "level": 3,
+      "title": "V0.2.8-9",
+      "anchor": "V0.2.8-9"
+    },
+    {
+      "level": 3,
+      "title": "V0.2.6-7",
+      "anchor": "V0.2.6-7"
+    },
+    {
+      "level": 3,
+      "title": "V0.1.26-27",
+      "anchor": "V0.1.26-27"
+    },
+    {
+      "level": 3,
+      "title": "V0.1.23-25",
+      "anchor": "V0.1.23-25"
+    },
+    {
+      "level": 3,
+      "title": "V0.1.20",
+      "anchor": "V0.1.20"
+    },
+    {
+      "level": 3,
+      "title": "V0.1.17-18",
+      "anchor": "V0.1.17-18"
+    },
+    {
+      "level": 3,
+      "title": "V0.1.16",
+      "anchor": "V0.1.16"
+    },
+    {
+      "level": 3,
+      "title": "V0.1.14-15",
+      "anchor": "V0.1.14-15"
+    },
+    {
+      "level": 3,
+      "title": "V0.1.12-13",
+      "anchor": "V0.1.12-13"
+    },
+    {
+      "level": 3,
+      "title": "V0.1.10-11",
+      "anchor": "V0.1.10-11"
+    },
+    {
+      "level": 3,
+      "title": "V0.1.7-9",
+      "anchor": "V0.1.7-9"
+    },
+    {
+      "level": 3,
+      "title": "V0.1.5",
+      "anchor": "V0.1.5"
+    }
+  ],
+  "internal_links": [
+    "Stormworks: Build and Rescue",
+    "V0.1.10-11",
+    "V0.1.12-13",
+    "V0.1.14-15",
+    "V0.1.16",
+    "V0.1.17-18",
+    "V0.1.20",
+    "V0.1.23-25",
+    "V0.1.26-27",
+    "V0.1.5",
+    "V0.1.7-9",
+    "V0.10.10-11",
+    "V0.10.2",
+    "V0.10.23-25",
+    "V0.10.27-28",
+    "V0.10.3-9",
+    "V0.10.32-33",
+    "V0.2.11-12",
+    "V0.2.13-21",
+    "V0.2.22-26",
+    "V0.2.27-28",
+    "V0.2.29-31",
+    "V0.2.32-35",
+    "V0.2.39-40",
+    "V0.2.41",
+    "V0.2.42",
+    "V0.2.6-7",
+    "V0.2.8-9",
+    "V0.3.3",
+    "V0.3.4",
+    "V0.3.9-12",
+    "V0.4.2-13",
+    "V0.4.21-22",
+    "V0.4.27",
+    "V0.4.29-30",
+    "V0.4.37-39",
+    "V0.4.40-41",
+    "V0.5.12-14",
+    "V0.5.15",
+    "V0.5.6",
+    "V0.6.1",
+    "V0.6.15",
+    "V0.6.16-17",
+    "V0.6.21",
+    "V0.7.18",
+    "V0.7.2-3",
+    "V0.8.11-14",
+    "V0.8.22-23",
+    "V0.8.24-28",
+    "V0.8.29-31",
+    "V0.8.7-10",
+    "V0.9.11",
+    "V0.9.7-8",
+    "V1.0.0",
+    "V1.0.1-14",
+    "V1.0.16-17",
+    "V1.0.26-27",
+    "V1.1.13",
+    "V1.1.14-17",
+    "V1.2.3-4",
+    "V1.3.0",
+    "V1.3.13",
+    "V1.4.15",
+    "V1.4.4",
+    "V1.4.7"
+  ],
+  "external_links": [
+    "https://fastcat.co/",
+    "https://geometa.co.uk/support/stormworks/5064",
+    "https://geometa.co.uk/support/stormworks/5247",
+    "https://geometa.co.uk/support/stormworks/6221",
+    "https://geometa.co.uk/support/stormworks/6364",
+    "https://low.ms/",
+    "https://stormworks.gamepedia.com/Wiki/Other_Stormworks_Communities%7C",
+    "https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/",
+    "https://www.vpn.net/",
+    "https://zap-hosting.com/"
+  ],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Multiplayer in *[Stormworks](https://stormworks.fandom.com/wiki/Stormworks:_Build_and_Rescue)* allows for the same game modes as in singleplayer, though allowing these to be played with friends or strangers. Stormworks uses the Steam friend list to display games that your friends are playing, has a public server list in-game, and also allows direct connections to private servers (default port is 25565).\n\nAlthough servers with few players and vehicles tend to perform adequately, it remains easy for a server with many players and large complex vehicles to grind to a crawl.\n\nThis page was last updated for Stormworks [V1.4.15](https://stormworks.fandom.com/wiki/V1.4.15) (4/11/2022).\n\nThis page is outdated since the server has been moved to the main game.\n\n## Multiplayer Communities\n\nUnofficial [Multiplayer Communities](https://stormworks.fandom.com/Wiki/Other_Stormworks_Communities%7C) are available to join any time, and are hosted around the clock by members of the player base. Please keep in mind that:\n\n- In most cases, if you are hosting a game you will need to enter your routers settings and change your port forward options to enable communication between you and your friend's devices. There is also security software that may be a problem and may deny access.\n\n- A guide on how to port forward on most common routers can be found [here:](https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/)\n\n- In case you cannot access the settings of the router or forward ports, you can use programs like [Hamachi](https://www.vpn.net/).\n\n### Dedicated server\n\nAs of February 2020, Stormworks now supports hosting dedicated servers.\n\n### Server hosts\n\nAs well as hosting your own Stormworks server, you can also rent a server without the worry of performance. Here's a few reputable hosts to choose from:\n\n- [LOW.MS Hosting](https://low.ms/)\n- [Zap Hosting](https://zap-hosting.com/)\n- [FastCat Gaming Servers](https://fastcat.co/)\n\n### Why can't my friend use the workbench?\n\nSince 0.10.3-9, the host must authorize other players to be able to spawn vehicles. This is a security measure to prevent griefing on public servers. In game, hold the ~ key (or the backtick [`] on some computers) to open the player list. Then, check the number to the left of your friend's name; this is their id. Use the following commands in the chat window (opened by pressing [Enter]) to (de)authorize them:\n\n- ?add_admin <id>\n- ?remove_admin <id>\n- ?add_auth <id>\n- ?remove_auth <id>\n\n## Patch notes\n\n### [V1.4.15](https://stormworks.fandom.com/wiki/V1.4.15)\n\n- Feature - [#5247](https://geometa.co.uk/support/stormworks/5247) [#6364](https://geometa.co.uk/support/stormworks/6364) [#6221](https://geometa.co.uk/support/stormworks/6221) Multiplayer time dilation algorithm overhaul\n- Feature - Multiplayer bandwidth optimization\n\n### [V1.4.7](https://stormworks.fandom.com/wiki/V1.4.7)\n\n- Feature - Parsing Optimization\n  - With an update to our parsing system, you can expect save and vehicle files to be significantly smaller in size; we managed to reduce the default mission vehicles by ~50%. We are not only hoping this will save users storage space but also reduce load times when sending vehicle data in multiplayer. You may need to re-save your vehicles.\n- Fix - [#5064](https://geometa.co.uk/support/stormworks/5064) Fix health sync requests causing ragdoll on respawn\n\n### [V1.4.4](https://stormworks.fandom.com/wiki/V1.4.4)\n\n- Fix - Crash in multiplayer when entering/exiting seats\n\n### [V1.3.13](https://stormworks.fandom.com/wiki/V1.3.13)\n\n- Fix - Fix multiplayer hosts dropping client players not creating ragdoll animation\n\n### [V1.3.0](https://stormworks.fandom.com/wiki/V1.3.0)\n\n- Feature - Multiplayer Optimization Pass and Networking Layer Fixes\n- Fix - Infinite spawning issue in multiplayer\n\n### [V1.2.3-4](https://stormworks.fandom.com/wiki/V1.2.3-4)\n\n- Fix - Fixed multiplayer issues caused by vehicle loading\n\n### [V1.1.14-17](https://stormworks.fandom.com/wiki/V1.1.14-17)\n\n- Fix - Stopped ai_debug command from causing issue in multiplayer\n\n### [V1.1.13](https://stormworks.fandom.com/wiki/V1.1.13)\n\n- Fix - Reordered multiplayer data so most important vehicle information is sent first\n\n### [V1.0.26-27](https://stormworks.fandom.com/wiki/V1.0.26-27)\n\n- Fix - Multiplayer CTD caused by returning a vehicle to workbench that is connected via rope to another object\n\n### [V1.0.16-17](https://stormworks.fandom.com/wiki/V1.0.16-17)\n\n- Fix - Invisible ropes for multiplayer clients\n\n### [V1.0.1-14](https://stormworks.fandom.com/wiki/V1.0.1-14)\n\n- Fix - Door jitter in multiplayer\n- Fix - Multiplayer equipment crashes\n- Fix - Rope state multiplayer sync\n\n### [V1.0.0](https://stormworks.fandom.com/wiki/V1.0.0)\n\n- Major Feature - Multiplayer Improvements and Optimisation\n\n### [V0.10.32-33](https://stormworks.fandom.com/wiki/V0.10.32-33)\n\n- Fix - CTD caused by microprocessors in multiplayer\n\n### [V0.10.27-28](https://stormworks.fandom.com/wiki/V0.10.27-28)\n\n- Fix - Multiplayer physics frame acceleration leading to stuttering\n\n### [V0.10.23-25](https://stormworks.fandom.com/wiki/V0.10.23-25)\n\n- Fix - Greatly reduced effects of multiplayer lag on particle trails\n\n### [V0.10.10-11](https://stormworks.fandom.com/wiki/V0.10.10-11)\n\n- Fix - Local multiplayer games overwriting server config\n\n### [V0.10.3-9](https://stormworks.fandom.com/wiki/V0.10.3-9)\n\n- Fix - Multiplayer shaking and sliding on vehicles\n- Fix - Magall issues in multiplayer\n- Fix - Research timers desyncing in multiplayer\n\n### [V0.10.2](https://stormworks.fandom.com/wiki/V0.10.2)\n\n- Feature - New Multiplayer Sync\n\n### [V0.9.11](https://stormworks.fandom.com/wiki/V0.9.11)\n\n- Rework - Multiplayer optimisations; moved several calculations to the server side\n\n### [V0.9.7-8](https://stormworks.fandom.com/wiki/V0.9.7-8)\n\n- Feature - Streamlined multiplayer dynamic object sync Vehicles and other entities are now visible at long range. The server will experience less slowdowns caused by clients loading vehicles.\n- Fix - Multiplayer clients now wait for tile physics to load fully\n\n### [V0.8.29-31](https://stormworks.fandom.com/wiki/V0.8.29-31)\n\n- Fix - Soft-locking the game when fast travelling in multiplayer\n\n### [V0.8.24-28](https://stormworks.fandom.com/wiki/V0.8.24-28)\n\n- Rework - Further improvements to multiplayer sync including several fixes\n- Feature - Multiplayer Island\n\n### [V0.8.22-23](https://stormworks.fandom.com/wiki/V0.8.22-23)\n\n- Feature - Kinematic Multiplayer\n\n### [V0.8.11-14](https://stormworks.fandom.com/wiki/V0.8.11-14)\n\n- Fix - Multiplayer server no longer gradually increases delay of some clients\n- Fix - Multiplayer minor processing improvements\n\n### [V0.8.7-10](https://stormworks.fandom.com/wiki/V0.8.7-10)\n\n- Fix - Multiplayer timing algorithm updated for multithreading\n\n### [V0.7.18](https://stormworks.fandom.com/wiki/V0.7.18)\n\n- Fix - Fixed players being able to join a singleplayer game immediately after host has quit a multiplayer session\n- Fix - Fixed being able to send empty chat messages in multiplayer\n\n### [V0.7.2-3](https://stormworks.fandom.com/wiki/V0.7.2-3)\n\n- Fix - Fixed completed research not being synced for clients when joining a multiplayer game\n\n### [V0.6.21](https://stormworks.fandom.com/wiki/V0.6.21)\n\n- Fix - Fixed research time not updating for host in multiplayer\n\n### [V0.6.16-17](https://stormworks.fandom.com/wiki/V0.6.16-17)\n\n- Fix - Fixed vehicle desync in multiplayer\n- Fix - Fixed fuel tanks not having fuel in multiplayer\n\n### [V0.6.15](https://stormworks.fandom.com/wiki/V0.6.15)\n\n- Fix - Unloaded vehicles are still visible on the map in multiplayer\n- Fix - Other players show on the map for multiplayer host\n\n### [V0.6.1](https://stormworks.fandom.com/wiki/V0.6.1)\n\n- Fix - Fixed object sync priority not being calculated correctly in multiplayer\n\n### [V0.5.15](https://stormworks.fandom.com/wiki/V0.5.15)\n\n- Fix - Fixed sending chat messages in multiplayer causing creative menu to be opened\n\n### [V0.5.12-14](https://stormworks.fandom.com/wiki/V0.5.12-14)\n\n- Feature - Added options to general settings to hide the minimap and hide player names in multiplayer\n- Fix - Players who leave a multiplayer game while dead and then rejoin will be correctly respawned\n- Fix - Fixed crash when hosting a multiplayer game\n\n### [V0.5.6](https://stormworks.fandom.com/wiki/V0.5.6)\n\n- Fix - multiplayer list now shows the correct peer count\n- Fix - fixed microcontrollers not working correctly in multiplayer\n\n### [V0.4.40-41](https://stormworks.fandom.com/wiki/V0.4.40-41)\n\n- Fix - Fixed clone character sometimes being visible when reconnecting to a multiplayer game\n- Fix - Fixed multiple network related bugs causing multiplayer to crash\n\n### [V0.4.37-39](https://stormworks.fandom.com/wiki/V0.4.37-39)\n\n- Fix - Fixed network crash when exiting multiplayer game\n\n### [V0.4.29-30](https://stormworks.fandom.com/wiki/V0.4.29-30)\n\n- Fix - Resolved some desync issues with advanced vehicles in multiplayer\n\n### [V0.4.27](https://stormworks.fandom.com/wiki/V0.4.27)\n\n- Fix - Multiplayer stability improvements\n- Fix - Reworked Steam P2P multiplayer\n\n### [V0.4.21-22](https://stormworks.fandom.com/wiki/V0.4.21-22)\n\n- Fix - Fixed rotor physics desyncing in multiplayer\n- Fix - Fixed being kicked out of seat in multiplayer when another player returns a vehicle to the workbench\n- Fix - Fixed missions with fire crashing multiplayer games\n\n### [V0.4.2-13](https://stormworks.fandom.com/wiki/V0.4.2-13)\n\n- Fix - Some improvements to desync of new components in multiplayer\n- Fix - Fixed wrong logic node tooltip showing when hovering pipe connection if multiple logic nodes were behind the connection\n\n### [V0.3.9-12](https://stormworks.fandom.com/wiki/V0.3.9-12)\n\n- Feature - Added more information to multiplayer \"failed to connect\" screen with potential solutions\n- Fix - Fixed physics desync when clients get out of seats in multiplayer\n- Fix - Fixed some multiplayer issues caused by data from previous game not being cleaned\n\n### [V0.3.4](https://stormworks.fandom.com/wiki/V0.3.4)\n\n- Fix - Improved fire desync in multiplayer\n- Fix - Pressing [e] to drop carried object in multiplayer no longer toggles throwing behaviour\n\n### [V0.3.3](https://stormworks.fandom.com/wiki/V0.3.3)\n\n- Fix - Fixed peers in multiplayer having incorrect object load/unload range\n\n### [V0.2.42](https://stormworks.fandom.com/wiki/V0.2.42)\n\n- Fix - Players spawn in correct place on server in multiplayer while still in wardrobe\n\n### [V0.2.41](https://stormworks.fandom.com/wiki/V0.2.41)\n\n- Fix - Improved desync of pivots and hinges in multplayer\n- Fix - Improved frequent multiplayer slowdown\n- Fix - Improved bandwidth usage in multiplayer\n- Fix - Added network debugging to F1 profiler\n\n### [V0.2.39-40](https://stormworks.fandom.com/wiki/V0.2.39-40)\n\n- Fix - Fixed held buttons desyncing in multiplayer when moving out of range\n\n### [V0.2.32-35](https://stormworks.fandom.com/wiki/V0.2.32-35)\n\n- Fix - Improved desync for vehicle logic in multiplayer\n- Fix - Improved speed of multiplayer (multiplayer shouldn't get stuck in low framerates as often)\n- Fix - Loot boxes no longer crash game in multiplayer\n- Fix - Multiplayer client tick rate system reworked to manage problem where clients slow down game significantly\n\n### [V0.2.29-31](https://stormworks.fandom.com/wiki/V0.2.29-31)\n\n- Fix - Ocean rocks are synced in multiplayer\n- Fix - Reduced client load/unload range in multiplayer\n- Fix - Physics objects sync as islands in multiplayer to reduce desync\n- Fix - Resolved several rare multiplayer crashes\n\n### [V0.2.27-28](https://stormworks.fandom.com/wiki/V0.2.27-28)\n\n- Fix - Fixed fire parented to a vehicle not being attached to vehicle in multiplayer\n- Fix - Multiple stability fixes for multiplayer\n\n### [V0.2.22-26](https://stormworks.fandom.com/wiki/V0.2.22-26)\n\n- Fix - Getting out of a seat in multiplayer no longer kicks the host player out of their vehicle\n- Fix - Fixed purchasing islands in multiplayer career\n- Fix - Fixed currency and inventory not syncing properly in multiplayer\n- Fix - Removed option for pausing/unpausing photo mode in multiplayer\n- Fix - General stability improvements for multiplayer\n\n### [V0.2.13-21](https://stormworks.fandom.com/wiki/V0.2.13-21)\n\n- Fix - resolved incorrect game mode in multiplayer\n- Fix - resolved tutorial sometimes starting in multiplayer\n- Fix - player flashlight now works in multiplayer\n- Fix - islands now purchase correctly for clients in multiplayer\n- Fix - reduced message max size when spawning vehicles helping larger vehicles and multiplayer vehicles to spawn correctly\n- Fix - resolved issue rejoining game in multiplayer\n- Fix - resolved issue breaking creative mode in multiplayer\n- Fix - players no longer move while in workbench in multiplayer\n\n### [V0.2.11-12](https://stormworks.fandom.com/wiki/V0.2.11-12)\n\n- Feature - Multiplayer system overhauled to use Steam P2P (you no longer need to port forward and can connect easily connect with anyone on your Steam friends list)\n- Feature - Maximum player count in multiplayer increased to 6\n- Feature - Multiplayer now has career mode as well as creative (co-op, inventory and money is shared between all players)\n- Feature - Multiplayer games can now be loaded/saved\n- Feature - Added sleeping in multiplayer\n- Fix - Various changes and reworks of systems in multiplayer\n\n### [V0.2.8-9](https://stormworks.fandom.com/wiki/V0.2.8-9)\n\n- Fix - Fixed several crashes when spawning vehicles in multiplayer\n\n### [V0.2.6-7](https://stormworks.fandom.com/wiki/V0.2.6-7)\n\n- Feature - Mission spawn menu is now available in multiplayer\n- Feature - Improved stability for large vehicles in multiplayer\n- Fix - Missions spawn correctly in multiplayer\n- Fix - Connectors now work properly in multiplayer\n- Fix - Improved handle desync in multiplayer\n- Fix - Fixed graphical artifacts in multiplayer when far from spawn\n\n### [V0.1.26-27](https://stormworks.fandom.com/wiki/V0.1.26-27)\n\n- Fix - Fixed vehicles crashing server when initially spawning in multiplayer\n\n### [V0.1.23-25](https://stormworks.fandom.com/wiki/V0.1.23-25)\n\n- Fix - controllers now work correctly in multiplayer\n\n### [V0.1.20](https://stormworks.fandom.com/wiki/V0.1.20)\n\n- Fix - Fixed some ladder-related multiplayer crashes\n- Fix - Reduced some camera jitter when attached to ladders in multiplayer\n\n### [V0.1.17-18](https://stormworks.fandom.com/wiki/V0.1.17-18)\n\n- Fix - first person camera no longer jitters in multiplayer while in moving vehicle\n- Feature - multiplayer now has \"waiting for server\" screen when server is working\n- Fix - vehicles now consistently return to workbench using R even when their multi-bodies are unfolded larger than edit grid\n- Fix - multiplayer player positions are corrected with vehicle position corrections\n- Fix - multiplayer no longer crashes when a player disconnects\n- Fix - multiplayer player names now disappear when players fast travel\n\n### [V0.1.16](https://stormworks.fandom.com/wiki/V0.1.16)\n\n- Feature - creative mode menu now in multiplayer for setting weather\n- Feature - photo mode now in multiplayer\n\n### [V0.1.14-15](https://stormworks.fandom.com/wiki/V0.1.14-15)\n\n- Fix - resolved crash when using ladders in multiplayer\n\n### [V0.1.12-13](https://stormworks.fandom.com/wiki/V0.1.12-13)\n\n- Fix - resolved issue spawning boats in multiplayer\n- Feature - multiplayer fast travel icons are now in multiplayer\n- Fix - characters work properly in multiplayer immediately after disconnecting from ladder\n- Fix - buoyancy data for vehicles now works correctly in multiplayer\n- Fix - minor physics fix for characters in multiplayer\n\n### [V0.1.10-11](https://stormworks.fandom.com/wiki/V0.1.10-11)\n\n- Fix - multiplayer symbols no longer show up all over map\n- Fix - multiplayer characters now render with correct clothes\n- Fix - multiplayer character animation state improvements\n- Fix - multiplayer crash when spawning character\n\n### [V0.1.7-9](https://stormworks.fandom.com/wiki/V0.1.7-9)\n\n- Feature - multiplayer refactor so clients move smoothly and no longer rubber band\n- Fix - pilot seat controls no longer show for other players in multiplayer\n- Fix - improved multiplayer performance and fixed issues where players didnt move correctly\n- Fix - resolved multiplayer crash when player disconnect\n\n### [V0.1.5](https://stormworks.fandom.com/wiki/V0.1.5)\n\n- Fix - can now type punctuation in multiplayer chat",
+    "plain_text": "Multiplayer in\nStormworks\n allows for the same game modes as in singleplayer, though allowing these to be played with friends or strangers. Stormworks uses the Steam friend list to display games that your friends are playing, has a public server list in-game, and also allows direct connections to private servers (default port is 25565).\n\nAlthough servers with few players and vehicles tend to perform adequately, it remains easy for a server with many players and large complex vehicles to grind to a crawl.\n\nThis page was last updated for Stormworks\nV1.4.15\n (4/11/2022).\n\nThis page is outdated since the server has been moved to the main game.\n\nMultiplayer Communities\n\nUnofficial\nMultiplayer Communities\n are available to join any time, and are hosted around the clock by members of the player base. Please keep in mind that:\n\nIn most cases, if you are hosting a game you will need to enter your routers settings and change your port forward options to enable communication between you and your friend's devices. There is also security software that may be a problem and may deny access.\n\nA guide on how to port forward on most common routers can be found\nhere:\n\nIn case you cannot access the settings of the router or forward ports, you can use programs like\nHamachi\n.\n\nDedicated server\n\nAs of February 2020, Stormworks now supports hosting dedicated servers.\n\nServer hosts\n\nAs well as hosting your own Stormworks server, you can also rent a server without the worry of performance. Here's a few reputable hosts to choose from:\n\nLOW.MS Hosting\n\nZap Hosting\n\nFastCat Gaming Servers\n\nWhy can't my friend use the workbench?\n\nSince 0.10.3-9, the host must authorize other players to be able to spawn vehicles. This is a security measure to prevent griefing on public servers.\nIn game, hold the ~ key (or the backtick [`] on some computers) to open the player list. Then, check the number to the left of your friend's name; this is their id. Use the following commands in the chat window (opened by pressing [Enter]) to (de)authorize them:\n\n?add_admin <id>\n\n?remove_admin <id>\n\n?add_auth <id>\n\n?remove_auth <id>\n\nPatch notes\n\nV1.4.15\n\nFeature -\n#5247\n\n#6364\n\n#6221\n Multiplayer time dilation algorithm overhaul\n\nFeature - Multiplayer bandwidth optimization\n\nV1.4.7\n\nFeature - Parsing Optimization\n\nWith an update to our parsing system, you can expect save and vehicle files to be significantly smaller in size; we managed to reduce the default mission vehicles by ~50%. We are not only hoping this will save users storage space but also reduce load times when sending vehicle data in multiplayer. You may need to re-save your vehicles.\n\nFix -\n#5064\n Fix health sync requests causing ragdoll on respawn\n\nV1.4.4\n\nFix - Crash in multiplayer when entering/exiting seats\n\nV1.3.13\n\nFix - Fix multiplayer hosts dropping client players not creating ragdoll animation\n\nV1.3.0\n\nFeature - Multiplayer Optimization Pass and Networking Layer Fixes\n\nFix - Infinite spawning issue in multiplayer\n\nV1.2.3-4\n\nFix - Fixed multiplayer issues caused by vehicle loading\n\nV1.1.14-17\n\nFix - Stopped ai_debug command from causing issue in multiplayer\n\nV1.1.13\n\nFix - Reordered multiplayer data so most important vehicle information is sent first\n\nV1.0.26-27\n\nFix - Multiplayer CTD caused by returning a vehicle to workbench that is connected via rope to another object\n\nV1.0.16-17\n\nFix - Invisible ropes for multiplayer clients\n\nV1.0.1-14\n\nFix - Door jitter in multiplayer\n\nFix - Multiplayer equipment crashes\n\nFix - Rope state multiplayer sync\n\nV1.0.0\n\nMajor Feature - Multiplayer Improvements and Optimisation\n\nV0.10.32-33\n\nFix - CTD caused by microprocessors in multiplayer\n\nV0.10.27-28\n\nFix - Multiplayer physics frame acceleration leading to stuttering\n\nV0.10.23-25\n\nFix - Greatly reduced effects of multiplayer lag on particle trails\n\nV0.10.10-11\n\nFix - Local multiplayer games overwriting server config\n\nV0.10.3-9\n\nFix - Multiplayer shaking and sliding on vehicles\n\nFix - Magall issues in multiplayer\n\nFix - Research timers desyncing in multiplayer\n\nV0.10.2\n\nFeature - New Multiplayer Sync\n\nV0.9.11\n\nRework - Multiplayer optimisations; moved several calculations to the server side\n\nV0.9.7-8\n\nFeature - Streamlined multiplayer dynamic object sync Vehicles and other entities are now visible at long range. The server will experience less slowdowns caused by clients loading vehicles.\n\nFix - Multiplayer clients now wait for tile physics to load fully\n\nV0.8.29-31\n\nFix - Soft-locking the game when fast travelling in multiplayer\n\nV0.8.24-28\n\nRework - Further improvements to multiplayer sync including several fixes\n\nFeature - Multiplayer Island\n\nV0.8.22-23\n\nFeature - Kinematic Multiplayer\n\nV0.8.11-14\n\nFix - Multiplayer server no longer gradually increases delay of some clients\n\nFix - Multiplayer minor processing improvements\n\nV0.8.7-10\n\nFix - Multiplayer timing algorithm updated for multithreading\n\nV0.7.18\n\nFix - Fixed players being able to join a singleplayer game immediately after host has quit a multiplayer session\n\nFix - Fixed being able to send empty chat messages in multiplayer\n\nV0.7.2-3\n\nFix - Fixed completed research not being synced for clients when joining a multiplayer game\n\nV0.6.21\n\nFix - Fixed research time not updating for host in multiplayer\n\nV0.6.16-17\n\nFix - Fixed vehicle desync in multiplayer\n\nFix - Fixed fuel tanks not having fuel in multiplayer\n\nV0.6.15\n\nFix - Unloaded vehicles are still visible on the map in multiplayer\n\nFix - Other players show on the map for multiplayer host\n\nV0.6.1\n\nFix - Fixed object sync priority not being calculated correctly in multiplayer\n\nV0.5.15\n\nFix - Fixed sending chat messages in multiplayer causing creative menu to be opened\n\nV0.5.12-14\n\nFeature - Added options to general settings to hide the minimap and hide player names in multiplayer\n\nFix - Players who leave a multiplayer game while dead and then rejoin will be correctly respawned\n\nFix - Fixed crash when hosting a multiplayer game\n\nV0.5.6\n\nFix - multiplayer list now shows the correct peer count\n\nFix - fixed microcontrollers not working correctly in multiplayer\n\nV0.4.40-41\n\nFix - Fixed clone character sometimes being visible when reconnecting to a multiplayer game\n\nFix - Fixed multiple network related bugs causing multiplayer to crash\n\nV0.4.37-39\n\nFix - Fixed network crash when exiting multiplayer game\n\nV0.4.29-30\n\nFix - Resolved some desync issues with advanced vehicles in multiplayer\n\nV0.4.27\n\nFix - Multiplayer stability improvements\n\nFix - Reworked Steam P2P multiplayer\n\nV0.4.21-22\n\nFix - Fixed rotor physics desyncing in multiplayer\n\nFix - Fixed being kicked out of seat in multiplayer when another player returns a vehicle to the workbench\n\nFix - Fixed missions with fire crashing multiplayer games\n\nV0.4.2-13\n\nFix - Some improvements to desync of new components in multiplayer\n\nFix - Fixed wrong logic node tooltip showing when hovering pipe connection if multiple logic nodes were behind the connection\n\nV0.3.9-12\n\nFeature - Added more information to multiplayer \"failed to connect\" screen with potential solutions\n\nFix - Fixed physics desync when clients get out of seats in multiplayer\n\nFix - Fixed some multiplayer issues caused by data from previous game not being cleaned\n\nV0.3.4\n\nFix - Improved fire desync in multiplayer\n\nFix - Pressing [e] to drop carried object in multiplayer no longer toggles throwing behaviour\n\nV0.3.3\n\nFix - Fixed peers in multiplayer having incorrect object load/unload range\n\nV0.2.42\n\nFix - Players spawn in correct place on server in multiplayer while still in wardrobe\n\nV0.2.41\n\nFix - Improved desync of pivots and hinges in multplayer\n\nFix - Improved frequent multiplayer slowdown\n\nFix - Improved bandwidth usage in multiplayer\n\nFix - Added network debugging to F1 profiler\n\nV0.2.39-40\n\nFix - Fixed held buttons desyncing in multiplayer when moving out of range\n\nV0.2.32-35\n\nFix - Improved desync for vehicle logic in multiplayer\n\nFix - Improved speed of multiplayer (multiplayer shouldn't get stuck in low framerates as often)\n\nFix - Loot boxes no longer crash game in multiplayer\n\nFix - Multiplayer client tick rate system reworked to manage problem where clients slow down game significantly\n\nV0.2.29-31\n\nFix - Ocean rocks are synced in multiplayer\n\nFix - Reduced client load/unload range in multiplayer\n\nFix - Physics objects sync as islands in multiplayer to reduce desync\n\nFix - Resolved several rare multiplayer crashes\n\nV0.2.27-28\n\nFix - Fixed fire parented to a vehicle not being attached to vehicle in multiplayer\n\nFix - Multiple stability fixes for multiplayer\n\nV0.2.22-26\n\nFix - Getting out of a seat in multiplayer no longer kicks the host player out of their vehicle\n\nFix - Fixed purchasing islands in multiplayer career\n\nFix - Fixed currency and inventory not syncing properly in multiplayer\n\nFix - Removed option for pausing/unpausing photo mode in multiplayer\n\nFix - General stability improvements for multiplayer\n\nV0.2.13-21\n\nFix - resolved incorrect game mode in multiplayer\n\nFix - resolved tutorial sometimes starting in multiplayer\n\nFix - player flashlight now works in multiplayer\n\nFix - islands now purchase correctly for clients in multiplayer\n\nFix - reduced message max size when spawning vehicles helping larger vehicles and multiplayer vehicles to spawn correctly\n\nFix - resolved issue rejoining game in multiplayer\n\nFix - resolved issue breaking creative mode in multiplayer\n\nFix - players no longer move while in workbench in multiplayer\n\nV0.2.11-12\n\nFeature - Multiplayer system overhauled to use Steam P2P (you no longer need to port forward and can connect easily connect with anyone on your Steam friends list)\n\nFeature - Maximum player count in multiplayer increased to 6\n\nFeature - Multiplayer now has career mode as well as creative (co-op, inventory and money is shared between all players)\n\nFeature - Multiplayer games can now be loaded/saved\n\nFeature - Added sleeping in multiplayer\n\nFix - Various changes and reworks of systems in multiplayer\n\nV0.2.8-9\n\nFix - Fixed several crashes when spawning vehicles in multiplayer\n\nV0.2.6-7\n\nFeature - Mission spawn menu is now available in multiplayer\n\nFeature - Improved stability for large vehicles in multiplayer\n\nFix - Missions spawn correctly in multiplayer\n\nFix - Connectors now work properly in multiplayer\n\nFix - Improved handle desync in multiplayer\n\nFix - Fixed graphical artifacts in multiplayer when far from spawn\n\nV0.1.26-27\n\nFix - Fixed vehicles crashing server when initially spawning in multiplayer\n\nV0.1.23-25\n\nFix - controllers now work correctly in multiplayer\n\nV0.1.20\n\nFix - Fixed some ladder-related multiplayer crashes\n\nFix - Reduced some camera jitter when attached to ladders in multiplayer\n\nV0.1.17-18\n\nFix - first person camera no longer jitters in multiplayer while in moving vehicle\n\nFeature - multiplayer now has \"waiting for server\" screen when server is working\n\nFix - vehicles now consistently return to workbench using R even when their multi-bodies are unfolded larger than edit grid\n\nFix - multiplayer player positions are corrected with vehicle position corrections\n\nFix - multiplayer no longer crashes when a player disconnects\n\nFix - multiplayer player names now disappear when players fast travel\n\nV0.1.16\n\nFeature - creative mode menu now in multiplayer for setting weather\n\nFeature - photo mode now in multiplayer\n\nV0.1.14-15\n\nFix - resolved crash when using ladders in multiplayer\n\nV0.1.12-13\n\nFix - resolved issue spawning boats in multiplayer\n\nFeature - multiplayer fast travel icons are now in multiplayer\n\nFix - characters work properly in multiplayer immediately after disconnecting from ladder\n\nFix - buoyancy data for vehicles now works correctly in multiplayer\n\nFix - minor physics fix for characters in multiplayer\n\nV0.1.10-11\n\nFix - multiplayer symbols no longer show up all over map\n\nFix - multiplayer characters now render with correct clothes\n\nFix - multiplayer character animation state improvements\n\nFix - multiplayer crash when spawning character\n\nV0.1.7-9\n\nFeature - multiplayer refactor so clients move smoothly and no longer rubber band\n\nFix - pilot seat controls no longer show for other players in multiplayer\n\nFix - improved multiplayer performance and fixed issues where players didnt move correctly\n\nFix - resolved multiplayer crash when player disconnect\n\nV0.1.5\n\nFix - can now type punctuation in multiplayer chat",
+    "char_count": 16410,
+    "word_count": 1959,
+    "sha256": "ecf0b87901550d7e193c30e7a95b582b6a5471cd35b9d7f637f37e57a29dbc6b"
+  },
+  "wikitext": "Multiplayer in ''[[Stormworks: Build and Rescue|Stormworks]]'' allows for the same game modes as in singleplayer, though allowing these to be played with friends or strangers. Stormworks uses the Steam friend list to display games that your friends are playing, has a public server list in-game, and also allows direct connections to private servers (default port is 25565).\n\nAlthough servers with few players and vehicles tend to perform adequately, it remains easy for a server with many players and large complex vehicles to grind to a crawl. \n\nThis page was last updated for Stormworks [[V1.4.15]] (4/11/2022).\n\nThis page is outdated since the server has been moved to the main game.\n\n\n\n== Multiplayer Communities ==\nUnofficial [https://stormworks.gamepedia.com/Wiki/Other_Stormworks_Communities| Multiplayer Communities] are available to join any time, and are hosted around the clock by members of the player base. Please keep in mind that:\n\n* In most cases, if you are hosting a game you will need to enter your routers settings and change your port forward options to enable communication between you and your friend's devices. There is also security software that may be a problem and may deny access.  \n\n* A guide on how to port forward on most common routers can be found [https://www.noip.com/support/knowledgebase/general-port-forwarding-guide/ here:]\n\n* In case you cannot access the settings of the router or forward ports, you can use programs like [https://www.vpn.net/ Hamachi].\n\n=== Dedicated server ===\nAs of February 2020, Stormworks now supports hosting dedicated servers.\n\n=== Server hosts ===\nAs well as hosting your own Stormworks server, you can also rent a server without the worry of performance. Here's a few reputable hosts to choose from:\n\n* [https://low.ms/ LOW.MS Hosting]\n* [https://zap-hosting.com/ Zap Hosting]\n* [https://fastcat.co/ FastCat Gaming Servers]\n\n=== Why can't my friend use the workbench? ===\nSince 0.10.3-9, the host must authorize other players to be able to spawn vehicles. This is a security measure to prevent griefing on public servers.\nIn game, hold the ~ key (or the backtick [`] on some computers) to open the player list. Then, check the number to the left of your friend's name; this is their id. Use the following commands in the chat window (opened by pressing [Enter]) to (de)authorize them:\n* ?add_admin <id>\n* ?remove_admin <id>\n* ?add_auth <id>\n* ?remove_auth <id>\n\n== Patch notes ==\n=== [[V1.4.15]] ===\n*Feature - [https://geometa.co.uk/support/stormworks/5247 #5247] [https://geometa.co.uk/support/stormworks/6364 #6364] [https://geometa.co.uk/support/stormworks/6221 #6221] Multiplayer time dilation algorithm overhaul\n*Feature - Multiplayer bandwidth optimization\n\n=== [[V1.4.7]] ===\n* Feature - Parsing Optimization\n** With an update to our parsing system, you can expect save and vehicle files to be significantly smaller in size; we managed to reduce the default mission vehicles by ~50%. We are not only hoping this will save users storage space but also reduce load times when sending vehicle data in multiplayer. You may need to re-save your vehicles.\n*Fix - [https://geometa.co.uk/support/stormworks/5064 #5064] Fix health sync requests causing ragdoll on respawn\n\n=== [[V1.4.4]] ===\n* Fix - Crash in multiplayer when entering/exiting seats\n\n=== [[V1.3.13]] ===\n* Fix - Fix multiplayer hosts dropping client players not creating ragdoll animation\n\n=== [[V1.3.0]] ===\n* Feature - Multiplayer Optimization Pass and Networking Layer Fixes\n* Fix - Infinite spawning issue in multiplayer\n\n=== [[V1.2.3-4]] ===\n* Fix - Fixed multiplayer issues caused by vehicle loading\n\n=== [[V1.1.14-17]] ===\n* Fix - Stopped ai_debug command from causing issue in multiplayer\n\n=== [[V1.1.13]] ===\n* Fix - Reordered multiplayer data so most important vehicle information is sent first\n\n=== [[V1.0.26-27]] ===\n* Fix - Multiplayer CTD caused by returning a vehicle to workbench that is connected via rope to another object\n\n=== [[V1.0.16-17]] ===\n* Fix - Invisible ropes for multiplayer clients\n\n=== [[V1.0.1-14]] ===\n* Fix - Door jitter in multiplayer\n* Fix - Multiplayer equipment crashes\n* Fix - Rope state multiplayer sync\n\n=== [[V1.0.0]] ===\n* Major Feature - Multiplayer Improvements and Optimisation\n\n=== [[V0.10.32-33]] ===\n* Fix - CTD caused by microprocessors in multiplayer\n\n=== [[V0.10.27-28]] ===\n* Fix - Multiplayer physics frame acceleration leading to stuttering\n\n=== [[V0.10.23-25]] ===\n* Fix - Greatly reduced effects of multiplayer lag on particle trails\n\n=== [[V0.10.10-11]] ===\n* Fix - Local multiplayer games overwriting server config\n\n=== [[V0.10.3-9]] ===\n* Fix - Multiplayer shaking and sliding on vehicles\n* Fix - Magall issues in multiplayer\n* Fix - Research timers desyncing in multiplayer\n\n=== [[V0.10.2]] ===\n* Feature - New Multiplayer Sync\n\n=== [[V0.9.11]] ===\n* Rework - Multiplayer optimisations; moved several calculations to the server side\n\n=== [[V0.9.7-8]] ===\n* Feature - Streamlined multiplayer dynamic object sync Vehicles and other entities are now visible at long range. The server will experience less slowdowns caused by clients loading vehicles.\n* Fix - Multiplayer clients now wait for tile physics to load fully\n\n=== [[V0.8.29-31]] ===\n* Fix - Soft-locking the game when fast travelling in multiplayer\n\n=== [[V0.8.24-28]] ===\n* Rework - Further improvements to multiplayer sync including several fixes\n* Feature - Multiplayer Island\n\n=== [[V0.8.22-23]] ===\n* Feature - Kinematic Multiplayer\n\n=== [[V0.8.11-14]] ===\n* Fix - Multiplayer server no longer gradually increases delay of some clients\n* Fix - Multiplayer minor processing improvements\n\n=== [[V0.8.7-10]] ===\n* Fix - Multiplayer timing algorithm updated for multithreading\n\n=== [[V0.7.18]] ===\n* Fix - Fixed players being able to join a singleplayer game immediately after host has quit a multiplayer session\n* Fix - Fixed being able to send empty chat messages in multiplayer\n\n=== [[V0.7.2-3]] ===\n* Fix - Fixed completed research not being synced for clients when joining a multiplayer game\n\n=== [[V0.6.21]] ===\n* Fix - Fixed research time not updating for host in multiplayer\n\n=== [[V0.6.16-17]] ===\n* Fix - Fixed vehicle desync in multiplayer\n* Fix - Fixed fuel tanks not having fuel in multiplayer\n\n=== [[V0.6.15]] ===\n* Fix - Unloaded vehicles are still visible on the map in multiplayer\n* Fix - Other players show on the map for multiplayer host\n\n=== [[V0.6.1]] ===\n* Fix - Fixed object sync priority not being calculated correctly in multiplayer\n\n=== [[V0.5.15]] ===\n* Fix - Fixed sending chat messages in multiplayer causing creative menu to be opened\n\n=== [[V0.5.12-14]] ===\n* Feature - Added options to general settings to hide the minimap and hide player names in multiplayer\n* Fix - Players who leave a multiplayer game while dead and then rejoin will be correctly respawned\n* Fix - Fixed crash when hosting a multiplayer game\n\n=== [[V0.5.6]] ===\n* Fix - multiplayer list now shows the correct peer count\n* Fix - fixed microcontrollers not working correctly in multiplayer\n\n=== [[V0.4.40-41]] ===\n* Fix - Fixed clone character sometimes being visible when reconnecting to a multiplayer game\n* Fix - Fixed multiple network related bugs causing multiplayer to crash\n\n=== [[V0.4.37-39]] ===\n* Fix - Fixed network crash when exiting multiplayer game\n\n=== [[V0.4.29-30]] ===\n* Fix - Resolved some desync issues with advanced vehicles in multiplayer\n\n=== [[V0.4.27]] ===\n* Fix - Multiplayer stability improvements\n* Fix - Reworked Steam P2P multiplayer\n\n=== [[V0.4.21-22]] ===\n* Fix - Fixed rotor physics desyncing in multiplayer\n* Fix - Fixed being kicked out of seat in multiplayer when another player returns a vehicle to the workbench\n* Fix - Fixed missions with fire crashing multiplayer games\n\n=== [[V0.4.2-13]] ===\n* Fix - Some improvements to desync of new components in multiplayer\n* Fix - Fixed wrong logic node tooltip showing when hovering pipe connection if multiple logic nodes were behind the connection\n\n=== [[V0.3.9-12]] ===\n* Feature - Added more information to multiplayer \"failed to connect\" screen with potential solutions\n* Fix - Fixed physics desync when clients get out of seats in multiplayer\n* Fix - Fixed some multiplayer issues caused by data from previous game not being cleaned\n\n=== [[V0.3.4]] ===\n* Fix - Improved fire desync in multiplayer\n* Fix - Pressing [e] to drop carried object in multiplayer no longer toggles throwing behaviour\n\n=== [[V0.3.3]] ===\n* Fix - Fixed peers in multiplayer having incorrect object load/unload range\n\n=== [[V0.2.42]] ===\n* Fix - Players spawn in correct place on server in multiplayer while still in wardrobe\n\n=== [[V0.2.41]] ===\n* Fix - Improved desync of pivots and hinges in multplayer\n* Fix - Improved frequent multiplayer slowdown\n* Fix - Improved bandwidth usage in multiplayer\n* Fix - Added network debugging to F1 profiler\n\n=== [[V0.2.39-40]] ===\n* Fix - Fixed held buttons desyncing in multiplayer when moving out of range\n\n=== [[V0.2.32-35]] ===\n* Fix - Improved desync for vehicle logic in multiplayer\n* Fix - Improved speed of multiplayer (multiplayer shouldn't get stuck in low framerates as often)\n* Fix - Loot boxes no longer crash game in multiplayer\n* Fix - Multiplayer client tick rate system reworked to manage problem where clients slow down game significantly\n\n=== [[V0.2.29-31]] ===\n* Fix - Ocean rocks are synced in multiplayer\n* Fix - Reduced client load/unload range in multiplayer\n* Fix - Physics objects sync as islands in multiplayer to reduce desync\n* Fix - Resolved several rare multiplayer crashes\n\n=== [[V0.2.27-28]] ===\n* Fix - Fixed fire parented to a vehicle not being attached to vehicle in multiplayer\n* Fix - Multiple stability fixes for multiplayer\n\n=== [[V0.2.22-26]] ===\n* Fix - Getting out of a seat in multiplayer no longer kicks the host player out of their vehicle\n* Fix - Fixed purchasing islands in multiplayer career\n* Fix - Fixed currency and inventory not syncing properly in multiplayer\n* Fix - Removed option for pausing/unpausing photo mode in multiplayer\n* Fix - General stability improvements for multiplayer\n\n=== [[V0.2.13-21]] ===\n* Fix - resolved incorrect game mode in multiplayer\n* Fix - resolved tutorial sometimes starting in multiplayer\n* Fix - player flashlight now works in multiplayer\n* Fix - islands now purchase correctly for clients in multiplayer\n* Fix - reduced message max size when spawning vehicles helping larger vehicles and multiplayer vehicles to spawn correctly\n* Fix - resolved issue rejoining game in multiplayer\n* Fix - resolved issue breaking creative mode in multiplayer\n* Fix - players no longer move while in workbench in multiplayer\n\n=== [[V0.2.11-12]] ===\n* Feature - Multiplayer system overhauled to use Steam P2P (you no longer need to port forward and can connect easily connect with anyone on your Steam friends list)\n* Feature - Maximum player count in multiplayer increased to 6\n* Feature - Multiplayer now has career mode as well as creative (co-op, inventory and money is shared between all players)\n* Feature - Multiplayer games can now be loaded/saved\n* Feature - Added sleeping in multiplayer\n* Fix - Various changes and reworks of systems in multiplayer\n\n=== [[V0.2.8-9]] ===\n* Fix - Fixed several crashes when spawning vehicles in multiplayer\n\n=== [[V0.2.6-7]] ===\n* Feature - Mission spawn menu is now available in multiplayer\n* Feature - Improved stability for large vehicles in multiplayer\n* Fix - Missions spawn correctly in multiplayer\n* Fix - Connectors now work properly in multiplayer\n* Fix - Improved handle desync in multiplayer\n* Fix - Fixed graphical artifacts in multiplayer when far from spawn\n\n=== [[V0.1.26-27]] ===\n* Fix - Fixed vehicles crashing server when initially spawning in multiplayer\n\n=== [[V0.1.23-25]] ===\n* Fix - controllers now work correctly in multiplayer\n\n=== [[V0.1.20]] ===\n* Fix - Fixed some ladder-related multiplayer crashes\n* Fix - Reduced some camera jitter when attached to ladders in multiplayer\n\n=== [[V0.1.17-18]] ===\n* Fix - first person camera no longer jitters in multiplayer while in moving vehicle\n* Feature - multiplayer now has \"waiting for server\" screen when server is working\n* Fix - vehicles now consistently return to workbench using R even when their multi-bodies are unfolded larger than edit grid\n* Fix - multiplayer player positions are corrected with vehicle position corrections\n* Fix - multiplayer no longer crashes when a player disconnects\n* Fix - multiplayer player names now disappear when players fast travel\n\n=== [[V0.1.16]] ===\n* Feature - creative mode menu now in multiplayer for setting weather\n* Feature - photo mode now in multiplayer\n\n=== [[V0.1.14-15]] ===\n* Fix - resolved crash when using ladders in multiplayer\n\n=== [[V0.1.12-13]] ===\n* Fix - resolved issue spawning boats in multiplayer\n* Feature - multiplayer fast travel icons are now in multiplayer\n* Fix - characters work properly in multiplayer immediately after disconnecting from ladder\n* Fix - buoyancy data for vehicles now works correctly in multiplayer\n* Fix - minor physics fix for characters in multiplayer\n\n=== [[V0.1.10-11]] ===\n* Fix - multiplayer symbols no longer show up all over map\n* Fix - multiplayer characters now render with correct clothes\n* Fix - multiplayer character animation state improvements\n* Fix - multiplayer crash when spawning character\n\n=== [[V0.1.7-9]] ===\n* Feature - multiplayer refactor so clients move smoothly and no longer rubber band\n* Fix - pilot seat controls no longer show for other players in multiplayer\n* Fix - improved multiplayer performance and fixed issues where players didnt move correctly\n* Fix - resolved multiplayer crash when player disconnect\n\n=== [[V0.1.5]] ===\n* Fix - can now type punctuation in multiplayer chat",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Multiplayer",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 461,
+    "revision_id": 4134,
+    "revision_timestamp": "2025-05-14T02:35:10Z",
+    "retrieved_at": "2026-08-31T10:02:33+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

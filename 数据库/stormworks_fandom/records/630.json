@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Person Operations",
+  "display_title": "Gameplay/Workbench/Components/Person Operations",
+  "summary": "a floating bed to rescue persons, with handles. Can be attached to a winch.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Person Operations     [ edit page ]",
+      "anchor": "Person_Operations_[_edit_page_]"
+    },
+    {
+      "level": 1,
+      "title": "Outfits",
+      "anchor": "Outfits"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Workbench",
+    "Gameplay/Workbench/Components"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/30/Bed.jpg/revision/latest?cb=20190317010734",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/30/Bed.jpg/revision/latest/scale-to-width-down/100?cb=20190317010734",
+      "alt": "Bed",
+      "width": "100",
+      "height": "79"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/27/Medical_Bed.jpg/revision/latest?cb=20190317010753",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/27/Medical_Bed.jpg/revision/latest/scale-to-width-down/100?cb=20190317010753",
+      "alt": "Medical Bed",
+      "width": "100",
+      "height": "93"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Person_Operations?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Person_Operations?action=edit). |\n| --- | --- |\n\n## Person Operations\n\nBed\n\n[![Bed](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/30/Bed.jpg/revision/latest/scale-to-width-down/100?cb=20190317010734)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/30/Bed.jpg/revision/latest?cb=20190317010734)\n\nA place to sleep.\n\nMedical Bed\n\n[![Medical Bed](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/27/Medical_Bed.jpg/revision/latest/scale-to-width-down/100?cb=20190317010753)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/27/Medical_Bed.jpg/revision/latest?cb=20190317010753)\n\nA place for injured persons.\n\nPassenger Seat\n\n[![Passenger Seat](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/59/Passenger_Seat.jpg/revision/latest?cb=20200130200047)\n\nPadded Seat\n\n[![Padded Seat](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/12/Padded_Seat.png/revision/latest?cb=20200130195905)\n\nStretcher\n\n[![Stretcher](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/07/Stretcher.jpg/revision/latest?cb=20190317010844)\n\na floating bed to rescue persons, with handles. Can be attached to a winch.\n\nHarness\n\n[![Harness](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Harness.jpg/revision/latest?cb=20190317010742)\n\nCan hold a person. Can be attached to a winch.\n\nHeater\n\n[![Heater](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/55/Heater.jpg/revision/latest?cb=20190317010747)\n\nMakes warm. Helps you survive the arctic.\n\n# Outfits\n\nOutfit Inventory Scuba\n\n[![Outfit Inventory Scuba](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/66/Outfit_Inventory_Scuba.jpg/revision/latest?cb=20190317010831)\n\nBasic equipment for diving.\n\nOutfit Inventory Diving\n\n[![Outfit Inventory Diving](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/01/Outfit_Inventory_Diving.jpg/revision/latest?cb=20190317010806)\n\nExpert diving outfit. Better then Scuba outfit.\n\nOutfit Inventory Parachute\n\n[![Outfit Inventory Parachute](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7d/Outfit_Inventory_Parachute.jpg/revision/latest?cb=20190317010823)\n\nOutfit Inventory Firefighter\n\n[![Outfit Inventory Firefighter](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/61/Outfit_Inventory_Firefighter.jpg/revision/latest?cb=20190317010817)\n\nOutfit Inventory Arctic\n\n[![Outfit Inventory Arctic](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/03/Outfit_Inventory_Arctic.jpg/revision/latest?cb=20190317010759)\n\nNow you can survive in the arctic!\n\nOutfit Inventory Empty\n\n[![Outfit Inventory Empty](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/93/Outfit_Inventory_Empty.jpg/revision/latest?cb=20190317010812)\n\nCan be used to store outfits.",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nPerson Operations\n\nBed\n\nA place to sleep.\n\nMedical Bed\n\nA place for injured persons.\n\nPassenger Seat\n\nPadded Seat\n\nStretcher\n\na floating bed to rescue persons, with handles. Can be attached to a winch.\n\nHarness\n\nCan hold a person. Can be attached to a winch.\n\nHeater\n\nMakes warm. Helps you survive the arctic.\n\nOutfits\n\nOutfit Inventory Scuba\n\nBasic equipment for diving.\n\nOutfit Inventory Diving\n\nExpert diving outfit. Better then Scuba outfit.\n\nOutfit Inventory Parachute\n\nOutfit Inventory Firefighter\n\nOutfit Inventory Arctic\n\nNow you can survive in the arctic!\n\nOutfit Inventory Empty\n\nCan be used to store outfits.",
+    "char_count": 4303,
+    "word_count": 107,
+    "sha256": "ac019ad3329d86de9471fa6b168be73e80d0d078782a5919ad3565c2636f2343"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\n\n\n\n\n{{Wiki_Component_Description | title=Bed | image=Bed.jpg | content=&nbsp;\nA place to sleep.\n}}\n{{Wiki_Component_Description | title=Medical Bed | image=Medical Bed.jpg | content=&nbsp;\nA place for injured persons.\n}}\n{{Wiki_Component_Description | title=Passenger Seat | image=Passenger Seat.jpg | content=&nbsp;\n}}\n{{Wiki_Component_Description | title=Padded Seat | image=Padded Seat.png | content=&nbsp;\n}}\n{{Wiki_Component_Description | title=Stretcher | image=Stretcher.jpg | content=&nbsp;\na floating bed to rescue persons, with handles. Can be attached to a winch.\n}}\n{{Wiki_Component_Description | title=Harness | image=Harness.jpg | content=&nbsp;\nCan hold a person. Can be attached to a winch.\n}}\n\n{{Wiki_Component_Description | title=Heater| image=Heater.jpg | content=&nbsp;\nMakes warm. Helps you survive the arctic.\n}}\n\n\n=Outfits=\n{{Wiki_Component_Description | title=Outfit Inventory Scuba | image=Outfit Inventory Scuba.jpg | content=\nBasic equipment for diving.\n}}\n{{Wiki_Component_Description | title=Outfit Inventory Diving | image=Outfit Inventory Diving.jpg | content=\nExpert diving outfit. Better then Scuba outfit.\n}}\n{{Wiki_Component_Description | title=Outfit Inventory Parachute | image=Outfit Inventory Parachute.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Outfit Inventory Firefighter | image=Outfit Inventory Firefighter.jpg | content=\n\n}}\n{{Wiki_Component_Description | title=Outfit Inventory Arctic | image=Outfit Inventory Arctic.jpg | content=\nNow you can survive in the arctic!\n}}\n{{Wiki_Component_Description | title=Outfit Inventory Empty | image=Outfit Inventory Empty.jpg | content=\nCan be used to store outfits.\n}}\n\n\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Person_Operations",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 630,
+    "revision_id": 4167,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-31T10:02:49+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

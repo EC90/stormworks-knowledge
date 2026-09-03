@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Tank Tracks Medium Research",
+  "display_title": "Tank Tracks Medium Research",
+  "summary": "Tank tracks medium is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Heavy Land Vehicles Research",
+    "Land Vehicles Research",
+    "Research",
+    "Tank Tracks Large Research",
+    "Tank Tracks Small Research",
+    "Wiki/Building/Components/Vehicle Control"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/51/Tanktracksmediumresearch.png/revision/latest?cb=20240421190607",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/51/Tanktracksmediumresearch.png/revision/latest?cb=20240421190607",
+      "alt": "Tanktracksmediumresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Tank Wheel (Large)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Tank Drive Wheel (Large)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Tank Wheel (Medium)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Tank Drive Wheel (Medium)"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Tank Tracks Medium\n\n[![Tanktracksmediumresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/51/Tanktracksmediumresearch.png/revision/latest?cb=20240421190607)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/51/Tanktracksmediumresearch.png/revision/latest?cb=20240421190607)\n\n### Research Points\n\n32\n\n### Research Time\n\n0h 30m\n\n## Research Path\n\n### Unlocked by\n\n[Land Vehicles](https://stormworks.fandom.com/wiki/Land_Vehicles_Research), [Heavy Land Vehicles](https://stormworks.fandom.com/wiki/Heavy_Land_Vehicles_Research), [Tank Tracks Small](https://stormworks.fandom.com/wiki/Tank_Tracks_Small_Research)\n\n### Makes available\n\n[Tank Tracks Large](https://stormworks.fandom.com/wiki/Tank_Tracks_Large_Research)\n\nTank tracks medium is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Tank Wheel (Large) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Tank Drive Wheel (Large) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Tank Wheel (Medium) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Tank Drive Wheel (Medium) |",
+    "plain_text": "Tank Tracks Medium\n\nResearch Points\n\n32\n\nResearch Time\n\n0h 30m\n\nResearch Path\n\nUnlocked by\n\nLand Vehicles\n,\nHeavy Land Vehicles\n,\nTank Tracks Small\n\nMakes available\n\nTank Tracks Large\n\nTank tracks medium is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nVehicle Control\n\nTank Wheel (Large)\n\nVehicle Control\n\nTank Drive Wheel (Large)\n\nVehicle Control\n\nTank Wheel (Medium)\n\nVehicle Control\n\nTank Drive Wheel (Medium)",
+    "char_count": 1424,
+    "word_count": 63,
+    "sha256": "a34df169991150f36692f1af9e276eb77ea1a7d7d6f131ef085780440b907c31"
+  },
+  "wikitext": "{{Research\n  | name=Tank Tracks Medium\n  | image=[File:Tanktracksmediumresearch.png]\n  | points=32\n  | time= 0h 30m\n  | unlock= [[Land Vehicles Research|Land Vehicles]], [[Heavy Land Vehicles Research|Heavy Land Vehicles]], [[Tank Tracks Small Research|Tank Tracks Small]]\n  | a1=[[Tank Tracks Large Research|Tank Tracks Large]]\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Tank tracks medium is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Tank Wheel (Large)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Tank Drive Wheel (Large)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]\n|Tank Wheel (Medium)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]\n|Tank Drive Wheel (Medium)\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Tank_Tracks_Medium_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1517,
+    "revision_id": 3829,
+    "revision_timestamp": "2024-04-21T19:06:30Z",
+    "retrieved_at": "2026-08-31T10:05:20+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

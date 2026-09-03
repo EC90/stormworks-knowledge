@@ -1,0 +1,18 @@
+2026-08-31 01:09:45,657 | INFO | Stormworks Fandom knowledge crawler 2.0.0
+2026-08-31 01:09:45,978 | INFO | robots.txt permits https://stormworks.fandom.com/api.php
+2026-08-31 01:09:47,212 | INFO | Site: Stormworks: Build and Rescue Wiki (MediaWiki 1.43.9), 558 articles reported
+2026-08-31 01:09:48,597 | INFO | Selected 9 page(s)
+2026-08-31 01:09:53,445 | INFO | Stormworks Fandom knowledge crawler 2.0.0
+2026-08-31 01:09:53,750 | INFO | robots.txt permits https://stormworks.fandom.com/api.php
+2026-08-31 01:09:55,000 | INFO | Site: Stormworks: Build and Rescue Wiki (MediaWiki 1.43.9), 558 articles reported
+2026-08-31 01:09:55,981 | INFO | Selected 9 page(s)
+2026-08-31 01:09:55,987 | INFO | [1/9] fetching: Gameplay/Mechanics/Lua
+2026-08-31 01:09:57,226 | INFO | [2/9] fetching: Gameplay/Workbench/Lua Programming
+2026-08-31 01:09:58,226 | INFO | [3/9] fetching: Lua Scripting
+2026-08-31 01:09:59,295 | INFO | [4/9] fetching: Wiki/Guides/Lua
+2026-08-31 01:10:00,293 | INFO | [5/9] fetching: Wiki/Guides/Lua/Exploring the Stormworks Lua API
+2026-08-31 01:10:01,210 | INFO | [6/9] fetching: Wiki/Guides/Lua/Learning Lua as a beginner
+2026-08-31 01:10:02,357 | INFO | [7/9] fetching: Wiki/Guides/Lua/Learning Lua as a programer
+2026-08-31 01:10:03,613 | INFO | [8/9] fetching: Wiki/Guides/Lua/Special Advice for Lua
+2026-08-31 01:10:04,515 | INFO | [9/9] fetching: Wiki/Guides/Lua/Stormworks API
+2026-08-31 01:10:05,698 | INFO | Done: records=9 articles=9 redirects=0 attributes=0 chunks=18 fetched=9 skipped=0 failed=0

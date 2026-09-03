@@ -1,0 +1,13 @@
+# 仓库内所有文件按原字节存储：关闭行尾/编码自动转换，
+# 避免损坏混合编码的中文文档与脚本生成物（.jsonl/.tsv 等）。
+* -text
+
+# 二进制类型标注（用于 diff/检出提示，非强制）
+*.png binary
+*.gif binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.exe binary
+*.dll binary
+*.mesh binary

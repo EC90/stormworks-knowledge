@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Mechanics/Center of Mass",
+  "display_title": "Gameplay/Mechanics/Center of Mass",
+  "summary": "Center of Mass\nThe center of mass is important when building vehicles. It has impact on the stability and control of vehicles.\nCars, trucks and ships with a high center of mass are more likely to turn upside down or turn to one side.\nWatercraft with a COM that is under their COB (Center of Buoyancy) have a greater chance of being self-righting.\nHelicopters will become harder to control when the center of mass is not the same point as the COT (Center of Thrust)\nPlanes will be more stable but less maneuverable the more the COM is behind the COL (Center of Lift)\nIf the COM is in front of the COL",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Center of Mass [ edit page ]",
+      "anchor": "Center_of_Mass_[_edit_page_]"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Mechanics",
+    "Wiki/Game Mechanics/Trim"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "## Center of Mass\n\nThe center of mass is important when building vehicles. It has impact on the stability and control of vehicles.\n\nCars, trucks and ships with a high center of mass are more likely to turn upside down or turn to one side.\n\nWatercraft with a COM that is under their COB (Center of Buoyancy) have a greater chance of being self-righting.\n\nHelicopters will become harder to control when the center of mass is not the same point as the COT (Center of Thrust)\n\nPlanes will be more stable but less maneuverable the more the COM is behind the COL (Center of Lift)\nIf the COM is in front of the COL then the craft becomes aerodynamically unstable. (Small differences can be fixed by adjusting the [trim](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Trim \"Wiki/Game Mechanics/Trim\").)",
+    "plain_text": "Center of Mass\nThe center of mass is important when building vehicles. It has impact on the stability and control of vehicles.\nCars, trucks and ships with a high center of mass are more likely to turn upside down or turn to one side.\nWatercraft with a COM that is under their COB (Center of Buoyancy) have a greater chance of being self-righting.\nHelicopters will become harder to control when the center of mass is not the same point as the COT (Center of Thrust)\nPlanes will be more stable but less maneuverable the more the COM is behind the COL (Center of Lift)\nIf the COM is in front of the COL then the craft becomes aerodynamically unstable. (Small differences can be fixed by adjusting the\ntrim\n.)",
+    "char_count": 802,
+    "word_count": 129,
+    "sha256": "8b8a4dc7ecb1c719d7918bd787148dde93bfcda1f1daa42e47f40100deaf4d2e"
+  },
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Center_of_Mass",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 952,
+    "revision_id": 4233,
+    "revision_timestamp": "2025-05-14T06:15:44Z",
+    "retrieved_at": "2026-08-30T14:37:37+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

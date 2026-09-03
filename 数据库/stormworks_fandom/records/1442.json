@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Gamemodes/Career",
+  "display_title": "Gameplay/Gamemodes/Career",
+  "summary": "The Career mode is the default way to play the game, as intended by its developers. In this mode, you start with $20,000 of starting funds at the Starter Base, which has a small workbench where you can spawn and edit small boats. Fuel is limited, and must be purchased at a gas station. If you die, you cannot respawn, but can load an older save of your world. There is no 3rd person camera, but photo mode is allowed.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [
+    {
+      "level": 3,
+      "title": "Tutorial mission",
+      "anchor": "Tutorial_mission"
+    },
+    {
+      "level": 3,
+      "title": "Earning Money",
+      "anchor": "Earning_Money"
+    }
+  ],
+  "internal_links": [
+    "Shipping container"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "The Career mode is the default way to play the game, as intended by its developers. In this mode, you start with $20,000 of starting funds at the Starter Base, which has a small workbench where you can spawn and edit small boats. Fuel is limited, and must be purchased at a gas station. If you die, you cannot respawn, but can load an older save of your world. There is no 3rd person camera, but photo mode is allowed.\n\n### Tutorial mission\n\nThe game's tutorial will start as soon as you arrive on the Starter Base. It gives you a small rescue boat and teaches you how to use equipment and how to rescue casualties and extinguish fires. It does not teach anything about vehicle building.\n\nIt can be disabled in the addons tab when creating a new world.\n\n### Earning Money\n\nThere are several ways of earning more cash.\n\n1. **Missions** - Missions will periodically be spawned, and after completion of each objective, a reward is granted.\n2. **Containers** - At every major cargo terminal, [Shipping container](https://stormworks.fandom.com/wiki/Shipping_container)s are spawned.\n3. **Fuel trading** - Some locations buy or sell fuel (Crude oil, Diesel, Jet fuel). If you have access to a large vehicle, this can be very profitable.\n4. **Mining** - Some locations have ore deposits. These can be mined and sold for cash. If you don't have the Industrial DLC, you can still mine and trade coal, but you won't be able to mine and refine metals.\n5. **Oil drilling** - Using specialized equipment, you can build oil rigs and drill for crude oil.\n6. **Refining** - Crude oil can be refined into Diesel and Jet fuel, allowing it to be used for fuel or sold for profit.\n7. **Fishing** - Fish can be collected using the ingame nets, allowing you to collect fish as you move. You can take these fish to a fish seller in order to make a profit.",
+    "plain_text": "The Career mode is the default way to play the game, as intended by its developers. In this mode, you start with $20,000 of starting funds at the Starter Base, which has a small workbench where you can spawn and edit small boats. Fuel is limited, and must be purchased at a gas station. If you die, you cannot respawn, but can load an older save of your world. There is no 3rd person camera, but photo mode is allowed.\n\nTutorial mission\n\nThe game's tutorial will start as soon as you arrive on the Starter Base. It gives you a small rescue boat and teaches you how to use equipment and how to rescue casualties and extinguish fires. It does not teach anything about vehicle building.\n\nIt can be disabled in the addons tab when creating a new world.\n\nEarning Money\n\nThere are several ways of earning more cash.\n\nMissions\n - Missions will periodically be spawned, and after completion of each objective, a reward is granted.\n\nContainers\n - At every major cargo terminal,\nShipping container\ns are spawned.\n\nFuel trading\n - Some locations buy or sell fuel (Crude oil, Diesel, Jet fuel). If you have access to a large vehicle, this can be very profitable.\n\nMining\n - Some locations have ore deposits. These can be mined and sold for cash. If you don't have the Industrial DLC, you can still mine and trade coal, but you won't be able to mine and refine metals.\n\nOil drilling\n - Using specialized equipment, you can build oil rigs and drill for crude oil.\n\nRefining\n - Crude oil can be refined into Diesel and Jet fuel, allowing it to be used for fuel or sold for profit.\n\nFishing\n - Fish can be collected using the ingame nets, allowing you to collect fish as you move. You can take these fish to a fish seller in order to make a profit.",
+    "char_count": 1832,
+    "word_count": 313,
+    "sha256": "2ab4f3eb2c7a12d8593fdf9ad4b29c9cbd4c8714e6cb5524ca73b4396868471f"
+  },
+  "wikitext": "The Career mode is the default way to play the game, as intended by its developers. In this mode, you start with $20,000 of starting funds at the Starter Base, which has a small workbench where you can spawn and edit small boats. Fuel is limited, and must be purchased at a gas station. If you die, you cannot respawn, but can load an older save of your world. There is no 3rd person camera, but photo mode is allowed.\n\n=== Tutorial mission ===\nThe game's tutorial will start as soon as you arrive on the Starter Base. It gives you a small rescue boat and teaches you how to use equipment and how to rescue casualties and extinguish fires. It does not teach anything about vehicle building.\n\nIt can be disabled in the addons tab when creating a new world.\n\n=== Earning Money ===\nThere are several ways of earning more cash. \n\n# '''Missions''' - Missions will periodically be spawned, and after completion of each objective, a reward is granted. \n# '''Containers''' - At every major cargo terminal, [[Shipping container]]<nowiki/>s are spawned. \n# '''Fuel trading''' - Some locations buy or sell fuel (Crude oil, Diesel, Jet fuel). If you have access to a large vehicle, this can be very profitable.\n# '''Mining''' - Some locations have ore deposits. These can be mined and sold for cash. If you don't have the Industrial DLC, you can still mine and trade coal, but you won't be able to mine and refine metals.\n# '''Oil drilling''' - Using specialized equipment, you can build oil rigs and drill for crude oil. \n# '''Refining''' - Crude oil can be refined into Diesel and Jet fuel, allowing it to be used for fuel or sold for profit.\n# '''Fishing''' - Fish can be collected using the ingame nets, allowing you to collect fish as you move. You can take these fish to a fish seller in order to make a profit.",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Career",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1442,
+    "revision_id": 4113,
+    "revision_timestamp": "2025-05-14T01:40:02Z",
+    "retrieved_at": "2026-08-31T10:02:09+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

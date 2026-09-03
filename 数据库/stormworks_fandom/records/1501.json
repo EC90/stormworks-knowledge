@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Space Research",
+  "display_title": "Space Research",
+  "summary": "Space is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Research",
+    "Solid Rockets Research",
+    "Wiki/Buiding/Components/Specialist Equipment",
+    "Wiki/Building/Components/Propulsion",
+    "Wiki/Building/Components/Sensors",
+    "Wiki/Building/Components/Vehicle Control",
+    "Wiki/Game Mechanics/Fluids"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/67/Spaceresearch.png/revision/latest?cb=20240421184917",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/67/Spaceresearch.png/revision/latest?cb=20240421184917",
+      "alt": "Spaceresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "Specialist Equipment",
+          "Outfit Inventory (Space)"
+        ],
+        [
+          "Specialist Equipment",
+          "Outfit Inventory (Space Exploration)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Liquid Fuel Rocket (Small)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Liquid Fuel Rocket"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Liquid Fuel Rocket (Large)"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Hydrogen Electrolyser"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Astronomy Sensor"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Reaction Wheel"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Reaction Wheel (Small)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Reaction Wheel (Large)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Space Seat"
+        ],
+        [
+          "Specialist Equipment",
+          "RCS Thruster"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Space\n\n[![Spaceresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/67/Spaceresearch.png/revision/latest?cb=20240421184917)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/67/Spaceresearch.png/revision/latest?cb=20240421184917)\n\n### Research Points\n\n20\n\n### Research Time\n\n2h 10m\n\n## Research Path\n\n### Unlocked by\n\n[Solid Rockets](https://stormworks.fandom.com/wiki/Solid_Rockets_Research)\n\nSpace is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| Specialist Equipment | Outfit Inventory (Space) |\n| Specialist Equipment | Outfit Inventory (Space Exploration) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Liquid Fuel Rocket (Small) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Liquid Fuel Rocket |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Liquid Fuel Rocket (Large) |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Hydrogen Electrolyser |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Astronomy Sensor |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Reaction Wheel |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Reaction Wheel (Small) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Reaction Wheel (Large) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Space Seat |\n| Specialist Equipment | RCS Thruster |",
+    "plain_text": "Space\n\nResearch Points\n\n20\n\nResearch Time\n\n2h 10m\n\nResearch Path\n\nUnlocked by\n\nSolid Rockets\n\nSpace is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nSpecialist Equipment\n\nOutfit Inventory (Space)\n\nSpecialist Equipment\n\nOutfit Inventory (Space Exploration)\n\nPropulsion\n\nLiquid Fuel Rocket (Small)\n\nPropulsion\n\nLiquid Fuel Rocket\n\nPropulsion\n\nLiquid Fuel Rocket (Large)\n\nFluid\n\nHydrogen Electrolyser\n\nSensors\n\nAstronomy Sensor\n\nVehicle Control\n\nReaction Wheel\n\nVehicle Control\n\nReaction Wheel (Small)\n\nVehicle Control\n\nReaction Wheel (Large)\n\nVehicle Control\n\nSpace Seat\n\nSpecialist Equipment\n\nRCS Thruster",
+    "char_count": 1773,
+    "word_count": 79,
+    "sha256": "6652fe1d0e872446b1689a091d5821a1734b016fc84c37d5fb59233d770ee813"
+  },
+  "wikitext": "{{Research\n  | name=Space\n  | image=[File:Spaceresearch.png]\n  | points=20\n  | time= 2h 10m\n  | unlock= [[Solid Rockets Research|Solid Rockets]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Space is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Buiding/Components/Specialist Equipment|Specialist Equipment]]||Outfit Inventory (Space)\n|-\n|[[Wiki/Buiding/Components/Specialist Equipment|Specialist Equipment]]||Outfit Inventory (Space Exploration)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Liquid Fuel Rocket (Small)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Liquid Fuel Rocket\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Liquid Fuel Rocket (Large)\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]||Hydrogen Electrolyser\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Astronomy Sensor\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Reaction Wheel\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Reaction Wheel (Small)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]\n|Reaction Wheel (Large)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]\n|Space Seat\n|-\n|[[Wiki/Buiding/Components/Specialist Equipment|Specialist Equipment]]\n|RCS Thruster\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Space_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1501,
+    "revision_id": 3802,
+    "revision_timestamp": "2024-04-21T18:49:40Z",
+    "retrieved_at": "2026-08-31T10:05:02+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

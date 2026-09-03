@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Medium fluid tank",
+  "display_title": "Medium fluid tank",
+  "summary": "Alias for Fluid tank medium",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Fluid tank medium"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Medium fluid tank -> Fluid tank medium",
+    "plain_text": "Redirect: Medium fluid tank -> Fluid tank medium",
+    "char_count": 48,
+    "word_count": 8,
+    "sha256": "e1b2d35f936482f120f2c5987bd810a585259ed306adea28b36abd7e41d38933"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Fluid tank medium",
+    "target_url": "https://stormworks.fandom.com/wiki/Fluid_tank_medium",
+    "target_page_id": 1011,
+    "target_revision_id": 4608
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Medium_fluid_tank",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1090,
+    "revision_id": 2306,
+    "revision_timestamp": "2019-10-19T18:50:01Z",
+    "retrieved_at": "2026-08-31T10:04:09+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

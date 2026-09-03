@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Advanced Mode",
+  "display_title": "Gameplay/Workbench/Advanced Mode",
+  "summary": "The \"Advanced Mode\" Used to be in the game as an alternative to the \"\nNormal\n Mode\", which was a simpler mode to build in, with no pipes and many things removed. (For example: Pipes for Air, Exhaust, Coolant, or connecting electricity, etc.).",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Advanced Mode",
+      "anchor": "Advanced_Mode"
+    }
+  ],
+  "internal_links": [
+    "Wiki/Building/Normal Mode"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "## Advanced Mode\n\nThe \"Advanced Mode\" Used to be in the game as an alternative to the \"[Normal](https://stormworks.fandom.com/wiki/Wiki/Building/Normal_Mode) Mode\", which was a simpler mode to build in, with no pipes and many things removed. (For example: Pipes for Air, Exhaust, Coolant, or connecting electricity, etc.).\n\nToday, the \"Advanced Mode\" is the Default building mode, and \"Normal Mode\" is no longer an option.",
+    "plain_text": "Advanced Mode\n\nThe \"Advanced Mode\" Used to be in the game as an alternative to the \"\nNormal\n Mode\", which was a simpler mode to build in, with no pipes and many things removed. (For example: Pipes for Air, Exhaust, Coolant, or connecting electricity, etc.).\n\nToday, the \"Advanced Mode\" is the Default building mode, and \"Normal Mode\" is no longer an option.",
+    "char_count": 422,
+    "word_count": 61,
+    "sha256": "f089497d5bfff0624f16a696baa11c5a6359d9945271f89a0afe22913e12b33e"
+  },
+  "wikitext": "== Advanced Mode ==\nThe \"Advanced Mode\" Used to be in the game as an alternative to the \"[[Wiki/Building/Normal Mode|Normal]] Mode\", which was a simpler mode to build in, with no pipes and many things removed. (For example: Pipes for Air, Exhaust, Coolant, or connecting electricity, etc.).\n\n\nToday, the \"Advanced Mode\" is the Default building mode, and \"Normal Mode\" is no longer an option.",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Advanced_Mode",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1398,
+    "revision_id": 4141,
+    "revision_timestamp": "2025-05-14T02:40:53Z",
+    "retrieved_at": "2026-08-31T10:02:36+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

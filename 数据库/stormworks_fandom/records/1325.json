@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Radio",
+  "display_title": "Radio",
+  "summary": "Alias for Gameplay/Workbench/Components/Radio",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Radio"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Radio -> Gameplay/Workbench/Components/Radio",
+    "plain_text": "Redirect: Radio -> Gameplay/Workbench/Components/Radio",
+    "char_count": 54,
+    "word_count": 4,
+    "sha256": "dafe1710b44054585ba7dd4724f457edbe7536f6047d67bb2d4236bb2c60e07f"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Radio",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Radio",
+    "target_page_id": 1175,
+    "target_revision_id": 4715
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Radio",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1325,
+    "revision_id": 4663,
+    "revision_timestamp": "2025-10-25T14:13:59Z",
+    "retrieved_at": "2026-08-31T10:04:42+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

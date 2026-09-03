@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Advanced Displays Research",
+  "display_title": "Advanced Displays Research",
+  "summary": "Advanced displays is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Displays Research",
+    "Research",
+    "Video Equipment Research",
+    "Wiki/Building/Components/Displays",
+    "Wiki/Building/Components/Specialist Equipment"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/99/Advanceddisplaysresearch.png/revision/latest?cb=20240421182339",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/99/Advanceddisplaysresearch.png/revision/latest?cb=20240421182339",
+      "alt": "Advanceddisplaysresearch",
+      "width": "48",
+      "height": "48"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Indicator Light (RGB)"
+        ],
+        [
+          "Specialist Equipment",
+          "Light (RGB)"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Instrument Panel"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Advanced Displays\n\n[![Advanceddisplaysresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/99/Advanceddisplaysresearch.png/revision/latest?cb=20240421182339)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/99/Advanceddisplaysresearch.png/revision/latest?cb=20240421182339)\n\n### Research Points\n\n6\n\n### Research Time\n\n0h 50m\n\n## Research Path\n\n### Unlocked by\n\n[Displays](https://stormworks.fandom.com/wiki/Displays_Research)\n\n### Makes available\n\n[Video Equipment](https://stormworks.fandom.com/wiki/Video_Equipment_Research)\n\nAdvanced displays is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Indicator Light (RGB) |\n| Specialist Equipment | Light (RGB) |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Instrument Panel |",
+    "plain_text": "Advanced Displays\n\nResearch Points\n\n6\n\nResearch Time\n\n0h 50m\n\nResearch Path\n\nUnlocked by\n\nDisplays\n\nMakes available\n\nVideo Equipment\n\nAdvanced displays is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nDisplays\n\nIndicator Light (RGB)\n\nSpecialist Equipment\n\nLight (RGB)\n\nDisplays\n\nInstrument Panel",
+    "char_count": 993,
+    "word_count": 42,
+    "sha256": "4244244f683d631708c958d1465f78ff8862d068e695bbbbaa7c6fc10063c7dd"
+  },
+  "wikitext": "{{Research\n  | name=Advanced Displays\n  | image=[File:Advanceddisplaysresearch.png]\n  | points=6\n  | time= 0h 50m\n  | unlock= [[Displays Research|Displays]]\n  | a1=[[Video Equipment Research|Video Equipment]]\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Advanced displays is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Indicator Light (RGB)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Light (RGB)\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Instrument Panel\n|}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Advanced_Displays_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1483,
+    "revision_id": 3753,
+    "revision_timestamp": "2024-04-21T18:24:03Z",
+    "retrieved_at": "2026-08-31T10:00:33+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

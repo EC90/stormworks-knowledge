@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Turbine",
+  "display_title": "Turbine",
+  "summary": "Steam turbines generate torque using the pressure difference of the Steam in ports and Steam out ports",
+  "template": "Infobox",
+  "attributes": {
+    "name": "Steam turbine",
+    "category": "Industry",
+    "cost": "$250",
+    "mass": "{{property|mass}} 500",
+    "connection1": "{{property|fluid}} Steam in",
+    "connection2": "{{property|fluid}} Steam out",
+    "connection3": "{{property|torque}} RPS",
+    "connection4": "{{property|torque}} RPS"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| name | Steam turbine |\n| category | Industry |\n| cost | $250 |\n| mass | {{property\\|mass}} 500 |\n| connection1 | {{property\\|fluid}} Steam in |\n| connection2 | {{property\\|fluid}} Steam out |\n| connection3 | {{property\\|torque}} RPS |\n| connection4 | {{property\\|torque}} RPS |",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [],
+  "internal_links": [
+    "Research"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Turbine?action=edit)."
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "mass 500"
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "fluid Steam in",
+          "fluid Steam out"
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "torque RPS",
+          "torque RPS"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Turbine?action=edit). |\n| --- | --- |\n\nSteam turbines generate torque using the pressure difference of the Steam in ports and Steam out ports\n\n## Steam turbine\n\n### Category\n\nIndustry\n\n### Cost\n\n$250\n\n## Properties\n\n| mass 500 |\n\n## Connections\n\n| fluid Steam in | fluid Steam out |\n| --- | --- |\n\n| torque RPS | torque RPS |\n| --- | --- |\n\nSteam turbines have 2 power connections and if you connect pipes (or turbines) to both of these connections, then the turbine will double its internal resistance. So, only use one of the connections.",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nSteam turbines generate torque using the pressure difference of the Steam in ports and Steam out ports\n\nSteam turbine\n\nCategory\n\nIndustry\n\nCost\n\n$250\n\nProperties\n\nmass\n 500\n\nConnections\n\nfluid\n Steam in\n\nfluid\n Steam out\n\ntorque\n RPS\n\ntorque\n RPS\n\nSteam turbines have 2 power connections and if you connect pipes (or turbines) to both of these connections, then the turbine will double its internal resistance. So, only use one of the connections.",
+    "char_count": 959,
+    "word_count": 82,
+    "sha256": "f1a53e6f44bae4da646c8bc3955d5cbaac4f4996eb06d4210012b56218342742"
+  },
+  "wikitext": "{{Stub}}\n\nSteam turbines generate torque using the pressure difference of the Steam in ports and Steam out ports{{Infobox|name=Steam turbine|category=Industry|cost=$250|mass={{property|mass}} 500|connection1={{property|fluid}} Steam in|connection2={{property|fluid}} Steam out|connection3={{property|torque}} RPS|connection4={{property|torque}} RPS}}\n\nSteam turbines have 2 power connections and if you connect pipes (or turbines) to both of these connections, then the turbine will double its internal resistance. So, only use one of the connections.",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Turbine",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1858,
+    "revision_id": 4725,
+    "revision_timestamp": "2026-08-17T16:30:13Z",
+    "retrieved_at": "2026-08-31T10:05:30+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

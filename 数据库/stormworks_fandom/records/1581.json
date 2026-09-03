@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Ladder",
+  "display_title": "Ladder",
+  "summary": "\"Single ladder rung. Multiple rungs can placed on top of each other to form a ladder of arbitrary length. You can attach to the ladder by interacting with [f], then detach again with either [f] or [space]. You will automatically detach from the ladder when you reach the top.\"",
+  "template": "Infobox",
+  "attributes": {
+    "name": "Ladder",
+    "image": "File:ladder.jpg",
+    "prerequisite": "none",
+    "category": "Blocks",
+    "cost": "$5",
+    "mass": "{{Property|mass}} 3"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| name | Ladder |\n| image | File:ladder.jpg |\n| prerequisite | none |\n| category | Blocks |\n| cost | $5 |\n| mass | {{Property\\|mass}} 3 |",
+  "categories": [
+    "Blocks"
+  ],
+  "sections": [],
+  "internal_links": [
+    "Research",
+    "Wiki/Building/Components/Blocks"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e0/Ladder.jpg/revision/latest?cb=20190317004642",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e0/Ladder.jpg/revision/latest/scale-to-width-down/268?cb=20190317004642",
+      "alt": "Ladder",
+      "width": "270",
+      "height": "271"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "mass 3"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Ladder\n\n[![Ladder](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e0/Ladder.jpg/revision/latest/scale-to-width-down/268?cb=20190317004642)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e0/Ladder.jpg/revision/latest?cb=20190317004642)\n\n### [Prerequisite](https://stormworks.fandom.com/wiki/Research)\n\nnone\n\n### Category\n\n[Blocks](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Blocks)\n\n### Cost\n\n$5\n\n## Properties\n\n| mass 3 |\n\n> *\"Single ladder rung. Multiple rungs can placed on top of each other to form a ladder of arbitrary length. You can attach to the ladder by interacting with [f], then detach again with either [f] or [space]. You will automatically detach from the ladder when you reach the top.\"*\n\nLadders can be built with a continuous straight line of ladder blocks. At least two ladder blocks are necessary to have a climbable ladder. Gaps of no more than one block (either empty space or other blocks) may be placed in between ladder blocks without impairing functionality.",
+    "plain_text": "Ladder\n\nPrerequisite\n\nnone\n\nCategory\n\nBlocks\n\nCost\n\n$5\n\nProperties\n\nmass\n 3\n\n\"Single ladder rung. Multiple rungs can placed on top of each other to form a ladder of arbitrary length. You can attach to the ladder by interacting with [f], then detach again with either [f] or [space]. You will automatically detach from the ladder when you reach the top.\"\n\nLadders can be built with a continuous straight line of ladder blocks. At least two ladder blocks are necessary to have a climbable ladder. Gaps of no more than one block (either empty space or other blocks) may be placed in between ladder blocks without impairing functionality.",
+    "char_count": 1045,
+    "word_count": 106,
+    "sha256": "68a271d402ac95ce396f929f5251e627b214517a49bac0dfb12e05ec7d48d8d5"
+  },
+  "wikitext": "{{Infobox\n  | name=Ladder\n  | image=[[File:ladder.jpg]]\n  | prerequisite=none\n  |category=[[Wiki/Building/Components/Blocks|Blocks]]| cost=$5\n  | dimensions=\n  | fluidcapacity=\n  | introduced=\n  \n  | mass= {{Property|mass}} 3\n  | motor=\n  | force=\n  | power=\n  | motor_speed=\n\n  | logicinput1= \n  | logicinput2=\n  | logicinput3=\n  | logicinput4=\n  | logicinput5=\n  | logicinput6=\n\n  | logicoutput1= \n  | logicoutput2=\n  | logicoutput3=\n  | logicoutput4=\n  | logicoutput5=\n  | logicoutput6=\n\n  | connection1= \n  | connection2=\n  | connection3=\n  | connection4=\n  | connection5=\n  | connection6=\n  \n  | adjustparam1=\n  | adjustparam2=\n}}<blockquote>''\"Single ladder rung. Multiple rungs can placed on top of each other to form a ladder of arbitrary length. You can attach to the ladder by interacting with [f], then detach again with either [f] or [space]. You will automatically detach from the ladder when you reach the top.\"''</blockquote>\n\nLadders can be built with a continuous straight line of ladder blocks. At least two ladder blocks are necessary to have a climbable ladder. Gaps of no more than one block (either empty space or other blocks) may be placed in between ladder blocks without impairing functionality.\n\n[[Category:Blocks]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Ladder",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1581,
+    "revision_id": 4453,
+    "revision_timestamp": "2025-07-18T00:38:30Z",
+    "retrieved_at": "2026-08-31T10:03:47+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

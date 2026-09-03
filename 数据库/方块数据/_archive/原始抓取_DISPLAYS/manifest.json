@@ -1,0 +1,20 @@
+{
+  "site": "https://wikiwiki.jp",
+  "wiki": "sbarjp",
+  "note": "wikiwiki.jp（非 MediaWiki）。正文取自 div#content，已过滤 ::cmd/edit 链接与侧边栏。",
+  "pages": [
+    {
+      "wiki": "sbarjp",
+      "page": "DISPLAYS",
+      "url": "https://wikiwiki.jp/sbarjp/DISPLAYS",
+      "last_modified": "2025-01-18",
+      "chars": 22432,
+      "internal_links": [
+        "SENSORS"
+      ]
+    }
+  ],
+  "failed": [],
+  "ok": 1,
+  "failed_count": 0
+}

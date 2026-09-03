@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Key Assignment",
+  "display_title": "Key Assignment",
+  "summary": "Alias for Wiki/Key Assignment",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Key Assignment"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Key Assignment -> Wiki/Key Assignment",
+    "plain_text": "Redirect: Key Assignment -> Wiki/Key Assignment",
+    "char_count": 47,
+    "word_count": 6,
+    "sha256": "26a8daa18eb2e71042ff739dd14ed0f2c1ec90324f6ce22a383415421a34d74a"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Key Assignment",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Key_Assignment",
+    "target_page_id": 620,
+    "target_revision_id": 2331
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Key_Assignment",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 891,
+    "revision_id": 1725,
+    "revision_timestamp": "2019-03-31T20:56:43Z",
+    "retrieved_at": "2026-08-31T10:03:45+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Survivor",
+  "display_title": "Survivor",
+  "summary": "Survivors are NPCs in\nmissions\n who need to be stabilized and transported to hospitals or\nhospital ships\n to be rescued. Survivors carry\nstrobe lights\n set with man-overboard-mode to automatically activate if they end up in the water. Rescuing a survivor rewards the player with $3,000 multiplied by their health (from 0 to 1), so bringing a half-healed survivor to a hospital will only reward $1,500. In\nclassic mode\n, the player also receives a\nresearch\n point for each rescued survivor, regardless of their health.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [],
+  "internal_links": [
+    "Equipment",
+    "Gameplay/Gamemodes/Classic",
+    "Hospital ship",
+    "Research",
+    "Wiki/Missions"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Survivor?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Survivor?action=edit). |\n| --- | --- |\n\nSurvivors are NPCs in [missions](https://stormworks.fandom.com/wiki/Wiki/Missions) who need to be stabilized and transported to hospitals or [hospital ships](https://stormworks.fandom.com/wiki/Hospital_ship) to be rescued. Survivors carry [strobe lights](https://stormworks.fandom.com/wiki/Equipment#Small_Equipment) set with man-overboard-mode to automatically activate if they end up in the water. Rescuing a survivor rewards the player with $3,000 multiplied by their health (from 0 to 1), so bringing a half-healed survivor to a hospital will only reward $1,500. In [classic mode](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Classic), the player also receives a [research](https://stormworks.fandom.com/wiki/Research) point for each rescued survivor, regardless of their health.\n\nSurvivors may be found incapacitated and require a defibrillator to resuscitate. Wounded survivors may also lose health over time, and can become incapacitated if they aren't periodically treated with a med kit or kept in a medical bed.\n\nSurvivors can be told to follow the player and will do so reasonably quickly, following along the exact route the player took. They can even follow by swimming over water and walking over rough terrain, although they can sometimes fail to follow the player if the player jumps. The player is also able to pick up and carry survivors which can be useful in any situations where they fail to follow the player.",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nSurvivors are NPCs in\nmissions\n who need to be stabilized and transported to hospitals or\nhospital ships\n to be rescued. Survivors carry\nstrobe lights\n set with man-overboard-mode to automatically activate if they end up in the water. Rescuing a survivor rewards the player with $3,000 multiplied by their health (from 0 to 1), so bringing a half-healed survivor to a hospital will only reward $1,500. In\nclassic mode\n, the player also receives a\nresearch\n point for each rescued survivor, regardless of their health.\n\nSurvivors may be found incapacitated and require a defibrillator to resuscitate. Wounded survivors may also lose health over time, and can become incapacitated if they aren't periodically treated with a med kit or kept in a medical bed.\n\nSurvivors can be told to follow the player and will do so reasonably quickly, following along the exact route the player took. They can even follow by swimming over water and walking over rough terrain, although they can sometimes fail to follow the player if the player jumps. The player is also able to pick up and carry survivors which can be useful in any situations where they fail to follow the player.",
+    "char_count": 1899,
+    "word_count": 212,
+    "sha256": "39700e87a963726b884a14391135dbe832508e11531de36f390cccc99fd5ddc0"
+  },
+  "wikitext": "{{stub}}\n\nSurvivors are NPCs in [[Wiki/Missions|missions]] who need to be stabilized and transported to hospitals or [[hospital ship]]s to be rescued. Survivors carry [[Equipment#Small Equipment|strobe lights]] set with man-overboard-mode to automatically activate if they end up in the water. Rescuing a survivor rewards the player with $3,000 multiplied by their health (from 0 to 1), so bringing a half-healed survivor to a hospital will only reward $1,500. In [[Gameplay/Gamemodes/Classic|classic mode]], the player also receives a [[research]] point for each rescued survivor, regardless of their health.\n\nSurvivors may be found incapacitated and require a defibrillator to resuscitate. Wounded survivors may also lose health over time, and can become incapacitated if they aren't periodically treated with a med kit or kept in a medical bed.\n\nSurvivors can be told to follow the player and will do so reasonably quickly, following along the exact route the player took. They can even follow by swimming over water and walking over rough terrain, although they can sometimes fail to follow the player if the player jumps. The player is also able to pick up and carry survivors which can be useful in any situations where they fail to follow the player.",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Survivor",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1836,
+    "revision_id": 4555,
+    "revision_timestamp": "2025-07-27T23:10:27Z",
+    "retrieved_at": "2026-08-31T10:05:17+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

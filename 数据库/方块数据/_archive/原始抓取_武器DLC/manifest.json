@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "tool_version": "1.0.0",
+  "generated_at": "2026-08-30T15:54:19+00:00",
+  "source": {
+    "name": "Stormworks: Build and Rescue Wiki",
+    "base_url": "https://stormworks.fandom.com",
+    "generator": "MediaWiki 1.43.9",
+    "reported_articles": 558,
+    "reported_pages": 1798,
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  },
+  "dataset": {
+    "records": 8,
+    "articles": 8,
+    "redirects": 0,
+    "chunks": 24,
+    "quality": {
+      "high": 8
+    }
+  },
+  "last_run": {
+    "started_at": "2026-08-30T15:54:07+00:00",
+    "selected": 8,
+    "fetched": 8,
+    "skipped_unchanged": 0,
+    "failed": 0,
+    "redirects": 0,
+    "scope": {
+      "titles": [
+        "Search and Destroy DLC",
+        "Weapons Research",
+        "Damage control",
+        "Equipment",
+        "Impact sensor",
+        "Infrared mode",
+        "Radar Detector",
+        "Camera medium"
+      ],
+      "category": null,
+      "category_depth": null,
+      "namespace": 0,
+      "prefix": null,
+      "exclude_pattern": null,
+      "max_pages": null,
+      "force": false
+    },
+    "finished_at": "2026-08-30T15:54:19+00:00"
+  },
+  "files": {
+    "pages_jsonl": "pages.jsonl",
+    "chunks_jsonl": "chunks.jsonl",
+    "records_directory": "records/",
+    "markdown_directory": "markdown/",
+    "state": "state.json",
+    "failures": "failures.jsonl"
+  }
+}

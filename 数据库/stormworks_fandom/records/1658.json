@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Decorative",
+  "display_title": "Wiki/Building/Components/Decorative",
+  "summary": "Alias for Gameplay/Workbench/Components/Decorative",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Decorative"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Decorative -> Gameplay/Workbench/Components/Decorative",
+    "plain_text": "Redirect: Wiki/Building/Components/Decorative -> Gameplay/Workbench/Components/Decorative",
+    "char_count": 89,
+    "word_count": 4,
+    "sha256": "8d0e141d876699bc3d811d37167af9f24bdd24fa01773f7a92831cb5c8279318"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Decorative",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Decorative",
+    "target_page_id": 637,
+    "target_revision_id": 4149
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1658,
+    "revision_id": 4150,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-31T10:11:08+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

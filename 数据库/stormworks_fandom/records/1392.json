@@ -1,0 +1,147 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Large Engine",
+  "display_title": "Large Engine",
+  "summary": "Large Engine\n\nProperties\n\nmass\n 400\n\npower\n 200000\n\nLogics Inputs\n\nnumber\n Throttle\n\nonoff\n Starter\n\nLogic Outputs\n\nnumber\n RPS\n\nnumber\n Temperature\n\nConnections\n\npower\n RPS\n\nfluid\n Fuel\n\nfluid\n Air\n\nfluid\n x2 Coolant (In/Out)\n\nfluid\n x2 Exhaust\n\nelectric\n Electric\n\nThe large engine is a\ndiesel engine\n.",
+  "template": "Infobox",
+  "attributes": {
+    "name": "Large Engine",
+    "image": "200x200px",
+    "mass": "{{Property|mass}} 400",
+    "power": "{{Property|power}} 200000",
+    "logicinput1": "{{Property|number}} Throttle",
+    "logicinput2": "{{Property|onoff}} Starter",
+    "logicoutput1": "{{Property|number}} RPS",
+    "logicoutput2": "{{Property|number}} Temperature",
+    "connection1": "{{Property|powercon}} RPS",
+    "connection2": "{{Property|fluid}} Fuel",
+    "connection3": "{{Property|fluid}} Air",
+    "connection4": "{{Property|fluid}} x2 Coolant (In/Out)",
+    "connection5": "{{Property|fluid}} x2 Exhaust",
+    "connection6": "{{Property|electric}} Electric"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| name | Large Engine |\n| image | 200x200px |\n| mass | {{Property\\|mass}} 400 |\n| power | {{Property\\|power}} 200000 |\n| logicinput1 | {{Property\\|number}} Throttle |\n| logicinput2 | {{Property\\|onoff}} Starter |\n| logicoutput1 | {{Property\\|number}} RPS |\n| logicoutput2 | {{Property\\|number}} Temperature |\n| connection1 | {{Property\\|powercon}} RPS |\n| connection2 | {{Property\\|fluid}} Fuel |\n| connection3 | {{Property\\|fluid}} Air |\n| connection4 | {{Property\\|fluid}} x2 Coolant (In/Out) |\n| connection5 | {{Property\\|fluid}} x2 Exhaust |\n| connection6 | {{Property\\|electric}} Electric |",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Research",
+    "Wiki/Building/Components/Propulsion/DieselEngines"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0a/Diesel_Engine_Large.jpg/revision/latest?cb=20190317005401",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0a/Diesel_Engine_Large.jpg/revision/latest/scale-to-width-down/268?cb=20190317005401",
+      "alt": "Diesel Engine Large",
+      "width": "270",
+      "height": "251"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "mass 400",
+          "power 200000"
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "number Throttle",
+          "onoff Starter"
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "number RPS",
+          "number Temperature"
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "power RPS",
+          "fluid Fuel"
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "fluid Air",
+          "fluid x2 Coolant (In/Out)"
+        ]
+      ]
+    },
+    {
+      "index": 6,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "fluid x2 Exhaust",
+          "electric Electric"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Large Engine\n\n[![Diesel Engine Large](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0a/Diesel_Engine_Large.jpg/revision/latest/scale-to-width-down/268?cb=20190317005401)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0a/Diesel_Engine_Large.jpg/revision/latest?cb=20190317005401)\n\n## Properties\n\n| mass 400 | power 200000 |\n| --- | --- |\n\n## Logics Inputs\n\n| number Throttle | onoff Starter |\n| --- | --- |\n\n## Logic Outputs\n\n| number RPS | number Temperature |\n| --- | --- |\n\n## Connections\n\n| power RPS | fluid Fuel |\n| --- | --- |\n\n| fluid Air | fluid x2 Coolant (In/Out) |\n| --- | --- |\n\n| fluid x2 Exhaust | electric Electric |\n| --- | --- |\n\nThe large engine is a [diesel engine](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion/DieselEngines).",
+    "plain_text": "Large Engine\n\nProperties\n\nmass\n 400\n\npower\n 200000\n\nLogics Inputs\n\nnumber\n Throttle\n\nonoff\n Starter\n\nLogic Outputs\n\nnumber\n RPS\n\nnumber\n Temperature\n\nConnections\n\npower\n RPS\n\nfluid\n Fuel\n\nfluid\n Air\n\nfluid\n x2 Coolant (In/Out)\n\nfluid\n x2 Exhaust\n\nelectric\n Electric\n\nThe large engine is a\ndiesel engine\n.",
+    "char_count": 816,
+    "word_count": 43,
+    "sha256": "c3c4367a9070e10fd54bbfca0d26a8e6888fccfe5d05ef78b465f502c2b9a5f6"
+  },
+  "wikitext": "{{Infobox\n  | name=Large Engine\n  | image=[[File:Diesel Engine Large.jpg|200x200px]]\n  | prerequisite=\n  | cost=\n  | dimensions=\n  | fluidcapacity=\n  | introduced=\n  \n  | mass= {{Property|mass}} 400\n  | motor= \n  | force=\n  | power= {{Property|power}} 200000\n  | motor_speed=\n\n  | logicinput1= {{Property|number}} Throttle\n  | logicinput2= {{Property|onoff}} Starter\n  | logicinput3=\n  | logicinput4=\n  | logicinput5=\n  | logicinput6=\n\n  | logicoutput1= {{Property|number}} RPS\n  | logicoutput2= {{Property|number}} Temperature\n  | logicoutput3=\n  | logicoutput4=\n  | logicoutput5=\n  | logicoutput6=\n\n  | connection1= {{Property|powercon}} RPS\n  | connection2= {{Property|fluid}} Fuel\n  | connection3= {{Property|fluid}} Air\n  | connection4= {{Property|fluid}} x2 Coolant (In/Out)\n  | connection5= {{Property|fluid}} x2 Exhaust\n  | connection6= {{Property|electric}} Electric\n  \n  | adjustparam1=\n  | adjustparam2=\n}}\n\nThe large engine is a [[Wiki/Building/Components/Propulsion/DieselEngines|diesel engine]].",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Large_Engine",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1392,
+    "revision_id": 3491,
+    "revision_timestamp": "2023-08-11T23:32:02Z",
+    "retrieved_at": "2026-08-31T10:03:50+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

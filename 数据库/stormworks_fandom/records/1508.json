@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Jets Research",
+  "display_title": "Jets Research",
+  "summary": "Jets is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Afterburner Research",
+    "Helicopters Research",
+    "Jet Ducting Research",
+    "Large Jets Research",
+    "Planes Research",
+    "Research",
+    "VTOL Research",
+    "Wiki/Building/Components/Jet Engines",
+    "Wiki/Building/Components/Propulsion"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Jetsresearch.png/revision/latest?cb=20240421185955",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Jetsresearch.png/revision/latest?cb=20240421185955",
+      "alt": "Jetsresearch",
+      "width": "49",
+      "height": "49"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Large Ducted Fan"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Small Ducted Fan"
+        ],
+        [
+          "Jet Engines",
+          "Jet Combustion Chamber"
+        ],
+        [
+          "Jet Engines",
+          "Jet Compressor"
+        ],
+        [
+          "Jet Engines",
+          "Small Jet Intake"
+        ],
+        [
+          "Jet Engines",
+          "Jet Turbine Small"
+        ],
+        [
+          "Jet Engines",
+          "Jet Exhaust"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Jets\n\n[![Jetsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Jetsresearch.png/revision/latest?cb=20240421185955)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2b/Jetsresearch.png/revision/latest?cb=20240421185955)\n\n### Research Points\n\n30\n\n### Research Time\n\n2h 55m\n\n## Research Path\n\n### Unlocked by\n\n[Helicopters](https://stormworks.fandom.com/wiki/Helicopters_Research), [Planes](https://stormworks.fandom.com/wiki/Planes_Research)\n\n### Makes available\n\n[Afterburner](https://stormworks.fandom.com/wiki/Afterburner_Research)\n\n### Makes available\n\n[Jet Ducting](https://stormworks.fandom.com/wiki/Jet_Ducting_Research)\n\n### Makes available\n\n[Large Jets](https://stormworks.fandom.com/wiki/Large_Jets_Research)\n\n### Makes available\n\n[VTOL](https://stormworks.fandom.com/wiki/VTOL_Research)\n\nJets is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Large Ducted Fan |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Small Ducted Fan |\n| Jet Engines | Jet Combustion Chamber |\n| Jet Engines | Jet Compressor |\n| Jet Engines | Small Jet Intake |\n| Jet Engines | Jet Turbine Small |\n| Jet Engines | Jet Exhaust |",
+    "plain_text": "Jets\n\nResearch Points\n\n30\n\nResearch Time\n\n2h 55m\n\nResearch Path\n\nUnlocked by\n\nHelicopters\n,\nPlanes\n\nMakes available\n\nAfterburner\n\nMakes available\n\nJet Ducting\n\nMakes available\n\nLarge Jets\n\nMakes available\n\nVTOL\n\nJets is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nPropulsion\n\nLarge Ducted Fan\n\nPropulsion\n\nSmall Ducted Fan\n\nJet Engines\n\nJet Combustion Chamber\n\nJet Engines\n\nJet Compressor\n\nJet Engines\n\nSmall Jet Intake\n\nJet Engines\n\nJet Turbine Small\n\nJet Engines\n\nJet Exhaust",
+    "char_count": 1394,
+    "word_count": 71,
+    "sha256": "8dd42e389b5df8b87e4490c31af6fd139b305a97c2e4d7b72a2014a6ee547dad"
+  },
+  "wikitext": "{{Research\n  | name=Jets\n  | image=[File:Jetsresearch.png]\n  | points=30\n  | time= 2h 55m\n  | unlock= [[Helicopters Research|Helicopters]], [[Planes Research|Planes]]\n  | a1=[[Afterburner Research|Afterburner]]\n  | a2=[[Jet Ducting Research|Jet Ducting]]\n  | a3=[[Large Jets Research|Large Jets]]\n  | a4=[[VTOL Research|VTOL]]\n  | a5=\n}}Jets is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Large Ducted Fan\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Small Ducted Fan\n|-\n|[[Wiki/Building/Components/Jet Engines|Jet Engines]]||Jet Combustion Chamber\n|-\n|[[Wiki/Building/Components/Jet Engines|Jet Engines]]||Jet Compressor\n|-\n|[[Wiki/Building/Components/Jet Engines|Jet Engines]]||Small Jet Intake\n|-\n|[[Wiki/Building/Components/Jet Engines|Jet Engines]]||Jet Turbine Small\n|-\n|[[Wiki/Building/Components/Jet Engines|Jet Engines]]||Jet Exhaust\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Jets_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1508,
+    "revision_id": 3814,
+    "revision_timestamp": "2024-04-21T19:00:15Z",
+    "retrieved_at": "2026-08-31T10:03:44+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Video/Monitors",
+  "display_title": "Wiki/Building/Components/Video/Monitors",
+  "summary": "Alias for Gameplay/Workbench/Components/Video/Monitors",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Video/Monitors"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Video/Monitors -> Gameplay/Workbench/Components/Video/Monitors",
+    "plain_text": "Redirect: Wiki/Building/Components/Video/Monitors -> Gameplay/Workbench/Components/Video/Monitors",
+    "char_count": 97,
+    "word_count": 4,
+    "sha256": "9c3c36f85eea3716f868839f647239867754bf3f36f72dfeda535107c2318a7a"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Video/Monitors",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video/Monitors",
+    "target_page_id": 1110,
+    "target_revision_id": 4195
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Video/Monitors",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1681,
+    "revision_id": 4196,
+    "revision_timestamp": "2025-05-14T02:40:55Z",
+    "retrieved_at": "2026-08-31T10:11:31+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

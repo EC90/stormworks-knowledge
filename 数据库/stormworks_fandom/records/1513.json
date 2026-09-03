@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Afterburner Research",
+  "display_title": "Afterburner Research",
+  "summary": "Afterburner is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Helicopters Research",
+    "Jets Research",
+    "Planes Research",
+    "Research",
+    "Wiki/Building/Components/Propulsion"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9b/Afterburnerresearch.png/revision/latest?cb=20240421190313",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9b/Afterburnerresearch.png/revision/latest?cb=20240421190313",
+      "alt": "Afterburnerresearch",
+      "width": "51",
+      "height": "51"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Jet Exhaust Afterburner"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Afterburner\n\n[![Afterburnerresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9b/Afterburnerresearch.png/revision/latest?cb=20240421190313)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9b/Afterburnerresearch.png/revision/latest?cb=20240421190313)\n\n### Research Points\n\n28\n\n### Research Time\n\n0h 30m\n\n## Research Path\n\n### Unlocked by\n\n[Helicopters](https://stormworks.fandom.com/wiki/Helicopters_Research), [Planes](https://stormworks.fandom.com/wiki/Planes_Research), [Jets](https://stormworks.fandom.com/wiki/Jets_Research)\n\nAfterburner is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Jet Exhaust Afterburner |",
+    "plain_text": "Afterburner\n\nResearch Points\n\n28\n\nResearch Time\n\n0h 30m\n\nResearch Path\n\nUnlocked by\n\nHelicopters\n,\nPlanes\n,\nJets\n\nAfterburner is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nPropulsion\n\nJet Exhaust Afterburner",
+    "char_count": 855,
+    "word_count": 31,
+    "sha256": "b6350ccb68abadcd2a13bbf0a57a4aeaf07055f055abd541035ea4ca9791e53f"
+  },
+  "wikitext": "{{Research\n  | name=Afterburner\n  | image=[File:Afterburnerresearch.png]\n  | points=28\n  | time= 0h 30m\n  | unlock= [[Helicopters Research|Helicopters]], [[Planes Research|Planes]], [[Jets Research|Jets]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Afterburner is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Jet Exhaust Afterburner\n|}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Afterburner_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1513,
+    "revision_id": 3823,
+    "revision_timestamp": "2024-04-21T19:03:58Z",
+    "retrieved_at": "2026-08-31T10:00:39+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

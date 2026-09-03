@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Normal Mode",
+  "display_title": "Wiki/Building/Normal Mode",
+  "summary": "Alias for Gameplay/Workbench/Normal Mode",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Normal Mode"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Normal Mode -> Gameplay/Workbench/Normal Mode",
+    "plain_text": "Redirect: Wiki/Building/Normal Mode -> Gameplay/Workbench/Normal Mode",
+    "char_count": 69,
+    "word_count": 6,
+    "sha256": "045e018a43538c8aec72bd7e590df63ecc685f7bd168f19514ae74ac06175314"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Normal Mode",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Normal_Mode",
+    "target_page_id": 1458,
+    "target_revision_id": 4205
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Normal_Mode",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1686,
+    "revision_id": 4206,
+    "revision_timestamp": "2025-05-14T02:40:56Z",
+    "retrieved_at": "2026-08-31T10:11:36+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

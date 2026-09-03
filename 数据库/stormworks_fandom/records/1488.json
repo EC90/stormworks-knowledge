@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Arctic Rescue Research",
+  "display_title": "Arctic Rescue Research",
+  "summary": "Arctic rescue is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Rescue Equipment Research",
+    "Research",
+    "Wiki/Building/Components/Specialist Equipment"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/96/Arcticrescueresearch.png/revision/latest?cb=20240421182930",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/96/Arcticrescueresearch.png/revision/latest?cb=20240421182930",
+      "alt": "Arcticrescueresearch",
+      "width": "48",
+      "height": "48"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "Specialist Equipment",
+          "Heater"
+        ],
+        [
+          "Specialist Equipment",
+          "Outfit Inventory (Arctic)"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Arctic Rescue\n\n[![Arcticrescueresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/96/Arcticrescueresearch.png/revision/latest?cb=20240421182930)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/96/Arcticrescueresearch.png/revision/latest?cb=20240421182930)\n\n### Research Points\n\n10\n\n### Research Time\n\n0h 30m\n\n## Research Path\n\n### Unlocked by\n\n[Rescue Equipment](https://stormworks.fandom.com/wiki/Rescue_Equipment_Research)\n\nArctic rescue is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| Specialist Equipment | Heater |\n| Specialist Equipment | Outfit Inventory (Arctic) |",
+    "plain_text": "Arctic Rescue\n\nResearch Points\n\n10\n\nResearch Time\n\n0h 30m\n\nResearch Path\n\nUnlocked by\n\nRescue Equipment\n\nArctic rescue is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nSpecialist Equipment\n\nHeater\n\nSpecialist Equipment\n\nOutfit Inventory (Arctic)",
+    "char_count": 724,
+    "word_count": 36,
+    "sha256": "24262e7385f004fc3af2fe8778539d017a128ed4b35a3a83e8ec856b3ca90723"
+  },
+  "wikitext": "{{Research\n  | name=Arctic Rescue\n  | image=[File:Arcticrescueresearch.png]\n  | points=10\n  | time= 0h 30m\n  | unlock= [[Rescue Equipment Research|Rescue Equipment]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Arctic rescue is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Heater\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Outfit Inventory (Arctic)\n|}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Arctic_Rescue_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1488,
+    "revision_id": 3766,
+    "revision_timestamp": "2024-04-21T18:29:55Z",
+    "retrieved_at": "2026-08-31T10:00:44+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

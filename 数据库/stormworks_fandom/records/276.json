@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki/Vehicles/Water/Submersible",
+  "display_title": "Wiki/Vehicles/Water/Submersible",
+  "summary": "Submersibles\n are one of the many types of vehicle players can design and operate for their sea rescue service in\nStormworks: Build and Rescue\n.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Submersible     [ edit page ]",
+      "anchor": "Submersible_[_edit_page_]"
+    },
+    {
+      "level": 3,
+      "title": "Power Sources",
+      "anchor": "Power_Sources"
+    },
+    {
+      "level": 2,
+      "title": "Ballasts",
+      "anchor": "Ballasts"
+    },
+    {
+      "level": 2,
+      "title": "Airlocks",
+      "anchor": "Airlocks"
+    },
+    {
+      "level": 2,
+      "title": "See Also",
+      "anchor": "See_Also"
+    }
+  ],
+  "internal_links": [
+    "Airlock",
+    "Boat",
+    "Normal Mode",
+    "Stormworks: Build and Rescue",
+    "V1.2.1",
+    "Vehicles",
+    "Wiki",
+    "Wiki/Building/Advanced Mode",
+    "Wiki/Building/Components/Electricity",
+    "Wiki/Building/Components/Fluids",
+    "Wiki/Building/Components/Logic",
+    "Wiki/Building/Components/Propulsion",
+    "Wiki/Building/Components/Vehicle Control",
+    "Wiki/Game Mechanics/Bouyancy",
+    "Wiki/Game Mechanics/Fuel",
+    "Wiki/Guides/Engine",
+    "Wiki/Vehicles",
+    "Wiki/Vehicles/Water",
+    "Wiki/Vehicles/Water/Boat"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bb/Submersible_Example.jpg/revision/latest?cb=20190216000224",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bb/Submersible_Example.jpg/revision/latest/scale-to-width-down/180?cb=20190216000224",
+      "alt": "Example of a submersible",
+      "width": "180",
+      "height": "101"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Water/Submersible?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Water/Submersible?action=edit). |\n| --- | --- |\n\n## Submersible\n\n[![Example of a submersible](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bb/Submersible_Example.jpg/revision/latest/scale-to-width-down/180?cb=20190216000224)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bb/Submersible_Example.jpg/revision/latest?cb=20190216000224)\n\n[https://stormworks.fandom.com/wiki/File:Submersible_Example.jpg](https://stormworks.fandom.com/wiki/File:Submersible_Example.jpg)\n\nExample of a submersible\n\n**Submersibles** are one of the many types of vehicle players can design and operate for their sea rescue service in *[Stormworks: Build and Rescue](https://stormworks.fandom.com/wiki/Stormworks:_Build_and_Rescue)*.\n\nSubmersibles are similar to [boats](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Water/Boat), but have the ability to operate whilst fully underwater. By flooding the hull compartments, or 'ballasts' (sectioned-off areas of the vessel designed to be flooded and drained), a submersible can force itself to sink under the water. As with boats, [propellers](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) are used for forward and backward motion, while [rudders](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) provide sideways movement, but are also used to provide upwards and downwards movement once underwater (known as 'hydroplanes'). An auto-ballast mechanism is often used to achieve neutral [bouyancy](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Bouyancy) by filling fore and aft ballasts according to the submersible's required weight distribution, making controlling the submersible much easier. A submarine often benefits greatly from having a very low center of mass as they do not need to stay above the water during manoeuvres, and have a tendency to roll.\n\n### Power Sources\n\nIn [Advanced Mode](https://stormworks.fandom.com/wiki/Wiki/Building/Advanced_Mode), a submersible is typically powered underwater by [batteries](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Electricity), using diesel [engines](https://stormworks.fandom.com/wiki/Wiki/Guides/Engine) only on the surface to charge the batteries (this setup is known as 'diesel-electric'). In [Normal Mode](https://stormworks.fandom.com/wiki/Normal_Mode), batteries are not available, so diesel engines are typically used instead. In the [V1.2.1](https://stormworks.fandom.com/wiki/V1.2.1) update, nuclear power sources were added to *Stormworks*. This new form of [fuel](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fuel) allows players to utilise nuclear energy to power submersibles. Unlike engines, nuclear power generation is a process which does not need access to air.\n\n## Ballasts\n\nIn a typical submersible design, the lower third (or even half) of the vessel is reserved for ballast. Unlike on a [boat](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Water/Boat) where these compartments would be left as air and closed off entirely, they are flooded to allow the submersible to sink. To do this, [Fluid Pumps](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids) are used to push water in and out of the compartment through [Fluid Ports](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids) that separate the inside of the ballast tank from the sea (or air).\n\nTypically there are two ballasts, one in the fore (front) and one in the aft (rear). This allows the ballasts to be adjusted to modify the weight distribution of the submersible both up and down, but also forwards and backwards, allowing neutral buoyancy to be achieved. Each ballast will contain an \"in\" port and an \"out\" port, usually run through multiple pumps (as shifting ballasts on a single pump can be quite a time consuming task). They can be balanced using [PID controllers](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic).\n\n## Airlocks\n\nIt can occasionally be necessary to enter or leave a submersible whilst underwater. Using a regular door would cause the submarine to flood and sink. A solution to this problem is the use of an [airlock](https://stormworks.fandom.com/wiki/Airlock) to flood only a small section of the vessel then remove the water with a pump.\n\n## See Also\n\n- [Airlocks](https://stormworks.fandom.com/wiki/Airlock)\n- [Boats](https://stormworks.fandom.com/wiki/Boat)\n- [Vehicles](https://stormworks.fandom.com/wiki/Vehicles)\n- [Water Vehicles](https://stormworks.fandom.com/wiki/Wiki/Vehicles/Water)",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nSubmersible\n\nExample of a submersible\n\nSubmersibles\n are one of the many types of vehicle players can design and operate for their sea rescue service in\nStormworks: Build and Rescue\n.\n\nSubmersibles are similar to\nboats\n, but have the ability to operate whilst fully underwater. By flooding the hull compartments, or 'ballasts' (sectioned-off areas of the vessel designed to be flooded and drained), a submersible can force itself to sink under the water. As with boats,\npropellers\n are used for forward and backward motion, while\nrudders\n provide sideways movement, but are also used to provide upwards and downwards movement once underwater (known as 'hydroplanes'). An auto-ballast mechanism is often used to achieve neutral\nbouyancy\n by filling fore and aft ballasts according to the submersible's required weight distribution, making controlling the submersible much easier. A submarine often benefits greatly from having a very low center of mass as they do not need to stay above the water during manoeuvres, and have a tendency to roll.\n\nPower Sources\n\nIn\nAdvanced Mode\n, a submersible is typically powered underwater by\nbatteries\n, using diesel\nengines\n only on the surface to charge the batteries (this setup is known as 'diesel-electric'). In\nNormal Mode\n, batteries are not available, so diesel engines are typically used instead. In the\nV1.2.1\n update, nuclear power sources were added to\nStormworks\n. This new form of\nfuel\n allows players to utilise nuclear energy to power submersibles. Unlike engines, nuclear power generation is a process which does not need access to air.\n\nBallasts\n\nIn a typical submersible design, the lower third (or even half) of the vessel is reserved for ballast. Unlike on a\nboat\n where these compartments would be left as air and closed off entirely, they are flooded to allow the submersible to sink. To do this,\nFluid Pumps\n are used to push water in and out of the compartment through\nFluid Ports\n that separate the inside of the ballast tank from the sea (or air).\n\nTypically there are two ballasts, one in the fore (front) and one in the aft (rear). This allows the ballasts to be adjusted to modify the weight distribution of the submersible both up and down, but also forwards and backwards, allowing neutral buoyancy to be achieved. Each ballast will contain an \"in\" port and an \"out\" port, usually run through multiple pumps (as shifting ballasts on a single pump can be quite a time consuming task). They can be balanced using\nPID controllers\n.\n\nAirlocks\n\nIt can occasionally be necessary to enter or leave a submersible whilst underwater. Using a regular door would cause the submarine to flood and sink. A solution to this problem is the use of an\nairlock\n to flood only a small section of the vessel then remove the water with a pump.\n\nSee Also\n\nAirlocks\n\nBoats\n\nVehicles\n\nWater Vehicles",
+    "char_count": 4998,
+    "word_count": 483,
+    "sha256": "a1cb439a35c4eac14975a1a9763bdd17ed2948ddf5294dcf49178ee8cc87d686"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=\n\n\n[[File:Submersible Example.jpg|thumb|Example of a submersible]]\n'''Submersibles''' are one of the many types of vehicle players can design and operate for their sea rescue service in ''[[Stormworks: Build and Rescue]]''.\n\nSubmersibles are similar to [[Wiki/Vehicles/Water/Boat|boats]], but have the ability to operate whilst fully underwater. By flooding the hull compartments, or 'ballasts' (sectioned-off areas of the vessel designed to be flooded and drained), a submersible can force itself to sink under the water. As with boats, [[Wiki/Building/Components/Propulsion|propellers]] are used for forward and backward motion, while [[Wiki/Building/Components/Vehicle Control|rudders]] provide sideways movement, but are also used to provide upwards and downwards movement once underwater (known as 'hydroplanes'). An auto-ballast mechanism is often used to achieve neutral [[Wiki/Game Mechanics/Bouyancy|bouyancy]] by filling fore and aft ballasts according to the submersible's required weight distribution, making controlling the submersible much easier. A submarine often benefits greatly from having a very low center of mass as they do not need to stay above the water during manoeuvres, and have a tendency to roll.\n\n=== Power Sources ===\nIn [[Wiki/Building/Advanced Mode|Advanced Mode]], a submersible is typically powered underwater by [[Wiki/Building/Components/Electricity|batteries]], using diesel [[Wiki/Guides/Engine|engines]] only on the surface to charge the batteries (this setup is known as 'diesel-electric'). In [[Normal Mode]], batteries are not available, so diesel engines are typically used instead. In the [[V1.2.1]] update, nuclear power sources were added to ''Stormworks''. This new form of [[Wiki/Game Mechanics/Fuel|fuel]] allows players to utilise nuclear energy to power submersibles. Unlike engines, nuclear power generation is a process which does not need access to air.\n\n== Ballasts ==\nIn a typical submersible design, the lower third (or even half) of the vessel is reserved for ballast. Unlike on a [[Wiki/Vehicles/Water/Boat|boat]] where these compartments would be left as air and closed off entirely, they are flooded to allow the submersible to sink. To do this, [[Wiki/Building/Components/Fluids|Fluid Pumps]] are used to push water in and out of the compartment through [[Wiki/Building/Components/Fluids|Fluid Ports]] that separate the inside of the ballast tank from the sea (or air).\n\nTypically there are two ballasts, one in the fore (front) and one in the aft (rear). This allows the ballasts to be adjusted to modify the weight distribution of the submersible both up and down, but also forwards and backwards, allowing neutral buoyancy to be achieved. Each ballast will contain an \"in\" port and an \"out\" port, usually run through multiple pumps (as shifting ballasts on a single pump can be quite a time consuming task). They can be balanced using [[Wiki/Building/Components/Logic|PID controllers]].\n\n== Airlocks ==\nIt can occasionally be necessary to enter or leave a submersible whilst underwater. Using a regular door would cause the submarine to flood and sink. A solution to this problem is the use of an [[Airlock|airlock]] to flood only a small section of the vessel then remove the water with a pump.\n\n== See Also ==\n* [[airlock|Airlocks]]\n* [[boat|Boats]]\n* [[Vehicles|Vehicles]]\n* [[Wiki/Vehicles/Water|Water Vehicles]]\n\n}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Vehicles/Water/Submersible",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 276,
+    "revision_id": 3281,
+    "revision_timestamp": "2022-12-16T01:57:25Z",
+    "retrieved_at": "2026-08-31T10:13:03+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

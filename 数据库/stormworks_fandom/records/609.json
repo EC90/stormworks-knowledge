@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Mission",
+  "display_title": "Mission",
+  "summary": "Alias for Wiki/Missions",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Missions"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Mission -> Wiki/Missions",
+    "plain_text": "Redirect: Mission -> Wiki/Missions",
+    "char_count": 34,
+    "word_count": 4,
+    "sha256": "95dd75f6d863771badf9daf1513e15634bb77abf8a06385ba652bbaacbe6d9eb"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Missions",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Missions",
+    "target_page_id": 269,
+    "target_revision_id": 4638
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Mission",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 609,
+    "revision_id": 1330,
+    "revision_timestamp": "2019-03-16T17:31:40Z",
+    "retrieved_at": "2026-08-31T10:04:14+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Fluid Jet",
+  "display_title": "Fluid Jet",
+  "summary": "Alias for Fluid jet",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Fluid jet"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Fluid Jet -> Fluid jet",
+    "plain_text": "Redirect: Fluid Jet -> Fluid jet",
+    "char_count": 32,
+    "word_count": 6,
+    "sha256": "c762c6f5819836242d5067ab8e6277a5a6291c7148a096698e992d84ff87757a"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Fluid jet",
+    "target_url": "https://stormworks.fandom.com/wiki/Fluid_jet",
+    "target_page_id": 1345,
+    "target_revision_id": 4270
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Fluid_Jet",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1346,
+    "revision_id": 3030,
+    "revision_timestamp": "2022-01-30T22:40:51Z",
+    "retrieved_at": "2026-08-31T10:01:52+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

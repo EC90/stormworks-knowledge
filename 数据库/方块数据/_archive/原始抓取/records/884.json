@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Sound",
+  "display_title": "Gameplay/Workbench/Components/Sound",
+  "summary": "Sound\nBuzzer\nInput 1 (On/Off): play a buzzer sound\nConversion of real notes to pitch values\nhere\nFoghorn\nInput 1 (On/Off): play a foghorn sound\nMicrophone\ncan produce sound data\nSpeaker Small\ncan play sound data\nMegaphone Speaker Small\ncan play sound data\nMegaphone Speaker Large\ncan play sound data",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Sound [ edit page ]",
+      "anchor": "Sound_[_edit_page_]"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Workbench",
+    "Gameplay/Workbench/Components",
+    "Wiki/Guides/Music"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2e/Buzzer.jpg/revision/latest?cb=20190317005139",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2e/Buzzer.jpg/revision/latest/scale-to-width-down/100?cb=20190317005139",
+      "alt": "Buzzer",
+      "width": "100",
+      "height": "105"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c9/Foghorn.jpg/revision/latest?cb=20190317004844",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c9/Foghorn.jpg/revision/latest/scale-to-width-down/100?cb=20190317004844",
+      "alt": "Foghorn",
+      "width": "100",
+      "height": "93"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/69/Microphone.png/revision/latest?cb=20200130201056",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Microphone",
+      "width": "100",
+      "height": "102"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/07/Speaker_Small.png/revision/latest?cb=20200130201101",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Speaker Small",
+      "width": "100",
+      "height": "101"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/74/Megaphone_Speaker_Small.png/revision/latest?cb=20200130201106",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Megaphone Speaker Small",
+      "width": "100",
+      "height": "84"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2e/Megaphone_Speaker_Large.png/revision/latest?cb=20200130201109",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Megaphone Speaker Large",
+      "width": "100",
+      "height": "89"
+    }
+  ],
+  "tables": [],
+  "content": {
+    "markdown": "## Sound\n\nBuzzer\n\n[![Buzzer](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2e/Buzzer.jpg/revision/latest/scale-to-width-down/100?cb=20190317005139)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2e/Buzzer.jpg/revision/latest?cb=20190317005139)\n\n- Input 1 (On/Off): play a buzzer sound\n\nConversion of real notes to pitch values [here](https://stormworks.fandom.com/wiki/Wiki/Guides/Music \"Wiki/Guides/Music\")\n\nFoghorn\n\n[![Foghorn](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c9/Foghorn.jpg/revision/latest/scale-to-width-down/100?cb=20190317004844)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c9/Foghorn.jpg/revision/latest?cb=20190317004844)\n\n- Input 1 (On/Off): play a foghorn sound\n\nMicrophone\n\n[![Microphone](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/69/Microphone.png/revision/latest?cb=20200130201056)\n\n- can produce sound data\n\nSpeaker Small\n\n[![Speaker Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/07/Speaker_Small.png/revision/latest?cb=20200130201101)\n\n- can play sound data\n\nMegaphone Speaker Small\n\n[![Megaphone Speaker Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/74/Megaphone_Speaker_Small.png/revision/latest?cb=20200130201106)\n\n- can play sound data\n\nMegaphone Speaker Large\n\n[![Megaphone Speaker Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2e/Megaphone_Speaker_Large.png/revision/latest?cb=20200130201109)\n\n- can play sound data",
+    "plain_text": "Sound\nBuzzer\nInput 1 (On/Off): play a buzzer sound\nConversion of real notes to pitch values\nhere\nFoghorn\nInput 1 (On/Off): play a foghorn sound\nMicrophone\ncan produce sound data\nSpeaker Small\ncan play sound data\nMegaphone Speaker Small\ncan play sound data\nMegaphone Speaker Large\ncan play sound data",
+    "char_count": 1902,
+    "word_count": 52,
+    "sha256": "18d4af2db30a6414b3b50dfa27cc04cb036292ae215f04391ccd416d283e3803"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Sound",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 884,
+    "revision_id": 4181,
+    "revision_timestamp": "2025-05-14T02:40:55Z",
+    "retrieved_at": "2026-08-30T15:13:12+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

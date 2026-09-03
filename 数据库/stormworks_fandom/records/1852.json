@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Player",
+  "display_title": "Player",
+  "summary": "Players can fit through spaces that are no smaller than two blocks wide (0.5 m). Walking upright requires a ceiling at least 7 blocks tall (1.75 m). Crouching is possible with a space at least 3 blocks tall (0.75 m).",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Dimensions",
+      "anchor": "Dimensions"
+    },
+    {
+      "level": 2,
+      "title": "Speed",
+      "anchor": "Speed"
+    },
+    {
+      "level": 2,
+      "title": "Slopes",
+      "anchor": "Slopes"
+    },
+    {
+      "level": 2,
+      "title": "Jumping",
+      "anchor": "Jumping"
+    },
+    {
+      "level": 2,
+      "title": "Falling",
+      "anchor": "Falling"
+    }
+  ],
+  "internal_links": [],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Player?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Player?action=edit). |\n| --- | --- |\n\n## Dimensions\n\nPlayers can fit through spaces that are no smaller than two blocks wide (0.5 m). Walking upright requires a ceiling at least 7 blocks tall (1.75 m). Crouching is possible with a space at least 3 blocks tall (0.75 m).\n\n## Speed\n\n- Walking: 2.6 m/s\n- Swimming: 4.5 m/s\n- Crouching: 4.7 m/s\n- Fast swimming: 4.7 m/s\n- Sprinting: 7.5 m/s\n- Sprinting+jumping (\"bunnyhopping\"): 9.0 m/s.\n\n## Slopes\n\nA player can walk up a slope of up to 45 degrees. A slope of 63 degrees (e.g. made with 2:1 blocks going steeply upward) will cause a player to slide down when not moving, but isn't particularly difficult to climb with a combination of forward sprinting and jumping. A slope of 76 degrees (e.g. made with 4:1 blocks going steeply upward) is very difficult to climb but can be achieved with repeated mashing of the jump key.\n\n## Jumping\n\nA player can jump up a height of 5 blocks (1.25 meters). If sprinting, jumping, and then crouching in mid-air, the player can jump up 6 blocks (1.5 meters).\n\n## Falling\n\nA player will take damage if falling onto a hard surface more than 7 meters below them. Damage increases with falls from greater heights.",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nDimensions\n\nPlayers can fit through spaces that are no smaller than two blocks wide (0.5 m). Walking upright requires a ceiling at least 7 blocks tall (1.75 m). Crouching is possible with a space at least 3 blocks tall (0.75 m).\n\nSpeed\n\nWalking: 2.6 m/s\n\nSwimming: 4.5 m/s\n\nCrouching: 4.7 m/s\n\nFast swimming: 4.7 m/s\n\nSprinting: 7.5 m/s\n\nSprinting+jumping (\"bunnyhopping\"): 9.0 m/s.\n\nSlopes\n\nA player can walk up a slope of up to 45 degrees. A slope of 63 degrees (e.g. made with 2:1 blocks going steeply upward) will cause a player to slide down when not moving, but isn't particularly difficult to climb with a combination of forward sprinting and jumping. A slope of 76 degrees (e.g. made with 4:1 blocks going steeply upward) is very difficult to climb but can be achieved with repeated mashing of the jump key.\n\nJumping\n\nA player can jump up a height of 5 blocks (1.25 meters). If sprinting, jumping, and then crouching in mid-air, the player can jump up 6 blocks (1.5 meters).\n\nFalling\n\nA player will take damage if falling onto a hard surface more than 7 meters below them. Damage increases with falls from greater heights.",
+    "char_count": 1609,
+    "word_count": 232,
+    "sha256": "9d20a86f57869f9f50ca1afc82fe71a5522e48578e3fe2678eb53e33a0f4aa4f"
+  },
+  "wikitext": "{{stub}}\n\n== Dimensions ==\nPlayers can fit through spaces that are no smaller than two blocks wide (0.5 m). Walking upright requires a ceiling at least 7 blocks tall (1.75 m). Crouching is possible with a space at least 3 blocks tall (0.75 m).\n\n== Speed ==\n* Walking: 2.6 m/s\n* Swimming: 4.5 m/s\n* Crouching: 4.7 m/s\n* Fast swimming: 4.7 m/s\n* Sprinting: 7.5 m/s\n* Sprinting+jumping (\"bunnyhopping\"): 9.0 m/s.\n\n== Slopes ==\nA player can walk up a slope of up to 45 degrees. A slope of 63 degrees (e.g. made with 2:1 blocks going steeply upward) will cause a player to slide down when not moving, but isn't particularly difficult to climb with a combination of forward sprinting and jumping. A slope of 76 degrees (e.g. made with 4:1 blocks going steeply upward) is very difficult to climb but can be achieved with repeated mashing of the jump key.\n\n== Jumping ==\nA player can jump up a height of 5 blocks (1.25 meters). If sprinting, jumping, and then crouching in mid-air, the player can jump up 6 blocks (1.5 meters).\n\n== Falling ==\nA player will take damage if falling onto a hard surface more than 7 meters below them. Damage increases with falls from greater heights.",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Player",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1852,
+    "revision_id": 4625,
+    "revision_timestamp": "2025-08-20T23:56:59Z",
+    "retrieved_at": "2026-08-31T10:04:35+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

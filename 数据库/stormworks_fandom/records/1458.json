@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Normal Mode",
+  "display_title": "Gameplay/Workbench/Normal Mode",
+  "summary": "The Normal mode used to be in the game and was the alternativ to \"\nWiki/Building/Advanced Mode\n\"",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [
+    {
+      "level": 1,
+      "title": "Normal Mode",
+      "anchor": "Normal_Mode"
+    }
+  ],
+  "internal_links": [
+    "Wiki/Building/Advanced Mode"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "# **Normal Mode**\n\nThe Normal mode used to be in the game and was the alternativ to \"[Wiki/Building/Advanced Mode](https://stormworks.fandom.com/wiki/Wiki/Building/Advanced_Mode)\"",
+    "plain_text": "Normal Mode\n\nThe Normal mode used to be in the game and was the alternativ to \"\nWiki/Building/Advanced Mode\n\"",
+    "char_count": 179,
+    "word_count": 20,
+    "sha256": "a7fe8931c5103f70fea6d6c5bd9c9c76812ef6c37875847bd4c2b6a69e84eb00"
+  },
+  "wikitext": "\n= '''Normal Mode''' =\nThe Normal mode used to be in the game and was the alternativ to \"[[Wiki/Building/Advanced Mode]]\"",
+  "data_quality": "low",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Normal_Mode",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1458,
+    "revision_id": 4205,
+    "revision_timestamp": "2025-05-14T02:40:56Z",
+    "retrieved_at": "2026-08-31T10:03:08+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

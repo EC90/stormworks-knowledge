@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Heavy Aircraft Research",
+  "display_title": "Heavy Aircraft Research",
+  "summary": "Heavy aircraft is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Helicopters Research",
+    "Planes Research",
+    "Research",
+    "Wiki/Building/Components/Propulsion",
+    "Wiki/Building/Components/Specialist Equipment",
+    "Wiki/Building/Components/Vehicle Control"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/40/Heavyaircraftresearch.png/revision/latest?cb=20240421185837",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/40/Heavyaircraftresearch.png/revision/latest?cb=20240421185837",
+      "alt": "Heavyaircraftresearch",
+      "width": "48",
+      "height": "48"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Wing Section (Large)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Wing Section (XLarge)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Wing Section (XXLarge)"
+        ],
+        [
+          "Specialist Equipment",
+          "Vehicle Parachute"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Control Surface (Large)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Rotor (Large)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Rotor Propeller (Large)"
+        ],
+        [
+          "[Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion)",
+          "Rotor Propeller End (Large)"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Heavy Aircraft\n\n[![Heavyaircraftresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/40/Heavyaircraftresearch.png/revision/latest?cb=20240421185837)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/40/Heavyaircraftresearch.png/revision/latest?cb=20240421185837)\n\n### Research Points\n\n30\n\n### Research Time\n\n2h 10m\n\n## Research Path\n\n### Unlocked by\n\n[Helicopters](https://stormworks.fandom.com/wiki/Helicopters_Research), [Planes](https://stormworks.fandom.com/wiki/Planes_Research)\n\nHeavy aircraft is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Wing Section (Large) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Wing Section (XLarge) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Wing Section (XXLarge) |\n| Specialist Equipment | Vehicle Parachute |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Control Surface (Large) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Rotor (Large) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Rotor Propeller (Large) |\n| [Propulsion](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion) | Rotor Propeller End (Large) |",
+    "plain_text": "Heavy Aircraft\n\nResearch Points\n\n30\n\nResearch Time\n\n2h 10m\n\nResearch Path\n\nUnlocked by\n\nHelicopters\n,\nPlanes\n\nHeavy aircraft is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nVehicle Control\n\nWing Section (Large)\n\nVehicle Control\n\nWing Section (XLarge)\n\nVehicle Control\n\nWing Section (XXLarge)\n\nSpecialist Equipment\n\nVehicle Parachute\n\nVehicle Control\n\nControl Surface (Large)\n\nPropulsion\n\nRotor (Large)\n\nPropulsion\n\nRotor Propeller (Large)\n\nPropulsion\n\nRotor Propeller End (Large)",
+    "char_count": 1572,
+    "word_count": 64,
+    "sha256": "d541f369a0c6606f9ea21de210d85cd751d3a5a13ed4e37296d770134be26aef"
+  },
+  "wikitext": "{{Research\n  | name=Heavy Aircraft\n  | image=[File:Heavyaircraftresearch.png]\n  | points=30\n  | time= 2h 10m\n  | unlock= [[Helicopters Research|Helicopters]], [[Planes Research|Planes]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Heavy aircraft is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Wing Section (Large)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Wing Section (XLarge)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Wing Section (XXLarge)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Vehicle Parachute\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Control Surface (Large)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Rotor (Large)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Rotor Propeller (Large)\n|-\n|[[Wiki/Building/Components/Propulsion|Propulsion]]||Rotor Propeller End (Large)\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Heavy_Aircraft_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1506,
+    "revision_id": 3811,
+    "revision_timestamp": "2024-04-21T18:59:08Z",
+    "retrieved_at": "2026-08-31T10:03:21+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

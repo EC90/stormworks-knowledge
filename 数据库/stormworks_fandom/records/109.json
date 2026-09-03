@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Test (class)",
+  "display_title": "Test (class)",
+  "summary": "",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Notice_templates"
+  ],
+  "sections": [],
+  "internal_links": [],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "",
+    "plain_text": "",
+    "char_count": 0,
+    "word_count": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "wikitext": "<!-- This is just a test page -->\n\n[[Category:Notice templates|DisambigMsg]]",
+  "data_quality": "low",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Test_(class)",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 109,
+    "revision_id": 112,
+    "revision_timestamp": "2018-04-27T20:32:05Z",
+    "retrieved_at": "2026-08-31T10:05:25+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

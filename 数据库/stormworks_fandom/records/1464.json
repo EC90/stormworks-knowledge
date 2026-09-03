@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Buttons Research",
+  "display_title": "Buttons Research",
+  "summary": "Buttons is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Keypads Research",
+    "Research",
+    "Wiki/Building/Components/Mechanics"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Buttonsresearch.png/revision/latest?cb=20240421180647",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Buttonsresearch.png/revision/latest?cb=20240421180647",
+      "alt": "Buttonsresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Key Button"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Lockable Button"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Push Button (2 sided)"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Toggle Button (2 sided)"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Buttons Research\n\n[![Buttonsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Buttonsresearch.png/revision/latest?cb=20240421180647)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Buttonsresearch.png/revision/latest?cb=20240421180647)\n\n### Research Points\n\n1\n\n### Research Time\n\n0h 35m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[Keypads](https://stormworks.fandom.com/wiki/Keypads_Research)\n\nButtons is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Key Button |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Lockable Button |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Push Button (2 sided) |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Toggle Button (2 sided) |",
+    "plain_text": "Buttons Research\n\nResearch Points\n\n1\n\nResearch Time\n\n0h 35m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nKeypads\n\nButtons is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nMechanics\n\nKey Button\n\nMechanics\n\nLockable Button\n\nMechanics\n\nPush Button (2 sided)\n\nMechanics\n\nToggle Button (2 sided)",
+    "char_count": 1071,
+    "word_count": 46,
+    "sha256": "7e0db79b6b088082e18eb104a7117dd4093ca5ae0f30872eaf2a2f63dbbbccb6"
+  },
+  "wikitext": "{{Research\n  | name=\n  | image=[File:Buttonsresearch.png]\n  | points=1\n  | time= 0h 35m\n  | unlock= Initially Available\n  | a1=[[Keypads Research|Keypads]]\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Buttons is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Key Button\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Lockable Button\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Push Button (2 sided)\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Toggle Button (2 sided)\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Buttons_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1464,
+    "revision_id": 3858,
+    "revision_timestamp": "2024-04-21T20:27:00Z",
+    "retrieved_at": "2026-08-31T10:01:02+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Workshop",
+  "display_title": "Wiki/Workshop",
+  "summary": "Alias for Gameplay/Workshop",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workshop"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Workshop -> Gameplay/Workshop",
+    "plain_text": "Redirect: Wiki/Workshop -> Gameplay/Workshop",
+    "char_count": 44,
+    "word_count": 4,
+    "sha256": "df062409be13b3cf15ea286975d48bff01a77fae745d707f91b2d29552710df8"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workshop",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workshop",
+    "target_page_id": 938,
+    "target_revision_id": 4283
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Workshop",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1715,
+    "revision_id": 4280,
+    "revision_timestamp": "2025-05-22T12:22:37Z",
+    "retrieved_at": "2026-08-31T10:13:04+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

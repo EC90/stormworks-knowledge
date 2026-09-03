@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Radar and Sonar Research",
+  "display_title": "Radar and Sonar Research",
+  "summary": "Radar and sonar is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Navigation Research",
+    "Research",
+    "Wiki/Building/Components/Sensors",
+    "Wiki/Building/Components/Specialist Equipment"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Navigationradarresearch.png/revision/latest?cb=20240421181928",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Navigationradarresearch.png/revision/latest?cb=20240421181928",
+      "alt": "Navigationradarresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Sonar (Large) (Deprecated)"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Radar Detector"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Sonar (Small) (Deprecated)"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Radar (Basic)"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Radar (Missile)"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Radar (AWACS)"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Radar (Phalanx)"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Radar (Dish)"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Sonar (Small)"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Sonar (Medium)"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Sonar (Large)"
+        ],
+        [
+          "Specialist Equipment",
+          "Sonar Noisemaker"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Radar and Sonar\n\n[![Navigationradarresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Navigationradarresearch.png/revision/latest?cb=20240421181928)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6e/Navigationradarresearch.png/revision/latest?cb=20240421181928)\n\n### Research Points\n\n20\n\n### Research Time\n\n2h 10m\n\n## Research Path\n\n### Unlocked by\n\n[Navigation](https://stormworks.fandom.com/wiki/Navigation_Research)\n\nRadar and sonar is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Sonar (Large) (Deprecated) |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Radar Detector |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Sonar (Small) (Deprecated) |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Radar (Basic) |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Radar (Missile) |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Radar (AWACS) |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Radar (Phalanx) |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Radar (Dish) |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Sonar (Small) |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Sonar (Medium) |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Sonar (Large) |\n| Specialist Equipment | Sonar Noisemaker |",
+    "plain_text": "Radar and Sonar\n\nResearch Points\n\n20\n\nResearch Time\n\n2h 10m\n\nResearch Path\n\nUnlocked by\n\nNavigation\n\nRadar and sonar is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nSensors\n\nSonar (Large) (Deprecated)\n\nSensors\n\nRadar Detector\n\nSensors\n\nSonar (Small) (Deprecated)\n\nSensors\n\nRadar (Basic)\n\nSensors\n\nRadar (Missile)\n\nSensors\n\nRadar (AWACS)\n\nSensors\n\nRadar (Phalanx)\n\nSensors\n\nRadar (Dish)\n\nSensors\n\nSonar (Small)\n\nSensors\n\nSonar (Medium)\n\nSensors\n\nSonar (Large)\n\nSpecialist Equipment\n\nSonar Noisemaker",
+    "char_count": 1802,
+    "word_count": 68,
+    "sha256": "1311ddb78e558ce19217caefea6e812b4aa8d16a2c9458633abc61068212b10c"
+  },
+  "wikitext": "{{Research\n  | name=Radar and Sonar\n  | image=[File:Navigationradarresearch.png]\n  | points=20\n  | time= 2h 10m\n  | unlock= [[Navigation Research|Navigation]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Radar and sonar is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Sonar (Large) (Deprecated)\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Radar Detector\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Sonar (Small) (Deprecated)\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Radar (Basic)\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Radar (Missile)\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Radar (AWACS)\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Radar (Phalanx)\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Radar (Dish)\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Sonar (Small)\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]\n|Sonar (Medium)\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]\n|Sonar (Large)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]\n|Sonar Noisemaker\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Radar_and_Sonar_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1497,
+    "revision_id": 3796,
+    "revision_timestamp": "2024-04-21T18:47:18Z",
+    "retrieved_at": "2026-08-31T10:04:39+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

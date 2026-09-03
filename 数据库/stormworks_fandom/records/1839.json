@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Pump",
+  "display_title": "Pump",
+  "summary": "Alias for Pumps",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Pumps"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Pump -> Pumps",
+    "plain_text": "Redirect: Pump -> Pumps",
+    "char_count": 23,
+    "word_count": 4,
+    "sha256": "dbde7d300b3e703b658d881c368f1115a25e21650ff70df1f9b328346350bf36"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Pumps",
+    "target_url": "https://stormworks.fandom.com/wiki/Pumps",
+    "target_page_id": 1610,
+    "target_revision_id": 4645
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Pump",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1839,
+    "revision_id": 4545,
+    "revision_timestamp": "2025-07-27T02:47:25Z",
+    "retrieved_at": "2026-08-31T10:04:36+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

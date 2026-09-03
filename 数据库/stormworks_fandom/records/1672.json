@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Search and Destroy",
+  "display_title": "Wiki/Building/Components/Search and Destroy",
+  "summary": "Alias for Gameplay/Workbench/Components/Search and Destroy",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Search and Destroy"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Search and Destroy -> Gameplay/Workbench/Components/Search and Destroy",
+    "plain_text": "Redirect: Wiki/Building/Components/Search and Destroy -> Gameplay/Workbench/Components/Search and Destroy",
+    "char_count": 105,
+    "word_count": 8,
+    "sha256": "8324d6bcc29e93064e6b6076e12b83e6fc166780f32fe6be4b6af90f9e75df5e"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Search and Destroy",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Search_and_Destroy",
+    "target_page_id": 1269,
+    "target_revision_id": 4177
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Search_and_Destroy",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1672,
+    "revision_id": 4178,
+    "revision_timestamp": "2025-05-14T02:40:55Z",
+    "retrieved_at": "2026-08-31T10:11:22+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

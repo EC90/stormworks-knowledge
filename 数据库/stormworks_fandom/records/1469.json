@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Fluid Management Research",
+  "display_title": "Fluid Management Research",
+  "summary": "Fluid management is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Advanced Fluid Management Research",
+    "Research",
+    "Water Jets Research",
+    "Wiki/Building/Components/Fluids"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/57/Fluidmanagementresearch.png/revision/latest?cb=20240421181345",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/57/Fluidmanagementresearch.png/revision/latest?cb=20240421181345",
+      "alt": "Fluidmanagementresearch",
+      "width": "47",
+      "height": "47"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Fluids](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids)",
+          "Fluid On/Off Valve"
+        ],
+        [
+          "[Fluids](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids)",
+          "Fluid Flow Valve"
+        ],
+        [
+          "[Fluids](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids)",
+          "Fluid Spawner"
+        ],
+        [
+          "[Fluids](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids)",
+          "Fluid Intake"
+        ],
+        [
+          "[Fluids](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids)",
+          "Liquid Meter"
+        ],
+        [
+          "[Fluids](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids)",
+          "Fluid Pump"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Fluid Management\n\n[![Fluidmanagementresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/57/Fluidmanagementresearch.png/revision/latest?cb=20240421181345)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/57/Fluidmanagementresearch.png/revision/latest?cb=20240421181345)\n\n### Research Points\n\n4\n\n### Research Time\n\n0h 50m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[Advanced Fluid Management](https://stormworks.fandom.com/wiki/Advanced_Fluid_Management_Research)\n\n### Makes available\n\n[Water Jets](https://stormworks.fandom.com/wiki/Water_Jets_Research)\n\nFluid management is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Fluids](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids) | Fluid On/Off Valve |\n| [Fluids](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids) | Fluid Flow Valve |\n| [Fluids](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids) | Fluid Spawner |\n| [Fluids](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids) | Fluid Intake |\n| [Fluids](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids) | Liquid Meter |\n| [Fluids](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Fluids) | Fluid Pump |",
+    "plain_text": "Fluid Management\n\nResearch Points\n\n4\n\nResearch Time\n\n0h 50m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nAdvanced Fluid Management\n\nMakes available\n\nWater Jets\n\nFluid management is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nFluids\n\nFluid On/Off Valve\n\nFluids\n\nFluid Flow Valve\n\nFluids\n\nFluid Spawner\n\nFluids\n\nFluid Intake\n\nFluids\n\nLiquid Meter\n\nFluids\n\nFluid Pump",
+    "char_count": 1387,
+    "word_count": 58,
+    "sha256": "076feeb5783bb20415cc18be3029cc5342deee5fce3ee2b15fde6c3991b323eb"
+  },
+  "wikitext": "{{Research\n  | name=Fluid Management\n  | image=[File:Fluidmanagementresearch.png]\n  | points=4\n  | time= 0h 50m\n  | unlock= Initially Available\n  | a1=[[Advanced Fluid Management Research|Advanced Fluid Management]]\n  | a2=[[Water Jets Research|Water Jets]]\n  | a3=\n  | a4=\n  | a5=\n}}Fluid management is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Fluids|Fluids]]||Fluid On/Off Valve\n|-\n|[[Wiki/Building/Components/Fluids|Fluids]]||Fluid Flow Valve\n|-\n|[[Wiki/Building/Components/Fluids|Fluids]]||Fluid Spawner\n|-\n|[[Wiki/Building/Components/Fluids|Fluids]]||Fluid Intake\n|-\n|[[Wiki/Building/Components/Fluids|Fluids]]||Liquid Meter\n|-\n|[[Wiki/Building/Components/Fluids|Fluids]]||Fluid Pump\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Fluid_Management_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1469,
+    "revision_id": 3732,
+    "revision_timestamp": "2024-04-21T18:14:29Z",
+    "retrieved_at": "2026-08-31T10:01:53+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

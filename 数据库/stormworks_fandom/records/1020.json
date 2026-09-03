@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Harness",
+  "display_title": "Harness",
+  "summary": "A 'seat' which is intended to be used at the end of a winch so that it can be lowered from a hovering aircraft and then raised again. It has built-in configurable controls through six hotkey buttons. A typical setup is to use the harness to directly control the winch, so you can raise or lower the harness while being seated in it. Note that there is currently no way to automatically get passengers out of seats, so to rescue people with a helicopter and harness setup, you'll either need two harnesses (one for you, one for passengers), or you'll need to be playing in multiplayer with a friend so",
+  "template": "Infobox",
+  "attributes": {
+    "name": "Harness",
+    "image": "200px",
+    "prerequisite": "Rescue Equipment",
+    "cost": "$150",
+    "dimensions": "4×3×3",
+    "introduced": "V0.1.23 (The Seat Update)",
+    "mass": "{{Property|mass}} 20",
+    "logicoutput1": "{{Property|onoff}} Occupied",
+    "logicoutput2": "{{Property|onoff}} Hotkeys 1-6"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| name | Harness |\n| image | 200px |\n| prerequisite | Rescue Equipment |\n| cost | $150 |\n| dimensions | 4×3×3 |\n| introduced | V0.1.23 (The Seat Update) |\n| mass | {{Property\\|mass}} 20 |\n| logicoutput1 | {{Property\\|onoff}} Occupied |\n| logicoutput2 | {{Property\\|onoff}} Hotkeys 1-6 |",
+  "categories": [
+    "Specialist_equipment"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "See also",
+      "anchor": "See_also"
+    },
+    {
+      "level": 2,
+      "title": "Version history",
+      "anchor": "Version_history"
+    }
+  ],
+  "internal_links": [
+    "Huge winch",
+    "Large winch",
+    "Medium winch",
+    "Rescue Equipment (tech)",
+    "Research",
+    "Small winch",
+    "V0.1.23-25",
+    "V0.1.26-27",
+    "V0.1.28",
+    "V0.2.1",
+    "V0.2.2-5"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Harness.jpg/revision/latest?cb=20190317010742",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Harness.jpg/revision/latest?cb=20190317010742",
+      "alt": "Harness",
+      "width": "211",
+      "height": "292"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "mass 20"
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "onoff Occupied",
+          "onoff Hotkeys 1-6"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Harness\n\n[![Harness](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Harness.jpg/revision/latest?cb=20190317010742)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Harness.jpg/revision/latest?cb=20190317010742)\n\n### [Prerequisite](https://stormworks.fandom.com/wiki/Research)\n\nRescue Equipment\n\n### Cost\n\n$150\n\n### Dimensions\n\n4×3×3\n\n### Introduced\n\n[V0.1.23 (The Seat Update)](https://stormworks.fandom.com/wiki/V0.1.23-25)\n\n## Properties\n\n| mass 20 |\n\n## Logic Outputs\n\n| onoff Occupied | onoff Hotkeys 1-6 |\n| --- | --- |\n\nA 'seat' which is intended to be used at the end of a winch so that it can be lowered from a hovering aircraft and then raised again. It has built-in configurable controls through six hotkey buttons. A typical setup is to use the harness to directly control the winch, so you can raise or lower the harness while being seated in it. Note that there is currently no way to automatically get passengers out of seats, so to rescue people with a helicopter and harness setup, you'll either need two harnesses (one for you, one for passengers), or you'll need to be playing in multiplayer with a friend so you can have one person on the ground and at least one person in the helicopter (assuming you've setup a good autopilot for hovering).\n\n## See also\n\n- [Small winch](https://stormworks.fandom.com/wiki/Small_winch)\n- [Medium winch](https://stormworks.fandom.com/wiki/Medium_winch)\n- [Large winch](https://stormworks.fandom.com/wiki/Large_winch)\n- [Huge winch](https://stormworks.fandom.com/wiki/Huge_winch)\n\n## Version history\n\n- [V0.2.2-5](https://stormworks.fandom.com/wiki/V0.2.2-5): Fix - harness now highlights correctly\n- [V0.2.1](https://stormworks.fandom.com/wiki/V0.2.1): Fix - player positions now correct in beds and harness\n- [V0.1.28](https://stormworks.fandom.com/wiki/V0.1.28): Feature - Added labeling support to harness hotkeys in select menu\n- [V0.1.26-27](https://stormworks.fandom.com/wiki/V0.1.26-27): Feature - Can now grab handles while attached to harness\n- [V0.1.26-27](https://stormworks.fandom.com/wiki/V0.1.26-27): Feature - Harness now has logic for hotkeys 1 - 6\n- [V0.1.23 (The Seat Update)](https://stormworks.fandom.com/wiki/V0.1.23-25): Feature - new seat types - harness, stretcher, helm, bed, medical bed",
+    "plain_text": "Harness\n\nPrerequisite\n\nRescue Equipment\n\nCost\n\n$150\n\nDimensions\n\n4×3×3\n\nIntroduced\n\nV0.1.23 (The Seat Update)\n\nProperties\n\nmass\n 20\n\nLogic Outputs\n\nonoff\n Occupied\n\nonoff\n Hotkeys 1-6\n\nA 'seat' which is intended to be used at the end of a winch so that it can be lowered from a hovering aircraft and then raised again. It has built-in configurable controls through six hotkey buttons. A typical setup is to use the harness to directly control the winch, so you can raise or lower the harness while being seated in it. Note that there is currently no way to automatically get passengers out of seats, so to rescue people with a helicopter and harness setup, you'll either need two harnesses (one for you, one for passengers), or you'll need to be playing in multiplayer with a friend so you can have one person on the ground and at least one person in the helicopter (assuming you've setup a good autopilot for hovering).\n\nSee also\n\nSmall winch\n\nMedium winch\n\nLarge winch\n\nHuge winch\n\nVersion history\n\nV0.2.2-5\n: Fix - harness now highlights correctly\n\nV0.2.1\n: Fix - player positions now correct in beds and harness\n\nV0.1.28\n: Feature - Added labeling support to harness hotkeys in select menu\n\nV0.1.26-27\n: Feature - Can now grab handles while attached to harness\n\nV0.1.26-27\n: Feature - Harness now has logic for hotkeys 1 - 6\n\nV0.1.23 (The Seat Update)\n: Feature - new seat types - harness, stretcher, helm, bed, medical bed",
+    "char_count": 2313,
+    "word_count": 254,
+    "sha256": "a21f2c09874f7f0256b1edc84a3caf85eb8cce29dda1f8f35e54d5c117766b15"
+  },
+  "wikitext": "{{Infobox\n  | name=Harness\n  | image=[[File:Harness.jpg|200px]]\n  | prerequisite=[[Rescue Equipment (tech)|Rescue Equipment]]\n  | cost=$150\n  | dimensions=4×3×3\n  | fluidcapacity=\n  | introduced=[[V0.1.23-25|V0.1.23 (The Seat Update)]]\n  \n  | mass= {{Property|mass}} 20\n  | motor=\n  | force=\n  | power=\n  | motor_speed=\n\n  | logicinput1= \n  | logicinput2= \n  | logicinput3=\n  | logicinput4=\n  | logicinput5=\n  | logicinput6=\n\n  | logicoutput1= {{Property|onoff}} Occupied\n  | logicoutput2= {{Property|onoff}} Hotkeys 1-6\n  | logicoutput3=\n  | logicoutput4=\n  | logicoutput5=\n  | logicoutput6=\n\n  | connection1= \n  | connection2=\n  | connection3=\n  | connection4=\n  | connection5=\n  | connection6=\n}}\n\nA 'seat' which is intended to be used at the end of a winch so that it can be lowered from a hovering aircraft and then raised again. It has built-in configurable controls through six hotkey buttons. A typical setup is to use the harness to directly control the winch, so you can raise or lower the harness while being seated in it. Note that there is currently no way to automatically get passengers out of seats, so to rescue people with a helicopter and harness setup, you'll either need two harnesses (one for you, one for passengers), or you'll need to be playing in multiplayer with a friend so you can have one person on the ground and at least one person in the helicopter (assuming you've setup a good autopilot for hovering).\n\n== See also ==\n* [[Small winch]]\n* [[Medium winch]]\n* [[Large winch]]\n* [[Huge winch]]\n\n== Version history ==\n* [[V0.2.2-5]]: Fix - harness now highlights correctly\n* [[V0.2.1]]: Fix - player positions now correct in beds and harness\n* [[V0.1.28]]: Feature - Added labeling support to harness hotkeys in select menu\n* [[V0.1.26-27]]: Feature - Can now grab handles while attached to harness\n* [[V0.1.26-27]]: Feature - Harness now has logic for hotkeys 1 - 6\n* [[V0.1.23-25|V0.1.23 (The Seat Update)]]: Feature - new seat types - harness, stretcher, helm, bed, medical bed\n\n[[Category: Specialist equipment]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Harness",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1020,
+    "revision_id": 3456,
+    "revision_timestamp": "2023-08-10T02:27:14Z",
+    "retrieved_at": "2026-08-31T10:03:20+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

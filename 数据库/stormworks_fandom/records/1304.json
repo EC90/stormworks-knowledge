@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Flare launcher",
+  "display_title": "Flare launcher",
+  "summary": "Alias for Flare Launcher",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Flare Launcher"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Flare launcher -> Flare Launcher",
+    "plain_text": "Redirect: Flare launcher -> Flare Launcher",
+    "char_count": 42,
+    "word_count": 6,
+    "sha256": "4b9409bea269d076897142325aada3ededfe285b150c836f7f450cbd02110aff"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Flare Launcher",
+    "target_url": "https://stormworks.fandom.com/wiki/Flare_Launcher",
+    "target_page_id": 1303,
+    "target_revision_id": 3104
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Flare_launcher",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1304,
+    "revision_id": 2915,
+    "revision_timestamp": "2022-01-11T07:26:09Z",
+    "retrieved_at": "2026-08-31T10:01:49+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Electrics Research",
+  "display_title": "Electrics Research",
+  "summary": "Electrics Research is a\nResearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Electric battery medium",
+    "Electric Charger",
+    "Electric Motor",
+    "Electric Relay",
+    "Generator",
+    "High Capacity Electrics Research",
+    "Radio RX Research",
+    "Research",
+    "Wiki/Game Mechanics/Electricity"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Electricsresearch.png/revision/latest?cb=20240421181203",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Electricsresearch.png/revision/latest?cb=20240421181203",
+      "alt": "Electricsresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Electric](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Electricity)",
+          "Medium [Generator](https://stormworks.fandom.com/wiki/Generator)"
+        ],
+        [
+          "Electric",
+          "Medium Electric Motor"
+        ],
+        [
+          "Electric",
+          "[Electric battery medium](https://stormworks.fandom.com/wiki/Electric_battery_medium)"
+        ],
+        [
+          "Electric",
+          "Electric Relay"
+        ],
+        [
+          "Electric",
+          "Electric Charger"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Electrics Research\n\n[![Electricsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Electricsresearch.png/revision/latest?cb=20240421181203)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Electricsresearch.png/revision/latest?cb=20240421181203)\n\n### Research Points\n\n10\n\n### Research Time\n\n45m 0s\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[High Capacity Electrics](https://stormworks.fandom.com/wiki/High_Capacity_Electrics_Research)\n\n### Makes available\n\n[Radio RX](https://stormworks.fandom.com/wiki/Radio_RX_Research)\n\nElectrics Research is a [Researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Electric](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Electricity) | Medium [Generator](https://stormworks.fandom.com/wiki/Generator) |\n| Electric | Medium Electric Motor |\n| Electric | [Electric battery medium](https://stormworks.fandom.com/wiki/Electric_battery_medium) |\n| Electric | Electric Relay |\n| Electric | Electric Charger |",
+    "plain_text": "Electrics Research\n\nResearch Points\n\n10\n\nResearch Time\n\n45m 0s\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nHigh Capacity Electrics\n\nMakes available\n\nRadio RX\n\nElectrics Research is a\nResearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nElectric\n\nMedium\nGenerator\n\nElectric\n\nMedium\nElectric Motor\n\nElectric\n\nElectric battery medium\n\nElectric\n\nElectric Relay\n\nElectric\n\nElectric Charger",
+    "char_count": 1131,
+    "word_count": 54,
+    "sha256": "3a635033e115abd11425d0291631ac3fdb720cff9ae8ad394010b079dbee00f7"
+  },
+  "wikitext": "{{Research\n  | name=\n  | image=[File:Electricsresearch.png]\n  | points=10\n  | time=45m 0s\n  | unlock=Initially Available\n  | a1=[[High Capacity Electrics Research|High Capacity Electrics]]\n  | a2=[[Radio RX Research|Radio RX]]\n  | a3=\n  | a4=\n  | a5=\n}}\n\n{{PAGENAME}} is a [[Research|Researchable]] item which unlocks the following components:\n\n{| class=\"wikitable sortable\"\n|-\n! Category !! Component\n|-\n| [[Wiki/Game Mechanics/Electricity|Electric]] || Medium [[Generator]]\n|-\n| Electric|| Medium [[Electric Motor]]\n|-\n| Electric|| [[Electric battery medium]]\n|-\n| Electric|| [[Electric Relay]]\n|-\n| Electric|| [[Electric Charger]]\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Electrics_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1437,
+    "revision_id": 3847,
+    "revision_timestamp": "2024-04-21T20:13:56Z",
+    "retrieved_at": "2026-08-31T10:01:40+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

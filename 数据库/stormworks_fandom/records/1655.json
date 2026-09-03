@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components",
+  "display_title": "Wiki/Building/Components",
+  "summary": "Alias for Gameplay/Workbench/Components",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components -> Gameplay/Workbench/Components",
+    "plain_text": "Redirect: Wiki/Building/Components -> Gameplay/Workbench/Components",
+    "char_count": 67,
+    "word_count": 4,
+    "sha256": "eb82c60f3fdbebfa05376c9b0b42721cd2d26b674858cf73584ceb2fabc61afe"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components",
+    "target_page_id": 624,
+    "target_revision_id": 4143
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1655,
+    "revision_id": 4144,
+    "revision_timestamp": "2025-05-14T02:40:53Z",
+    "retrieved_at": "2026-08-31T10:11:05+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

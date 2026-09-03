@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Large Jets Research",
+  "display_title": "Large Jets Research",
+  "summary": "Large Jets is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Helicopters Research",
+    "Jets Research",
+    "Planes Research",
+    "Research",
+    "Wiki/Building/Components/Jet Engines"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e7/Largejetsresearch.png/revision/latest?cb=20240421190524",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e7/Largejetsresearch.png/revision/latest?cb=20240421190524",
+      "alt": "Largejetsresearch",
+      "width": "48",
+      "height": "48"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "Jet Engines",
+          "Large Jet Intake"
+        ],
+        [
+          "Jet Engines",
+          "Jet Turbine Medium"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Large Jets\n\n[![Largejetsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e7/Largejetsresearch.png/revision/latest?cb=20240421190524)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e7/Largejetsresearch.png/revision/latest?cb=20240421190524)\n\n### Research Points\n\n28\n\n### Research Time\n\n0h 50m\n\n## Research Path\n\n### Unlocked by\n\n[Helicopters](https://stormworks.fandom.com/wiki/Helicopters_Research), [Planes](https://stormworks.fandom.com/wiki/Planes_Research), [Jets](https://stormworks.fandom.com/wiki/Jets_Research)\n\nLarge Jets is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| Jet Engines | Large Jet Intake |\n| Jet Engines | Jet Turbine Medium |",
+    "plain_text": "Large Jets\n\nResearch Points\n\n28\n\nResearch Time\n\n0h 50m\n\nResearch Path\n\nUnlocked by\n\nHelicopters\n,\nPlanes\n,\nJets\n\nLarge Jets is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nJet Engines\n\nLarge Jet Intake\n\nJet Engines\n\nJet Turbine Medium",
+    "char_count": 804,
+    "word_count": 39,
+    "sha256": "c2867bf7ed59a1458c6065ddf852637612e2237cc1c684aac2f68f632a68cfd7"
+  },
+  "wikitext": "{{Research\n  | name=Large Jets\n  | image=[File:Largejetsresearch.png]\n  | points=28\n  | time= 0h 50m\n  | unlock= [[Helicopters Research|Helicopters]], [[Planes Research|Planes]], [[Jets Research|Jets]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Large Jets is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Jet Engines|Jet Engines]]||Large Jet Intake\n|-\n|[[Wiki/Building/Components/Jet Engines|Jet Engines]]||Jet Turbine Medium\n|}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Large_Jets_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1515,
+    "revision_id": 3827,
+    "revision_timestamp": "2024-04-21T19:05:50Z",
+    "retrieved_at": "2026-08-31T10:03:51+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

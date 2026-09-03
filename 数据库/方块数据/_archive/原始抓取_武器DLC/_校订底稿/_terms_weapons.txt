@@ -1,0 +1,59 @@
+Machine Gun
+Light Autocannon
+Rotary Autocannon
+Heavy Autocannon
+Battle Cannon
+Artillery Cannon
+Bertha Cannon
+Rocket Launcher
+Autocannon Belt
+Autocannon Ammo Drum
+Machine Gun Ammo Box
+Warhead
+Warhead (EMP)
+Muzzle Brake
+Barrel Extension
+C4 Explosive
+C4 Detonator
+Hand Grenade
+Pistol
+Rifle
+SMG
+Speargun
+Pistol Ammo
+Rifle Ammo
+SMG Ammo
+Speargun Ammo
+Armor Vest
+Chest Rig
+Plate Vest
+Black Hawk Vest
+Bomb Disposal
+Impact Sensor
+Radar Detector
+Camera Medium
+Camera Small
+Camera Gimbal
+Camera Stabilized
+Night Vision Binoculars
+Flare Launcher
+Flare Gun
+Search and Destroy
+Kinetic
+High Explosive
+Fragmentation
+Armor Piercing
+Incendiary
+Muzzle Velocity
+Drag Coefficient
+Projectile
+Warhead Body
+Feeder
+Junction
+Connector
+Belt
+Torpedo
+Missile
+Bomb
+Sea Mine
+Depth Charge

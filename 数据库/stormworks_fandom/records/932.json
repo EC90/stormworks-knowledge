@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Mechanics/Wheels",
+  "display_title": "Gameplay/Mechanics/Wheels",
+  "summary": "The old ones (Small Wheel & Medium Wheel) use different and more stable physics. They do not have any built in suspension.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Wheels     [ edit page ]",
+      "anchor": "Wheels_[_edit_page_]"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Mechanics"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Wheels?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Wheels?action=edit). |\n| --- | --- |\n\n## Wheels\n\nThere are two types of wheels in the game (historically):\n\n- The old ones (Small Wheel & Medium Wheel) use different and more stable physics. They do not have any built in suspension.\n- The new wheels offer wheels with different sizes, each with or without suspension. Sometimes the wheels move even if the brakes are applied, sometimes they do not provide thrust (e.g. when rotated by 90°) or create momentum that lifts your vehicle (sometimes when you place wheels upside down like a reserve wheel).",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nWheels\n\nThere are two types of wheels in the game (historically):\n\nThe old ones (Small Wheel & Medium Wheel) use different and more stable physics. They do not have any built in suspension.\n\nThe new wheels offer wheels with different sizes, each with or without suspension. Sometimes the wheels move even if the brakes are applied, sometimes they do not provide thrust (e.g. when rotated by 90°) or create momentum that lifts your vehicle (sometimes when you place wheels upside down like a reserve wheel).",
+    "char_count": 988,
+    "word_count": 97,
+    "sha256": "b50619581d5f774aab7aa20550308f9e411af18e9421951d1669d75469420510"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\n\n\n\nThere are two types of wheels in the game (historically):\n* The old ones (Small Wheel & Medium Wheel) use different and more stable physics. They do not have any built in suspension.\n* The new wheels offer wheels with different sizes, each with or without suspension. Sometimes the wheels move even if the brakes are applied, sometimes they do not provide thrust (e.g. when rotated by 90°) or create momentum that lifts your vehicle (sometimes when you place wheels upside down like a reserve wheel).\n\n\n\n\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Wheels",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 932,
+    "revision_id": 4259,
+    "revision_timestamp": "2025-05-14T06:15:45Z",
+    "retrieved_at": "2026-08-31T10:02:32+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

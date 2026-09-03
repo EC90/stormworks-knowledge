@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Weapons DLC",
+  "display_title": "Weapons DLC",
+  "summary": "Alias for Search and Destroy DLC",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Search and Destroy DLC"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Weapons DLC -> Search and Destroy DLC",
+    "plain_text": "Redirect: Weapons DLC -> Search and Destroy DLC",
+    "char_count": 47,
+    "word_count": 8,
+    "sha256": "0777a6c5d6aef2c2a8bd23a201ab05a03389730802b95be46abed6dabbf0ea7e"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Search and Destroy DLC",
+    "target_url": "https://stormworks.fandom.com/wiki/Search_and_Destroy_DLC",
+    "target_page_id": 1264,
+    "target_revision_id": 4717
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Weapons_DLC",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1329,
+    "revision_id": 4656,
+    "revision_timestamp": "2025-10-25T14:13:46Z",
+    "retrieved_at": "2026-08-31T10:10:59+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

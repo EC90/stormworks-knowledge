@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Inverse Pyramid 4x4",
+  "display_title": "Inverse Pyramid 4x4",
+  "summary": "\"4x4 inverse pyramid-shaped building block. Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.\"",
+  "template": "Infobox",
+  "attributes": {
+    "name": "Inverse Pyramid 4x4",
+    "image": "File:Inverse Pyramid 4x4.png",
+    "prerequisite": "none",
+    "category": "Blocks",
+    "cost": "$16",
+    "mass": "{{Property|mass}} 12"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| name | Inverse Pyramid 4x4 |\n| image | File:Inverse Pyramid 4x4.png |\n| prerequisite | none |\n| category | Blocks |\n| cost | $16 |\n| mass | {{Property\\|mass}} 12 |",
+  "categories": [
+    "Blocks"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "See also",
+      "anchor": "See_also"
+    }
+  ],
+  "internal_links": [
+    "Inverse Pyramid",
+    "Inverse Pyramid 1x2",
+    "Inverse Pyramid 1x4",
+    "Inverse Pyramid 2x2",
+    "Inverse Pyramid 2x4",
+    "Research",
+    "Wiki/Building/Components/Blocks"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e5/Inverse_Pyramid_4x4.png/revision/latest?cb=20200129211838",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e5/Inverse_Pyramid_4x4.png/revision/latest/scale-to-width-down/268?cb=20200129211838",
+      "alt": "Inverse Pyramid 4x4",
+      "width": "270",
+      "height": "219"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "mass 12"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Inverse Pyramid 4x4\n\n[![Inverse Pyramid 4x4](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e5/Inverse_Pyramid_4x4.png/revision/latest/scale-to-width-down/268?cb=20200129211838)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e5/Inverse_Pyramid_4x4.png/revision/latest?cb=20200129211838)\n\n### [Prerequisite](https://stormworks.fandom.com/wiki/Research)\n\nnone\n\n### Category\n\n[Blocks](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Blocks)\n\n### Cost\n\n$16\n\n## Properties\n\n| mass 12 |\n\n> *\"4x4 inverse pyramid-shaped building block. Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.\"*\n\n## See also\n\n- [Inverse Pyramid](https://stormworks.fandom.com/wiki/Inverse_Pyramid)\n- [Inverse Pyramid 1x2](https://stormworks.fandom.com/wiki/Inverse_Pyramid_1x2)\n- [Inverse Pyramid 1x4](https://stormworks.fandom.com/wiki/Inverse_Pyramid_1x4)\n- [Inverse Pyramid 2x2](https://stormworks.fandom.com/wiki/Inverse_Pyramid_2x2)\n- [Inverse Pyramid 2x4](https://stormworks.fandom.com/wiki/Inverse_Pyramid_2x4)",
+    "plain_text": "Inverse Pyramid 4x4\n\nPrerequisite\n\nnone\n\nCategory\n\nBlocks\n\nCost\n\n$16\n\nProperties\n\nmass\n 12\n\n\"4x4 inverse pyramid-shaped building block. Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.\"\n\nSee also\n\nInverse Pyramid\n\nInverse Pyramid 1x2\n\nInverse Pyramid 1x4\n\nInverse Pyramid 2x2\n\nInverse Pyramid 2x4",
+    "char_count": 1178,
+    "word_count": 63,
+    "sha256": "ca03bafe9252169143c4ae6447146f1f58a684e6a57681dc67cfe615d7bf0957"
+  },
+  "wikitext": "{{Infobox\n  | name=Inverse Pyramid 4x4\n  | image=[[File:Inverse Pyramid 4x4.png]]\n  | prerequisite=none\n  |category=[[Wiki/Building/Components/Blocks|Blocks]]| cost=$16\n  | dimensions=\n  | fluidcapacity=\n  | introduced=\n  \n  | mass= {{Property|mass}} 12\n  | motor=\n  | force=\n  | power=\n  | motor_speed=\n\n  | logicinput1= \n  | logicinput2=\n  | logicinput3=\n  | logicinput4=\n  | logicinput5=\n  | logicinput6=\n\n  | logicoutput1= \n  | logicoutput2=\n  | logicoutput3=\n  | logicoutput4=\n  | logicoutput5=\n  | logicoutput6=\n\n  | connection1= \n  | connection2=\n  | connection3=\n  | connection4=\n  | connection5=\n  | connection6=\n  \n  | adjustparam1=\n  | adjustparam2=\n}}<blockquote>''\"4x4 inverse pyramid-shaped building block. Components can be attached to all faces, with the exception of the triangular face. Inverse pyramids are useful for closing gaps between perpendicular lines of wedge and pyramid blocks.\"''</blockquote>\n==See also==\n*[[Inverse Pyramid]]\n*[[Inverse Pyramid 1x2]]\n*[[Inverse Pyramid 1x4]]\n*[[Inverse Pyramid 2x2]]\n*[[Inverse Pyramid 2x4]]\n[[Category:Blocks]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Inverse_Pyramid_4x4",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1580,
+    "revision_id": 3880,
+    "revision_timestamp": "2024-04-21T22:38:25Z",
+    "retrieved_at": "2026-08-31T10:03:40+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

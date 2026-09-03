@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Custom Doors Research",
+  "display_title": "Custom Doors Research",
+  "summary": "Custom doors is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Doors Research",
+    "Research",
+    "Wiki/Building/Components/Mechanics"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Customdoorsresearch.png/revision/latest?cb=20240421183835",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Customdoorsresearch.png/revision/latest?cb=20240421183835",
+      "alt": "Customdoorsresearch",
+      "width": "49",
+      "height": "49"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Door Panel Edge"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Door Panel Corner"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Door Frame Controller"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Door Frame Corner"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Door Frame Edge"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Robotic Door Hinge"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Custom Doors\n\n[![Customdoorsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Customdoorsresearch.png/revision/latest?cb=20240421183835)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4b/Customdoorsresearch.png/revision/latest?cb=20240421183835)\n\n### Research Points\n\n10\n\n### Research Time\n\n1h 10m\n\n## Research Path\n\n### Unlocked by\n\n[Doors](https://stormworks.fandom.com/wiki/Doors_Research)\n\nCustom doors is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Door Panel Edge |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Door Panel Corner |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Door Frame Controller |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Door Frame Corner |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Door Frame Edge |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Robotic Door Hinge |",
+    "plain_text": "Custom Doors\n\nResearch Points\n\n10\n\nResearch Time\n\n1h 10m\n\nResearch Path\n\nUnlocked by\n\nDoors\n\nCustom doors is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nMechanics\n\nDoor Panel Edge\n\nMechanics\n\nDoor Panel Corner\n\nMechanics\n\nDoor Frame Controller\n\nMechanics\n\nDoor Frame Corner\n\nMechanics\n\nDoor Frame Edge\n\nMechanics\n\nRobotic Door Hinge",
+    "char_count": 1253,
+    "word_count": 51,
+    "sha256": "75671ac181cb70696f2ddab271061e3916294a74ca5ada5d69452195908ba42c"
+  },
+  "wikitext": "{{Research\n  | name=Custom Doors\n  | image=[File:Customdoorsresearch.png]\n  | points=10\n  | time= 1h 10m\n  | unlock= [[Doors Research|Doors]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Custom doors is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Door Panel Edge\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Door Panel Corner\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Door Frame Controller\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Door Frame Corner\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Door Frame Edge\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Robotic Door Hinge\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Custom_Doors_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1489,
+    "revision_id": 3777,
+    "revision_timestamp": "2024-04-21T18:39:04Z",
+    "retrieved_at": "2026-08-31T10:01:24+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

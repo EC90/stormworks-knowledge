@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Propulsion",
+  "display_title": "Wiki/Building/Components/Propulsion",
+  "summary": "Alias for Gameplay/Workbench/Components/Propulsion",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Propulsion"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Propulsion -> Gameplay/Workbench/Components/Propulsion",
+    "plain_text": "Redirect: Wiki/Building/Components/Propulsion -> Gameplay/Workbench/Components/Propulsion",
+    "char_count": 89,
+    "word_count": 4,
+    "sha256": "7d42faef1b370bbb9221c19fd5d756519f9f91a4248e4cd212a91b43afb69c7d"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Propulsion",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Propulsion",
+    "target_page_id": 633,
+    "target_revision_id": 4699
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1668,
+    "revision_id": 4170,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-31T10:11:18+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

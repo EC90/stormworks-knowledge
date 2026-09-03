@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Shipping container",
+  "display_title": "Shipping container",
+  "summary": "Shipping containers (Also known as ISO-L containers) can be found at freight terminals in Stormworks, and can be transported to other terminals for various amounts of money. Short trips may earn as little as $1,000. Longer trips, like from the Sawyer Island's\nNorth Harbor\n up to the\nBVG Logistics Depot\n in the arctic can earn $18,000 - $46,000+.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Design",
+      "anchor": "Design"
+    },
+    {
+      "level": 3,
+      "title": "Size",
+      "anchor": "Size"
+    },
+    {
+      "level": 3,
+      "title": "Connectors",
+      "anchor": "Connectors"
+    },
+    {
+      "level": 3,
+      "title": "Rope anchors",
+      "anchor": "Rope_anchors"
+    },
+    {
+      "level": 3,
+      "title": "Sliding connector tracks",
+      "anchor": "Sliding_connector_tracks"
+    },
+    {
+      "level": 3,
+      "title": "Hardpoints",
+      "anchor": "Hardpoints"
+    },
+    {
+      "level": 3,
+      "title": "Labels",
+      "anchor": "Labels"
+    },
+    {
+      "level": 3,
+      "title": "Logic",
+      "anchor": "Logic"
+    },
+    {
+      "level": 2,
+      "title": "See also",
+      "anchor": "See_also"
+    },
+    {
+      "level": 2,
+      "title": "Patch notes",
+      "anchor": "Patch_notes"
+    },
+    {
+      "level": 3,
+      "title": "V1.6.13",
+      "anchor": "V1.6.13"
+    },
+    {
+      "level": 3,
+      "title": "V1.0.21",
+      "anchor": "V1.0.21"
+    },
+    {
+      "level": 3,
+      "title": "V0.6.2",
+      "anchor": "V0.6.2"
+    },
+    {
+      "level": 3,
+      "title": "V0.6.1",
+      "anchor": "V0.6.1"
+    }
+  ],
+  "internal_links": [
+    "BVG Logistics Depot",
+    "North Harbor",
+    "Trailer",
+    "V0.6.1",
+    "V0.6.2",
+    "V1.0.21",
+    "V1.6.13"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/86/Shipping_container_2.png/revision/latest?cb=20250718010226",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/86/Shipping_container_2.png/revision/latest/scale-to-width-down/253?cb=20250718010226",
+      "alt": "Note weight of 2,200 units (22,000 kg) shown on left side.",
+      "width": "253",
+      "height": "142"
+    }
+  ],
+  "tables": [],
+  "content": {
+    "markdown": "[![Note weight of 2,200 units (22,000 kg) shown on left side.](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/86/Shipping_container_2.png/revision/latest/scale-to-width-down/253?cb=20250718010226)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/86/Shipping_container_2.png/revision/latest?cb=20250718010226)\n\n[https://stormworks.fandom.com/wiki/File:Shipping_container_2.png](https://stormworks.fandom.com/wiki/File:Shipping_container_2.png)\n\nStandard shipping container\n\nShipping containers (Also known as ISO-L containers) can be found at freight terminals in Stormworks, and can be transported to other terminals for various amounts of money. Short trips may earn as little as $1,000. Longer trips, like from the Sawyer Island's [North Harbor](https://stormworks.fandom.com/wiki/North_Harbor) up to the [BVG Logistics Depot](https://stormworks.fandom.com/wiki/BVG_Logistics_Depot) in the arctic can earn $18,000 - $46,000+.\n\nA blank built-in shipping container is available in the presets.\n\n## Design\n\nAll built-in shipping containers follow the same standard configuration as described below.\n\n### Size\n\n11 blocks tall x 11 blocks wide x 29 blocks long (2.75 x 2.75 x 7.25 meters).\n\n### Connectors\n\nThey have electric connectors facing upward at each of the top corners, as well as electric connectors facing downward at each of the bottom corners, allowing the containers to be stacked. On the square faces at both ends, there are buttons to turn the connectors on/off, with one at the top (controlling the top connectors) and one at the bottom (controlling the bottom connectors). Indicator lights show whether or not the connectors are active: red is off, green is on.\n\n### Rope anchors\n\nAt the top corners, there are four rope anchors, just inside (lengthwise) from the electric connectors.\n\n### Sliding connector tracks\n\nThere are sliding connector tracks facing downward along the bottom on both long edges, ending at the electric connectors.\n\n### Hardpoints\n\nAs of [V1.6.13](https://stormworks.fandom.com/wiki/V1.6.13) shipping containers have hardpoint connector attachments at the midpoint along the bottom edge on both long sides, at the exact middle of both square ends of the container, and one on the top in the middle.\n\n### Labels\n\nCargo containers are generally labelled on all sides with their mass in Stormworks mass units (1 SMU = 10 kg). The fuel-tanker container variants only have their weight labelled on their long edges.\n\nAs of [V1.6.13](https://stormworks.fandom.com/wiki/V1.6.13), it appears that all regular cargo containers are 1,400 mass units and all fuel-tanker containers are 1,200 mass units.\n\n### Logic\n\nShipping containers support a composite connection through any of the top electric connectors. A pulse on Channel 1 or Channel 31 will toggle the top electric connectors in the same way as the top button. A pulse on Channel 2 will toggle the bottom electric connectors in the same way as the bottom button.\n\nAdditionally, the shipping containers will send data on the composite connection through all of the top electric connectors. Channel 1 will be on if the top connectors are enabled. Channel 2 will be on if the bottom connectors are enabled. Channel 1 1 will be on if the top connectors are disabled. Channel 12 will be on if the bottom connectors are disabled. Channel 31 will always be on.\n\n## See also\n\n- [Trailer](https://stormworks.fandom.com/wiki/Trailer)\n\n## Patch notes\n\n### [V1.6.13](https://stormworks.fandom.com/wiki/V1.6.13)\n\n- Rework - Updated and improved the default cargo containers (#9615 #10724)\n\n### [V1.0.21](https://stormworks.fandom.com/wiki/V1.0.21)\n\n- Rework - Cargo container design rework (Toggle buttons for connectors)\n\n### [V0.6.2](https://stormworks.fandom.com/wiki/V0.6.2)\n\n- Fix - Fixed some terrain issues at container depot, shipbreaking yard and arctic outpost\n\n### [V0.6.1](https://stormworks.fandom.com/wiki/V0.6.1)\n\n- Feature - Added arctic biome with new islands to explore including a second \"mega island\" (located roughly 100km north of the main spawn area)\n  - [Shipping container depot](https://stormworks.fandom.com/wiki/BVG_Logistics_Depot)",
+    "plain_text": "Standard shipping container\n\nShipping containers (Also known as ISO-L containers) can be found at freight terminals in Stormworks, and can be transported to other terminals for various amounts of money. Short trips may earn as little as $1,000. Longer trips, like from the Sawyer Island's\nNorth Harbor\n up to the\nBVG Logistics Depot\n in the arctic can earn $18,000 - $46,000+.\n\nA blank built-in shipping container is available in the presets.\n\nDesign\n\nAll built-in shipping containers follow the same standard configuration as described below.\n\nSize\n\n11 blocks tall x 11 blocks wide x 29 blocks long (2.75 x 2.75 x 7.25 meters).\n\nConnectors\n\nThey have electric connectors facing upward at each of the top corners, as well as electric connectors facing downward at each of the bottom corners, allowing the containers to be stacked. On the square faces at both ends, there are buttons to turn the connectors on/off, with one at the top (controlling the top connectors) and one at the bottom (controlling the bottom connectors). Indicator lights show whether or not the connectors are active: red is off, green is on.\n\nRope anchors\n\nAt the top corners, there are four rope anchors, just inside (lengthwise) from the electric connectors.\n\nSliding connector tracks\n\nThere are sliding connector tracks facing downward along the bottom on both long edges, ending at the electric connectors.\n\nHardpoints\n\nAs of\nV1.6.13\n shipping containers have hardpoint connector attachments at the midpoint along the bottom edge on both long sides, at the exact middle of both square ends of the container, and one on the top in the middle.\n\nLabels\n\nCargo containers are generally labelled on all sides with their mass in Stormworks mass units (1 SMU = 10 kg). The fuel-tanker container variants only have their weight labelled on their long edges.\n\nAs of\nV1.6.13\n, it appears that all regular cargo containers are 1,400 mass units and all fuel-tanker containers are 1,200 mass units.\n\nLogic\n\nShipping containers support a\ncomposite\n connection through any of the top electric connectors.  A pulse on\nChannel 1\n or\nChannel 31\n will toggle the top electric connectors in the same way as the top button.  A pulse on\nChannel 2\n will toggle the bottom electric connectors in the same way as the bottom button.\n\nAdditionally, the shipping containers will send data on the\ncomposite\n connection through all of the top electric connectors.\nChannel 1\n will be on if the top connectors are enabled.\nChannel 2\n will be on if the bottom connectors are enabled.\nChannel 1 1\n will be on if the top connectors are disabled.\nChannel 12\n will be on if the bottom connectors are disabled.\nChannel 31\n will always be on.\n\nSee also\n\nTrailer\n\nPatch notes\n\nV1.6.13\n\nRework - Updated and improved the default cargo containers (#9615 #10724)\n\nV1.0.21\n\nRework - Cargo container design rework (Toggle buttons for connectors)\n\nV0.6.2\n\nFix - Fixed some terrain issues at container depot, shipbreaking yard and arctic outpost\n\nV0.6.1\n\nFeature - Added arctic biome with new islands to explore including a second \"mega island\" (located roughly 100km north of the main spawn area)\n\nShipping container depot",
+    "char_count": 4173,
+    "word_count": 535,
+    "sha256": "75ffc1dae7f0682828577ed16606be152e7cdfa64a1cebed5c1013d67e2feeec"
+  },
+  "wikitext": "[[File:Shipping_container_2.png|alt=Note weight of 2,200 units (22,000 kg) shown on left side.|thumb|253x253px|Standard shipping container]]\n\nShipping containers (Also known as ISO-L containers) can be found at freight terminals in Stormworks, and can be transported to other terminals for various amounts of money. Short trips may earn as little as $1,000. Longer trips, like from the Sawyer Island's [[North Harbor]] up to the [[BVG Logistics Depot]] in the arctic can earn $18,000 - $46,000+.\n\nA blank built-in shipping container is available in the presets.\n\n==Design==\nAll built-in shipping containers follow the same standard configuration as described below.\n\n===Size ===\n11 blocks tall x 11 blocks wide x 29 blocks long (2.75 x 2.75 x 7.25 meters).\n\n=== Connectors===\nThey have electric connectors facing upward at each of the top corners, as well as electric connectors facing downward at each of the bottom corners, allowing the containers to be stacked. On the square faces at both ends, there are buttons to turn the connectors on/off, with one at the top (controlling the top connectors) and one at the bottom (controlling the bottom connectors). Indicator lights show whether or not the connectors are active: red is off, green is on.\n\n===Rope anchors===\nAt the top corners, there are four rope anchors, just inside (lengthwise) from the electric connectors.\n\n===Sliding connector tracks===\nThere are sliding connector tracks facing downward along the bottom on both long edges, ending at the electric connectors.\n\n=== Hardpoints ===\nAs of [[V1.6.13]] shipping containers have hardpoint connector attachments at the midpoint along the bottom edge on both long sides, at the exact middle of both square ends of the container, and one on the top in the middle.\n\n=== Labels ===\nCargo containers are generally labelled on all sides with their mass in Stormworks mass units (1 SMU = 10 kg). The fuel-tanker container variants only have their weight labelled on their long edges.\n\nAs of [[V1.6.13]], it appears that all regular cargo containers are 1,400 mass units and all fuel-tanker containers are 1,200 mass units.\n\n=== Logic ===\nShipping containers support a <font color=\"BlueViolet\">composite</font> connection through any of the top electric connectors.  A pulse on <font color=\"Crimson\">Channel 1 </font> or <font color=\"Crimson\">Channel 31 </font> will toggle the top electric connectors in the same way as the top button.  A pulse on <font color=\"Crimson\">Channel 2 </font> will toggle the bottom electric connectors in the same way as the bottom button.\n\nAdditionally, the shipping containers will send data on the <font color=\"BlueViolet\">composite</font> connection through all of the top electric connectors.  <font color=\"Crimson\">Channel 1 </font> will be on if the top connectors are enabled.  <font color=\"Crimson\">Channel 2 </font> will be on if the bottom connectors are enabled.  <font color=\"Crimson\">Channel 1 1</font> will be on if the top connectors are disabled.  <font color=\"Crimson\">Channel 12 </font> will be on if the bottom connectors are disabled.  <font color=\"Crimson\">Channel 31 </font> will always be on.\n\n== See also ==\n* [[Trailer]]\n\n== Patch notes ==\n=== [[V1.6.13]] ===\n* Rework - Updated and improved the default cargo containers (#9615 #10724)\n\n=== [[V1.0.21]] ===\n* Rework - Cargo container design rework (Toggle buttons for connectors)\n\n=== [[V0.6.2]] ===\n* Fix - Fixed some terrain issues at container depot, shipbreaking yard and arctic outpost\n\n=== [[V0.6.1]] ===\n* Feature - Added arctic biome with new islands to explore including a second \"mega island\" (located roughly 100km north of the main spawn area)\n** [[BVG Logistics Depot|Shipping container depot]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Shipping_container",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1316,
+    "revision_id": 4559,
+    "revision_timestamp": "2025-07-29T01:32:20Z",
+    "retrieved_at": "2026-08-31T10:04:56+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

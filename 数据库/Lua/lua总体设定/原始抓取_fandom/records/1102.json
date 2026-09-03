@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Mechanics/Lua",
+  "display_title": "Gameplay/Mechanics/Lua",
+  "summary": "Stormworks offers a special logic component, the \"Script\". It allows you to program Lua code that can interact with composite data and draw onto video signals.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Lua     [ edit page ]",
+      "anchor": "Lua_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Introduction",
+      "anchor": "Introduction"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Mechanics",
+    "Wiki/Guides/Lua"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Lua?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Lua?action=edit). |\n| --- | --- |\n\n## Lua\n\n## Introduction\n\nStormworks offers a special logic component, the \"Script\". It allows you to program Lua code that can interact with composite data and draw onto video signals.\n\nIf you want to use Lua in Stormworks [read the Lua Guide](https://stormworks.fandom.com/wiki/Wiki/Guides/Lua)",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nLua\n\nIntroduction\n\nStormworks offers a special logic component, the \"Script\". It allows you to program Lua code that can interact with composite data and draw onto video signals.\n\nIf you want to use Lua in Stormworks\n read the Lua Guide",
+    "char_count": 768,
+    "word_count": 52,
+    "sha256": "0bf20e69282c1eea1a2131ddcdbf8cc5bcf3193ebfceb22e1c46491728e05886"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\n\n\n==Introduction==\nStormworks offers a special logic component, the \"Script\". It allows you to program Lua code that can interact with composite data and draw onto video signals.\n<br>\n\n\nIf you want to use Lua in Stormworks [[Wiki/Guides/Lua | read the Lua Guide]]\n\n\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Lua",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1102,
+    "revision_id": 4245,
+    "revision_timestamp": "2025-05-14T06:15:44Z",
+    "retrieved_at": "2026-08-30T17:09:57+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Rescue Equipment Research",
+  "display_title": "Rescue Equipment Research",
+  "summary": "Rescue equipment is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Advanced Rescue Equipment Research",
+    "Arctic Rescue Research",
+    "Diving Equipment Research",
+    "Firefighting Equipment Research",
+    "Research",
+    "Wiki/Building/Components/Specialist Equipment"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c5/Rescueequipmentresearch.png/revision/latest?cb=20240421182057",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c5/Rescueequipmentresearch.png/revision/latest?cb=20240421182057",
+      "alt": "Rescueequipmentresearch",
+      "width": "48",
+      "height": "48"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "Specialist Equipment",
+          "Harness"
+        ],
+        [
+          "Specialist Equipment",
+          "Stretcher"
+        ],
+        [
+          "Specialist Equipment",
+          "Medical Bed"
+        ],
+        [
+          "Specialist Equipment",
+          "Flare Launcher"
+        ],
+        [
+          "Specialist Equipment",
+          "Medium Winch"
+        ],
+        [
+          "Specialist Equipment",
+          "Small Winch"
+        ],
+        [
+          "Specialist Equipment",
+          "Pulley"
+        ],
+        [
+          "Specialist Equipment",
+          "Pulley (Corner)"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Rescue Equipment\n\n[![Rescueequipmentresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c5/Rescueequipmentresearch.png/revision/latest?cb=20240421182057)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c5/Rescueequipmentresearch.png/revision/latest?cb=20240421182057)\n\n### Research Points\n\n10\n\n### Research Time\n\n1h 10m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[Advanced Rescue Equipment](https://stormworks.fandom.com/wiki/Advanced_Rescue_Equipment_Research)\n\n### Makes available\n\n[Arctic Rescue](https://stormworks.fandom.com/wiki/Arctic_Rescue_Research)\n\n### Makes available\n\n[Diving Equipment](https://stormworks.fandom.com/wiki/Diving_Equipment_Research)\n\n### Makes available\n\n[Firefighting Equipment](https://stormworks.fandom.com/wiki/Firefighting_Equipment_Research)\n\nRescue equipment is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| Specialist Equipment | Harness |\n| Specialist Equipment | Stretcher |\n| Specialist Equipment | Medical Bed |\n| Specialist Equipment | Flare Launcher |\n| Specialist Equipment | Medium Winch |\n| Specialist Equipment | Small Winch |\n| Specialist Equipment | Pulley |\n| Specialist Equipment | Pulley (Corner) |",
+    "plain_text": "Rescue Equipment\n\nResearch Points\n\n10\n\nResearch Time\n\n1h 10m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nAdvanced Rescue Equipment\n\nMakes available\n\nArctic Rescue\n\nMakes available\n\nDiving Equipment\n\nMakes available\n\nFirefighting Equipment\n\nRescue equipment is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nSpecialist Equipment\n\nHarness\n\nSpecialist Equipment\n\nStretcher\n\nSpecialist Equipment\n\nMedical Bed\n\nSpecialist Equipment\n\nFlare Launcher\n\nSpecialist Equipment\n\nMedium Winch\n\nSpecialist Equipment\n\nSmall Winch\n\nSpecialist Equipment\n\nPulley\n\nSpecialist Equipment\n\nPulley (Corner)",
+    "char_count": 1336,
+    "word_count": 74,
+    "sha256": "ecc7a52ca19a687cedd94056873b58d01763651b7a8d1680657b0b60542e8b4e"
+  },
+  "wikitext": "{{Research\n  | name=Rescue Equipment\n  | image=[File:Rescueequipmentresearch.png]\n  | points=10\n  | time= 1h 10m\n  | unlock= Initially Available\n  | a1=[[Advanced Rescue Equipment Research|Advanced Rescue Equipment]]\n  | a2=[[Arctic Rescue Research|Arctic Rescue]]\n  | a3=[[Diving Equipment Research|Diving Equipment]]\n  | a4=[[Firefighting Equipment Research|Firefighting Equipment]]\n  | a5=\n}}Rescue equipment is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Harness\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Stretcher\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Medical Bed\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Flare Launcher\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Medium Winch\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Small Winch\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Pulley\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Pulley (Corner)\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Rescue_Equipment_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1479,
+    "revision_id": 3746,
+    "revision_timestamp": "2024-04-21T18:21:22Z",
+    "retrieved_at": "2026-08-31T10:04:48+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

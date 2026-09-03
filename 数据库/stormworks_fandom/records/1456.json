@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Firebox",
+  "display_title": "Firebox",
+  "summary": "A firebox is a component that produces heat by burning or using a certain resource. There are currently 4 in the game.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Heat",
+    "Power"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Firebox",
+      "anchor": "Firebox"
+    },
+    {
+      "level": 3,
+      "title": "Firebox Types",
+      "anchor": "Firebox_Types"
+    }
+  ],
+  "internal_links": [],
+  "external_links": [],
+  "images": [],
+  "tables": [
+    {
+      "index": 1,
+      "caption": "",
+      "classes": [
+        "fandom-table"
+      ],
+      "rows": [
+        [
+          "",
+          "Firebox",
+          "Firebox Large",
+          "Industrial Diesel Furnace",
+          "Electric Furnace"
+        ],
+        [
+          "Size",
+          "5x3x3",
+          "7x5x5",
+          "7x5x5",
+          "5x3x3"
+        ],
+        [
+          "Mass",
+          "100",
+          "400",
+          "350",
+          "220"
+        ],
+        [
+          "Fuel",
+          "Coal",
+          "Coal",
+          "Diesel",
+          "Electric"
+        ],
+        [
+          "Connections",
+          "Coolant In Coolant Out Air Exhaust",
+          "Coolant In Coolant Out Air Exhaust",
+          "Coolant In Coolant Out Air Exhaust",
+          "Coolant In Coolant out"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Firebox\n\nA firebox is a component that produces heat by burning or using a certain resource. There are currently 4 in the game.\n\n### Firebox Types\n\n|  | Firebox | Firebox Large | Industrial Diesel Furnace | Electric Furnace |\n| --- | --- | --- | --- | --- |\n| Size | 5x3x3 | 7x5x5 | 7x5x5 | 5x3x3 |\n| Mass | 100 | 400 | 350 | 220 |\n| Fuel | Coal | Coal | Diesel | Electric |\n| Connections | Coolant In Coolant Out Air Exhaust | Coolant In Coolant Out Air Exhaust | Coolant In Coolant Out Air Exhaust | Coolant In Coolant out |",
+    "plain_text": "Firebox\n\nA firebox is a component that produces heat by burning or using a certain resource. There are currently 4 in the game.\n\nFirebox Types\n\nFirebox\n\nFirebox Large\n\nIndustrial Diesel Furnace\n\nElectric Furnace\n\nSize\n\n5x3x3\n\n7x5x5\n\n7x5x5\n\n5x3x3\n\nMass\n\n100\n\n400\n\n350\n\n220\n\nFuel\n\nCoal\n\nCoal\n\nDiesel\n\nElectric\n\nConnections\n\nCoolant In\n\nCoolant Out\nAir\nExhaust\n\nCoolant In\n\nCoolant Out\nAir\nExhaust\n\nCoolant In\n\nCoolant Out\nAir\nExhaust\n\nCoolant In\n\nCoolant out",
+    "char_count": 529,
+    "word_count": 71,
+    "sha256": "fdcf184e8dd098e689d647d960d98d8a0333f719bf0bddc918a99283bf5af4f7"
+  },
+  "wikitext": "== Firebox==\nA firebox is a component that produces heat by burning or using a certain resource. There are currently 4 in the game.\n\n===Firebox Types===\n{| class=\"fandom-table\"\n|+\n!\n!Firebox \n!Firebox Large\n!Industrial Diesel Furnace\n!Electric Furnace\n|-\n!Size \n|5x3x3\n|7x5x5\n|7x5x5\n|5x3x3\n|-\n!Mass\n|100\n|400\n|350\n|220\n|-\n!Fuel\n|Coal\n|Coal\n|Diesel\n|Electric\n|-\n!Connections\n|Coolant In\nCoolant Out\nAir\nExhaust \n|Coolant In\nCoolant Out\nAir\nExhaust \n|Coolant In\nCoolant Out\nAir\nExhaust \n|Coolant In\nCoolant out\n|}\n[[Category:Heat]]\n[[Category:Power]]",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Firebox",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1456,
+    "revision_id": 3914,
+    "revision_timestamp": "2024-05-25T18:47:22Z",
+    "retrieved_at": "2026-08-31T10:01:45+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

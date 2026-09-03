@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Mechanics/Trim",
+  "display_title": "Gameplay/Mechanics/Trim",
+  "summary": "For planes, pitch trim is required whenever the\ncenter of mass\n is not the same as the center of lift. It is normal for the center of mass to be slightly forward of the center of lift to improve stability, but this will result in the plane constantly pitching downwards slightly. Constant control inputs are required to counteract this.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Trim     [ edit page ]",
+      "anchor": "Trim_[_edit_page_]"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Mechanics",
+    "V1.4.14",
+    "Wiki/Building/Components/User Input",
+    "Wiki/Game Mechanics/Center of Mass"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Trim?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Trim?action=edit). |\n| --- | --- |\n\n## Trim\n\nThis article was last edited for [V1.4.14](https://stormworks.fandom.com/wiki/V1.4.14) (29 Mar 2022).\n\nFor planes, pitch trim is required whenever the [center of mass](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Center_of_Mass) is not the same as the center of lift. It is normal for the center of mass to be slightly forward of the center of lift to improve stability, but this will result in the plane constantly pitching downwards slightly. Constant control inputs are required to counteract this.\n\nFor single-rotor helicopters, the rotor will induce a torque on the vehicle causing it to yaw left or right. A tail rotor is normally used to counteract this. This also requires constant control inputs to counteract.\n\nTrim is a constant control input which can be adjusted to counteract these forces so that aircraft will tend to just fly straight instead of constantly pitching down, yawing, or rolling.\n\nTrim can be set for every axis at [pilot seat](https://stormworks.fandom.com/wiki/Wiki/Building/Components/User_Input), [pilot seat (HOTAS)](https://stormworks.fandom.com/wiki/Wiki/Building/Components/User_Input) or [helm](https://stormworks.fandom.com/wiki/Wiki/Building/Components/User_Input). Trim is adjusted from the properties menu of the seat in the vehicle editor, or in-game while in the control seat by holding Left-Alt (Default).",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nTrim\n\nThis article was last edited for\nV1.4.14\n (29 Mar 2022).\n\nFor planes, pitch trim is required whenever the\ncenter of mass\n is not the same as the center of lift. It is normal for the center of mass to be slightly forward of the center of lift to improve stability, but this will result in the plane constantly pitching downwards slightly. Constant control inputs are required to counteract this.\n\nFor single-rotor helicopters, the rotor will induce a torque on the vehicle causing it to yaw left or right. A tail rotor is normally used to counteract this. This also requires constant control inputs to counteract.\n\nTrim is a constant control input which can be adjusted to counteract these forces so that aircraft will tend to just fly straight instead of constantly pitching down, yawing, or rolling.\n\nTrim can be set for every axis at\npilot seat\n,\npilot seat (HOTAS)\n or\nhelm\n. Trim is adjusted from the properties menu of the seat in the vehicle editor, or in-game while in the control seat by holding Left-Alt (Default).",
+    "char_count": 1842,
+    "word_count": 194,
+    "sha256": "d128a4c1b2f571aadf561bc9a7b691ec3d2c0f2bb62595ebf4a0f1d1c27fa69b"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content= \n\nThis article was last edited for [[V1.4.14]] (29 Mar 2022).\n\nFor planes, pitch trim is required whenever the [[Wiki/Game Mechanics/Center of Mass|center of mass]] is not the same as the center of lift. It is normal for the center of mass to be slightly forward of the center of lift to improve stability, but this will result in the plane constantly pitching downwards slightly. Constant control inputs are required to counteract this.\n\nFor single-rotor helicopters, the rotor will induce a torque on the vehicle causing it to yaw left or right. A tail rotor is normally used to counteract this. This also requires constant control inputs to counteract.\n\nTrim is a constant control input which can be adjusted to counteract these forces so that aircraft will tend to just fly straight instead of constantly pitching down, yawing, or rolling.\n\nTrim can be set for every axis at [[Wiki/Building/Components/User Input|pilot seat]], [[Wiki/Building/Components/User Input|pilot seat (HOTAS)]] or [[Wiki/Building/Components/User Input|helm]]. Trim is adjusted from the properties menu of the seat in the vehicle editor, or in-game while in the control seat by holding Left-Alt (Default).\n\n}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Trim",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 953,
+    "revision_id": 4257,
+    "revision_timestamp": "2025-05-14T06:15:45Z",
+    "retrieved_at": "2026-08-31T10:02:31+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "RCS thruster",
+  "display_title": "RCS thruster",
+  "summary": "RCS thrusters are multi-directional inert gas rockets used for stabilizing spacecraft and making fine adjustments in rotation and position.",
+  "template": "Infobox",
+  "attributes": {
+    "name": "RCS Thruster",
+    "cost": "$140",
+    "dimensions": "1x1x1",
+    "mass": "{{Property|mass}} 1",
+    "logicinput1": "{{Property|composite}} Composite input",
+    "connection1": "{{Property|electric}}",
+    "connection2": "{{Property|fluid}} Fluid supply",
+    "adjustparam1": "Power",
+    "adjustparam2": "Stabilization threshold"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| name | RCS Thruster |\n| cost | $140 |\n| dimensions | 1x1x1 |\n| mass | {{Property\\|mass}} 1 |\n| logicinput1 | {{Property\\|composite}} Composite input |\n| connection1 | {{Property\\|electric}} |\n| connection2 | {{Property\\|fluid}} Fluid supply |\n| adjustparam1 | Power |\n| adjustparam2 | Stabilization threshold |",
+  "categories": [
+    "Electric_components"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Control",
+      "anchor": "Control"
+    },
+    {
+      "level": 2,
+      "title": "Fuel and thrust",
+      "anchor": "Fuel_and_thrust"
+    }
+  ],
+  "internal_links": [
+    "Fluid jet",
+    "Research"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "mass 1"
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "composite Composite input"
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "electric",
+          "fluid Fluid supply"
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "Power",
+          "Stabilization threshold"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## RCS Thruster\n\n### Cost\n\n$140\n\n### Dimensions\n\n1x1x1\n\n## Properties\n\n| mass 1 |\n\n## Logics Inputs\n\n| composite Composite input |\n\n## Connections\n\n| electric | fluid Fluid supply |\n| --- | --- |\n\n## Adjustable parameters\n\n| Power | Stabilization threshold |\n| --- | --- |\n\nRCS thrusters are multi-directional inert gas rockets used for stabilizing spacecraft and making fine adjustments in rotation and position.\n\n\"A fluid jet that fires pressurized air for altitude (sic) control and translation. The reaction control system can fire in 4 non-cardinal directions resulting in 5 directions of motion. RCS thrusters also have body relative activation modes where thrusters will collaborate from different orientations to achieve the desired translation or rotation. The RCS thruster also has positional and rotational stabilization toggles.\"\n\n## Control\n\nRCS thrusters have 18 boolean input channels. Channels 1-4 control the RCS thrusters based upon how the thruster is oriented (relative to the large and small arrows indicated on each thruster in the construction workbench interface). Channels 5-6 let the thrusters respectively control the vehicle's positioning and rotation, regardless of their orientation on the vehicle. Channels 7-18 control the vehicle independently of how they were oriented on it (directions in parentheses are relative to the enormous forward arrow shown at the bottom of the construction workbench interface):\n\n1. Component X+ (move in the direction of the thruster's little arrow)\n2. Component X- (opposite of 1)\n3. Component Z+ (move in the direction of the thruster's big arrow)\n4. Component Z- (opposite of 3)\n5. Enable position stabilization\n6. Enable rotation stabilization\n7. Body X+ (move right)\n8. Body X- (move left)\n9. Body Y+ (move up)\n10. Body Y- (move down)\n11. Body Z+ (move forward)\n12. Body Z- (move backward)\n13. Body Rotate X+ (pitch down)\n14. Body Rotate X- (pitch up)\n15. Body Rotate Y+ (yaw right)\n16. Body Rotate Y- (yaw left)\n17. Body Rotate Z+ (roll left)\n18. Body Rotate Z- (roll right)\n\n## Fuel and thrust\n\nRCS thrusters can work with pressurized gases including air, oxygen, nitrogen, hydrogen, and steam. The type of gas makes no difference in produced thrust. RCS thrusters will not work with fluids like water (for that, see the [fluid jet](https://stormworks.fandom.com/wiki/Fluid_jet)). RCS thrust is relative to pressure, but quite small, and quite inefficient compared to liquid fuel rockets even at full pressure (59.4 atm). With fully pressurized tanks, thrust is enough to lift about 18 mass units against gravity (~1,800 N). Assuming constant pressure (e.g. by using a pump to constantly top off pressure in a small tank), producing this amount of thrust will consume the full contents of a huge gas tank in about 20 minutes, the full contents of a large gas tank in a little over 5 minutes, a medium tank in about 38 seconds, or a small gas tank in about 16 seconds. RCS thruster will not produce thrust if its fluid supply is less than 4.51 L/s.",
+    "plain_text": "RCS Thruster\n\nCost\n\n$140\n\nDimensions\n\n1x1x1\n\nProperties\n\nmass\n 1\n\nLogics Inputs\n\ncomposite\n Composite input\n\nConnections\n\nelectric\n\nfluid\n Fluid supply\n\nAdjustable parameters\n\nPower\n\nStabilization threshold\n\nRCS thrusters are multi-directional inert gas rockets used for stabilizing spacecraft and making fine adjustments in rotation and position.\n\n\"A fluid jet that fires pressurized air for altitude (sic) control and translation. The reaction control system can fire in 4 non-cardinal directions resulting in 5 directions of motion. RCS thrusters also have body relative activation modes where thrusters will collaborate from different orientations to achieve the desired translation or rotation. The RCS thruster also has positional and rotational stabilization toggles.\"\n\nControl\n\nRCS thrusters have 18 boolean input channels. Channels 1-4 control the RCS thrusters based upon how the thruster is oriented (relative to the large and small arrows indicated on each thruster in the construction workbench interface). Channels 5-6 let the thrusters respectively control the vehicle's positioning and rotation, regardless of their orientation on the vehicle. Channels 7-18 control the vehicle independently of how they were oriented on it (directions in parentheses are relative to the enormous forward arrow shown at the bottom of the construction workbench interface):\n\nComponent X+ (move in the direction of the thruster's little arrow)\n\nComponent X- (opposite of 1)\n\nComponent Z+ (move in the direction of the thruster's big arrow)\n\nComponent Z- (opposite of 3)\n\nEnable position stabilization\n\nEnable rotation stabilization\n\nBody X+ (move right)\n\nBody X- (move left)\n\nBody Y+ (move up)\n\nBody Y- (move down)\n\nBody Z+ (move forward)\n\nBody Z- (move backward)\n\nBody Rotate X+ (pitch down)\n\nBody Rotate X- (pitch up)\n\nBody Rotate Y+ (yaw right)\n\nBody Rotate Y- (yaw left)\n\nBody Rotate Z+ (roll left)\n\nBody Rotate Z- (roll right)\n\nFuel and thrust\n\nRCS thrusters can work with pressurized gases including air, oxygen, nitrogen, hydrogen, and steam. The type of gas makes no difference in produced thrust. RCS thrusters will not work with fluids like water (for that, see the\nfluid jet\n). RCS thrust is relative to pressure, but quite small, and quite inefficient compared to liquid fuel rockets even at full pressure (59.4 atm). With fully pressurized tanks, thrust is enough to lift about 18 mass units against gravity (~1,800 N). Assuming constant pressure (e.g. by using a pump to constantly top off pressure in a small tank), producing this amount of thrust will consume the full contents of a huge gas tank in about 20 minutes, the full contents of a large gas tank in a little over 5 minutes, a medium tank in about 38 seconds, or a small gas tank in about 16 seconds. RCS thruster will not produce thrust if its fluid supply is less than 4.51 L/s.",
+    "char_count": 3017,
+    "word_count": 460,
+    "sha256": "5e05aac009cc8a35db035486f201f4373fd3f7b4205f23db3fb266caf7e3a492"
+  },
+  "wikitext": "{{Infobox\n  | name=RCS Thruster\n  | image=\n  | prerequisite=\n  | cost=$140\n  | dimensions=1x1x1\n  | fluidcapacity=\n  | introduced=\n  \n  | mass= {{Property|mass}} 1\n  | motor=\n  | force=\n  | power=\n  | motor_speed=\n\n  | logicinput1= {{Property|composite}} Composite input\n  | logicinput2=\n  | logicinput3=\n  | logicinput4=\n  | logicinput5=\n  | logicinput6=\n\n  | logicoutput1= \n  | logicoutput2=\n  | logicoutput3=\n  | logicoutput4=\n  | logicoutput5=\n  | logicoutput6=\n\n  | connection1= {{Property|electric}}\n  | connection2= {{Property|fluid}} Fluid supply\n  | connection3=\n  | connection4=\n  | connection5=\n  | connection6=\n  \n  | adjustparam1= Power\n  | adjustparam2= Stabilization threshold\n}}\n\nRCS thrusters are multi-directional inert gas rockets used for stabilizing spacecraft and making fine adjustments in rotation and position.\n\n\"A fluid jet that fires pressurized air for altitude (sic) control and translation. The reaction control system can fire in 4 non-cardinal directions resulting in 5 directions of motion. RCS thrusters also have body relative activation modes where thrusters will collaborate from different orientations to achieve the desired translation or rotation. The RCS thruster also has positional and rotational stabilization toggles.\"\n\n== Control ==\nRCS thrusters have 18 boolean input channels. Channels 1-4 control the RCS thrusters based upon how the thruster is oriented (relative to the large and small arrows indicated on each thruster in the construction workbench interface). Channels 5-6 let the thrusters respectively control the vehicle's positioning and rotation, regardless of their orientation on the vehicle. Channels 7-18 control the vehicle independently of how they were oriented on it (directions in parentheses are relative to the enormous forward arrow shown at the bottom of the construction workbench interface):\n\n# Component X+ (move in the direction of the thruster's little arrow)\n# Component X- (opposite of 1)\n# Component Z+ (move in the direction of the thruster's big arrow)\n# Component Z- (opposite of 3)\n# Enable position stabilization\n# Enable rotation stabilization\n# Body X+ (move right)\n# Body X- (move left)\n# Body Y+ (move up)\n# Body Y- (move down)\n# Body Z+ (move forward)\n# Body Z- (move backward)\n# Body Rotate X+ (pitch down)\n# Body Rotate X- (pitch up)\n# Body Rotate Y+ (yaw right)\n# Body Rotate Y- (yaw left)\n# Body Rotate Z+ (roll left)\n# Body Rotate Z- (roll right)\n\n== Fuel and thrust ==\nRCS thrusters can work with pressurized gases including air, oxygen, nitrogen, hydrogen, and steam. The type of gas makes no difference in produced thrust. RCS thrusters will not work with fluids like water (for that, see the [[fluid jet]]). RCS thrust is relative to pressure, but quite small, and quite inefficient compared to liquid fuel rockets even at full pressure (59.4 atm). With fully pressurized tanks, thrust is enough to lift about 18 mass units against gravity (~1,800 N). Assuming constant pressure (e.g. by using a pump to constantly top off pressure in a small tank), producing this amount of thrust will consume the full contents of a huge gas tank in about 20 minutes, the full contents of a large gas tank in a little over 5 minutes, a medium tank in about 38 seconds, or a small gas tank in about 16 seconds. RCS thruster will not produce thrust if its fluid supply is less than 4.51 L/s. \n\n[[Category:Electric components]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/RCS_thruster",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1717,
+    "revision_id": 4726,
+    "revision_timestamp": "2026-08-22T02:42:40Z",
+    "retrieved_at": "2026-08-31T10:04:46+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

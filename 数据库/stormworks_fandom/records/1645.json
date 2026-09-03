@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Gamemodes/Career",
+  "display_title": "Wiki/Gamemodes/Career",
+  "summary": "Alias for Gameplay/Gamemodes/Career",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Gamemodes/Career"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Gamemodes/Career -> Gameplay/Gamemodes/Career",
+    "plain_text": "Redirect: Wiki/Gamemodes/Career -> Gameplay/Gamemodes/Career",
+    "char_count": 60,
+    "word_count": 4,
+    "sha256": "ef61b39c79bacda4b9b2588a6445f4cc306910c6327020482ab78c8c70805428"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Gamemodes/Career",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Career",
+    "target_page_id": 1442,
+    "target_revision_id": 4113
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Gamemodes/Career",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1645,
+    "revision_id": 4114,
+    "revision_timestamp": "2025-05-14T01:40:02Z",
+    "retrieved_at": "2026-08-31T10:11:57+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

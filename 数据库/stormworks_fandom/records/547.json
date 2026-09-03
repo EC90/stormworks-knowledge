@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Large rotor",
+  "display_title": "Large rotor",
+  "summary": "Alias for Large Rotor",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Large Rotor"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Large rotor -> Large Rotor",
+    "plain_text": "Redirect: Large rotor -> Large Rotor",
+    "char_count": 36,
+    "word_count": 6,
+    "sha256": "0c4eb0855dc7699923d99ec75be95bfd15616ce1fdae62037d19afebe6c81b2f"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Large Rotor",
+    "target_url": "https://stormworks.fandom.com/wiki/Large_Rotor",
+    "target_page_id": 542,
+    "target_revision_id": 3471
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Large_rotor",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 547,
+    "revision_id": 997,
+    "revision_timestamp": "2019-02-17T20:54:35Z",
+    "retrieved_at": "2026-08-31T10:03:53+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

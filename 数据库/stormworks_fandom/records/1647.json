@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Gamemodes/Creative",
+  "display_title": "Wiki/Gamemodes/Creative",
+  "summary": "Alias for Gameplay/Gamemodes/Custom",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Gamemodes/Custom"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Gamemodes/Creative -> Gameplay/Gamemodes/Custom",
+    "plain_text": "Redirect: Wiki/Gamemodes/Creative -> Gameplay/Gamemodes/Custom",
+    "char_count": 62,
+    "word_count": 4,
+    "sha256": "fb86f085d5769a5d93a80843c90dce276c0da62387d8721763a2818f6aa24a93"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Gamemodes/Custom",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Custom",
+    "target_page_id": 604,
+    "target_revision_id": 4119
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Gamemodes/Creative",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1647,
+    "revision_id": 4669,
+    "revision_timestamp": "2025-10-26T01:00:47Z",
+    "retrieved_at": "2026-08-31T10:11:59+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

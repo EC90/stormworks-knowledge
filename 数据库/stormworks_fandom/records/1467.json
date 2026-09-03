@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Displays Research",
+  "display_title": "Displays Research",
+  "summary": "Displays is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Advanced Displays Research",
+    "Research",
+    "Wiki/Building/Components/Displays"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7c/Displaysresearch.png/revision/latest?cb=20240421180843",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7c/Displaysresearch.png/revision/latest?cb=20240421180843",
+      "alt": "Displaysresearch",
+      "width": "49",
+      "height": "49"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Buzzer"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Gauge Display"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Paintable Indicator"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Paintable Sign"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Displays\n\n[![Displaysresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7c/Displaysresearch.png/revision/latest?cb=20240421180843)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/7c/Displaysresearch.png/revision/latest?cb=20240421180843)\n\n### Research Points\n\n2\n\n### Research Time\n\n0h 35m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[Advanced Displays](https://stormworks.fandom.com/wiki/Advanced_Displays_Research)\n\nDisplays is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Buzzer |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Gauge Display |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Paintable Indicator |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Paintable Sign |",
+    "plain_text": "Displays\n\nResearch Points\n\n2\n\nResearch Time\n\n0h 35m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nAdvanced Displays\n\nDisplays is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nDisplays\n\nBuzzer\n\nDisplays\n\nGauge Display\n\nDisplays\n\nPaintable Indicator\n\nDisplays\n\nPaintable Sign",
+    "char_count": 1062,
+    "word_count": 41,
+    "sha256": "0dc4f42be83b78bcf07bdd5635e11aec42bd9fb8eaa82c1b0a90ca735c4d0202"
+  },
+  "wikitext": "{{Research\n  | name=Displays\n  | image=[File:Displaysresearch.png]\n  | points=2\n  | time= 0h 35m\n  | unlock= Initially Available\n  | a1=[[Advanced Displays Research|Advanced Displays]]\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Displays is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Buzzer\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Gauge Display\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Paintable Indicator\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Paintable Sign\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Displays_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1467,
+    "revision_id": 3726,
+    "revision_timestamp": "2024-04-21T18:09:47Z",
+    "retrieved_at": "2026-08-31T10:01:29+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

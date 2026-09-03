@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "pages": {
+    "1357": {
+      "title": "Camera medium",
+      "revision_id": 4695,
+      "revision_timestamp": "2025-11-22T20:00:04Z",
+      "status": "ok",
+      "record": "records/1357.json",
+      "markdown": "markdown/1357_Camera_medium.md",
+      "chunks": "page_chunks/1357.jsonl",
+      "content_sha256": "2cd858f38fd0a714a5f6c6a64a22a92a6ba8e90b849ed3856729501dd33b67a0",
+      "updated_at": "2026-08-30T15:54:08+00:00"
+    },
+    "1829": {
+      "title": "Damage control",
+      "revision_id": 4615,
+      "revision_timestamp": "2025-08-19T00:39:07Z",
+      "status": "ok",
+      "record": "records/1829.json",
+      "markdown": "markdown/1829_Damage_control.md",
+      "chunks": "page_chunks/1829.jsonl",
+      "content_sha256": "91c6dca2b6cfadc68f1a066498f90a7b5feeed756a36d808dfa815ba53e9ebdc",
+      "updated_at": "2026-08-30T15:54:10+00:00"
+    },
+    "1194": {
+      "title": "Equipment",
+      "revision_id": 4587,
+      "revision_timestamp": "2025-08-11T14:49:23Z",
+      "status": "ok",
+      "record": "records/1194.json",
+      "markdown": "markdown/1194_Equipment.md",
+      "chunks": "page_chunks/1194.jsonl",
+      "content_sha256": "69599d6980ca944d6899ba87cc361e63f86ef77bc9789c31826f5f1b6b146ae4",
+      "updated_at": "2026-08-30T15:54:11+00:00"
+    },
+    "1348": {
+      "title": "Impact sensor",
+      "revision_id": 3033,
+      "revision_timestamp": "2022-01-31T01:16:18Z",
+      "status": "ok",
+      "record": "records/1348.json",
+      "markdown": "markdown/1348_Impact_sensor.md",
+      "chunks": "page_chunks/1348.jsonl",
+      "content_sha256": "0cff070f9b3a2ed6a17480614123dcb9e42d1256af4d35bd9e0726faa9e6b53a",
+      "updated_at": "2026-08-30T15:54:13+00:00"
+    },
+    "1375": {
+      "title": "Infrared mode",
+      "revision_id": 3103,
+      "revision_timestamp": "2022-02-18T02:53:21Z",
+      "status": "ok",
+      "record": "records/1375.json",
+      "markdown": "markdown/1375_Infrared_mode.md",
+      "chunks": "page_chunks/1375.jsonl",
+      "content_sha256": "f08fd30a2a44a42f628af3300984a70fe5346d17ca2e944e195040e48682ae2c",
+      "updated_at": "2026-08-30T15:54:14+00:00"
+    },
+    "1295": {
+      "title": "Radar Detector",
+      "revision_id": 3031,
+      "revision_timestamp": "2022-01-31T00:57:25Z",
+      "status": "ok",
+      "record": "records/1295.json",
+      "markdown": "markdown/1295_Radar_Detector.md",
+      "chunks": "page_chunks/1295.jsonl",
+      "content_sha256": "8966b863fc2432475f1ed238010f9c0795fc3aca61da8136b0ee866a9c9ab9c5",
+      "updated_at": "2026-08-30T15:54:16+00:00"
+    },
+    "1264": {
+      "title": "Search and Destroy DLC",
+      "revision_id": 4717,
+      "revision_timestamp": "2026-08-13T20:51:28Z",
+      "status": "ok",
+      "record": "records/1264.json",
+      "markdown": "markdown/1264_Search_and_Destroy_DLC.md",
+      "chunks": "page_chunks/1264.jsonl",
+      "content_sha256": "55ca1e89205901521b0cf6e931658703ebdd85def508da7f73fef6c1d2fa408e",
+      "updated_at": "2026-08-30T15:54:17+00:00"
+    },
+    "1482": {
+      "title": "Weapons Research",
+      "revision_id": 3751,
+      "revision_timestamp": "2024-04-21T18:23:20Z",
+      "status": "ok",
+      "record": "records/1482.json",
+      "markdown": "markdown/1482_Weapons_Research.md",
+      "chunks": "page_chunks/1482.jsonl",
+      "content_sha256": "4c2abb7de07e282b388e8f491e706a835be88541e49dd1ec1accb250bb644743",
+      "updated_at": "2026-08-30T15:54:19+00:00"
+    }
+  }
+}

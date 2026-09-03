@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Vehicle",
+  "display_title": "Vehicle",
+  "summary": "Alias for Wiki/Vehicles",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Vehicles"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Vehicle -> Wiki/Vehicles",
+    "plain_text": "Redirect: Vehicle -> Wiki/Vehicles",
+    "char_count": 34,
+    "word_count": 4,
+    "sha256": "0503bec4f18ee33e50cdd6eb9abda8d222fd75541fc52dc48ddbd785d883ad6e"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Vehicles",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Vehicles",
+    "target_page_id": 587,
+    "target_revision_id": 3176
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Vehicle",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 271,
+    "revision_id": 1709,
+    "revision_timestamp": "2019-03-27T18:29:42Z",
+    "retrieved_at": "2026-08-31T10:10:50+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

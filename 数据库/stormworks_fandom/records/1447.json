@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Isle of Donkk",
+  "display_title": "Isle of Donkk",
+  "summary": "The Isle of Donkk is a medium sized landmass to the west of\nSawyer Islands\n. It is the main island of the Key Islands.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Features",
+      "anchor": "Features"
+    },
+    {
+      "level": 3,
+      "title": "Railway",
+      "anchor": "Railway"
+    },
+    {
+      "level": 3,
+      "title": "Road network",
+      "anchor": "Road_network"
+    },
+    {
+      "level": 3,
+      "title": "Coal mine",
+      "anchor": "Coal_mine"
+    },
+    {
+      "level": 3,
+      "title": "Container Terminals",
+      "anchor": "Container_Terminals"
+    },
+    {
+      "level": 3,
+      "title": "Nearby hospital",
+      "anchor": "Nearby_hospital"
+    },
+    {
+      "level": 2,
+      "title": "History",
+      "anchor": "History"
+    }
+  ],
+  "internal_links": [
+    "Arctic",
+    "Sawyer Islands",
+    "Shipping container"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1d/Key_Islands_%28Donkk%29_Map.jpg/revision/latest?cb=20240101151006",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1d/Key_Islands_%28Donkk%29_Map.jpg/revision/latest/scale-to-width-down/180?cb=20240101151006",
+      "alt": "The Key Isands on the map",
+      "width": "180",
+      "height": "85"
+    }
+  ],
+  "tables": [],
+  "content": {
+    "markdown": "[![The Key Isands on the map](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1d/Key_Islands_%28Donkk%29_Map.jpg/revision/latest/scale-to-width-down/180?cb=20240101151006)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1d/Key_Islands_%28Donkk%29_Map.jpg/revision/latest?cb=20240101151006)\n\n[https://stormworks.fandom.com/wiki/File:Key_Islands_(Donkk)_Map.jpg](https://stormworks.fandom.com/wiki/File:Key_Islands_(Donkk)_Map.jpg)\n\nThe Key Isands on the map\n\nThe Isle of Donkk is a medium sized landmass to the west of [Sawyer Islands](https://stormworks.fandom.com/wiki/Sawyer_Islands). It is the main island of the Key Islands.\n\n## Features\n\n### Railway\n\nThere is a railway connecting all islands. At Camodo terminal, the railway continues over a bridge to Sawyer Island. There is also a large junction that allows trains to enter the bridge that leads to the [Arctic](https://stormworks.fandom.com/wiki/Arctic).\n\n### Road network\n\nA road network spans the entire group of islands. adjacent to the railway bridge, a road bridge allows vehicles to move between the islands.\n\nTraveling to other major landmasses is not possible unless you use the railway bridge as a road, or load your vehicle in the cargo bay of an aircraft or ship.\n\n### Coal mine\n\nThere is a coal mine on the main island, taking up most of its landmass. There are tunnels that cut through the mountain and allow access without climbing the mountain.\n\nMost of the coal deposits are in mineshafts, some on the walls or ceiling. Making a vehicle that can mine those deposits can be challenging.\n\n### Container Terminals\n\nThe train/harbour terminals Spycakes or Camodo (both named after community members) are locations for [Shipping container](https://stormworks.fandom.com/wiki/Shipping_container)s.\n\n### Nearby hospital\n\nThe Lighthouse OB, located on one of the smaller islands, provides a nearby hospital. It can be easily accessed by car, boat, or train, but landing aircraft is difficult due to the island's small size.\n\n## History\n\nThe Key Islands used to be the biggest landmass, before the Meyer (Industrial DLC) and Sawyer Islands were introduced. Prior to the 1.0 update, Donkk was the center of the game's world, with Sawyer being several kilometers to the east and all small islands being spread around Donkk instead.",
+    "plain_text": "The Key Isands on the map\n\nThe Isle of Donkk is a medium sized landmass to the west of\nSawyer Islands\n. It is the main island of the Key Islands.\n\nFeatures\n\nRailway\n\nThere is a railway connecting all islands. At Camodo terminal, the railway continues over a bridge to Sawyer Island. There is also a large junction that allows trains to enter the bridge that leads to the\nArctic\n.\n\nRoad network\n\nA road network spans the entire group of islands. adjacent to the railway bridge, a road bridge allows vehicles to move between the islands.\n\nTraveling to other major landmasses is not possible unless you use the railway bridge as a road, or load your vehicle in the cargo bay of an aircraft or ship.\n\nCoal mine\n\nThere is a coal mine on the main island, taking up most of its landmass. There are tunnels that cut through the mountain and allow access without climbing the mountain.\n\nMost of the coal deposits are in mineshafts, some on the walls or ceiling. Making a vehicle that can mine those deposits can be challenging.\n\nContainer Terminals\n\nThe train/harbour terminals Spycakes or Camodo (both named after community members) are locations for\nShipping container\ns.\n\nNearby hospital\n\nThe Lighthouse OB, located on one of the smaller islands, provides a nearby hospital. It can be easily accessed by car, boat, or train, but landing aircraft is difficult due to the island's small size.\n\nHistory\n\nThe Key Islands used to be the biggest landmass, before the Meyer (Industrial DLC) and Sawyer Islands were introduced. Prior to the 1.0 update, Donkk was the center of the game's world, with Sawyer being several kilometers to the east and all small islands being spread around Donkk instead.",
+    "char_count": 2334,
+    "word_count": 292,
+    "sha256": "a7e940b9c6406176386c16442b8ff2d08f1e045a4c2d427e5742bc621804ab9a"
+  },
+  "wikitext": "[[File:Key Islands (Donkk) Map.jpg|thumb|The Key Isands on the map]]\nThe Isle of Donkk is a medium sized landmass to the west of [[Sawyer Islands]]. It is the main island of the Key Islands.\n\n== Features ==\n\n=== Railway ===\nThere is a railway connecting all islands. At Camodo terminal, the railway continues over a bridge to Sawyer Island. There is also a large junction that allows trains to enter the bridge that leads to the [[Arctic]].\n\n=== Road network ===\nA road network spans the entire group of islands. adjacent to the railway bridge, a road bridge allows vehicles to move between the islands.\n\nTraveling to other major landmasses is not possible unless you use the railway bridge as a road, or load your vehicle in the cargo bay of an aircraft or ship.\n\n=== Coal mine ===\nThere is a coal mine on the main island, taking up most of its landmass. There are tunnels that cut through the mountain and allow access without climbing the mountain.\n\nMost of the coal deposits are in mineshafts, some on the walls or ceiling. Making a vehicle that can mine those deposits can be challenging.\n\n=== Container Terminals ===\nThe train/harbour terminals Spycakes or Camodo (both named after community members) are locations for [[Shipping container]]<nowiki/>s.\n\n=== Nearby hospital ===\nThe Lighthouse OB, located on one of the smaller islands, provides a nearby hospital. It can be easily accessed by car, boat, or train, but landing aircraft is difficult due to the island's small size.\n\n== History ==\nThe Key Islands used to be the biggest landmass, before the Meyer (Industrial DLC) and Sawyer Islands were introduced. Prior to the 1.0 update, Donkk was the center of the game's world, with Sawyer being several kilometers to the east and all small islands being spread around Donkk instead.",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Isle_of_Donkk",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1447,
+    "revision_id": 3584,
+    "revision_timestamp": "2024-01-01T15:20:50Z",
+    "retrieved_at": "2026-08-31T10:03:41+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

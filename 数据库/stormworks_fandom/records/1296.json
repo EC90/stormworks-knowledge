@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Radar detector",
+  "display_title": "Radar detector",
+  "summary": "Alias for Radar Detector",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Radar Detector"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Radar detector -> Radar Detector",
+    "plain_text": "Redirect: Radar detector -> Radar Detector",
+    "char_count": 42,
+    "word_count": 6,
+    "sha256": "e6a7c9035fc88398b3dc50acc9b0145b2b379a78512ba8f8979e28f0460daec3"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Radar Detector",
+    "target_url": "https://stormworks.fandom.com/wiki/Radar_Detector",
+    "target_page_id": 1295,
+    "target_revision_id": 3031
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Radar_detector",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1296,
+    "revision_id": 2904,
+    "revision_timestamp": "2022-01-10T17:43:24Z",
+    "retrieved_at": "2026-08-31T10:04:41+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

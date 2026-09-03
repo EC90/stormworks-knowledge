@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Game Mechanics/Wheels",
+  "display_title": "Wiki/Game Mechanics/Wheels",
+  "summary": "Alias for Gameplay/Mechanics/Wheels",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Mechanics/Wheels"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Game Mechanics/Wheels -> Gameplay/Mechanics/Wheels",
+    "plain_text": "Redirect: Wiki/Game Mechanics/Wheels -> Gameplay/Mechanics/Wheels",
+    "char_count": 65,
+    "word_count": 5,
+    "sha256": "85790c6d91e4a56918b4dbc51e3581a87875d85c89eeac624bf39d45b3e1559f"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Mechanics/Wheels",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Wheels",
+    "target_page_id": 932,
+    "target_revision_id": 4259
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Wheels",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1710,
+    "revision_id": 4260,
+    "revision_timestamp": "2025-05-14T06:15:45Z",
+    "retrieved_at": "2026-08-31T10:11:55+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

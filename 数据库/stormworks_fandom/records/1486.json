@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Advanced Sensors Research",
+  "display_title": "Advanced Sensors Research",
+  "summary": "Advanced sensors is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Research",
+    "Sensors Research",
+    "Wiki/Building/Components/Displays",
+    "Wiki/Building/Components/Sensors",
+    "Wiki/Building/Components/Specialist Equipment"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/12/Advancedsensorsresearch.png/revision/latest?cb=20240421182643",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/12/Advancedsensorsresearch.png/revision/latest?cb=20240421182643",
+      "alt": "Advancedsensorsresearch",
+      "width": "48",
+      "height": "48"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Player Sensor"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Laser Distance Sensor"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Laser Point Sensor"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Laser Beacon"
+        ],
+        [
+          "Specialist Equipment",
+          "Transponder"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Transponder Locator"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Physics Sensor"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Advanced Sensors\n\n[![Advancedsensorsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/12/Advancedsensorsresearch.png/revision/latest?cb=20240421182643)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/12/Advancedsensorsresearch.png/revision/latest?cb=20240421182643)\n\n### Research Points\n\n6\n\n### Research Time\n\n1h 20m\n\n## Research Path\n\n### Unlocked by\n\n[Sensors](https://stormworks.fandom.com/wiki/Sensors_Research)\n\nAdvanced sensors is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Player Sensor |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Laser Distance Sensor |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Laser Point Sensor |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Laser Beacon |\n| Specialist Equipment | Transponder |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Transponder Locator |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Physics Sensor |",
+    "plain_text": "Advanced Sensors\n\nResearch Points\n\n6\n\nResearch Time\n\n1h 20m\n\nResearch Path\n\nUnlocked by\n\nSensors\n\nAdvanced sensors is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nSensors\n\nPlayer Sensor\n\nSensors\n\nLaser Distance Sensor\n\nSensors\n\nLaser Point Sensor\n\nDisplays\n\nLaser Beacon\n\nSpecialist Equipment\n\nTransponder\n\nSensors\n\nTransponder Locator\n\nSensors\n\nPhysics Sensor",
+    "char_count": 1287,
+    "word_count": 50,
+    "sha256": "8e13649853ae50a132be0cd37a8dbaadddef7ede45b57b154849297ee40e7484"
+  },
+  "wikitext": "{{Research\n  | name=Advanced Sensors\n  | image=[File:Advancedsensorsresearch.png]\n  | points=6\n  | time= 1h 20m\n  | unlock= [[Sensors Research|Sensors]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Advanced sensors is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Player Sensor\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Laser Distance Sensor\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Laser Point Sensor\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Laser Beacon\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Transponder\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Transponder Locator\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Physics Sensor\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Advanced_Sensors_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1486,
+    "revision_id": 3761,
+    "revision_timestamp": "2024-04-21T18:27:07Z",
+    "retrieved_at": "2026-08-31T10:00:37+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

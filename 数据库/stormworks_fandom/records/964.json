@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Standards/Container",
+  "display_title": "Wiki/Standards/Container",
+  "summary": "Alias for Shipping container",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Shipping container"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Standards/Container -> Shipping container",
+    "plain_text": "Redirect: Wiki/Standards/Container -> Shipping container",
+    "char_count": 56,
+    "word_count": 5,
+    "sha256": "e984ce30a8734f597ef621cc59c27825517c84771dae10133b53a346a309bf97"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Shipping container",
+    "target_url": "https://stormworks.fandom.com/wiki/Shipping_container",
+    "target_page_id": 1316,
+    "target_revision_id": 4559
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Standards/Container",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 964,
+    "revision_id": 3113,
+    "revision_timestamp": "2022-02-18T03:28:00Z",
+    "retrieved_at": "2026-08-31T10:12:36+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

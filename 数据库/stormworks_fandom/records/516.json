@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Advanced Vehicles",
+  "display_title": "Advanced Vehicles",
+  "summary": "Alias for Gameplay/Workbench/Advanced Mode",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Advanced Mode"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Advanced Vehicles -> Gameplay/Workbench/Advanced Mode",
+    "plain_text": "Redirect: Advanced Vehicles -> Gameplay/Workbench/Advanced Mode",
+    "char_count": 63,
+    "word_count": 6,
+    "sha256": "92a73cbba326fe2f2cbf654c5e05daf1c338b276ed117b0664d9e40031ed65a0"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Advanced Mode",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Advanced_Mode",
+    "target_page_id": 1398,
+    "target_revision_id": 4141
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Advanced_Vehicles",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 516,
+    "revision_id": 4658,
+    "revision_timestamp": "2025-10-25T14:13:50Z",
+    "retrieved_at": "2026-08-31T10:00:38+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

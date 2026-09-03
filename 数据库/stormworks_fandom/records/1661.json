@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Electricity",
+  "display_title": "Wiki/Building/Components/Electricity",
+  "summary": "Alias for Gameplay/Workbench/Components/Electricity",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Electricity"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Electricity -> Gameplay/Workbench/Components/Electricity",
+    "plain_text": "Redirect: Wiki/Building/Components/Electricity -> Gameplay/Workbench/Components/Electricity",
+    "char_count": 91,
+    "word_count": 4,
+    "sha256": "0f87e4325e29f2cd3f5f3c3f7199c9371e20e878cdd7a464586466e0907ab561"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Electricity",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Electricity",
+    "target_page_id": 634,
+    "target_revision_id": 4155
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Electricity",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1661,
+    "revision_id": 4156,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-31T10:11:11+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

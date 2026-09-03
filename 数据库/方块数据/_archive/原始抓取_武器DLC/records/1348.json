@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Impact sensor",
+  "display_title": "Impact sensor",
+  "summary": "Impact Sensor\nMass\n1\nDimensions\n1x1x1\nCost\n$20\nLogic inputs\nNone\nLogic outputs\nBool (acceleration threshold exceeded)\nConnections\nNone\nAdjustable parameters\nImpact threshold (1-50 m/s)\nSince version\nV1.1.18\nImpact sensors detect when they are accelerated beyond their set limit. They were initially added for the\nWeapon DLC\nto serve as triggers for warheads. Note that they are no longer strictly required for that purpose since, as of\nV1.3.14\n, warheads have been modified to have built-in impact sensing capability.\nUses\nAutonomous vehicle damage detection: Unmanned tanker ships making trips to th",
+  "categories": [
+    "Components"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Uses",
+      "anchor": "Uses"
+    },
+    {
+      "level": 2,
+      "title": "Patch history",
+      "anchor": "Patch_history"
+    },
+    {
+      "level": 3,
+      "title": "V1.3.14",
+      "anchor": "V1.3.14"
+    },
+    {
+      "level": 3,
+      "title": "V1.1.18",
+      "anchor": "V1.1.18"
+    }
+  ],
+  "internal_links": [
+    "V1.1.18",
+    "V1.3.14",
+    "Weapon DLC",
+    "Wiki/Building/Components/Radio"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/76/Impact_sensor.png/revision/latest?cb=20220131011539",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/76/Impact_sensor.png/revision/latest/scale-to-width-down/200?cb=20220131011539",
+      "alt": "Impact sensor",
+      "width": "200",
+      "height": "200"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "infobox"
+      ],
+      "rows": [
+        [
+          "Impact Sensor"
+        ],
+        [
+          "Mass",
+          "1"
+        ],
+        [
+          "Dimensions",
+          "1x1x1"
+        ],
+        [
+          "Cost",
+          "$20"
+        ],
+        [
+          "Logic inputs",
+          "None"
+        ],
+        [
+          "Logic outputs",
+          "Bool (acceleration threshold exceeded)"
+        ],
+        [
+          "Connections",
+          "None"
+        ],
+        [
+          "Adjustable parameters",
+          "Impact threshold (1-50 m/s)"
+        ],
+        [
+          "Since version",
+          "V1.1.18"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| | |\n| --- | --- |\n| Impact Sensor | |\n| [Impact sensor](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/7/76/Impact_sensor.png/revision/latest?cb=20220131011539) | |\n| Mass | 1 |\n| Dimensions | 1x1x1 |\n| Cost | $20 |\n| Logic inputs | None |\n| Logic outputs | Bool (acceleration threshold exceeded) |\n| Connections | None |\n| Adjustable parameters | Impact threshold (1-50 m/s) |\n| Since version | [V1.1.18](https://stormworks.fandom.com/wiki/V1.1.18 \"V1.1.18\") |\n\nImpact sensors detect when they are accelerated beyond their set limit. They were initially added for the [Weapon DLC](https://stormworks.fandom.com/wiki/Weapon_DLC \"Weapon DLC\") to serve as triggers for warheads. Note that they are no longer strictly required for that purpose since, as of [V1.3.14](https://stormworks.fandom.com/wiki/V1.3.14 \"V1.3.14\"), warheads have been modified to have built-in impact sensing capability.\n\n## Uses\n\n- Autonomous vehicle damage detection: Unmanned tanker ships making trips to the arctic may run into moving icebergs. Such ships should normally have very low acceleration, but an iceberg collision could easily set off an impact sensor, allowing it to trigger a distress signal and get a player to fix it.\n\n- Complex warhead triggers: Some missile designs are intended to have multiple sensors to trigger them (e.g. impact or proximity), and sometimes several conditions to prevent activation (e.g. proximity to friendly vehicles) especially with long-range effects like [EMP warheads](https://stormworks.fandom.com/wiki/Weapon_DLC#EMP_Warheads \"Weapon DLC\")). For these, a microcontroller may combine data from radar, an impact sensor, and [radio](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Radio \"Wiki/Building/Components/Radio\") to trigger a 0-threshold warhead only when it is appropriate to do so.\n\n## Patch history\n\n### [V1.3.14](https://stormworks.fandom.com/wiki/V1.3.14 \"V1.3.14\")\n\n- Feature - Warhead built-in impact sensor\n\n### [V1.1.18](https://stormworks.fandom.com/wiki/V1.1.18 \"V1.1.18\")\n\n- Feature - Impact sensor - triggers ON signal when acceleration exceeds the value set in properties",
+    "plain_text": "Impact Sensor\nMass\n1\nDimensions\n1x1x1\nCost\n$20\nLogic inputs\nNone\nLogic outputs\nBool (acceleration threshold exceeded)\nConnections\nNone\nAdjustable parameters\nImpact threshold (1-50 m/s)\nSince version\nV1.1.18\nImpact sensors detect when they are accelerated beyond their set limit. They were initially added for the\nWeapon DLC\nto serve as triggers for warheads. Note that they are no longer strictly required for that purpose since, as of\nV1.3.14\n, warheads have been modified to have built-in impact sensing capability.\nUses\nAutonomous vehicle damage detection: Unmanned tanker ships making trips to the arctic may run into moving icebergs. Such ships should normally have very low acceleration, but an iceberg collision could easily set off an impact sensor, allowing it to trigger a distress signal and get a player to fix it.\nComplex warhead triggers: Some missile designs are intended to have multiple sensors to trigger them (e.g. impact or proximity), and sometimes several conditions to prevent activation (e.g. proximity to friendly vehicles) especially with long-range effects like\nEMP warheads\n). For these, a microcontroller may combine data from radar, an impact sensor, and\nradio\nto trigger a 0-threshold warhead only when it is appropriate to do so.\nPatch history\nV1.3.14\nFeature - Warhead built-in impact sensor\nV1.1.18\nFeature - Impact sensor - triggers ON signal when acceleration exceeds the value set in properties",
+    "char_count": 2142,
+    "word_count": 233,
+    "sha256": "0cff070f9b3a2ed6a17480614123dcb9e42d1256af4d35bd9e0726faa9e6b53a"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Impact_sensor",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1348,
+    "revision_id": 3033,
+    "revision_timestamp": "2022-01-31T01:16:18Z",
+    "retrieved_at": "2026-08-30T15:54:13+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

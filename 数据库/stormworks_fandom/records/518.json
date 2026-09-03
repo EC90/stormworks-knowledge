@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Linear Track Base",
+  "display_title": "Linear Track Base",
+  "summary": "Alias for Linear Tracks",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Linear Tracks"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Linear Track Base -> Linear Tracks",
+    "plain_text": "Redirect: Linear Track Base -> Linear Tracks",
+    "char_count": 44,
+    "word_count": 7,
+    "sha256": "e3281a1a0d058ee1d75b04a5e9408db7303433e6130c9c0b6c36a8b0c97c8c88"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Linear Tracks",
+    "target_url": "https://stormworks.fandom.com/wiki/Linear_Tracks",
+    "target_page_id": null,
+    "target_revision_id": null
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Linear_Track_Base",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 518,
+    "revision_id": 938,
+    "revision_timestamp": "2019-02-13T19:03:13Z",
+    "retrieved_at": "2026-08-31T10:03:56+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

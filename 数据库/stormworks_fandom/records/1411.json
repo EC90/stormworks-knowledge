@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Lua Scripts",
+  "display_title": "Lua Scripts",
+  "summary": "Alias for Wiki/Guides/Lua",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Guides/Lua"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Lua Scripts -> Wiki/Guides/Lua",
+    "plain_text": "Redirect: Lua Scripts -> Wiki/Guides/Lua",
+    "char_count": 40,
+    "word_count": 5,
+    "sha256": "b6c33edd945f3f4bbbd722940862fb058ebcb54929b15bdb516b3efadcf86cbc"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Guides/Lua",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Lua",
+    "target_page_id": 1179,
+    "target_revision_id": 3293
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Lua_Scripts",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1411,
+    "revision_id": 3348,
+    "revision_timestamp": "2023-05-29T09:20:48Z",
+    "retrieved_at": "2026-08-31T10:04:03+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

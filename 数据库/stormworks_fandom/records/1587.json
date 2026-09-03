@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Fluid Port",
+  "display_title": "Fluid Port",
+  "summary": "A fluid port is a block that allows the removal of fluid from a system.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Fluid_components",
+    "Stubs"
+  ],
+  "sections": [],
+  "internal_links": [],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "A fluid port is a block that allows the removal of fluid from a system.",
+    "plain_text": "A fluid port is a block that allows the removal of fluid from a system.",
+    "char_count": 71,
+    "word_count": 15,
+    "sha256": "a0229a1096bab0ff0a34172d024b93de010d6e2b0d7c4c84193fdfec0ba0ae85"
+  },
+  "wikitext": "A fluid port is a block that allows the removal of fluid from a system.\n\n[[Category:Stubs]]\n[[Category:Fluid components]]\n__INDEX__\n__NEWSECTIONLINK__",
+  "data_quality": "low",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Fluid_Port",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1587,
+    "revision_id": 3898,
+    "revision_timestamp": "2024-05-12T04:34:02Z",
+    "retrieved_at": "2026-08-31T10:01:54+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

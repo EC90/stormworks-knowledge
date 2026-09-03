@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Docking Doors Research",
+  "display_title": "Docking Doors Research",
+  "summary": "Docking doors is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Doors Research",
+    "Research",
+    "Wiki/Building/Components/Mechanics"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/20/Dockingdoorsresearch.png/revision/latest?cb=20240421184010",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/20/Dockingdoorsresearch.png/revision/latest?cb=20240421184010",
+      "alt": "Dockingdoorsresearch",
+      "width": "49",
+      "height": "49"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Hinged Dock Door"
+        ],
+        [
+          "[Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics)",
+          "Hinged Dock Hatch"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Docking Doors\n\n[![Dockingdoorsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/20/Dockingdoorsresearch.png/revision/latest?cb=20240421184010)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/20/Dockingdoorsresearch.png/revision/latest?cb=20240421184010)\n\n### Research Points\n\n15\n\n### Research Time\n\n0h 30m\n\n## Research Path\n\n### Unlocked by\n\n[Doors](https://stormworks.fandom.com/wiki/Doors_Research)\n\nDocking doors is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Hinged Dock Door |\n| [Mechanics](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Mechanics) | Hinged Dock Hatch |",
+    "plain_text": "Docking Doors\n\nResearch Points\n\n15\n\nResearch Time\n\n0h 30m\n\nResearch Path\n\nUnlocked by\n\nDoors\n\nDocking doors is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nMechanics\n\nHinged Dock Door\n\nMechanics\n\nHinged Dock Hatch",
+    "char_count": 828,
+    "word_count": 35,
+    "sha256": "3d89feaf03534e1631514afed1c87abaf8c77e3aabfd0427ca94335f8cfe6983"
+  },
+  "wikitext": "{{Research\n  | name=Docking Doors\n  | image=[File:Dockingdoorsresearch.png]\n  | points=15\n  | time= 0h 30m\n  | unlock= [[Doors Research|Doors]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Docking doors is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Hinged Dock Door\n|-\n|[[Wiki/Building/Components/Mechanics|Mechanics]]||Hinged Dock Hatch\n|}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Docking_Doors_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1491,
+    "revision_id": 3781,
+    "revision_timestamp": "2024-04-21T18:40:31Z",
+    "retrieved_at": "2026-08-31T10:01:31+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

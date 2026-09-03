@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Vehicle Control",
+  "display_title": "Wiki/Building/Components/Vehicle Control",
+  "summary": "Alias for Gameplay/Workbench/Components/Vehicle Control",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Vehicle Control"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Vehicle Control -> Gameplay/Workbench/Components/Vehicle Control",
+    "plain_text": "Redirect: Wiki/Building/Components/Vehicle Control -> Gameplay/Workbench/Components/Vehicle Control",
+    "char_count": 99,
+    "word_count": 6,
+    "sha256": "b90c89e0e9b72506587c4e4cbcf29c214d9ed83618678047fc919e13c2364dfb"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Vehicle Control",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Vehicle_Control",
+    "target_page_id": 626,
+    "target_revision_id": 4189
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1678,
+    "revision_id": 4190,
+    "revision_timestamp": "2025-05-14T02:40:55Z",
+    "retrieved_at": "2026-08-31T10:11:28+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Game Mechanics/Bouyancy",
+  "display_title": "Wiki/Game Mechanics/Bouyancy",
+  "summary": "Alias for Gameplay/Mechanics/Buoyancy",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Mechanics/Buoyancy"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Game Mechanics/Bouyancy -> Gameplay/Mechanics/Buoyancy",
+    "plain_text": "Redirect: Wiki/Game Mechanics/Bouyancy -> Gameplay/Mechanics/Buoyancy",
+    "char_count": 69,
+    "word_count": 5,
+    "sha256": "8c0496fd38ab833cb47d6b8492c18cd6e6953737363ac46c1e0a3580f3b5c96d"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Mechanics/Buoyancy",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Buoyancy",
+    "target_page_id": 619,
+    "target_revision_id": 4231
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Bouyancy",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1695,
+    "revision_id": 4670,
+    "revision_timestamp": "2025-10-26T01:01:08Z",
+    "retrieved_at": "2026-08-31T10:11:40+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

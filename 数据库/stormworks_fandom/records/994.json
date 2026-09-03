@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki/Guides/first hybrid engine",
+  "display_title": "Wiki/Guides/first hybrid engine",
+  "summary": "With the vehicle you have chosen, Grab a small engine or build a small modular engine, connect the modular clutch to a generator using pipes. Add/Connect a battery, then using logic connect the electricity where required. Put down an electric circuit breaker if you want to toggle the electric engine or just add an electric motor and use pipes to connect it to what you are powering. go to logic and connect the desired controls to the electric motor(What drives the vehicle) and controls for the modular engine(What generates electricity).",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "first hybrid engine     [ edit page ]",
+      "anchor": "first_hybrid_engine_[_edit_page_]"
+    }
+  ],
+  "internal_links": [
+    "Wiki",
+    "Wiki/Guides"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Guides/first_hybrid_engine?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Guides/first_hybrid_engine?action=edit). |\n| --- | --- |\n\n## first hybrid engine\n\nWith the vehicle you have chosen, Grab a small engine or build a small modular engine, connect the modular clutch to a generator using pipes. Add/Connect a battery, then using logic connect the electricity where required. Put down an electric circuit breaker if you want to toggle the electric engine or just add an electric motor and use pipes to connect it to what you are powering. go to logic and connect the desired controls to the electric motor(What drives the vehicle) and controls for the modular engine(What generates electricity).\n\nif you want an engine that is using both motors to power the car, connect both motors to what you are powering",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nfirst hybrid engine\n\nWith the vehicle you have chosen, Grab a small engine or build a small modular engine, connect the modular clutch to a generator using pipes. Add/Connect a battery, then using logic connect the electricity where required. Put down an electric circuit breaker if you want to toggle the electric engine or just add an electric motor and use pipes to connect it to what you are powering. go to logic and connect the desired controls to the electric motor(What drives the vehicle) and controls for the modular engine(What generates electricity).\n\nif you want an engine that is using both motors to power the car, connect both motors to what you are powering",
+    "char_count": 1159,
+    "word_count": 130,
+    "sha256": "01f49367b59d5ba0ced4ec10ecae080ecaedcc119e2af3cc1d52ef7b64d7259d"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\n\nWith the vehicle you have chosen, Grab a small engine or build a small modular engine, connect the modular clutch to a generator using pipes. Add/Connect a battery, then using logic connect the electricity where required. Put down an electric circuit breaker if you want to toggle the electric engine or just add an electric motor and use pipes to connect it to what you are powering. go to logic and connect the desired controls to the electric motor(What drives the vehicle) and controls for the modular engine(What generates electricity).\n\nif you want an engine that is using both motors to power the car, connect both motors to what you are powering\n \n<!-- Stop editing here\n-->}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Guides/first_hybrid_engine",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 994,
+    "revision_id": 3247,
+    "revision_timestamp": "2022-11-18T03:36:24Z",
+    "retrieved_at": "2026-08-31T10:12:08+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

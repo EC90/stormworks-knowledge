@@ -1,0 +1,424 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Weapons Research",
+  "display_title": "Weapons Research",
+  "summary": "Weapons is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Research",
+    "Wiki/Building/Components/Specialist Equipment",
+    "Wiki/Building/Components/Weapons",
+    "Wiki/Building/Components/Windows"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620",
+      "alt": "Genericresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "Weapons",
+          "Machine Gun"
+        ],
+        [
+          "Weapons",
+          "Light Autocannon"
+        ],
+        [
+          "Weapons",
+          "Light Autocannon Barrel Extension"
+        ],
+        [
+          "Weapons",
+          "Rotary Autocannon"
+        ],
+        [
+          "Weapons",
+          "Rotary Autocannon Barrel Extension"
+        ],
+        [
+          "Weapons",
+          "Heavy Autocannon"
+        ],
+        [
+          "Weapons",
+          "Heavy Autocannon Barrel Extension"
+        ],
+        [
+          "Weapons",
+          "Battle Cannon"
+        ],
+        [
+          "Weapons",
+          "Battle Cannon Barrel Extension"
+        ],
+        [
+          "Weapons",
+          "Artillery Cannon"
+        ],
+        [
+          "Weapons",
+          "Artillery Cannon Barrel Extension"
+        ],
+        [
+          "Weapons",
+          "Bertha Cannon"
+        ],
+        [
+          "Weapons",
+          "Bertha Cannon Barrel Extension"
+        ],
+        [
+          "Weapons",
+          "Rocket Launcher"
+        ],
+        [
+          "Weapons",
+          "Autocannon Belt (Straight)"
+        ],
+        [
+          "Weapons",
+          "Autocannon Belt (Corner)"
+        ],
+        [
+          "Weapons",
+          "Autocannon Belt (Corner Flat)"
+        ],
+        [
+          "Weapons",
+          "Autocannon Belt (Junction)"
+        ],
+        [
+          "Weapons",
+          "Autocannon Belt (Feeder)"
+        ],
+        [
+          "Weapons",
+          "Autocannon Belt (Connector)"
+        ],
+        [
+          "Weapons",
+          "Autocannon Belt (Straight)"
+        ],
+        [
+          "Weapons",
+          "Battle Cannon Belt (Corner)"
+        ],
+        [
+          "Weapons",
+          "Battle Cannon Belt (Corner Inner)"
+        ],
+        [
+          "Weapons",
+          "Battle Cannon Belt (Corner Outer)"
+        ],
+        [
+          "Weapons",
+          "Battle Cannon Belt (Junction)"
+        ],
+        [
+          "Weapons",
+          "Battle Cannon Belt (Feeder)"
+        ],
+        [
+          "Weapons",
+          "Battle Cannon Belt (Connector)"
+        ],
+        [
+          "Weapons",
+          "Artillery Cannon Belt (Straight)"
+        ],
+        [
+          "Weapons",
+          "Artillery Cannon Belt (Corner)"
+        ],
+        [
+          "Weapons",
+          "Artillery Cannon Belt (Corner Inner)"
+        ],
+        [
+          "Weapons",
+          "Artillery Cannon Belt (Corner Outer)"
+        ],
+        [
+          "Weapons",
+          "Artillery Cannon Belt (Junction)"
+        ],
+        [
+          "Weapons",
+          "Artillery Cannon Belt (Feeder)"
+        ],
+        [
+          "Weapons",
+          "Artillery Cannon Belt (Connector)"
+        ],
+        [
+          "Weapons",
+          "Bertha Cannon Belt (Straight)"
+        ],
+        [
+          "Weapons",
+          "Bertha Cannon Belt (Corner)"
+        ],
+        [
+          "Weapons",
+          "Bertha Cannon Belt (Corner Inner)"
+        ],
+        [
+          "Weapons",
+          "Bertha Cannon Belt (Corner Outer)"
+        ],
+        [
+          "Weapons",
+          "Bertha Cannon Belt (Junction)"
+        ],
+        [
+          "Weapons",
+          "Bertha Cannon Belt (Feeder)"
+        ],
+        [
+          "Weapons",
+          "Bertha Cannon Belt (Connector)"
+        ],
+        [
+          "Weapons",
+          "Autocannon Ammo Drum (Large)"
+        ],
+        [
+          "Weapons",
+          "Autocannon Ammo Drum (Medium)"
+        ],
+        [
+          "Weapons",
+          "Autocannon Ammo Drum (Small)"
+        ],
+        [
+          "Weapons",
+          "Machine Gun Ammo Box"
+        ],
+        [
+          "Weapons",
+          "Warhead Body (Small)"
+        ],
+        [
+          "Weapons",
+          "Warhead (Small)"
+        ],
+        [
+          "Weapons",
+          "Warhead Body (Medium)"
+        ],
+        [
+          "Weapons",
+          "Warhead (Medium)"
+        ],
+        [
+          "Weapons",
+          "Warhead Body (Large)"
+        ],
+        [
+          "Weapons",
+          "Warhead (Large)"
+        ],
+        [
+          "Weapons",
+          "Warhead (EMP)"
+        ],
+        [
+          "Specialist Equipment",
+          "Equipment Inventory (C4 Explosive)"
+        ],
+        [
+          "Specialist Equipment",
+          "Equipment Inventory (C4 Detonator)"
+        ],
+        [
+          "Specialist Equipment",
+          "Equipment Inventory (Hand Grenade)"
+        ],
+        [
+          "Specialist Equipment",
+          "Equipment Inventory (Pistol)"
+        ],
+        [
+          "Specialist Equipment",
+          "Equipment Inventory (Pistol Ammo)"
+        ],
+        [
+          "Specialist Equipment",
+          "Equipment Inventory (Speargun)"
+        ],
+        [
+          "Specialist Equipment",
+          "Equipment Inventory (Speargun Ammo)"
+        ],
+        [
+          "Specialist Equipment",
+          "Equipment Inventory (SMG)"
+        ],
+        [
+          "Specialist Equipment",
+          "Equipment Inventory (SMG Ammo)"
+        ],
+        [
+          "Specialist Equipment",
+          "Equipment Inventory (Rifle)"
+        ],
+        [
+          "Specialist Equipment",
+          "Equipment Inventory (Rifle Ammo)"
+        ],
+        [
+          "Specialist Equipment",
+          "Outfit Inventory (Armor Vest)"
+        ],
+        [
+          "Specialist Equipment",
+          "Outfit Inventory (Black Hawk Vest)"
+        ],
+        [
+          "Specialist Equipment",
+          "Outfit Inventory (Bomb Disposal)"
+        ],
+        [
+          "Specialist Equipment",
+          "Outfit Inventory (Chest Rig)"
+        ],
+        [
+          "[Windows](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Windows)",
+          "Outfit Inventory (Plate Vest)"
+        ],
+        [
+          "Weapons",
+          "Light Autocannon Muzzle Brake"
+        ],
+        [
+          "Weapons",
+          "Light Autocannon Muzzle Brake"
+        ],
+        [
+          "Weapons",
+          "Light Autocannon Muzzle Brake"
+        ],
+        [
+          "Weapons",
+          "Light Autocannon Muzzle Brake"
+        ],
+        [
+          "Weapons",
+          "Heavy Autocannon Barrel Extension"
+        ],
+        [
+          "Weapons",
+          "Heavy Autocannon Barrel Extension"
+        ],
+        [
+          "Weapons",
+          "Heavy Autocannon Barrel Extension"
+        ],
+        [
+          "Weapons",
+          "Heavy Autocannon Muzzle Brake"
+        ],
+        [
+          "Weapons",
+          "Heavy Autocannon Muzzle Brake"
+        ],
+        [
+          "Weapons",
+          "Heavy Autocannon Muzzle Brake"
+        ],
+        [
+          "Weapons",
+          "Battle Cannon Barrel Extension"
+        ],
+        [
+          "Weapons",
+          "Battle Cannon Barrel Extension"
+        ],
+        [
+          "Weapons",
+          "Battle Cannon Barrel Extension"
+        ],
+        [
+          "Weapons",
+          "Battle Cannon Muzzle Brake"
+        ],
+        [
+          "Weapons",
+          "Battle Cannon Muzzle Brake"
+        ],
+        [
+          "Weapons",
+          "Battle Cannon Muzzle Brake"
+        ],
+        [
+          "Weapons",
+          "Artillery Cannon Barrel Extension"
+        ],
+        [
+          "Weapons",
+          "Artillery Cannon Barrel Extension"
+        ],
+        [
+          "Weapons",
+          "Artillery Cannon Barrel Extension"
+        ],
+        [
+          "Weapons",
+          "Artillery Cannon Muzzle Brake"
+        ],
+        [
+          "Weapons",
+          "Artillery Cannon Muzzle Brake"
+        ],
+        [
+          "Weapons",
+          "Artillery Cannon Muzzle Brake"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Weapons\n\n[![Genericresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)\n\n### Research Points\n\n10\n\n### Research Time\n\n7h 40m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\nWeapons is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| Weapons | Machine Gun |\n| Weapons | Light Autocannon |\n| Weapons | Light Autocannon Barrel Extension |\n| Weapons | Rotary Autocannon |\n| Weapons | Rotary Autocannon Barrel Extension |\n| Weapons | Heavy Autocannon |\n| Weapons | Heavy Autocannon Barrel Extension |\n| Weapons | Battle Cannon |\n| Weapons | Battle Cannon Barrel Extension |\n| Weapons | Artillery Cannon |\n| Weapons | Artillery Cannon Barrel Extension |\n| Weapons | Bertha Cannon |\n| Weapons | Bertha Cannon Barrel Extension |\n| Weapons | Rocket Launcher |\n| Weapons | Autocannon Belt (Straight) |\n| Weapons | Autocannon Belt (Corner) |\n| Weapons | Autocannon Belt (Corner Flat) |\n| Weapons | Autocannon Belt (Junction) |\n| Weapons | Autocannon Belt (Feeder) |\n| Weapons | Autocannon Belt (Connector) |\n| Weapons | Autocannon Belt (Straight) |\n| Weapons | Battle Cannon Belt (Corner) |\n| Weapons | Battle Cannon Belt (Corner Inner) |\n| Weapons | Battle Cannon Belt (Corner Outer) |\n| Weapons | Battle Cannon Belt (Junction) |\n| Weapons | Battle Cannon Belt (Feeder) |\n| Weapons | Battle Cannon Belt (Connector) |\n| Weapons | Artillery Cannon Belt (Straight) |\n| Weapons | Artillery Cannon Belt (Corner) |\n| Weapons | Artillery Cannon Belt (Corner Inner) |\n| Weapons | Artillery Cannon Belt (Corner Outer) |\n| Weapons | Artillery Cannon Belt (Junction) |\n| Weapons | Artillery Cannon Belt (Feeder) |\n| Weapons | Artillery Cannon Belt (Connector) |\n| Weapons | Bertha Cannon Belt (Straight) |\n| Weapons | Bertha Cannon Belt (Corner) |\n| Weapons | Bertha Cannon Belt (Corner Inner) |\n| Weapons | Bertha Cannon Belt (Corner Outer) |\n| Weapons | Bertha Cannon Belt (Junction) |\n| Weapons | Bertha Cannon Belt (Feeder) |\n| Weapons | Bertha Cannon Belt (Connector) |\n| Weapons | Autocannon Ammo Drum (Large) |\n| Weapons | Autocannon Ammo Drum (Medium) |\n| Weapons | Autocannon Ammo Drum (Small) |\n| Weapons | Machine Gun Ammo Box |\n| Weapons | Warhead Body (Small) |\n| Weapons | Warhead (Small) |\n| Weapons | Warhead Body (Medium) |\n| Weapons | Warhead (Medium) |\n| Weapons | Warhead Body (Large) |\n| Weapons | Warhead (Large) |\n| Weapons | Warhead (EMP) |\n| Specialist Equipment | Equipment Inventory (C4 Explosive) |\n| Specialist Equipment | Equipment Inventory (C4 Detonator) |\n| Specialist Equipment | Equipment Inventory (Hand Grenade) |\n| Specialist Equipment | Equipment Inventory (Pistol) |\n| Specialist Equipment | Equipment Inventory (Pistol Ammo) |\n| Specialist Equipment | Equipment Inventory (Speargun) |\n| Specialist Equipment | Equipment Inventory (Speargun Ammo) |\n| Specialist Equipment | Equipment Inventory (SMG) |\n| Specialist Equipment | Equipment Inventory (SMG Ammo) |\n| Specialist Equipment | Equipment Inventory (Rifle) |\n| Specialist Equipment | Equipment Inventory (Rifle Ammo) |\n| Specialist Equipment | Outfit Inventory (Armor Vest) |\n| Specialist Equipment | Outfit Inventory (Black Hawk Vest) |\n| Specialist Equipment | Outfit Inventory (Bomb Disposal) |\n| Specialist Equipment | Outfit Inventory (Chest Rig) |\n| [Windows](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Windows) | Outfit Inventory (Plate Vest) |\n| Weapons | Light Autocannon Muzzle Brake |\n| Weapons | Light Autocannon Muzzle Brake |\n| Weapons | Light Autocannon Muzzle Brake |\n| Weapons | Light Autocannon Muzzle Brake |\n| Weapons | Heavy Autocannon Barrel Extension |\n| Weapons | Heavy Autocannon Barrel Extension |\n| Weapons | Heavy Autocannon Barrel Extension |\n| Weapons | Heavy Autocannon Muzzle Brake |\n| Weapons | Heavy Autocannon Muzzle Brake |\n| Weapons | Heavy Autocannon Muzzle Brake |\n| Weapons | Battle Cannon Barrel Extension |\n| Weapons | Battle Cannon Barrel Extension |\n| Weapons | Battle Cannon Barrel Extension |\n| Weapons | Battle Cannon Muzzle Brake |\n| Weapons | Battle Cannon Muzzle Brake |\n| Weapons | Battle Cannon Muzzle Brake |\n| Weapons | Artillery Cannon Barrel Extension |\n| Weapons | Artillery Cannon Barrel Extension |\n| Weapons | Artillery Cannon Barrel Extension |\n| Weapons | Artillery Cannon Muzzle Brake |\n| Weapons | Artillery Cannon Muzzle Brake |\n| Weapons | Artillery Cannon Muzzle Brake |",
+    "plain_text": "Weapons\n\nResearch Points\n\n10\n\nResearch Time\n\n7h 40m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nWeapons is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nWeapons\n\nMachine Gun\n\nWeapons\n\nLight Autocannon\n\nWeapons\n\nLight Autocannon Barrel Extension\n\nWeapons\n\nRotary Autocannon\n\nWeapons\n\nRotary Autocannon Barrel Extension\n\nWeapons\n\nHeavy Autocannon\n\nWeapons\n\nHeavy Autocannon Barrel Extension\n\nWeapons\n\nBattle Cannon\n\nWeapons\n\nBattle Cannon Barrel Extension\n\nWeapons\n\nArtillery Cannon\n\nWeapons\n\nArtillery Cannon Barrel Extension\n\nWeapons\n\nBertha Cannon\n\nWeapons\n\nBertha Cannon Barrel Extension\n\nWeapons\n\nRocket Launcher\n\nWeapons\n\nAutocannon Belt (Straight)\n\nWeapons\n\nAutocannon Belt (Corner)\n\nWeapons\n\nAutocannon Belt (Corner Flat)\n\nWeapons\n\nAutocannon Belt (Junction)\n\nWeapons\n\nAutocannon Belt (Feeder)\n\nWeapons\n\nAutocannon Belt (Connector)\n\nWeapons\n\nAutocannon Belt (Straight)\n\nWeapons\n\nBattle Cannon Belt (Corner)\n\nWeapons\n\nBattle Cannon Belt (Corner Inner)\n\nWeapons\n\nBattle Cannon Belt (Corner Outer)\n\nWeapons\n\nBattle Cannon Belt (Junction)\n\nWeapons\n\nBattle Cannon Belt (Feeder)\n\nWeapons\n\nBattle Cannon Belt (Connector)\n\nWeapons\n\nArtillery Cannon Belt (Straight)\n\nWeapons\n\nArtillery Cannon Belt (Corner)\n\nWeapons\n\nArtillery Cannon Belt (Corner Inner)\n\nWeapons\n\nArtillery Cannon Belt (Corner Outer)\n\nWeapons\n\nArtillery Cannon Belt (Junction)\n\nWeapons\n\nArtillery Cannon Belt (Feeder)\n\nWeapons\n\nArtillery Cannon Belt (Connector)\n\nWeapons\n\nBertha Cannon Belt (Straight)\n\nWeapons\n\nBertha Cannon Belt (Corner)\n\nWeapons\n\nBertha Cannon Belt (Corner Inner)\n\nWeapons\n\nBertha Cannon Belt (Corner Outer)\n\nWeapons\n\nBertha Cannon Belt (Junction)\n\nWeapons\n\nBertha Cannon Belt (Feeder)\n\nWeapons\n\nBertha Cannon Belt (Connector)\n\nWeapons\n\nAutocannon Ammo Drum (Large)\n\nWeapons\n\nAutocannon Ammo Drum (Medium)\n\nWeapons\n\nAutocannon Ammo Drum (Small)\n\nWeapons\n\nMachine Gun Ammo Box\n\nWeapons\n\nWarhead Body (Small)\n\nWeapons\n\nWarhead (Small)\n\nWeapons\n\nWarhead Body (Medium)\n\nWeapons\n\nWarhead (Medium)\n\nWeapons\n\nWarhead Body (Large)\n\nWeapons\n\nWarhead (Large)\n\nWeapons\n\nWarhead (EMP)\n\nSpecialist Equipment\n\nEquipment Inventory (C4 Explosive)\n\nSpecialist Equipment\n\nEquipment Inventory (C4 Detonator)\n\nSpecialist Equipment\n\nEquipment Inventory (Hand Grenade)\n\nSpecialist Equipment\n\nEquipment Inventory (Pistol)\n\nSpecialist Equipment\n\nEquipment Inventory (Pistol Ammo)\n\nSpecialist Equipment\n\nEquipment Inventory (Speargun)\n\nSpecialist Equipment\n\nEquipment Inventory (Speargun Ammo)\n\nSpecialist Equipment\n\nEquipment Inventory (SMG)\n\nSpecialist Equipment\n\nEquipment Inventory (SMG Ammo)\n\nSpecialist Equipment\n\nEquipment Inventory (Rifle)\n\nSpecialist Equipment\n\nEquipment Inventory (Rifle Ammo)\n\nSpecialist Equipment\n\nOutfit Inventory (Armor Vest)\n\nSpecialist Equipment\n\nOutfit Inventory (Black Hawk Vest)\n\nSpecialist Equipment\n\nOutfit Inventory (Bomb Disposal)\n\nSpecialist Equipment\n\nOutfit Inventory (Chest Rig)\n\nWindows\n\nOutfit Inventory (Plate Vest)\n\nWeapons\n\nLight Autocannon Muzzle Brake\n\nWeapons\n\nLight Autocannon Muzzle Brake\n\nWeapons\n\nLight Autocannon Muzzle Brake\n\nWeapons\n\nLight Autocannon Muzzle Brake\n\nWeapons\n\nHeavy Autocannon Barrel Extension\n\nWeapons\n\nHeavy Autocannon Barrel Extension\n\nWeapons\n\nHeavy Autocannon Barrel Extension\n\nWeapons\n\nHeavy Autocannon Muzzle Brake\n\nWeapons\n\nHeavy Autocannon Muzzle Brake\n\nWeapons\n\nHeavy Autocannon Muzzle Brake\n\nWeapons\n\nBattle Cannon Barrel Extension\n\nWeapons\n\nBattle Cannon Barrel Extension\n\nWeapons\n\nBattle Cannon Barrel Extension\n\nWeapons\n\nBattle Cannon Muzzle Brake\n\nWeapons\n\nBattle Cannon Muzzle Brake\n\nWeapons\n\nBattle Cannon Muzzle Brake\n\nWeapons\n\nArtillery Cannon Barrel Extension\n\nWeapons\n\nArtillery Cannon Barrel Extension\n\nWeapons\n\nArtillery Cannon Barrel Extension\n\nWeapons\n\nArtillery Cannon Muzzle Brake\n\nWeapons\n\nArtillery Cannon Muzzle Brake\n\nWeapons\n\nArtillery Cannon Muzzle Brake",
+    "char_count": 4648,
+    "word_count": 461,
+    "sha256": "0358c73a037f74e44625a7f855029d839295ff593a3c575912413af5c9fce15c"
+  },
+  "wikitext": "{{Research\n  | name=Weapons\n  | image=[File:Genericresearch.png]\n  | points=10\n  | time= 7h 40m\n  | unlock= Initially Available\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Weapons is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Machine Gun\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Light Autocannon\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Light Autocannon Barrel Extension\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Rotary Autocannon\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Rotary Autocannon Barrel Extension\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Heavy Autocannon\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Heavy Autocannon Barrel Extension\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Battle Cannon\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Battle Cannon Barrel Extension\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Artillery Cannon\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Artillery Cannon Barrel Extension\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Bertha Cannon\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Bertha Cannon Barrel Extension\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Rocket Launcher\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Autocannon Belt (Straight)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Autocannon Belt (Corner)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Autocannon Belt (Corner Flat)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Autocannon Belt (Junction)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Autocannon Belt (Feeder)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Autocannon Belt (Connector)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Autocannon Belt (Straight)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Battle Cannon Belt (Corner)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Battle Cannon Belt (Corner Inner)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Battle Cannon Belt (Corner Outer)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Battle Cannon Belt (Junction)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Battle Cannon Belt (Feeder)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Battle Cannon Belt (Connector)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Artillery Cannon Belt (Straight)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Artillery Cannon Belt (Corner)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Artillery Cannon Belt (Corner Inner)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Artillery Cannon Belt (Corner Outer)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Artillery Cannon Belt (Junction)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Artillery Cannon Belt (Feeder)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Artillery Cannon Belt (Connector)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Bertha Cannon Belt (Straight)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Bertha Cannon Belt (Corner)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Bertha Cannon Belt (Corner Inner)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Bertha Cannon Belt (Corner Outer)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Bertha Cannon Belt (Junction)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Bertha Cannon Belt (Feeder)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Bertha Cannon Belt (Connector)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Autocannon Ammo Drum (Large)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Autocannon Ammo Drum (Medium)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Autocannon Ammo Drum (Small)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Machine Gun Ammo Box\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Warhead Body (Small)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Warhead (Small)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Warhead Body (Medium)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Warhead (Medium)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Warhead Body (Large)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Warhead (Large)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Warhead (EMP)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Equipment Inventory (C4 Explosive)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Equipment Inventory (C4 Detonator)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Equipment Inventory (Hand Grenade)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Equipment Inventory (Pistol)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Equipment Inventory (Pistol Ammo)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Equipment Inventory (Speargun)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Equipment Inventory (Speargun Ammo)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Equipment Inventory (SMG)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Equipment Inventory (SMG Ammo)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Equipment Inventory (Rifle)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Equipment Inventory (Rifle Ammo)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Outfit Inventory (Armor Vest)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Outfit Inventory (Black Hawk Vest)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Outfit Inventory (Bomb Disposal)\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Outfit Inventory (Chest Rig)\n|-\n|[[Wiki/Building/Components/Windows|Windows]]||Outfit Inventory (Plate Vest)\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Light Autocannon Muzzle Brake\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Light Autocannon Muzzle Brake\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Light Autocannon Muzzle Brake\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Light Autocannon Muzzle Brake\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Heavy Autocannon Barrel Extension\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Heavy Autocannon Barrel Extension\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Heavy Autocannon Barrel Extension\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Heavy Autocannon Muzzle Brake\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Heavy Autocannon Muzzle Brake\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Heavy Autocannon Muzzle Brake\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Battle Cannon Barrel Extension\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Battle Cannon Barrel Extension\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Battle Cannon Barrel Extension\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Battle Cannon Muzzle Brake\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Battle Cannon Muzzle Brake\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Battle Cannon Muzzle Brake\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Artillery Cannon Barrel Extension\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Artillery Cannon Barrel Extension\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Artillery Cannon Barrel Extension\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Artillery Cannon Muzzle Brake\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Artillery Cannon Muzzle Brake\n|-\n|[[Wiki/Building/Components/Weapons|Weapons]]||Artillery Cannon Muzzle Brake\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Weapons_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1482,
+    "revision_id": 3751,
+    "revision_timestamp": "2024-04-21T18:23:20Z",
+    "retrieved_at": "2026-08-31T10:11:00+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki/Guides/Music",
+  "display_title": "Wiki/Guides/Music",
+  "summary": "With the\n Buzzer\n you can play different sounds. Here is a conversion between notes (real value) and the pitch value (ingame):",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Music     [ edit page ]",
+      "anchor": "Music_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Easy to use microcontroller that allows you to define a song and play it:",
+      "anchor": "Easy_to_use_microcontroller_that_allows_you_to_define_a_song_and_play_it:"
+    }
+  ],
+  "internal_links": [
+    "Wiki",
+    "Wiki/Building/Components/Sound",
+    "Wiki/Guides"
+  ],
+  "external_links": [
+    "http://two66.com/scraps/Stormworks.html#tricks",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2089384177"
+  ],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9c/Buzzer_pitch_note_conversion.jpg/revision/latest?cb=20200116211238",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9c/Buzzer_pitch_note_conversion.jpg/revision/latest?cb=20200116211238",
+      "alt": "Buzzer pitch note conversion",
+      "width": "1225",
+      "height": "150"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Guides/Music?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Guides/Music?action=edit). |\n| --- | --- |\n\n## Music\n\nWith the [Buzzer](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sound) you can play different sounds. Here is a conversion between notes (real value) and the pitch value (ingame):\n\n[http://two66.com/scraps/Stormworks.html#tricks](http://two66.com/scraps/Stormworks.html#tricks)\n\n[![Buzzer pitch note conversion](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9c/Buzzer_pitch_note_conversion.jpg/revision/latest?cb=20200116211238)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9c/Buzzer_pitch_note_conversion.jpg/revision/latest?cb=20200116211238)\n\n## Easy to use microcontroller that allows you to define a song and play it:\n\n[https://steamcommunity.com/sharedfiles/filedetails/?id=2089384177](https://steamcommunity.com/sharedfiles/filedetails/?id=2089384177)",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nMusic\n\nWith the\n Buzzer\n you can play different sounds. Here is a conversion between notes (real value) and the pitch value (ingame):\n\nhttp://two66.com/scraps/Stormworks.html#tricks\n\nEasy to use microcontroller that allows you to define a song and play it:\n\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=2089384177",
+    "char_count": 1294,
+    "word_count": 62,
+    "sha256": "270a10f9eb3938a7d32f6e2e77f8ff08aba089cd1f5731d2f43df5c2595f04e7"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\n\n\n\nWith the [[Wiki/Building/Components/Sound | Buzzer]] you can play different sounds. Here is a conversion between notes (real value) and the pitch value (ingame):\n\nhttp://two66.com/scraps/Stormworks.html#tricks\n\n[[File:Buzzer_pitch_note_conversion.jpg]]\n\n\n== Easy to use microcontroller that allows you to define a song and play it: ==\nhttps://steamcommunity.com/sharedfiles/filedetails/?id=2089384177\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Music",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 992,
+    "revision_id": 2571,
+    "revision_timestamp": "2020-05-08T16:21:49Z",
+    "retrieved_at": "2026-08-31T10:12:23+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

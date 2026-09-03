@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Video/Monitors",
+  "display_title": "Gameplay/Workbench/Components/Video/Monitors",
+  "summary": "Monitors show data from\nLogic Video Connections\n. This can be either from a\ncamera\n, or a\nLua script\n.\nMonitors can be mirrored, which also mirrors the video signal!",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Pages_with_broken_file_links",
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Monitors     [ edit page ]",
+      "anchor": "Monitors_[_edit_page_]"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Workbench",
+    "Gameplay/Workbench/Components",
+    "Gameplay/Workbench/Components/Video",
+    "Wiki/Building/Components/Video/Cameras",
+    "Wiki/Game Mechanics/Lua"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b3/Video_Connection.jpg/revision/latest?cb=20200129200527",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b3/Video_Connection.jpg/revision/latest/scale-to-width-down/180?cb=20200129200527",
+      "alt": "Video Connection",
+      "width": "180",
+      "height": "90"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ea/HUD_1x1.png/revision/latest?cb=20200129200933",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ea/HUD_1x1.png/revision/latest/scale-to-width-down/100?cb=20200129200933",
+      "alt": "HUD 1x1",
+      "width": "100",
+      "height": "94"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video/Monitors?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video/Monitors?action=edit). |\n| --- | --- |\n\n## Monitors\n\nMonitors show data from **Logic Video Connections**. This can be either from a [camera](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Video/Cameras), or a [Lua script](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Lua). Monitors can be mirrored, which also mirrors the video signal!\n\n[![Video Connection](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b3/Video_Connection.jpg/revision/latest/scale-to-width-down/180?cb=20200129200527)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b3/Video_Connection.jpg/revision/latest?cb=20200129200527)\n\n[https://stormworks.fandom.com/wiki/File:Video_Connection.jpg](https://stormworks.fandom.com/wiki/File:Video_Connection.jpg)\n\nHUD 1x1\n\n[![HUD 1x1](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ea/HUD_1x1.png/revision/latest/scale-to-width-down/100?cb=20200129200933)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ea/HUD_1x1.png/revision/latest?cb=20200129200933)\n\n- can be transparent from the front (side with the video on it)\n- always transparent from the back\n- 32x32 pixels\n\nHUD 3x3\n\n[![HUD 3x3](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/8a/HUD_3x3.png/revision/latest?cb=20200129201004)\n\n- can be transparent from the front (side with the video on it)\n- always transparent from the back\n- 96x96 pixels\n\nMonitor 1x1\n\n[![Monitor 1x1](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/07/Monitor_1x1.png/revision/latest?cb=20200129201917)\n\n- can **not** be transparent\n- 32x32 pixels\n\nMonitor 1x2\n\n[File:Monitor 1x2.png](https://stormworks.fandom.com/wiki/Special:Upload?wpDestFile=Monitor_1x2.png)\n\n- can **not** be transparent\n- 32x64 pixels\n\nMonitor 1x3\n\n[File:Monitor 1x3.png](https://stormworks.fandom.com/wiki/Special:Upload?wpDestFile=Monitor_1x3.png)\n\n- can **not** be transparent\n- 32x96 pixels\n\nMonitor 2x2\n\n[![Monitor 2x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/14/Monitor_2x2.png/revision/latest?cb=20200129201931)\n\n- can **not** be transparent\n- 64x64 pixels\n\nMonitor 2x3\n\n[File:Monitor 2x3.png](https://stormworks.fandom.com/wiki/Special:Upload?wpDestFile=Monitor_2x3.png)\n\n- can **not** be transparent\n- 64x96 pixels\n\nMonitor 3x3\n\n[File:Monitor 3x3.png](https://stormworks.fandom.com/wiki/Special:Upload?wpDestFile=Monitor_3x3.png)\n\n- can **not** be transparent\n- 96x96 pixels\n\nMonitor 3x5\n\n[![Monitor 3x5](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ec/Monitor_3x5.png/revision/latest?cb=20200129201946)\n\n- can **not** be transparent\n- 160x96 pixels\n\nMonitor 9x5\n\n[![Monitor 6x9](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2f/Monitor_6x9.png/revision/latest?cb=20200129201953)\n\n- can **not** be transparent\n- 288x160 pixels",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nMonitors\n\nMonitors show data from\nLogic Video Connections\n. This can be either from a\ncamera\n, or a\nLua script\n.\nMonitors can be mirrored, which also mirrors the video signal!\n\nHUD 1x1\n\ncan be transparent from the front (side with the video on it)\n\nalways transparent from the back\n\n32x32 pixels\n\nHUD 3x3\n\ncan be transparent from the front (side with the video on it)\n\nalways transparent from the back\n\n96x96 pixels\n\nMonitor 1x1\n\ncan\nnot\n be transparent\n\n32x32 pixels\n\nMonitor 1x2\n\nFile:Monitor 1x2.png\n\ncan\nnot\n be transparent\n\n32x64 pixels\n\nMonitor 1x3\n\nFile:Monitor 1x3.png\n\ncan\nnot\n be transparent\n\n32x96 pixels\n\nMonitor 2x2\n\ncan\nnot\n be transparent\n\n64x64 pixels\n\nMonitor 2x3\n\nFile:Monitor 2x3.png\n\ncan\nnot\n be transparent\n\n64x96 pixels\n\nMonitor 3x3\n\nFile:Monitor 3x3.png\n\ncan\nnot\n be transparent\n\n96x96 pixels\n\nMonitor 3x5\n\ncan\nnot\n be transparent\n\n160x96 pixels\n\nMonitor 9x5\n\ncan\nnot\n be transparent\n\n288x160 pixels",
+    "char_count": 3760,
+    "word_count": 163,
+    "sha256": "006cd4f801add8703d84aa1a9e2e96c87f0e6bbbe5305a271817a1c70aab6e84"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=<!--\nStart editing here -->\n\n\n\nMonitors show data from '''Logic Video Connections'''. This can be either from a [[Wiki/Building/Components/Video/Cameras|camera]], or a [[Wiki/Game_Mechanics/Lua|Lua script]].\nMonitors can be mirrored, which also mirrors the video signal!\n[[File:Video Connection.jpg|thumbnail|right]]\n<br>\n<br>\n\n{{Wiki_Component_Description | title=HUD 1x1| image=HUD 1x1.png | content=&nbsp;\n* can be transparent from the front (side with the video on it)\n* always transparent from the back\n* 32x32 pixels\n}}\n\n{{Wiki_Component_Description | title=HUD 3x3| image=HUD 3x3.png | content=&nbsp;\n* can be transparent from the front (side with the video on it)\n* always transparent from the back\n* 96x96 pixels\n}}\n{{Wiki_Component_Description | title=Monitor 1x1| image=Monitor 1x1.png | content=&nbsp;\n* can '''not''' be transparent\n* 32x32 pixels\n}}\n{{Wiki_Component_Description | title=Monitor 1x2| image=Monitor 1x2.png | content=&nbsp;\n* can '''not''' be transparent\n* 32x64 pixels\n}}\n{{Wiki_Component_Description | title=Monitor 1x3| image=Monitor 1x3.png | content=&nbsp;\n* can '''not''' be transparent\n* 32x96 pixels\n}}\n{{Wiki_Component_Description | title=Monitor 2x2| image=Monitor 2x2.png | content=&nbsp;\n* can '''not''' be transparent\n* 64x64 pixels\n}}\n{{Wiki_Component_Description | title=Monitor 2x3| image=Monitor 2x3.png | content=&nbsp;\n* can '''not''' be transparent\n* 64x96 pixels\n}}\n{{Wiki_Component_Description | title=Monitor 3x3| image=Monitor 3x3.png | content=&nbsp;\n* can '''not''' be transparent\n* 96x96 pixels\n}}\n{{Wiki_Component_Description | title=Monitor 3x5| image=Monitor 3x5.png | content=&nbsp;\n* can '''not''' be transparent\n* 160x96 pixels\n}}\n{{Wiki_Component_Description | title=Monitor 9x5| image=Monitor 6x9.png | content=&nbsp;\n* can '''not''' be transparent\n* 288x160 pixels\n}}\n\n\n\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video/Monitors",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1110,
+    "revision_id": 4195,
+    "revision_timestamp": "2025-05-14T02:40:55Z",
+    "retrieved_at": "2026-08-31T10:03:03+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

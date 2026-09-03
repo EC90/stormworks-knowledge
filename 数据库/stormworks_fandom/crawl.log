@@ -1,0 +1,746 @@
+2026-08-31 18:00:10,703 | INFO | Stormworks Fandom knowledge crawler 2.0.0
+2026-08-31 18:00:11,118 | INFO | robots.txt permits https://stormworks.fandom.com/api.php
+2026-08-31 18:00:12,227 | INFO | Site: Stormworks: Build and Rescue Wiki (MediaWiki 1.43.9), 558 articles reported
+2026-08-31 18:00:14,390 | INFO | Selected 8 page(s)
+2026-08-31 18:00:26,420 | INFO | Stormworks Fandom knowledge crawler 2.0.0
+2026-08-31 18:00:26,751 | INFO | robots.txt permits https://stormworks.fandom.com/api.php
+2026-08-31 18:00:27,945 | INFO | Site: Stormworks: Build and Rescue Wiki (MediaWiki 1.43.9), 558 articles reported
+2026-08-31 18:00:30,118 | INFO | Selected 737 page(s)
+2026-08-31 18:00:30,124 | INFO | [1/737] fetching: 1.11.7
+2026-08-31 18:00:31,319 | INFO | [2/737] fetching: 1.11.8
+2026-08-31 18:00:32,214 | INFO | [3/737] fetching: Advanced Displays Research
+2026-08-31 18:00:33,220 | INFO | [4/737] fetching: Advanced Fluid Management Research
+2026-08-31 18:00:34,134 | INFO | [5/737] fetching: Advanced Logic Research
+2026-08-31 18:00:35,242 | INFO | [6/737] fetching: Advanced Rescue Equipment Research
+2026-08-31 18:00:36,195 | INFO | [7/737] fetching: Advanced Sensors Research
+2026-08-31 18:00:37,247 | INFO | [8/737] fetching: Advanced Vehicles
+2026-08-31 18:00:38,236 | INFO | [9/737] fetching: Afterburner Research
+2026-08-31 18:00:39,405 | INFO | [10/737] fetching: Airlock
+2026-08-31 18:00:40,182 | INFO | [11/737] fetching: Airstrip Base
+2026-08-31 18:00:41,290 | INFO | [12/737] fetching: Arctic
+2026-08-31 18:00:42,215 | INFO | [13/737] fetching: Arctic Land Vehicles Research
+2026-08-31 18:00:43,165 | INFO | [14/737] fetching: Arctic Rescue Research
+2026-08-31 18:00:44,236 | INFO | [15/737] fetching: Arid Island
+2026-08-31 18:00:45,238 | INFO | [16/737] fetching: Arid Islands
+2026-08-31 18:00:46,154 | INFO | [17/737] fetching: Asset Mod
+2026-08-31 18:00:47,083 | INFO | [18/737] fetching: Astronomy Sensor
+2026-08-31 18:00:48,254 | INFO | [19/737] fetching: Ballasts
+2026-08-31 18:00:49,322 | INFO | [20/737] fetching: Basic Logic Research
+2026-08-31 18:00:50,291 | INFO | [21/737] fetching: Basic Mechanics Research
+2026-08-31 18:00:51,340 | INFO | [22/737] fetching: Basics
+2026-08-31 18:00:52,139 | INFO | [23/737] fetching: Behavior
+2026-08-31 18:00:53,189 | INFO | [24/737] fetching: Behaviour Research
+2026-08-31 18:00:54,354 | INFO | [25/737] fetching: Block
+2026-08-31 18:00:55,183 | INFO | [26/737] fetching: Boat
+2026-08-31 18:00:56,175 | INFO | [27/737] fetching: Boats
+2026-08-31 18:00:57,130 | INFO | [28/737] fetching: Boiler
+2026-08-31 18:00:58,258 | INFO | [29/737] fetching: Bouyancy
+2026-08-31 18:00:59,118 | INFO | [30/737] fetching: Building
+2026-08-31 18:01:00,186 | INFO | [31/737] fetching: Buoyancy
+2026-08-31 18:01:01,272 | INFO | [32/737] fetching: Buttons Research
+2026-08-31 18:01:02,542 | INFO | [33/737] fetching: BVG Logistics Depot
+2026-08-31 18:01:03,311 | INFO | [34/737] fetching: Camera gimbal
+2026-08-31 18:01:04,452 | INFO | [35/737] fetching: Camera Gimbal
+2026-08-31 18:01:05,277 | INFO | [36/737] fetching: Camera medium
+2026-08-31 18:01:06,376 | INFO | [37/737] fetching: Camera Medium
+2026-08-31 18:01:07,384 | INFO | [38/737] fetching: Camera small
+2026-08-31 18:01:08,329 | INFO | [39/737] fetching: Camera Small
+2026-08-31 18:01:09,283 | INFO | [40/737] fetching: Camera stabilized
+2026-08-31 18:01:10,264 | INFO | [41/737] fetching: Camera Stabilized
+2026-08-31 18:01:11,238 | INFO | [42/737] fetching: Career
+2026-08-31 18:01:12,299 | INFO | [43/737] fetching: Cargo Containers
+2026-08-31 18:01:13,248 | INFO | [44/737] fetching: Center of mass
+2026-08-31 18:01:14,381 | INFO | [45/737] fetching: Classic game mode
+2026-08-31 18:01:15,270 | INFO | [46/737] fetching: Classic mode
+2026-08-31 18:01:16,186 | INFO | [47/737] fetching: Coal
+2026-08-31 18:01:17,253 | INFO | [48/737] fetching: Coastguard Outpost Beginner
+2026-08-31 18:01:18,222 | INFO | [49/737] fetching: Coastguard Outpost TT
+2026-08-31 18:01:19,327 | INFO | [50/737] fetching: Compact Mechanics Research
+2026-08-31 18:01:20,326 | INFO | [51/737] fetching: Compass Sensor
+2026-08-31 18:01:21,317 | INFO | [52/737] fetching: Compass sensor
+2026-08-31 18:01:22,333 | INFO | [53/737] fetching: Component
+2026-08-31 18:01:23,338 | INFO | [54/737] fetching: Custom Doors Research
+2026-08-31 18:01:24,292 | INFO | [55/737] fetching: Damage control
+2026-08-31 18:01:25,444 | INFO | [56/737] fetching: Decorations Research
+2026-08-31 18:01:26,317 | INFO | [57/737] fetching: Deep Sea Diving Research
+2026-08-31 18:01:27,289 | INFO | [58/737] fetching: Diesel Engines
+2026-08-31 18:01:28,291 | INFO | [59/737] fetching: Displays Research
+2026-08-31 18:01:29,423 | INFO | [60/737] fetching: Diving Equipment Research
+2026-08-31 18:01:30,317 | INFO | [61/737] fetching: Docking Doors Research
+2026-08-31 18:01:31,293 | INFO | [62/737] fetching: Dog
+2026-08-31 18:01:32,338 | INFO | [63/737] fetching: Doors Research
+2026-08-31 18:01:33,350 | INFO | [64/737] fetching: Electric battery large
+2026-08-31 18:01:34,474 | INFO | [65/737] fetching: Electric battery medium
+2026-08-31 18:01:35,318 | INFO | [66/737] fetching: Electric battery small
+2026-08-31 18:01:36,322 | INFO | [67/737] fetching: Electric furnace
+2026-08-31 18:01:37,327 | INFO | [68/737] fetching: Electricity
+2026-08-31 18:01:38,268 | INFO | [69/737] fetching: Electricity guide
+2026-08-31 18:01:39,304 | INFO | [70/737] fetching: Electrics Research
+2026-08-31 18:01:40,582 | INFO | [71/737] fetching: Enclosed Pipes
+2026-08-31 18:01:41,482 | INFO | [72/737] fetching: Engine
+2026-08-31 18:01:42,313 | INFO | [73/737] fetching: Equipment
+2026-08-31 18:01:43,317 | INFO | [74/737] fetching: FAQ
+2026-08-31 18:01:44,424 | INFO | [75/737] fetching: Firebox
+2026-08-31 18:01:45,266 | INFO | [76/737] fetching: Firefighting Equipment Research
+2026-08-31 18:01:46,246 | INFO | [77/737] fetching: Fish
+2026-08-31 18:01:47,314 | INFO | [78/737] fetching: Flare Launcher
+2026-08-31 18:01:48,326 | INFO | [79/737] fetching: Flare launcher
+2026-08-31 18:01:49,430 | INFO | [80/737] fetching: Fluid Cannon
+2026-08-31 18:01:50,444 | INFO | [81/737] fetching: Fluid jet
+2026-08-31 18:01:51,428 | INFO | [82/737] fetching: Fluid Jet
+2026-08-31 18:01:52,335 | INFO | [83/737] fetching: Fluid Management Research
+2026-08-31 18:01:53,366 | INFO | [84/737] fetching: Fluid Port
+2026-08-31 18:01:54,364 | INFO | [85/737] fetching: Fluid Tank
+2026-08-31 18:01:55,291 | INFO | [86/737] fetching: Fluid Tank Large
+2026-08-31 18:01:56,385 | INFO | [87/737] fetching: Fluid tank large
+2026-08-31 18:01:57,492 | INFO | [88/737] fetching: Fluid tank medium
+2026-08-31 18:01:58,300 | INFO | [89/737] fetching: Fluid tank small
+2026-08-31 18:01:59,397 | INFO | [90/737] fetching: Fluids
+2026-08-31 18:02:00,326 | INFO | [91/737] fetching: Fluids guide
+2026-08-31 18:02:01,257 | INFO | [92/737] fetching: For Contributors
+2026-08-31 18:02:02,446 | INFO | [93/737] fetching: Fuel
+2026-08-31 18:02:03,300 | INFO | [94/737] fetching: Functions Research
+2026-08-31 18:02:04,360 | INFO | [95/737] fetching: Game Mechanics
+2026-08-31 18:02:05,316 | INFO | [96/737] fetching: Gamemodes
+2026-08-31 18:02:06,414 | INFO | [97/737] fetching: Gameplay
+2026-08-31 18:02:07,312 | INFO | [98/737] fetching: Gameplay/Gamemodes
+2026-08-31 18:02:08,368 | INFO | [99/737] fetching: Gameplay/Gamemodes/Career
+2026-08-31 18:02:09,369 | INFO | [100/737] fetching: Gameplay/Gamemodes/Classic
+2026-08-31 18:02:10,384 | INFO | [101/737] fetching: Gameplay/Gamemodes/Creative
+2026-08-31 18:02:11,347 | INFO | [102/737] fetching: Gameplay/Gamemodes/Custom
+2026-08-31 18:02:12,420 | INFO | [103/737] fetching: Gameplay/Gamemodes/Limited Fuel
+2026-08-31 18:02:13,421 | INFO | [104/737] fetching: Gameplay/Mechanics
+2026-08-31 18:02:14,417 | INFO | [105/737] fetching: Gameplay/Mechanics/Basic Physics
+2026-08-31 18:02:15,255 | INFO | [106/737] fetching: Gameplay/Mechanics/Basic Physics Concept
+2026-08-31 18:02:16,433 | INFO | [107/737] fetching: Gameplay/Mechanics/Bouyancy
+2026-08-31 18:02:17,357 | INFO | [108/737] fetching: Gameplay/Mechanics/Buoyancy
+2026-08-31 18:02:18,419 | INFO | [109/737] fetching: Gameplay/Mechanics/Center of Mass
+2026-08-31 18:02:19,457 | INFO | [110/737] fetching: Gameplay/Mechanics/Electricity
+2026-08-31 18:02:20,361 | INFO | [111/737] fetching: Gameplay/Mechanics/Fluids
+2026-08-31 18:02:21,337 | INFO | [112/737] fetching: Gameplay/Mechanics/Fuel
+2026-08-31 18:02:22,488 | INFO | [113/737] fetching: Gameplay/Mechanics/Lift
+2026-08-31 18:02:23,345 | INFO | [114/737] fetching: Gameplay/Mechanics/Logic
+2026-08-31 18:02:24,338 | INFO | [115/737] fetching: Gameplay/Mechanics/Lua
+2026-08-31 18:02:25,207 | INFO | [116/737] fetching: Gameplay/Mechanics/Mechanical Power
+2026-08-31 18:02:26,373 | INFO | [117/737] fetching: Gameplay/Mechanics/Mechanics
+2026-08-31 18:02:27,335 | INFO | [118/737] fetching: Gameplay/Mechanics/Physics
+2026-08-31 18:02:28,287 | INFO | [119/737] fetching: Gameplay/Mechanics/Rope
+2026-08-31 18:02:29,369 | INFO | [120/737] fetching: Gameplay/Mechanics/Ropes
+2026-08-31 18:02:30,457 | INFO | [121/737] fetching: Gameplay/Mechanics/Trim
+2026-08-31 18:02:31,402 | INFO | [122/737] fetching: Gameplay/Mechanics/Wheels
+2026-08-31 18:02:32,356 | INFO | [123/737] fetching: Gameplay/Multiplayer
+2026-08-31 18:02:33,425 | INFO | [124/737] fetching: Gameplay/Research
+2026-08-31 18:02:34,645 | INFO | [125/737] fetching: Gameplay/Workbench
+2026-08-31 18:02:35,426 | INFO | [126/737] fetching: Gameplay/Workbench/Advanced Mode
+2026-08-31 18:02:36,493 | INFO | [127/737] fetching: Gameplay/Workbench/Components
+2026-08-31 18:02:37,536 | INFO | [128/737] fetching: Gameplay/Workbench/Components/Blocks
+2026-08-31 18:02:38,513 | INFO | [129/737] fetching: Gameplay/Workbench/Components/Compass Sensor
+2026-08-31 18:02:39,294 | INFO | [130/737] fetching: Gameplay/Workbench/Components/Decorative
+2026-08-31 18:02:40,430 | INFO | [131/737] fetching: Gameplay/Workbench/Components/Decorative/Lights
+2026-08-31 18:02:41,485 | INFO | [132/737] fetching: Gameplay/Workbench/Components/Displays
+2026-08-31 18:02:42,456 | INFO | [133/737] fetching: Gameplay/Workbench/Components/Electricity
+2026-08-31 18:02:43,347 | INFO | [134/737] fetching: Gameplay/Workbench/Components/Fluids
+2026-08-31 18:02:44,404 | INFO | [135/737] fetching: Gameplay/Workbench/Components/Hardpoint
+2026-08-31 18:02:45,446 | INFO | [136/737] fetching: Gameplay/Workbench/Components/Lights
+2026-08-31 18:02:46,382 | INFO | [137/737] fetching: Gameplay/Workbench/Components/Logic
+2026-08-31 18:02:47,443 | INFO | [138/737] fetching: Gameplay/Workbench/Components/Mechanics
+2026-08-31 18:02:48,398 | INFO | [139/737] fetching: Gameplay/Workbench/Components/Person Operations
+2026-08-31 18:02:49,472 | INFO | [140/737] fetching: Gameplay/Workbench/Components/Propulsion
+2026-08-31 18:02:50,443 | INFO | [141/737] fetching: Gameplay/Workbench/Components/Propulsion/DieselEngines
+2026-08-31 18:02:51,386 | INFO | [142/737] fetching: Gameplay/Workbench/Components/Propulsion/Gearbox
+2026-08-31 18:02:52,473 | INFO | [143/737] fetching: Gameplay/Workbench/Components/Radio
+2026-08-31 18:02:53,504 | INFO | [144/737] fetching: Gameplay/Workbench/Components/Search and Destroy
+2026-08-31 18:02:54,393 | INFO | [145/737] fetching: Gameplay/Workbench/Components/Sensors
+2026-08-31 18:02:55,432 | INFO | [146/737] fetching: Gameplay/Workbench/Components/Sound
+2026-08-31 18:02:56,436 | INFO | [147/737] fetching: Gameplay/Workbench/Components/Space
+2026-08-31 18:02:57,332 | INFO | [148/737] fetching: Gameplay/Workbench/Components/Transponders
+2026-08-31 18:02:58,387 | INFO | [149/737] fetching: Gameplay/Workbench/Components/User Input
+2026-08-31 18:02:59,421 | INFO | [150/737] fetching: Gameplay/Workbench/Components/Vehicle Control
+2026-08-31 18:03:00,390 | INFO | [151/737] fetching: Gameplay/Workbench/Components/Video
+2026-08-31 18:03:01,457 | INFO | [152/737] fetching: Gameplay/Workbench/Components/Video/Cameras
+2026-08-31 18:03:02,359 | INFO | [153/737] fetching: Gameplay/Workbench/Components/Video/Monitors
+2026-08-31 18:03:03,414 | INFO | [154/737] fetching: Gameplay/Workbench/Components/Windows
+2026-08-31 18:03:04,413 | INFO | [155/737] fetching: Gameplay/Workbench/Editor
+2026-08-31 18:03:05,529 | INFO | [156/737] fetching: Gameplay/Workbench/Lua Programming
+2026-08-31 18:03:06,405 | INFO | [157/737] fetching: Gameplay/Workbench/Microcontrollers
+2026-08-31 18:03:07,577 | INFO | [158/737] fetching: Gameplay/Workbench/Normal Mode
+2026-08-31 18:03:08,451 | INFO | [159/737] fetching: Gameplay/Workshop
+2026-08-31 18:03:09,458 | INFO | [160/737] fetching: Gearbox
+2026-08-31 18:03:10,435 | INFO | [161/737] fetching: Generator
+2026-08-31 18:03:11,375 | INFO | [162/737] fetching: Gimbal camera
+2026-08-31 18:03:12,391 | INFO | [163/737] fetching: Guides
+2026-08-31 18:03:13,510 | INFO | [164/737] fetching: Gyro
+2026-08-31 18:03:14,417 | INFO | [165/737] fetching: Gyroscope
+2026-08-31 18:03:15,306 | INFO | [166/737] fetching: Handheld Equipment
+2026-08-31 18:03:16,434 | INFO | [167/737] fetching: Handle
+2026-08-31 18:03:17,452 | INFO | [168/737] fetching: Harbour Base
+2026-08-31 18:03:18,399 | INFO | [169/737] fetching: Hardpoint
+2026-08-31 18:03:19,365 | INFO | [170/737] fetching: Harness
+2026-08-31 18:03:20,407 | INFO | [171/737] fetching: Heavy Aircraft Research
+2026-08-31 18:03:21,441 | INFO | [172/737] fetching: Heavy Land Vehicles Research
+2026-08-31 18:03:22,369 | INFO | [173/737] fetching: Heavy Modular Engines Research
+2026-08-31 18:03:23,436 | INFO | [174/737] fetching: Helicopter
+2026-08-31 18:03:24,363 | INFO | [175/737] fetching: Helicopters
+2026-08-31 18:03:25,515 | INFO | [176/737] fetching: Helicopters Research
+2026-08-31 18:03:26,484 | INFO | [177/737] fetching: High Capacity Electrics Research
+2026-08-31 18:03:27,517 | INFO | [178/737] fetching: Hospital ship
+2026-08-31 18:03:28,409 | INFO | [179/737] fetching: How to play guide for Stormworks: Build and Rescue
+2026-08-31 18:03:29,352 | INFO | [180/737] fetching: Huge winch
+2026-08-31 18:03:30,501 | INFO | [181/737] fetching: Impact sensor
+2026-08-31 18:03:31,461 | INFO | [182/737] fetching: Industrial Equipment Research
+2026-08-31 18:03:32,530 | INFO | [183/737] fetching: Industrial Frontier DLC
+2026-08-31 18:03:33,400 | INFO | [184/737] fetching: Infrared mode
+2026-08-31 18:03:34,454 | INFO | [185/737] fetching: Inverse Pyramid
+2026-08-31 18:03:35,511 | INFO | [186/737] fetching: Inverse Pyramid 1x2
+2026-08-31 18:03:36,396 | INFO | [187/737] fetching: Inverse Pyramid 1x4
+2026-08-31 18:03:37,581 | INFO | [188/737] fetching: Inverse Pyramid 2x2
+2026-08-31 18:03:38,398 | INFO | [189/737] fetching: Inverse Pyramid 2x4
+2026-08-31 18:03:39,453 | INFO | [190/737] fetching: Inverse Pyramid 4x4
+2026-08-31 18:03:40,550 | INFO | [191/737] fetching: Isle of Donkk
+2026-08-31 18:03:41,434 | INFO | [192/737] fetching: Jet Ducting Research
+2026-08-31 18:03:42,526 | INFO | [193/737] fetching: Jet Engines
+2026-08-31 18:03:43,520 | INFO | [194/737] fetching: Jets Research
+2026-08-31 18:03:44,544 | INFO | [195/737] fetching: Key Assignment
+2026-08-31 18:03:45,493 | INFO | [196/737] fetching: Keypads Research
+2026-08-31 18:03:46,758 | INFO | [197/737] fetching: Ladder
+2026-08-31 18:03:47,489 | INFO | [198/737] fetching: Land Vehicles Research
+2026-08-31 18:03:48,543 | INFO | [199/737] fetching: Large Boats Research
+2026-08-31 18:03:49,557 | INFO | [200/737] fetching: Large Engine
+2026-08-31 18:03:50,599 | INFO | [201/737] fetching: Large Jets Research
+2026-08-31 18:03:51,588 | INFO | [202/737] fetching: Large Rotor
+2026-08-31 18:03:52,563 | INFO | [203/737] fetching: Large rotor
+2026-08-31 18:03:53,560 | INFO | [204/737] fetching: Large winch
+2026-08-31 18:03:54,743 | INFO | [205/737] fetching: Linear Track
+2026-08-31 18:03:55,528 | INFO | [206/737] fetching: Linear Track Base
+2026-08-31 18:03:56,506 | INFO | [207/737] fetching: Linear Track Extension
+2026-08-31 18:03:57,558 | INFO | [208/737] fetching: Logic
+2026-08-31 18:03:58,480 | INFO | [209/737] fetching: Logic guide
+2026-08-31 18:03:59,611 | INFO | [210/737] fetching: Loot crate
+2026-08-31 18:04:00,485 | INFO | [211/737] fetching: Loot Crate
+2026-08-31 18:04:01,459 | INFO | [212/737] fetching: Lua Scripting
+2026-08-31 18:04:02,411 | INFO | [213/737] fetching: Lua Scripts
+2026-08-31 18:04:03,478 | INFO | [214/737] fetching: Main Page
+2026-08-31 18:04:04,549 | INFO | [215/737] fetching: Mechanics guide
+2026-08-31 18:04:05,514 | INFO | [216/737] fetching: Medium camera
+2026-08-31 18:04:06,534 | INFO | [217/737] fetching: Medium Engine
+2026-08-31 18:04:07,628 | INFO | [218/737] fetching: Medium engine
+2026-08-31 18:04:08,623 | INFO | [219/737] fetching: Medium fluid tank
+2026-08-31 18:04:09,453 | INFO | [220/737] fetching: Medium Modular Engines Research
+2026-08-31 18:04:10,557 | INFO | [221/737] fetching: Medium winch
+2026-08-31 18:04:11,604 | INFO | [222/737] fetching: Meier isles
+2026-08-31 18:04:12,471 | INFO | [223/737] fetching: Microcontroller
+2026-08-31 18:04:13,641 | INFO | [224/737] fetching: Mission
+2026-08-31 18:04:14,549 | INFO | [225/737] fetching: Missions
+2026-08-31 18:04:15,510 | INFO | [226/737] fetching: Mod
+2026-08-31 18:04:16,634 | INFO | [227/737] fetching: Modular engine
+2026-08-31 18:04:17,573 | INFO | [228/737] fetching: Modular Engines Research
+2026-08-31 18:04:18,668 | INFO | [229/737] fetching: Multiplayer
+2026-08-31 18:04:19,599 | INFO | [230/737] fetching: Navigation Research
+2026-08-31 18:04:20,566 | INFO | [231/737] fetching: Normal
+2026-08-31 18:04:21,627 | INFO | [232/737] fetching: Normal Mode
+2026-08-31 18:04:22,618 | INFO | [233/737] fetching: North Harbor
+2026-08-31 18:04:23,491 | INFO | [234/737] fetching: North Meier Outpost
+2026-08-31 18:04:24,470 | INFO | [235/737] fetching: Nuclear power
+2026-08-31 18:04:25,487 | INFO | [236/737] fetching: Nuclear Power Research
+2026-08-31 18:04:26,591 | INFO | [237/737] fetching: Oil Industry Research
+2026-08-31 18:04:27,662 | INFO | [238/737] fetching: Patch notes
+2026-08-31 18:04:28,616 | INFO | [239/737] fetching: Physics
+2026-08-31 18:04:29,440 | INFO | [240/737] fetching: Physics Flooder
+2026-08-31 18:04:30,535 | INFO | [241/737] fetching: Pipes
+2026-08-31 18:04:31,551 | INFO | [242/737] fetching: Plane
+2026-08-31 18:04:32,484 | INFO | [243/737] fetching: Planes
+2026-08-31 18:04:33,495 | INFO | [244/737] fetching: Planes Research
+2026-08-31 18:04:34,603 | INFO | [245/737] fetching: Player
+2026-08-31 18:04:35,663 | INFO | [246/737] fetching: Pump
+2026-08-31 18:04:36,452 | INFO | [247/737] fetching: Pumps
+2026-08-31 18:04:37,716 | INFO | [248/737] fetching: Radar
+2026-08-31 18:04:38,955 | INFO | [249/737] fetching: Radar and Sonar Research
+2026-08-31 18:04:39,752 | INFO | [250/737] fetching: Radar Detector
+2026-08-31 18:04:40,768 | INFO | [251/737] fetching: Radar detector
+2026-08-31 18:04:41,718 | INFO | [252/737] fetching: Radio
+2026-08-31 18:04:42,632 | INFO | [253/737] fetching: Radio RX Research
+2026-08-31 18:04:43,700 | INFO | [254/737] fetching: Railings Research
+2026-08-31 18:04:44,751 | INFO | [255/737] fetching: Rails
+2026-08-31 18:04:45,761 | INFO | [256/737] fetching: RCS thruster
+2026-08-31 18:04:46,698 | INFO | [257/737] fetching: Release date
+2026-08-31 18:04:47,711 | INFO | [258/737] fetching: Rescue Equipment Research
+2026-08-31 18:04:48,773 | INFO | [259/737] fetching: Research
+2026-08-31 18:04:49,586 | INFO | [260/737] fetching: Rope
+2026-08-31 18:04:50,791 | INFO | [261/737] fetching: Rotors
+2026-08-31 18:04:51,691 | INFO | [262/737] fetching: Sawyer Islands
+2026-08-31 18:04:52,832 | INFO | [263/737] fetching: Seaplane
+2026-08-31 18:04:53,758 | INFO | [264/737] fetching: Search and Destroy DLC
+2026-08-31 18:04:54,797 | INFO | [265/737] fetching: Sensors Research
+2026-08-31 18:04:55,852 | INFO | [266/737] fetching: Shipping container
+2026-08-31 18:04:56,719 | INFO | [267/737] fetching: Shipping Research
+2026-08-31 18:04:57,849 | INFO | [268/737] fetching: Sleep
+2026-08-31 18:04:58,762 | INFO | [269/737] fetching: Small camera
+2026-08-31 18:04:59,632 | INFO | [270/737] fetching: Small winch
+2026-08-31 18:05:00,760 | INFO | [271/737] fetching: Solid Rockets Research
+2026-08-31 18:05:01,778 | INFO | [272/737] fetching: Space Research
+2026-08-31 18:05:02,717 | INFO | [273/737] fetching: Stabilized camera
+2026-08-31 18:05:03,680 | INFO | [274/737] fetching: Starter Boat
+2026-08-31 18:05:04,740 | INFO | [275/737] fetching: Starter boat
+2026-08-31 18:05:05,655 | INFO | [276/737] fetching: Status Effects
+2026-08-31 18:05:06,644 | INFO | [277/737] fetching: Steam boiler
+2026-08-31 18:05:07,678 | INFO | [278/737] fetching: Steam piston
+2026-08-31 18:05:08,789 | INFO | [279/737] fetching: Steam Power Research
+2026-08-31 18:05:09,763 | INFO | [280/737] fetching: Stormwoof
+2026-08-31 18:05:10,689 | INFO | [281/737] fetching: Stormworks
+2026-08-31 18:05:11,721 | INFO | [282/737] fetching: Stormworks Build and Rescue Wiki
+2026-08-31 18:05:13,028 | INFO | [283/737] fetching: Stormworks: Build and Rescue
+2026-08-31 18:05:13,788 | INFO | [284/737] fetching: Stormworks: Build and Rescue-ru
+2026-08-31 18:05:14,811 | INFO | [285/737] fetching: Submarines
+2026-08-31 18:05:15,699 | INFO | [286/737] fetching: Submersible
+2026-08-31 18:05:16,812 | INFO | [287/737] fetching: Survivor
+2026-08-31 18:05:17,764 | INFO | [288/737] fetching: System requirements
+2026-08-31 18:05:18,729 | INFO | [289/737] fetching: Tank Tracks Large Research
+2026-08-31 18:05:19,781 | INFO | [290/737] fetching: Tank Tracks Medium Research
+2026-08-31 18:05:20,758 | INFO | [291/737] fetching: Tank Tracks Small Research
+2026-08-31 18:05:21,720 | INFO | [292/737] fetching: Template
+2026-08-31 18:05:22,841 | INFO | [293/737] fetching: Terminal Spycakes
+2026-08-31 18:05:23,883 | INFO | [294/737] fetching: Test (achievement)
+2026-08-31 18:05:24,781 | INFO | [295/737] fetching: Test (class)
+2026-08-31 18:05:25,879 | INFO | [296/737] fetching: Trailer
+2026-08-31 18:05:26,832 | INFO | [297/737] fetching: Trains
+2026-08-31 18:05:27,924 | INFO | [298/737] fetching: Trains Research
+2026-08-31 18:05:28,806 | INFO | [299/737] fetching: Transponder
+2026-08-31 18:05:29,761 | INFO | [300/737] fetching: Turbine
+2026-08-31 18:05:30,935 | INFO | [301/737] fetching: Updates
+2026-08-31 18:05:31,786 | INFO | [302/737] fetching: V.1.4.4
+2026-08-31 18:05:32,887 | INFO | [303/737] fetching: V0.1.10-11
+2026-08-31 18:05:34,287 | INFO | [304/737] fetching: V0.1.12-13
+2026-08-31 18:05:35,275 | INFO | [305/737] fetching: V0.1.14-15
+2026-08-31 18:05:36,386 | INFO | [306/737] fetching: V0.1.16
+2026-08-31 18:05:37,558 | INFO | [307/737] fetching: V0.1.17-18
+2026-08-31 18:05:38,678 | INFO | [308/737] fetching: V0.1.19
+2026-08-31 18:05:39,706 | INFO | [309/737] fetching: V0.1.20
+2026-08-31 18:05:40,388 | INFO | [310/737] fetching: V0.1.21-22
+2026-08-31 18:05:41,529 | INFO | [311/737] fetching: V0.1.23-25
+2026-08-31 18:05:42,753 | INFO | [312/737] fetching: V0.1.26-27
+2026-08-31 18:05:43,554 | INFO | [313/737] fetching: V0.1.28
+2026-08-31 18:05:44,746 | INFO | [314/737] fetching: V0.1.29
+2026-08-31 18:05:46,211 | INFO | [315/737] fetching: V0.1.30-32
+2026-08-31 18:05:47,012 | INFO | [316/737] fetching: V0.1.30-35
+2026-08-31 18:05:47,997 | INFO | [317/737] fetching: V0.1.4
+2026-08-31 18:05:49,061 | INFO | [318/737] fetching: V0.1.5
+2026-08-31 18:05:50,280 | INFO | [319/737] fetching: V0.1.6
+2026-08-31 18:05:51,510 | INFO | [320/737] fetching: V0.1.7-9
+2026-08-31 18:05:52,550 | INFO | [321/737] fetching: V0.10.10-11
+2026-08-31 18:05:53,325 | INFO | [322/737] fetching: V0.10.12
+2026-08-31 18:05:54,569 | INFO | [323/737] fetching: V0.10.13
+2026-08-31 18:05:55,768 | INFO | [324/737] fetching: V0.10.14-15
+2026-08-31 18:05:56,625 | INFO | [325/737] fetching: V0.10.16
+2026-08-31 18:05:58,052 | INFO | [326/737] fetching: V0.10.18
+2026-08-31 18:05:58,946 | INFO | [327/737] fetching: V0.10.19-22
+2026-08-31 18:06:00,241 | INFO | [328/737] fetching: V0.10.2
+2026-08-31 18:06:01,050 | INFO | [329/737] fetching: V0.10.23-25
+2026-08-31 18:06:02,240 | INFO | [330/737] fetching: V0.10.27-28
+2026-08-31 18:06:03,048 | INFO | [331/737] fetching: V0.10.29-30
+2026-08-31 18:06:04,337 | INFO | [332/737] fetching: V0.10.3-9
+2026-08-31 18:06:05,319 | INFO | [333/737] fetching: V0.10.32-33
+2026-08-31 18:06:06,491 | INFO | [334/737] fetching: V0.10.34-35
+2026-08-31 18:06:07,586 | INFO | [335/737] fetching: V0.10.36
+2026-08-31 18:06:08,590 | INFO | [336/737] fetching: V0.2.1
+2026-08-31 18:06:09,656 | INFO | [337/737] fetching: V0.2.10
+2026-08-31 18:06:10,645 | INFO | [338/737] fetching: V0.2.11-12
+2026-08-31 18:06:11,655 | INFO | [339/737] fetching: V0.2.13-21
+2026-08-31 18:06:12,463 | INFO | [340/737] fetching: V0.2.2-5
+2026-08-31 18:06:13,547 | INFO | [341/737] fetching: V0.2.22-26
+2026-08-31 18:06:14,732 | INFO | [342/737] fetching: V0.2.27-28
+2026-08-31 18:06:15,630 | INFO | [343/737] fetching: V0.2.29-31
+2026-08-31 18:06:16,882 | INFO | [344/737] fetching: V0.2.32-35
+2026-08-31 18:06:18,021 | INFO | [345/737] fetching: V0.2.36-38
+2026-08-31 18:06:19,185 | INFO | [346/737] fetching: V0.2.39-40
+2026-08-31 18:06:20,335 | INFO | [347/737] fetching: V0.2.41
+2026-08-31 18:06:21,190 | INFO | [348/737] fetching: V0.2.42
+2026-08-31 18:06:22,157 | INFO | [349/737] fetching: V0.2.6-7
+2026-08-31 18:06:23,443 | INFO | [350/737] fetching: V0.2.8-9
+2026-08-31 18:06:24,576 | INFO | [351/737] fetching: V0.3.1-2
+2026-08-31 18:06:25,685 | INFO | [352/737] fetching: V0.3.13
+2026-08-31 18:06:26,809 | INFO | [353/737] fetching: V0.3.3
+2026-08-31 18:06:28,034 | INFO | [354/737] fetching: V0.3.4
+2026-08-31 18:06:29,136 | INFO | [355/737] fetching: V0.3.5
+2026-08-31 18:06:30,124 | INFO | [356/737] fetching: V0.3.6
+2026-08-31 18:06:31,137 | INFO | [357/737] fetching: V0.3.7
+2026-08-31 18:06:32,188 | INFO | [358/737] fetching: V0.3.8
+2026-08-31 18:06:33,322 | INFO | [359/737] fetching: V0.3.9-12
+2026-08-31 18:06:34,170 | INFO | [360/737] fetching: V0.4.1
+2026-08-31 18:06:35,143 | INFO | [361/737] fetching: V0.4.14-20
+2026-08-31 18:06:36,321 | INFO | [362/737] fetching: V0.4.2-13
+2026-08-31 18:06:37,301 | INFO | [363/737] fetching: V0.4.21-22
+2026-08-31 18:06:38,222 | INFO | [364/737] fetching: V0.4.23-26
+2026-08-31 18:06:39,594 | INFO | [365/737] fetching: V0.4.27
+2026-08-31 18:06:40,841 | INFO | [366/737] fetching: V0.4.28
+2026-08-31 18:06:42,010 | INFO | [367/737] fetching: V0.4.29-30
+2026-08-31 18:06:43,010 | INFO | [368/737] fetching: V0.4.31
+2026-08-31 18:06:44,120 | INFO | [369/737] fetching: V0.4.32-33
+2026-08-31 18:06:45,171 | INFO | [370/737] fetching: V0.4.34-36
+2026-08-31 18:06:45,931 | INFO | [371/737] fetching: V0.4.37-39
+2026-08-31 18:06:47,111 | INFO | [372/737] fetching: V0.4.40-41
+2026-08-31 18:06:47,932 | INFO | [373/737] fetching: V0.4.42
+2026-08-31 18:06:48,952 | INFO | [374/737] fetching: V0.4.43-51
+2026-08-31 18:06:50,195 | INFO | [375/737] fetching: V0.5.1-2
+2026-08-31 18:06:51,083 | INFO | [376/737] fetching: V0.5.12-14
+2026-08-31 18:06:52,034 | INFO | [377/737] fetching: V0.5.15
+2026-08-31 18:06:53,135 | INFO | [378/737] fetching: V0.5.16
+2026-08-31 18:06:54,300 | INFO | [379/737] fetching: V0.5.17-19
+2026-08-31 18:06:55,390 | INFO | [380/737] fetching: V0.5.2-4
+2026-08-31 18:06:56,221 | INFO | [381/737] fetching: V0.5.20
+2026-08-31 18:06:57,480 | INFO | [382/737] fetching: V0.5.21
+2026-08-31 18:06:58,255 | INFO | [383/737] fetching: V0.5.22-23
+2026-08-31 18:06:59,763 | INFO | [384/737] fetching: V0.5.5
+2026-08-31 18:07:00,593 | INFO | [385/737] fetching: V0.5.6
+2026-08-31 18:07:01,809 | INFO | [386/737] fetching: V0.5.7
+2026-08-31 18:07:02,849 | INFO | [387/737] fetching: V0.5.8
+2026-08-31 18:07:03,640 | INFO | [388/737] fetching: V0.5.9-11
+2026-08-31 18:07:04,688 | INFO | [389/737] fetching: V0.6.1
+2026-08-31 18:07:05,659 | INFO | [390/737] fetching: V0.6.14
+2026-08-31 18:07:06,682 | INFO | [391/737] fetching: V0.6.15
+2026-08-31 18:07:07,696 | INFO | [392/737] fetching: V0.6.16-17
+2026-08-31 18:07:08,788 | INFO | [393/737] fetching: V0.6.18
+2026-08-31 18:07:09,870 | INFO | [394/737] fetching: V0.6.19-20
+2026-08-31 18:07:10,972 | INFO | [395/737] fetching: V0.6.2
+2026-08-31 18:07:11,843 | INFO | [396/737] fetching: V0.6.21
+2026-08-31 18:07:13,081 | INFO | [397/737] fetching: V0.6.3-7
+2026-08-31 18:07:13,996 | INFO | [398/737] fetching: V0.6.8
+2026-08-31 18:07:15,023 | INFO | [399/737] fetching: V0.6.9-13
+2026-08-31 18:07:16,049 | INFO | [400/737] fetching: V0.7.1
+2026-08-31 18:07:17,137 | INFO | [401/737] fetching: V0.7.10
+2026-08-31 18:07:18,096 | INFO | [402/737] fetching: V0.7.11-12
+2026-08-31 18:07:18,980 | INFO | [403/737] fetching: V0.7.13
+2026-08-31 18:07:20,126 | INFO | [404/737] fetching: V0.7.14-17
+2026-08-31 18:07:21,215 | INFO | [405/737] fetching: V0.7.18
+2026-08-31 18:07:21,978 | INFO | [406/737] fetching: V0.7.19
+2026-08-31 18:07:23,089 | INFO | [407/737] fetching: V0.7.2-3
+2026-08-31 18:07:24,231 | INFO | [408/737] fetching: V0.7.20
+2026-08-31 18:07:25,346 | INFO | [409/737] fetching: V0.7.4-5
+2026-08-31 18:07:26,399 | INFO | [410/737] fetching: V0.7.6-7
+2026-08-31 18:07:27,387 | INFO | [411/737] fetching: V0.7.8-9
+2026-08-31 18:07:28,299 | INFO | [412/737] fetching: V0.8.1
+2026-08-31 18:07:29,472 | INFO | [413/737] fetching: V0.8.11-14
+2026-08-31 18:07:30,576 | INFO | [414/737] fetching: V0.8.15
+2026-08-31 18:07:31,631 | INFO | [415/737] fetching: V0.8.16-18
+2026-08-31 18:07:32,679 | INFO | [416/737] fetching: V0.8.19
+2026-08-31 18:07:33,431 | INFO | [417/737] fetching: V0.8.2-6
+2026-08-31 18:07:34,944 | INFO | [418/737] fetching: V0.8.20-21
+2026-08-31 18:07:35,690 | INFO | [419/737] fetching: V0.8.22-23
+2026-08-31 18:07:36,819 | INFO | [420/737] fetching: V0.8.24-28
+2026-08-31 18:07:38,091 | INFO | [421/737] fetching: V0.8.29-31
+2026-08-31 18:07:39,079 | INFO | [422/737] fetching: V0.8.30
+2026-08-31 18:07:39,780 | INFO | [423/737] fetching: V0.8.32-33
+2026-08-31 18:07:41,139 | INFO | [424/737] fetching: V0.8.7-10
+2026-08-31 18:07:42,437 | INFO | [425/737] fetching: V0.9.1-2
+2026-08-31 18:07:43,633 | INFO | [426/737] fetching: V0.9.11
+2026-08-31 18:07:44,435 | INFO | [427/737] fetching: V0.9.12-13
+2026-08-31 18:07:45,475 | INFO | [428/737] fetching: V0.9.14-15
+2026-08-31 18:07:46,697 | INFO | [429/737] fetching: V0.9.16-17
+2026-08-31 18:07:47,701 | INFO | [430/737] fetching: V0.9.18-19
+2026-08-31 18:07:48,839 | INFO | [431/737] fetching: V0.9.20
+2026-08-31 18:07:49,860 | INFO | [432/737] fetching: V0.9.21-24
+2026-08-31 18:07:50,914 | INFO | [433/737] fetching: V0.9.25-27
+2026-08-31 18:07:52,060 | INFO | [434/737] fetching: V0.9.28-32
+2026-08-31 18:07:53,288 | INFO | [435/737] fetching: V0.9.3-5
+2026-08-31 18:07:54,491 | INFO | [436/737] fetching: V0.9.4.6
+2026-08-31 18:07:55,430 | INFO | [437/737] fetching: V0.9.6
+2026-08-31 18:07:56,616 | INFO | [438/737] fetching: V0.9.7
+2026-08-31 18:07:57,326 | INFO | [439/737] fetching: V0.9.7-8
+2026-08-31 18:07:58,681 | INFO | [440/737] fetching: V0.9.9-10
+2026-08-31 18:07:59,954 | INFO | [441/737] fetching: V1.0.0
+2026-08-31 18:08:00,946 | INFO | [442/737] fetching: V1.0.1-14
+2026-08-31 18:08:01,791 | INFO | [443/737] fetching: V1.0.15
+2026-08-31 18:08:03,157 | INFO | [444/737] fetching: V1.0.16-17
+2026-08-31 18:08:04,365 | INFO | [445/737] fetching: V1.0.18-19
+2026-08-31 18:08:05,451 | INFO | [446/737] fetching: V1.0.20
+2026-08-31 18:08:06,423 | INFO | [447/737] fetching: V1.0.21
+2026-08-31 18:08:07,200 | INFO | [448/737] fetching: V1.0.22
+2026-08-31 18:08:08,468 | INFO | [449/737] fetching: V1.0.25
+2026-08-31 18:08:09,717 | INFO | [450/737] fetching: V1.0.26-27
+2026-08-31 18:08:10,767 | INFO | [451/737] fetching: V1.0.29
+2026-08-31 18:08:11,786 | INFO | [452/737] fetching: V1.0.33
+2026-08-31 18:08:12,859 | INFO | [453/737] fetching: V1.0.34
+2026-08-31 18:08:13,908 | INFO | [454/737] fetching: V1.1.13
+2026-08-31 18:08:14,923 | INFO | [455/737] fetching: V1.1.14-17
+2026-08-31 18:08:16,030 | INFO | [456/737] fetching: V1.1.18
+2026-08-31 18:08:16,840 | INFO | [457/737] fetching: V1.1.19
+2026-08-31 18:08:17,845 | INFO | [458/737] fetching: V1.1.2
+2026-08-31 18:08:18,801 | INFO | [459/737] fetching: V1.1.20-22
+2026-08-31 18:08:20,132 | INFO | [460/737] fetching: V1.1.23-24
+2026-08-31 18:08:21,325 | INFO | [461/737] fetching: V1.1.25-26
+2026-08-31 18:08:22,336 | INFO | [462/737] fetching: V1.1.4
+2026-08-31 18:08:23,693 | INFO | [463/737] fetching: V1.1.4-6
+2026-08-31 18:08:24,707 | INFO | [464/737] fetching: V1.1.7-12
+2026-08-31 18:08:25,802 | INFO | [465/737] fetching: V1.10.0
+2026-08-31 18:08:26,941 | INFO | [466/737] fetching: V1.10.10
+2026-08-31 18:08:28,009 | INFO | [467/737] fetching: V1.10.2
+2026-08-31 18:08:29,135 | INFO | [468/737] fetching: V1.10.3
+2026-08-31 18:08:29,927 | INFO | [469/737] fetching: V1.10.4
+2026-08-31 18:08:31,120 | INFO | [470/737] fetching: V1.10.5
+2026-08-31 18:08:32,320 | INFO | [471/737] fetching: V1.10.6
+2026-08-31 18:08:33,320 | INFO | [472/737] fetching: V1.10.7
+2026-08-31 18:08:34,355 | INFO | [473/737] fetching: V1.10.8
+2026-08-31 18:08:35,503 | INFO | [474/737] fetching: V1.10.9
+2026-08-31 18:08:36,628 | INFO | [475/737] fetching: V1.11.0
+2026-08-31 18:08:37,645 | INFO | [476/737] fetching: V1.11.1
+2026-08-31 18:08:38,618 | INFO | [477/737] fetching: V1.11.2
+2026-08-31 18:08:39,738 | INFO | [478/737] fetching: V1.11.3
+2026-08-31 18:08:40,812 | INFO | [479/737] fetching: V1.11.4
+2026-08-31 18:08:41,854 | INFO | [480/737] fetching: V1.11.5
+2026-08-31 18:08:42,906 | INFO | [481/737] fetching: V1.11.6
+2026-08-31 18:08:43,950 | INFO | [482/737] fetching: V1.11.7
+2026-08-31 18:08:44,903 | INFO | [483/737] fetching: V1.11.8
+2026-08-31 18:08:46,191 | INFO | [484/737] fetching: V1.12.0
+2026-08-31 18:08:47,032 | INFO | [485/737] fetching: V1.12.1
+2026-08-31 18:08:48,301 | INFO | [486/737] fetching: V1.12.2
+2026-08-31 18:08:49,131 | INFO | [487/737] fetching: V1.12.3
+2026-08-31 18:08:50,131 | INFO | [488/737] fetching: V1.12.4
+2026-08-31 18:08:51,359 | INFO | [489/737] fetching: V1.12.5
+2026-08-31 18:08:52,510 | INFO | [490/737] fetching: V1.12.6
+2026-08-31 18:08:53,513 | INFO | [491/737] fetching: V1.12.8
+2026-08-31 18:08:54,366 | INFO | [492/737] fetching: V1.12.9
+2026-08-31 18:08:55,617 | INFO | [493/737] fetching: V1.13.0
+2026-08-31 18:08:56,444 | INFO | [494/737] fetching: V1.13.1
+2026-08-31 18:08:57,640 | INFO | [495/737] fetching: V1.13.2
+2026-08-31 18:08:58,753 | INFO | [496/737] fetching: V1.13.3
+2026-08-31 18:08:59,850 | INFO | [497/737] fetching: V1.13.4
+2026-08-31 18:09:00,935 | INFO | [498/737] fetching: V1.13.5
+2026-08-31 18:09:01,952 | INFO | [499/737] fetching: V1.13.6
+2026-08-31 18:09:02,994 | INFO | [500/737] fetching: V1.14.0
+2026-08-31 18:09:04,109 | INFO | [501/737] fetching: V1.14.1
+2026-08-31 18:09:05,089 | INFO | [502/737] fetching: V1.14.2
+2026-08-31 18:09:05,851 | INFO | [503/737] fetching: V1.14.3
+2026-08-31 18:09:07,181 | INFO | [504/737] fetching: V1.14.4
+2026-08-31 18:09:08,073 | INFO | [505/737] fetching: V1.15.0
+2026-08-31 18:09:08,972 | INFO | [506/737] fetching: V1.15.1
+2026-08-31 18:09:10,246 | INFO | [507/737] fetching: V1.15.2
+2026-08-31 18:09:11,283 | INFO | [508/737] fetching: V1.2.1
+2026-08-31 18:09:12,474 | INFO | [509/737] fetching: V1.2.12
+2026-08-31 18:09:13,422 | INFO | [510/737] fetching: V1.2.14
+2026-08-31 18:09:14,669 | INFO | [511/737] fetching: V1.2.15-17
+2026-08-31 18:09:15,406 | INFO | [512/737] fetching: V1.2.18-19
+2026-08-31 18:09:16,684 | INFO | [513/737] fetching: V1.2.21
+2026-08-31 18:09:17,478 | INFO | [514/737] fetching: V1.2.25-26
+2026-08-31 18:09:18,754 | INFO | [515/737] fetching: V1.2.27-28
+2026-08-31 18:09:19,787 | INFO | [516/737] fetching: V1.2.29
+2026-08-31 18:09:20,895 | INFO | [517/737] fetching: V1.2.3
+2026-08-31 18:09:21,691 | INFO | [518/737] fetching: V1.2.3-4
+2026-08-31 18:09:22,936 | INFO | [519/737] fetching: V1.2.5-6
+2026-08-31 18:09:23,756 | INFO | [520/737] fetching: V1.3.0
+2026-08-31 18:09:24,828 | INFO | [521/737] fetching: V1.3.1-4
+2026-08-31 18:09:26,110 | INFO | [522/737] fetching: V1.3.12
+2026-08-31 18:09:27,125 | INFO | [523/737] fetching: V1.3.13
+2026-08-31 18:09:28,116 | INFO | [524/737] fetching: V1.3.14
+2026-08-31 18:09:29,033 | INFO | [525/737] fetching: V1.3.16
+2026-08-31 18:09:30,181 | INFO | [526/737] fetching: V1.3.18
+2026-08-31 18:09:30,949 | INFO | [527/737] fetching: V1.3.19
+2026-08-31 18:09:32,273 | INFO | [528/737] fetching: V1.3.21
+2026-08-31 18:09:33,369 | INFO | [529/737] fetching: V1.3.6
+2026-08-31 18:09:34,132 | INFO | [530/737] fetching: V1.3.7
+2026-08-31 18:09:35,227 | INFO | [531/737] fetching: V1.3.9-10
+2026-08-31 18:09:36,517 | INFO | [532/737] fetching: V1.4.11
+2026-08-31 18:09:37,660 | INFO | [533/737] fetching: V1.4.14
+2026-08-31 18:09:38,853 | INFO | [534/737] fetching: V1.4.15
+2026-08-31 18:09:39,955 | INFO | [535/737] fetching: V1.4.16
+2026-08-31 18:09:41,014 | INFO | [536/737] fetching: V1.4.17
+2026-08-31 18:09:42,010 | INFO | [537/737] fetching: V1.4.18
+2026-08-31 18:09:43,033 | INFO | [538/737] fetching: V1.4.19
+2026-08-31 18:09:44,322 | INFO | [539/737] fetching: V1.4.4
+2026-08-31 18:09:45,105 | INFO | [540/737] fetching: V1.4.7
+2026-08-31 18:09:46,294 | INFO | [541/737] fetching: V1.4.9
+2026-08-31 18:09:47,472 | INFO | [542/737] fetching: V1.5.1
+2026-08-31 18:09:48,456 | INFO | [543/737] fetching: V1.5.14
+2026-08-31 18:09:49,233 | INFO | [544/737] fetching: V1.5.15-16
+2026-08-31 18:09:50,434 | INFO | [545/737] fetching: V1.5.17
+2026-08-31 18:09:51,281 | INFO | [546/737] fetching: V1.5.2
+2026-08-31 18:09:52,610 | INFO | [547/737] fetching: V1.5.3
+2026-08-31 18:09:53,725 | INFO | [548/737] fetching: V1.5.5
+2026-08-31 18:09:54,976 | INFO | [549/737] fetching: V1.5.6
+2026-08-31 18:09:56,009 | INFO | [550/737] fetching: V1.5.7
+2026-08-31 18:09:57,005 | INFO | [551/737] fetching: V1.5.9
+2026-08-31 18:09:58,088 | INFO | [552/737] fetching: V1.6.10
+2026-08-31 18:09:59,099 | INFO | [553/737] fetching: V1.6.11
+2026-08-31 18:09:59,999 | INFO | [554/737] fetching: V1.6.12
+2026-08-31 18:10:01,127 | INFO | [555/737] fetching: V1.6.13
+2026-08-31 18:10:02,285 | INFO | [556/737] fetching: V1.6.14
+2026-08-31 18:10:03,369 | INFO | [557/737] fetching: V1.6.15
+2026-08-31 18:10:04,444 | INFO | [558/737] fetching: V1.6.2
+2026-08-31 18:10:05,461 | INFO | [559/737] fetching: V1.6.3-5
+2026-08-31 18:10:06,513 | INFO | [560/737] fetching: V1.6.6-7
+2026-08-31 18:10:07,523 | INFO | [561/737] fetching: V1.6.8
+2026-08-31 18:10:08,626 | INFO | [562/737] fetching: V1.6.9
+2026-08-31 18:10:09,724 | INFO | [563/737] fetching: V1.7 .0
+2026-08-31 18:10:10,406 | INFO | [564/737] fetching: V1.7.0
+2026-08-31 18:10:11,760 | INFO | [565/737] fetching: V1.7.1
+2026-08-31 18:10:12,891 | INFO | [566/737] fetching: V1.7.10-11
+2026-08-31 18:10:13,853 | INFO | [567/737] fetching: V1.7.2
+2026-08-31 18:10:14,898 | INFO | [568/737] fetching: V1.7.3
+2026-08-31 18:10:16,100 | INFO | [569/737] fetching: V1.7.4
+2026-08-31 18:10:17,167 | INFO | [570/737] fetching: V1.7.5
+2026-08-31 18:10:18,140 | INFO | [571/737] fetching: V1.7.6
+2026-08-31 18:10:19,239 | INFO | [572/737] fetching: V1.7.7
+2026-08-31 18:10:20,356 | INFO | [573/737] fetching: V1.7.8
+2026-08-31 18:10:21,401 | INFO | [574/737] fetching: V1.7.9
+2026-08-31 18:10:22,434 | INFO | [575/737] fetching: V1.8.0
+2026-08-31 18:10:23,494 | INFO | [576/737] fetching: V1.8.1
+2026-08-31 18:10:24,486 | INFO | [577/737] fetching: V1.8.10
+2026-08-31 18:10:25,445 | INFO | [578/737] fetching: V1.8.3
+2026-08-31 18:10:26,321 | INFO | [579/737] fetching: V1.8.4-5
+2026-08-31 18:10:27,528 | INFO | [580/737] fetching: V1.8.6
+2026-08-31 18:10:28,311 | INFO | [581/737] fetching: V1.8.7
+2026-08-31 18:10:29,353 | INFO | [582/737] fetching: V1.8.8
+2026-08-31 18:10:30,661 | INFO | [583/737] fetching: V1.8.9
+2026-08-31 18:10:31,717 | INFO | [584/737] fetching: V1.9.0
+2026-08-31 18:10:32,542 | INFO | [585/737] fetching: V1.9.1-2
+2026-08-31 18:10:33,891 | INFO | [586/737] fetching: V1.9.10
+2026-08-31 18:10:34,953 | INFO | [587/737] fetching: V1.9.12
+2026-08-31 18:10:35,969 | INFO | [588/737] fetching: V1.9.17
+2026-08-31 18:10:37,319 | INFO | [589/737] fetching: V1.9.18
+2026-08-31 18:10:38,380 | INFO | [590/737] fetching: V1.9.19
+2026-08-31 18:10:39,200 | INFO | [591/737] fetching: V1.9.20
+2026-08-31 18:10:40,352 | INFO | [592/737] fetching: V1.9.21
+2026-08-31 18:10:41,431 | INFO | [593/737] fetching: V1.9.23
+2026-08-31 18:10:42,443 | INFO | [594/737] fetching: V1.9.25
+2026-08-31 18:10:43,240 | INFO | [595/737] fetching: V1.9.3
+2026-08-31 18:10:44,370 | INFO | [596/737] fetching: V1.9.4
+2026-08-31 18:10:45,595 | INFO | [597/737] fetching: V1.9.5
+2026-08-31 18:10:46,373 | INFO | [598/737] fetching: V1.9.6
+2026-08-31 18:10:47,622 | INFO | [599/737] fetching: V1.9.8
+2026-08-31 18:10:48,599 | INFO | [600/737] fetching: V1.9.9
+2026-08-31 18:10:49,981 | INFO | [601/737] fetching: Vehicle
+2026-08-31 18:10:50,754 | INFO | [602/737] fetching: Vehicles
+2026-08-31 18:10:51,670 | INFO | [603/737] fetching: Video Equipment Research
+2026-08-31 18:10:52,696 | INFO | [604/737] fetching: Volcanic Chain
+2026-08-31 18:10:53,705 | INFO | [605/737] fetching: Volcanic islands
+2026-08-31 18:10:54,841 | INFO | [606/737] fetching: Volcano
+2026-08-31 18:10:55,782 | INFO | [607/737] fetching: VTOL Research
+2026-08-31 18:10:56,826 | INFO | [608/737] fetching: Water Jets Research
+2026-08-31 18:10:57,806 | INFO | [609/737] fetching: Weapon DLC
+2026-08-31 18:10:58,723 | INFO | [610/737] fetching: Weapons DLC
+2026-08-31 18:10:59,778 | INFO | [611/737] fetching: Weapons Research
+2026-08-31 18:11:00,724 | INFO | [612/737] fetching: Weather Sensors Research
+2026-08-31 18:11:01,717 | INFO | [613/737] fetching: Wiki
+2026-08-31 18:11:02,742 | INFO | [614/737] fetching: Wiki/Building
+2026-08-31 18:11:03,581 | INFO | [615/737] fetching: Wiki/Building/Advanced Mode
+2026-08-31 18:11:04,864 | INFO | [616/737] fetching: Wiki/Building/Components
+2026-08-31 18:11:05,694 | INFO | [617/737] fetching: Wiki/Building/Components/Blocks
+2026-08-31 18:11:06,753 | INFO | [618/737] fetching: Wiki/Building/Components/Compass Sensor
+2026-08-31 18:11:07,880 | INFO | [619/737] fetching: Wiki/Building/Components/Decorative
+2026-08-31 18:11:08,755 | INFO | [620/737] fetching: Wiki/Building/Components/Decorative/Lights
+2026-08-31 18:11:09,704 | INFO | [621/737] fetching: Wiki/Building/Components/Displays
+2026-08-31 18:11:10,733 | INFO | [622/737] fetching: Wiki/Building/Components/Electricity
+2026-08-31 18:11:11,670 | INFO | [623/737] fetching: Wiki/Building/Components/Fluids
+2026-08-31 18:11:12,744 | INFO | [624/737] fetching: Wiki/Building/Components/Hardpoint
+2026-08-31 18:11:13,644 | INFO | [625/737] fetching: Wiki/Building/Components/Lights
+2026-08-31 18:11:14,671 | INFO | [626/737] fetching: Wiki/Building/Components/Logic
+2026-08-31 18:11:15,686 | INFO | [627/737] fetching: Wiki/Building/Components/Mechanics
+2026-08-31 18:11:16,845 | INFO | [628/737] fetching: Wiki/Building/Components/Person Operations
+2026-08-31 18:11:17,851 | INFO | [629/737] fetching: Wiki/Building/Components/Propulsion
+2026-08-31 18:11:18,799 | INFO | [630/737] fetching: Wiki/Building/Components/Propulsion/DieselEngines
+2026-08-31 18:11:19,689 | INFO | [631/737] fetching: Wiki/Building/Components/Propulsion/Gearbox
+2026-08-31 18:11:20,759 | INFO | [632/737] fetching: Wiki/Building/Components/Radio
+2026-08-31 18:11:21,774 | INFO | [633/737] fetching: Wiki/Building/Components/Search and Destroy
+2026-08-31 18:11:22,728 | INFO | [634/737] fetching: Wiki/Building/Components/Sensors
+2026-08-31 18:11:23,686 | INFO | [635/737] fetching: Wiki/Building/Components/Sound
+2026-08-31 18:11:24,790 | INFO | [636/737] fetching: Wiki/Building/Components/Space
+2026-08-31 18:11:25,702 | INFO | [637/737] fetching: Wiki/Building/Components/Transponders
+2026-08-31 18:11:26,657 | INFO | [638/737] fetching: Wiki/Building/Components/User Input
+2026-08-31 18:11:27,657 | INFO | [639/737] fetching: Wiki/Building/Components/Vehicle Control
+2026-08-31 18:11:28,745 | INFO | [640/737] fetching: Wiki/Building/Components/Video
+2026-08-31 18:11:29,735 | INFO | [641/737] fetching: Wiki/Building/Components/Video/Cameras
+2026-08-31 18:11:30,847 | INFO | [642/737] fetching: Wiki/Building/Components/Video/Monitors
+2026-08-31 18:11:31,784 | INFO | [643/737] fetching: Wiki/Building/Components/Windows
+2026-08-31 18:11:32,676 | INFO | [644/737] fetching: Wiki/Building/Editor
+2026-08-31 18:11:33,669 | INFO | [645/737] fetching: Wiki/Building/Lua Programming
+2026-08-31 18:11:34,834 | INFO | [646/737] fetching: Wiki/Building/Microcontrollers
+2026-08-31 18:11:35,801 | INFO | [647/737] fetching: Wiki/Building/Normal Mode
+2026-08-31 18:11:36,841 | INFO | [648/737] fetching: Wiki/Game Mechanics
+2026-08-31 18:11:37,668 | INFO | [649/737] fetching: Wiki/Game Mechanics/Basic Physics
+2026-08-31 18:11:38,732 | INFO | [650/737] fetching: Wiki/Game Mechanics/Basic Physics Concept
+2026-08-31 18:11:39,683 | INFO | [651/737] fetching: Wiki/Game Mechanics/Bouyancy
+2026-08-31 18:11:40,756 | INFO | [652/737] fetching: Wiki/Game Mechanics/Buoyancy
+2026-08-31 18:11:41,769 | INFO | [653/737] fetching: Wiki/Game Mechanics/Center of Mass
+2026-08-31 18:11:42,820 | INFO | [654/737] fetching: Wiki/Game Mechanics/Electricity
+2026-08-31 18:11:43,650 | INFO | [655/737] fetching: Wiki/Game Mechanics/Fluids
+2026-08-31 18:11:44,745 | INFO | [656/737] fetching: Wiki/Game Mechanics/Fuel
+2026-08-31 18:11:45,705 | INFO | [657/737] fetching: Wiki/Game Mechanics/Lift
+2026-08-31 18:11:46,825 | INFO | [658/737] fetching: Wiki/Game Mechanics/Logic
+2026-08-31 18:11:47,764 | INFO | [659/737] fetching: Wiki/Game Mechanics/Lua
+2026-08-31 18:11:48,659 | INFO | [660/737] fetching: Wiki/Game Mechanics/Mechanical Power
+2026-08-31 18:11:49,762 | INFO | [661/737] fetching: Wiki/Game Mechanics/Mechanics
+2026-08-31 18:11:50,720 | INFO | [662/737] fetching: Wiki/Game Mechanics/Physics
+2026-08-31 18:11:51,694 | INFO | [663/737] fetching: Wiki/Game Mechanics/Rope
+2026-08-31 18:11:52,739 | INFO | [664/737] fetching: Wiki/Game Mechanics/Ropes
+2026-08-31 18:11:53,758 | INFO | [665/737] fetching: Wiki/Game Mechanics/Trim
+2026-08-31 18:11:54,732 | INFO | [666/737] fetching: Wiki/Game Mechanics/Wheels
+2026-08-31 18:11:55,816 | INFO | [667/737] fetching: Wiki/Gamemodes
+2026-08-31 18:11:56,670 | INFO | [668/737] fetching: Wiki/Gamemodes/Career
+2026-08-31 18:11:57,802 | INFO | [669/737] fetching: Wiki/Gamemodes/Classic
+2026-08-31 18:11:58,796 | INFO | [670/737] fetching: Wiki/Gamemodes/Creative
+2026-08-31 18:11:59,847 | INFO | [671/737] fetching: Wiki/Gamemodes/Custom
+2026-08-31 18:12:00,824 | INFO | [672/737] fetching: Wiki/Gamemodes/Limited Fuel
+2026-08-31 18:12:01,691 | INFO | [673/737] fetching: Wiki/Guides
+2026-08-31 18:12:02,807 | INFO | [674/737] fetching: Wiki/Guides/Airplanes
+2026-08-31 18:12:03,747 | INFO | [675/737] fetching: Wiki/Guides/Basics
+2026-08-31 18:12:04,793 | INFO | [676/737] fetching: Wiki/Guides/Dedicated Server
+2026-08-31 18:12:05,692 | INFO | [677/737] fetching: Wiki/Guides/Electricity
+2026-08-31 18:12:06,658 | INFO | [678/737] fetching: Wiki/Guides/Engine
+2026-08-31 18:12:07,714 | INFO | [679/737] fetching: Wiki/Guides/first hybrid engine
+2026-08-31 18:12:08,712 | INFO | [680/737] fetching: Wiki/Guides/Fluid Cannon
+2026-08-31 18:12:09,765 | INFO | [681/737] fetching: Wiki/Guides/Fluids
+2026-08-31 18:12:10,752 | INFO | [682/737] fetching: Wiki/Guides/Gearbox
+2026-08-31 18:12:11,836 | INFO | [683/737] fetching: Wiki/Guides/Gyro
+2026-08-31 18:12:12,863 | INFO | [684/737] fetching: Wiki/Guides/Helicopters
+2026-08-31 18:12:13,912 | INFO | [685/737] fetching: Wiki/Guides/Logic
+2026-08-31 18:12:14,936 | INFO | [686/737] fetching: Wiki/Guides/Lua
+2026-08-31 18:12:15,805 | INFO | [687/737] fetching: Wiki/Guides/Lua/Exploring the Stormworks Lua API
+2026-08-31 18:12:16,747 | INFO | [688/737] fetching: Wiki/Guides/Lua/Learning Lua as a beginner
+2026-08-31 18:12:17,710 | INFO | [689/737] fetching: Wiki/Guides/Lua/Learning Lua as a programer
+2026-08-31 18:12:18,770 | INFO | [690/737] fetching: Wiki/Guides/Lua/Special Advice for Lua
+2026-08-31 18:12:19,791 | INFO | [691/737] fetching: Wiki/Guides/Lua/Special advise and little known facts
+2026-08-31 18:12:20,775 | INFO | [692/737] fetching: Wiki/Guides/Lua/Stormworks API
+2026-08-31 18:12:21,719 | INFO | [693/737] fetching: Wiki/Guides/Mechanics
+2026-08-31 18:12:22,715 | INFO | [694/737] fetching: Wiki/Guides/Music
+2026-08-31 18:12:23,689 | INFO | [695/737] fetching: Wiki/Guides/Seaplanes
+2026-08-31 18:12:24,803 | INFO | [696/737] fetching: Wiki/Key Assignment
+2026-08-31 18:12:25,732 | INFO | [697/737] fetching: Wiki/Missions
+2026-08-31 18:12:26,795 | INFO | [698/737] fetching: Wiki/Multiplayer
+2026-08-31 18:12:27,997 | INFO | [699/737] fetching: Wiki/Other Stormworks Communities
+2026-08-31 18:12:28,768 | INFO | [700/737] fetching: Wiki/Research
+2026-08-31 18:12:29,723 | INFO | [701/737] fetching: Wiki/Standards
+2026-08-31 18:12:30,854 | INFO | [702/737] fetching: Wiki/Standards/Air
+2026-08-31 18:12:31,821 | INFO | [703/737] fetching: Wiki/Standards/Air/Control Systems
+2026-08-31 18:12:32,736 | INFO | [704/737] fetching: Wiki/Standards/Air/Helicopter
+2026-08-31 18:12:33,793 | INFO | [705/737] fetching: Wiki/Standards/Air/Navigation Lights
+2026-08-31 18:12:34,728 | INFO | [706/737] fetching: Wiki/Standards/Air/Plane
+2026-08-31 18:12:35,732 | INFO | [707/737] fetching: Wiki/Standards/Container
+2026-08-31 18:12:36,814 | INFO | [708/737] fetching: Wiki/Standards/Features
+2026-08-31 18:12:37,831 | INFO | [709/737] fetching: Wiki/Standards/Land
+2026-08-31 18:12:38,763 | INFO | [710/737] fetching: Wiki/Standards/Land/Car
+2026-08-31 18:12:39,758 | INFO | [711/737] fetching: Wiki/Standards/Land/Train
+2026-08-31 18:12:40,805 | INFO | [712/737] fetching: Wiki/Standards/Land/Train/Rail Vehicle Standards
+2026-08-31 18:12:41,845 | INFO | [713/737] fetching: Wiki/Standards/Land/Train/SRC Train Standard
+2026-08-31 18:12:42,769 | INFO | [714/737] fetching: Wiki/Standards/Land/Truck
+2026-08-31 18:12:43,897 | INFO | [715/737] fetching: Wiki/Standards/Navigation Lights
+2026-08-31 18:12:44,809 | INFO | [716/737] fetching: Wiki/Standards/Train Standards
+2026-08-31 18:12:45,821 | INFO | [717/737] fetching: Wiki/Standards/Units
+2026-08-31 18:12:46,661 | INFO | [718/737] fetching: Wiki/Standards/Water
+2026-08-31 18:12:47,785 | INFO | [719/737] fetching: Wiki/Standards/Water/Navigation Lights
+2026-08-31 18:12:48,849 | INFO | [720/737] fetching: Wiki/Standards/Water/Ship and Boat
+2026-08-31 18:12:49,795 | INFO | [721/737] fetching: Wiki/Standards/Water/Submarine
+2026-08-31 18:12:50,730 | INFO | [722/737] fetching: Wiki/Vehicles
+2026-08-31 18:12:51,789 | INFO | [723/737] fetching: Wiki/Vehicles/Air
+2026-08-31 18:12:52,757 | INFO | [724/737] fetching: Wiki/Vehicles/Air/Airship
+2026-08-31 18:12:53,863 | INFO | [725/737] fetching: Wiki/Vehicles/Air/Helicopter
+2026-08-31 18:12:54,879 | INFO | [726/737] fetching: Wiki/Vehicles/Air/Plane
+2026-08-31 18:12:55,874 | INFO | [727/737] fetching: Wiki/Vehicles/Land
+2026-08-31 18:12:56,774 | INFO | [728/737] fetching: Wiki/Vehicles/Land/Car
+2026-08-31 18:12:57,840 | INFO | [729/737] fetching: Wiki/Vehicles/Land/Cars and trucks
+2026-08-31 18:12:58,730 | INFO | [730/737] fetching: Wiki/Vehicles/Land/Train
+2026-08-31 18:12:59,813 | INFO | [731/737] fetching: Wiki/Vehicles/Land/Wheeled vehicles
+2026-08-31 18:13:00,860 | INFO | [732/737] fetching: Wiki/Vehicles/Water
+2026-08-31 18:13:01,751 | INFO | [733/737] fetching: Wiki/Vehicles/Water/Boat
+2026-08-31 18:13:02,780 | INFO | [734/737] fetching: Wiki/Vehicles/Water/Submersible
+2026-08-31 18:13:03,847 | INFO | [735/737] fetching: Wiki/Workshop
+2026-08-31 18:13:04,709 | INFO | [736/737] fetching: Wiki/World
+2026-08-31 18:13:05,750 | INFO | [737/737] fetching: World
+2026-08-31 18:13:14,449 | INFO | Done: records=737 articles=558 redirects=179 attributes=42 chunks=757 fetched=737 skipped=0 failed=0

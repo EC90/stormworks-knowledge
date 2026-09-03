@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Game Mechanics/Fluids",
+  "display_title": "Wiki/Game Mechanics/Fluids",
+  "summary": "Alias for Gameplay/Mechanics/Fluids",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Mechanics/Fluids"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Game Mechanics/Fluids -> Gameplay/Mechanics/Fluids",
+    "plain_text": "Redirect: Wiki/Game Mechanics/Fluids -> Gameplay/Mechanics/Fluids",
+    "char_count": 65,
+    "word_count": 5,
+    "sha256": "1ce866bb78467ace7b89609e59ec61fb83da5ddfab581bc71f1d2d2d64e1adec"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Mechanics/Fluids",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Fluids",
+    "target_page_id": 881,
+    "target_revision_id": 4694
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1699,
+    "revision_id": 4238,
+    "revision_timestamp": "2025-05-14T06:15:44Z",
+    "retrieved_at": "2026-08-31T10:11:44+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Radar Detector",
+  "display_title": "Radar Detector",
+  "summary": "Radar detectors output an 'on' value when the vehicle is detected by\nradar\n from another vehicle. Note that this is not directional, and positioning of the detector does not matter. Multiple radar detectors at various locations on the same vehicle will all have matching outputs.",
+  "template": "Infobox component",
+  "attributes": {
+    "Name": "Radar Detector",
+    "Image": "200px",
+    "Mass": "1",
+    "Dimensions": "1×1×1",
+    "Cost": "$1000",
+    "Logic inputs": "None",
+    "Logic outputs": "Boolean (Detected)",
+    "Connections": "None (No power required)"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| Name | Radar Detector |\n| Image | 200px |\n| Mass | 1 |\n| Dimensions | 1×1×1 |\n| Cost | $1000 |\n| Logic inputs | None |\n| Logic outputs | Boolean (Detected) |\n| Connections | None (No power required) |",
+  "categories": [
+    "Components",
+    "Sensor_components"
+  ],
+  "sections": [],
+  "internal_links": [
+    "Flare Launcher",
+    "Radar"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Radar detectors output an 'on' value when the vehicle is detected by [radar](https://stormworks.fandom.com/wiki/Radar) from another vehicle. Note that this is not directional, and positioning of the detector does not matter. Multiple radar detectors at various locations on the same vehicle will all have matching outputs.\n\nAlso note that vehicles will not detect themselves with their own radar. Even a disconnected part from the vehicle (e.g. the radar on a missile launched from a vehicle) will neither detect the vehicle itself nor set off its radar detector. Of course, radar can still detect friendly, civilian, or hostile vehicles and set off their radar detectors.\n\nIntermittent 'on' signals generally indicate that the vehicle has been detected by another vehicle with a radar in a sweep or scan mode, which may be used to orient turrets towards nearby vehicles. Persisent 'on' signals (\"radar locks\") generally indicate that the vehicle is being tracked by another vehicle with a radar in static mode, commonly used by launched missiles and unmanned weapon turrets locked onto a target. If a radar lock is detected, radar can be used to determine if there is an approaching missile, while [Flare Launchers](https://stormworks.fandom.com/wiki/Flare_Launcher) loaded with chaff can be used as a decoy to attempt to divert attacks from missiles and autoturrets.",
+    "plain_text": "Radar detectors output an 'on' value when the vehicle is detected by\nradar\n from another vehicle. Note that this is not directional, and positioning of the detector does not matter. Multiple radar detectors at various locations on the same vehicle will all have matching outputs.\n\nAlso note that vehicles will not detect themselves with their own radar. Even a disconnected part from the vehicle (e.g. the radar on a missile launched from a vehicle) will neither detect the vehicle itself nor set off its radar detector. Of course, radar can still detect friendly, civilian, or hostile vehicles and set off their radar detectors.\n\nIntermittent 'on' signals generally indicate that the vehicle has been detected by another vehicle with a radar in a sweep or scan mode, which may be used to orient turrets towards nearby vehicles. Persisent 'on' signals (\"radar locks\") generally indicate that the vehicle is being tracked by another vehicle with a radar in static mode, commonly used by launched missiles and unmanned weapon turrets locked onto a target. If a radar lock is detected, radar can be used to determine if there is an approaching missile, while\nFlare Launchers\n loaded with chaff can be used as a decoy to attempt to divert attacks from missiles and autoturrets.",
+    "char_count": 1368,
+    "word_count": 211,
+    "sha256": "b7e0254174130a03a917a17336cf937dcc70e1021548267fdc475317c762ba11"
+  },
+  "wikitext": "{{Infobox component\n|Name = Radar Detector\n|Image = [[File:Radar_detector.png|200px]]\n|Prerequisite =\n|Mass = 1\n|Dimensions = 1×1×1\n|Cost = $1000\n|Range = \n|Power = \n|Force = \n|Fluid capacity = \n|Electric charge =\n|Torque = \n|Logic inputs = None\n|Logic outputs = Boolean (Detected)\n|Connections = None (No power required)\n|Adjustable parameters = \n|Since version = \n}}\n\nRadar detectors output an 'on' value when the vehicle is detected by [[radar]] from another vehicle. Note that this is not directional, and positioning of the detector does not matter. Multiple radar detectors at various locations on the same vehicle will all have matching outputs.\n\nAlso note that vehicles will not detect themselves with their own radar. Even a disconnected part from the vehicle (e.g. the radar on a missile launched from a vehicle) will neither detect the vehicle itself nor set off its radar detector. Of course, radar can still detect friendly, civilian, or hostile vehicles and set off their radar detectors.\n\nIntermittent 'on' signals generally indicate that the vehicle has been detected by another vehicle with a radar in a sweep or scan mode, which may be used to orient turrets towards nearby vehicles. Persisent 'on' signals (\"radar locks\") generally indicate that the vehicle is being tracked by another vehicle with a radar in static mode, commonly used by launched missiles and unmanned weapon turrets locked onto a target. If a radar lock is detected, radar can be used to determine if there is an approaching missile, while [[Flare Launcher]]s loaded with chaff can be used as a decoy to attempt to divert attacks from missiles and autoturrets.\n\n[[Category:Sensor components]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Radar_Detector",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1295,
+    "revision_id": 3031,
+    "revision_timestamp": "2022-01-31T00:57:25Z",
+    "retrieved_at": "2026-08-31T10:04:40+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

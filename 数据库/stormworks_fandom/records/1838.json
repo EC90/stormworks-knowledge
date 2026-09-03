@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Meier isles",
+  "display_title": "Meier isles",
+  "summary": "Alias for Arid Island",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Arid Island"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Meier isles -> Arid Island",
+    "plain_text": "Redirect: Meier isles -> Arid Island",
+    "char_count": 36,
+    "word_count": 6,
+    "sha256": "b5061051ca90ce5770433497511f689bb9a9181386c80d0e4d5eea1bb5a5bf9a"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Arid Island",
+    "target_url": "https://stormworks.fandom.com/wiki/Arid_Island",
+    "target_page_id": 1598,
+    "target_revision_id": 4510
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Meier_isles",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1838,
+    "revision_id": 4534,
+    "revision_timestamp": "2025-07-23T02:46:31Z",
+    "retrieved_at": "2026-08-31T10:04:12+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Sleep",
+  "display_title": "Sleep",
+  "summary": "sleeping is done via a\nbed",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Building/Components/Person Operations"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "sleeping is done via a [bed](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Person_Operations)",
+    "plain_text": "sleeping is done via a\nbed",
+    "char_count": 107,
+    "word_count": 6,
+    "sha256": "4bca0d19d550d4046dd584e511d690faa6446cd71d2ca7cf8a4a17cd2cee95f4"
+  },
+  "wikitext": "sleeping is done via a [[Wiki/Building/Components/Person Operations|bed]]",
+  "data_quality": "low",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Sleep",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1586,
+    "revision_id": 3896,
+    "revision_timestamp": "2024-04-29T18:40:49Z",
+    "retrieved_at": "2026-08-31T10:04:58+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

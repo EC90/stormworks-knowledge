@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Video",
+  "display_title": "Gameplay/Workbench/Components/Video",
+  "summary": "Video\nSubpages\nMonitors\nCameras\nDo you think a subpage is missing?\nCameras\nCameras produce video data\nMonitors\nMonitors display video data",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Video [ edit page ]",
+      "anchor": "Video_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Subpages",
+      "anchor": "Subpages"
+    },
+    {
+      "level": 2,
+      "title": "Cameras",
+      "anchor": "Cameras"
+    },
+    {
+      "level": 2,
+      "title": "Monitors",
+      "anchor": "Monitors"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Workbench",
+    "Gameplay/Workbench/Components",
+    "Gameplay/Workbench/Components/Video/",
+    "Gameplay/Workbench/Components/Video/Cameras",
+    "Gameplay/Workbench/Components/Video/Monitors",
+    "Wiki/Building/Components/Video/Cameras",
+    "Wiki/Building/Components/Video/Monitors"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "## Video\n\n## Subpages\n\n[Monitors](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video/Monitors \"Gameplay/Workbench/Components/Video/Monitors\") [Cameras](https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video/Cameras \"Gameplay/Workbench/Components/Video/Cameras\")\n\nDo you think a subpage is missing?\n\n## [Cameras](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Video/Cameras \"Wiki/Building/Components/Video/Cameras\")\n\nCameras produce video data\n\n## [Monitors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Video/Monitors \"Wiki/Building/Components/Video/Monitors\")\n\nMonitors display video data",
+    "plain_text": "Video\nSubpages\nMonitors\nCameras\nDo you think a subpage is missing?\nCameras\nCameras produce video data\nMonitors\nMonitors display video data",
+    "char_count": 653,
+    "word_count": 21,
+    "sha256": "1a0ed2c4149c41f37378fa1ea72f21de1fff2218d73adffb46cceb98fb5c947d"
+  },
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Video",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1115,
+    "revision_id": 4191,
+    "revision_timestamp": "2025-05-14T02:40:55Z",
+    "retrieved_at": "2026-08-30T15:13:19+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

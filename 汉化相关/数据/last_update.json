@@ -1,0 +1,20 @@
+{
+ "last_check": "2026-09-03T12:49:26+08:00",
+ "last_update": "2026-08-30T17:44:04+08:00",
+ "source": "E:\\SteamLibrary\\steamapps\\workshop\\content\\573090\\2019972792\\language.tsv",
+ "source_mtime": "2026-08-15T18:50:49+08:00",
+ "source_size": 820676,
+ "source_sha256": "e9cae3acd3c9686912226efbe86b739a8de5f487133b9cf4a01416b35a7a1264",
+ "stats": {
+  "total": 8795,
+  "parts": 6089,
+  "ui": 2706,
+  "todo": 55,
+  "added": 0,
+  "changed": 0,
+  "removed": 0
+ },
+ "last_result": "unchanged",
+ "stale_after_days": 7,
+ "_schema": 1
+}

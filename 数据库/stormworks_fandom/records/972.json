@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki/Standards/Land",
+  "display_title": "Wiki/Standards/Land",
+  "summary": "Front light (white or yellow-white)\nTHIS RULE DOES NOT APPLY TO TRUCK TRAILERS OR CAR TRAILERS",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Standard",
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Standard:  Land",
+      "anchor": "Standard:_Land"
+    },
+    {
+      "level": 3,
+      "title": "Substandards",
+      "anchor": "Substandards"
+    },
+    {
+      "level": 3,
+      "title": "Rules of this standard",
+      "anchor": "Rules_of_this_standard"
+    },
+    {
+      "level": 3,
+      "title": "Feature rules",
+      "anchor": "Feature_rules"
+    },
+    {
+      "level": 3,
+      "title": "Size rules",
+      "anchor": "Size_rules"
+    }
+  ],
+  "internal_links": [
+    "Wiki",
+    "Wiki/Standards",
+    "Wiki/Standards/Features",
+    "Wiki/Standards/Land/Car",
+    "Wiki/Standards/Land/Train",
+    "Wiki/Standards/Land/Truck"
+  ],
+  "external_links": [
+    "https://sws.flaffipony.rocks?s=L1%20%20"
+  ],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Standards/Land?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Standards/Land?action=edit). |\n| --- | --- |\n\n## Standard: **Land**\n\nStandard\n\nL1\n\n[Create your badge here](https://sws.flaffipony.rocks?s=L1%20%20)\n\n### Substandards\n\n[**Car** (Smaller wheeled vehicles)](https://stormworks.fandom.com/wiki/Wiki/Standards/Land/Car)\n\n[**Truck** (Bigger wheeled vehicles)](https://stormworks.fandom.com/wiki/Wiki/Standards/Land/Truck)\n\n[**Train** (Vehicles moving on the rails/track system)](https://stormworks.fandom.com/wiki/Wiki/Standards/Land/Train)\n\n### Rules of this standard\n\n- Rear light (red)\n- Front light (white or yellow-white) **THIS RULE DOES NOT APPLY TO TRUCK TRAILERS OR CAR TRAILERS**\n\n### Feature rules\n\n- see [global feature rules](https://stormworks.fandom.com/wiki/Wiki/Standards/Features)\n\n### Size rules\n\n- None - This standard does not have any size dependent rules",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nStandard:\nLand\n\nStandard\n\nL\n1\n\nCreate your badge here\n\nSubstandards\n\nCar\n (Smaller wheeled vehicles)\n\nTruck\n (Bigger wheeled vehicles)\n\nTrain\n (Vehicles moving on the rails/track system)\n\nRules of this standard\n\nRear light (red)\n\nFront light (white or yellow-white)\nTHIS RULE DOES NOT APPLY TO TRUCK TRAILERS OR CAR TRAILERS\n\nFeature rules\n\nsee\n global feature rules\n\nSize rules\n\nNone - This standard does not have any size dependent rules",
+    "char_count": 1245,
+    "word_count": 80,
+    "sha256": "3d6582a2f17eb8be9b31ba40e5dbe678d87b570c9dfd5e7a59c27edae1af0824"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Standards_Page | type=Land | typeshort=L | subtype= | subtypeshort= | version=1 | features= | size= | content=<!--\nStart editing here -->\n\n===Substandards===\n[[Wiki/Standards/Land/Car | '''Car''' (Smaller wheeled vehicles)]]\n\n[[Wiki/Standards/Land/Truck| '''Truck''' (Bigger wheeled vehicles)]]\n\n[[Wiki/Standards/Land/Train| '''Train''' (Vehicles moving on the rails/track system)]]\n\n\n===Rules of this standard===\n* Rear light (red)\n* Front light (white or yellow-white)  '''THIS RULE DOES NOT APPLY TO TRUCK TRAILERS OR CAR TRAILERS'''\n\n===Feature rules===\n* see [[Wiki/Standards/Features | global feature rules]]\n\n===Size rules===\n* None - This standard does not have any size dependent rules\n\n<!-- Stop editing here\n-->}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Standards/Land",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 972,
+    "revision_id": 2077,
+    "revision_timestamp": "2019-05-19T18:42:23Z",
+    "retrieved_at": "2026-08-31T10:12:38+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Advanced Logic Research",
+  "display_title": "Advanced Logic Research",
+  "summary": "Advanced Logic is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Basic Logic Research",
+    "Research",
+    "Wiki/Building/Components/Logic"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4d/Advancedlogicresearch.png/revision/latest?cb=20240421182512",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4d/Advancedlogicresearch.png/revision/latest?cb=20240421182512",
+      "alt": "Advancedlogicresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Memory Register"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "PID Controller"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Up/Down"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "Xor"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "JK Flip-Flop"
+        ],
+        [
+          "[Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic)",
+          "SR Latch"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Advanced Logic Research\n\n[![Advancedlogicresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4d/Advancedlogicresearch.png/revision/latest?cb=20240421182512)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4d/Advancedlogicresearch.png/revision/latest?cb=20240421182512)\n\n### Research Points\n\n4\n\n### Research Time\n\n1h 10m\n\n## Research Path\n\n### Unlocked by\n\n[Basic Logic](https://stormworks.fandom.com/wiki/Basic_Logic_Research)\n\nAdvanced Logic is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Memory Register |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | PID Controller |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Up/Down |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | Xor |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | JK Flip-Flop |\n| [Logic](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Logic) | SR Latch |",
+    "plain_text": "Advanced Logic Research\n\nResearch Points\n\n4\n\nResearch Time\n\n1h 10m\n\nResearch Path\n\nUnlocked by\n\nBasic Logic\n\nAdvanced Logic is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nLogic\n\nMemory Register\n\nLogic\n\nPID Controller\n\nLogic\n\nUp/Down\n\nLogic\n\nXor\n\nLogic\n\nJK Flip-Flop\n\nLogic\n\nSR Latch",
+    "char_count": 1191,
+    "word_count": 47,
+    "sha256": "828f20ed86f96a2c6a036d2f601da809ca6d2e15c25fe9366eea2a9386476d91"
+  },
+  "wikitext": "{{Research\n  | name=\n  | image=[File:Advancedlogicresearch.png]\n  | points=4\n  | time= 1h 10m\n  | unlock= [[Basic Logic Research|Basic Logic]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Advanced Logic is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Logic|Logic]]||Memory Register\n|-\n|[[Wiki/Building/Components/Logic|Logic]]||PID Controller\n|-\n|[[Wiki/Building/Components/Logic|Logic]]||Up/Down\n|-\n|[[Wiki/Building/Components/Logic|Logic]]||Xor\n|-\n|[[Wiki/Building/Components/Logic|Logic]]||JK Flip-Flop\n|-\n|[[Wiki/Building/Components/Logic|Logic]]||SR Latch\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Advanced_Logic_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1460,
+    "revision_id": 3851,
+    "revision_timestamp": "2024-04-21T20:18:19Z",
+    "retrieved_at": "2026-08-31T10:00:35+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

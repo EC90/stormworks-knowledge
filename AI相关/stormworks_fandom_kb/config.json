@@ -1,0 +1,42 @@
+{
+  "base_url": "https://stormworks.fandom.com",
+  "api_url": "https://stormworks.fandom.com/api.php",
+  "user_agent": "StormworksFandomKnowledgeCrawler/1.0 (local personal knowledge-base builder; respectful rate limiting)",
+  "request_delay_seconds": 1.0,
+  "timeout_seconds": 30,
+  "max_retries": 4,
+  "chunking": {
+    "max_chars": 3200,
+    "overlap_chars": 250
+  },
+  "cleaning": {
+    "remove_selectors": [
+      "script",
+      "style",
+      "noscript",
+      "iframe",
+      "#toc",
+      ".toc",
+      ".mw-editsection",
+      ".navbox",
+      ".navbar",
+      ".metadata",
+      ".nomobile",
+      ".noprint",
+      ".printfooter",
+      ".catlinks",
+      ".mw-empty-elt",
+      ".reference",
+      ".reflist",
+      ".mw-references-wrap",
+      ".embedvideo",
+      "div[style*='clear: both'][style*='margin: 30px']"
+    ],
+    "remove_text_patterns": [
+      "This article is a stub",
+      "You can help Us by expanding it",
+      "Under Construction!",
+      "Add Comment"
+    ]
+  }
+}

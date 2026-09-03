@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Medium winch",
+  "display_title": "Medium winch",
+  "summary": "V0.1.32\n: Feature - Winches will now extend when pulled with enough force",
+  "template": "Infobox",
+  "attributes": {
+    "name": "Medium Winch",
+    "image": "200px",
+    "prerequisite": "Rescue Equipment",
+    "cost": "$250",
+    "dimensions": "3×3×2",
+    "introduced": "V0.1.6",
+    "mass": "{{Property|mass}} 20",
+    "logicinput1": "{{Property|onoff}} Winch Up/down",
+    "logicoutput1": "{{Property|number}} Cable length",
+    "connection1": "{{Property|electric}} Electric",
+    "connection2": "{{Property|fluid}} Fluid"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| name | Medium Winch |\n| image | 200px |\n| prerequisite | Rescue Equipment |\n| cost | $250 |\n| dimensions | 3×3×2 |\n| introduced | V0.1.6 |\n| mass | {{Property\\|mass}} 20 |\n| logicinput1 | {{Property\\|onoff}} Winch Up/down |\n| logicoutput1 | {{Property\\|number}} Cable length |\n| connection1 | {{Property\\|electric}} Electric |\n| connection2 | {{Property\\|fluid}} Fluid |",
+  "categories": [
+    "Electric_components",
+    "Fluid_components",
+    "Specialist_equipment"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "See also",
+      "anchor": "See_also"
+    },
+    {
+      "level": 2,
+      "title": "Version history",
+      "anchor": "Version_history"
+    }
+  ],
+  "internal_links": [
+    "Huge winch",
+    "Large winch",
+    "Rescue Equipment (tech)",
+    "Research",
+    "Small winch",
+    "V0.1.17-18",
+    "V0.1.21-22",
+    "V0.1.30-35",
+    "V0.1.6",
+    "V0.2.1"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "mass 20"
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "onoff Winch Up/down"
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "number Cable length"
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "electric Electric",
+          "fluid Fluid"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Medium Winch\n\n### [Prerequisite](https://stormworks.fandom.com/wiki/Research)\n\nRescue Equipment\n\n### Cost\n\n$250\n\n### Dimensions\n\n3×3×2\n\n### Introduced\n\n[V0.1.6](https://stormworks.fandom.com/wiki/V0.1.6)\n\n## Properties\n\n| mass 20 |\n\n## Logics Inputs\n\n| onoff Winch Up/down |\n\n## Logic Outputs\n\n| number Cable length |\n\n## Connections\n\n| electric Electric | fluid Fluid |\n| --- | --- |\n\nThe medium winch has a cable length of 40 meters.\n\n## See also\n\n- [Small winch](https://stormworks.fandom.com/wiki/Small_winch)\n- [Large winch](https://stormworks.fandom.com/wiki/Large_winch)\n- [Huge winch](https://stormworks.fandom.com/wiki/Huge_winch)\n\n## Version history\n\n- [V0.2.1](https://stormworks.fandom.com/wiki/V0.2.1): Fix - winch slip reduced\n- [V0.1.32](https://stormworks.fandom.com/wiki/V0.1.30-35): Feature - Winches will now extend when pulled with enough force\n- [V0.1.22](https://stormworks.fandom.com/wiki/V0.1.21-22): Fix - Fixed winches not working properly after loading a saved game\n- [V0.1.18](https://stormworks.fandom.com/wiki/V0.1.17-18): Fix - winch cables are no longer too heavy to lift\n- [V0.1.6](https://stormworks.fandom.com/wiki/V0.1.6): Fix - ends of winches no longer float around in low gravity",
+    "plain_text": "Medium Winch\n\nPrerequisite\n\nRescue Equipment\n\nCost\n\n$250\n\nDimensions\n\n3×3×2\n\nIntroduced\n\nV0.1.6\n\nProperties\n\nmass\n 20\n\nLogics Inputs\n\nonoff\n Winch Up/down\n\nLogic Outputs\n\nnumber\n Cable length\n\nConnections\n\nelectric\n Electric\n\nfluid\n Fluid\n\nThe medium winch has a cable length of 40 meters.\n\nSee also\n\nSmall winch\n\nLarge winch\n\nHuge winch\n\nVersion history\n\nV0.2.1\n: Fix - winch slip reduced\n\nV0.1.32\n: Feature - Winches will now extend when pulled with enough force\n\nV0.1.22\n: Fix - Fixed winches not working properly after loading a saved game\n\nV0.1.18\n: Fix - winch cables are no longer too heavy to lift\n\nV0.1.6\n: Fix - ends of winches no longer float around in low gravity",
+    "char_count": 1221,
+    "word_count": 115,
+    "sha256": "7960681478459238fbf50471e45970b8d8a0adb574258fef91a039de3b005dec"
+  },
+  "wikitext": "{{Infobox\n  | name=Medium Winch\n  | image=[[File:Winch Medium.jpg|200px]]\n  | prerequisite=[[Rescue Equipment (tech)|Rescue Equipment]]\n  | cost=$250\n  | dimensions=3×3×2\n  | fluidcapacity=\n  | introduced=[[V0.1.6]]\n  \n  | mass= {{Property|mass}} 20\n  | motor=\n  | force=\n  | power=\n  | motor_speed=\n\n  | logicinput1= {{Property|onoff}} Winch Up/down\n  | logicinput2=\n  | logicinput3=\n  | logicinput4=\n  | logicinput5=\n  | logicinput6=\n\n  | logicoutput1= {{Property|number}} Cable length\n  | logicoutput2=\n  | logicoutput3=\n  | logicoutput4=\n  | logicoutput5=\n  | logicoutput6=\n\n  | connection1= {{Property|electric}} Electric\n  | connection2= {{Property|fluid}} Fluid\n  | connection3=\n  | connection4=\n  | connection5=\n  | connection6=\n}}\n\nThe medium winch has a cable length of 40 meters.\n\n== See also ==\n* [[Small winch]]\n* [[Large winch]]\n* [[Huge winch]]\n\n== Version history ==\n*[[V0.2.1]]: Fix - winch slip reduced\n*[[V0.1.30-35|V0.1.32]]: Feature - Winches will now extend when pulled with enough force\n*[[V0.1.21-22|V0.1.22]]: Fix - Fixed winches not working properly after loading a saved game\n*[[V0.1.17-18|V0.1.18]]: Fix - winch cables are no longer too heavy to lift\n*[[V0.1.6]]: Fix - ends of winches no longer float around in low gravity\n\n[[Category: Specialist equipment]]\n[[Category: Electric components]]\n[[Category: Fluid components]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Medium_winch",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1016,
+    "revision_id": 3455,
+    "revision_timestamp": "2023-08-10T02:18:20Z",
+    "retrieved_at": "2026-08-31T10:04:11+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

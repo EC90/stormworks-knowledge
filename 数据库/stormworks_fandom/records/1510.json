@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Tank Tracks Small Research",
+  "display_title": "Tank Tracks Small Research",
+  "summary": "Tank tracks small is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Heavy Land Vehicles Research",
+    "Land Vehicles Research",
+    "Research",
+    "Tank Tracks Medium Research",
+    "Wiki/Building/Components/Vehicle Control"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/95/Tanktrackssmallresearch.png/revision/latest?cb=20240421190108",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/95/Tanktrackssmallresearch.png/revision/latest?cb=20240421190108",
+      "alt": "Tanktrackssmallresearch",
+      "width": "49",
+      "height": "49"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Tank Wheel (Small)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Tank Drive Wheel (Small)"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Tank Tracks Small\n\n[![Tanktrackssmallresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/95/Tanktrackssmallresearch.png/revision/latest?cb=20240421190108)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/95/Tanktrackssmallresearch.png/revision/latest?cb=20240421190108)\n\n### Research Points\n\n9\n\n### Research Time\n\n0h 55m\n\n## Research Path\n\n### Unlocked by\n\n[Land Vehicles](https://stormworks.fandom.com/wiki/Land_Vehicles_Research), [Heavy Land Vehicles](https://stormworks.fandom.com/wiki/Heavy_Land_Vehicles_Research)\n\n### Makes available\n\n[Tank Tracks Medium](https://stormworks.fandom.com/wiki/Tank_Tracks_Medium_Research)\n\nTank tracks small is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Tank Wheel (Small) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Tank Drive Wheel (Small) |",
+    "plain_text": "Tank Tracks Small\n\nResearch Points\n\n9\n\nResearch Time\n\n0h 55m\n\nResearch Path\n\nUnlocked by\n\nLand Vehicles\n,\nHeavy Land Vehicles\n\nMakes available\n\nTank Tracks Medium\n\nTank tracks small is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nVehicle Control\n\nTank Wheel (Small)\n\nVehicle Control\n\nTank Drive Wheel (Small)",
+    "char_count": 1088,
+    "word_count": 49,
+    "sha256": "a856d89c55a2ad9bb28f3b9fb8b9b74c453053dab6b59115fff7596c9972f117"
+  },
+  "wikitext": "{{Research\n  | name=Tank Tracks Small\n  | image=[File:Tanktrackssmallresearch.png]\n  | points=9\n  | time= 0h 55m\n  | unlock= [[Land Vehicles Research|Land Vehicles]], [[Heavy Land Vehicles Research|Heavy Land Vehicles]]\n  | a1=[[Tank Tracks Medium Research|Tank Tracks Medium]]\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Tank tracks small is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Tank Wheel (Small)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Tank Drive Wheel (Small)\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Tank_Tracks_Small_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1510,
+    "revision_id": 3817,
+    "revision_timestamp": "2024-04-21T19:01:34Z",
+    "retrieved_at": "2026-08-31T10:05:21+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

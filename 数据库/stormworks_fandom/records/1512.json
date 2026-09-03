@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Video Equipment Research",
+  "display_title": "Video Equipment Research",
+  "summary": "Video equipment is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Advanced Displays Research",
+    "Displays Research",
+    "Research",
+    "Wiki/Building/Components/Displays",
+    "Wiki/Building/Components/Specialist Equipment"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Videoequipmentresearch.png/revision/latest?cb=20240421190232",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Videoequipmentresearch.png/revision/latest?cb=20240421190232",
+      "alt": "Videoequipmentresearch",
+      "width": "49",
+      "height": "49"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Monitor 1x1"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Monitor 2x2"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Monitor 5x3"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Monitor 9x5"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Monitor 1x2"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Monitor 1x3"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Monitor 2x3"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "Monitor 3x3"
+        ],
+        [
+          "Specialist Equipment",
+          "Camera Small"
+        ],
+        [
+          "Specialist Equipment",
+          "Camera Gimbal"
+        ],
+        [
+          "Specialist Equipment",
+          "Camera Medium"
+        ],
+        [
+          "Specialist Equipment",
+          "Camera Stabilized"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "HUD Small"
+        ],
+        [
+          "[Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays)",
+          "HUD Large"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Video Equipment\n\n[![Videoequipmentresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Videoequipmentresearch.png/revision/latest?cb=20240421190232)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Videoequipmentresearch.png/revision/latest?cb=20240421190232)\n\n### Research Points\n\n30\n\n### Research Time\n\n3h 40m\n\n## Research Path\n\n### Unlocked by\n\n[Displays](https://stormworks.fandom.com/wiki/Displays_Research), [Advanced Displays](https://stormworks.fandom.com/wiki/Advanced_Displays_Research)\n\nVideo equipment is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Monitor 1x1 |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Monitor 2x2 |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Monitor 5x3 |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Monitor 9x5 |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Monitor 1x2 |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Monitor 1x3 |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Monitor 2x3 |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | Monitor 3x3 |\n| Specialist Equipment | Camera Small |\n| Specialist Equipment | Camera Gimbal |\n| Specialist Equipment | Camera Medium |\n| Specialist Equipment | Camera Stabilized |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | HUD Small |\n| [Displays](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Displays) | HUD Large |",
+    "plain_text": "Video Equipment\n\nResearch Points\n\n30\n\nResearch Time\n\n3h 40m\n\nResearch Path\n\nUnlocked by\n\nDisplays\n,\nAdvanced Displays\n\nVideo equipment is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nDisplays\n\nMonitor 1x1\n\nDisplays\n\nMonitor 2x2\n\nDisplays\n\nMonitor 5x3\n\nDisplays\n\nMonitor 9x5\n\nDisplays\n\nMonitor 1x2\n\nDisplays\n\nMonitor 1x3\n\nDisplays\n\nMonitor 2x3\n\nDisplays\n\nMonitor 3x3\n\nSpecialist Equipment\n\nCamera Small\n\nSpecialist Equipment\n\nCamera Gimbal\n\nSpecialist Equipment\n\nCamera Medium\n\nSpecialist Equipment\n\nCamera Stabilized\n\nDisplays\n\nHUD Small\n\nDisplays\n\nHUD Large",
+    "char_count": 1868,
+    "word_count": 75,
+    "sha256": "65957d1b32b91d9a25c0f906fcc363ba1653358112c90231fe8179e6e353e3b2"
+  },
+  "wikitext": "{{Research\n  | name=Video Equipment\n  | image=[File:Videoequipmentresearch.png]\n  | points=30\n  | time= 3h 40m\n  | unlock= [[Displays Research|Displays]], [[Advanced Displays Research|Advanced Displays]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Video equipment is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Monitor 1x1\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Monitor 2x2\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Monitor 5x3\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Monitor 9x5\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Monitor 1x2\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Monitor 1x3\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Monitor 2x3\n|-\n|[[Wiki/Building/Components/Displays|Displays]]||Monitor 3x3\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]||Camera Small\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]\n|Camera Gimbal\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]\n|Camera Medium\n|-\n|[[Wiki/Building/Components/Specialist Equipment|Specialist Equipment]]\n|Camera Stabilized\n|-\n|[[Wiki/Building/Components/Displays|Displays]]\n|HUD Small\n|-\n|[[Wiki/Building/Components/Displays|Displays]]\n|HUD Large\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Video_Equipment_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1512,
+    "revision_id": 3821,
+    "revision_timestamp": "2024-04-21T19:02:56Z",
+    "retrieved_at": "2026-08-31T10:10:52+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

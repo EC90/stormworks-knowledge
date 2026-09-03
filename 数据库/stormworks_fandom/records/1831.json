@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Vehicles/Land/Cars and trucks",
+  "display_title": "Wiki/Vehicles/Land/Cars and trucks",
+  "summary": "Alias for Wiki/Vehicles/Land/Wheeled vehicles",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Vehicles/Land/Wheeled vehicles"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Vehicles/Land/Cars and trucks -> Wiki/Vehicles/Land/Wheeled vehicles",
+    "plain_text": "Redirect: Wiki/Vehicles/Land/Cars and trucks -> Wiki/Vehicles/Land/Wheeled vehicles",
+    "char_count": 83,
+    "word_count": 7,
+    "sha256": "7b92ec3c20c358f936c584fe03e94ee20278d2039d035a3a01ccfc5dec84d8df"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Vehicles/Land/Wheeled vehicles",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Vehicles/Land/Wheeled_vehicles",
+    "target_page_id": 880,
+    "target_revision_id": 4513
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Vehicles/Land/Cars_and_trucks",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1831,
+    "revision_id": 4504,
+    "revision_timestamp": "2025-07-22T09:04:59Z",
+    "retrieved_at": "2026-08-31T10:12:58+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Gearbox",
+  "display_title": "Gearbox",
+  "summary": "Alias for Wiki/Guides/Gearbox",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Guides/Gearbox"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Gearbox -> Wiki/Guides/Gearbox",
+    "plain_text": "Redirect: Gearbox -> Wiki/Guides/Gearbox",
+    "char_count": 40,
+    "word_count": 4,
+    "sha256": "d24acf6c81b187c194c80edf58ecc41016c37e028ce8f3267a12ab1a326daf2d"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Guides/Gearbox",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Gearbox",
+    "target_page_id": 524,
+    "target_revision_id": 4492
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gearbox",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 946,
+    "revision_id": 1851,
+    "revision_timestamp": "2019-05-14T13:36:10Z",
+    "retrieved_at": "2026-08-31T10:03:10+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

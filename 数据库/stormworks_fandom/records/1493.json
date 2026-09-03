@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Heavy Land Vehicles Research",
+  "display_title": "Heavy Land Vehicles Research",
+  "summary": "Heavy land vehicles is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Land Vehicles Research",
+    "Research",
+    "Tank Tracks Small Research",
+    "Trains Research",
+    "Wiki/Building/Components/Vehicle Control"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cc/Heavylandvehiclesresearch.png/revision/latest?cb=20240421184219",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cc/Heavylandvehiclesresearch.png/revision/latest?cb=20240421184219",
+      "alt": "Heavylandvehiclesresearch",
+      "width": "48",
+      "height": "48"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Wheel 7x7"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Wheel 9x9"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Wheel 7x7 (Suspension)"
+        ],
+        [
+          "[Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control)",
+          "Wheel 9x9 (Suspension)"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Heavy Land Vehicles\n\n[![Heavylandvehiclesresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cc/Heavylandvehiclesresearch.png/revision/latest?cb=20240421184219)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cc/Heavylandvehiclesresearch.png/revision/latest?cb=20240421184219)\n\n### Research Points\n\n20\n\n### Research Time\n\n1h 10m\n\n## Research Path\n\n### Unlocked by\n\n[Land Vehicles](https://stormworks.fandom.com/wiki/Land_Vehicles_Research)\n\n### Makes available\n\n[Tank Tracks Small](https://stormworks.fandom.com/wiki/Tank_Tracks_Small_Research)\n\n### Makes available\n\n[Trains](https://stormworks.fandom.com/wiki/Trains_Research)\n\nHeavy land vehicles is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Wheel 7x7 |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Wheel 9x9 |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Wheel 7x7 (Suspension) |\n| [Vehicle Control](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control) | Wheel 9x9 (Suspension) |",
+    "plain_text": "Heavy Land Vehicles\n\nResearch Points\n\n20\n\nResearch Time\n\n1h 10m\n\nResearch Path\n\nUnlocked by\n\nLand Vehicles\n\nMakes available\n\nTank Tracks Small\n\nMakes available\n\nTrains\n\nHeavy land vehicles is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nVehicle Control\n\nWheel 7x7\n\nVehicle Control\n\nWheel 9x9\n\nVehicle Control\n\nWheel 7x7 (Suspension)\n\nVehicle Control\n\nWheel 9x9 (Suspension)",
+    "char_count": 1316,
+    "word_count": 56,
+    "sha256": "f3af93adfc92f827d68d93ce921d04a84768284c25ba3abb535abbe3334b3226"
+  },
+  "wikitext": "{{Research\n  | name=Heavy Land Vehicles\n  | image=[File:Heavylandvehiclesresearch.png]\n  | points=20\n  | time= 1h 10m\n  | unlock= [[Land Vehicles Research|Land Vehicles]]\n  | a1=[[Tank Tracks Small Research|Tank Tracks Small]]\n  | a2=[[Trains Research|Trains]]\n  | a3=\n  | a4=\n  | a5=\n}}Heavy land vehicles is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Wheel 7x7\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Wheel 9x9\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Wheel 7x7 (Suspension)\n|-\n|[[Wiki/Building/Components/Vehicle Control|Vehicle Control]]||Wheel 9x9 (Suspension)\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Heavy_Land_Vehicles_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1493,
+    "revision_id": 3787,
+    "revision_timestamp": "2024-04-21T18:42:46Z",
+    "retrieved_at": "2026-08-31T10:03:22+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

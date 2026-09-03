@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Propulsion/Gearbox",
+  "display_title": "Wiki/Building/Components/Propulsion/Gearbox",
+  "summary": "Alias for Gameplay/Workbench/Components/Propulsion/Gearbox",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Propulsion/Gearbox"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Propulsion/Gearbox -> Gameplay/Workbench/Components/Propulsion/Gearbox",
+    "plain_text": "Redirect: Wiki/Building/Components/Propulsion/Gearbox -> Gameplay/Workbench/Components/Propulsion/Gearbox",
+    "char_count": 105,
+    "word_count": 4,
+    "sha256": "44e0b871b44b6bc36878865482c40687b292266709a5e336ebd33cadb9930f67"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Propulsion/Gearbox",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Propulsion/Gearbox",
+    "target_page_id": 1207,
+    "target_revision_id": 4173
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion/Gearbox",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1670,
+    "revision_id": 4174,
+    "revision_timestamp": "2025-05-14T02:40:55Z",
+    "retrieved_at": "2026-08-31T10:11:20+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

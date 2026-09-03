@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Microcontrollers",
+  "display_title": "Wiki/Building/Microcontrollers",
+  "summary": "Alias for Gameplay/Workbench/Microcontrollers",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Microcontrollers"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Microcontrollers -> Gameplay/Workbench/Microcontrollers",
+    "plain_text": "Redirect: Wiki/Building/Microcontrollers -> Gameplay/Workbench/Microcontrollers",
+    "char_count": 79,
+    "word_count": 4,
+    "sha256": "ca0e6b5d5a3818a81235056ecc1a3cc2bec7698805f2ace7a14fe94353cc9bc1"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Microcontrollers",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Microcontrollers",
+    "target_page_id": 885,
+    "target_revision_id": 4203
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Microcontrollers",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1685,
+    "revision_id": 4204,
+    "revision_timestamp": "2025-05-14T02:40:56Z",
+    "retrieved_at": "2026-08-31T10:11:35+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workshop",
+  "display_title": "Gameplay/Workshop",
+  "summary": "The\nSteam Workshop\n is a platform which can be used to share vehicles and other creations between players.",
+  "template": "Infobox",
+  "attributes": {
+    "name": "Stormworks Workshop",
+    "image": "thumb|n",
+    "caption-image": "Steam Community Page of Stormworks Workshop"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| name | Stormworks Workshop |\n| image | thumb\\|n |\n| caption-image | Steam Community Page of Stormworks Workshop |",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Types",
+      "anchor": "Types"
+    },
+    {
+      "level": 3,
+      "title": "Vehicles",
+      "anchor": "Vehicles"
+    },
+    {
+      "level": 3,
+      "title": "Microcontrollers",
+      "anchor": "Microcontrollers"
+    },
+    {
+      "level": 3,
+      "title": "Environment Mods",
+      "anchor": "Environment_Mods"
+    },
+    {
+      "level": 3,
+      "title": "Missions",
+      "anchor": "Missions"
+    },
+    {
+      "level": 3,
+      "title": "Mods",
+      "anchor": "Mods"
+    },
+    {
+      "level": 2,
+      "title": "Tips for contributors",
+      "anchor": "Tips_for_contributors"
+    }
+  ],
+  "internal_links": [
+    "Mods",
+    "Research"
+  ],
+  "external_links": [
+    "https://steamcommunity.com/workshop/browse/?appid=573090"
+  ],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/51/Demo_of_Stormworks_Steam_Workshop.png/revision/latest?cb=20250522122658",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/51/Demo_of_Stormworks_Steam_Workshop.png/revision/latest/scale-to-width-down/268?cb=20250522122658",
+      "alt": "Demo of Stormworks Steam Workshop",
+      "width": "270",
+      "height": "167"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workshop?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Workshop?action=edit). |\n| --- | --- |\n\nThe [Steam Workshop](https://steamcommunity.com/workshop/browse/?appid=573090) is a platform which can be used to share vehicles and other creations between players.\n\nFor those players who are not good at making vehicles or want to try something new, free to subscribe!\n\n## Stormworks Workshop\n\n[![Demo of Stormworks Steam Workshop](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/51/Demo_of_Stormworks_Steam_Workshop.png/revision/latest/scale-to-width-down/268?cb=20250522122658)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/51/Demo_of_Stormworks_Steam_Workshop.png/revision/latest?cb=20250522122658)\n\n## Types\n\nIn the current Stormworks workshop, you can subscribe to vehicles, environment mods, microcontrollers, mods, and missions\n\n### Vehicles\n\nFor vehicles, most of them(except created in a modified workbenches) can be spawned and edited by a workbench, they are usually temporary and small vehicles that can be used for realize typical functions.\n\n(Warning: For those vehicles that contain DLCs or Mod parts, remember to subscribe necessary mods and buy corresponding DLCs to allow the vehicle to function normally)\n\n### Microcontrollers\n\nFor microcontrollers, after subscribing, it automatically appears in your workbench, you can use it on your vehicle for typical functions\n\n### Environment Mods\n\nEnvironment Mods usually directly spawn a vehicle or an anchored construction made by a workbench in typical locations.\n\nTo use environment mods, enable them at the creation of the game. Environment Mods exist in the form of addons, enable them to allow them to directly spawn\n\n### Missions\n\nLike Environment Mods, but contains more freedom(and complicated) on spawning and running\n\nUse it just like how you use environment mods.\n\n### Mods\n\nRead more on mods\n\n## Tips for contributors\n\nYou are now able to adjust the description, add screenshots, and videos.\n\nWhen you load a vehicle into the workbench editor you can choose \"upload to workshop\" in the top bar. Give your creation a name and select tags for it so users can find it easy. After you uploaded it go to your steam bibiothecary, select \"Stormworks: Build and Rescue\" in the left list. On the right side you can now see the normal information about the game. There should also be a button \"Workshop\". Hit that. On the right side of the page that opens you can see your profile picture. Bellow you can click the dropdown and choose \"my workshop object\". Now you can see your newly added vehicle.\n\n**Important: Do not change the automatically generated preview image of your vehicle by editing the png in the %appdata% folder. That is illegal and can lead to a ban!**",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nThe\nSteam Workshop\n is a platform which can be used to share vehicles and other creations between players.\n\nFor those players who are not good at making vehicles or want to try something new, free to subscribe!\n\nStormworks Workshop\n\nTypes\n\nIn the current Stormworks workshop, you can subscribe to vehicles, environment mods, microcontrollers, mods, and missions\n\nVehicles\n\nFor vehicles, most of them(except created in a modified workbenches) can be spawned and edited by a workbench, they are usually temporary and small vehicles that can be used for realize typical functions.\n\n(Warning: For those vehicles that contain DLCs or Mod parts, remember to subscribe necessary mods and buy corresponding DLCs to allow the vehicle to function normally)\n\nMicrocontrollers\n\nFor microcontrollers, after subscribing, it automatically appears in your workbench, you can use it on your vehicle for typical functions\n\nEnvironment Mods\n\nEnvironment Mods usually directly spawn a vehicle or an anchored construction made by a workbench in typical locations.\n\nTo use environment mods, enable them at the creation of the game. Environment Mods exist in the form of addons, enable them to allow them to directly spawn\n\nMissions\n\nLike Environment Mods, but contains more freedom(and complicated) on spawning and running\n\nUse it just like how you use environment mods.\n\nMods\n\nRead more on\nmods\n\nTips for contributors\n\nYou are now able to adjust the description, add screenshots, and videos.\n\nWhen you load a vehicle into the workbench editor you can choose \"upload to workshop\" in the top bar. Give your creation a name and select tags for it so users can find it easy. After you uploaded it go to your steam bibiothecary, select \"Stormworks: Build and Rescue\" in the left list. On the right side you can now see the normal information about the game. There should also be a button \"Workshop\". Hit that. On the right side of the page that opens you can see your profile picture. Bellow you can click the dropdown and choose \"my workshop object\". Now you can see your newly added vehicle.\n\nImportant: Do not change the automatically generated preview image of your vehicle by editing the png in the %appdata% folder. That is illegal and can lead to a ban!",
+    "char_count": 3144,
+    "word_count": 380,
+    "sha256": "27f9bc79ec76e3120560aef1f529b0b6c4b905bdd5e6dba57c78b3fb4fc300d1"
+  },
+  "wikitext": "{{Stub}}\n\nThe [https://steamcommunity.com/workshop/browse/?appid=573090 Steam Workshop] is a platform which can be used to share vehicles and other creations between players. \n\nFor those players who are not good at making vehicles or want to try something new, free to subscribe!\n\n{{Infobox|name=Stormworks Workshop|image=[[File:Demo of Stormworks Steam Workshop.png|thumb|n]]|caption-image=Steam Community Page of Stormworks Workshop|prerequisite=}}\n\n\n\n== Types ==\nIn the current Stormworks workshop, you can subscribe to vehicles, environment mods, microcontrollers, mods, and missions\n\n=== Vehicles ===\nFor vehicles, most of them(except created in a modified workbenches) can be spawned and edited by a workbench, they are usually temporary and small vehicles that can be used for realize typical functions.\n\n(Warning: For those vehicles that contain DLCs or Mod parts, remember to subscribe necessary mods and buy corresponding DLCs to allow the vehicle to function normally)\n\n=== Microcontrollers ===\nFor microcontrollers, after subscribing, it automatically appears in your workbench, you can use it on your vehicle for typical functions\n\n=== Environment Mods ===\nEnvironment Mods usually directly spawn a vehicle or an anchored construction made by a workbench in typical locations.\n\nTo use environment mods, enable them at the creation of the game. Environment Mods exist in the form of addons, enable them to allow them to directly spawn\n\n=== Missions ===\nLike Environment Mods, but contains more freedom(and complicated) on spawning and running\n\nUse it just like how you use environment mods.\n\n=== Mods ===\nRead more on [[Mods|mods]]\n\n== Tips for contributors ==\nYou are now able to adjust the description, add screenshots, and videos.\n\nWhen you load a vehicle into the workbench editor you can choose \"upload to workshop\" in the top bar. Give your creation a name and select tags for it so users can find it easy. After you uploaded it go to your steam bibiothecary, select \"Stormworks: Build and Rescue\" in the left list. On the right side you can now see the normal information about the game. There should also be a button \"Workshop\". Hit that. On the right side of the page that opens you can see your profile picture. Bellow you can click the dropdown and choose \"my workshop object\". Now you can see your newly added vehicle.\n\n'''Important: Do not change the automatically generated preview image of your vehicle by editing the png in the %appdata% folder. That is illegal and can lead to a ban!'''",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workshop",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 938,
+    "revision_id": 4283,
+    "revision_timestamp": "2025-05-22T12:45:59Z",
+    "retrieved_at": "2026-08-31T10:03:09+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

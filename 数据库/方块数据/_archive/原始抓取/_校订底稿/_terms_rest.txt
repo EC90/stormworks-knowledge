@@ -1,0 +1,74 @@
+Battery Small
+Battery Medium
+Battery Large
+Hardpoint Connector Attachment
+Hardpoint Connector Body
+Generator Small
+Generator Medium
+Generator Large
+Solar Cell
+Electric Circuit Breaker
+Electric Relay
+Electric Connector
+Anchor Electrical Cable
+Radio RX Small
+Radio RX Medium
+Radio RX Large
+Radio RX Huge
+Video Receiver
+Video Emitter
+Artificial Horizon
+Compass Ball
+Dial
+Digital Display
+Gauge Display
+Bed
+Medical Bed
+Stretcher
+Harness
+Heater
+Outfit Inventory (Scuba)
+Outfit Inventory (Diving)
+Outfit Inventory (Parachute)
+Outfit Inventory (Firefighter)
+Outfit Inventory (Arctic)
+Outfit Inventory (Empty)
+Railing Corner
+Railing Curve
+Railing End
+Railing Straight
+Railing Incline
+Railing Middle
+Tyre Large
+Tyre Small
+Paintable Sign
+Rope Anchor
+Search Light
+Spotlight Small
+Light
+RGB Light
+Indicator Light
+Indicator RGB Light
+Paintable Indicator
+Buzzer
+Foghorn
+Microphone
+Speaker Small
+Megaphone Speaker Small
+Megaphone Speaker Large
+Transponder
+Transponder Locator
+Camera Stabilized
+Camera Gimbal
+Camera Medium
+Camera Small
+HUD 1x1
+HUD 3x3
+Monitor 1x1
+Monitor 1x2
+Monitor 1x3
+Monitor 2x2
+Monitor 2x3
+Monitor 3x3
+Monitor 3x5
+Monitor 9x5

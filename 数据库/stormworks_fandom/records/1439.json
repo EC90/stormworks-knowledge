@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Loot crate",
+  "display_title": "Loot crate",
+  "summary": "A Loot Crate can be found on islands and in the water in\nClassic\n game modes. Loot chests may also be found, as shown in the screenshot above.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [],
+  "internal_links": [
+    "Arid Island",
+    "Research",
+    "Wiki/Gamemodes/Classic"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Loot_chest.png/revision/latest?cb=20250801044834",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Loot_chest.png/revision/latest/scale-to-width-down/180?cb=20250801044834",
+      "alt": "A loot chest found at Raptor Lighthouse on the",
+      "width": "180",
+      "height": "101"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/09/LootCrate.png/revision/latest?cb=20230814013357",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/09/LootCrate.png/revision/latest/scale-to-width-down/180?cb=20230814013357",
+      "alt": "A loot crate on dry land",
+      "width": "180",
+      "height": "187"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Loot_crate?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Loot_crate?action=edit). |\n| --- | --- |\n\n[![A loot chest found at Raptor Lighthouse on the](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Loot_chest.png/revision/latest/scale-to-width-down/180?cb=20250801044834)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/fb/Loot_chest.png/revision/latest?cb=20250801044834)\n\n[https://stormworks.fandom.com/wiki/File:Loot_chest.png](https://stormworks.fandom.com/wiki/File:Loot_chest.png)\n\nA loot chest found at Raptor Lighthouse on the [Arid Island](https://stormworks.fandom.com/wiki/Arid_Island)\n\nA Loot Crate can be found on islands and in the water in [Classic](https://stormworks.fandom.com/wiki/Wiki/Gamemodes/Classic) game modes. Loot chests may also be found, as shown in the screenshot above.\n\nRewards include Cash and [Research](https://stormworks.fandom.com/wiki/Research) Points.\n\n- Research points: 0-12 points\n- Cash ranges: $0-10000\n\n[![A loot crate on dry land](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/09/LootCrate.png/revision/latest/scale-to-width-down/180?cb=20230814013357)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/09/LootCrate.png/revision/latest?cb=20230814013357)\n\n[https://stormworks.fandom.com/wiki/File:LootCrate.png](https://stormworks.fandom.com/wiki/File:LootCrate.png)\n\nA loot crate on dry land",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nA loot chest found at Raptor Lighthouse on the\nArid Island\n\nA Loot Crate can be found on islands and in the water in\nClassic\n game modes. Loot chests may also be found, as shown in the screenshot above.\n\nRewards include Cash and\nResearch\n Points.\n\nResearch points: 0-12 points\n\nCash ranges: $0-10000\n\nA loot crate on dry land",
+    "char_count": 1781,
+    "word_count": 72,
+    "sha256": "f86ea028f99172dca8c202776ac8d45b88c4bbe9c7aae9a326bdeca8af6caa99"
+  },
+  "wikitext": "{{stub}}\n[[File:Loot chest.png|thumb|A loot chest found at Raptor Lighthouse on the [[Arid Island]]]]\n\nA Loot Crate can be found on islands and in the water in [[Wiki/Gamemodes/Classic|Classic]] game modes. Loot chests may also be found, as shown in the screenshot above.\n\nRewards include Cash and [[Research]] Points.\n\n* Research points: 0-12 points\n* Cash ranges: $0-10000\n\n[[File:LootCrate.png|thumb|left|A loot crate on dry land]]\n<br>",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Loot_crate",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1439,
+    "revision_id": 4566,
+    "revision_timestamp": "2025-08-01T04:49:51Z",
+    "retrieved_at": "2026-08-31T10:04:00+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

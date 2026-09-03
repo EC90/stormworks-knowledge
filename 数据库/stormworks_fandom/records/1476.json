@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Modular Engines Research",
+  "display_title": "Modular Engines Research",
+  "summary": "Modular Engines is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Medium Modular Engines Research",
+    "Research",
+    "Wiki/Building/Components/Modular Engines",
+    "Wiki/Game Mechanics/Fluids"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620",
+      "alt": "Genericresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Air Manifold"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Air Ram"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Alternator"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Clutch 1x1"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Coolant Manifold"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Crankshaft 1x1"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Cylinder 1x1"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Drive Belt 1x1"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Exhaust Manifold (Corner)"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Exhaust Manifold (Straight)"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Fluid Pump"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Flywheel 1x1"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Fuel Manifold"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Manifold (Corner)"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Manifold (Straight)"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Manifold (T)"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Temperature Sensor"
+        ],
+        [
+          "Modular Engines",
+          "Modular Engine Starter"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Air-Liquid Heat Exchanger 1x2"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Air Filter"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Fluid Heat Radiator 3x3 (Electric)"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Air-Air Heat Exchanger 2x2"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Liquid-Liquid Heat Exchanger 2x2"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Air Scoop Intake 1x1"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Impeller Pump"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Impeller Pump (Small)"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Modular Engines\n\n[![Genericresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/11/Genericresearch.png/revision/latest?cb=20240421181620)\n\n### Research Points\n\n10\n\n### Research Time\n\n2h 25m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[Medium Modular Engines](https://stormworks.fandom.com/wiki/Medium_Modular_Engines_Research)\n\nModular Engines is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| Modular Engines | Modular Engine Air Manifold |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Air Ram |\n| Modular Engines | Modular Engine Alternator |\n| Modular Engines | Modular Engine Clutch 1x1 |\n| Modular Engines | Modular Engine Coolant Manifold |\n| Modular Engines | Modular Engine Crankshaft 1x1 |\n| Modular Engines | Modular Engine Cylinder 1x1 |\n| Modular Engines | Modular Engine Drive Belt 1x1 |\n| Modular Engines | Modular Engine Exhaust Manifold (Corner) |\n| Modular Engines | Modular Engine Exhaust Manifold (Straight) |\n| Modular Engines | Modular Engine Fluid Pump |\n| Modular Engines | Modular Engine Flywheel 1x1 |\n| Modular Engines | Modular Engine Fuel Manifold |\n| Modular Engines | Modular Engine Manifold (Corner) |\n| Modular Engines | Modular Engine Manifold (Straight) |\n| Modular Engines | Modular Engine Manifold (T) |\n| Modular Engines | Modular Engine Temperature Sensor |\n| Modular Engines | Modular Engine Starter |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Air-Liquid Heat Exchanger 1x2 |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Air Filter |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Fluid Heat Radiator 3x3 (Electric) |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Air-Air Heat Exchanger 2x2 |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Liquid-Liquid Heat Exchanger 2x2 |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Air Scoop Intake 1x1 |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Impeller Pump |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Impeller Pump (Small) |",
+    "plain_text": "Modular Engines\n\nResearch Points\n\n10\n\nResearch Time\n\n2h 25m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nMedium Modular Engines\n\nModular Engines is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nModular Engines\n\nModular Engine Air Manifold\n\nFluid\n\nAir Ram\n\nModular Engines\n\nModular Engine Alternator\n\nModular Engines\n\nModular Engine Clutch 1x1\n\nModular Engines\n\nModular Engine Coolant Manifold\n\nModular Engines\n\nModular Engine Crankshaft 1x1\n\nModular Engines\n\nModular Engine Cylinder 1x1\n\nModular Engines\n\nModular Engine Drive Belt 1x1\n\nModular Engines\n\nModular Engine Exhaust Manifold (Corner)\n\nModular Engines\n\nModular Engine Exhaust Manifold (Straight)\n\nModular Engines\n\nModular Engine Fluid Pump\n\nModular Engines\n\nModular Engine Flywheel 1x1\n\nModular Engines\n\nModular Engine Fuel Manifold\n\nModular Engines\n\nModular Engine Manifold (Corner)\n\nModular Engines\n\nModular Engine Manifold (Straight)\n\nModular Engines\n\nModular Engine Manifold (T)\n\nModular Engines\n\nModular Engine Temperature Sensor\n\nModular Engines\n\nModular Engine Starter\n\nFluid\n\nAir-Liquid Heat Exchanger 1x2\n\nFluid\n\nAir Filter\n\nFluid\n\nFluid Heat Radiator 3x3 (Electric)\n\nFluid\n\nAir-Air Heat Exchanger 2x2\n\nFluid\n\nLiquid-Liquid Heat Exchanger 2x2\n\nFluid\n\nAir Scoop Intake 1x1\n\nFluid\n\nImpeller Pump\n\nFluid\n\nImpeller Pump (Small)",
+    "char_count": 2468,
+    "word_count": 178,
+    "sha256": "77b4d10cc4eb3a614b2328fe596f8a14039c97eb62d5c87e7b15608d6ce658bb"
+  },
+  "wikitext": "{{Research\n  | name=Modular Engines\n  | image=[File:Genericresearch.png]\n  | points=10\n  | time= 2h 25m\n  | unlock= Initially Available\n  | a1=[[Medium Modular Engines Research|Medium Modular Engines]]\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Modular Engines is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Air Manifold\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]||Air Ram\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Alternator\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Clutch 1x1\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Coolant Manifold\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Crankshaft 1x1\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Cylinder 1x1\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Drive Belt 1x1\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Exhaust Manifold (Corner)\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]||Modular Engine Exhaust Manifold (Straight)\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]\n|Modular Engine Fluid Pump\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]\n|Modular Engine Flywheel 1x1\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]\n|Modular Engine Fuel Manifold\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]\n|Modular Engine Manifold (Corner)\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]\n|Modular Engine Manifold (Straight)\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]\n|Modular Engine Manifold (T)\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]\n|Modular Engine Temperature Sensor\n|-\n|[[Wiki/Building/Components/Modular Engines|Modular Engines]]\n|Modular Engine Starter\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]\n|Air-Liquid Heat Exchanger 1x2\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]\n|Air Filter\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]\n|Fluid Heat Radiator 3x3 (Electric)\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]\n|Air-Air Heat Exchanger 2x2\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]\n|Liquid-Liquid Heat Exchanger 2x2\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]\n|Air Scoop Intake 1x1\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]\n|Impeller Pump\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]\n|Impeller Pump (Small)\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Modular_Engines_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1476,
+    "revision_id": 3741,
+    "revision_timestamp": "2024-04-21T18:19:07Z",
+    "retrieved_at": "2026-08-31T10:04:18+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

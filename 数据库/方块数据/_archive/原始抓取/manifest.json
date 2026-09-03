@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "tool_version": "1.0.0",
+  "generated_at": "2026-08-30T15:13:26+00:00",
+  "source": {
+    "name": "Stormworks: Build and Rescue Wiki",
+    "base_url": "https://stormworks.fandom.com",
+    "generator": "MediaWiki 1.43.9",
+    "reported_articles": 558,
+    "reported_pages": 1798,
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  },
+  "dataset": {
+    "records": 28,
+    "articles": 26,
+    "redirects": 2,
+    "chunks": 62,
+    "quality": {
+      "high": 23,
+      "low": 2,
+      "medium": 1
+    }
+  },
+  "last_run": {
+    "started_at": "2026-08-30T15:12:40+00:00",
+    "selected": 28,
+    "fetched": 28,
+    "skipped_unchanged": 0,
+    "failed": 0,
+    "redirects": 2,
+    "scope": {
+      "titles": null,
+      "category": null,
+      "category_depth": null,
+      "namespace": 0,
+      "prefix": "Gameplay/Workbench/Components",
+      "exclude_pattern": null,
+      "max_pages": null,
+      "force": false
+    },
+    "finished_at": "2026-08-30T15:13:24+00:00"
+  },
+  "files": {
+    "pages_jsonl": "pages.jsonl",
+    "chunks_jsonl": "chunks.jsonl",
+    "records_directory": "records/",
+    "markdown_directory": "markdown/",
+    "state": "state.json",
+    "failures": "failures.jsonl"
+  }
+}

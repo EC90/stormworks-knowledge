@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "How to play guide for Stormworks: Build and Rescue",
+  "display_title": "How to play guide for Stormworks: Build and Rescue",
+  "summary": "Alias for Wiki",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: How to play guide for Stormworks: Build and Rescue -> Wiki",
+    "plain_text": "Redirect: How to play guide for Stormworks: Build and Rescue -> Wiki",
+    "char_count": 68,
+    "word_count": 12,
+    "sha256": "c2214c097d399a53789e08e95c56e5528e9e0cdfeb95f1714fe9c134d1e05683"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki",
+    "target_page_id": 591,
+    "target_revision_id": 3931
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/How_to_play_guide_for_Stormworks:_Build_and_Rescue",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 87,
+    "revision_id": 1363,
+    "revision_timestamp": "2019-03-16T18:08:38Z",
+    "retrieved_at": "2026-08-31T10:03:29+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

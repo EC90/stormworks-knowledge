@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Airstrip Base",
+  "display_title": "Airstrip Base",
+  "summary": "Airstrip Base viewed facing north east. Aircraft workbench located inside of the hanger next to the tower. Outpost control van is near the Center of the image, left of the hanger.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Locations"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Features",
+      "anchor": "Features"
+    }
+  ],
+  "internal_links": [
+    "Weapons DLC"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/26/Airstrip_Base_Overview.jpg/revision/latest?cb=20250416193820",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/26/Airstrip_Base_Overview.jpg/revision/latest/scale-to-width-down/356?cb=20250416193820",
+      "alt": "Airstrip Base viewed facing north east. Aircraft workbench located inside of the hanger next to the tower. Outpost control van is near the Center of the image, left of the hanger.",
+      "width": "356",
+      "height": "200"
+    }
+  ],
+  "tables": [],
+  "content": {
+    "markdown": "[![Airstrip Base viewed facing north east. Aircraft workbench located inside of the hanger next to the tower. Outpost control van is near the Center of the image, left of the hanger.](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/26/Airstrip_Base_Overview.jpg/revision/latest/scale-to-width-down/356?cb=20250416193820)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/26/Airstrip_Base_Overview.jpg/revision/latest?cb=20250416193820)\n\n[https://stormworks.fandom.com/wiki/File:Airstrip_Base_Overview.jpg](https://stormworks.fandom.com/wiki/File:Airstrip_Base_Overview.jpg)\n\nAirstrip Base viewed facing north east. Aircraft workbench located inside of the hanger next to the tower. Outpost control van is near the Center of the image, left of the hanger.\n\nAirstrip Base is a small island with a small hangar and runway allowing for the creation of a small plane.\n\n\"Features a hanger and runway.\" Stormworks Base Description\n\n## Features\n\nThe site can be purchased for $30,000, granting access to its aircraft workbench for editing small aircraft of up to 15.75 m (63 blocks) L x 17.75m (71 blocks) W x 5.25 m (21 blocks) tall. It has a Diesel Fuel, Jet Fuel, and Electricity anchors, alongside mineral storage. The island also has 1 bed and a wardrobe in the building next to the control tower.\n\nThis base does not spawn any trailers or containers to sell\n\nWith the [Weapons DLC](https://stormworks.fandom.com/wiki/Weapons_DLC), Airstrip Base also features an outpost control van. If the site is captured by the enemy, enemy vehicles will spawn at Airstrip Base until the player captures the site by clearing nearby enemies and staying in the van until the site reaches 100% captured. Note that the player can still purchase the Airstrip Base to spawn vehicles using the aircraft workbench even if has been captured by the enemy; they just risk being shot at in the process.",
+    "plain_text": "Airstrip Base viewed facing north east. Aircraft workbench located inside of the hanger next to the tower. Outpost control van is near the Center of the image, left of the hanger.\n\nAirstrip Base is a small island with a small hangar and runway allowing for the creation of a small plane.\n\n\"Features a hanger and runway.\" Stormworks Base Description\n\nFeatures\n\nThe site can be purchased for $30,000, granting access to its aircraft workbench for editing small aircraft of up to 15.75 m (63 blocks) L x 17.75m (71 blocks) W x 5.25 m (21 blocks) tall. It has a Diesel Fuel, Jet Fuel, and Electricity anchors, alongside mineral storage. The island also has 1 bed and a wardrobe in the building next to the control tower.\n\nThis base does not spawn any trailers or containers to sell\n\nWith the\nWeapons DLC\n, Airstrip Base also features an outpost control van. If the site is captured by the enemy, enemy vehicles will spawn at Airstrip Base until the player captures the site by clearing nearby enemies and staying in the van until the site reaches 100% captured. Note that the player can still purchase the Airstrip Base to spawn vehicles using the aircraft workbench even if has been captured by the enemy; they just risk being shot at in the process.",
+    "char_count": 1911,
+    "word_count": 223,
+    "sha256": "97e9785f0c795426dc6e73886a287de5d35fcb45fee033cc4d4041790c4f8fb4"
+  },
+  "wikitext": "[[File:Airstrip Base Overview.jpg|thumb|356x356px|Airstrip Base viewed facing north east. Aircraft workbench located inside of the hanger next to the tower. Outpost control van is near the Center of the image, left of the hanger.]]\n\nAirstrip Base is a small island with a small hangar and runway allowing for the creation of a small plane.\n\n\"Features a hanger and runway.\" Stormworks Base Description\n\n== Features ==\nThe site can be purchased for $30,000, granting access to its aircraft workbench for editing small aircraft of up to 15.75 m (63 blocks) L x 17.75m (71 blocks) W x 5.25 m (21 blocks) tall. It has a Diesel Fuel, Jet Fuel, and Electricity anchors, alongside mineral storage. The island also has 1 bed and a wardrobe in the building next to the control tower.\n\nThis base does not spawn any trailers or containers to sell\n\nWith the [[Weapons DLC]], Airstrip Base also features an outpost control van. If the site is captured by the enemy, enemy vehicles will spawn at Airstrip Base until the player captures the site by clearing nearby enemies and staying in the van until the site reaches 100% captured. Note that the player can still purchase the Airstrip Base to spawn vehicles using the aircraft workbench even if has been captured by the enemy; they just risk being shot at in the process.\n\n[[Category: Locations]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Airstrip_Base",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1628,
+    "revision_id": 4056,
+    "revision_timestamp": "2025-04-16T19:47:05Z",
+    "retrieved_at": "2026-08-31T10:00:41+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

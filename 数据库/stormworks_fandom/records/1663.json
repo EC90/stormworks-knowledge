@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Hardpoint",
+  "display_title": "Wiki/Building/Components/Hardpoint",
+  "summary": "Alias for Gameplay/Workbench/Components/Hardpoint",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Hardpoint"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Hardpoint -> Gameplay/Workbench/Components/Hardpoint",
+    "plain_text": "Redirect: Wiki/Building/Components/Hardpoint -> Gameplay/Workbench/Components/Hardpoint",
+    "char_count": 87,
+    "word_count": 4,
+    "sha256": "46694d767b5c55a8f545485a8566b500b33ce18bda0ac2206114f3906fce928d"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Hardpoint",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Hardpoint",
+    "target_page_id": 1271,
+    "target_revision_id": 4159
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Hardpoint",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1663,
+    "revision_id": 4160,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-31T10:11:13+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

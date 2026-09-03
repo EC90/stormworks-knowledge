@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Game Mechanics",
+  "display_title": "Wiki/Game Mechanics",
+  "summary": "Alias for Gameplay/Mechanics",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Mechanics"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Game Mechanics -> Gameplay/Mechanics",
+    "plain_text": "Redirect: Wiki/Game Mechanics -> Gameplay/Mechanics",
+    "char_count": 51,
+    "word_count": 5,
+    "sha256": "feb0d182e14b5cbc68a4c18c116beb80b4750b95399ec795263ab096df284a30"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Mechanics",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics",
+    "target_page_id": 618,
+    "target_revision_id": 4300
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1692,
+    "revision_id": 4224,
+    "revision_timestamp": "2025-05-14T06:15:44Z",
+    "retrieved_at": "2026-08-31T10:11:37+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

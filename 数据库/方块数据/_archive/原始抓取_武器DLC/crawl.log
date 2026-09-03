@@ -1,0 +1,25 @@
+2026-08-30 23:54:03,781 | INFO | Stormworks Fandom knowledge crawler 1.0.0
+2026-08-30 23:54:03,784 | DEBUG | Starting new HTTPS connection (1): stormworks.fandom.com:443
+2026-08-30 23:54:04,063 | DEBUG | https://stormworks.fandom.com:443 "GET /robots.txt HTTP/1.1" 403 None
+2026-08-30 23:54:04,063 | WARNING | robots.txt unreadable (403 Client Error: Forbidden for url: https://stormworks.fandom.com/robots.txt); continuing with the configured 1.0s request delay because this crawler only calls https://stormworks.fandom.com/api.php
+2026-08-30 23:54:05,064 | DEBUG | Resetting dropped connection: stormworks.fandom.com
+2026-08-30 23:54:05,719 | DEBUG | https://stormworks.fandom.com:443 "GET /api.php?format=json&formatversion=2&action=query&meta=siteinfo&siprop=general%7Cstatistics%7Crightsinfo HTTP/1.1" 200 None
+2026-08-30 23:54:07,152 | DEBUG | https://stormworks.fandom.com:443 "GET /api.php?format=json&formatversion=2&action=query&titles=Search+and+Destroy+DLC%7CWeapons+Research%7CDamage+control%7CEquipment%7CImpact+sensor%7CInfrared+mode%7CRadar+Detector%7CCamera+medium&prop=info%7Crevisions&rvprop=ids%7Ctimestamp HTTP/1.1" 200 None
+2026-08-30 23:54:07,152 | INFO | Selected 8 page(s)
+2026-08-30 23:54:07,152 | INFO | [1/8] fetching: Camera medium
+2026-08-30 23:54:08,721 | DEBUG | https://stormworks.fandom.com:443 "GET /api.php?format=json&formatversion=2&action=parse&page=Camera+medium&prop=text%7Csections%7Ccategories%7Clinks%7Cexternallinks%7Crevid%7Cdisplaytitle&disableeditsection=1&disabletoc=1 HTTP/1.1" 200 None
+2026-08-30 23:54:08,867 | INFO | [2/8] fetching: Damage control
+2026-08-30 23:54:10,135 | DEBUG | https://stormworks.fandom.com:443 "GET /api.php?format=json&formatversion=2&action=parse&page=Damage+control&prop=text%7Csections%7Ccategories%7Clinks%7Cexternallinks%7Crevid%7Cdisplaytitle&disableeditsection=1&disabletoc=1 HTTP/1.1" 200 None
+2026-08-30 23:54:10,242 | INFO | [3/8] fetching: Equipment
+2026-08-30 23:54:11,558 | DEBUG | https://stormworks.fandom.com:443 "GET /api.php?format=json&formatversion=2&action=parse&page=Equipment&prop=text%7Csections%7Ccategories%7Clinks%7Cexternallinks%7Crevid%7Cdisplaytitle&disableeditsection=1&disabletoc=1 HTTP/1.1" 200 None
+2026-08-30 23:54:11,666 | INFO | [4/8] fetching: Impact sensor
+2026-08-30 23:54:13,057 | DEBUG | https://stormworks.fandom.com:443 "GET /api.php?format=json&formatversion=2&action=parse&page=Impact+sensor&prop=text%7Csections%7Ccategories%7Clinks%7Cexternallinks%7Crevid%7Cdisplaytitle&disableeditsection=1&disabletoc=1 HTTP/1.1" 200 None
+2026-08-30 23:54:13,156 | INFO | [5/8] fetching: Infrared mode
+2026-08-30 23:54:14,627 | DEBUG | https://stormworks.fandom.com:443 "GET /api.php?format=json&formatversion=2&action=parse&page=Infrared+mode&prop=text%7Csections%7Ccategories%7Clinks%7Cexternallinks%7Crevid%7Cdisplaytitle&disableeditsection=1&disabletoc=1 HTTP/1.1" 200 None
+2026-08-30 23:54:14,722 | INFO | [6/8] fetching: Radar Detector
+2026-08-30 23:54:16,070 | DEBUG | https://stormworks.fandom.com:443 "GET /api.php?format=json&formatversion=2&action=parse&page=Radar+Detector&prop=text%7Csections%7Ccategories%7Clinks%7Cexternallinks%7Crevid%7Cdisplaytitle&disableeditsection=1&disabletoc=1 HTTP/1.1" 200 None
+2026-08-30 23:54:16,166 | INFO | [7/8] fetching: Search and Destroy DLC
+2026-08-30 23:54:17,508 | DEBUG | https://stormworks.fandom.com:443 "GET /api.php?format=json&formatversion=2&action=parse&page=Search+and+Destroy+DLC&prop=text%7Csections%7Ccategories%7Clinks%7Cexternallinks%7Crevid%7Cdisplaytitle&disableeditsection=1&disabletoc=1 HTTP/1.1" 200 None
+2026-08-30 23:54:17,685 | INFO | [8/8] fetching: Weapons Research
+2026-08-30 23:54:18,916 | DEBUG | https://stormworks.fandom.com:443 "GET /api.php?format=json&formatversion=2&action=parse&page=Weapons+Research&prop=text%7Csections%7Ccategories%7Clinks%7Cexternallinks%7Crevid%7Cdisplaytitle&disableeditsection=1&disabletoc=1 HTTP/1.1" 200 None
+2026-08-30 23:54:19,361 | INFO | Done: records=8 articles=8 redirects=0 chunks=24 fetched=8 skipped=0 failed=0

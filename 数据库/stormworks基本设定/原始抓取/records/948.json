@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Mechanics/Mechanical Power",
+  "display_title": "Gameplay/Mechanics/Mechanical Power",
+  "summary": "Mechanical Power\nMechanical power is used to move vehicles.\nIt can be created by different\nengines\n, such as prefab or modular engines, and consumed by\nwheels\nor\npropellers or rotors\n. It can also be consumed by\ngenerators\nto produce\nelectrical power\n.",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Mechanical Power [ edit page ]",
+      "anchor": "Mechanical_Power_[_edit_page_]"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Mechanics",
+    "Wiki/Building/Components/Electricity",
+    "Wiki/Building/Components/Propulsion",
+    "Wiki/Building/Components/Vehicle Control",
+    "Wiki/Game Mechanics/Electricity"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "## Mechanical Power\n\nMechanical power is used to move vehicles.\n\nIt can be created by different [engines](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion \"Wiki/Building/Components/Propulsion\"), such as prefab or modular engines, and consumed by [wheels](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Vehicle_Control \"Wiki/Building/Components/Vehicle Control\") or [propellers or rotors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Propulsion \"Wiki/Building/Components/Propulsion\"). It can also be consumed by [generators](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Electricity \"Wiki/Building/Components/Electricity\") to produce [electrical power](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Electricity \"Wiki/Game Mechanics/Electricity\").",
+    "plain_text": "Mechanical Power\nMechanical power is used to move vehicles.\nIt can be created by different\nengines\n, such as prefab or modular engines, and consumed by\nwheels\nor\npropellers or rotors\n. It can also be consumed by\ngenerators\nto produce\nelectrical power\n.",
+    "char_count": 818,
+    "word_count": 41,
+    "sha256": "4c862fbb80f6ca775cc4eda2ebce4d054265d3f1fbc1a96eb294cff461a2b523"
+  },
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Mechanical_Power",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 948,
+    "revision_id": 4713,
+    "revision_timestamp": "2026-04-28T15:28:45Z",
+    "retrieved_at": "2026-08-30T14:37:47+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

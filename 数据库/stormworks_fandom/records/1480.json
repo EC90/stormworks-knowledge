@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Sensors Research",
+  "display_title": "Sensors Research",
+  "summary": "Sensors is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Advanced Sensors Research",
+    "Research",
+    "Weather Sensors Research",
+    "Wiki/Building/Components/Sensors"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/ff/Sensorsresearch.png/revision/latest?cb=20240421182142",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/ff/Sensorsresearch.png/revision/latest?cb=20240421182142",
+      "alt": "Sensorsresearch",
+      "width": "50",
+      "height": "50"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Tilt Sensor"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Distance Sensor"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Linear Speed Sensor"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Angular Speed Sensor"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Impact Sensor"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Contact Sensor"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Sensors\n\n[![Sensorsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/ff/Sensorsresearch.png/revision/latest?cb=20240421182142)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/ff/Sensorsresearch.png/revision/latest?cb=20240421182142)\n\n### Research Points\n\n1\n\n### Research Time\n\n0h 50m\n\n## Research Path\n\n### Unlocked by\n\nInitially Available\n\n### Makes available\n\n[Advanced Sensors](https://stormworks.fandom.com/wiki/Advanced_Sensors_Research)\n\n### Makes available\n\n[Weather Sensors](https://stormworks.fandom.com/wiki/Weather_Sensors_Research)\n\nSensors is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Tilt Sensor |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Distance Sensor |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Linear Speed Sensor |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Angular Speed Sensor |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Impact Sensor |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Contact Sensor |",
+    "plain_text": "Sensors\n\nResearch Points\n\n1\n\nResearch Time\n\n0h 50m\n\nResearch Path\n\nUnlocked by\n\nInitially Available\n\nMakes available\n\nAdvanced Sensors\n\nMakes available\n\nWeather Sensors\n\nSensors is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nSensors\n\nTilt Sensor\n\nSensors\n\nDistance Sensor\n\nSensors\n\nLinear Speed Sensor\n\nSensors\n\nAngular Speed Sensor\n\nSensors\n\nImpact Sensor\n\nSensors\n\nContact Sensor",
+    "char_count": 1360,
+    "word_count": 54,
+    "sha256": "8098b4676e073cb89b1b53f548f72a75a1c8b6f7dfc2ddaf6e69bff7493d7d4f"
+  },
+  "wikitext": "{{Research\n  | name=Sensors\n  | image=[File:Sensorsresearch.png]\n  | points=1\n  | time= 0h 50m\n  | unlock= Initially Available\n  | a1=[[Advanced Sensors Research|Advanced Sensors]]\n  | a2=[[Weather Sensors Research|Weather Sensors]]\n  | a3=\n  | a4=\n  | a5=\n}}Sensors is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Tilt Sensor\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Distance Sensor\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Linear Speed Sensor\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Angular Speed Sensor\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Impact Sensor\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Contact Sensor\n|}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Sensors_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1480,
+    "revision_id": 3748,
+    "revision_timestamp": "2024-04-21T18:22:06Z",
+    "retrieved_at": "2026-08-31T10:04:55+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "tool_version": "2.0.0",
+  "pages": {
+    "1102": {
+      "title": "Gameplay/Mechanics/Lua",
+      "revision_id": 4245,
+      "revision_timestamp": "2025-05-14T06:15:44Z",
+      "status": "ok",
+      "record_type": "article",
+      "record": "records/1102.json",
+      "markdown": "markdown/1102_Gameplay_Mechanics_Lua.md",
+      "chunks": "page_chunks/1102.jsonl",
+      "content_sha256": "0bf20e69282c1eea1a2131ddcdbf8cc5bcf3193ebfceb22e1c46491728e05886",
+      "updated_at": "2026-08-30T17:09:57+00:00"
+    },
+    "995": {
+      "title": "Gameplay/Workbench/Lua Programming",
+      "revision_id": 4201,
+      "revision_timestamp": "2025-05-14T02:40:56Z",
+      "status": "ok",
+      "record_type": "article",
+      "record": "records/995.json",
+      "markdown": "markdown/995_Gameplay_Workbench_Lua_Programming.md",
+      "chunks": "page_chunks/995.jsonl",
+      "content_sha256": "aae5a4032b8ff45d7d74ec69115748806c8c171d5a67ab4355c6bc2bc1638036",
+      "updated_at": "2026-08-30T17:09:58+00:00"
+    },
+    "1409": {
+      "title": "Lua Scripting",
+      "revision_id": 3319,
+      "revision_timestamp": "2023-03-25T18:07:02Z",
+      "status": "ok",
+      "record_type": "article",
+      "record": "records/1409.json",
+      "markdown": "markdown/1409_Lua_Scripting.md",
+      "chunks": "page_chunks/1409.jsonl",
+      "content_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "updated_at": "2026-08-30T17:09:59+00:00"
+    },
+    "1179": {
+      "title": "Wiki/Guides/Lua",
+      "revision_id": 3293,
+      "revision_timestamp": "2022-12-18T03:35:12Z",
+      "status": "ok",
+      "record_type": "article",
+      "record": "records/1179.json",
+      "markdown": "markdown/1179_Wiki_Guides_Lua.md",
+      "chunks": "page_chunks/1179.jsonl",
+      "content_sha256": "076f3ef49195068aa20992f0d8a18e10fc30aa7e422ca07e60fca7191ebfc72a",
+      "updated_at": "2026-08-30T17:10:00+00:00"
+    },
+    "1185": {
+      "title": "Wiki/Guides/Lua/Exploring the Stormworks Lua API",
+      "revision_id": 3254,
+      "revision_timestamp": "2022-12-09T22:04:55Z",
+      "status": "ok",
+      "record_type": "article",
+      "record": "records/1185.json",
+      "markdown": "markdown/1185_Wiki_Guides_Lua_Exploring_the_Stormworks_Lua_API.md",
+      "chunks": "page_chunks/1185.jsonl",
+      "content_sha256": "f98663e7a0ce366a2db31fe029edea4d6dd70294b3b46f909cadde428e1c7349",
+      "updated_at": "2026-08-30T17:10:01+00:00"
+    },
+    "1180": {
+      "title": "Wiki/Guides/Lua/Learning Lua as a beginner",
+      "revision_id": 3290,
+      "revision_timestamp": "2022-12-18T03:20:33Z",
+      "status": "ok",
+      "record_type": "article",
+      "record": "records/1180.json",
+      "markdown": "markdown/1180_Wiki_Guides_Lua_Learning_Lua_as_a_beginner.md",
+      "chunks": "page_chunks/1180.jsonl",
+      "content_sha256": "74fa86bb1653d736511ad2c3f3c19ca0aa459bb14bb7e47f5ecae57c3e9c401f",
+      "updated_at": "2026-08-30T17:10:02+00:00"
+    },
+    "1183": {
+      "title": "Wiki/Guides/Lua/Learning Lua as a programer",
+      "revision_id": 2497,
+      "revision_timestamp": "2020-02-02T20:53:16Z",
+      "status": "ok",
+      "record_type": "article",
+      "record": "records/1183.json",
+      "markdown": "markdown/1183_Wiki_Guides_Lua_Learning_Lua_as_a_programer.md",
+      "chunks": "page_chunks/1183.jsonl",
+      "content_sha256": "ad2b78ea2348006cec48941d674fd627d47d7dd247027d8ffac594c165d68af9",
+      "updated_at": "2026-08-30T17:10:03+00:00"
+    },
+    "1184": {
+      "title": "Wiki/Guides/Lua/Special Advice for Lua",
+      "revision_id": 3291,
+      "revision_timestamp": "2022-12-18T03:32:16Z",
+      "status": "ok",
+      "record_type": "article",
+      "record": "records/1184.json",
+      "markdown": "markdown/1184_Wiki_Guides_Lua_Special_Advice_for_Lua.md",
+      "chunks": "page_chunks/1184.jsonl",
+      "content_sha256": "901038b5e7b945b371d6cb6e0301c2f61b9b0423b99698e5fffbf3213c84e4a6",
+      "updated_at": "2026-08-30T17:10:04+00:00"
+    },
+    "1250": {
+      "title": "Wiki/Guides/Lua/Stormworks API",
+      "revision_id": 2748,
+      "revision_timestamp": "2021-03-17T03:23:42Z",
+      "status": "ok",
+      "record_type": "article",
+      "record": "records/1250.json",
+      "markdown": "markdown/1250_Wiki_Guides_Lua_Stormworks_API.md",
+      "chunks": "page_chunks/1250.jsonl",
+      "content_sha256": "9af7e5b6009445414f08b35a00cedf379b8e88fbfa292089bed37d853c829e4b",
+      "updated_at": "2026-08-30T17:10:05+00:00"
+    }
+  }
+}

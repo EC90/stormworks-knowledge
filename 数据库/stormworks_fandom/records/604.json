@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Gamemodes/Custom",
+  "display_title": "Gameplay/Gamemodes/Custom",
+  "summary": "Custom mode allows you to change world settings in-game, allowing you to adjust the weather, the time, teleport, use infinite electricity (or not) and so on. Unlike\nCareer\n mode, players will respawn after dying by default. It is analogous to Creative mode which preceded it. Under default settings, this mode does not have money, vehicles are free to spawn, all purchasable islands can be acquired for free (and even all acquired simultaneously through the menu). Players can also spawn or delete missions.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Gamemodes/Career"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Custom?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Custom?action=edit). |\n| --- | --- |\n\nCustom mode allows you to change world settings in-game, allowing you to adjust the weather, the time, teleport, use infinite electricity (or not) and so on. Unlike [Career](https://stormworks.fandom.com/wiki/Wiki/Gamemodes/Career) mode, players will respawn after dying by default. It is analogous to Creative mode which preceded it. Under default settings, this mode does not have money, vehicles are free to spawn, all purchasable islands can be acquired for free (and even all acquired simultaneously through the menu). Players can also spawn or delete missions.",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nCustom mode allows you to change world settings in-game, allowing you to adjust the weather, the time, teleport, use infinite electricity (or not) and so on. Unlike\nCareer\n mode, players will respawn after dying by default. It is analogous to Creative mode which preceded it. Under default settings, this mode does not have money, vehicles are free to spawn, all purchasable islands can be acquired for free (and even all acquired simultaneously through the menu). Players can also spawn or delete missions.",
+    "char_count": 1042,
+    "word_count": 95,
+    "sha256": "c8229c15c72f819fe7256477db2eaad20eb760aa57900f383d91ff181ced6482"
+  },
+  "wikitext": "{{stub}}\n\nCustom mode allows you to change world settings in-game, allowing you to adjust the weather, the time, teleport, use infinite electricity (or not) and so on. Unlike [[Wiki/Gamemodes/Career |Career]] mode, players will respawn after dying by default. It is analogous to Creative mode which preceded it. Under default settings, this mode does not have money, vehicles are free to spawn, all purchasable islands can be acquired for free (and even all acquired simultaneously through the menu). Players can also spawn or delete missions.",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Custom",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 604,
+    "revision_id": 4119,
+    "revision_timestamp": "2025-05-14T01:40:02Z",
+    "retrieved_at": "2026-08-31T10:02:12+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

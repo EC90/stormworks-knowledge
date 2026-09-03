@@ -1,0 +1,845 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Patch notes",
+  "display_title": "Patch notes",
+  "summary": "These are the update and patch notes for\nStormworks: Build and Rescue\n.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Patch_notes"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "2025",
+      "anchor": "2025"
+    },
+    {
+      "level": 3,
+      "title": "December",
+      "anchor": "December"
+    },
+    {
+      "level": 3,
+      "title": "November",
+      "anchor": "November"
+    },
+    {
+      "level": 3,
+      "title": "October",
+      "anchor": "October"
+    },
+    {
+      "level": 3,
+      "title": "September",
+      "anchor": "September"
+    },
+    {
+      "level": 3,
+      "title": "August",
+      "anchor": "August"
+    },
+    {
+      "level": 3,
+      "title": "July",
+      "anchor": "July"
+    },
+    {
+      "level": 3,
+      "title": "June",
+      "anchor": "June"
+    },
+    {
+      "level": 3,
+      "title": "May",
+      "anchor": "May"
+    },
+    {
+      "level": 3,
+      "title": "April",
+      "anchor": "April"
+    },
+    {
+      "level": 3,
+      "title": "March",
+      "anchor": "March"
+    },
+    {
+      "level": 3,
+      "title": "February",
+      "anchor": "February"
+    },
+    {
+      "level": 3,
+      "title": "January",
+      "anchor": "January"
+    },
+    {
+      "level": 2,
+      "title": "2024",
+      "anchor": "2024"
+    },
+    {
+      "level": 3,
+      "title": "December",
+      "anchor": "December_2"
+    },
+    {
+      "level": 3,
+      "title": "November",
+      "anchor": "November_2"
+    },
+    {
+      "level": 3,
+      "title": "October",
+      "anchor": "October_2"
+    },
+    {
+      "level": 3,
+      "title": "September",
+      "anchor": "September_2"
+    },
+    {
+      "level": 3,
+      "title": "August",
+      "anchor": "August_2"
+    },
+    {
+      "level": 3,
+      "title": "July",
+      "anchor": "July_2"
+    },
+    {
+      "level": 3,
+      "title": "June",
+      "anchor": "June_2"
+    },
+    {
+      "level": 3,
+      "title": "May",
+      "anchor": "May_2"
+    },
+    {
+      "level": 3,
+      "title": "April",
+      "anchor": "April_2"
+    },
+    {
+      "level": 3,
+      "title": "March",
+      "anchor": "March_2"
+    },
+    {
+      "level": 3,
+      "title": "February",
+      "anchor": "February_2"
+    },
+    {
+      "level": 3,
+      "title": "January",
+      "anchor": "January_2"
+    },
+    {
+      "level": 2,
+      "title": "2023",
+      "anchor": "2023"
+    },
+    {
+      "level": 3,
+      "title": "December",
+      "anchor": "December_3"
+    },
+    {
+      "level": 3,
+      "title": "November",
+      "anchor": "November_3"
+    },
+    {
+      "level": 3,
+      "title": "October",
+      "anchor": "October_3"
+    },
+    {
+      "level": 3,
+      "title": "September",
+      "anchor": "September_3"
+    },
+    {
+      "level": 3,
+      "title": "August",
+      "anchor": "August_3"
+    },
+    {
+      "level": 3,
+      "title": "July",
+      "anchor": "July_3"
+    },
+    {
+      "level": 3,
+      "title": "June",
+      "anchor": "June_3"
+    },
+    {
+      "level": 3,
+      "title": "May",
+      "anchor": "May_3"
+    },
+    {
+      "level": 3,
+      "title": "April",
+      "anchor": "April_3"
+    },
+    {
+      "level": 3,
+      "title": "March",
+      "anchor": "March_3"
+    },
+    {
+      "level": 3,
+      "title": "February",
+      "anchor": "February_3"
+    },
+    {
+      "level": 3,
+      "title": "January",
+      "anchor": "January_3"
+    },
+    {
+      "level": 2,
+      "title": "2022",
+      "anchor": "2022"
+    },
+    {
+      "level": 3,
+      "title": "December",
+      "anchor": "December_4"
+    },
+    {
+      "level": 3,
+      "title": "November",
+      "anchor": "November_4"
+    },
+    {
+      "level": 3,
+      "title": "October",
+      "anchor": "October_4"
+    },
+    {
+      "level": 3,
+      "title": "September",
+      "anchor": "September_4"
+    },
+    {
+      "level": 3,
+      "title": "August",
+      "anchor": "August_4"
+    },
+    {
+      "level": 3,
+      "title": "July",
+      "anchor": "July_4"
+    },
+    {
+      "level": 3,
+      "title": "June",
+      "anchor": "June_4"
+    },
+    {
+      "level": 3,
+      "title": "May",
+      "anchor": "May_4"
+    },
+    {
+      "level": 3,
+      "title": "April",
+      "anchor": "April_4"
+    },
+    {
+      "level": 3,
+      "title": "March",
+      "anchor": "March_4"
+    },
+    {
+      "level": 3,
+      "title": "February",
+      "anchor": "February_4"
+    },
+    {
+      "level": 3,
+      "title": "January",
+      "anchor": "January_4"
+    },
+    {
+      "level": 2,
+      "title": "2021",
+      "anchor": "2021"
+    },
+    {
+      "level": 3,
+      "title": "December",
+      "anchor": "December_5"
+    },
+    {
+      "level": 3,
+      "title": "November",
+      "anchor": "November_5"
+    },
+    {
+      "level": 3,
+      "title": "October",
+      "anchor": "October_5"
+    },
+    {
+      "level": 3,
+      "title": "September",
+      "anchor": "September_5"
+    },
+    {
+      "level": 3,
+      "title": "August",
+      "anchor": "August_5"
+    },
+    {
+      "level": 3,
+      "title": "July",
+      "anchor": "July_5"
+    },
+    {
+      "level": 3,
+      "title": "June",
+      "anchor": "June_5"
+    },
+    {
+      "level": 3,
+      "title": "May",
+      "anchor": "May_5"
+    },
+    {
+      "level": 3,
+      "title": "April",
+      "anchor": "April_5"
+    },
+    {
+      "level": 3,
+      "title": "March",
+      "anchor": "March_5"
+    },
+    {
+      "level": 3,
+      "title": "February",
+      "anchor": "February_5"
+    },
+    {
+      "level": 3,
+      "title": "January",
+      "anchor": "January_5"
+    },
+    {
+      "level": 2,
+      "title": "2020",
+      "anchor": "2020"
+    },
+    {
+      "level": 3,
+      "title": "December",
+      "anchor": "December_6"
+    },
+    {
+      "level": 3,
+      "title": "November",
+      "anchor": "November_6"
+    },
+    {
+      "level": 3,
+      "title": "October",
+      "anchor": "October_6"
+    },
+    {
+      "level": 3,
+      "title": "September",
+      "anchor": "September_6"
+    },
+    {
+      "level": 3,
+      "title": "August",
+      "anchor": "August_6"
+    },
+    {
+      "level": 3,
+      "title": "July",
+      "anchor": "July_6"
+    },
+    {
+      "level": 3,
+      "title": "June",
+      "anchor": "June_6"
+    },
+    {
+      "level": 3,
+      "title": "May",
+      "anchor": "May_6"
+    },
+    {
+      "level": 3,
+      "title": "April",
+      "anchor": "April_6"
+    },
+    {
+      "level": 3,
+      "title": "March",
+      "anchor": "March_6"
+    },
+    {
+      "level": 3,
+      "title": "February",
+      "anchor": "February_6"
+    },
+    {
+      "level": 3,
+      "title": "January",
+      "anchor": "January_6"
+    },
+    {
+      "level": 2,
+      "title": "2019",
+      "anchor": "2019"
+    },
+    {
+      "level": 3,
+      "title": "December",
+      "anchor": "December_7"
+    },
+    {
+      "level": 3,
+      "title": "November",
+      "anchor": "November_7"
+    },
+    {
+      "level": 3,
+      "title": "October",
+      "anchor": "October_7"
+    },
+    {
+      "level": 3,
+      "title": "September",
+      "anchor": "September_7"
+    },
+    {
+      "level": 3,
+      "title": "August",
+      "anchor": "August_7"
+    },
+    {
+      "level": 3,
+      "title": "July",
+      "anchor": "July_7"
+    },
+    {
+      "level": 3,
+      "title": "June",
+      "anchor": "June_7"
+    },
+    {
+      "level": 3,
+      "title": "May",
+      "anchor": "May_7"
+    },
+    {
+      "level": 3,
+      "title": "April",
+      "anchor": "April_7"
+    },
+    {
+      "level": 3,
+      "title": "March",
+      "anchor": "March_7"
+    },
+    {
+      "level": 3,
+      "title": "February",
+      "anchor": "February_7"
+    },
+    {
+      "level": 3,
+      "title": "January",
+      "anchor": "January_7"
+    },
+    {
+      "level": 2,
+      "title": "2018",
+      "anchor": "2018"
+    },
+    {
+      "level": 3,
+      "title": "December",
+      "anchor": "December_8"
+    },
+    {
+      "level": 3,
+      "title": "November",
+      "anchor": "November_8"
+    },
+    {
+      "level": 3,
+      "title": "October",
+      "anchor": "October_8"
+    },
+    {
+      "level": 3,
+      "title": "September",
+      "anchor": "September_8"
+    },
+    {
+      "level": 3,
+      "title": "August",
+      "anchor": "August_8"
+    },
+    {
+      "level": 3,
+      "title": "July",
+      "anchor": "July_8"
+    },
+    {
+      "level": 3,
+      "title": "June",
+      "anchor": "June_8"
+    },
+    {
+      "level": 3,
+      "title": "May",
+      "anchor": "May_8"
+    },
+    {
+      "level": 3,
+      "title": "April",
+      "anchor": "April_8"
+    },
+    {
+      "level": 3,
+      "title": "March",
+      "anchor": "March_8"
+    },
+    {
+      "level": 2,
+      "title": "External links",
+      "anchor": "External_links"
+    }
+  ],
+  "internal_links": [
+    "1.11.7",
+    "1.11.8",
+    "Stormworks: Build and Rescue",
+    "V0.1.10-11",
+    "V0.1.12-13",
+    "V0.1.14-15",
+    "V0.1.16",
+    "V0.1.17-18",
+    "V0.1.19",
+    "V0.1.20",
+    "V0.1.21-22",
+    "V0.1.23-25",
+    "V0.1.26-27",
+    "V0.1.28",
+    "V0.1.29",
+    "V0.1.30-35",
+    "V0.1.4",
+    "V0.1.5",
+    "V0.1.6",
+    "V0.1.7-9",
+    "V0.10.10-11",
+    "V0.10.12",
+    "V0.10.13",
+    "V0.10.14-15",
+    "V0.10.16",
+    "V0.10.18",
+    "V0.10.19-22",
+    "V0.10.2",
+    "V0.10.23-25",
+    "V0.10.27-28",
+    "V0.10.29-30",
+    "V0.10.3-9",
+    "V0.10.32-33",
+    "V0.10.34-35",
+    "V0.10.36",
+    "V0.2.1",
+    "V0.2.10",
+    "V0.2.11-12",
+    "V0.2.13-21",
+    "V0.2.2-5",
+    "V0.2.22-26",
+    "V0.2.27-28",
+    "V0.2.29-31",
+    "V0.2.32-35",
+    "V0.2.36-38",
+    "V0.2.39-40",
+    "V0.2.41",
+    "V0.2.42",
+    "V0.2.6-7",
+    "V0.2.8-9",
+    "V0.3.1-2",
+    "V0.3.13",
+    "V0.3.3",
+    "V0.3.4",
+    "V0.3.5",
+    "V0.3.6",
+    "V0.3.7",
+    "V0.3.8",
+    "V0.3.9-12",
+    "V0.4.1",
+    "V0.4.14-20",
+    "V0.4.2-13",
+    "V0.4.21-22",
+    "V0.4.23-26",
+    "V0.4.27",
+    "V0.4.34-36",
+    "V0.4.37-39",
+    "V0.4.40-41",
+    "V0.4.42",
+    "V0.4.43-51",
+    "V0.5.1-2",
+    "V0.5.12-14",
+    "V0.5.15",
+    "V0.5.16",
+    "V0.5.17-19",
+    "V0.5.2-4",
+    "V0.5.20",
+    "V0.5.21",
+    "V0.5.22-23",
+    "V0.5.5",
+    "V0.5.6",
+    "V0.5.7",
+    "V0.5.8",
+    "V0.5.9-11",
+    "V0.6.1",
+    "V0.6.14",
+    "V0.6.15",
+    "V0.6.16-17",
+    "V0.6.18",
+    "V0.6.19-20",
+    "V0.6.2",
+    "V0.6.21",
+    "V0.6.3-7",
+    "V0.6.8",
+    "V0.6.9-13",
+    "V0.7.1",
+    "V0.7.10",
+    "V0.7.11-12",
+    "V0.7.13",
+    "V0.7.14-17",
+    "V0.7.18",
+    "V0.7.19",
+    "V0.7.2-3",
+    "V0.7.20",
+    "V0.7.4-5",
+    "V0.7.6-7",
+    "V0.7.8-9",
+    "V0.8.1",
+    "V0.8.11-14",
+    "V0.8.15",
+    "V0.8.16-18",
+    "V0.8.19",
+    "V0.8.2-6",
+    "V0.8.20-21",
+    "V0.8.22-23",
+    "V0.8.24-28",
+    "V0.8.29-31",
+    "V0.8.32-33",
+    "V0.8.7-10",
+    "V0.9.1-2",
+    "V0.9.11",
+    "V0.9.12-13",
+    "V0.9.14-15",
+    "V0.9.16-17",
+    "V0.9.18-19",
+    "V0.9.20",
+    "V0.9.21-24",
+    "V0.9.25-27",
+    "V0.9.28-32",
+    "V0.9.3-5",
+    "V0.9.6",
+    "V0.9.7-8",
+    "V0.9.9-10",
+    "V1.0.0",
+    "V1.0.1-14",
+    "V1.0.15",
+    "V1.0.18-19",
+    "V1.0.20",
+    "V1.0.21",
+    "V1.0.22",
+    "V1.0.25",
+    "V1.0.26-27",
+    "V1.0.29",
+    "V1.0.33",
+    "V1.0.34",
+    "V1.1.13",
+    "V1.1.14-17",
+    "V1.1.18",
+    "V1.1.19",
+    "V1.1.2",
+    "V1.1.20-22",
+    "V1.1.23-24",
+    "V1.1.25-26",
+    "V1.1.4",
+    "V1.1.4-6",
+    "V1.1.7-12",
+    "V1.10.0",
+    "V1.10.10",
+    "V1.10.2",
+    "V1.10.3",
+    "V1.10.4",
+    "V1.10.5",
+    "V1.10.6",
+    "V1.10.7",
+    "V1.10.8",
+    "V1.10.9",
+    "V1.11.0",
+    "V1.11.1",
+    "V1.11.2",
+    "V1.11.3",
+    "V1.11.4",
+    "V1.11.5",
+    "V1.11.6",
+    "V1.12.0",
+    "V1.12.1",
+    "V1.12.2",
+    "V1.12.3",
+    "V1.12.4",
+    "V1.12.5",
+    "V1.12.6",
+    "V1.12.8",
+    "V1.12.9",
+    "V1.13.0",
+    "V1.13.1",
+    "V1.13.2",
+    "V1.13.3",
+    "V1.13.4",
+    "V1.13.5",
+    "V1.13.6",
+    "V1.14.0",
+    "V1.14.1",
+    "V1.14.2",
+    "V1.14.3",
+    "V1.14.4",
+    "V1.15.0",
+    "V1.15.1",
+    "V1.2.1",
+    "V1.2.12",
+    "V1.2.14",
+    "V1.2.15-17",
+    "V1.2.18-19",
+    "V1.2.21",
+    "V1.2.25-26",
+    "V1.2.27-28",
+    "V1.2.29",
+    "V1.2.3",
+    "V1.2.3-4",
+    "V1.2.5-6",
+    "V1.3.0",
+    "V1.3.1-4",
+    "V1.3.12",
+    "V1.3.13",
+    "V1.3.14",
+    "V1.3.16",
+    "V1.3.18",
+    "V1.3.19",
+    "V1.3.21",
+    "V1.3.6",
+    "V1.3.7",
+    "V1.3.9-10",
+    "V1.4.11",
+    "V1.4.14",
+    "V1.4.15",
+    "V1.4.16",
+    "V1.4.17",
+    "V1.4.18",
+    "V1.4.19",
+    "V1.4.4",
+    "V1.4.7",
+    "V1.4.9",
+    "V1.5.1",
+    "V1.5.14",
+    "V1.5.15-16",
+    "V1.5.17",
+    "V1.5.2",
+    "V1.5.3",
+    "V1.5.5",
+    "V1.5.6",
+    "V1.5.7",
+    "V1.5.9",
+    "V1.6.10",
+    "V1.6.11",
+    "V1.6.12",
+    "V1.6.13",
+    "V1.6.14",
+    "V1.6.15",
+    "V1.6.2",
+    "V1.6.3-5",
+    "V1.6.6-7",
+    "V1.6.8",
+    "V1.6.9",
+    "V1.7 .0",
+    "V1.7.1",
+    "V1.7.10-11",
+    "V1.7.2",
+    "V1.7.3",
+    "V1.7.4",
+    "V1.7.5",
+    "V1.7.6",
+    "V1.7.7",
+    "V1.7.8",
+    "V1.7.9",
+    "V1.8.0",
+    "V1.8.1",
+    "V1.8.10",
+    "V1.8.3",
+    "V1.8.4-5",
+    "V1.8.6",
+    "V1.8.7",
+    "V1.8.8",
+    "V1.8.9",
+    "V1.9.0",
+    "V1.9.1-2",
+    "V1.9.10",
+    "V1.9.12",
+    "V1.9.17",
+    "V1.9.18",
+    "V1.9.19",
+    "V1.9.20",
+    "V1.9.21",
+    "V1.9.23",
+    "V1.9.25",
+    "V1.9.3",
+    "V1.9.4",
+    "V1.9.5",
+    "V1.9.6",
+    "V1.9.8",
+    "V1.9.9"
+  ],
+  "external_links": [
+    "https://steamcommunity.com/games/573090/announcements?p=1"
+  ],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "These are the update and patch notes for *[Stormworks: Build and Rescue](https://stormworks.fandom.com/wiki/Stormworks:_Build_and_Rescue)*.\n\n## 2025\n\n### December\n\n### November\n\n### October\n\n### September\n\n### August\n\n### July\n\n- July 8th: [V1.15.1](https://stormworks.fandom.com/wiki/V1.15.1)\n- July 7th: [V1.15.0](https://stormworks.fandom.com/wiki/V1.15.0)\n\n### June\n\n### May\n\n- May 26th: [V1.14.4](https://stormworks.fandom.com/wiki/V1.14.4)\n- May 7th: [V1.14.3](https://stormworks.fandom.com/wiki/V1.14.3)\n\n### April\n\n- April 9th: [V1.14.2](https://stormworks.fandom.com/wiki/V1.14.2)\n\n### March\n\n- March 13th: [V1.14.1](https://stormworks.fandom.com/wiki/V1.14.1)\n- March 12th: [V1.14.0](https://stormworks.fandom.com/wiki/V1.14.0)\n\n### February\n\n- February 14th: [V1.13.6](https://stormworks.fandom.com/wiki/V1.13.6)\n- February 12th: [V1.13.5](https://stormworks.fandom.com/wiki/V1.13.5)\n\n### January\n\n- January 15th: [V1.13.4](https://stormworks.fandom.com/wiki/V1.13.4)\n- January 3rd: [V1.13.3](https://stormworks.fandom.com/wiki/V1.13.3)\n\n## 2024\n\n### December\n\n- December 18th: [V1.13.2](https://stormworks.fandom.com/wiki/V1.13.2)\n- December 4th: [V1.13.1](https://stormworks.fandom.com/wiki/V1.13.1)\n\n### November\n\n- November 20th: [V1.13.0](https://stormworks.fandom.com/wiki/V1.13.0)\n- November 11th: [v1.12.9](https://stormworks.fandom.com/wiki/V1.12.9)\n- November 6th: [V1.12.8](https://stormworks.fandom.com/wiki/V1.12.8)\n\n### October\n\n- October 23rd: [V1.12.6](https://stormworks.fandom.com/wiki/V1.12.6)\n- October 10th: [V1.12.5](https://stormworks.fandom.com/wiki/V1.12.5)\n- October 9th: [v1.12.4](https://stormworks.fandom.com/wiki/V1.12.4)\n\n### September\n\n- September 25th: [v1.12.3](https://stormworks.fandom.com/wiki/V1.12.3)\n- September 11th: [v1.12.2](https://stormworks.fandom.com/wiki/V1.12.2)\n\n### August\n\n- August 28th: [v1.12.1](https://stormworks.fandom.com/wiki/V1.12.1)\n- August 14th: [v1.12.0](https://stormworks.fandom.com/wiki/V1.12.0) - The Lobster Pot Major Update\n\n### July\n\n- July 31th: [1.11.8](https://stormworks.fandom.com/wiki/1.11.8)\n- July 17th: [1.11.7](https://stormworks.fandom.com/wiki/1.11.7)\n- July 3th: [v1.11.6](https://stormworks.fandom.com/wiki/V1.11.6)\n\n### June\n\n- June 21th: [v1.11.5](https://stormworks.fandom.com/wiki/V1.11.5)\n- June 19th: [v1.11.4](https://stormworks.fandom.com/wiki/V1.11.4)\n- June 7th: [v1.11.3](https://stormworks.fandom.com/wiki/V1.11.3)\n- June 5th: [v1.11.2](https://stormworks.fandom.com/wiki/V1.11.2)\n\n### May\n\n- May 22th: [v1.11.1](https://stormworks.fandom.com/wiki/V1.11.1)\n- May 8th: [v1.11.0](https://stormworks.fandom.com/wiki/V1.11.0) - The Commercial Fishing Major Update\n\n### April\n\n- April 24th: [v1.10.10](https://stormworks.fandom.com/wiki/V1.10.10)\n- April 10th: [v1.10.9](https://stormworks.fandom.com/wiki/V1.10.9)\n\n### March\n\n- March 28th: [v1.10.8](https://stormworks.fandom.com/wiki/V1.10.8)\n- March 17th: [v1.10.7](https://stormworks.fandom.com/wiki/V1.10.7)\n- March 14th: [v1.10.6](https://stormworks.fandom.com/wiki/V1.10.6)\n- March 13th: [v1.10.5](https://stormworks.fandom.com/wiki/V1.10.5)\n\n### February\n\n- February 28th: [v1.10.4](https://stormworks.fandom.com/wiki/V1.10.4)\n- February 14th: [v1.10.3](https://stormworks.fandom.com/wiki/V1.10.3)\n- February 6th: [v1.10.2](https://stormworks.fandom.com/wiki/V1.10.2)\n\n### January\n\n- January 31th: [v1.10.0](https://stormworks.fandom.com/wiki/V1.10.0) - The Rod Fishing Major Update\n- January 19th: [v1.9.25](https://stormworks.fandom.com/wiki/V1.9.25)\n- January 5th: [v1.9.23](https://stormworks.fandom.com/wiki/V1.9.23)\n\n## 2023\n\n### December\n\n- December 22th: [v1.9.21](https://stormworks.fandom.com/wiki/V1.9.21)\n- December 11th: [v1.9.20](https://stormworks.fandom.com/wiki/V1.9.20)\n- December 8th: [v1.9.19](https://stormworks.fandom.com/wiki/V1.9.19)\n\n### November\n\n- November 24th: [v1.9.18](https://stormworks.fandom.com/wiki/V1.9.18)\n- November 10th: [v1.9.17](https://stormworks.fandom.com/wiki/V1.9.17)\n- November 1st: [v1.9.12](https://stormworks.fandom.com/wiki/V1.9.12)\n\n### October\n\n- October 31th: [v1.9.10](https://stormworks.fandom.com/wiki/V1.9.10)\n- October 30th: [v1.9.9](https://stormworks.fandom.com/wiki/V1.9.9)\n- October 29th: [v1.9.8](https://stormworks.fandom.com/wiki/V1.9.8)\n- October 27th: [v1.9.6](https://stormworks.fandom.com/wiki/V1.9.6)\n- October 20th: [v1.9.5](https://stormworks.fandom.com/wiki/V1.9.5)\n- October 15th: [v1.9.4](https://stormworks.fandom.com/wiki/V1.9.4)\n- October 14th: [v1.9.3](https://stormworks.fandom.com/wiki/V1.9.3)\n- October 13th: [v1.9.1-2](https://stormworks.fandom.com/wiki/V1.9.1-2)\n- October 12th: [v1.9.0](https://stormworks.fandom.com/wiki/V1.9.0) - Stormworks: INDUSTRY SPACE - NEW DLC OUT NOW!\n\n### September\n\n- September 29th: [v1.8.10](https://stormworks.fandom.com/wiki/V1.8.10)\n- September 15th: [v1.8.9](https://stormworks.fandom.com/wiki/V1.8.9)\n- September 1th: [v1.8.8](https://stormworks.fandom.com/wiki/V1.8.8)\n\n### August\n\n- August 4th: [v1.8.7](https://stormworks.fandom.com/wiki/V1.8.7)\n- August 4th: [v1.8.6](https://stormworks.fandom.com/wiki/V1.8.6)\n\n### July\n\n- July 21th: [v1.8.4-5](https://stormworks.fandom.com/wiki/V1.8.4-5)\n- July 7th: [v1.8.3](https://stormworks.fandom.com/wiki/V1.8.3)\n\n### June\n\n- June 24th: [v1.8.1](https://stormworks.fandom.com/wiki/V1.8.1)\n- June 23th: [v1.8.0](https://stormworks.fandom.com/wiki/V1.8.0) - Oil Disaster Major Update\n- June 13th: [v1.7.10-11](https://stormworks.fandom.com/wiki/V1.7.10-11)\n- June 9th: [v1.7.9](https://stormworks.fandom.com/wiki/V1.7.9)\n- June 2th: [v1.7.8](https://stormworks.fandom.com/wiki/V1.7.8)\n\n### May\n\n- May 26th: [v1.7.7](https://stormworks.fandom.com/wiki/V1.7.7)\n- May 16th: [v1.7.6](https://stormworks.fandom.com/wiki/V1.7.6)\n- May 12th: [v1.7.5](https://stormworks.fandom.com/wiki/V1.7.5)\n\n### April\n\n- April 28th: [v1.7.4](https://stormworks.fandom.com/wiki/V1.7.4)\n- April 14th: [v1.7.3](https://stormworks.fandom.com/wiki/V1.7.3)\n\n### March\n\n- March 31th: [v1.7.2](https://stormworks.fandom.com/wiki/V1.7.2)\n- March 17th: [v1.7.1](https://stormworks.fandom.com/wiki/V1.7.1)\n- March 16th: [v1.7 .0](https://stormworks.fandom.com/wiki/V1.7_.0) - Oil Drilling Major Update\n- March 3th: [v1.6.15](https://stormworks.fandom.com/wiki/V1.6.15)\n\n### February\n\n- February 17th: [v1.6.14](https://stormworks.fandom.com/wiki/V1.6.14)\n- February 3th: [v1.6.13](https://stormworks.fandom.com/wiki/V1.6.13)\n\n### January\n\n- January 20th: [v1.6.12](https://stormworks.fandom.com/wiki/V1.6.12)\n- January 6th: [v1.6.11](https://stormworks.fandom.com/wiki/V1.6.11)\n\n## 2022\n\n### December\n\n- December 23rd: [v1.6.10](https://stormworks.fandom.com/wiki/V1.6.10)\n- December 9th: [v1.6.9](https://stormworks.fandom.com/wiki/V1.6.9)\n\n### November\n\n- November 25th: [v1.6.8](https://stormworks.fandom.com/wiki/V1.6.8)\n- November 11th: [v1.6.6-7](https://stormworks.fandom.com/wiki/V1.6.6-7)\n\n### October\n\n- October 25th: [v1.6.3-5](https://stormworks.fandom.com/wiki/V1.6.3-5)\n- October 13th: [v1.6.2](https://stormworks.fandom.com/wiki/V1.6.2) — Stormworks: Industrial Frontier — NEW DLC OUT NOW!\n- October 7th: [V1.5.17](https://stormworks.fandom.com/wiki/V1.5.17)\n\n### September\n\n- September 23rd: [V1.5.15-16](https://stormworks.fandom.com/wiki/V1.5.15-16)\n- September 9th: [V1.5.14](https://stormworks.fandom.com/wiki/V1.5.14)\n\n### August\n\n- August 26th: [V1.5.9](https://stormworks.fandom.com/wiki/V1.5.9)\n- August 12th: [V1.5.7](https://stormworks.fandom.com/wiki/V1.5.7)\n\n### July\n\n- July 29th: [V1.5.6](https://stormworks.fandom.com/wiki/V1.5.6)\n- July 15th: [V1.5.5](https://stormworks.fandom.com/wiki/V1.5.5)\n- July 1st: [V1.5.3](https://stormworks.fandom.com/wiki/V1.5.3)\n\n### June\n\n- June 17th: [V1.5.2](https://stormworks.fandom.com/wiki/V1.5.2)\n- June 2nd: [V1.5.1](https://stormworks.fandom.com/wiki/V1.5.1)\n\n### May\n\n- May 20th: [V1.4.19](https://stormworks.fandom.com/wiki/V1.4.19)\n- May 6th: [V1.4.18](https://stormworks.fandom.com/wiki/V1.4.18)\n\n### April\n\n- April 22nd: [V1.4.17](https://stormworks.fandom.com/wiki/V1.4.17)\n- April 15th: [V1.4.16](https://stormworks.fandom.com/wiki/V1.4.16)\n- April 8th: [V1.4.15](https://stormworks.fandom.com/wiki/V1.4.15)\n\n### March\n\n- March 25: [V1.4.14](https://stormworks.fandom.com/wiki/V1.4.14)\n- March 11: [V1.4.11](https://stormworks.fandom.com/wiki/V1.4.11)\n\n### February\n\n- February 25: [V1.4.9](https://stormworks.fandom.com/wiki/V1.4.9)\n- February 18: [V1.4.7](https://stormworks.fandom.com/wiki/V1.4.7)\n- February 3: [V1.4.4](https://stormworks.fandom.com/wiki/V1.4.4)\n\n### January\n\n- January 21: [V1.3.21](https://stormworks.fandom.com/wiki/V1.3.21)\n- January 7: [V1.3.19](https://stormworks.fandom.com/wiki/V1.3.19)\n\n## 2021\n\n### December\n\n- December 24: [V1.3.18](https://stormworks.fandom.com/wiki/V1.3.18)\n- December 10: [V1.3.16](https://stormworks.fandom.com/wiki/V1.3.16)\n\n### November\n\n- November 26: [V1.3.14](https://stormworks.fandom.com/wiki/V1.3.14)\n- November 12: [V1.3.13](https://stormworks.fandom.com/wiki/V1.3.13)\n- November 5: [V1.3.12](https://stormworks.fandom.com/wiki/V1.3.12)\n\n### October\n\n- October 29: [V1.3.9-10](https://stormworks.fandom.com/wiki/V1.3.9-10)\n- October 22: [V1.3.7](https://stormworks.fandom.com/wiki/V1.3.7)\n- October 15: [V1.3.6](https://stormworks.fandom.com/wiki/V1.3.6)\n- October 8: [V1.3.1-4](https://stormworks.fandom.com/wiki/V1.3.1-4)\n- October 5: [V1.3.0](https://stormworks.fandom.com/wiki/V1.3.0)\n- October 1: [V1.2.29](https://stormworks.fandom.com/wiki/V1.2.29)\n\n### September\n\n- September 17: [V1.2.27-28](https://stormworks.fandom.com/wiki/V1.2.27-28)\n- September 3: [V1.2.25-26](https://stormworks.fandom.com/wiki/V1.2.25-26)\n\n### August\n\n- August 21: [V1.2.21](https://stormworks.fandom.com/wiki/V1.2.21)\n- August 6: [V1.2.18-19](https://stormworks.fandom.com/wiki/V1.2.18-19)\n\n### July\n\n- July 30: [V1.2.15-17](https://stormworks.fandom.com/wiki/V1.2.15-17)\n- July 23: [V1.2.14](https://stormworks.fandom.com/wiki/V1.2.14)\n- July 9: [V1.2.12](https://stormworks.fandom.com/wiki/V1.2.12)\n\n### June\n\n- June 25: [V1.2.5-6](https://stormworks.fandom.com/wiki/V1.2.5-6)\n- June 18: [V1.2.3-4](https://stormworks.fandom.com/wiki/V1.2.3-4)\n- June 11: [V1.2.3](https://stormworks.fandom.com/wiki/V1.2.3)\n\n### May\n\n- May 27: [V1.2.1](https://stormworks.fandom.com/wiki/V1.2.1)\n- May 14: [V1.1.25-26](https://stormworks.fandom.com/wiki/V1.1.25-26)\n\n### April\n\n- April 30: [V1.1.23-24](https://stormworks.fandom.com/wiki/V1.1.23-24)\n- April 16: [V1.1.20-22](https://stormworks.fandom.com/wiki/V1.1.20-22)\n- April 9: [V1.1.19](https://stormworks.fandom.com/wiki/V1.1.19)\n- April 2: [V1.1.18](https://stormworks.fandom.com/wiki/V1.1.18)\n\n### March\n\n- March 26: [V1.1.14-17](https://stormworks.fandom.com/wiki/V1.1.14-17)\n- March 19: [V1.1.13](https://stormworks.fandom.com/wiki/V1.1.13)\n- March 12: [V1.1.7-12](https://stormworks.fandom.com/wiki/V1.1.7-12)\n- March 5: [V1.1.4-6](https://stormworks.fandom.com/wiki/V1.1.4-6)\n\n### February\n\n- February 26: [V1.1.4](https://stormworks.fandom.com/wiki/V1.1.4)\n- February 18: [V1.1.2](https://stormworks.fandom.com/wiki/V1.1.2)\n- February 12: [V1.0.34](https://stormworks.fandom.com/wiki/V1.0.34)\n- February 5: [V1.0.33](https://stormworks.fandom.com/wiki/V1.0.33)\n\n### January\n\n- January 22: [V1.0.29](https://stormworks.fandom.com/wiki/V1.0.29)\n- January 8: [V1.0.26-27](https://stormworks.fandom.com/wiki/V1.0.26-27)\n\n## 2020\n\n### December\n\n- December 11: [V1.0.25](https://stormworks.fandom.com/wiki/V1.0.25)\n\n### November\n\n- November 27: [V1.0.22](https://stormworks.fandom.com/wiki/V1.0.22)\n- November 13: [V1.0.21](https://stormworks.fandom.com/wiki/V1.0.21)\n\n### October\n\n- October 30: [V1.0.20](https://stormworks.fandom.com/wiki/V1.0.20)\n- October 13: [V1.0.18-19](https://stormworks.fandom.com/wiki/V1.0.18-19)\n- October 2: [V1.0.15](https://stormworks.fandom.com/wiki/V1.0.15)\n\n### September\n\n- September 25: [V1.0.1-14](https://stormworks.fandom.com/wiki/V1.0.1-14)\n- September 17: [V1.0.0](https://stormworks.fandom.com/wiki/V1.0.0)\n\n### August\n\n- August 28: [V0.10.36](https://stormworks.fandom.com/wiki/V0.10.36)\n- August 14: [V0.10.34-35](https://stormworks.fandom.com/wiki/V0.10.34-35)\n\n### July\n\n- July 31: [V0.10.32-33](https://stormworks.fandom.com/wiki/V0.10.32-33)\n- July 17: [V0.10.29-30](https://stormworks.fandom.com/wiki/V0.10.29-30)\n- July 3: [V0.10.27-28](https://stormworks.fandom.com/wiki/V0.10.27-28)\n\n### June\n\n- June 19: [V0.10.23-25](https://stormworks.fandom.com/wiki/V0.10.23-25)\n- June 5: [V0.10.19-22](https://stormworks.fandom.com/wiki/V0.10.19-22)\n\n### May\n\n- May 22: [V0.10.18](https://stormworks.fandom.com/wiki/V0.10.18)\n- May 7: [V0.10.16](https://stormworks.fandom.com/wiki/V0.10.16)\n\n### April\n\n- April 24: [V0.10.14-15](https://stormworks.fandom.com/wiki/V0.10.14-15)\n- April 9: [V0.10.13](https://stormworks.fandom.com/wiki/V0.10.13)\n\n### March\n\n- March 27: [V0.10.12](https://stormworks.fandom.com/wiki/V0.10.12)\n- March 13: [V0.10.10-11](https://stormworks.fandom.com/wiki/V0.10.10-11)\n\n### February\n\n- February 28: [V0.10.3-9](https://stormworks.fandom.com/wiki/V0.10.3-9)\n- February 13: [V0.10.2](https://stormworks.fandom.com/wiki/V0.10.2)\n\n### January\n\n- January 31: [V0.9.28-32](https://stormworks.fandom.com/wiki/V0.9.28-32)\n- January 17: [V0.9.25-27](https://stormworks.fandom.com/wiki/V0.9.25-27)\n- January 1: [V0.9.21-24](https://stormworks.fandom.com/wiki/V0.9.21-24)\n\n## 2019\n\n### December\n\n- December 20: [V0.9.20](https://stormworks.fandom.com/wiki/V0.9.20)\n- December 13: [V0.9.18-19](https://stormworks.fandom.com/wiki/V0.9.18-19)\n- December 6: [V0.9.16-17](https://stormworks.fandom.com/wiki/V0.9.16-17)\n\n### November\n\n- November 29: [V0.9.14-15](https://stormworks.fandom.com/wiki/V0.9.14-15)\n- November 22: [V0.9.12-13](https://stormworks.fandom.com/wiki/V0.9.12-13)\n- November 15: [V0.9.11](https://stormworks.fandom.com/wiki/V0.9.11)\n- November 8: [V0.9.9-10](https://stormworks.fandom.com/wiki/V0.9.9-10)\n- November 1: [V0.9.7-8](https://stormworks.fandom.com/wiki/V0.9.7-8)\n\n### October\n\n- October 25: [V0.9.6](https://stormworks.fandom.com/wiki/V0.9.6)\n- October 18: [V0.9.3-5](https://stormworks.fandom.com/wiki/V0.9.3-5)\n- October 16: [V0.9.1-2](https://stormworks.fandom.com/wiki/V0.9.1-2)\n- October 4: [V0.8.32-33](https://stormworks.fandom.com/wiki/V0.8.32-33)\n\n### September\n\n- September 27: [V0.8.29-31](https://stormworks.fandom.com/wiki/V0.8.29-31)\n- September 20: [V0.8.24-28](https://stormworks.fandom.com/wiki/V0.8.24-28)\n- September 13: [V0.8.22-23](https://stormworks.fandom.com/wiki/V0.8.22-23)\n- September 6: [V0.8.20-21](https://stormworks.fandom.com/wiki/V0.8.20-21)\n\n### August\n\n- August 30: [V0.8.19](https://stormworks.fandom.com/wiki/V0.8.19)\n- August 23: [V0.8.16-18](https://stormworks.fandom.com/wiki/V0.8.16-18)\n- August 17: [V0.8.15](https://stormworks.fandom.com/wiki/V0.8.15)\n- August 16: [V0.8.11-14](https://stormworks.fandom.com/wiki/V0.8.11-14)\n- August 9: [V0.8.7-10](https://stormworks.fandom.com/wiki/V0.8.7-10)\n- August 2: [V0.8.2-6](https://stormworks.fandom.com/wiki/V0.8.2-6)\n\n### July\n\n- July 31: [V0.8.1](https://stormworks.fandom.com/wiki/V0.8.1)\n- July 19: [V0.7.20](https://stormworks.fandom.com/wiki/V0.7.20)\n- July 12: [V0.7.19](https://stormworks.fandom.com/wiki/V0.7.19)\n- July 5: [V0.7.18](https://stormworks.fandom.com/wiki/V0.7.18)\n\n### June\n\n- June 28: [V0.7.14-17](https://stormworks.fandom.com/wiki/V0.7.14-17)\n- June 21: [V0.7.13](https://stormworks.fandom.com/wiki/V0.7.13)\n- June 16: [V0.7.11-12](https://stormworks.fandom.com/wiki/V0.7.11-12)\n- June 14: [V0.7.10](https://stormworks.fandom.com/wiki/V0.7.10)\n- June 7: [V0.7.8-9](https://stormworks.fandom.com/wiki/V0.7.8-9)\n\n### May\n\n- May 31: [V0.7.6-7](https://stormworks.fandom.com/wiki/V0.7.6-7)\n- May 24: [V0.7.4-5](https://stormworks.fandom.com/wiki/V0.7.4-5)\n- May 17: [V0.7.2-3](https://stormworks.fandom.com/wiki/V0.7.2-3)\n- May 15: [V0.7.1](https://stormworks.fandom.com/wiki/V0.7.1)\n\n### April\n\n- April 26: [V0.6.21](https://stormworks.fandom.com/wiki/V0.6.21)\n- April 18: [V0.6.19-20](https://stormworks.fandom.com/wiki/V0.6.19-20)\n- April 12: [V0.6.18](https://stormworks.fandom.com/wiki/V0.6.18)\n- April 5: [V0.6.16-17](https://stormworks.fandom.com/wiki/V0.6.16-17)\n\n### March\n\n- March 29: [V0.6.15](https://stormworks.fandom.com/wiki/V0.6.15)\n- March 22: [V0.6.14](https://stormworks.fandom.com/wiki/V0.6.14)\n- March 18: [V0.6.9-13](https://stormworks.fandom.com/wiki/V0.6.9-13)\n- March 15: [V0.6.8](https://stormworks.fandom.com/wiki/V0.6.8)\n- March 8: [V0.6.3-7](https://stormworks.fandom.com/wiki/V0.6.3-7)\n- March 1: [V0.6.2](https://stormworks.fandom.com/wiki/V0.6.2)\n\n### February\n\n- February 27: [V0.6.1](https://stormworks.fandom.com/wiki/V0.6.1)\n- February 15: [V0.5.22-23](https://stormworks.fandom.com/wiki/V0.5.22-23)\n- February 8: [V0.5.21](https://stormworks.fandom.com/wiki/V0.5.21)\n- February 1: [V0.5.20](https://stormworks.fandom.com/wiki/V0.5.20)\n\n### January\n\n- January 25: [V0.5.17-19](https://stormworks.fandom.com/wiki/V0.5.17-19)\n- January 18: [V0.5.16](https://stormworks.fandom.com/wiki/V0.5.16)\n- January 15: [V0.5.15](https://stormworks.fandom.com/wiki/V0.5.15)\n- January 11: [V0.5.12-14](https://stormworks.fandom.com/wiki/V0.5.12-14)\n- January 4: [V0.5.9-11](https://stormworks.fandom.com/wiki/V0.5.9-11)\n\n## 2018\n\n### December\n\n- December 21: [V0.5.8](https://stormworks.fandom.com/wiki/V0.5.8)\n- December 15: [V0.5.7](https://stormworks.fandom.com/wiki/V0.5.7)\n- December 10: [V0.5.6](https://stormworks.fandom.com/wiki/V0.5.6)\n- December 7: [V0.5.5](https://stormworks.fandom.com/wiki/V0.5.5)\n- December 6: [V0.5.2-4](https://stormworks.fandom.com/wiki/V0.5.2-4)\n- December 5: [V0.5.1-2](https://stormworks.fandom.com/wiki/V0.5.1-2)\n\n### November\n\n- November 23: [V0.4.43-51](https://stormworks.fandom.com/wiki/V0.4.43-51)\n- November 16: [V0.4.42](https://stormworks.fandom.com/wiki/V0.4.42)\n- November 9: [V0.4.40-41](https://stormworks.fandom.com/wiki/V0.4.40-41)\n- November 5: [V0.4.37-39](https://stormworks.fandom.com/wiki/V0.4.37-39)\n- November 2: [V0.4.34-36](https://stormworks.fandom.com/wiki/V0.4.34-36)\n\n### October\n\n- October 12: [v0.4.27](https://stormworks.fandom.com/wiki/V0.4.27)\n- October 8: [v0.4.23-26](https://stormworks.fandom.com/wiki/V0.4.23-26)\n- October 5: [v0.4.21-22](https://stormworks.fandom.com/wiki/V0.4.21-22)\n- October 1: [v0.4.14-20](https://stormworks.fandom.com/wiki/V0.4.14-20)\n\n### September\n\n- September 28: [v0.4.2-13](https://stormworks.fandom.com/wiki/V0.4.2-13)\n- September 26: [v0.4.1](https://stormworks.fandom.com/wiki/V0.4.1)\n- September 14: [v0.3.13](https://stormworks.fandom.com/wiki/V0.3.13)\n- September 7: [v0.3.9-12](https://stormworks.fandom.com/wiki/V0.3.9-12)\n\n### August\n\n- August 31: [v0.3.8](https://stormworks.fandom.com/wiki/V0.3.8)\n- August 24: [v0.3.7](https://stormworks.fandom.com/wiki/V0.3.7)\n- August 17: [v0.3.6](https://stormworks.fandom.com/wiki/V0.3.6)\n- August 13: [v0.3.5](https://stormworks.fandom.com/wiki/V0.3.5)\n- August 10: [v0.3.4](https://stormworks.fandom.com/wiki/V0.3.4)\n- August 3: [v0.3.3](https://stormworks.fandom.com/wiki/V0.3.3)\n\n### July\n\n- July 27: [v0.3.1-2](https://stormworks.fandom.com/wiki/V0.3.1-2)\n- July 20: [v0.2.42](https://stormworks.fandom.com/wiki/V0.2.42)\n- July 17: [v0.2.41](https://stormworks.fandom.com/wiki/V0.2.41)\n- July 13: [v0.2.39-40](https://stormworks.fandom.com/wiki/V0.2.39-40)\n- July 6: [v0.2.36-38](https://stormworks.fandom.com/wiki/V0.2.36-38)\n- July 2: [v0.2.32-35](https://stormworks.fandom.com/wiki/V0.2.32-35)\n\n### June\n\n- June 29: [v0.2.29-31](https://stormworks.fandom.com/wiki/V0.2.29-31)\n- June 22: [v0.2.27-28](https://stormworks.fandom.com/wiki/V0.2.27-28)\n- June 20: [v0.2.22-26](https://stormworks.fandom.com/wiki/V0.2.22-26)\n- June 15: [v0.2.13-21](https://stormworks.fandom.com/wiki/V0.2.13-21)\n- June 8: [v0.2.11-12](https://stormworks.fandom.com/wiki/V0.2.11-12)\n- June 1: [v0.2.10](https://stormworks.fandom.com/wiki/V0.2.10)\n\n### May\n\n- May 25: [v0.2.8-9](https://stormworks.fandom.com/wiki/V0.2.8-9)\n- May 18: [v0.2.6-7](https://stormworks.fandom.com/wiki/V0.2.6-7)\n- May 12: [v0.2.2-5](https://stormworks.fandom.com/wiki/V0.2.2-5)\n- May 9: [v0.2.1](https://stormworks.fandom.com/wiki/V0.2.1)\n- May 1: [v0.1.30-35](https://stormworks.fandom.com/wiki/V0.1.30-35)\n\n### April\n\n- April 27: [v0.1.29](https://stormworks.fandom.com/wiki/V0.1.29) (The Propeller Update)\n- April 23: [v0.1.28](https://stormworks.fandom.com/wiki/V0.1.28)\n- April 20: [v0.1.26-27](https://stormworks.fandom.com/wiki/V0.1.26-27) (The Mag-All Update)\n- April 14: [v0.1.23-25](https://stormworks.fandom.com/wiki/V0.1.23-25) (The Seat Update)\n- April 6: [v0.1.21-22](https://stormworks.fandom.com/wiki/V0.1.21-22) (The HOTAS Controller and Weather Logic Update)\n\n### March\n\n- March 29: [v0.1.20](https://stormworks.fandom.com/wiki/V0.1.20) (The Essential Logic Update)\n- March 27: [v0.1.19](https://stormworks.fandom.com/wiki/V0.1.19)\n- March 23: [v0.1.17-18](https://stormworks.fandom.com/wiki/V0.1.17-18) (The Speakers and Propellers Update)\n- March 21: [v0.1.16](https://stormworks.fandom.com/wiki/V0.1.16)\n- March 16: [v0.1.14-15](https://stormworks.fandom.com/wiki/V0.1.14-15) (The Fixed Wing Update)\n- March 9: [v0.1.12-13](https://stormworks.fandom.com/wiki/V0.1.12-13)\n- March 8: [v0.1.10-11](https://stormworks.fandom.com/wiki/V0.1.10-11)\n- March 6: [v0.1.7-9](https://stormworks.fandom.com/wiki/V0.1.7-9)\n- March 2: [v0.1.6](https://stormworks.fandom.com/wiki/V0.1.6)\n- March 1: [v0.1.5](https://stormworks.fandom.com/wiki/V0.1.5)\n- March 1: [v0.1.4](https://stormworks.fandom.com/wiki/V0.1.4)\n\n## External links\n\n[Steam Community - Stormworks: Build and Rescue - Announcements](https://steamcommunity.com/games/573090/announcements?p=1) - Patch notes can be found here",
+    "plain_text": "These are the update and patch notes for\nStormworks: Build and Rescue\n.\n\n2025\n\nDecember\n\nNovember\n\nOctober\n\nSeptember\n\nAugust\n\nJuly\n\nJuly 8th:\nV1.15.1\n\nJuly 7th:\nV1.15.0\n\nJune\n\nMay\n\nMay 26th:\nV1.14.4\n\nMay 7th:\nV1.14.3\n\nApril\n\nApril 9th:\nV1.14.2\n\nMarch\n\nMarch 13th:\nV1.14.1\n\nMarch 12th:\nV1.14.0\n\nFebruary\n\nFebruary 14th:\nV1.13.6\n\nFebruary 12th:\nV1.13.5\n\nJanuary\n\nJanuary 15th:\nV1.13.4\n\nJanuary 3rd:\nV1.13.3\n\n2024\n\nDecember\n\nDecember 18th:\nV1.13.2\n\nDecember 4th:\nV1.13.1\n\nNovember\n\nNovember 20th:\nV1.13.0\n\nNovember 11th:\nv1.12.9\n\nNovember 6th:\nV1.12.8\n\nOctober\n\nOctober 23rd:\nV1.12.6\n\nOctober 10th:\nV1.12.5\n\nOctober 9th:\nv1.12.4\n\nSeptember\n\nSeptember 25th:\nv1.12.3\n\nSeptember 11th:\nv1.12.2\n\nAugust\n\nAugust 28th:\nv1.12.1\n\nAugust 14th:\nv1.12.0\n - The Lobster Pot Major Update\n\nJuly\n\nJuly 31th:\n1.11.8\n\nJuly 17th:\n1.11.7\n\nJuly 3th:\nv1.11.6\n\nJune\n\nJune 21th:\nv1.11.5\n\nJune 19th:\nv1.11.4\n\nJune 7th:\nv1.11.3\n\nJune 5th:\nv1.11.2\n\nMay\n\nMay 22th:\nv1.11.1\n\nMay 8th:\nv1.11.0\n - The Commercial Fishing Major Update\n\nApril\n\nApril 24th:\nv1.10.10\n\nApril 10th:\nv1.10.9\n\nMarch\n\nMarch 28th:\nv1.10.8\n\nMarch 17th:\nv1.10.7\n\nMarch 14th:\nv1.10.6\n\nMarch 13th:\nv1.10.5\n\nFebruary\n\nFebruary 28th:\nv1.10.4\n\nFebruary 14th:\nv1.10.3\n\nFebruary 6th:\nv1.10.2\n\nJanuary\n\nJanuary 31th:\nv1.10.0\n - The Rod Fishing Major Update\n\nJanuary 19th:\nv1.9.25\n\nJanuary 5th:\nv1.9.23\n\n2023\n\nDecember\n\nDecember 22th:\nv1.9.21\n\nDecember 11th:\nv1.9.20\n\nDecember 8th:\nv1.9.19\n\nNovember\n\nNovember 24th:\nv1.9.18\n\nNovember 10th:\nv1.9.17\n\nNovember 1st:\nv1.9.12\n\nOctober\n\nOctober 31th:\nv1.9.10\n\nOctober 30th:\nv1.9.9\n\nOctober 29th:\nv1.9.8\n\nOctober 27th:\nv1.9.6\n\nOctober 20th:\nv1.9.5\n\nOctober 15th:\nv1.9.4\n\nOctober 14th:\nv1.9.3\n\nOctober 13th:\nv1.9.1-2\n\nOctober 12th:\nv1.9.0\n - Stormworks: INDUSTRY SPACE - NEW DLC OUT NOW!\n\nSeptember\n\nSeptember 29th:\nv1.8.10\n\nSeptember 15th:\nv1.8.9\n\nSeptember 1th:\nv1.8.8\n\nAugust\n\nAugust 4th:\nv1.8.7\n\nAugust 4th:\nv1.8.6\n\nJuly\n\nJuly 21th:\nv1.8.4-5\n\nJuly 7th:\nv1.8.3\n\nJune\n\nJune 24th:\nv1.8.1\n\nJune 23th:\nv1.8.0\n - Oil Disaster Major Update\n\nJune 13th:\nv1.7.10-11\n\nJune 9th:\nv1.7.9\n\nJune 2th:\nv1.7.8\n\nMay\n\nMay 26th:\nv1.7.7\n\nMay 16th:\nv1.7.6\n\nMay 12th:\nv1.7.5\n\nApril\n\nApril 28th:\nv1.7.4\n\nApril 14th:\nv1.7.3\n\nMarch\n\nMarch 31th:\nv1.7.2\n\nMarch 17th:\nv1.7.1\n\nMarch 16th:\nv1.7 .0\n - Oil Drilling Major Update\n\nMarch 3th:\nv1.6.15\n\nFebruary\n\nFebruary 17th:\nv1.6.14\n\nFebruary 3th:\nv1.6.13\n\nJanuary\n\nJanuary 20th:\nv1.6.12\n\nJanuary 6th:\nv1.6.11\n\n2022\n\nDecember\n\nDecember 23rd:\nv1.6.10\n\nDecember 9th:\nv1.6.9\n\nNovember\n\nNovember 25th:\nv1.6.8\n\nNovember 11th:\nv1.6.6-7\n\nOctober\n\nOctober 25th:\nv1.6.3-5\n\nOctober 13th:\nv1.6.2\n — Stormworks: Industrial Frontier — NEW DLC OUT NOW!\n\nOctober 7th:\nV1.5.17\n\nSeptember\n\nSeptember 23rd:\nV1.5.15-16\n\nSeptember 9th:\nV1.5.14\n\nAugust\n\nAugust 26th:\nV1.5.9\n\nAugust 12th:\nV1.5.7\n\nJuly\n\nJuly 29th:\nV1.5.6\n\nJuly 15th:\nV1.5.5\n\nJuly 1st:\nV1.5.3\n\nJune\n\nJune 17th:\nV1.5.2\n\nJune 2nd:\nV1.5.1\n\nMay\n\nMay 20th:\nV1.4.19\n\nMay 6th:\nV1.4.18\n\nApril\n\nApril 22nd:\nV1.4.17\n\nApril 15th:\nV1.4.16\n\nApril 8th:\nV1.4.15\n\nMarch\n\nMarch 25:\nV1.4.14\n\nMarch 11:\nV1.4.11\n\nFebruary\n\nFebruary 25:\nV1.4.9\n\nFebruary 18:\nV1.4.7\n\nFebruary 3:\nV1.4.4\n\nJanuary\n\nJanuary 21:\nV1.3.21\n\nJanuary 7:\nV1.3.19\n\n2021\n\nDecember\n\nDecember 24:\nV1.3.18\n\nDecember 10:\nV1.3.16\n\nNovember\n\nNovember 26:\nV1.3.14\n\nNovember 12:\nV1.3.13\n\nNovember 5:\nV1.3.12\n\nOctober\n\nOctober 29:\nV1.3.9-10\n\nOctober 22:\nV1.3.7\n\nOctober 15:\nV1.3.6\n\nOctober 8:\nV1.3.1-4\n\nOctober 5:\nV1.3.0\n\nOctober 1:\nV1.2.29\n\nSeptember\n\nSeptember 17:\nV1.2.27-28\n\nSeptember 3:\nV1.2.25-26\n\nAugust\n\nAugust 21:\nV1.2.21\n\nAugust 6:\nV1.2.18-19\n\nJuly\n\nJuly 30:\nV1.2.15-17\n\nJuly 23:\nV1.2.14\n\nJuly 9:\nV1.2.12\n\nJune\n\nJune 25:\nV1.2.5-6\n\nJune 18:\nV1.2.3-4\n\nJune 11:\nV1.2.3\n\nMay\n\nMay 27:\nV1.2.1\n\nMay 14:\nV1.1.25-26\n\nApril\n\nApril 30:\nV1.1.23-24\n\nApril 16:\nV1.1.20-22\n\nApril 9:\nV1.1.19\n\nApril 2:\nV1.1.18\n\nMarch\n\nMarch 26:\nV1.1.14-17\n\nMarch 19:\nV1.1.13\n\nMarch 12:\nV1.1.7-12\n\nMarch 5:\nV1.1.4-6\n\nFebruary\n\nFebruary 26:\nV1.1.4\n\nFebruary 18:\nV1.1.2\n\nFebruary 12:\nV1.0.34\n\nFebruary 5:\nV1.0.33\n\nJanuary\n\nJanuary 22:\nV1.0.29\n\nJanuary 8:\nV1.0.26-27\n\n2020\n\nDecember\n\nDecember 11:\nV1.0.25\n\nNovember\n\nNovember 27:\nV1.0.22\n\nNovember 13:\nV1.0.21\n\nOctober\n\nOctober 30:\nV1.0.20\n\nOctober 13:\nV1.0.18-19\n\nOctober 2:\nV1.0.15\n\nSeptember\n\nSeptember 25:\nV1.0.1-14\n\nSeptember 17:\nV1.0.0\n\nAugust\n\nAugust 28:\nV0.10.36\n\nAugust 14:\nV0.10.34-35\n\nJuly\n\nJuly 31:\nV0.10.32-33\n\nJuly 17:\nV0.10.29-30\n\nJuly 3:\nV0.10.27-28\n\nJune\n\nJune 19:\nV0.10.23-25\n\nJune 5:\nV0.10.19-22\n\nMay\n\nMay 22:\nV0.10.18\n\nMay 7:\nV0.10.16\n\nApril\n\nApril 24:\nV0.10.14-15\n\nApril 9:\nV0.10.13\n\nMarch\n\nMarch 27:\nV0.10.12\n\nMarch 13:\nV0.10.10-11\n\nFebruary\n\nFebruary 28:\nV0.10.3-9\n\nFebruary 13:\nV0.10.2\n\nJanuary\n\nJanuary 31:\nV0.9.28-32\n\nJanuary 17:\nV0.9.25-27\n\nJanuary 1:\nV0.9.21-24\n\n2019\n\nDecember\n\nDecember 20:\nV0.9.20\n\nDecember 13:\nV0.9.18-19\n\nDecember 6:\nV0.9.16-17\n\nNovember\n\nNovember 29:\nV0.9.14-15\n\nNovember 22:\nV0.9.12-13\n\nNovember 15:\nV0.9.11\n\nNovember 8:\nV0.9.9-10\n\nNovember 1:\nV0.9.7-8\n\nOctober\n\nOctober 25:\nV0.9.6\n\nOctober 18:\nV0.9.3-5\n\nOctober 16:\nV0.9.1-2\n\nOctober 4:\nV0.8.32-33\n\nSeptember\n\nSeptember 27:\nV0.8.29-31\n\nSeptember 20:\nV0.8.24-28\n\nSeptember 13:\nV0.8.22-23\n\nSeptember 6:\nV0.8.20-21\n\nAugust\n\nAugust 30:\nV0.8.19\n\nAugust 23:\nV0.8.16-18\n\nAugust 17:\nV0.8.15\n\nAugust 16:\nV0.8.11-14\n\nAugust 9:\nV0.8.7-10\n\nAugust 2:\nV0.8.2-6\n\nJuly\n\nJuly 31:\nV0.8.1\n\nJuly 19:\nV0.7.20\n\nJuly 12:\nV0.7.19\n\nJuly 5:\nV0.7.18\n\nJune\n\nJune 28:\nV0.7.14-17\n\nJune 21:\nV0.7.13\n\nJune 16:\nV0.7.11-12\n\nJune 14:\nV0.7.10\n\nJune 7:\nV0.7.8-9\n\nMay\n\nMay 31:\nV0.7.6-7\n\nMay 24:\nV0.7.4-5\n\nMay 17:\nV0.7.2-3\n\nMay 15:\nV0.7.1\n\nApril\n\nApril 26:\nV0.6.21\n\nApril 18:\nV0.6.19-20\n\nApril 12:\nV0.6.18\n\nApril 5:\nV0.6.16-17\n\nMarch\n\nMarch 29:\nV0.6.15\n\nMarch 22:\nV0.6.14\n\nMarch 18:\nV0.6.9-13\n\nMarch 15:\nV0.6.8\n\nMarch 8:\nV0.6.3-7\n\nMarch 1:\nV0.6.2\n\nFebruary\n\nFebruary 27:\nV0.6.1\n\nFebruary 15:\nV0.5.22-23\n\nFebruary 8:\nV0.5.21\n\nFebruary 1:\nV0.5.20\n\nJanuary\n\nJanuary 25:\nV0.5.17-19\n\nJanuary 18:\nV0.5.16\n\nJanuary 15:\nV0.5.15\n\nJanuary 11:\nV0.5.12-14\n\nJanuary 4:\nV0.5.9-11\n\n2018\n\nDecember\n\nDecember 21:\nV0.5.8\n\nDecember 15:\nV0.5.7\n\nDecember 10:\nV0.5.6\n\nDecember 7:\nV0.5.5\n\nDecember 6:\nV0.5.2-4\n\nDecember 5:\nV0.5.1-2\n\nNovember\n\nNovember 23:\nV0.4.43-51\n\nNovember 16:\nV0.4.42\n\nNovember 9:\nV0.4.40-41\n\nNovember 5:\nV0.4.37-39\n\nNovember 2:\nV0.4.34-36\n\nOctober\n\nOctober 12:\nv0.4.27\n\nOctober 8:\nv0.4.23-26\n\nOctober 5:\nv0.4.21-22\n\nOctober 1:\nv0.4.14-20\n\nSeptember\n\nSeptember 28:\nv0.4.2-13\n\nSeptember 26:\nv0.4.1\n\nSeptember 14:\nv0.3.13\n\nSeptember 7:\nv0.3.9-12\n\nAugust\n\nAugust 31:\nv0.3.8\n\nAugust 24:\nv0.3.7\n\nAugust 17:\nv0.3.6\n\nAugust 13:\nv0.3.5\n\nAugust 10:\nv0.3.4\n\nAugust 3:\nv0.3.3\n\nJuly\n\nJuly 27:\nv0.3.1-2\n\nJuly 20:\nv0.2.42\n\nJuly 17:\nv0.2.41\n\nJuly 13:\nv0.2.39-40\n\nJuly 6:\nv0.2.36-38\n\nJuly 2:\nv0.2.32-35\n\nJune\n\nJune 29:\nv0.2.29-31\n\nJune 22:\nv0.2.27-28\n\nJune 20:\nv0.2.22-26\n\nJune 15:\nv0.2.13-21\n\nJune 8:\nv0.2.11-12\n\nJune 1:\nv0.2.10\n\nMay\n\nMay 25:\nv0.2.8-9\n\nMay 18:\nv0.2.6-7\n\nMay 12:\nv0.2.2-5\n\nMay 9:\nv0.2.1\n\nMay 1:\nv0.1.30-35\n\nApril\n\nApril 27:\nv0.1.29\n (The Propeller Update)\n\nApril 23:\nv0.1.28\n\nApril 20:\nv0.1.26-27\n (The Mag-All Update)\n\nApril 14:\nv0.1.23-25\n (The Seat Update)\n\nApril 6:\nv0.1.21-22\n (The HOTAS Controller and Weather Logic Update)\n\nMarch\n\nMarch 29:\nv0.1.20\n (The Essential Logic Update)\n\nMarch 27:\nv0.1.19\n\nMarch 23:\nv0.1.17-18\n (The Speakers and Propellers Update)\n\nMarch 21:\nv0.1.16\n\nMarch 16:\nv0.1.14-15\n (The Fixed Wing Update)\n\nMarch 9:\nv0.1.12-13\n\nMarch 8:\nv0.1.10-11\n\nMarch 6:\nv0.1.7-9\n\nMarch 2:\nv0.1.6\n\nMarch 1:\nv0.1.5\n\nMarch 1:\nv0.1.4\n\nExternal links\n\nSteam Community - Stormworks: Build and Rescue - Announcements\n - Patch notes can be found here",
+    "char_count": 21789,
+    "word_count": 1729,
+    "sha256": "24b57b15324409bdbdc1b526a4db4ee18aa93c2377c1f667abfbf64e27ea4a92"
+  },
+  "wikitext": "These are the update and patch notes for ''[[Stormworks: Build and Rescue]]''.\n==2025==\n\n===December===\n\n===November===\n\n===October===\n\n===September===\n\n===August===\n\n===July===\n* July 8th: [[V1.15.1]]\n* July 7th: [[V1.15.0]]\n\n===June===\n\n\n===May===\n* May 26th: [[V1.14.4]]\n* May 7th: [[V1.14.3]]\n\n===April===\n* April 9th: [[V1.14.2]]\n\n===March===\n* March 13th: [[V1.14.1]]\n* March 12th: [[V1.14.0]]\n\n===February===\n* February 14th: [[V1.13.6]]\n* February 12th: [[V1.13.5]]\n\n\n===January===\n* January 15th: [[V1.13.4]]\n* January 3rd: [[V1.13.3]]\n\n==2024==\n===December===\n\n* December 18th: [[V1.13.2]]\n* December 4th: [[V1.13.1]]\n\n===November===\n* November 20th: [[V1.13.0]]\n* November 11th: [[v1.12.9]]\n* November 6th: [[V1.12.8]]\n\n===October===\n* October 23rd: [[V1.12.6]]\n* October 10th: [[V1.12.5]]\n* October 9th: [[v1.12.4]]\n\n===September===\n* September 25th: [[v1.12.3]]\n* September 11th: [[v1.12.2]]\n\n===August===\n* August 28th: [[v1.12.1]]\n* August 14th: [[v1.12.0]] - The Lobster Pot Major Update\n\n===July===\n* July 31th: [[1.11.8]]\n* July 17th: [[1.11.7]]\n* July 3th: [[v1.11.6]]\n\n===June===\n* June 21th: [[v1.11.5]]\n* June 19th: [[v1.11.4]]\n* June 7th: [[v1.11.3]]\n* June 5th: [[v1.11.2]] \n\n===May===\n* May 22th: [[v1.11.1]] \n* May 8th: [[v1.11.0]] - The Commercial Fishing Major Update\n\n===April===\n* April 24th: [[v1.10.10]] \n* April 10th: [[v1.10.9]] \n\n===March===\n* March 28th: [[v1.10.8]] \n* March 17th: [[v1.10.7]] \n* March 14th: [[v1.10.6]] \n* March 13th: [[v1.10.5]]\n\n===February===\n* February 28th: [[v1.10.4]] \n* February 14th: [[v1.10.3]] \n* February 6th: [[v1.10.2]] \n\n===January===\n* January 31th: [[v1.10.0]] - The Rod Fishing Major Update\n* January 19th: [[v1.9.25]]\n* January 5th: [[v1.9.23]]\n\n==2023==\n===December===\n* December 22th: [[v1.9.21]]\n* December 11th: [[v1.9.20]]\n* December 8th: [[v1.9.19]]\n\n===November===\n* November 24th: [[v1.9.18]]\n* November 10th: [[v1.9.17]]\n* November 1st: [[v1.9.12]]\n\n===October===\n* October 31th: [[v1.9.10]]\n* October 30th: [[v1.9.9]]\n* October 29th: [[v1.9.8]]\n* October 27th: [[v1.9.6]]\n* October 20th: [[v1.9.5]]\n* October 15th: [[v1.9.4]]\n* October 14th: [[v1.9.3]]\n* October 13th: [[v1.9.1-2]]\n* October 12th: [[v1.9.0]] - Stormworks: INDUSTRY SPACE - NEW DLC OUT NOW!\n\n===September===\n* September 29th: [[v1.8.10]]\n* September 15th: [[v1.8.9]]\n* September 1th: [[v1.8.8]]\n\n===August===\n* August 4th: [[v1.8.7]]\n* August 4th: [[v1.8.6]]\n\n===July===\n* July 21th: [[v1.8.4-5]]\n* July 7th: [[v1.8.3]]\n\n===June===\n* June 24th: [[v1.8.1]]\n* June 23th: [[v1.8.0]] - Oil Disaster Major Update\n* June 13th: [[v1.7.10-11]]\n* June 9th: [[v1.7.9]]\n* June 2th: [[v1.7.8]]\n\n===May===\n* May 26th: [[v1.7.7]]\n* May 16th: [[v1.7.6]]\n* May 12th: [[v1.7.5]]\n\n===April===\n* April 28th: [[v1.7.4]]\n* April 14th: [[v1.7.3]]\n\n===March===\n* March 31th: [[v1.7.2]]\n* March 17th: [[v1.7.1]]\n* March 16th: [[v1.7 .0]] - Oil Drilling Major Update\n* March 3th: [[v1.6.15]]\n\n===February===\n* February 17th: [[v1.6.14]]\n* February 3th: [[v1.6.13]]\n\n===January===\n* January 20th: [[v1.6.12]]\n* January 6th: [[v1.6.11]]\n\n==2022==\n===December===\n\n* December 23rd: [[v1.6.10]]\n* December 9th: [[v1.6.9]]\n\n===November===\n* November 25th: [[v1.6.8]]\n* November 11th: [[v1.6.6-7]]\n\n===October===\n* October 25th: [[v1.6.3-5]]\n* October 13th: [[v1.6.2]] — Stormworks: Industrial Frontier — NEW DLC OUT NOW!\n* October 7th: [[V1.5.17]]\n\n===September===\n* September 23rd: [[V1.5.15-16]]\n* September 9th: [[V1.5.14]]\n\n===August===\n* August 26th: [[V1.5.9]]\n* August 12th: [[V1.5.7]]\n\n===July===\n* July 29th: [[V1.5.6]]\n* July 15th: [[V1.5.5]]\n* July 1st: [[V1.5.3]]\n\n===June===\n* June 17th: [[V1.5.2]]\n* June 2nd: [[V1.5.1]]\n\n===May===\n* May 20th: [[V1.4.19]]\n* May 6th: [[V1.4.18]]\n\n===April===\n* April 22nd: [[V1.4.17]]\n* April 15th: [[V1.4.16]]\n* April 8th: [[V1.4.15]]\n\n===March===\n* March 25: [[V1.4.14]]\n* March 11: [[V1.4.11]]\n\n===February===\n* February 25: [[V1.4.9]]\n* February 18: [[V1.4.7]]\n* February 3: [[V1.4.4]]\n\n===January===\n* January 21: [[V1.3.21]]\n* January 7: [[V1.3.19]]\n\n==2021==\n===December===\n* December 24: [[V1.3.18]]\n* December 10: [[V1.3.16]]\n\n===November===\n* November 26: [[V1.3.14]]\n* November 12: [[V1.3.13]]\n* November 5: [[V1.3.12]]\n\n===October===\n* October 29: [[V1.3.9-10]]\n* October 22: [[V1.3.7]]\n* October 15: [[V1.3.6]]\n* October 8: [[V1.3.1-4]]\n* October 5: [[V1.3.0]]\n* October 1: [[V1.2.29]]\n\n===September===\n* September 17: [[V1.2.27-28]]\n* September 3: [[V1.2.25-26]]\n\n===August===\n* August 21:  [[V1.2.21]]\n* August 6: [[V1.2.18-19]]\n\n===July===\n* July 30: [[V1.2.15-17]]\n* July 23: [[V1.2.14]]\n* July 9: [[V1.2.12]]\n\n===June===\n* June 25: [[V1.2.5-6]]\n* June 18: [[V1.2.3-4]]\n* June 11: [[V1.2.3]]\n\n===May===\n* May 27: [[V1.2.1]]\n* May 14: [[V1.1.25-26]]\n\n===April===\n* April 30: [[V1.1.23-24]]\n* April 16: [[V1.1.20-22]]\n* April 9: [[V1.1.19]]\n* April 2: [[V1.1.18]]\n\n===March===\n* March 26: [[V1.1.14-17]]\n* March 19: [[V1.1.13]]\n* March 12: [[V1.1.7-12]]\n* March 5: [[V1.1.4-6]]\n\n===February===\n* February 26: [[V1.1.4]]\n* February 18: [[V1.1.2]]\n* February 12: [[V1.0.34]]\n* February 5: [[V1.0.33]]\n\n===January===\n* January 22: [[V1.0.29]]\n* January 8: [[V1.0.26-27]]\n\n==2020==\n=== December ===\n* December 11: [[V1.0.25]]\n\n=== November ===\n* November 27: [[V1.0.22]]\n* November 13: [[V1.0.21]]\n\n=== October ===\n* October 30: [[V1.0.20]]\n* October 13: [[V1.0.18-19]]\n* October 2: [[V1.0.15]]\n\n=== September ===\n* September 25: [[V1.0.1-14]]\n* September 17: [[V1.0.0]]\n\n=== August ===\n* August 28: [[V0.10.36]]\n* August 14: [[V0.10.34-35]]\n\n=== July ===\n* July 31: [[V0.10.32-33]]\n* July 17: [[V0.10.29-30]]\n* July 3: [[V0.10.27-28]]\n\n=== June ===\n* June 19: [[V0.10.23-25]]\n* June 5: [[V0.10.19-22]]\n\n=== May ===\n* May 22: [[V0.10.18]]\n* May 7: [[V0.10.16]]\n\n=== April ===\n* April 24: [[V0.10.14-15]]\n* April 9: [[V0.10.13]]\n\n=== March ===\n* March 27: [[V0.10.12]]\n* March 13: [[V0.10.10-11]]\n\n=== February ===\n* February 28: [[V0.10.3-9]]\n* February 13: [[V0.10.2]]\n\n=== January ===\n* January 31: [[V0.9.28-32]]\n* January 17: [[V0.9.25-27]]\n* January 1: [[V0.9.21-24]]\n\n==2019==\n=== December ===\n* December 20: [[V0.9.20]]\n* December 13: [[V0.9.18-19]]\n* December 6: [[V0.9.16-17]]\n\n=== November ===\n* November 29: [[V0.9.14-15]]\n* November 22: [[V0.9.12-13]]\n* November 15: [[V0.9.11]]\n* November 8: [[V0.9.9-10]]\n* November 1: [[V0.9.7-8]]\n\n=== October ===\n* October 25: [[V0.9.6]]\n* October 18: [[V0.9.3-5]]\n* October 16: [[V0.9.1-2]]\n* October 4: [[V0.8.32-33]]\n\n=== September ===\n* September 27: [[V0.8.29-31]]\n* September 20: [[V0.8.24-28]]\n* September 13: [[V0.8.22-23]]\n* September 6: [[V0.8.20-21]]\n\n=== August ===\n* August 30: [[V0.8.19]]\n* August 23: [[V0.8.16-18]]\n* August 17: [[V0.8.15]]\n* August 16: [[V0.8.11-14]]\n* August 9: [[V0.8.7-10]]\n* August 2: [[V0.8.2-6]]\n\n=== July ===\n* July 31: [[V0.8.1]]\n* July 19: [[V0.7.20]]\n* July 12: [[V0.7.19]]\n* July 5: [[V0.7.18]]\n\n=== June ===\n* June 28: [[V0.7.14-17]]\n* June 21: [[V0.7.13]]\n* June 16: [[V0.7.11-12]]\n* June 14: [[V0.7.10]]\n* June 7: [[V0.7.8-9]]\n\n=== May ===\n* May 31: [[V0.7.6-7]]\n* May 24: [[V0.7.4-5]]\n* May 17: [[V0.7.2-3]]\n* May 15: [[V0.7.1]]\n\n=== April ===\n* April 26: [[V0.6.21]]\n* April 18: [[V0.6.19-20]]\n* April 12: [[V0.6.18]]\n* April 5: [[V0.6.16-17]]\n\n=== March ===\n* March 29: [[V0.6.15]]\n* March 22: [[V0.6.14]]\n* March 18: [[V0.6.9-13]]\n* March 15: [[V0.6.8]]\n* March 8: [[V0.6.3-7]]\n* March 1: [[V0.6.2]]\n\n=== February ===\n* February 27: [[V0.6.1]]\n* February 15: [[V0.5.22-23]]\n* February 8: [[V0.5.21]]\n* February 1: [[V0.5.20]]\n\n=== January ===\n* January 25: [[V0.5.17-19]]\n* January 18: [[V0.5.16]]\n* January 15: [[V0.5.15]]\n* January 11: [[V0.5.12-14]]\n* January 4: [[V0.5.9-11]]\n\n==2018==\n=== December ===\n* December 21: [[V0.5.8]]\n* December 15: [[V0.5.7]]\n* December 10: [[V0.5.6]]\n* December 7: [[V0.5.5]]\n* December 6: [[V0.5.2-4]]\n* December 5: [[V0.5.1-2]]\n\n=== November ===\n* November 23: [[V0.4.43-51]]\n* November 16: [[V0.4.42]]\n* November 9: [[V0.4.40-41]]\n* November 5: [[V0.4.37-39]]\n* November 2: [[V0.4.34-36]]\n\n=== October ===\n* October 12: [[v0.4.27]]\n* October 8: [[v0.4.23-26]]\n* October 5: [[v0.4.21-22]]\n*October 1: [[v0.4.14-20]]\n\n===September===\n*September 28: [[v0.4.2-13]]\n*September 26: [[v0.4.1]]\n*September 14: [[v0.3.13]]\n*September 7: [[v0.3.9-12]]\n\n===August===\n*August 31: [[v0.3.8]]\n*August 24: [[v0.3.7]]\n*August 17: [[v0.3.6]]\n*August 13: [[v0.3.5]]\n*August 10: [[v0.3.4]]\n*August 3: [[v0.3.3]]\n\n===July===\n*July 27: [[v0.3.1-2]]\n*July 20: [[v0.2.42]]\n*July 17: [[v0.2.41]]\n*July 13: [[v0.2.39-40]]\n*July 6: [[v0.2.36-38]]\n*July 2: [[v0.2.32-35]]\n\n===June===\n*June 29: [[v0.2.29-31]]\n*June 22: [[v0.2.27-28]]\n*June 20: [[v0.2.22-26]]\n*June 15: [[v0.2.13-21]]\n*June 8: [[v0.2.11-12]]\n*June 1: [[v0.2.10]]\n\n===May===\n*May 25: [[v0.2.8-9]]\n*May 18: [[v0.2.6-7]]\n*May 12: [[v0.2.2-5]]\n*May 9: [[v0.2.1]]\n*May 1: [[v0.1.30-35]]\n\n===April===\n*April 27: [[v0.1.29]] (The Propeller Update)\n*April 23: [[v0.1.28]]\n*April 20: [[v0.1.26-27]] (The Mag-All Update)\n*April 14: [[v0.1.23-25]] (The Seat Update)\n*April 6: [[v0.1.21-22]] (The HOTAS Controller and Weather Logic Update)\n\n===March===\n*March 29: [[v0.1.20]] (The Essential Logic Update)\n*March 27: [[v0.1.19]]\n*March 23: [[v0.1.17-18]] (The Speakers and Propellers Update)\n*March 21: [[v0.1.16]]\n*March 16: [[v0.1.14-15]] (The Fixed Wing Update)\n*March 9: [[v0.1.12-13]]\n*March 8: [[v0.1.10-11]]\n*March 6: [[v0.1.7-9]]\n*March 2: [[v0.1.6]]\n*March 1: [[v0.1.5]]\n*March 1: [[v0.1.4]]\n\n[[Category:Patch notes| ]]\n\n== External links ==\n[https://steamcommunity.com/games/573090/announcements?p=1 Steam Community - Stormworks: Build and Rescue - Announcements] - Patch notes can be found here",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Patch_notes",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 277,
+    "revision_id": 4391,
+    "revision_timestamp": "2025-07-11T21:16:30Z",
+    "retrieved_at": "2026-08-31T10:04:28+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

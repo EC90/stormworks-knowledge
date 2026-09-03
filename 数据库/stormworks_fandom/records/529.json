@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Ballasts",
+  "display_title": "Ballasts",
+  "summary": "Alias for Wiki/Vehicles/Water/Submersible",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Vehicles/Water/Submersible"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Ballasts -> Wiki/Vehicles/Water/Submersible",
+    "plain_text": "Redirect: Ballasts -> Wiki/Vehicles/Water/Submersible",
+    "char_count": 53,
+    "word_count": 4,
+    "sha256": "4d30332c4a780e25bd1629418d8431e664537a9f5b14de41ec370a6416cfb033"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Vehicles/Water/Submersible",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Vehicles/Water/Submersible",
+    "target_page_id": 276,
+    "target_revision_id": 3281
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Ballasts",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 529,
+    "revision_id": 1370,
+    "revision_timestamp": "2019-03-16T18:14:47Z",
+    "retrieved_at": "2026-08-31T10:00:49+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

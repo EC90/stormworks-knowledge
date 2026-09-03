@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Electric battery medium",
+  "display_title": "Electric battery medium",
+  "summary": "A medium-sized battery used primarily on aircraft and medium-sized ships. Battery holds 3200 units of power.",
+  "template": "Infobox",
+  "attributes": {
+    "name": "Electric Battery Medium",
+    "image": "200px",
+    "prerequisite": "Electrics",
+    "cost": "$1,200",
+    "dimensions": "3×2×2",
+    "fluidcapacity": "12.800 MJoules",
+    "mass": "{{Property|mass}} 60",
+    "logicoutput1": "{{Property|number}} Charge",
+    "connection1": "{{Property|electric}} Electric store"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| name | Electric Battery Medium |\n| image | 200px |\n| prerequisite | Electrics |\n| cost | $1,200 |\n| dimensions | 3×2×2 |\n| fluidcapacity | 12.800 MJoules |\n| mass | {{Property\\|mass}} 60 |\n| logicoutput1 | {{Property\\|number}} Charge |\n| connection1 | {{Property\\|electric}} Electric store |",
+  "categories": [
+    "Electric_components"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "See also",
+      "anchor": "See_also"
+    }
+  ],
+  "internal_links": [
+    "Electric battery large",
+    "Electric battery small",
+    "Electrics Research",
+    "MJoules",
+    "Research",
+    "Wiki/Game Mechanics/Electricity"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d1/Battery_Medium.jpg/revision/latest?cb=20190317005237",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d1/Battery_Medium.jpg/revision/latest/scale-to-width-down/268?cb=20190317005237",
+      "alt": "Battery Medium",
+      "width": "270",
+      "height": "264"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "mass 60"
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "number Charge"
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "caption": null,
+      "classes": [
+        "pi-horizontal-group",
+        "pi-horizontal-group-no-labels"
+      ],
+      "rows": [
+        [
+          "electric Electric store"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Electric Battery Medium\n\n[![Battery Medium](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d1/Battery_Medium.jpg/revision/latest/scale-to-width-down/268?cb=20190317005237)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d1/Battery_Medium.jpg/revision/latest?cb=20190317005237)\n\n### [Prerequisite](https://stormworks.fandom.com/wiki/Research)\n\n[Electrics](https://stormworks.fandom.com/wiki/Electrics_Research)\n\n### Cost\n\n$1,200\n\n### Dimensions\n\n3×2×2\n\n### Capacity\n\n12.800 MJoules\n\n## Properties\n\n| mass 60 |\n\n## Logic Outputs\n\n| number Charge |\n\n## Connections\n\n| electric Electric store |\n\nA medium-sized battery used primarily on aircraft and medium-sized ships. Battery holds 3200 units of power.\n\nFor in-game mechanics, see [Electricity](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Electricity)\n\nMedium Batteries are unlocked via the [Electrics](https://stormworks.fandom.com/wiki/Electrics_Research) research.\n\n## See also\n\n- [Electric battery small](https://stormworks.fandom.com/wiki/Electric_battery_small)\n- [Electric battery large](https://stormworks.fandom.com/wiki/Electric_battery_large)",
+    "plain_text": "Electric Battery Medium\n\nPrerequisite\n\nElectrics\n\nCost\n\n$1,200\n\nDimensions\n\n3×2×2\n\nCapacity\n\n12.800\nMJoules\n\nProperties\n\nmass\n 60\n\nLogic Outputs\n\nnumber\n Charge\n\nConnections\n\nelectric\n Electric store\n\nA medium-sized battery used primarily on aircraft and medium-sized ships. Battery holds 3200 units of power.\n\nFor in-game mechanics, see\nElectricity\n\nMedium Batteries are unlocked via the\nElectrics\n research.\n\nSee also\n\nElectric battery small\n\nElectric battery large",
+    "char_count": 1155,
+    "word_count": 67,
+    "sha256": "0cab58a90f4c9904ec282d17070ce4556fe523dc9d8123593985e3a51d7e8c82"
+  },
+  "wikitext": "{{Infobox\n  | name=Electric Battery Medium\n  | image=[[File:Battery Medium.jpg|200px]]\n  | prerequisite=[[Electrics Research|Electrics]]\n  | cost=$1,200\n  | dimensions=3×2×2\n  | fluidcapacity=12.800 [[MJoules]]\n  | introduced=\n  \n  | mass= {{Property|mass}} 60\n  | motor=\n  | force=\n  | power=\n  | motor_speed=\n\n  | logicinput1= \n  | logicinput2=\n  | logicinput3=\n  | logicinput4=\n  | logicinput5=\n  | logicinput6=\n\n  | logicoutput1= {{Property|number}} Charge\n  | logicoutput2=\n  | logicoutput3=\n  | logicoutput4=\n  | logicoutput5=\n  | logicoutput6=\n\n  | connection1= {{Property|electric}} Electric store\n  | connection2=\n  | connection3=\n  | connection4=\n  | connection5=\n  | connection6=\n  \n  | adjustparam1=\n  | adjustparam2=\n}}\n\nA medium-sized battery used primarily on aircraft and medium-sized ships. Battery holds 3200 units of power. \n\nFor in-game mechanics, see [[Wiki/Game Mechanics/Electricity|Electricity]]\n\nMedium Batteries are unlocked via the [[Electrics Research|Electrics]] research.\n\n==See also==\n* [[Electric battery small]]\n* [[Electric battery large]]\n\n[[Category: Electric components]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Electric_battery_medium",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1014,
+    "revision_id": 3848,
+    "revision_timestamp": "2024-04-21T20:15:28Z",
+    "retrieved_at": "2026-08-31T10:01:35+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

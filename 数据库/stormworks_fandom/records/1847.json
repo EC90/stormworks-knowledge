@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Transponder",
+  "display_title": "Transponder",
+  "summary": "Alias for Gameplay/Workbench/Components/Transponders",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Transponders"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Transponder -> Gameplay/Workbench/Components/Transponders",
+    "plain_text": "Redirect: Transponder -> Gameplay/Workbench/Components/Transponders",
+    "char_count": 67,
+    "word_count": 4,
+    "sha256": "117d5366d9a74fffc4603342798aa06a8953c6bc9169ec37d09c9dc7693076c0"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Transponders",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Transponders",
+    "target_page_id": 1429,
+    "target_revision_id": 4185
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Transponder",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1847,
+    "revision_id": 4589,
+    "revision_timestamp": "2025-08-13T15:29:38Z",
+    "retrieved_at": "2026-08-31T10:05:29+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

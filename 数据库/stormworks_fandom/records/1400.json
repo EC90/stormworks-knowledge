@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Rope",
+  "display_title": "Rope",
+  "summary": "Alias for Gameplay/Mechanics/Rope",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Mechanics/Rope"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Rope -> Gameplay/Mechanics/Rope",
+    "plain_text": "Redirect: Rope -> Gameplay/Mechanics/Rope",
+    "char_count": 41,
+    "word_count": 4,
+    "sha256": "c6cb73114388c77ab9f1224418871fa12043ac726e8dd1aa5af1b472a3ca0ad9"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Mechanics/Rope",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Rope",
+    "target_page_id": 1399,
+    "target_revision_id": 4629
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Rope",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1400,
+    "revision_id": 4627,
+    "revision_timestamp": "2025-08-21T00:07:23Z",
+    "retrieved_at": "2026-08-31T10:04:50+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

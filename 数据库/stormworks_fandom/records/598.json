@@ -1,0 +1,171 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki/Guides/Fluids",
+  "display_title": "Wiki/Guides/Fluids",
+  "summary": "Fluid\n is a mechanism in Stormworks based on enclosed space and pipelines. This game's\nFluid\n system allows you to realize many functions like transferring fuel, air, or cooling down your vehicle.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Fluids     [ edit page ]",
+      "anchor": "Fluids_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Fluid Mechanism",
+      "anchor": "Fluid_Mechanism"
+    },
+    {
+      "level": 3,
+      "title": "Liquid",
+      "anchor": "Liquid"
+    },
+    {
+      "level": 4,
+      "title": "Water",
+      "anchor": "Water"
+    },
+    {
+      "level": 4,
+      "title": "Fuel",
+      "anchor": "Fuel"
+    },
+    {
+      "level": 4,
+      "title": "Other",
+      "anchor": "Other"
+    },
+    {
+      "level": 3,
+      "title": "Gas",
+      "anchor": "Gas"
+    },
+    {
+      "level": 4,
+      "title": "Air",
+      "anchor": "Air"
+    },
+    {
+      "level": 4,
+      "title": "Steam",
+      "anchor": "Steam"
+    },
+    {
+      "level": 4,
+      "title": "Hydrogen",
+      "anchor": "Hydrogen"
+    },
+    {
+      "level": 3,
+      "title": "Pressure and Flow",
+      "anchor": "Pressure_and_Flow"
+    },
+    {
+      "level": 3,
+      "title": "Diffusion",
+      "anchor": "Diffusion"
+    },
+    {
+      "level": 4,
+      "title": "Concentration",
+      "anchor": "Concentration"
+    },
+    {
+      "level": 4,
+      "title": "Temperature",
+      "anchor": "Temperature"
+    },
+    {
+      "level": 2,
+      "title": "Fluid Parts",
+      "anchor": "Fluid_Parts"
+    },
+    {
+      "level": 3,
+      "title": "Pipe",
+      "anchor": "Pipe"
+    },
+    {
+      "level": 3,
+      "title": "Pumps",
+      "anchor": "Pumps"
+    },
+    {
+      "level": 3,
+      "title": "Liquid and Gas Meter",
+      "anchor": "Liquid_and_Gas_Meter"
+    },
+    {
+      "level": 3,
+      "title": "Fluid spawner",
+      "anchor": "Fluid_spawner"
+    },
+    {
+      "level": 2,
+      "title": "Tips",
+      "anchor": "Tips"
+    },
+    {
+      "level": 2,
+      "title": "See also",
+      "anchor": "See_also"
+    }
+  ],
+  "internal_links": [
+    "Gameplay/Mechanics/Fluids",
+    "Gameplay/Mechanics/Fuel",
+    "Pumps",
+    "Wiki",
+    "Wiki/Guides"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Guides/Fluids?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki/Guides/Fluids?action=edit). |\n| --- | --- |\n\n## Fluids\n\n**Fluid** is a mechanism in Stormworks based on enclosed space and pipelines. This game's **Fluid** system allows you to realize many functions like transferring fuel, air, or cooling down your vehicle.\n\nHere are some video guides on fluid:\n\n## Fluid Mechanism\n\nThe fluid system of this game is complex, which includes pressure, heat, and many types of fluids.\n\nLiquids and gases are both used in the fluid system. In an enclosed space (e.g. a custom fluid container), liquid will visibly appear to stay at the bottom while gas will stay at the top. However, fluid ports drawing fluid from the space will take both liquid and gas, regardless of their location in the tank. For example, a fluid port to drain the bottom of a mostly full ballast tank will still take both air and water when it is drained.\n\nSimilar to the real world, liquids are incompressible, while gases are compressible (up to a limit of 60 atm, where they also become incompressible).\n\n### Liquid\n\n#### Water\n\nThere are two types of water in this game: **Fresh Water** and **Sea Water** Fresh Water can be generated in a workspace by using a fluid spawner, or can be slowly produced in a mobile fashion by converting by sea water using desalinators.\n\n#### Fuel\n\nThere are two types of liquid [fuel](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Fuel) in this game: diesel and jet fuel.\n\n#### Other\n\n**Crude oil** Crude oil can't be spawned with a fluid spawner, but can be extracted with an oil rig or collected from the sea surface when cleaning up an oil spill.\n\n**Slurry** Slurry is used to help with drilling for oil.\n\n### Gas\n\n#### Air\n\nThere are 3 types of gas that naturally exist in the air: **Nitrogen**,**Oxygen** and **Carbon Dioxide**.\n\nSuffocation occurs in only 2 situations: when carbon dioxide concentration > 10% or oxygen concentration < 15%, upon which the blue bar for holding breath is shown.\n\n#### Steam\n\nSteam can be generated by boiling fresh water in a boiler at more than 100 Celcius.\n\n#### Hydrogen\n\nTo generate and use hydrogen, you need the **Space DLC** Hydrogen can be extracted by hydrogen electrolyser and can be used as a rocket fuel.\n\n### Pressure and Flow\n\nThe fluid flow is determined by pressure\n\n### Diffusion\n\nFluid concentration and temperature is based on diffusion, which means they will automatically spread when two enclosed spaces or pipelines are connected. Diffusion occurs regardless of pressure, temperature or fluid type. For example, a tank of oxygen and a tank of carbon dioxide will mix if connected, even though fluid flow will show as 0.\n\nDiffusion only occurs when 2 spaces or tanks are connected by fluid ports, pipelines, or doors. When pipelines have fluid flow valves or other components that limit the flow direction, diffusion is blocked and will not occur even though fluid would still flow between the two spaces with the help of a pressure gradient.\n\n#### Concentration\n\n#### Temperature\n\n## Fluid Parts\n\n### Pipe\n\nUsed to transfer mechanical power or fluid from A to B. Note that pipes will distribute both power and fluid if they are connected to both.\n\n### [Pumps](https://stormworks.fandom.com/wiki/Pumps)\n\nUsed to pump fluid from A to B, make sure to have the **Fluid In** and **Fluid Out** ports situated correctly for normal flow direction\n\n### Liquid and Gas Meter\n\nYou can use these to measure fluid in liters to find the capacity and current quantity of fluid in an enclosed space. Although liquid and gas meters will both meters show the same capacity for the same tank, they levels they show represent only the liquid and gas contents respectively.\n\n### Fluid spawner\n\nThe **fluid spawner** is a part which you can use to generate fluid in an enclosed space. For 'Liquid', the volume of liquid spawned will occupy 99% of enclosed space when the fill level is set at 100%, the volume of liquid spawned can be calculated by **Enclosed Space** X **99%**(reserve space for air for 1 atm) X **fill level**\n\nFor **Gas**, The original air in the Enclosed Space will be removed and new gas will be spawned, the maximum pressure is 59.4 atm which is reached when the fill level is set to 100%.\n\n## Tips\n\nYou can use fluid ports fluid-fluid heat exchangers instead of radiators and heat sinks just add pumps facing in the right orientation because the coolant pipes do not have suction when using fluid ports (engine suction will still work with radiators or heat sinks).\n\n## See also\n\n- [Gameplay/Mechanics/Fluids](https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Fluids)\n- [Pumps](https://stormworks.fandom.com/wiki/Pumps)",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nFluids\n\nFluid\n is a mechanism in Stormworks based on enclosed space and pipelines. This game's\nFluid\n system allows you to realize many functions like transferring fuel, air, or cooling down your vehicle.\n\nHere are some video guides on fluid:\n\nFluid Mechanism\n\nThe fluid system of this game is complex, which includes pressure, heat, and many types of fluids.\n\nLiquids and gases are both used in the fluid system. In an enclosed space (e.g. a custom fluid container), liquid will visibly appear to stay at the bottom while gas will stay at the top. However, fluid ports drawing fluid from the space will take both liquid and gas, regardless of their location in the tank. For example, a fluid port to drain the bottom of a mostly full ballast tank will still take both air and water when it is drained.\n\nSimilar to the real world, liquids are incompressible, while gases are compressible (up to a limit of 60 atm, where they also become incompressible).\n\nLiquid\n\nWater\n\nThere are two types of water in this game:\nFresh Water\n and\nSea Water\n\nFresh Water can be generated in a workspace by using a fluid spawner, or can be slowly produced in a mobile fashion by converting by sea water using desalinators.\n\nFuel\n\nThere are two types of liquid\nfuel\n in this game: diesel and jet fuel.\n\nOther\n\nCrude oil\n\nCrude oil can't be spawned with a fluid spawner, but can be extracted with an oil rig or collected from the sea surface when cleaning up an oil spill.\n\nSlurry\n\nSlurry is used to help with drilling for oil.\n\nGas\n\nAir\n\nThere are 3 types of gas that naturally exist in the air:\nNitrogen\n,\nOxygen\n and\nCarbon Dioxide\n.\n\nSuffocation occurs in only 2 situations: when carbon dioxide concentration > 10% or oxygen concentration < 15%, upon which the blue bar for holding breath is shown.\n\nSteam\n\nSteam can be generated by boiling fresh water in a boiler at more than 100 Celcius.\n\nHydrogen\n\nTo generate and use hydrogen, you need the\nSpace DLC\n\nHydrogen can be extracted by hydrogen electrolyser and can be used as a rocket fuel.\n\nPressure and Flow\n\nThe fluid flow is determined by pressure\n\nDiffusion\n\nFluid concentration and temperature is based on diffusion, which means they will automatically spread when two enclosed spaces or pipelines are connected. Diffusion occurs regardless of pressure, temperature or fluid type. For example, a tank of oxygen and a tank of carbon dioxide will mix if connected, even though fluid flow will show as 0.\n\nDiffusion only occurs when 2 spaces or tanks are connected by fluid ports, pipelines, or doors. When pipelines have fluid flow valves or other components that limit the flow direction, diffusion is blocked and will not occur even though fluid would still flow between the two spaces with the help of a pressure gradient.\n\nConcentration\n\nTemperature\n\nFluid Parts\n\nPipe\n\nUsed to transfer mechanical power or fluid from A to B. Note that pipes will distribute both power and fluid if they are connected to both.\n\nPumps\n\nUsed to pump fluid from A to B, make sure to have the\nFluid In\n and\nFluid Out\n ports situated correctly for normal flow direction\n\nLiquid and Gas Meter\n\nYou can use these to measure fluid in liters to find the capacity and current quantity of fluid in an enclosed space. Although liquid and gas meters will both meters show the same capacity for the same tank, they levels they show represent only the liquid and gas contents respectively.\n\nFluid spawner\n\nThe\nfluid spawner\n is a part which you can use to generate fluid in an enclosed space.\nFor 'Liquid', the volume of liquid spawned will occupy 99% of enclosed space when the fill level is set at 100%, the volume of liquid spawned can be calculated by\nEnclosed Space\n X\n99%\n(reserve space for air for 1 atm) X\nfill level\n\nFor\nGas\n, The original air in the Enclosed Space will be removed and new gas will be spawned, the maximum pressure is 59.4 atm which is reached when the fill level is set to 100%.\n\nTips\n\nYou can use fluid ports fluid-fluid heat exchangers instead of radiators and heat sinks just add pumps facing in the right orientation because the coolant pipes do not have suction when using fluid ports (engine suction will still work with radiators or heat sinks).\n\nSee also\n\nGameplay/Mechanics/Fluids\n\nPumps",
+    "char_count": 5055,
+    "word_count": 750,
+    "sha256": "19b69c428f7b3261b430909704ae0e56bf73d4917c60832197db059e4bc35866"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=\n<!--Start editing here -->\n '''Fluid''' is a mechanism in Stormworks based on enclosed space and pipelines. This game's '''Fluid''' system allows you to realize many functions like transferring fuel, air, or cooling down your vehicle.\n\nHere are some video guides on fluid:\n{{#ev:youtube|www.youtube.com/watch?v=pYq5waP0YQQ}}\n{{#ev:youtube|www.youtube.com/watch?v=7Bt9Qit8Tyg}}\n\n==Fluid Mechanism==\nThe fluid system of this game is complex, which includes pressure, heat, and many types of fluids.\n\nLiquids and gases are both used in the fluid system. In an enclosed space (e.g. a custom fluid container), liquid will visibly appear to stay at the bottom while gas will stay at the top. However, fluid ports drawing fluid from the space will take both liquid and gas, regardless of their location in the tank. For example, a fluid port to drain the bottom of a mostly full ballast tank will still take both air and water when it is drained.\n\nSimilar to the real world, liquids are incompressible, while gases are compressible (up to a limit of 60 atm, where they also become incompressible).\n\n===Liquid===\n====Water====\nThere are two types of water in this game: '''Fresh Water''' and '''Sea Water'''\nFresh Water can be generated in a workspace by using a fluid spawner, or can be slowly produced in a mobile fashion by converting by sea water using desalinators.\n\n====Fuel====\nThere are two types of liquid [[Gameplay/Mechanics/Fuel|fuel]] in this game: diesel and jet fuel.\n\n====Other====\n'''Crude oil'''\nCrude oil can't be spawned with a fluid spawner, but can be extracted with an oil rig or collected from the sea surface when cleaning up an oil spill.\n\n'''Slurry'''\nSlurry is used to help with drilling for oil.\n\n===Gas===\n====Air====\nThere are 3 types of gas that naturally exist in the air: '''Nitrogen''','''Oxygen''' and '''Carbon Dioxide'''.\n\nSuffocation occurs in only 2 situations: when carbon dioxide concentration > 10% or oxygen concentration < 15%, upon which the blue bar for holding breath is shown.\n\n====Steam====\nSteam can be generated by boiling fresh water in a boiler at more than 100 Celcius.\n\n====Hydrogen====\nTo generate and use hydrogen, you need the '''Space DLC'''\nHydrogen can be extracted by hydrogen electrolyser and can be used as a rocket fuel.\n\n===Pressure and Flow===\nThe fluid flow is determined by pressure\n\n===Diffusion===\nFluid concentration and temperature is based on diffusion, which means they will automatically spread when two enclosed spaces or pipelines are connected. Diffusion occurs regardless of pressure, temperature or fluid type. For example, a tank of oxygen and a tank of carbon dioxide will mix if connected, even though fluid flow will show as 0.\n\nDiffusion only occurs when 2 spaces or tanks are connected by fluid ports, pipelines, or doors. When pipelines have fluid flow valves or other components that limit the flow direction, diffusion is blocked and will not occur even though fluid would still flow between the two spaces with the help of a pressure gradient.\n\n====Concentration====\n\n====Temperature====\n\n==Fluid Parts==\n\n===Pipe===\nUsed to transfer mechanical power or fluid from A to B. Note that pipes will distribute both power and fluid if they are connected to both.\n\n===[[Pumps]]===\nUsed to pump fluid from A to B, make sure to have the '''Fluid In''' and '''Fluid Out''' ports situated correctly for normal flow direction\n\n===Liquid and Gas Meter===\nYou can use these to measure fluid in liters to find the capacity and current quantity of fluid in an enclosed space. Although liquid and gas meters will both meters show the same capacity for the same tank, they levels they show represent only the liquid and gas contents respectively.\n\n=== Fluid spawner ===\nThe '''fluid spawner''' is a part which you can use to generate fluid in an enclosed space.\nFor 'Liquid', the volume of liquid spawned will occupy 99% of enclosed space when the fill level is set at 100%, the volume of liquid spawned can be calculated by '''Enclosed Space''' X '''99%'''(reserve space for air for 1 atm) X '''fill level'''\n\nFor '''Gas''', The original air in the Enclosed Space will be removed and new gas will be spawned, the maximum pressure is 59.4 atm which is reached when the fill level is set to 100%.\n\n==Tips==\nYou can use fluid ports fluid-fluid heat exchangers instead of radiators and heat sinks just add pumps facing in the right orientation because the coolant pipes do not have suction when using fluid ports (engine suction will still work with radiators or heat sinks).\n\n== See also ==\n* [[Gameplay/Mechanics/Fluids]]\n* [[Pumps]]\n\n\n<!-- Stop editing here-->\n}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Fluids",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 598,
+    "revision_id": 4631,
+    "revision_timestamp": "2025-08-21T00:41:25Z",
+    "retrieved_at": "2026-08-31T10:12:10+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

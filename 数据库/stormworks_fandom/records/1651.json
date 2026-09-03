@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Multiplayer",
+  "display_title": "Wiki/Multiplayer",
+  "summary": "Alias for Gameplay/Multiplayer",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Multiplayer"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Multiplayer -> Gameplay/Multiplayer",
+    "plain_text": "Redirect: Wiki/Multiplayer -> Gameplay/Multiplayer",
+    "char_count": 50,
+    "word_count": 4,
+    "sha256": "a777f6bb9230d974736ae4fa1149e42075f08a5ab46002eba8bb6a1c46aa63d1"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Multiplayer",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Multiplayer",
+    "target_page_id": 461,
+    "target_revision_id": 4134
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Multiplayer",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1651,
+    "revision_id": 4135,
+    "revision_timestamp": "2025-05-14T02:35:10Z",
+    "retrieved_at": "2026-08-31T10:12:27+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Trailer",
+  "display_title": "Trailer",
+  "summary": "Trailers can be found at various industrial locations and freight terminals in Stormworks, and can be transported to other locations for varying amounts of money.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Design",
+      "anchor": "Design"
+    },
+    {
+      "level": 3,
+      "title": "Size",
+      "anchor": "Size"
+    },
+    {
+      "level": 3,
+      "title": "Wheels",
+      "anchor": "Wheels"
+    },
+    {
+      "level": 3,
+      "title": "Connectors",
+      "anchor": "Connectors"
+    },
+    {
+      "level": 3,
+      "title": "Outriggers",
+      "anchor": "Outriggers"
+    },
+    {
+      "level": 3,
+      "title": "Logic",
+      "anchor": "Logic"
+    },
+    {
+      "level": 2,
+      "title": "See also",
+      "anchor": "See_also"
+    },
+    {
+      "level": 2,
+      "title": "Patch history",
+      "anchor": "Patch_history"
+    },
+    {
+      "level": 3,
+      "title": "V1.14.3",
+      "anchor": "V1.14.3"
+    },
+    {
+      "level": 3,
+      "title": "V1.13.2",
+      "anchor": "V1.13.2"
+    }
+  ],
+  "internal_links": [
+    "Shipping container",
+    "V1.13.2",
+    "V1.14.3"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Trailer?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Trailer?action=edit). |\n| --- | --- |\n\nTrailers can be found at various industrial locations and freight terminals in Stormworks, and can be transported to other locations for varying amounts of money.\n\nA blank built-in trailer is available in the presets.\n\n## Design\n\nBuilt-in trailers follow the same standard configuration as described below.\n\n### Size\n\nTrailers are 11 blocks wide x 17 blocks tall x 47 blocks long (2.75x4.25x11.75 m).\n\n### Wheels\n\nThere are two pairs of double 5x5 wheels on both sides of the back of each trailer, for a total of eight wheels.\n\n### Connectors\n\nTrailers have an electric connector along the midline of the bottom surface near the front, 5 blocks away from being at the front edge. It is 5 blocks above ground level.\n\n### Outriggers\n\nThere are two outriggers with robotic pivots to keep the trailer level when it is not being towed. These automatically pivot out of the way when the electric connector is connected.\n\n### Logic\n\nThe trailer can be controlled through its electric connector. Numeric channel 1 controls the brakes. As for the boolean channels:\n\n1. Left turn signal\n2. Right turn signal\n3. Brake lights\n4. Reverse lights\n5. Marker lights\n\n## See also\n\n- [Shipping container](https://stormworks.fandom.com/wiki/Shipping_container)\n\n## Patch history\n\n### [V1.14.3](https://stormworks.fandom.com/wiki/V1.14.3)\n\n- Feature - New Trailer preset\n\n### [V1.13.2](https://stormworks.fandom.com/wiki/V1.13.2)\n\n- Feature - #25481 Trailer cargo missions",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nTrailers can be found at various industrial locations and freight terminals in Stormworks, and can be transported to other locations for varying amounts of money.\n\nA blank built-in trailer is available in the presets.\n\nDesign\n\nBuilt-in trailers follow the same standard configuration as described below.\n\nSize\n\nTrailers are 11 blocks wide x 17 blocks tall x 47 blocks long (2.75x4.25x11.75 m).\n\nWheels\n\nThere are two pairs of double 5x5 wheels on both sides of the back of each trailer, for a total of eight wheels.\n\nConnectors\n\nTrailers have an electric connector along the midline of the bottom surface near the front, 5 blocks away from being at the front edge. It is 5 blocks above ground level.\n\nOutriggers\n\nThere are two outriggers with robotic pivots to keep the trailer level when it is not being towed. These automatically pivot out of the way when the electric connector is connected.\n\nLogic\n\nThe trailer can be controlled through its electric connector. Numeric channel 1 controls the brakes. As for the boolean channels:\n\nLeft turn signal\n\nRight turn signal\n\nBrake lights\n\nReverse lights\n\nMarker lights\n\nSee also\n\nShipping container\n\nPatch history\n\nV1.14.3\n\nFeature - New Trailer preset\n\nV1.13.2\n\nFeature - #25481 Trailer cargo missions",
+    "char_count": 1909,
+    "word_count": 220,
+    "sha256": "d49f577d2508d8aac32349baefae9da8a17862235211190672fbda48220df259"
+  },
+  "wikitext": "{{stub}}\n\nTrailers can be found at various industrial locations and freight terminals in Stormworks, and can be transported to other locations for varying amounts of money. \n\nA blank built-in trailer is available in the presets.\n\n== Design ==\nBuilt-in trailers follow the same standard configuration as described below.\n\n=== Size ===\nTrailers are 11 blocks wide x 17 blocks tall x 47 blocks long (2.75x4.25x11.75 m).\n\n=== Wheels ===\nThere are two pairs of double 5x5 wheels on both sides of the back of each trailer, for a total of eight wheels.\n\n=== Connectors ===\nTrailers have an electric connector along the midline of the bottom surface near the front, 5 blocks away from being at the front edge. It is 5 blocks above ground level.\n\n=== Outriggers ===\nThere are two outriggers with robotic pivots to keep the trailer level when it is not being towed. These automatically pivot out of the way when the electric connector is connected. \n\n=== Logic ===\nThe trailer can be controlled through its electric connector. Numeric channel 1 controls the brakes. As for the boolean channels:\n\n# Left turn signal\n# Right turn signal\n# Brake lights\n# Reverse lights\n# Marker lights\n\n== See also ==\n* [[Shipping container]]\n\n== Patch history ==\n\n=== [[V1.14.3]] ===\n* Feature - New Trailer preset\n\n=== [[V1.13.2]] ===\n* Feature - #25481 Trailer cargo missions",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Trailer",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1840,
+    "revision_id": 4556,
+    "revision_timestamp": "2025-07-27T23:37:19Z",
+    "retrieved_at": "2026-08-31T10:05:26+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

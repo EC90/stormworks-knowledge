@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Windows",
+  "display_title": "Gameplay/Workbench/Components/Windows",
+  "summary": "Function\nWindows in Stormworks as very much like in real life, partially transparent. Though windows in-game have a border around the glass panel suggesting that they are supported by this part.\nWindows are Airtight (and also watertight) meaning that they block the passage of water or other fluids even under extreme pressure.\nWindows also cannot be damaged by said pressure, and also behaves like other basic building components.\nUnless they are modified by XML modification.\nTypes\nThe windows are partially modular, in the way that are multiple different shapes and sizes to the component, Includi",
+  "categories": [],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Function",
+      "anchor": "Function"
+    },
+    {
+      "level": 2,
+      "title": "Types",
+      "anchor": "Types"
+    },
+    {
+      "level": 2,
+      "title": "Painting",
+      "anchor": "Painting"
+    },
+    {
+      "level": 2,
+      "title": "List of all window types",
+      "anchor": "List_of_all_window_types"
+    }
+  ],
+  "internal_links": [],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "## Function\n\nWindows in Stormworks as very much like in real life, partially transparent. Though windows in-game have a border around the glass panel suggesting that they are supported by this part.\n\nWindows are Airtight (and also watertight) meaning that they block the passage of water or other fluids even under extreme pressure.\n\nWindows also cannot be damaged by said pressure, and also behaves like other basic building components. **Unless they are modified by XML modification.**\n\n## Types\n\nThe windows are partially modular, in the way that are multiple different shapes and sizes to the component, Including 1x1, 1x2, 1x3, 2x2, 2x3 and so on up to 3x3 (maximum size of the length and height, or X for character 1 and Y for character 2).\n\nAngled Modules also exist in-game ,adding a new dimension, Depth , including but not limited to, 1x1x1, 2x1x1, 3x1x1, (First letter being Width, Second is height, and last being depth, or X for character 1, Y for character 2, Z for character 3).\n\n## Painting\n\nThere are two painting zones, Including one on the inside and on the outside. Very simple.\n\n## List of all window types\n\nPlaceholder",
+    "plain_text": "Function\nWindows in Stormworks as very much like in real life, partially transparent. Though windows in-game have a border around the glass panel suggesting that they are supported by this part.\nWindows are Airtight (and also watertight) meaning that they block the passage of water or other fluids even under extreme pressure.\nWindows also cannot be damaged by said pressure, and also behaves like other basic building components.\nUnless they are modified by XML modification.\nTypes\nThe windows are partially modular, in the way that are multiple different shapes and sizes to the component, Including 1x1, 1x2, 1x3, 2x2, 2x3 and so on up to 3x3 (maximum size of the length and height, or X for character 1 and Y for character 2).\nAngled Modules also exist in-game ,adding a new dimension, Depth , including but not limited to, 1x1x1, 2x1x1, 3x1x1, (First letter being Width, Second is height, and last being depth, or X for character 1, Y for character 2, Z for character 3).\nPainting\nThere are two painting\nzones,\nIncluding one on the inside and on the outside. Very simple.\nList of all window types\nPlaceholder",
+    "char_count": 1140,
+    "word_count": 190,
+    "sha256": "1fc956b36fc04c2ddfcaf857c0b9c2b9935ea206b449a94d9dfd5bd20a926120"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Windows",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1616,
+    "revision_id": 4197,
+    "revision_timestamp": "2025-05-14T02:40:56Z",
+    "retrieved_at": "2026-08-30T15:13:24+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

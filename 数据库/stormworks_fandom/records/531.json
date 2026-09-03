@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Trains",
+  "display_title": "Trains",
+  "summary": "Alias for Wiki/Vehicles/Land/Train",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Vehicles/Land/Train"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Trains -> Wiki/Vehicles/Land/Train",
+    "plain_text": "Redirect: Trains -> Wiki/Vehicles/Land/Train",
+    "char_count": 44,
+    "word_count": 4,
+    "sha256": "1e43b79a9499bd5533dcae8916ec04ae19c741de9332967d7fc26f0519bae513"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Vehicles/Land/Train",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Vehicles/Land/Train",
+    "target_page_id": 586,
+    "target_revision_id": 3582
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Trains",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 531,
+    "revision_id": 1366,
+    "revision_timestamp": "2019-03-16T18:12:12Z",
+    "retrieved_at": "2026-08-31T10:05:27+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

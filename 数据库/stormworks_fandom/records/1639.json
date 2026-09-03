@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "For Contributors",
+  "display_title": "For Contributors",
+  "summary": "Welcome!\n and\nThank you!\n for all players who contribute for this wiki",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Sensor_components",
+    "Stubs"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Simple Tutorial",
+      "anchor": "Simple_Tutorial"
+    },
+    {
+      "level": 2,
+      "title": "Useful templates and guides",
+      "anchor": "Useful_templates_and_guides"
+    },
+    {
+      "level": 3,
+      "title": "Templates",
+      "anchor": "Templates"
+    },
+    {
+      "level": 3,
+      "title": "Category",
+      "anchor": "Category"
+    }
+  ],
+  "internal_links": [],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/For_Contributors?action=edit)."
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "caption": null,
+      "classes": [
+        "mw-collapsible",
+        "mw-collapsed"
+      ],
+      "rows": [
+        [
+          "Frequent Used Template Navigation"
+        ],
+        [
+          "Box Template",
+          "Reminder Box",
+          "[Stub](https://stormworks.fandom.com/wiki/Template:Stub)●[Outdated](https://stormworks.fandom.com/wiki/Template:Outdated)●[Deprecated](https://stormworks.fandom.com/wiki/Template:Delete)●[Merge](https://stormworks.fandom.com/wiki/Template:Merge)●[Move](https://stormworks.fandom.com/wiki/Template:Move)●[Cleanup](https://stormworks.fandom.com/wiki/Template:Cleanup)"
+        ],
+        [
+          "Visual Box",
+          "WIP"
+        ],
+        [
+          "List Template",
+          "For Contributors",
+          "[Template Navigation](https://stormworks.fandom.com/wiki/Template:Template_nav)●Category Navigation●Useful Links"
+        ],
+        [
+          "Wait for extend",
+          "WIP"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/For_Contributors?action=edit). |\n| --- | --- |\n\n**Welcome!** and **Thank you!** for all players who contribute for this wiki\n\n## Simple Tutorial\n\nYou can directly click edit, and using visual editor to add information into it\n\n## Useful templates and guides\n\nTip: It's recommended to use visual editor to edit rather than directly editing the source-code when possible.\n\n### Templates\n\nWe encourage players to use templates to create pages & to edit existing pages. By using templates, it increases the consistency across the wiki, increases speed of editing, and reduces the effort put into tasks that have already been completed prior.\n\n| Frequent Used Template Navigation |  |  |\n| --- | --- | --- |\n| Box Template | Reminder Box | [Stub](https://stormworks.fandom.com/wiki/Template:Stub)●[Outdated](https://stormworks.fandom.com/wiki/Template:Outdated)●[Deprecated](https://stormworks.fandom.com/wiki/Template:Delete)●[Merge](https://stormworks.fandom.com/wiki/Template:Merge)●[Move](https://stormworks.fandom.com/wiki/Template:Move)●[Cleanup](https://stormworks.fandom.com/wiki/Template:Cleanup) |\n| Visual Box | WIP |  |\n| List Template | For Contributors | [Template Navigation](https://stormworks.fandom.com/wiki/Template:Template_nav)●Category Navigation●Useful Links |\n| Wait for extend | WIP |  |\n\n**See More** on [template menu](https://stormworks.fandom.com/wiki/Category:Templates)\n\n### Category\n\nAdding category can bring 2 major benefit to players:\n\n1. Remind Readers what they are reading about\n2. Remind Contributors to edit\n\n**See More** on [catagory menu](https://stormworks.fandom.com/wiki/Special:Categories)",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nWelcome!\n and\nThank you!\n for all players who contribute for this wiki\n\nSimple Tutorial\n\nYou can directly click edit, and using visual editor to add information into it\n\nUseful templates and guides\n\nTip: It's recommended to use visual editor to edit rather than directly editing the source-code when possible.\n\nTemplates\n\nWe encourage players to use templates to create pages & to edit existing pages. By using templates, it increases the consistency across the wiki, increases speed of editing, and reduces the effort put into tasks that have already been completed prior.\n\nFrequent Used Template Navigation\n\nBox Template\n\nReminder Box\n\nStub\n●\nOutdated\n●\nDeprecated\n●\nMerge\n●\nMove\n●\nCleanup\n\nVisual Box\n\nWIP\n\nList Template\n\nFor Contributors\n\nTemplate Navigation\n●\nCategory Navigation\n●\nUseful Links\n\nWait for extend\n\nWIP\n\nSee More\n on\ntemplate menu\n\nCategory\n\nAdding category can bring 2 major benefit to players:\n\nRemind Readers what they are reading about\n\nRemind Contributors to edit\n\nSee More\n on\ncatagory menu",
+    "char_count": 2049,
+    "word_count": 166,
+    "sha256": "c4459e86124226267ea4bac12b7f8185898ff5cc93aad253d53ed3708f085779"
+  },
+  "wikitext": "{{Stub}}'''Welcome!''' and '''Thank you!''' for all players who contribute for this wiki\n\n== Simple Tutorial ==\nYou can directly click edit, and using visual editor to add information into it\n\n== Useful templates and guides ==\nTip: It's recommended to use visual editor to edit rather than directly editing the source-code when possible.\n\n=== Templates ===\nWe encourage players to use templates to create pages & to edit existing pages. By using templates, it increases the consistency across the wiki, increases speed of editing, and reduces the effort put into tasks that have already been completed prior.\n\n{{Template nav}}\n\n'''See More''' on [[:Category:Templates|template menu]]\n=== Category ===\nAdding category can bring 2 major benefit to players:\n\n# Remind Readers what they are reading about\n# Remind Contributors to edit\n\n'''See More''' on [[Special:Categories|catagory menu]]\n[[Category: Sensor components]]",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/For_Contributors",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1639,
+    "revision_id": 4265,
+    "revision_timestamp": "2025-05-14T07:20:38Z",
+    "retrieved_at": "2026-08-31T10:02:02+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

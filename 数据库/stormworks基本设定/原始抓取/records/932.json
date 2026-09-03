@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Mechanics/Wheels",
+  "display_title": "Gameplay/Mechanics/Wheels",
+  "summary": "Wheels\nThere are two types of wheels in the game (historically):\nThe old ones (Small Wheel & Medium Wheel) use different and more stable physics. They do not have any built in suspension.\nThe new wheels offer wheels with different sizes, each with or without suspension. Sometimes the wheels move even if the brakes are applied, sometimes they do not provide thrust (e.g. when rotated by 90°) or create momentum that lifts your vehicle (sometimes when you place wheels upside down like a reserve wheel).",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Wheels [ edit page ]",
+      "anchor": "Wheels_[_edit_page_]"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Mechanics"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "## Wheels\n\nThere are two types of wheels in the game (historically):\n\n- The old ones (Small Wheel & Medium Wheel) use different and more stable physics. They do not have any built in suspension.\n- The new wheels offer wheels with different sizes, each with or without suspension. Sometimes the wheels move even if the brakes are applied, sometimes they do not provide thrust (e.g. when rotated by 90°) or create momentum that lifts your vehicle (sometimes when you place wheels upside down like a reserve wheel).",
+    "plain_text": "Wheels\nThere are two types of wheels in the game (historically):\nThe old ones (Small Wheel & Medium Wheel) use different and more stable physics. They do not have any built in suspension.\nThe new wheels offer wheels with different sizes, each with or without suspension. Sometimes the wheels move even if the brakes are applied, sometimes they do not provide thrust (e.g. when rotated by 90°) or create momentum that lifts your vehicle (sometimes when you place wheels upside down like a reserve wheel).",
+    "char_count": 512,
+    "word_count": 85,
+    "sha256": "11d9774f96ede6088c2f6a5c91498c8a9671befecfee8491eb2720b6c3c779c5"
+  },
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Wheels",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 932,
+    "revision_id": 4259,
+    "revision_timestamp": "2025-05-14T06:15:45Z",
+    "retrieved_at": "2026-08-30T14:37:56+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

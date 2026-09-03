@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Weather Sensors Research",
+  "display_title": "Weather Sensors Research",
+  "summary": "Weather sensors is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Research",
+    "Sensors Research",
+    "Wiki/Building/Components/Sensors"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2a/Weathersensorsresearch.png/revision/latest?cb=20240421185120",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2a/Weathersensorsresearch.png/revision/latest?cb=20240421185120",
+      "alt": "Weathersensorsresearch",
+      "width": "46",
+      "height": "46"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Humidity Sensor"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Rain Sensor"
+        ],
+        [
+          "[Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors)",
+          "Wind Sensor"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Weather Sensors\n\n[![Weathersensorsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2a/Weathersensorsresearch.png/revision/latest?cb=20240421185120)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/2a/Weathersensorsresearch.png/revision/latest?cb=20240421185120)\n\n### Research Points\n\n14\n\n### Research Time\n\n0h 40m\n\n## Research Path\n\n### Unlocked by\n\n[Sensors](https://stormworks.fandom.com/wiki/Sensors_Research)\n\nWeather sensors is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Humidity Sensor |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Rain Sensor |\n| [Sensors](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sensors) | Wind Sensor |",
+    "plain_text": "Weather Sensors\n\nResearch Points\n\n14\n\nResearch Time\n\n0h 40m\n\nResearch Path\n\nUnlocked by\n\nSensors\n\nWeather sensors is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nSensors\n\nHumidity Sensor\n\nSensors\n\nRain Sensor\n\nSensors\n\nWind Sensor",
+    "char_count": 924,
+    "word_count": 36,
+    "sha256": "349ab010cc7853e089fefee6b50521356a396e97e17cf20855c797e2005512cc"
+  },
+  "wikitext": "{{Research\n  | name=Weather Sensors\n  | image=[File:Weathersensorsresearch.png]\n  | points=14\n  | time= 0h 40m\n  | unlock= [[Sensors Research|Sensors]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Weather sensors is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Humidity Sensor\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Rain Sensor\n|-\n|[[Wiki/Building/Components/Sensors|Sensors]]||Wind Sensor\n|}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Weather_Sensors_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1504,
+    "revision_id": 3807,
+    "revision_timestamp": "2024-04-21T18:51:45Z",
+    "retrieved_at": "2026-08-31T10:11:01+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

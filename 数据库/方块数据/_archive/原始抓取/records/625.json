@@ -1,0 +1,312 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Blocks",
+  "display_title": "Gameplay/Workbench/Components/Blocks",
+  "summary": "Blocks\nBlock\nThe basic block (a cube) you will use to build vehicles, side length 0.25 metres (1 unit). Has a mass of 1.\nWedge\nA basic building block for creating faces at a 45 degree angle to the axes. Has a mass of 0.5, takes up 1x1x1 units of space.\nWedge 1x2\nA basic building block for creating faces at a ~27 degree angle to the axes. Has a mass of 1, takes up 1x2x1 units of space.\nWedge 1x4\nA basic building block for creating faces at a ~14 degree angle to the axes. Has a mass of 2, takes up 1x4x1 units of space.\nInverse Pyramid\nA basic building block for creating faces at a 45 degree angl",
+  "categories": [
+    "Blocks",
+    "Rotor",
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Blocks [ edit page ]",
+      "anchor": "Blocks_[_edit_page_]"
+    },
+    {
+      "level": 1,
+      "title": "Windows",
+      "anchor": "Windows"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Workbench",
+    "Gameplay/Workbench/Components"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/34/Block.jpg/revision/latest?cb=20190317004603",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/34/Block.jpg/revision/latest/scale-to-width-down/100?cb=20190317004603",
+      "alt": "Block",
+      "width": "100",
+      "height": "95"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d7/Wedge.jpg/revision/latest?cb=20190317004805",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d7/Wedge.jpg/revision/latest/scale-to-width-down/100?cb=20190317004805",
+      "alt": "Wedge",
+      "width": "100",
+      "height": "108"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5c/Wedge_1x2.png/revision/latest?cb=20200129211706",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Wedge 1x2",
+      "width": "100",
+      "height": "94"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Wedge_1x4.png/revision/latest?cb=20200129211715",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Wedge 1x4",
+      "width": "100",
+      "height": "76"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cf/Inverse_Pyramid.jpg/revision/latest?cb=20190317004630",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Inverse Pyramid",
+      "width": "100",
+      "height": "110"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/69/Inverse_Pyramid_1x2.png/revision/latest?cb=20200129211803",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Inverse Pyramid 1x2",
+      "width": "100",
+      "height": "96"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/26/Inverse_Pyramid_1x4.png/revision/latest?cb=20200129211738",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Inverse Pyramid 1x4",
+      "width": "100",
+      "height": "96"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c7/Inverse_Pyramid_2x2.png/revision/latest?cb=20200129211815",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Inverse Pyramid 2x2",
+      "width": "100",
+      "height": "91"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/da/Inverse_Pyramid_2x4.png/revision/latest?cb=20200129211822",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Inverse Pyramid 2x4",
+      "width": "100",
+      "height": "75"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e5/Inverse_Pyramid_4x4.png/revision/latest?cb=20200129211838",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Inverse Pyramid 4x4",
+      "width": "100",
+      "height": "81"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d0/Pyramid.jpg/revision/latest?cb=20190317004731",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pyramid",
+      "width": "100",
+      "height": "120"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6a/Pyramid_1x2.png/revision/latest?cb=20200129211847",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pyramid 1x2",
+      "width": "100",
+      "height": "74"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0e/Pyramid_1x4.png/revision/latest?cb=20200129211854",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pyramid 1x4",
+      "width": "100",
+      "height": "61"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ea/Pyramid_2x2.png/revision/latest?cb=20200129211900",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pyramid 2x2",
+      "width": "100",
+      "height": "64"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/99/Pyramid_2x4.png/revision/latest?cb=20200129211908",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pyramid 2x4",
+      "width": "100",
+      "height": "60"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ef/Pyramid_4x4.png/revision/latest?cb=20200129211915",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Pyramid 4x4",
+      "width": "100",
+      "height": "45"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d8/Weight_Block.jpg/revision/latest?cb=20190317004816",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Weight Block",
+      "width": "100",
+      "height": "101"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d5/Stair_Step.jpg/revision/latest?cb=20190317004739",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Stair Step",
+      "width": "100",
+      "height": "83"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d6/Stair_Top.jpg/revision/latest?cb=20190317004827",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Stair Top",
+      "width": "100",
+      "height": "85"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b4/Handle.jpg/revision/latest?cb=20190317004618",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Handle",
+      "width": "100",
+      "height": "120"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e0/Ladder.jpg/revision/latest?cb=20190317004642",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Ladder",
+      "width": "100",
+      "height": "100"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/97/Window1x1.jpg/revision/latest?cb=20190317011651",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Window1x1",
+      "width": "100",
+      "height": "121"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0d/Window1x1_Wedge.jpg/revision/latest?cb=20190419115218",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Window1x1 Wedge",
+      "width": "100",
+      "height": "111"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c8/Window1x1_Pyramid.jpg/revision/latest?cb=20190419115232",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Window1x1 Pyramid",
+      "width": "100",
+      "height": "117"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a4/Window1x1_Inverted_Pyramid.jpg/revision/latest?cb=20190419115313",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Window1x1 Inverted Pyramid",
+      "width": "100",
+      "height": "102"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/38/Window2x1.jpg/revision/latest?cb=20190317011657",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Window2x1",
+      "width": "100",
+      "height": "161"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a1/Window2x2.jpg/revision/latest?cb=20190317011703",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Window2x2",
+      "width": "100",
+      "height": "118"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f6/Window3x2.jpg/revision/latest?cb=20190317011709",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Window3x2",
+      "width": "100",
+      "height": "156"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d4/Window_Large.jpg/revision/latest?cb=20190317011627",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Window Large",
+      "width": "100",
+      "height": "113"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a6/Window_Narrow.jpg/revision/latest?cb=20190317011638",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Window Narrow",
+      "width": "100",
+      "height": "190"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3e/Window_Large_Angled.jpg/revision/latest?cb=20190317011607",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Window Large Angled",
+      "width": "100",
+      "height": "110"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/93/Window_Narrow_Angled.jpg/revision/latest?cb=20190317011633",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Window Narrow Angled",
+      "width": "100",
+      "height": "146"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bf/Window_Large_Corner.jpg/revision/latest?cb=20190317011619",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Window Large Corner",
+      "width": "100",
+      "height": "95"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/55/Window_Small_Angled.jpg/revision/latest?cb=20190317011644",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Window Small Angled",
+      "width": "100",
+      "height": "90"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/96/Window_Corner.jpg/revision/latest?cb=20190317011549",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Window Corner",
+      "width": "100",
+      "height": "144"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/93/Porthole_Small.jpg/revision/latest?cb=20190317011534",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Porthole Small",
+      "width": "100",
+      "height": "110"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ac/Porthole.jpg/revision/latest?cb=20190317011542",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Porthole",
+      "width": "100",
+      "height": "133"
+    }
+  ],
+  "tables": [],
+  "content": {
+    "markdown": "## Blocks\n\nBlock\n\n[![Block](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/34/Block.jpg/revision/latest/scale-to-width-down/100?cb=20190317004603)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/34/Block.jpg/revision/latest?cb=20190317004603)\n\nThe basic block (a cube) you will use to build vehicles, side length 0.25 metres (1 unit). Has a mass of 1.\n\nWedge\n\n[![Wedge](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d7/Wedge.jpg/revision/latest/scale-to-width-down/100?cb=20190317004805)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d7/Wedge.jpg/revision/latest?cb=20190317004805)\n\nA basic building block for creating faces at a 45 degree angle to the axes. Has a mass of 0.5, takes up 1x1x1 units of space.\n\nWedge 1x2\n\n[![Wedge 1x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/5c/Wedge_1x2.png/revision/latest?cb=20200129211706)\n\nA basic building block for creating faces at a ~27 degree angle to the axes. Has a mass of 1, takes up 1x2x1 units of space.\n\nWedge 1x4\n\n[![Wedge 1x4](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/8/80/Wedge_1x4.png/revision/latest?cb=20200129211715)\n\nA basic building block for creating faces at a ~14 degree angle to the axes. Has a mass of 2, takes up 1x4x1 units of space.\n\nInverse Pyramid\n\n[![Inverse Pyramid](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/cf/Inverse_Pyramid.jpg/revision/latest?cb=20190317004630)\n\nA basic building block for creating faces at a 45 degree angle in two directions. Has a mass of 0.75, takes up 1x1x1 units of space.\n\nInverse Pyramid 1x2\n\n[![Inverse Pyramid 1x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/69/Inverse_Pyramid_1x2.png/revision/latest?cb=20200129211803)\n\nA basic building block for creating faces in two directions. Has a mass of 2, takes up 1x2x1 units of space.\n\nInverse Pyramid 1x4\n\n[![Inverse Pyramid 1x4](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/2/26/Inverse_Pyramid_1x4.png/revision/latest?cb=20200129211738)\n\nA basic building block for creating faces in two directions. Has a mass of 3, takes up 1x4x1 units of space.\n\nInverse Pyramid 2x2\n\n[![Inverse Pyramid 2x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c7/Inverse_Pyramid_2x2.png/revision/latest?cb=20200129211815)\n\nA basic building block for creating faces in two directions. Has a mass of 3, takes up 2x2x1 units of space.\n\nInverse Pyramid 2x4\n\n[![Inverse Pyramid 2x4](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/da/Inverse_Pyramid_2x4.png/revision/latest?cb=20200129211822)\n\nA basic building block for creating faces in two directions. Has a mass of 6, takes up 2x4x1 units of space.\n\nInverse Pyramid 4x4\n\n[![Inverse Pyramid 4x4](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e5/Inverse_Pyramid_4x4.png/revision/latest?cb=20200129211838)\n\nA basic building block for creating faces in two directions. Has a mass of 12, takes up 4x4x1 units of space.\n\nPyramid\n\n[![Pyramid](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d0/Pyramid.jpg/revision/latest?cb=20190317004731)\n\nA basic building block for creating faces at a 45 degree angle in two directions. Has a mass of 0.25, takes up 1x1x1 units of space.\n\nPyramid 1x2\n\n[![Pyramid 1x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6a/Pyramid_1x2.png/revision/latest?cb=20200129211847)\n\nA basic building block for creating faces in two directions. Has a mass of 0.5, takes up 1x2x1 units of space.\n\nPyramid 1x4\n\n[![Pyramid 1x4](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0e/Pyramid_1x4.png/revision/latest?cb=20200129211854)\n\nA basic building block for creating faces in two directions. Has a mass of 1, takes up 1x4x1 units of space.\n\nPyramid 2x2\n\n[![Pyramid 2x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ea/Pyramid_2x2.png/revision/latest?cb=20200129211900)\n\nA basic building block for creating faces in two directions. Has a mass of 1, takes up 2x2x1 units of space.\n\nPyramid 2x4\n\n[![Pyramid 2x4](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/99/Pyramid_2x4.png/revision/latest?cb=20200129211908)\n\nA basic building block for creating faces in two directions. Has a mass of 2, takes up 2x4x1 units of space.\n\nPyramid 4x4\n\n[![Pyramid 4x4](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ef/Pyramid_4x4.png/revision/latest?cb=20200129211915)\n\nA basic building block for creating faces in two directions. Has a mass of 4, takes up 4x4x1 units of space.\n\nWeight Block\n\n[![Weight Block](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d8/Weight_Block.jpg/revision/latest?cb=20190317004816)\n\nA version of the regular building block with ten times the mass. Takes up 1x1x1 units of space.\n\nStair Step\n\n[![Stair Step](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d5/Stair_Step.jpg/revision/latest?cb=20190317004739)\n\nStair Top\n\n[![Stair Top](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d6/Stair_Top.jpg/revision/latest?cb=20190317004827)\n\nHandle\n\n[![Handle](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/b4/Handle.jpg/revision/latest?cb=20190317004618)\n\nA player can grab this and pull the vehicle.\n\nLadder\n\n[![Ladder](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e0/Ladder.jpg/revision/latest?cb=20190317004642)\n\nCombine at least 2 of them to use as a ladder. There can be a space of 1 block inbetween them and they will still work as 1 ladder.\n\n# Windows\n\nWindow 1x1\n\n[![Window1x1](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/97/Window1x1.jpg/revision/latest?cb=20190317011651)\n\nWindow 1x1 Wedge\n\n[![Window1x1 Wedge](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/0d/Window1x1_Wedge.jpg/revision/latest?cb=20190419115218)\n\nWindow 1x1 Pyramid\n\n[![Window1x1 Pyramid](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/c/c8/Window1x1_Pyramid.jpg/revision/latest?cb=20190419115232)\n\nWindow 1x1 Inverted Pyramid\n\n[![Window1x1 Inverted Pyramid](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a4/Window1x1_Inverted_Pyramid.jpg/revision/latest?cb=20190419115313)\n\nWindow 2x1\n\n[![Window2x1](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/38/Window2x1.jpg/revision/latest?cb=20190317011657)\n\nWindow 2x2\n\n[![Window2x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a1/Window2x2.jpg/revision/latest?cb=20190317011703)\n\nWindow 3x2\n\n[![Window3x2](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f6/Window3x2.jpg/revision/latest?cb=20190317011709)\n\nWindow Large (3x3)\n\n[![Window Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/d4/Window_Large.jpg/revision/latest?cb=20190317011627)\n\nWindow Narrow (1x3)\n\n[![Window Narrow](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a6/Window_Narrow.jpg/revision/latest?cb=20190317011638)\n\nWindow Large Angled\n\n[![Window Large Angled](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/3/3e/Window_Large_Angled.jpg/revision/latest?cb=20190317011607)\n\nWindow Narrow Angled\n\n[![Window Narrow Angled](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/93/Window_Narrow_Angled.jpg/revision/latest?cb=20190317011633)\n\nWindow Large Corner\n\n[![Window Large Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/b/bf/Window_Large_Corner.jpg/revision/latest?cb=20190317011619)\n\nWindow Small Angled\n\n[![Window Small Angled](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/5/55/Window_Small_Angled.jpg/revision/latest?cb=20190317011644)\n\nWindow Corner\n\n[![Window Corner](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/96/Window_Corner.jpg/revision/latest?cb=20190317011549)\n\nPorthole Small\n\n[![Porthole Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/93/Porthole_Small.jpg/revision/latest?cb=20190317011534)\n\nPorthole\n\n[![Porthole](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ac/Porthole.jpg/revision/latest?cb=20190317011542)",
+    "plain_text": "Blocks\nBlock\nThe basic block (a cube) you will use to build vehicles, side length 0.25 metres (1 unit). Has a mass of 1.\nWedge\nA basic building block for creating faces at a 45 degree angle to the axes. Has a mass of 0.5, takes up 1x1x1 units of space.\nWedge 1x2\nA basic building block for creating faces at a ~27 degree angle to the axes. Has a mass of 1, takes up 1x2x1 units of space.\nWedge 1x4\nA basic building block for creating faces at a ~14 degree angle to the axes. Has a mass of 2, takes up 1x4x1 units of space.\nInverse Pyramid\nA basic building block for creating faces at a 45 degree angle in two directions. Has a mass of 0.75, takes up 1x1x1 units of space.\nInverse Pyramid 1x2\nA basic building block for creating faces in two directions. Has a mass of 2, takes up 1x2x1 units of space.\nInverse Pyramid 1x4\nA basic building block for creating faces in two directions. Has a mass of 3, takes up 1x4x1 units of space.\nInverse Pyramid 2x2\nA basic building block for creating faces in two directions. Has a mass of 3, takes up 2x2x1 units of space.\nInverse Pyramid 2x4\nA basic building block for creating faces in two directions. Has a mass of 6, takes up 2x4x1 units of space.\nInverse Pyramid 4x4\nA basic building block for creating faces in two directions. Has a mass of 12, takes up 4x4x1 units of space.\nPyramid\nA basic building block for creating faces at a 45 degree angle in two directions. Has a mass of 0.25, takes up 1x1x1 units of space.\nPyramid 1x2\nA basic building block for creating faces in two directions. Has a mass of 0.5, takes up 1x2x1 units of space.\nPyramid 1x4\nA basic building block for creating faces in two directions. Has a mass of 1, takes up 1x4x1 units of space.\nPyramid 2x2\nA basic building block for creating faces in two directions. Has a mass of 1, takes up 2x2x1 units of space.\nPyramid 2x4\nA basic building block for creating faces in two directions. Has a mass of 2, takes up 2x4x1 units of space.\nPyramid 4x4\nA basic building block for creating faces in two directions. Has a mass of 4, takes up 4x4x1 units of space.\nWeight Block\nA version of the regular building block with ten times the mass. Takes up 1x1x1 units of space.\nStair Step\nStair Top\nHandle\nA player can grab this and pull the vehicle.\nLadder\nCombine at least 2 of them to use as a ladder. There can be a space of 1 block inbetween them and they will still work as 1 ladder.\nWindows\nWindow 1x1\nWindow 1x1 Wedge\nWindow 1x1 Pyramid\nWindow 1x1 Inverted Pyramid\nWindow 2x1\nWindow 2x2\nWindow 3x2\nWindow Large (3x3)\nWindow Narrow (1x3)\nWindow Large Angled\nWindow Narrow Angled\nWindow Large Corner\nWindow Small Angled\nWindow Corner\nPorthole Small\nPorthole",
+    "char_count": 11357,
+    "word_count": 508,
+    "sha256": "716c9b3c694de39fbdc33b08b52d0874e07e2234ed7836753161d3727aad5494"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Blocks",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 625,
+    "revision_id": 4700,
+    "revision_timestamp": "2026-02-13T18:26:45Z",
+    "retrieved_at": "2026-08-30T15:12:43+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

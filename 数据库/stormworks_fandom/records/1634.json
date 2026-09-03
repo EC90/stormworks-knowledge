@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Mod",
+  "display_title": "Mod",
+  "summary": "Typical mod for Stormworks(Thales' Aviation Parts and Block Overhaul)",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [
+    {
+      "level": 2,
+      "title": "General Info",
+      "anchor": "General_Info"
+    },
+    {
+      "level": 2,
+      "title": "History",
+      "anchor": "History"
+    },
+    {
+      "level": 2,
+      "title": "Instruction(For Latest)",
+      "anchor": "Instruction(For_Latest)"
+    },
+    {
+      "level": 2,
+      "title": "Warning",
+      "anchor": "Warning"
+    }
+  ],
+  "internal_links": [
+    "Addons"
+  ],
+  "external_links": [
+    "https://github.com/Lewinator56/StormLoader/releases",
+    "https://steamcommunity.com/app/573090/workshop/"
+  ],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/04/Asset_mod_demo%28Thales%27_Aviation_Parts_and_Block_Overhaul%29.png/revision/latest?cb=20250513033005",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/04/Asset_mod_demo%28Thales%27_Aviation_Parts_and_Block_Overhaul%29.png/revision/latest/scale-to-width-down/236?cb=20250513033005",
+      "alt": "Typical mod for Stormworks(Thales' Aviation Parts and Block Overhaul)",
+      "width": "236",
+      "height": "235"
+    }
+  ],
+  "tables": [],
+  "content": {
+    "markdown": "[![Typical mod for Stormworks(Thales' Aviation Parts and Block Overhaul)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/04/Asset_mod_demo%28Thales%27_Aviation_Parts_and_Block_Overhaul%29.png/revision/latest/scale-to-width-down/236?cb=20250513033005)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/04/Asset_mod_demo%28Thales%27_Aviation_Parts_and_Block_Overhaul%29.png/revision/latest?cb=20250513033005)\n\n[https://stormworks.fandom.com/wiki/File:Asset_mod_demo(Thales%27_Aviation_Parts_and_Block_Overhaul).png](https://stormworks.fandom.com/wiki/File:Asset_mod_demo(Thales%27_Aviation_Parts_and_Block_Overhaul).png)\n\nTypical mod for Stormworks(Thales' Aviation Parts and Block Overhaul)\n\n**Mod** is a type of modification for Stormworks, Which allows player to enhance the freedom of gameplay.\n\n## General Info\n\nUnlike Environment, Mission, and Vehicle Addons, Mods are based on files and modules aside from stock modules for bringing different parts and sound effects, which offer a higher variety to vehicle creation and provide a better game experience.\n\nAsset mod can provide new parts, replacing the sound or smoke effect and even changing the terrain\n\n## History\n\nBefore the update, the major way to install asset mods was to download the mod pack from the internet and install it using [Stormloader](https://github.com/Lewinator56/StormLoader/releases). This required complex operations and may not be friendly for novices. Another limitation is that turning on or off those mods is hard.\n\nFor the v1.13.0 update, the asset mod installation is currently available for players to install mods via the [Steam Community Workshop](https://steamcommunity.com/app/573090/workshop/). Players can freely turn on or off these mods according to their preference.\n\n## Instruction(For Latest)\n\nYou can use [Steam Community Workshop](https://steamcommunity.com/app/573090/workshop/) to install a mod\n\n## Warning\n\nIf you try to load a vehicle without installing the necessary mods, the mod parts cannot be loaded, which may cause the vehicle to function improperly.",
+    "plain_text": "Typical mod for Stormworks(Thales' Aviation Parts and Block Overhaul)\n\nMod\n is a type of modification for Stormworks, Which allows player to enhance the freedom of gameplay.\n\nGeneral Info\n\nUnlike Environment, Mission, and Vehicle\nAddons\n, Mods are based on files and modules aside from stock modules for bringing different parts and sound effects, which offer a higher variety to vehicle creation and provide a better game experience.\n\nAsset mod can provide new parts, replacing the sound or smoke effect and even changing the terrain\n\nHistory\n\nBefore the update, the major way to install asset mods was to download the mod pack from the internet and install it using\nStormloader\n. This required complex operations and may not be friendly for novices. Another limitation is that turning on or off those mods is hard.\n\nFor the v1.13.0 update, the asset mod installation is currently available for players to install mods via the\nSteam Community Workshop\n. Players can freely turn on or off these mods according to their preference.\n\nInstruction(For Latest)\n\nYou can use\nSteam Community Workshop\n to install a mod\n\nWarning\n\nIf you try to load a vehicle without installing the necessary mods, the mod parts cannot be loaded, which may cause the vehicle to function improperly.",
+    "char_count": 2099,
+    "word_count": 208,
+    "sha256": "c417e9b4af3d6662d1171e8900b89be0b86e8d9285d2b9497fbccfbe6a421e98"
+  },
+  "wikitext": "[[File:Asset_mod_demo(Thales'_Aviation_Parts_and_Block_Overhaul).png|thumb|236x236px|Typical mod for Stormworks(Thales' Aviation Parts and Block Overhaul)]]\n'''Mod''' is a type of modification for Stormworks, Which allows player to enhance the freedom of gameplay.\n\n== General Info ==\nUnlike Environment, Mission, and Vehicle [[Addons]], Mods are based on files and modules aside from stock modules for bringing different parts and sound effects, which offer a higher variety to vehicle creation and provide a better game experience.\n\nAsset mod can provide new parts, replacing the sound or smoke effect and even changing the terrain\n\n== History ==\nBefore the update, the major way to install asset mods was to download the mod pack from the internet and install it using [https://github.com/Lewinator56/StormLoader/releases Stormloader]. This required complex operations and may not be friendly for novices. Another limitation is that turning on or off those mods is hard.\n\nFor the v1.13.0 update, the asset mod installation is currently available for players to install mods via the [https://steamcommunity.com/app/573090/workshop/ Steam Community Workshop]. Players can freely turn on or off these mods according to their preference.\n\n== Instruction(For Latest) ==\nYou can use [https://steamcommunity.com/app/573090/workshop/ Steam Community Workshop] to install a mod\n\n== Warning ==\nIf you try to load a vehicle without installing the necessary mods, the mod parts cannot be loaded, which may cause the vehicle to function improperly.",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Mod",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1634,
+    "revision_id": 4078,
+    "revision_timestamp": "2025-05-13T05:51:03Z",
+    "retrieved_at": "2026-08-31T10:04:16+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Flare Launcher",
+  "display_title": "Flare Launcher",
+  "summary": "Flare Launchers are vehicle-mounted systems to deploy flares. They are one-time-use and cannot be reloaded, though\nhardpoints\n can be used to create disposable flare pods which can be replaced like any other ordnance.",
+  "template": "Infobox component",
+  "attributes": {
+    "Name": "Flare Launcher",
+    "Image": "200px",
+    "Mass": "1",
+    "Dimensions": "1×1×1",
+    "Cost": "$10",
+    "Logic inputs": "Boolean (Launch)",
+    "Logic outputs": "Boolean (Launch passthrough)",
+    "Connections": "None (No power required)"
+  },
+  "attributes_markdown": "## Specifications\n\n| Field | Value |\n| --- | --- |\n| Name | Flare Launcher |\n| Image | 200px |\n| Mass | 1 |\n| Dimensions | 1×1×1 |\n| Cost | $10 |\n| Logic inputs | Boolean (Launch) |\n| Logic outputs | Boolean (Launch passthrough) |\n| Connections | None (No power required) |",
+  "categories": [
+    "Components"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Flare types",
+      "anchor": "Flare_types"
+    },
+    {
+      "level": 2,
+      "title": "Logic",
+      "anchor": "Logic"
+    }
+  ],
+  "internal_links": [
+    "Hardpoint",
+    "Infrared mode",
+    "Radar",
+    "Wiki/Building/Components/Video/Cameras"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Flare Launchers are vehicle-mounted systems to deploy flares. They are one-time-use and cannot be reloaded, though [hardpoints](https://stormworks.fandom.com/wiki/Hardpoint) can be used to create disposable flare pods which can be replaced like any other ordnance.\n\nDeployed flares last for three minutes. They can be picked up by hand without injury and do not risk igniting vehicles.\n\nFlares can be used for illumination during nighttime search-and-rescue operations (e.g. when trying to find stranded swimmers). They can also be used for signalling, providing a way for vehicles to report their position.\n\n[Infrared](https://stormworks.fandom.com/wiki/Infrared_mode) flares can be used to provide illumination for infrared [cameras](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Video/Cameras). These flares have about 1/4 the normal visible illumination, but still retain full visibility in infrared.\n\n## Flare types\n\n- Illumination: Provides bright illumination over a wide area but quickly falls to the ground. Can be used for signalling, including alerting rescuers to your location.\n\n- Smoke: Provides some illumination and creates a billowing cloud of smoke. Can be used by aircraft to mark ground locations for rescuers to go to, as the smoke can be seen over terrain obstacles.\n\n- Illumination parachute: Like an illumination flare, but falls slowly, providing good area lighting for a while. Excellent source of illumination for nighttime search-and-rescue operations (e.g. when trying to find stranded swimmers), especially as several can be spread over a wide area.\n\n- Smoke parachute: Like the smoke flare but falls slowly. Largely decorative use, though can be used as a crude wind gauge.\n\n- Chaff: Looks like a faintly sparkling cloud. Can be detected by [radar](https://stormworks.fandom.com/wiki/Radar), and if it is closer than the vehicle it was launched from, it will appear as the first target, potentially causing missiles to go off course and auto-turrets to aim into the air. Unlike the other options, chaff clouds only last about six seconds.\n\n## Logic\n\nFlares will launch when they receive an 'on' signal. They can be daisy-chained by connecting the launch passthrough output to the next flare launcher. When an empty flare launcher receives an 'on' signal, its launch passthrough will be set to on to launch the next flare. A blinker can be used to cause repeated flare launches, such as if sustained chaff is required.",
+    "plain_text": "Flare Launchers are vehicle-mounted systems to deploy flares. They are one-time-use and cannot be reloaded, though\nhardpoints\n can be used to create disposable flare pods which can be replaced like any other ordnance.\n\nDeployed flares last for three minutes. They can be picked up by hand without injury and do not risk igniting vehicles.\n\nFlares can be used for illumination during nighttime search-and-rescue operations (e.g. when trying to find stranded swimmers). They can also be used for signalling, providing a way for vehicles to report their position.\n\nInfrared\n flares can be used to provide illumination for infrared\ncameras\n. These flares have about 1/4 the normal visible illumination, but still retain full visibility in infrared.\n\nFlare types\n\nIllumination: Provides bright illumination over a wide area but quickly falls to the ground. Can be used for signalling, including alerting rescuers to your location.\n\nSmoke: Provides some illumination and creates a billowing cloud of smoke. Can be used by aircraft to mark ground locations for rescuers to go to, as the smoke can be seen over terrain obstacles.\n\nIllumination parachute: Like an illumination flare, but falls slowly, providing good area lighting for a while. Excellent source of illumination for nighttime search-and-rescue operations (e.g. when trying to find stranded swimmers), especially as several can be spread over a wide area.\n\nSmoke parachute: Like the smoke flare but falls slowly. Largely decorative use, though can be used as a crude wind gauge.\n\nChaff: Looks like a faintly sparkling cloud. Can be detected by\nradar\n, and if it is closer than the vehicle it was launched from, it will appear as the first target, potentially causing missiles to go off course and auto-turrets to aim into the air. Unlike the other options, chaff clouds only last about six seconds.\n\nLogic\n\nFlares will launch when they receive an 'on' signal. They can be daisy-chained by connecting the launch passthrough output to the next flare launcher. When an empty flare launcher receives an 'on' signal, its launch passthrough will be set to on to launch the next flare. A blinker can be used to cause repeated flare launches, such as if sustained chaff is required.",
+    "char_count": 2462,
+    "word_count": 369,
+    "sha256": "2169f4e2d610ef3f4c9ca04aafadd532ffe1728b36abd752ecedb9d86c8e215e"
+  },
+  "wikitext": "{{Infobox component\n|Name = Flare Launcher\n|Image = [[File:Flare_Launcher.png|200px]]\n|Prerequisite =\n|Mass = 1\n|Dimensions = 1×1×1\n|Cost = $10\n|Range = \n|Power = \n|Force = \n|Fluid capacity = \n|Electric charge =\n|Torque = \n|Logic inputs = Boolean (Launch)\n|Logic outputs = Boolean (Launch passthrough)\n|Connections = None (No power required)\n|Adjustable parameters = \n|Since version = \n}}\n\nFlare Launchers are vehicle-mounted systems to deploy flares. They are one-time-use and cannot be reloaded, though [[hardpoint]]s can be used to create disposable flare pods which can be replaced like any other ordnance.\n\nDeployed flares last for three minutes. They can be picked up by hand without injury and do not risk igniting vehicles.\n\nFlares can be used for illumination during nighttime search-and-rescue operations (e.g. when trying to find stranded swimmers). They can also be used for signalling, providing a way for vehicles to report their position.\n\n[[Infrared mode|Infrared]] flares can be used to provide illumination for infrared [[Wiki/Building/Components/Video/Cameras|camera]]s. These flares have about 1/4 the normal visible illumination, but still retain full visibility in infrared.\n\n== Flare types ==\n* Illumination: Provides bright illumination over a wide area but quickly falls to the ground. Can be used for signalling, including alerting rescuers to your location.\n\n* Smoke: Provides some illumination and creates a billowing cloud of smoke. Can be used by aircraft to mark ground locations for rescuers to go to, as the smoke can be seen over terrain obstacles.\n\n* Illumination parachute: Like an illumination flare, but falls slowly, providing good area lighting for a while. Excellent source of illumination for nighttime search-and-rescue operations (e.g. when trying to find stranded swimmers), especially as several can be spread over a wide area.\n\n* Smoke parachute: Like the smoke flare but falls slowly. Largely decorative use, though can be used as a crude wind gauge.\n\n* Chaff: Looks like a faintly sparkling cloud. Can be detected by [[radar]], and if it is closer than the vehicle it was launched from, it will appear as the first target, potentially causing missiles to go off course and auto-turrets to aim into the air. Unlike the other options, chaff clouds only last about six seconds.\n\n== Logic ==\nFlares will launch when they receive an 'on' signal. They can be daisy-chained by connecting the launch passthrough output to the next flare launcher. When an empty flare launcher receives an 'on' signal, its launch passthrough will be set to on to launch the next flare. A blinker can be used to cause repeated flare launches, such as if sustained chaff is required.",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Flare_Launcher",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1303,
+    "revision_id": 3104,
+    "revision_timestamp": "2022-02-18T02:55:11Z",
+    "retrieved_at": "2026-08-31T10:01:48+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

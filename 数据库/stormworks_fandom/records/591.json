@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Wiki",
+  "display_title": "Wiki",
+  "summary": "Welcome to the wiki!\nYou can learn more by clicking on a subpage bellow:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Wiki     [ edit page ]",
+      "anchor": "Wiki_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Subpages",
+      "anchor": "Subpages"
+    }
+  ],
+  "internal_links": [
+    "Wiki/",
+    "Wiki/Building",
+    "Wiki/Game Mechanics",
+    "Wiki/Gamemodes",
+    "Wiki/Guides",
+    "Wiki/Key Assignment",
+    "Wiki/Missions",
+    "Wiki/Multiplayer",
+    "Wiki/Other Stormworks Communities",
+    "Wiki/Standards",
+    "Wiki/Vehicles",
+    "Wiki/Workshop",
+    "Wiki/World"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Wiki?action=edit). |\n| --- | --- |\n\n## Wiki\n\nWelcome to the wiki! You can learn more by clicking on a subpage bellow:\n\n## Subpages\n\n[Gamemodes](https://stormworks.fandom.com/wiki/Wiki/Gamemodes) [Game Mechanics](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics) [World](https://stormworks.fandom.com/wiki/Wiki/World) [Building](https://stormworks.fandom.com/wiki/Wiki/Building) [Vehicles](https://stormworks.fandom.com/wiki/Wiki/Vehicles) [Missions](https://stormworks.fandom.com/wiki/Wiki/Missions) [Workshop](https://stormworks.fandom.com/wiki/Wiki/Workshop) [Multiplayer](https://stormworks.fandom.com/wiki/Wiki/Multiplayer) [Guides](https://stormworks.fandom.com/wiki/Wiki/Guides) [Standards](https://stormworks.fandom.com/wiki/Wiki/Standards) [Key Assignment](https://stormworks.fandom.com/wiki/Wiki/Key_Assignment) [Other Stormworks Communities](https://stormworks.fandom.com/wiki/Wiki/Other_Stormworks_Communities)\n\nDo you think a subpage is missing?",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nWiki\n\nWelcome to the wiki!\nYou can learn more by clicking on a subpage bellow:\n\nSubpages\n\n Gamemodes\n\n Game Mechanics\n\n World\n\n Building\n\n Vehicles\n\n Missions\n\n Workshop\n\n Multiplayer\n\n Guides\n\n Standards\n\n Key Assignment\n\n Other Stormworks Communities\n\nDo you think a subpage is missing?",
+    "char_count": 1382,
+    "word_count": 51,
+    "sha256": "64ad7ab977f20b15adc0d8007cdde2b987a352630547610795d22558318b856e"
+  },
+  "wikitext": "{{stub}}\n{{Wiki_Page | content=\n\nWelcome to the wiki!\nYou can learn more by clicking on a subpage bellow:\n\n{{Wiki_Page/subpages|Gamemodes|Game Mechanics|World|Building|Vehicles|Missions|Workshop|Multiplayer|Guides|Standards|Key Assignment|Other Stormworks Communities|||}}\n\n\n\n}}",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 591,
+    "revision_id": 3931,
+    "revision_timestamp": "2024-08-07T01:42:05Z",
+    "retrieved_at": "2026-08-31T10:11:02+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Stormworks",
+  "display_title": "Stormworks",
+  "summary": "Alias for Stormworks: Build and Rescue",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Stormworks: Build and Rescue"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Stormworks -> Stormworks: Build and Rescue",
+    "plain_text": "Redirect: Stormworks -> Stormworks: Build and Rescue",
+    "char_count": 52,
+    "word_count": 7,
+    "sha256": "fcc06bb94eeae674258e7f669bd75890c717835b57d5caf69cdf0a0bc4c3bd23"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Stormworks: Build and Rescue",
+    "target_url": "https://stormworks.fandom.com/wiki/Stormworks:_Build_and_Rescue",
+    "target_page_id": 266,
+    "target_revision_id": 4701
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Stormworks",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 301,
+    "revision_id": 387,
+    "revision_timestamp": "2018-05-02T14:19:56Z",
+    "retrieved_at": "2026-08-31T10:05:11+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

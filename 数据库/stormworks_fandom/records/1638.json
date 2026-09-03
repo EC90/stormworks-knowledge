@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay",
+  "display_title": "Gameplay",
+  "summary": "Stormworks\n is the game where you design and pilot your own sea-rescue service (military/industrial/space service with DLCs), in a rich and dramatic physics playground.\nSteer or fly your custom-designed, block based, programmable vehicles into fierce oceanic storms. Plan and execute thrilling rescues in a variety of challenging crisis scenarios.",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [
+    "Stubs"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Gamemodes",
+      "anchor": "Gamemodes"
+    },
+    {
+      "level": 2,
+      "title": "DLCs",
+      "anchor": "DLCs"
+    },
+    {
+      "level": 2,
+      "title": "Workshop",
+      "anchor": "Workshop"
+    },
+    {
+      "level": 2,
+      "title": "Vehicles",
+      "anchor": "Vehicles"
+    },
+    {
+      "level": 2,
+      "title": "Mechanism",
+      "anchor": "Mechanism"
+    },
+    {
+      "level": 2,
+      "title": "World",
+      "anchor": "World"
+    },
+    {
+      "level": 2,
+      "title": "Workbench",
+      "anchor": "Workbench"
+    },
+    {
+      "level": 2,
+      "title": "Multiplayer",
+      "anchor": "Multiplayer"
+    }
+  ],
+  "internal_links": [
+    "Gameplay/Gamemodes/Career",
+    "Gameplay/Gamemodes/Classic",
+    "Gameplay/Gamemodes/Custom",
+    "Gameplay/Mechanics",
+    "Gameplay/Multiplayer",
+    "Gameplay/Research",
+    "Gameplay/Workbench",
+    "Gameplay/World"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444",
+      "alt": "Stub",
+      "width": "64",
+      "height": "64"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [],
+      "rows": [
+        [
+          "[![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444)",
+          "*This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay?action=edit)."
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "| [![Stub](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest/scale-to-width-down/64?cb=20250514003444)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/f/f1/Stub_v1.png/revision/latest?cb=20250514003444) | *This article is a [stub](https://stormworks.fandom.com/wiki/Category:Stubs). *You can help Us by [expanding it](https://stormworks.fandom.com/wiki/Gameplay?action=edit). |\n| --- | --- |\n\n**Stormworks** is the game where you design and pilot your own sea-rescue service (military/industrial/space service with DLCs), in a rich and dramatic physics playground. Steer or fly your custom-designed, block based, programmable vehicles into fierce oceanic storms. Plan and execute thrilling rescues in a variety of challenging crisis scenarios.\n\n## Gamemodes\n\nEver since release of Stormworks, the game had 3 gamemodes, those being:\n\n1. [Career](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Career)\n\nA gamemode focused on earning money via delivering containers, completing missions and locating crates, then buying various hangars and making better vehicles with it.\n\n2. [Custom](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Custom)\n\nA gamemode allowing player to set their own limitations whether that'll be limited/unlimited money, electricity, fuel and ammo, natural disasters spawned by the player or some other mechanic to aid or hinder their gameplay.\n\n3. [Classic](https://stormworks.fandom.com/wiki/Gameplay/Gamemodes/Classic)\n\nA gamemode focused on earning money via delivering containers, completing missions and collecting crates, then buying various hangars and making better vehicles with it with additional \"[Research](https://stormworks.fandom.com/wiki/Gameplay/Research)\" mechanic that requires player to find crates and complete missions to receive \"Research points\" that can later be used to open a category of items.\n\n## DLCs\n\n## Workshop\n\n## Vehicles\n\nThere are 4 main types of vehicles a player can build, these include:\n\n1. Boats - Utility/Naval Vessels, Cruise Ships, etc.\n\n2. Cars - Trucks, Tanks, Exploration Vehicles, etc.\n\n3. Planes - Props/Turboprops, Jets, V/STOL Capable Aircrafts, etc.\n\n4. Helicopters - Rescue Helicopters, Helitankers, Delivery Helicopters, etc.\n\nAdditional types of vehicles do exist but are either mostly used for decorations, Custom mode dependent, are \"Proofs of concept\" or are multi-vehicles - combination of 1-4 main types of vehicles with possible additions (For example: Crane Arms).\n\n\"Proof of concept\" types of vehicles focus on showcasing capabilities of microcontrollers (For example: Trajectory Calculating HUDs/HMDs) or discovered glitches that can allow players achieve infinite electricity, high speeds, etc.\n\n## Mechanism\n\nThis game contains a complex mechanism to play, see more on [Mechanism](https://stormworks.fandom.com/wiki/Gameplay/Mechanics)\n\n## World\n\nSee more on World\n\n## Workbench\n\nWorkbench is the most common way you can build up and generate a vehicle\n\nThere are 2 types of Workbench\n\nSee more on [Workbench](https://stormworks.fandom.com/wiki/Gameplay/Workbench)\n\n## Multiplayer\n\nAlthough this gameplay is played in single-player by default, it supports multiplayer from clients for both hosting and joining multiplayer servers.\n\nFor detail, you can see [the main page](https://stormworks.fandom.com/wiki/Gameplay/Multiplayer) for more.",
+    "plain_text": "This article is a\nstub\n.\n\nYou can help Us by\nexpanding it\n.\n\nStormworks\n is the game where you design and pilot your own sea-rescue service (military/industrial/space service with DLCs), in a rich and dramatic physics playground.\nSteer or fly your custom-designed, block based, programmable vehicles into fierce oceanic storms. Plan and execute thrilling rescues in a variety of challenging crisis scenarios.\n\nGamemodes\n\nEver since release of Stormworks, the game had 3 gamemodes, those being:\n\n1.\nCareer\n\nA gamemode focused on earning money via delivering containers, completing missions and locating crates, then buying various hangars and making better vehicles with it.\n\n2.\nCustom\n\nA gamemode allowing player to set their own limitations whether that'll be limited/unlimited money, electricity, fuel and ammo, natural disasters spawned by the player or some other mechanic to aid or hinder their gameplay.\n\n3.\nClassic\n\nA gamemode focused on earning money via delivering containers, completing missions and collecting crates, then buying various hangars and making better vehicles with it with additional \"\nResearch\n\" mechanic that requires player to find crates and complete missions to receive \"Research points\" that can later be used to open a category of items.\n\nDLCs\n\nWorkshop\n\nVehicles\n\nThere are 4 main types of vehicles a player can build, these include:\n\n1. Boats - Utility/Naval Vessels, Cruise Ships, etc.\n\n2. Cars - Trucks, Tanks, Exploration Vehicles, etc.\n\n3. Planes - Props/Turboprops, Jets, V/STOL Capable Aircrafts, etc.\n\n4. Helicopters - Rescue Helicopters, Helitankers, Delivery Helicopters, etc.\n\nAdditional types of vehicles do exist but are either mostly used for decorations, Custom mode dependent, are \"Proofs of concept\" or are multi-vehicles - combination of 1-4 main types of vehicles with possible additions (For example: Crane Arms).\n\n\"Proof of concept\" types of vehicles focus on showcasing capabilities of microcontrollers (For example: Trajectory Calculating HUDs/HMDs) or discovered glitches that can allow players achieve infinite electricity, high speeds, etc.\n\nMechanism\n\nThis game contains a complex mechanism to play, see more on\nMechanism\n\nWorld\n\nSee more on\nWorld\n\nWorkbench\n\nWorkbench is the most common way you can build up and generate a vehicle\n\nThere are 2 types of Workbench\n\nSee more on\nWorkbench\n\nMultiplayer\n\nAlthough this gameplay is played in single-player by default, it supports multiplayer from clients for both hosting and joining multiplayer servers.\n\nFor detail, you can see\nthe main page\n for more.",
+    "char_count": 3403,
+    "word_count": 391,
+    "sha256": "a1d6aa9bac9f69048806a7edb512c3137c0fbbf6e2c9006ecc2e16091e2326c5"
+  },
+  "wikitext": "{{Stub}}'''Stormworks''' is the game where you design and pilot your own sea-rescue service (military/industrial/space service with DLCs), in a rich and dramatic physics playground.\nSteer or fly your custom-designed, block based, programmable vehicles into fierce oceanic storms. Plan and execute thrilling rescues in a variety of challenging crisis scenarios.\n== Gamemodes ==\n\nEver since release of Stormworks, the game had 3 gamemodes, those being:\n\n1. [[Gameplay/Gamemodes/Career|Career]]\n\nA gamemode focused on earning money via delivering containers, completing missions and locating crates, then buying various hangars and making better vehicles with it.\n\n2. [[Gameplay/Gamemodes/Custom|Custom]]\n\nA gamemode allowing player to set their own limitations whether that'll be limited/unlimited money, electricity, fuel and ammo, natural disasters spawned by the player or some other mechanic to aid or hinder their gameplay.\n\n3. [[Gameplay/Gamemodes/Classic|Classic]]\n\nA gamemode focused on earning money via delivering containers, completing missions and collecting crates, then buying various hangars and making better vehicles with it with additional \"[[Gameplay/Research|Research]]\" mechanic that requires player to find crates and complete missions to receive \"Research points\" that can later be used to open a category of items.\n== DLCs ==\n== Workshop ==\n== Vehicles ==\n\nThere are 4 main types of vehicles a player can build, these include:\n\n1. Boats - Utility/Naval Vessels, Cruise Ships, etc.\n\n2. Cars - Trucks, Tanks, Exploration Vehicles, etc.\n\n3. Planes - Props/Turboprops, Jets, V/STOL Capable Aircrafts, etc.\n\n4. Helicopters - Rescue Helicopters, Helitankers, Delivery Helicopters, etc.\n\nAdditional types of vehicles do exist but are either mostly used for decorations, Custom mode dependent, are \"Proofs of concept\" or are multi-vehicles - combination of 1-4 main types of vehicles with possible additions (For example: Crane Arms).\n\n\"Proof of concept\" types of vehicles focus on showcasing capabilities of microcontrollers (For example: Trajectory Calculating HUDs/HMDs) or discovered glitches that can allow players achieve infinite electricity, high speeds, etc.\n\n== Mechanism ==\nThis game contains a complex mechanism to play, see more on [[Gameplay/Mechanics|Mechanism]]\n\n== World ==\nSee more on [[Gameplay/World|World]]\n\n== Workbench ==\nWorkbench is the most common way you can build up and generate a vehicle\n\nThere are 2 types of Workbench\n\nSee more on [[Gameplay/Workbench|Workbench]]\n\n== Multiplayer ==\nAlthough this gameplay is played in single-player by default, it supports multiplayer from clients for both hosting and joining multiplayer servers.\n\nFor detail, you can see [[Gameplay/Multiplayer|the main page]] for more.",
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1638,
+    "revision_id": 4278,
+    "revision_timestamp": "2025-05-22T12:22:07Z",
+    "retrieved_at": "2026-08-31T10:02:07+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

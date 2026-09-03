@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Water Jets Research",
+  "display_title": "Water Jets Research",
+  "summary": "Water jets is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Fluid Management Research",
+    "Research",
+    "Wiki/Game Mechanics/Fluids"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9e/Waterjetsresearch.png/revision/latest?cb=20240421185041",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9e/Waterjetsresearch.png/revision/latest?cb=20240421185041",
+      "alt": "Waterjetsresearch",
+      "width": "51",
+      "height": "51"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Fluid Jet"
+        ],
+        [
+          "[Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids)",
+          "Fluid Slot Port"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Water Jets\n\n[![Waterjetsresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9e/Waterjetsresearch.png/revision/latest?cb=20240421185041)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9e/Waterjetsresearch.png/revision/latest?cb=20240421185041)\n\n### Research Points\n\n20\n\n### Research Time\n\n0h 30m\n\n## Research Path\n\n### Unlocked by\n\n[Fluid Management](https://stormworks.fandom.com/wiki/Fluid_Management_Research)\n\nWater jets is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Fluid Jet |\n| [Fluid](https://stormworks.fandom.com/wiki/Wiki/Game_Mechanics/Fluids) | Fluid Slot Port |",
+    "plain_text": "Water Jets\n\nResearch Points\n\n20\n\nResearch Time\n\n0h 30m\n\nResearch Path\n\nUnlocked by\n\nFluid Management\n\nWater jets is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nFluid\n\nFluid Jet\n\nFluid\n\nFluid Slot Port",
+    "char_count": 802,
+    "word_count": 35,
+    "sha256": "71b9146f8eee32ef2650ca91845f7e1c85beefd68c9aae580c117fffcf038e5e"
+  },
+  "wikitext": "{{Research\n  | name=Water Jets\n  | image=[File:Waterjetsresearch.png]\n  | points=20\n  | time= 0h 30m\n  | unlock= [[Fluid Management Research|Fluid Management]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Water jets is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]||Fluid Jet\n|-\n|[[Wiki/Game Mechanics/Fluids|Fluid]]||Fluid Slot Port\n|}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Water_Jets_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1503,
+    "revision_id": 3805,
+    "revision_timestamp": "2024-04-21T18:51:01Z",
+    "retrieved_at": "2026-08-31T10:10:57+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

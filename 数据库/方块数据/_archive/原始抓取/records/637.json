@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Gameplay/Workbench/Components/Decorative",
+  "display_title": "Gameplay/Workbench/Components/Decorative",
+  "summary": "Decorative\nLights\nSee here:\nWiki/Building/Components/Decorative/Lights\nRailing\nRailing Corner\nRailing Corner Diagonal\nRailing Curve\nRailing End\nRailing End Diagonal\nRailing Straight\nRailing Incline\nRailing Straight Diagonal\nRailing Middle\nRailing Middle Diagonal\nOther\nTyre Large\nTyre Small\nPaintable Sign\nEach of the 9x9 little tiles can be colorized.\nAnchor Rope\nYou can connect ropes between two of these blocks.",
+  "categories": [
+    "Stubs",
+    "Wiki_Page"
+  ],
+  "sections": [
+    {
+      "level": 2,
+      "title": "Decorative [ edit page ]",
+      "anchor": "Decorative_[_edit_page_]"
+    },
+    {
+      "level": 2,
+      "title": "Lights",
+      "anchor": "Lights"
+    },
+    {
+      "level": 2,
+      "title": "Railing",
+      "anchor": "Railing"
+    },
+    {
+      "level": 2,
+      "title": "Other",
+      "anchor": "Other"
+    }
+  ],
+  "internal_links": [
+    "Gameplay",
+    "Gameplay/Workbench",
+    "Gameplay/Workbench/Components",
+    "Wiki/Building/Components/Decorative/Lights"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/dd/Railing_Corner.jpg/revision/latest?cb=20190317004913",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/dd/Railing_Corner.jpg/revision/latest/scale-to-width-down/100?cb=20190317004913",
+      "alt": "Railing Corner",
+      "width": "100",
+      "height": "199"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/eb/Railing_Corner_Diagonal.jpg/revision/latest?cb=20190317004906",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/eb/Railing_Corner_Diagonal.jpg/revision/latest/scale-to-width-down/100?cb=20190317004906",
+      "alt": "Railing Corner Diagonal",
+      "width": "100",
+      "height": "171"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ad/Railing_Curve.jpg/revision/latest?cb=20190317004919",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Railing Curve",
+      "width": "100",
+      "height": "183"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/15/Railing_End.jpg/revision/latest?cb=20190317004931",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Railing End",
+      "width": "100",
+      "height": "206"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4a/Railing_End_Diagonal.jpg/revision/latest?cb=20190317004925",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Railing End Diagonal",
+      "width": "100",
+      "height": "164"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ad/Railing_Straight.jpg/revision/latest?cb=20190419122926",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Railing Straight",
+      "width": "100",
+      "height": "151"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9c/Railing_Incline.jpg/revision/latest?cb=20190317004937",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Railing Incline",
+      "width": "100",
+      "height": "217"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a0/Railing_Straight_Diagonal.jpg/revision/latest?cb=20190317005104",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Railing Straight Diagonal",
+      "width": "100",
+      "height": "272"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e8/Railing_Middle.jpg/revision/latest?cb=20190317004951",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Railing Middle",
+      "width": "100",
+      "height": "190"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6a/Railing_Middle_Diagonal.jpg/revision/latest?cb=20190317004942",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Railing Middle Diagonal",
+      "width": "100",
+      "height": "137"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/03/Tyre_Large.jpg/revision/latest?cb=20190317005113",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Tyre Large",
+      "width": "100",
+      "height": "91"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ea/Tyre_Small.jpg/revision/latest?cb=20190317005122",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Tyre Small",
+      "width": "100",
+      "height": "99"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1c/Paintable_Sign.jpg/revision/latest?cb=20190317004857",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Paintable Sign",
+      "width": "100",
+      "height": "105"
+    },
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6a/Anchor_Rope.png/revision/latest?cb=20200130195104",
+      "thumbnail_url": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+      "alt": "Anchor Rope",
+      "width": "100",
+      "height": "106"
+    }
+  ],
+  "tables": [],
+  "content": {
+    "markdown": "## Decorative\n\n## Lights\n\nSee here: [Wiki/Building/Components/Decorative/Lights](https://stormworks.fandom.com/wiki/Wiki/Building/Components/Decorative/Lights \"Wiki/Building/Components/Decorative/Lights\")\n\n## Railing\n\nRailing Corner\n\n[![Railing Corner](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/dd/Railing_Corner.jpg/revision/latest/scale-to-width-down/100?cb=20190317004913)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/d/dd/Railing_Corner.jpg/revision/latest?cb=20190317004913)\n\nRailing Corner Diagonal\n\n[![Railing Corner Diagonal](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/eb/Railing_Corner_Diagonal.jpg/revision/latest/scale-to-width-down/100?cb=20190317004906)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/eb/Railing_Corner_Diagonal.jpg/revision/latest?cb=20190317004906)\n\nRailing Curve\n\n[![Railing Curve](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ad/Railing_Curve.jpg/revision/latest?cb=20190317004919)\n\nRailing End\n\n[![Railing End](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/15/Railing_End.jpg/revision/latest?cb=20190317004931)\n\nRailing End Diagonal\n\n[![Railing End Diagonal](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/4/4a/Railing_End_Diagonal.jpg/revision/latest?cb=20190317004925)\n\nRailing Straight\n\n[![Railing Straight](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ad/Railing_Straight.jpg/revision/latest?cb=20190419122926)\n\nRailing Incline\n\n[![Railing Incline](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/9/9c/Railing_Incline.jpg/revision/latest?cb=20190317004937)\n\nRailing Straight Diagonal\n\n[![Railing Straight Diagonal](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/a0/Railing_Straight_Diagonal.jpg/revision/latest?cb=20190317005104)\n\nRailing Middle\n\n[![Railing Middle](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/e8/Railing_Middle.jpg/revision/latest?cb=20190317004951)\n\nRailing Middle Diagonal\n\n[![Railing Middle Diagonal](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6a/Railing_Middle_Diagonal.jpg/revision/latest?cb=20190317004942)\n\n## Other\n\nTyre Large\n\n[![Tyre Large](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/0/03/Tyre_Large.jpg/revision/latest?cb=20190317005113)\n\nTyre Small\n\n[![Tyre Small](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/e/ea/Tyre_Small.jpg/revision/latest?cb=20190317005122)\n\nPaintable Sign\n\n[![Paintable Sign](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/1/1c/Paintable_Sign.jpg/revision/latest?cb=20190317004857)\n\nEach of the 9x9 little tiles can be colorized.\n\nAnchor Rope\n\n[![Anchor Rope](data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/6/6a/Anchor_Rope.png/revision/latest?cb=20200130195104)\n\nYou can connect ropes between two of these blocks.",
+    "plain_text": "Decorative\nLights\nSee here:\nWiki/Building/Components/Decorative/Lights\nRailing\nRailing Corner\nRailing Corner Diagonal\nRailing Curve\nRailing End\nRailing End Diagonal\nRailing Straight\nRailing Incline\nRailing Straight Diagonal\nRailing Middle\nRailing Middle Diagonal\nOther\nTyre Large\nTyre Small\nPaintable Sign\nEach of the 9x9 little tiles can be colorized.\nAnchor Rope\nYou can connect ropes between two of these blocks.",
+    "char_count": 4010,
+    "word_count": 61,
+    "sha256": "24851cadb42ec6b2a3f14f8dc6323420fd13b1979cfb883044fe4fc18dfbdc38"
+  },
+  "data_quality": "high",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Decorative",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 637,
+    "revision_id": 4149,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-30T15:12:46+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

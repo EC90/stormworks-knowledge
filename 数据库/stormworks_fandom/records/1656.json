@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Blocks",
+  "display_title": "Wiki/Building/Components/Blocks",
+  "summary": "Alias for Gameplay/Workbench/Components/Blocks",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Blocks"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Blocks -> Gameplay/Workbench/Components/Blocks",
+    "plain_text": "Redirect: Wiki/Building/Components/Blocks -> Gameplay/Workbench/Components/Blocks",
+    "char_count": 81,
+    "word_count": 4,
+    "sha256": "88772c9458100cbca2ccc82682d8be1a909669b7784159775ee2fb4dc8aab9b6"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Blocks",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Blocks",
+    "target_page_id": 625,
+    "target_revision_id": 4700
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Blocks",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1656,
+    "revision_id": 4146,
+    "revision_timestamp": "2025-05-14T02:40:54Z",
+    "retrieved_at": "2026-08-31T10:11:06+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

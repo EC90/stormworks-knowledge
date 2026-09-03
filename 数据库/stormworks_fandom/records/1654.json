@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Advanced Mode",
+  "display_title": "Wiki/Building/Advanced Mode",
+  "summary": "Alias for Gameplay/Workbench/Advanced Mode",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Advanced Mode"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Advanced Mode -> Gameplay/Workbench/Advanced Mode",
+    "plain_text": "Redirect: Wiki/Building/Advanced Mode -> Gameplay/Workbench/Advanced Mode",
+    "char_count": 73,
+    "word_count": 6,
+    "sha256": "d8bab2b1ce9fba79eef298ff0fd3cb0658d5a9f1e59be576b93e58190637d8d2"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Advanced Mode",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Advanced_Mode",
+    "target_page_id": 1398,
+    "target_revision_id": 4141
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Advanced_Mode",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1654,
+    "revision_id": 4142,
+    "revision_timestamp": "2025-05-14T02:40:53Z",
+    "retrieved_at": "2026-08-31T10:11:04+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

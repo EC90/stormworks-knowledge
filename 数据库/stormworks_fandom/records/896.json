@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Electricity",
+  "display_title": "Electricity",
+  "summary": "Alias for Gameplay/Mechanics/Electricity",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Mechanics/Electricity"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Electricity -> Gameplay/Mechanics/Electricity",
+    "plain_text": "Redirect: Electricity -> Gameplay/Mechanics/Electricity",
+    "char_count": 55,
+    "word_count": 4,
+    "sha256": "270e9b233563846c03e6c6503d88a2ab735750fe3e7d04b0aa55a81480fadc85"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Mechanics/Electricity",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Mechanics/Electricity",
+    "target_page_id": 903,
+    "target_revision_id": 4604
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Electricity",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 896,
+    "revision_id": 4681,
+    "revision_timestamp": "2025-10-26T01:01:45Z",
+    "retrieved_at": "2026-08-31T10:01:38+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

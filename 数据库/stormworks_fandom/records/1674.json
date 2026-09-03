@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Wiki/Building/Components/Sound",
+  "display_title": "Wiki/Building/Components/Sound",
+  "summary": "Alias for Gameplay/Workbench/Components/Sound",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Gameplay/Workbench/Components/Sound"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Wiki/Building/Components/Sound -> Gameplay/Workbench/Components/Sound",
+    "plain_text": "Redirect: Wiki/Building/Components/Sound -> Gameplay/Workbench/Components/Sound",
+    "char_count": 79,
+    "word_count": 4,
+    "sha256": "6b32b34f7889da464c5f3f114e7a07c340e3d7d9f86997634568d5ea958496ac"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Gameplay/Workbench/Components/Sound",
+    "target_url": "https://stormworks.fandom.com/wiki/Gameplay/Workbench/Components/Sound",
+    "target_page_id": 884,
+    "target_revision_id": 4181
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Wiki/Building/Components/Sound",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1674,
+    "revision_id": 4182,
+    "revision_timestamp": "2025-05-14T02:40:55Z",
+    "retrieved_at": "2026-08-31T10:11:24+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

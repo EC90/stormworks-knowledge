@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "record_type": "redirect",
+  "title": "Engine",
+  "display_title": "Engine",
+  "summary": "Alias for Wiki/Guides/Engine",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Wiki/Guides/Engine"
+  ],
+  "external_links": [],
+  "images": [],
+  "tables": [],
+  "content": {
+    "markdown": "Redirect: Engine -> Wiki/Guides/Engine",
+    "plain_text": "Redirect: Engine -> Wiki/Guides/Engine",
+    "char_count": 38,
+    "word_count": 4,
+    "sha256": "471d3d37e56bd4d8229accc712bb702ddeef1c1a0a2dd8ed65aba2fd6de721ec"
+  },
+  "wikitext": "",
+  "data_quality": "alias",
+  "redirect": {
+    "target_title": "Wiki/Guides/Engine",
+    "target_url": "https://stormworks.fandom.com/wiki/Wiki/Guides/Engine",
+    "target_page_id": 549,
+    "target_revision_id": 3924
+  },
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Engine",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 947,
+    "revision_id": 1855,
+    "revision_timestamp": "2019-05-14T13:43:52Z",
+    "retrieved_at": "2026-08-31T10:01:42+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "record_type": "article",
+  "title": "Jet Ducting Research",
+  "display_title": "Jet Ducting Research",
+  "summary": "Jet ducting is a\nresearchable\n item which unlocks the following components:",
+  "template": null,
+  "attributes": {},
+  "attributes_markdown": "",
+  "categories": [],
+  "sections": [],
+  "internal_links": [
+    "Helicopters Research",
+    "Jets Research",
+    "Planes Research",
+    "Research",
+    "Wiki/Building/Components/Jet Engines"
+  ],
+  "external_links": [],
+  "images": [
+    {
+      "url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ad/Jetductingresearch.png/revision/latest?cb=20240421190417",
+      "thumbnail_url": "https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ad/Jetductingresearch.png/revision/latest?cb=20240421190417",
+      "alt": "Jetductingresearch",
+      "width": "49",
+      "height": "49"
+    }
+  ],
+  "tables": [
+    {
+      "index": 1,
+      "caption": null,
+      "classes": [
+        "wikitable",
+        "sortable"
+      ],
+      "rows": [
+        [
+          "Category",
+          "Component"
+        ],
+        [
+          "Jet Engines",
+          "Jet Duct Angle"
+        ],
+        [
+          "Jet Engines",
+          "Jet Duct Cross"
+        ],
+        [
+          "Jet Engines",
+          "Jet Duct Diagonal"
+        ],
+        [
+          "Jet Engines",
+          "Jet Duct Straight"
+        ],
+        [
+          "Jet Engines",
+          "Jet Duct T"
+        ]
+      ]
+    }
+  ],
+  "content": {
+    "markdown": "## Jet Ducting\n\n[![Jetductingresearch](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ad/Jetductingresearch.png/revision/latest?cb=20240421190417)](https://static.wikia.nocookie.net/stormworks_gamepedia_en/images/a/ad/Jetductingresearch.png/revision/latest?cb=20240421190417)\n\n### Research Points\n\n8\n\n### Research Time\n\n1h 50m\n\n## Research Path\n\n### Unlocked by\n\n[Helicopters](https://stormworks.fandom.com/wiki/Helicopters_Research), [Planes](https://stormworks.fandom.com/wiki/Planes_Research), [Jets](https://stormworks.fandom.com/wiki/Jets_Research)\n\nJet ducting is a [researchable](https://stormworks.fandom.com/wiki/Research) item which unlocks the following components:\n\n| Category | Component |\n| --- | --- |\n| Jet Engines | Jet Duct Angle |\n| Jet Engines | Jet Duct Cross |\n| Jet Engines | Jet Duct Diagonal |\n| Jet Engines | Jet Duct Straight |\n| Jet Engines | Jet Duct T |",
+    "plain_text": "Jet Ducting\n\nResearch Points\n\n8\n\nResearch Time\n\n1h 50m\n\nResearch Path\n\nUnlocked by\n\nHelicopters\n,\nPlanes\n,\nJets\n\nJet ducting is a\nresearchable\n item which unlocks the following components:\n\nCategory\n\nComponent\n\nJet Engines\n\nJet Duct Angle\n\nJet Engines\n\nJet Duct Cross\n\nJet Engines\n\nJet Duct Diagonal\n\nJet Engines\n\nJet Duct Straight\n\nJet Engines\n\nJet Duct T",
+    "char_count": 903,
+    "word_count": 54,
+    "sha256": "90fbc0a9d0b4f7f7b359b3c9f669c25e86de778e67153b5285157d4c89961a2e"
+  },
+  "wikitext": "{{Research\n  | name=Jet Ducting\n  | image=[File:Jetductingresearch.png]\n  | points=8\n  | time= 1h 50m\n  | unlock= [[Helicopters Research|Helicopters]], [[Planes Research|Planes]], [[Jets Research|Jets]]\n  | a1=\n  | a2=\n  | a3=\n  | a4=\n  | a5=\n}}Jet ducting is a [[Research|researchable]] item which unlocks the following components:\n{| class=\"wikitable sortable\"\n|-\n!Category!!Component\n|-\n|[[Wiki/Building/Components/Jet Engines|Jet Engines]]||Jet Duct Angle\n|-\n|[[Wiki/Building/Components/Jet Engines|Jet Engines]]||Jet Duct Cross\n|-\n|[[Wiki/Building/Components/Jet Engines|Jet Engines]]||Jet Duct Diagonal\n|-\n|[[Wiki/Building/Components/Jet Engines|Jet Engines]]||Jet Duct Straight\n|-\n|[[Wiki/Building/Components/Jet Engines|Jet Engines]]||Jet Duct T\n|}",
+  "data_quality": "medium",
+  "source": {
+    "wiki": "Stormworks: Build and Rescue Wiki",
+    "url": "https://stormworks.fandom.com/wiki/Jet_Ducting_Research",
+    "api_url": "https://stormworks.fandom.com/api.php",
+    "page_id": 1514,
+    "revision_id": 3825,
+    "revision_timestamp": "2024-04-21T19:04:58Z",
+    "retrieved_at": "2026-08-31T10:03:42+00:00",
+    "license": "CC BY-NC-SA",
+    "license_url": "https://www.fandom.com/licensing"
+  }
+}
