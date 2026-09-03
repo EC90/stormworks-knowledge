@@ -1,0 +1,6 @@
+---
+blank_issues_enabled: false
+contact_links:
+  - name: 共建指南（CONTRIBUTING.md）
+    url: https://github.com/EC90/stormworks-knowledge/blob/main/CONTRIBUTING.md
+    about: 提交前请先阅读：三条红线、术语查表纪律、占位符约定。
