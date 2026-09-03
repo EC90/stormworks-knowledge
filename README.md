@@ -12,7 +12,8 @@
 > 约定与排查见 [`工作区导航/07_路径占位符约定.md`](工作区导航/07_路径占位符约定.md)。
 >
 > 📦 **本仓库已公开于 GitHub：`EC90/stormworks-knowledge`**（许可 CC BY-NC-SA 4.0，见 [LICENSE](LICENSE)）。
-> 共建流程见 [CONTRIBUTING.md](CONTRIBUTING.md)；`_tools/`、`pony IDE/`、`.workbuddy/`、`_work/` 等
+> 共建流程见 [CONTRIBUTING.md](CONTRIBUTING.md)，认领方向见 [ROADMAP.md](ROADMAP.md)；
+> `_tools/`、`pony IDE/`、`.workbuddy/`、`_work/` 等
 > 本机/第三方/个人内容**不随仓库分发**（排除清单见 [.gitignore](.gitignore)）。
 
 ---
