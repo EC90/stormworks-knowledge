@@ -2715,3 +2715,80 @@ end
 - 完整脚本：`../../../AI相关/_提取暂存/_r8c/3795365228_vehicle_19.lua`
 
 ---
+
+## §39 地图控件：**命中区即广播** + **按屏尺寸裁剪控件**（响应式）+ 小圆拼圆环按钮
+
+- 来源：steam id **3794389171** · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=3794389171> · **载具**（PzH 3000，`_vehicle_0` 地图屏）
+- 更新时间：2026-09-02
+- 用到：触控屏（触控 X / 触控 Y / 按下）、GPS、罗盘、缩放输入、`map.mapToScreen`
+- 亮点：把「点是不是落在某个按钮上」做成**一路布尔输出广播**给下游微控；小屏**自动撤掉**放不下的按钮；圆环按钮用 24 个小实心圆拼出来（SW 没有空心圆、也没有线宽）。
+
+```lua
+function isPointInRectangle(x, y, rectX, rectY, rectW, rectH)
+  return x > rectX and y > rectY and x < rectX + rectW and y < rectY + rectH
+end
+
+function onTick()
+  w, h = input.getNumber(1), input.getNumber(2)
+  inputX, inputY, isPressed = input.getNumber(3), input.getNumber(4), input.getBool(1)
+
+  -- ① 命中区 → 布尔输出，直接广播给别的微控（也是本屏绘制选中态的依据）
+  touch1 = isPressed and isPointInRectangle(inputX, inputY, w-9, h-17, 6, 6)   -- 放大
+  touch2 = isPressed and isPointInRectangle(inputX, inputY, w-9, h-9,  6, 6)   -- 缩小
+  reset  = isPressed and isPointInRectangle(inputX, inputY, w-10, 2,   8, 8)   -- 回中
+  -- ② 响应式：屏幕不够大就**不启用**这个按钮（`gps` 恒为 false，既不绘制也不响应）
+  if w >= 64 and h >= 64 then
+    gps = isPressed and isPointInRectangle(inputX, inputY, w-10, 12, 8, 8)
+  end
+
+  local cw, ch = w/2, h/2
+  -- ③ 只有「按下且没按在任何按钮上」才算拖地图
+  if isPressed and not touch1 and not touch2 and not reset and not gps then
+    outX, outY = inputX/cw - 1, inputY/ch - 1            -- 归一到 -1..1
+  else
+    outX, outY = 0, 0
+  end
+  -- 拖动步长随缩放级别**指数**放大，缩放再深也拖得动
+  nX = (1.4 ^ clamp(zoom, 0, 20)) * (outX * 4)
+  nY = (1.4 ^ clamp(zoom, 0, 20)) * (outY * 4)
+  nnX, nnY = nnX + nX, nnY - nY                          -- ⚠ Y 要取负：屏幕 Y 向下，地图北向相反
+  if reset then nnX, nnY = 0, 0 end
+
+  output.setBool(1, touch1) output.setBool(2, touch2)
+  output.setBool(3, reset)  output.setBool(4, gps)
+end
+
+-- ④ 圆环按钮：沿圆周每 15° 画一个小实心圆，拼出一个环（替代没有的「空心圆 + 线宽」）
+function circle(cx, cy, r, d)
+  for i = 0, 360, 15 do
+    local a = i * math.pi / 180
+    screen.drawCircleF(cx + r*math.cos(a), cy + r*math.sin(a), d/2)
+  end
+end
+
+function onDraw()
+  screen.drawMap(cX + nnX, cY + nnY, zoom)               -- 配色写在 drawMap 之后 → 下一帧生效，见 §33
+  screen.setMapColorLand(220, 35, 0)
+  pX, pY = map.mapToScreen(cX + nnX, cY + nnY, zoom, w, h, cX, cY)   -- 自机在屏上的像素位
+  screen.setColor(25, 25, 25, 175)
+  screen.drawLine(pX, pY, pX + 12*math.cos(-1.58 + compass), pY + 12*math.sin(-1.58 + compass))
+
+  -- ⑤ 按下反馈：整块按钮换一组配色，不需要额外的动画状态
+  if touch1 then screen.setColor(35, 35, 35) else screen.setColor(50, 50, 50) end
+  circle(w-6, h-14, 1, 3)
+  if touch1 then screen.setColor(50, 50, 50) else screen.setColor(150, 150, 150) end
+  screen.drawTextBox(w-8, h-16, 6, 6, "+", 0, 0)
+end
+```
+
+**要点**
+
+- **命中区即广播**是本例最值得抄的一点：`isPressed and isPointInRectangle(...)` 直接 `output.setBool`，下游微控（缩放、回中、切页）不用各自再判一次坐标。对比 `05` §29 的「每键回调闭包」——那套适合按钮多、逻辑复杂；本例这种 3~4 个按钮的屏，广播出去更省字符。
+- **响应式裁剪**：`if w >= 64 and h >= 64 then ... end` 让同一段脚本在 1x1 / 2x2 / 3x3 屏上都能用——小屏自动不画、也不响应该按钮。因为 Lua 里未赋值的全局变量是 `nil`（布尔上下文为 `false`），`gps` 在小屏上永远是 `nil`。
+- **拖地图的两处细节**：位移先归一到 `-1..1` 再乘指数缩放系数 `1.4^zoom`，这样任何缩放等级下「拖过半屏」的手感一致；`nnY = nnY - nY` 的负号来自屏幕 Y 轴向下、而地图北向在屏幕上向上。
+- **小圆拼圆环**是因为 SW 的 `drawCircle` 只有实心、没有线宽参数。24 个采样点（`step = 15°`）在直径 3~4 px 的小按钮上足够圆；直径更大要把步长降到 5~10°，否则能看出多边形。
+- **反面教材（原脚本）**：`if inputX > cw or inputX < cw then outX = inputX/cw - 1 end`——`or` 使得条件**恒真**（只有恰好 `inputX == cw` 时不成立），等于没有判断；而且一旦恰好相等，`outX` 会保留上一帧的值造成地图自己漂移。这类「防呆判断」要么删掉，要么写成 `and`。
+- 关联：`05` §32（虚拟摇杆拖动地图的另一种写法：位移×固定倍率）、`§33`（`setMapColor*` 调用时机的实测澄清）、`§38`（按屏尺寸切换布局的同类做法）。
+- 完整脚本：`../../../AI相关/_提取暂存/_r8c/3794389171_vehicle_0.lua`
+
+---
