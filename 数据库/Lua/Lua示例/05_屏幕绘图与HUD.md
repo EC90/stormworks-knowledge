@@ -2585,3 +2585,133 @@ screen.drawRect(setbx, setby, 6, 6)
 - 完整脚本：`../../../AI相关/_提取暂存/_r7c/3794769825_vehicle_10.lua`
 
 ---
+
+
+## §38 四角角线 HUD（对角方向单位向量）+ **32 通道直通中转微控**
+
+- 来源：steam id 3795365228（HUD 装饰模块，载具，2026-09-04）
+- 用到：显示器、属性文本 `#RRGGBB`、属性布尔做方案切换
+- 亮点：① **直通微控**——32 路输入输出原样转发，让一个"纯绘制"脚本能串进信号链中间而不截断；
+  ② 角线长度用屏幕宽度的百分比定义，**长度随屏宽、角度随长宽比**自动适配
+- ⚠ 本例的角度公式有**实测错误**，下方已给出修正版——抄修正版
+
+### 手法一：32 通道直通（onTick 里转发一遍）
+
+```lua
+function onTick()
+  for i = 1, 32 do
+    inp[i]  = input.getNumber(i)
+    bool[i] = input.getBool(i)
+    output.setNumber(i, inp[i])       -- 原样转出：上游信号不受影响
+    output.setBool(i, bool[i])
+  end
+  ...
+end
+```
+
+这种"串在中间只做绘制"的微控制器在工坊里很常见：它既要读到全部 32 路通道，
+又不能把下游设备的输入掐断。`for i=1,32` 一行循环就解决了，比手工写 64 行省 90% 字符
+（关联 `01` §7 批量 IO）。
+
+⚠ 代价是**每 tick 64 次 API 调用**；若下游只需要其中 6 路，就只转那 6 路。
+
+### 手法二：属性布尔切换两套配色
+
+```lua
+if input.getBool(2) then
+  L_sel_color = hex2rgb(property.getText("Diagonal(s) Color Scheme 2 (Hex)"))
+else
+  L_sel_color = hex2rgb(property.getText("Diagonal(s) Color Scheme 1 (Hex)"))
+end
+
+function hex2rgb(hex)
+  hex = hex:gsub("#","")
+  return {r=tonumber("0x"..hex:sub(1,2)), g=tonumber("0x"..hex:sub(3,4)), b=tonumber("0x"..hex:sub(5,6))}
+end
+```
+
+`hex2rgb` 走 `tonumber("0x"..两位)`，**先 `gsub` 掉 `#`**；
+`05` §36 走 `tonumber(文本,16)` + 位运算（**不接受 `#`**）。两条路都行，别混用：
+
+| 写法 | 能否带 `#` | 拆通道 |
+| --- | --- | --- |
+| `tonumber("0x"..s:sub(1,2))` | 需先 `gsub("#","")` | 切片 |
+| `tonumber(s,16)` | **不能带 `#`**（返回 `nil`） | `& 0xff` / `>> 8` |
+
+### 手法三：角线长度按屏宽百分比
+
+```lua
+local v = property.getNumber("Dia Btm Right (%)") * w / 100   -- 右下角线长
+```
+
+四个角各有一个百分比属性（`Dia Top Left / Top Right / Btm Right / Btm Left`），
+长度都按**屏宽** `w` 取百分比——于是在 1×1 与 5×3 上角线的视觉长度一致，
+只有"贴着对角线"的角度随长宽比变化。比按对角线长取百分比更好预测。
+
+### ⚠ 原脚本的角度公式是错的（务必改）
+
+```lua
+-- ❌ 原脚本（4 个角重复 4 遍）
+tana  = distX / distY
+alpha = math.atan(tana)
+cosa  = math.cos(alpha)
+ax    = cosa * v
+ay    = (ax * distY) / distX
+```
+
+设 `L = sqrt(dx*dx + dy*dy)`。单参数 `atan` 下 `cos(atan(dx/dy)) = dy/L`，于是：
+
+```
+ax = v*dy/L          ← 拿到的是 **y** 方向的分量，却赋给了 x
+ay = ax*dy/dx = v*dy²/(L*dx)
+模长 = v * dy/dx     ← 只有正方形屏（dx==dy）时才等于 v
+```
+
+后果：**角线实际长度随屏幕长宽比失真**。3×2 屏上只有设定长度的约 2/3，
+5×3 上偏差更大；正方形屏上恰好正确——这正是作者没发现的原因。
+
+```lua
+-- ✅ 正确写法：直接按对角线的单位向量分解
+local L = math.sqrt(distX*distX + distY*distY)
+local ux, uy = distX/L, distY/L        -- 对角方向单位向量
+local ax, ay = v*ux, v*uy              -- 沿对角线的两分量，模长恒等于 v
+local ax2, ay2 = x - ax, y - ay        -- 从对角起，向两邻边回退
+```
+
+不需要 `atan` 也不需要 `cos`：单位向量只要除以模长即可。
+（`atan` + `cos` 的写法是"绕远路"，且极易把 `dx/L` 与 `dy/L` 弄反——本例就是活教材。）
+
+### 手法四：四个角只需一套公式 + 符号镜像
+
+```lua
+-- 右下角：从 (x,y) 往左上方向回退
+drawLine(x, y, x - ax, y - ay)
+-- 右上角：y 分量改为向上
+drawLine(x, y2, x - bx, y2 + by)
+-- 左下角：x 分量改为向右
+drawLine(x2, y, x2 + cx, y - cy)
+-- 左上角：两个分量都反向
+drawLine(x2, y2, x2 + dx, y2 + dy)
+```
+
+`x2, y2 = 1, 1`（左上角原点），`x, y = w, h`（右下角）。
+把 `(ax, ay)` 按象限取正负就能覆盖四角，绘制代码只有一条 `drawLine`。
+
+### 附：`L_alpha_ctrl` 的「属性 / 外部通道」双源开关
+
+```lua
+L_alpha = property.getNumber("Diagonal(s) (Alpha)")
+L_alpha_ctrl = property.getBool("Diagonal(s) Ctrl (Alpha)")
+
+if L_alpha_ctrl then
+  L_alpha = input.getNumber(1)     -- 由外部通道接管（例如随速度动态调透明度）
+end
+```
+
+一个布尔属性决定"用属性面板的值"还是"用运行时通道的值"——
+**工坊模块的标配**：默认让用户填静态值，需要联动时用开关切到信号。
+类似的双源写法见 `03` §13 的 `Radar Shadow Zone` 门控。
+
+- 完整脚本：`../../../AI相关/_提取暂存/_r8c/3795365228_vehicle_19.lua`
+
+---
