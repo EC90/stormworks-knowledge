@@ -6,11 +6,19 @@
 """
 import os
 import re
+import sys
 import json
 import hashlib
 import collections
 
 SRC = r"D:\STORMWORKS\AI相关\_提取暂存"
+if "--src" in sys.argv:                       # 批次隔离：只处理本轮批次目录，避免全量榜单稀释选题
+    SRC = sys.argv[sys.argv.index("--src") + 1]
+if "--topn" in sys.argv:                      # 控制输出行数，省上下文
+    _k = sys.argv.index("--topn")
+    TOPN = int(sys.argv[_k + 1]) if _k + 1 < len(sys.argv) and sys.argv[_k + 1].isdigit() else 50
+else:
+    TOPN = 50
 census = json.load(open(os.path.join(SRC, "_census.json"), encoding="utf-8"))
 
 groups = collections.defaultdict(list)
@@ -37,10 +45,13 @@ json.dump(uniq, open(os.path.join(SRC, "_unique.json"), "w", encoding="utf-8"),
 
 print(f"blocks {len(census)} -> unique {len(uniq)}  (压缩前重复率 {100*(1-len(uniq)/len(census)):.0f}%)")
 print(f"unique chars: {sum(r['chars'] for r in uniq)}")
-print("\n== 唯一脚本 TOP 50 ==")
-for r in uniq[:50]:
+print(f"\n== 唯一脚本 TOP {TOPN} ==")
+for r in uniq[:TOPN]:
     print(f"{r['score']:>6} x{r['copies']:<3} {r['chars']:>6}c {r['lines']:>4}L {'M' if r['minified'] else ' '} "
           f"| {','.join(r['topics']) or '-':<26} | {r['file']} | ids={','.join(r['ids'][:3])}")
+
+if "--notopic" in sys.argv:                    # 批次模式下通常不需要分类清单，省上下文
+    raise SystemExit(0)
 
 print("\n== 按类别推荐（各类 top 8，按 score） ==")
 by_topic = collections.defaultdict(list)

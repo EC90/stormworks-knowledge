@@ -511,6 +511,112 @@
   "density": 3.8
  },
  {
+  "file": "3783474598_vehicle_34.lua",
+  "chars": 3896,
+  "lines": 136,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "sensor"
+  ],
+  "api_hits": {
+   "screen.draw": 34,
+   "input.getNumber": 23,
+   "screen.drawText": 16,
+   "screen.drawTextBox": 16,
+   "screen.drawLine": 9,
+   "map.mapToScreen": 9,
+   "input.getBool": 9,
+   "screen.setColor": 8,
+   "screen.drawRect": 8,
+   "screen.drawTriangle": 1,
+   "math.sin": 1,
+   "math.cos": 1
+  },
+  "api_kinds": 14,
+  "score": 67,
+  "density": 3.59
+ },
+ {
+  "file": "3783474598_vehicle_8.lua",
+  "chars": 3895,
+  "lines": 136,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "sensor"
+  ],
+  "api_hits": {
+   "screen.draw": 34,
+   "input.getNumber": 23,
+   "screen.drawText": 16,
+   "screen.drawTextBox": 16,
+   "screen.drawLine": 9,
+   "map.mapToScreen": 9,
+   "input.getBool": 9,
+   "screen.setColor": 8,
+   "screen.drawRect": 8,
+   "screen.drawTriangle": 1,
+   "math.sin": 1,
+   "math.cos": 1
+  },
+  "api_kinds": 14,
+  "score": 67,
+  "density": 3.59
+ },
+ {
+  "file": "3783474598_vehicle_25.lua",
+  "chars": 3058,
+  "lines": 116,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "screen.draw": 37,
+   "screen.setColor": 19,
+   "screen.drawLine": 12,
+   "screen.drawRect": 9,
+   "input.getNumber": 9,
+   "screen.drawText": 8,
+   "screen.drawCircle": 8,
+   "screen.drawTextBox": 8,
+   "string.format": 4,
+   "output.setBool": 3,
+   "input.getBool": 2,
+   "math.sin": 2
+  },
+  "api_kinds": 16,
+  "score": 66,
+  "density": 5.23
+ },
+ {
+  "file": "3783474598_vehicle_51.lua",
+  "chars": 3058,
+  "lines": 116,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "screen.draw": 37,
+   "screen.setColor": 19,
+   "screen.drawLine": 12,
+   "screen.drawRect": 9,
+   "input.getNumber": 9,
+   "screen.drawText": 8,
+   "screen.drawCircle": 8,
+   "screen.drawTextBox": 8,
+   "string.format": 4,
+   "output.setBool": 3,
+   "input.getBool": 2,
+   "math.sin": 2
+  },
+  "api_kinds": 16,
+  "score": 66,
+  "density": 5.23
+ },
+ {
   "file": "1969765716_vehicle_11.lua",
   "chars": 3013,
   "lines": 134,
@@ -2449,6 +2555,34 @@
   "density": 3.91
  },
  {
+  "file": "3794382107_vehicle_8.lua",
+  "chars": 5885,
+  "lines": 184,
+  "minified": false,
+  "topics": [
+   "radar",
+   "hud",
+   "logic"
+  ],
+  "api_hits": {
+   "screen.setColor": 8,
+   "screen.draw": 5,
+   "property.get": 5,
+   "screen.drawRect": 4,
+   "property.getText": 4,
+   "input.getBool": 2,
+   "input.getNumber": 2,
+   "output.setBool": 2,
+   "table.insert": 2,
+   "onDraw": 2,
+   "onTick": 2,
+   "screen.drawClear": 1
+  },
+  "api_kinds": 13,
+  "score": 58,
+  "density": 2.21
+ },
+ {
   "file": "2213181424_vehicle_17.lua",
   "chars": 2403,
   "lines": 103,
@@ -2638,6 +2772,34 @@
   "density": 3.39
  },
  {
+  "file": "3783474598_vehicle_60.lua",
+  "chars": 3584,
+  "lines": 137,
+  "minified": false,
+  "topics": [
+   "radar",
+   "hud",
+   "sensor"
+  ],
+  "api_hits": {
+   "screen.draw": 5,
+   "screen.drawRect": 4,
+   "property.get": 4,
+   "property.getText": 2,
+   "screen.setColor": 1,
+   "screen.drawTriangle": 1,
+   "map.screenToMap": 1,
+   "property.getBool": 1,
+   "property.getNumber": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1
+  },
+  "api_kinds": 19,
+  "score": 57,
+  "density": 5.3
+ },
+ {
   "file": "1772155525_vehicle_0.lua",
   "chars": 2468,
   "lines": 80,
@@ -2817,6 +2979,108 @@
   "api_kinds": 15,
   "score": 56,
   "density": 3.87
+ },
+ {
+  "file": "3783474598_vehicle_29.lua",
+  "chars": 4197,
+  "lines": 155,
+  "minified": false,
+  "topics": [
+   "radar",
+   "engine"
+  ],
+  "api_hits": {
+   "screen.draw": 85,
+   "screen.drawRect": 43,
+   "screen.drawLine": 29,
+   "screen.setColor": 18,
+   "screen.drawText": 7,
+   "output.setBool": 6,
+   "screen.drawCircle": 4,
+   "input.getBool": 3,
+   "input.getNumber": 3,
+   "screen.drawTriangle": 2,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 12,
+  "score": 56,
+  "density": 2.86
+ },
+ {
+  "file": "3783474598_vehicle_3.lua",
+  "chars": 4196,
+  "lines": 155,
+  "minified": false,
+  "topics": [
+   "radar",
+   "engine"
+  ],
+  "api_hits": {
+   "screen.draw": 85,
+   "screen.drawRect": 43,
+   "screen.drawLine": 29,
+   "screen.setColor": 18,
+   "screen.drawText": 7,
+   "output.setBool": 6,
+   "screen.drawCircle": 4,
+   "input.getBool": 3,
+   "input.getNumber": 3,
+   "screen.drawTriangle": 2,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 12,
+  "score": 56,
+  "density": 2.86
+ },
+ {
+  "file": "3783474598_vehicle_32.lua",
+  "chars": 3795,
+  "lines": 127,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 45,
+   "screen.drawRect": 28,
+   "screen.setColor": 17,
+   "screen.drawText": 13,
+   "input.getNumber": 11,
+   "string.format": 8,
+   "input.getBool": 6,
+   "screen.drawTextBox": 5,
+   "output.setBool": 5,
+   "screen.drawLine": 4,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 12,
+  "score": 56,
+  "density": 3.16
+ },
+ {
+  "file": "3783474598_vehicle_6.lua",
+  "chars": 3794,
+  "lines": 127,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 45,
+   "screen.drawRect": 28,
+   "screen.setColor": 17,
+   "screen.drawText": 13,
+   "input.getNumber": 11,
+   "string.format": 8,
+   "input.getBool": 6,
+   "screen.drawTextBox": 5,
+   "output.setBool": 5,
+   "screen.drawLine": 4,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 12,
+  "score": 56,
+  "density": 3.16
  },
  {
   "file": "1962616298_vehicle_13.lua",
@@ -3131,6 +3395,34 @@
   "density": 3.89
  },
  {
+  "file": "3794382107_vehicle_5.lua",
+  "chars": 6298,
+  "lines": 188,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "hud",
+   "logic"
+  ],
+  "api_hits": {
+   "property.get": 7,
+   "property.getText": 4,
+   "screen.draw": 2,
+   "screen.setColor": 2,
+   "screen.drawRect": 2,
+   "property.getNumber": 2,
+   "input.getNumber": 2,
+   "table.insert": 2,
+   "onDraw": 2,
+   "onTick": 2,
+   "property.getBool": 1,
+   "input.getBool": 1
+  },
+  "api_kinds": 13,
+  "score": 54,
+  "density": 2.06
+ },
+ {
   "file": "2379508495_vehicle_1.lua",
   "chars": 2782,
   "lines": 131,
@@ -3430,6 +3722,58 @@
   "density": 10.47
  },
  {
+  "file": "3783474598_vehicle_18.lua",
+  "chars": 4098,
+  "lines": 85,
+  "minified": false,
+  "topics": [
+   "engine"
+  ],
+  "api_hits": {
+   "screen.draw": 30,
+   "screen.drawLine": 25,
+   "math.sin": 25,
+   "math.cos": 25,
+   "screen.setColor": 15,
+   "input.getNumber": 9,
+   "screen.drawText": 4,
+   "screen.drawTextBox": 4,
+   "input.getBool": 3,
+   "screen.drawRect": 1,
+   "output.setBool": 1,
+   "onDraw": 1
+  },
+  "api_kinds": 13,
+  "score": 53,
+  "density": 3.17
+ },
+ {
+  "file": "3783474598_vehicle_44.lua",
+  "chars": 4098,
+  "lines": 85,
+  "minified": false,
+  "topics": [
+   "engine"
+  ],
+  "api_hits": {
+   "screen.draw": 30,
+   "screen.drawLine": 25,
+   "math.sin": 25,
+   "math.cos": 25,
+   "screen.setColor": 15,
+   "input.getNumber": 9,
+   "screen.drawText": 4,
+   "screen.drawTextBox": 4,
+   "input.getBool": 3,
+   "screen.drawRect": 1,
+   "output.setBool": 1,
+   "onDraw": 1
+  },
+  "api_kinds": 13,
+  "score": 53,
+  "density": 3.17
+ },
+ {
   "file": "1962616298_vehicle_24.lua",
   "chars": 2486,
   "lines": 63,
@@ -3642,6 +3986,109 @@
   "density": 4.05
  },
  {
+  "file": "3783474598_vehicle_16.lua",
+  "chars": 4100,
+  "lines": 76,
+  "minified": false,
+  "topics": [
+   "engine"
+  ],
+  "api_hits": {
+   "screen.draw": 33,
+   "screen.drawLine": 20,
+   "math.sin": 20,
+   "math.cos": 20,
+   "screen.drawText": 13,
+   "screen.drawTextBox": 13,
+   "string.format": 13,
+   "input.getNumber": 11,
+   "screen.setColor": 6,
+   "input.getBool": 2,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 12,
+  "score": 52,
+  "density": 2.93
+ },
+ {
+  "file": "3783474598_vehicle_42.lua",
+  "chars": 4100,
+  "lines": 76,
+  "minified": false,
+  "topics": [
+   "engine"
+  ],
+  "api_hits": {
+   "screen.draw": 33,
+   "screen.drawLine": 20,
+   "math.sin": 20,
+   "math.cos": 20,
+   "screen.drawText": 13,
+   "screen.drawTextBox": 13,
+   "string.format": 13,
+   "input.getNumber": 11,
+   "screen.setColor": 6,
+   "input.getBool": 2,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 12,
+  "score": 52,
+  "density": 2.93
+ },
+ {
+  "file": "3783474598_vehicle_66.lua",
+  "chars": 2774,
+  "lines": 97,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "screen.draw": 38,
+   "screen.drawLine": 19,
+   "screen.drawText": 11,
+   "screen.setColor": 8,
+   "screen.drawRect": 7,
+   "input.getNumber": 6,
+   "screen.drawTextBox": 4,
+   "string.format": 4,
+   "screen.drawCircle": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 52,
+  "density": 3.97
+ },
+ {
+  "file": "3794300744_vehicle_20.lua",
+  "chars": 8256,
+  "lines": 357,
+  "minified": false,
+  "topics": [
+   "logic"
+  ],
+  "api_hits": {
+   "string.format": 24,
+   "output.setBool": 11,
+   "input.getNumber": 8,
+   "screen.draw": 6,
+   "map.mapToScreen": 5,
+   "input.getBool": 5,
+   "screen.drawCircle": 3,
+   "math.sqrt": 3,
+   "screen.drawText": 1,
+   "screen.drawLine": 1,
+   "screen.drawMap": 1,
+   "onDraw": 1
+  },
+  "api_kinds": 13,
+  "score": 52,
+  "density": 1.57
+ },
+ {
   "file": "1982539881_vehicle_0.lua",
   "chars": 3499,
   "lines": 154,
@@ -3749,6 +4196,52 @@
   "api_kinds": 14,
   "score": 51,
   "density": 6.13
+ },
+ {
+  "file": "3783474598_vehicle_31.lua",
+  "chars": 1731,
+  "lines": 58,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 25,
+   "screen.setColor": 11,
+   "screen.drawLine": 11,
+   "screen.drawRect": 7,
+   "screen.drawTriangle": 4,
+   "screen.drawText": 3,
+   "input.getNumber": 3,
+   "input.getBool": 2,
+   "output.setBool": 2,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 51,
+  "density": 6.35
+ },
+ {
+  "file": "3783474598_vehicle_5.lua",
+  "chars": 1730,
+  "lines": 58,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 25,
+   "screen.setColor": 11,
+   "screen.drawLine": 11,
+   "screen.drawRect": 7,
+   "screen.drawTriangle": 4,
+   "screen.drawText": 3,
+   "input.getNumber": 3,
+   "input.getBool": 2,
+   "output.setBool": 2,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 51,
+  "density": 6.36
  },
  {
   "file": "1772155525_vehicle_3.lua",
@@ -4120,6 +4613,81 @@
   "api_kinds": 11,
   "score": 50,
   "density": 2.73
+ },
+ {
+  "file": "3783474598_vehicle_0.lua",
+  "chars": 1553,
+  "lines": 48,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "screen.draw": 20,
+   "screen.drawText": 13,
+   "screen.drawLine": 4,
+   "screen.drawTextBox": 4,
+   "input.getNumber": 4,
+   "screen.setColor": 3,
+   "string.format": 3,
+   "screen.drawRect": 2,
+   "screen.drawCircle": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 50,
+  "density": 7.08
+ },
+ {
+  "file": "3783474598_vehicle_21.lua",
+  "chars": 1742,
+  "lines": 62,
+  "minified": false,
+  "topics": [
+   "engine"
+  ],
+  "api_hits": {
+   "screen.draw": 19,
+   "screen.setColor": 17,
+   "screen.drawRect": 14,
+   "input.getNumber": 7,
+   "screen.drawText": 3,
+   "screen.drawTextBox": 3,
+   "input.getBool": 3,
+   "screen.drawLine": 2,
+   "string.format": 2,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 50,
+  "density": 6.31
+ },
+ {
+  "file": "3783474598_vehicle_47.lua",
+  "chars": 1742,
+  "lines": 62,
+  "minified": false,
+  "topics": [
+   "engine"
+  ],
+  "api_hits": {
+   "screen.draw": 19,
+   "screen.setColor": 17,
+   "screen.drawRect": 14,
+   "input.getNumber": 7,
+   "screen.drawText": 3,
+   "screen.drawTextBox": 3,
+   "input.getBool": 3,
+   "screen.drawLine": 2,
+   "string.format": 2,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 50,
+  "density": 6.31
  },
  {
   "file": "1969765716_vehicle_3.lua",
@@ -4590,6 +5158,98 @@
   "density": 5.32
  },
  {
+  "file": "3794300744_vehicle_1.lua",
+  "chars": 2236,
+  "lines": 120,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 14,
+   "math.sin": 8,
+   "math.cos": 8,
+   "screen.drawTriangle": 6,
+   "input.getNumber": 6,
+   "screen.setColor": 4,
+   "screen.drawLine": 4,
+   "screen.drawRect": 4,
+   "input.getBool": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 48,
+  "density": 4.92
+ },
+ {
+  "file": "3794300744_vehicle_15.lua",
+  "chars": 2237,
+  "lines": 120,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 14,
+   "math.sin": 8,
+   "math.cos": 8,
+   "screen.drawTriangle": 6,
+   "input.getNumber": 6,
+   "screen.setColor": 4,
+   "screen.drawLine": 4,
+   "screen.drawRect": 4,
+   "input.getBool": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 48,
+  "density": 4.92
+ },
+ {
+  "file": "3794300744_vehicle_18.lua",
+  "chars": 2296,
+  "lines": 124,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 14,
+   "math.sin": 8,
+   "math.cos": 8,
+   "screen.drawTriangle": 6,
+   "input.getNumber": 6,
+   "screen.setColor": 4,
+   "screen.drawLine": 4,
+   "screen.drawRect": 4,
+   "input.getBool": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 48,
+  "density": 4.79
+ },
+ {
+  "file": "3794300744_vehicle_5.lua",
+  "chars": 2295,
+  "lines": 124,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 14,
+   "math.sin": 8,
+   "math.cos": 8,
+   "screen.drawTriangle": 6,
+   "input.getNumber": 6,
+   "screen.setColor": 4,
+   "screen.drawLine": 4,
+   "screen.drawRect": 4,
+   "input.getBool": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 48,
+  "density": 4.79
+ },
+ {
   "file": "1962616298_vehicle_2.lua",
   "chars": 3357,
   "lines": 124,
@@ -4991,6 +5651,84 @@
   "density": 3.85
  },
  {
+  "file": "3783474598_vehicle_1.lua",
+  "chars": 2451,
+  "lines": 91,
+  "minified": false,
+  "topics": [
+   "engine",
+   "sensor"
+  ],
+  "api_hits": {
+   "screen.draw": 30,
+   "input.getNumber": 15,
+   "screen.setColor": 14,
+   "screen.drawRect": 14,
+   "screen.drawText": 12,
+   "input.getBool": 5,
+   "screen.drawLine": 4,
+   "output.setBool": 3,
+   "string.format": 3,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 47,
+  "density": 4.49
+ },
+ {
+  "file": "3783474598_vehicle_27.lua",
+  "chars": 2452,
+  "lines": 91,
+  "minified": false,
+  "topics": [
+   "engine",
+   "sensor"
+  ],
+  "api_hits": {
+   "screen.draw": 30,
+   "input.getNumber": 15,
+   "screen.setColor": 14,
+   "screen.drawRect": 14,
+   "screen.drawText": 12,
+   "input.getBool": 5,
+   "screen.drawLine": 4,
+   "output.setBool": 3,
+   "string.format": 3,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 47,
+  "density": 4.49
+ },
+ {
+  "file": "3794382107_vehicle_2.lua",
+  "chars": 2762,
+  "lines": 82,
+  "minified": false,
+  "topics": [
+   "sensor"
+  ],
+  "api_hits": {
+   "screen.draw": 9,
+   "screen.drawLine": 5,
+   "screen.setColor": 4,
+   "input.getNumber": 3,
+   "math.sin": 3,
+   "screen.drawRect": 2,
+   "screen.drawTriangle": 2,
+   "math.atan": 2,
+   "onDraw": 2,
+   "math.sqrt": 1,
+   "math.cos": 1,
+   "onTick": 1
+  },
+  "api_kinds": 12,
+  "score": 47,
+  "density": 4.34
+ },
+ {
   "file": "2046605849_vehicle_9.lua",
   "chars": 3794,
   "lines": 174,
@@ -5380,6 +6118,30 @@
   "api_kinds": 12,
   "score": 46,
   "density": 2.97
+ },
+ {
+  "file": "3783474598_vehicle_62.lua",
+  "chars": 2682,
+  "lines": 100,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "output.setBool": 3,
+   "screen.draw": 2,
+   "screen.drawRect": 2,
+   "map.mapToScreen": 2,
+   "property.get": 2,
+   "property.getText": 2,
+   "output.setNumber": 2,
+   "table.remove": 2,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "math.sin": 1,
+   "math.cos": 1
+  },
+  "api_kinds": 15,
+  "score": 46,
+  "density": 5.59
  },
  {
   "file": "1969765716_vehicle_13.lua",
@@ -5845,6 +6607,156 @@
   "density": 1.84
  },
  {
+  "file": "3783474598_vehicle_54.lua",
+  "chars": 4000,
+  "lines": 169,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "sensor"
+  ],
+  "api_hits": {
+   "map.screenToMap": 4,
+   "map.mapToScreen": 4,
+   "screen.draw": 3,
+   "screen.drawLine": 2,
+   "screen.drawTriangle": 1,
+   "math.sqrt": 1,
+   "math.sin": 1,
+   "math.cos": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 45,
+  "density": 2.5
+ },
+ {
+  "file": "3783474598_vehicle_72.lua",
+  "chars": 2152,
+  "lines": 68,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 11,
+   "screen.drawLine": 11,
+   "property.get": 10,
+   "property.getNumber": 9,
+   "screen.setColor": 4,
+   "property.getBool": 1,
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 9,
+  "score": 45,
+  "density": 4.18
+ },
+ {
+  "file": "3783474598_vehicle_73.lua",
+  "chars": 2265,
+  "lines": 91,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "radar"
+  ],
+  "api_hits": {
+   "screen.draw": 26,
+   "screen.drawText": 12,
+   "screen.setColor": 11,
+   "screen.drawRect": 9,
+   "input.getNumber": 7,
+   "screen.drawLine": 4,
+   "string.format": 4,
+   "input.getBool": 2,
+   "screen.drawCircle": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 45,
+  "density": 4.86
+ },
+ {
+  "file": "3783474598_vehicle_76.lua",
+  "chars": 2265,
+  "lines": 91,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "radar"
+  ],
+  "api_hits": {
+   "screen.draw": 26,
+   "screen.drawText": 12,
+   "screen.setColor": 11,
+   "screen.drawRect": 9,
+   "input.getNumber": 7,
+   "screen.drawLine": 4,
+   "string.format": 4,
+   "input.getBool": 2,
+   "screen.drawCircle": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 45,
+  "density": 4.86
+ },
+ {
+  "file": "3783474598_vehicle_79.lua",
+  "chars": 2265,
+  "lines": 91,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "radar"
+  ],
+  "api_hits": {
+   "screen.draw": 26,
+   "screen.drawText": 12,
+   "screen.setColor": 11,
+   "screen.drawRect": 9,
+   "input.getNumber": 7,
+   "screen.drawLine": 4,
+   "string.format": 4,
+   "input.getBool": 2,
+   "screen.drawCircle": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 45,
+  "density": 4.86
+ },
+ {
+  "file": "3783474598_vehicle_82.lua",
+  "chars": 2265,
+  "lines": 91,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "radar"
+  ],
+  "api_hits": {
+   "screen.draw": 26,
+   "screen.drawText": 12,
+   "screen.setColor": 11,
+   "screen.drawRect": 9,
+   "input.getNumber": 7,
+   "screen.drawLine": 4,
+   "string.format": 4,
+   "input.getBool": 2,
+   "screen.drawCircle": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 45,
+  "density": 4.86
+ },
+ {
   "file": "2213181424_vehicle_6.lua",
   "chars": 2046,
   "lines": 98,
@@ -6032,6 +6944,96 @@
   "api_kinds": 10,
   "score": 44,
   "density": 7.26
+ },
+ {
+  "file": "3783474598_vehicle_19.lua",
+  "chars": 3935,
+  "lines": 96,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 51,
+   "screen.drawLine": 33,
+   "screen.setColor": 27,
+   "math.sin": 21,
+   "math.cos": 21,
+   "screen.drawRect": 9,
+   "screen.drawCircle": 9,
+   "input.getBool": 2,
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 44,
+  "density": 2.8
+ },
+ {
+  "file": "3783474598_vehicle_22.lua",
+  "chars": 2980,
+  "lines": 109,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 58,
+   "screen.drawLine": 40,
+   "screen.setColor": 13,
+   "screen.drawText": 9,
+   "screen.drawRect": 9,
+   "input.getNumber": 4,
+   "input.getBool": 3,
+   "output.setBool": 3,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 44,
+  "density": 3.36
+ },
+ {
+  "file": "3783474598_vehicle_45.lua",
+  "chars": 3935,
+  "lines": 96,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 51,
+   "screen.drawLine": 33,
+   "screen.setColor": 27,
+   "math.sin": 21,
+   "math.cos": 21,
+   "screen.drawRect": 9,
+   "screen.drawCircle": 9,
+   "input.getBool": 2,
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 44,
+  "density": 2.8
+ },
+ {
+  "file": "3783474598_vehicle_48.lua",
+  "chars": 2980,
+  "lines": 109,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 58,
+   "screen.drawLine": 40,
+   "screen.setColor": 13,
+   "screen.drawText": 9,
+   "screen.drawRect": 9,
+   "input.getNumber": 4,
+   "input.getBool": 3,
+   "output.setBool": 3,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 44,
+  "density": 3.36
  },
  {
   "file": "1772155525_vehicle_5.lua",
@@ -6613,6 +7615,96 @@
   "api_kinds": 10,
   "score": 43,
   "density": 5.21
+ },
+ {
+  "file": "3783474598_vehicle_11.lua",
+  "chars": 2525,
+  "lines": 97,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 44,
+   "screen.drawRect": 32,
+   "input.getNumber": 17,
+   "input.getBool": 9,
+   "screen.drawText": 8,
+   "screen.setColor": 4,
+   "screen.drawLine": 4,
+   "string.format": 2,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 43,
+  "density": 3.96
+ },
+ {
+  "file": "3783474598_vehicle_17.lua",
+  "chars": 3757,
+  "lines": 86,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 62,
+   "screen.drawLine": 49,
+   "math.sin": 16,
+   "math.cos": 16,
+   "screen.setColor": 11,
+   "screen.drawCircle": 11,
+   "input.getNumber": 4,
+   "screen.drawRect": 2,
+   "input.getBool": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 43,
+  "density": 2.93
+ },
+ {
+  "file": "3783474598_vehicle_37.lua",
+  "chars": 2525,
+  "lines": 97,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 44,
+   "screen.drawRect": 32,
+   "input.getNumber": 17,
+   "input.getBool": 9,
+   "screen.drawText": 8,
+   "screen.setColor": 4,
+   "screen.drawLine": 4,
+   "string.format": 2,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 43,
+  "density": 3.96
+ },
+ {
+  "file": "3783474598_vehicle_43.lua",
+  "chars": 3757,
+  "lines": 86,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 62,
+   "screen.drawLine": 49,
+   "math.sin": 16,
+   "math.cos": 16,
+   "screen.setColor": 11,
+   "screen.drawCircle": 11,
+   "input.getNumber": 4,
+   "screen.drawRect": 2,
+   "input.getBool": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 43,
+  "density": 2.93
  },
  {
   "file": "2013584399_vehicle_12.lua",
@@ -7641,6 +8733,33 @@
   "density": 3.05
  },
  {
+  "file": "3783474598_vehicle_90.lua",
+  "chars": 4698,
+  "lines": 185,
+  "minified": false,
+  "topics": [
+   "radar",
+   "sensor"
+  ],
+  "api_hits": {
+   "screen.draw": 5,
+   "screen.setColor": 4,
+   "screen.drawRect": 2,
+   "screen.drawText": 1,
+   "screen.drawLine": 1,
+   "screen.drawMap": 1,
+   "map.mapToScreen": 1,
+   "property.get": 1,
+   "property.getNumber": 1,
+   "string.format": 1,
+   "table.insert": 1,
+   "onDraw": 1
+  },
+  "api_kinds": 13,
+  "score": 41,
+  "density": 2.77
+ },
+ {
   "file": "1969765716_vehicle_1.lua",
   "chars": 2719,
   "lines": 102,
@@ -8049,6 +9168,132 @@
   "density": 4.27
  },
  {
+  "file": "3783474598_vehicle_91.lua",
+  "chars": 4184,
+  "lines": 212,
+  "minified": false,
+  "topics": [
+   "sensor"
+  ],
+  "api_hits": {
+   "screen.draw": 3,
+   "property.get": 2,
+   "math.atan": 2,
+   "screen.setColor": 1,
+   "screen.drawLine": 1,
+   "screen.drawRect": 1,
+   "screen.drawTriangle": 1,
+   "property.getBool": 1,
+   "property.getNumber": 1,
+   "input.getNumber": 1,
+   "math.sqrt": 1,
+   "math.sin": 1
+  },
+  "api_kinds": 15,
+  "score": 40,
+  "density": 3.59
+ },
+ {
+  "file": "3791637399_vehicle_0.lua",
+  "chars": 2767,
+  "lines": 125,
+  "minified": false,
+  "topics": [
+   "hud",
+   "logic"
+  ],
+  "api_hits": {
+   "output.setNumber": 27,
+   "property.get": 20,
+   "property.getNumber": 17,
+   "input.getBool": 4,
+   "property.getBool": 3,
+   "input.getNumber": 2,
+   "math.sin": 2,
+   "math.cos": 2,
+   "output.setBool": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 40,
+  "density": 3.61
+ },
+ {
+  "file": "3791637399_vehicle_1.lua",
+  "chars": 2769,
+  "lines": 125,
+  "minified": false,
+  "topics": [
+   "hud",
+   "logic"
+  ],
+  "api_hits": {
+   "output.setNumber": 27,
+   "property.get": 20,
+   "property.getNumber": 17,
+   "input.getBool": 4,
+   "property.getBool": 3,
+   "input.getNumber": 2,
+   "math.sin": 2,
+   "math.cos": 2,
+   "output.setBool": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 40,
+  "density": 3.61
+ },
+ {
+  "file": "3792170962_vehicle_0.lua",
+  "chars": 2767,
+  "lines": 125,
+  "minified": false,
+  "topics": [
+   "hud",
+   "logic"
+  ],
+  "api_hits": {
+   "output.setNumber": 27,
+   "property.get": 20,
+   "property.getNumber": 17,
+   "input.getBool": 4,
+   "property.getBool": 3,
+   "input.getNumber": 2,
+   "math.sin": 2,
+   "math.cos": 2,
+   "output.setBool": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 40,
+  "density": 3.61
+ },
+ {
+  "file": "3792170962_vehicle_1.lua",
+  "chars": 2769,
+  "lines": 125,
+  "minified": false,
+  "topics": [
+   "hud",
+   "logic"
+  ],
+  "api_hits": {
+   "output.setNumber": 27,
+   "property.get": 20,
+   "property.getNumber": 17,
+   "input.getBool": 4,
+   "property.getBool": 3,
+   "input.getNumber": 2,
+   "math.sin": 2,
+   "math.cos": 2,
+   "output.setBool": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 40,
+  "density": 3.61
+ },
+ {
   "file": "1969765716_vehicle_18.lua",
   "chars": 3709,
   "lines": 121,
@@ -8215,6 +9460,48 @@
   "api_kinds": 12,
   "score": 39,
   "density": 4.82
+ },
+ {
+  "file": "3783474598_vehicle_30.lua",
+  "chars": 858,
+  "lines": 28,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 10,
+   "input.getNumber": 6,
+   "screen.setColor": 5,
+   "screen.drawText": 5,
+   "screen.drawRect": 3,
+   "string.format": 3,
+   "screen.drawLine": 2,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 9,
+  "score": 39,
+  "density": 10.49
+ },
+ {
+  "file": "3783474598_vehicle_4.lua",
+  "chars": 857,
+  "lines": 28,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 10,
+   "input.getNumber": 6,
+   "screen.setColor": 5,
+   "screen.drawText": 5,
+   "screen.drawRect": 3,
+   "string.format": 3,
+   "screen.drawLine": 2,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 9,
+  "score": 39,
+  "density": 10.5
  },
  {
   "file": "2013584399_vehicle_15.lua",
@@ -8707,6 +9994,78 @@
   "api_kinds": 13,
   "score": 38,
   "density": 3.82
+ },
+ {
+  "file": "3783474598_vehicle_24.lua",
+  "chars": 1126,
+  "lines": 42,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "screen.draw": 11,
+   "screen.setColor": 7,
+   "screen.drawRect": 6,
+   "screen.drawCircle": 4,
+   "input.getBool": 3,
+   "input.getNumber": 3,
+   "screen.drawText": 1,
+   "output.setBool": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 38,
+  "density": 8.88
+ },
+ {
+  "file": "3783474598_vehicle_50.lua",
+  "chars": 1126,
+  "lines": 42,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "screen.draw": 11,
+   "screen.setColor": 7,
+   "screen.drawRect": 6,
+   "screen.drawCircle": 4,
+   "input.getBool": 3,
+   "input.getNumber": 3,
+   "screen.drawText": 1,
+   "output.setBool": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 38,
+  "density": 8.88
+ },
+ {
+  "file": "3783474598_vehicle_61.lua",
+  "chars": 2586,
+  "lines": 104,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 2,
+   "screen.drawRect": 2,
+   "property.get": 2,
+   "property.getText": 2,
+   "map.mapToScreen": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "math.sin": 1,
+   "math.cos": 1,
+   "table.insert": 1
+  },
+  "api_kinds": 15,
+  "score": 38,
+  "density": 5.8
  },
  {
   "file": "1772155525_vehicle_2.lua",
@@ -9503,6 +10862,69 @@
   "density": 12.0
  },
  {
+  "file": "3783474598_vehicle_23.lua",
+  "chars": 4028,
+  "lines": 57,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 35,
+   "screen.drawLine": 29,
+   "math.sin": 29,
+   "math.cos": 29,
+   "screen.setColor": 8,
+   "screen.drawCircle": 6,
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 9,
+  "score": 36,
+  "density": 2.23
+ },
+ {
+  "file": "3783474598_vehicle_49.lua",
+  "chars": 4028,
+  "lines": 57,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 35,
+   "screen.drawLine": 29,
+   "math.sin": 29,
+   "math.cos": 29,
+   "screen.setColor": 8,
+   "screen.drawCircle": 6,
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 9,
+  "score": 36,
+  "density": 2.23
+ },
+ {
+  "file": "3793531285_vehicle_5.lua",
+  "chars": 2478,
+  "lines": 31,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 21,
+   "screen.drawRect": 15,
+   "screen.drawText": 6,
+   "screen.drawTextBox": 4,
+   "screen.setColor": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 9,
+  "score": 36,
+  "density": 3.63
+ },
+ {
   "file": "2013584399_vehicle_13.lua",
   "chars": 4173,
   "lines": 122,
@@ -9936,6 +11358,31 @@
   "api_kinds": 11,
   "score": 35,
   "density": 4.22
+ },
+ {
+  "file": "3794382107_vehicle_3.lua",
+  "chars": 7807,
+  "lines": 219,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "sensor",
+   "logic"
+  ],
+  "api_hits": {
+   "input.getNumber": 18,
+   "property.get": 10,
+   "property.getNumber": 10,
+   "input.getBool": 3,
+   "output.setNumber": 3,
+   "math.sin": 3,
+   "math.cos": 3,
+   "onTick": 2,
+   "math.atan": 1
+  },
+  "api_kinds": 9,
+  "score": 35,
+  "density": 1.15
  },
  {
   "file": "1969765716_vehicle_17.lua",
@@ -11014,6 +12461,48 @@
   "density": 1.58
  },
  {
+  "file": "3783474598_vehicle_33.lua",
+  "chars": 1057,
+  "lines": 29,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 10,
+   "screen.drawRect": 8,
+   "screen.setColor": 3,
+   "screen.drawTriangle": 2,
+   "input.getNumber": 2,
+   "output.setBool": 2,
+   "input.getBool": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 9,
+  "score": 34,
+  "density": 8.51
+ },
+ {
+  "file": "3783474598_vehicle_7.lua",
+  "chars": 1056,
+  "lines": 29,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 10,
+   "screen.drawRect": 8,
+   "screen.setColor": 3,
+   "screen.drawTriangle": 2,
+   "input.getNumber": 2,
+   "output.setBool": 2,
+   "input.getBool": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 9,
+  "score": 34,
+  "density": 8.52
+ },
+ {
   "file": "2013584399_vehicle_8.lua",
   "chars": 1056,
   "lines": 26,
@@ -11261,6 +12750,67 @@
   "api_kinds": 10,
   "score": 33,
   "density": 8.54
+ },
+ {
+  "file": "3783474598_vehicle_20.lua",
+  "chars": 2502,
+  "lines": 31,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 24,
+   "screen.drawLine": 22,
+   "math.sin": 22,
+   "math.cos": 22,
+   "screen.setColor": 3,
+   "screen.drawCircle": 2,
+   "onDraw": 1
+  },
+  "api_kinds": 7,
+  "score": 33,
+  "density": 2.8
+ },
+ {
+  "file": "3783474598_vehicle_46.lua",
+  "chars": 2502,
+  "lines": 31,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 24,
+   "screen.drawLine": 22,
+   "math.sin": 22,
+   "math.cos": 22,
+   "screen.setColor": 3,
+   "screen.drawCircle": 2,
+   "onDraw": 1
+  },
+  "api_kinds": 7,
+  "score": 33,
+  "density": 2.8
+ },
+ {
+  "file": "3783474598_vehicle_70.lua",
+  "chars": 1057,
+  "lines": 35,
+  "minified": false,
+  "topics": [
+   "sensor"
+  ],
+  "api_hits": {
+   "screen.draw": 11,
+   "screen.drawLine": 9,
+   "screen.setColor": 2,
+   "screen.drawText": 2,
+   "input.getNumber": 2,
+   "property.get": 1,
+   "property.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 9,
+  "score": 33,
+  "density": 8.51
  },
  {
   "file": "2645485379_vehicle_0.lua",
@@ -11778,6 +13328,52 @@
   "api_kinds": 12,
   "score": 31,
   "density": 8.08
+ },
+ {
+  "file": "3794382107_vehicle_0.lua",
+  "chars": 4289,
+  "lines": 138,
+  "minified": false,
+  "topics": [
+   "engine",
+   "logic"
+  ],
+  "api_hits": {
+   "property.get": 11,
+   "property.getNumber": 10,
+   "output.setNumber": 10,
+   "input.getNumber": 6,
+   "output.setBool": 4,
+   "onTick": 2,
+   "property.getBool": 1,
+   "input.getBool": 1
+  },
+  "api_kinds": 8,
+  "score": 31,
+  "density": 1.87
+ },
+ {
+  "file": "3794382107_vehicle_1.lua",
+  "chars": 4289,
+  "lines": 138,
+  "minified": false,
+  "topics": [
+   "engine",
+   "logic"
+  ],
+  "api_hits": {
+   "property.get": 11,
+   "property.getNumber": 10,
+   "output.setNumber": 10,
+   "input.getNumber": 6,
+   "output.setBool": 4,
+   "onTick": 2,
+   "property.getBool": 1,
+   "input.getBool": 1
+  },
+  "api_kinds": 8,
+  "score": 31,
+  "density": 1.87
  },
  {
   "file": "2489789576_vehicle_0.lua",
@@ -15410,6 +17006,28 @@
   "density": 1.71
  },
  {
+  "file": "3794300744_vehicle_21.lua",
+  "chars": 1553,
+  "lines": 60,
+  "minified": false,
+  "topics": [
+   "radar",
+   "engine",
+   "logic"
+  ],
+  "api_hits": {
+   "property.get": 8,
+   "property.getNumber": 5,
+   "property.getBool": 3,
+   "input.getNumber": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 6,
+  "score": 29,
+  "density": 3.86
+ },
+ {
   "file": "2379508495_vehicle_2.lua",
   "chars": 3253,
   "lines": 172,
@@ -16390,6 +18008,116 @@
   "density": 8.62
  },
  {
+  "file": "3783474598_vehicle_10.lua",
+  "chars": 4058,
+  "lines": 125,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 96,
+   "screen.drawRect": 96,
+   "input.getNumber": 17,
+   "screen.setColor": 6,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 6,
+  "score": 26,
+  "density": 1.48
+ },
+ {
+  "file": "3783474598_vehicle_12.lua",
+  "chars": 2904,
+  "lines": 91,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 64,
+   "screen.drawRect": 64,
+   "input.getNumber": 17,
+   "screen.setColor": 4,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 6,
+  "score": 26,
+  "density": 2.07
+ },
+ {
+  "file": "3783474598_vehicle_15.lua",
+  "chars": 959,
+  "lines": 33,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 13,
+   "screen.setColor": 13,
+   "screen.drawRect": 12,
+   "screen.drawLine": 1,
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 7,
+  "score": 26,
+  "density": 7.3
+ },
+ {
+  "file": "3783474598_vehicle_36.lua",
+  "chars": 4058,
+  "lines": 125,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 96,
+   "screen.drawRect": 96,
+   "input.getNumber": 17,
+   "screen.setColor": 6,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 6,
+  "score": 26,
+  "density": 1.48
+ },
+ {
+  "file": "3783474598_vehicle_38.lua",
+  "chars": 2904,
+  "lines": 91,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 64,
+   "screen.drawRect": 64,
+   "input.getNumber": 17,
+   "screen.setColor": 4,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 6,
+  "score": 26,
+  "density": 2.07
+ },
+ {
+  "file": "3783474598_vehicle_41.lua",
+  "chars": 959,
+  "lines": 33,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 13,
+   "screen.setColor": 13,
+   "screen.drawRect": 12,
+   "screen.drawLine": 1,
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 7,
+  "score": 26,
+  "density": 7.3
+ },
+ {
   "file": "1962616298_vehicle_4.lua",
   "chars": 500,
   "lines": 18,
@@ -17035,6 +18763,26 @@
   "density": 6.92
  },
  {
+  "file": "3783474598_vehicle_59.lua",
+  "chars": 988,
+  "lines": 43,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "property.get": 3,
+   "property.getText": 2,
+   "property.getNumber": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 8,
+  "score": 25,
+  "density": 8.1
+ },
+ {
   "file": "2409700748_vehicle_8.lua",
   "chars": 850,
   "lines": 30,
@@ -17221,6 +18969,56 @@
   "api_kinds": 11,
   "score": 24,
   "density": 2.63
+ },
+ {
+  "file": "3783474598_vehicle_26.lua",
+  "chars": 1174,
+  "lines": 65,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "input.getNumber": 8,
+   "output.setNumber": 3,
+   "math.sin": 3,
+   "math.cos": 3,
+   "input.getBool": 2,
+   "screen.draw": 1,
+   "screen.setColor": 1,
+   "screen.drawCircle": 1,
+   "output.setBool": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 24,
+  "density": 9.37
+ },
+ {
+  "file": "3783474598_vehicle_52.lua",
+  "chars": 1174,
+  "lines": 65,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "input.getNumber": 8,
+   "output.setNumber": 3,
+   "math.sin": 3,
+   "math.cos": 3,
+   "input.getBool": 2,
+   "screen.draw": 1,
+   "screen.setColor": 1,
+   "screen.drawCircle": 1,
+   "output.setBool": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 24,
+  "density": 9.37
  },
  {
   "file": "2308050926_vehicle_3.lua",
@@ -18682,6 +20480,101 @@
   "density": 2.44
  },
  {
+  "file": "3750251471_vehicle_2.lua",
+  "chars": 3181,
+  "lines": 138,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "hud"
+  ],
+  "api_hits": {
+   "input.getNumber": 4,
+   "input.getBool": 3,
+   "math.sin": 2,
+   "math.cos": 2,
+   "string.format": 2,
+   "screen.draw": 1,
+   "screen.drawCircle": 1,
+   "map.mapToScreen": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 23,
+  "density": 3.14
+ },
+ {
+  "file": "3783474598_vehicle_13.lua",
+  "chars": 955,
+  "lines": 36,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 15,
+   "screen.setColor": 15,
+   "screen.drawRect": 15,
+   "onDraw": 1
+  },
+  "api_kinds": 4,
+  "score": 23,
+  "density": 4.19
+ },
+ {
+  "file": "3783474598_vehicle_39.lua",
+  "chars": 955,
+  "lines": 36,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 15,
+   "screen.setColor": 15,
+   "screen.drawRect": 15,
+   "onDraw": 1
+  },
+  "api_kinds": 4,
+  "score": 23,
+  "density": 4.19
+ },
+ {
+  "file": "3794300744_vehicle_0.lua",
+  "chars": 1712,
+  "lines": 93,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 6,
+   "screen.drawLine": 6,
+   "screen.setColor": 2,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 7,
+  "score": 23,
+  "density": 4.09
+ },
+ {
+  "file": "3794300744_vehicle_14.lua",
+  "chars": 1713,
+  "lines": 93,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 6,
+   "screen.drawLine": 6,
+   "screen.setColor": 2,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 7,
+  "score": 23,
+  "density": 4.09
+ },
+ {
   "file": "2084796098_vehicle_0.lua",
   "chars": 951,
   "lines": 31,
@@ -19888,6 +21781,25 @@
   "density": 1.66
  },
  {
+  "file": "3793531285_vehicle_4.lua",
+  "chars": 4034,
+  "lines": 96,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 12,
+   "screen.drawRect": 12,
+   "screen.setColor": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 7,
+  "score": 21,
+  "density": 1.74
+ },
+ {
   "file": "1745482481_microcontroller_0.lua",
   "chars": 1282,
   "lines": 69,
@@ -20032,6 +21944,32 @@
   "api_kinds": 6,
   "score": 20,
   "density": 9.1
+ },
+ {
+  "file": "3750251471_vehicle_4.lua",
+  "chars": 6099,
+  "lines": 204,
+  "minified": false,
+  "topics": [
+   "radar",
+   "weapon",
+   "logic"
+  ],
+  "api_hits": {
+   "input.getNumber": 14,
+   "output.setNumber": 5,
+   "math.cos": 4,
+   "math.sin": 3,
+   "table.insert": 3,
+   "input.getBool": 1,
+   "math.atan": 1,
+   "math.sqrt": 1,
+   "table.remove": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 20,
+  "density": 1.64
  },
  {
   "file": "2021358468_vehicle_2.lua",
@@ -21031,6 +22969,64 @@
   "density": 2.39
  },
  {
+  "file": "3783474598_vehicle_2.lua",
+  "chars": 797,
+  "lines": 27,
+  "minified": false,
+  "topics": [
+   "autopilot"
+  ],
+  "api_hits": {
+   "input.getNumber": 5,
+   "screen.draw": 2,
+   "screen.setColor": 1,
+   "screen.drawCircle": 1,
+   "screen.drawMap": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 7,
+  "score": 19,
+  "density": 8.78
+ },
+ {
+  "file": "3783474598_vehicle_28.lua",
+  "chars": 798,
+  "lines": 27,
+  "minified": false,
+  "topics": [
+   "autopilot"
+  ],
+  "api_hits": {
+   "input.getNumber": 5,
+   "screen.draw": 2,
+   "screen.setColor": 1,
+   "screen.drawCircle": 1,
+   "screen.drawMap": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 7,
+  "score": 19,
+  "density": 8.77
+ },
+ {
+  "file": "3783474598_vehicle_69.lua",
+  "chars": 754,
+  "lines": 21,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 9,
+   "screen.drawLine": 9,
+   "screen.setColor": 1,
+   "onDraw": 1
+  },
+  "api_kinds": 4,
+  "score": 19,
+  "density": 5.31
+ },
+ {
   "file": "2080390771_microcontroller_0.lua",
   "chars": 1605,
   "lines": 81,
@@ -21981,6 +23977,156 @@
   "density": 3.08
  },
  {
+  "file": "3783474598_vehicle_55.lua",
+  "chars": 3616,
+  "lines": 156,
+  "minified": false,
+  "topics": [
+   "engine",
+   "logic"
+  ],
+  "api_hits": {
+   "property.get": 2,
+   "property.getBool": 1,
+   "property.getNumber": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "table.insert": 1,
+   "table.remove": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 18,
+  "density": 2.77
+ },
+ {
+  "file": "3783474598_vehicle_56.lua",
+  "chars": 3088,
+  "lines": 130,
+  "minified": false,
+  "topics": [
+   "engine",
+   "logic"
+  ],
+  "api_hits": {
+   "property.get": 2,
+   "property.getBool": 1,
+   "property.getNumber": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "table.insert": 1,
+   "table.remove": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 18,
+  "density": 3.24
+ },
+ {
+  "file": "3783474598_vehicle_85.lua",
+  "chars": 3616,
+  "lines": 156,
+  "minified": false,
+  "topics": [
+   "engine",
+   "logic"
+  ],
+  "api_hits": {
+   "property.get": 2,
+   "property.getBool": 1,
+   "property.getNumber": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "table.insert": 1,
+   "table.remove": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 18,
+  "density": 2.77
+ },
+ {
+  "file": "3783474598_vehicle_86.lua",
+  "chars": 3088,
+  "lines": 130,
+  "minified": false,
+  "topics": [
+   "engine",
+   "logic"
+  ],
+  "api_hits": {
+   "property.get": 2,
+   "property.getBool": 1,
+   "property.getNumber": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "table.insert": 1,
+   "table.remove": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 18,
+  "density": 3.24
+ },
+ {
+  "file": "3783474598_vehicle_92.lua",
+  "chars": 3616,
+  "lines": 156,
+  "minified": false,
+  "topics": [
+   "engine",
+   "logic"
+  ],
+  "api_hits": {
+   "property.get": 2,
+   "property.getBool": 1,
+   "property.getNumber": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "table.insert": 1,
+   "table.remove": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 18,
+  "density": 2.77
+ },
+ {
+  "file": "3783474598_vehicle_93.lua",
+  "chars": 3088,
+  "lines": 130,
+  "minified": false,
+  "topics": [
+   "engine",
+   "logic"
+  ],
+  "api_hits": {
+   "property.get": 2,
+   "property.getBool": 1,
+   "property.getNumber": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "table.insert": 1,
+   "table.remove": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 18,
+  "density": 3.24
+ },
+ {
   "file": "1962616298_vehicle_1.lua",
   "chars": 620,
   "lines": 28,
@@ -22326,6 +24472,48 @@
   "api_kinds": 8,
   "score": 17,
   "density": 2.04
+ },
+ {
+  "file": "3783474598_vehicle_35.lua",
+  "chars": 2471,
+  "lines": 65,
+  "minified": false,
+  "topics": [
+   "comm"
+  ],
+  "api_hits": {
+   "input.getNumber": 9,
+   "output.setBool": 8,
+   "input.getBool": 2,
+   "screen.draw": 1,
+   "screen.drawMap": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 7,
+  "score": 17,
+  "density": 2.83
+ },
+ {
+  "file": "3783474598_vehicle_9.lua",
+  "chars": 2470,
+  "lines": 65,
+  "minified": false,
+  "topics": [
+   "comm"
+  ],
+  "api_hits": {
+   "input.getNumber": 9,
+   "output.setBool": 8,
+   "input.getBool": 2,
+   "screen.draw": 1,
+   "screen.drawMap": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 7,
+  "score": 17,
+  "density": 2.83
  },
  {
   "file": "1969765716_vehicle_9.lua",
@@ -25963,6 +28151,106 @@
   "density": 2.56
  },
  {
+  "file": "3783474598_vehicle_75.lua",
+  "chars": 3807,
+  "lines": 117,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "radar",
+   "weapon",
+   "sensor"
+  ],
+  "api_hits": {
+   "math.sin": 8,
+   "math.cos": 6,
+   "math.atan": 4,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 8,
+  "score": 16,
+  "density": 2.1
+ },
+ {
+  "file": "3783474598_vehicle_78.lua",
+  "chars": 3807,
+  "lines": 117,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "radar",
+   "weapon",
+   "sensor"
+  ],
+  "api_hits": {
+   "math.sin": 8,
+   "math.cos": 6,
+   "math.atan": 4,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 8,
+  "score": 16,
+  "density": 2.1
+ },
+ {
+  "file": "3783474598_vehicle_81.lua",
+  "chars": 3807,
+  "lines": 117,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "radar",
+   "weapon",
+   "sensor"
+  ],
+  "api_hits": {
+   "math.sin": 8,
+   "math.cos": 6,
+   "math.atan": 4,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 8,
+  "score": 16,
+  "density": 2.1
+ },
+ {
+  "file": "3783474598_vehicle_84.lua",
+  "chars": 3807,
+  "lines": 117,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "radar",
+   "weapon",
+   "sensor"
+  ],
+  "api_hits": {
+   "math.sin": 8,
+   "math.cos": 6,
+   "math.atan": 4,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 8,
+  "score": 16,
+  "density": 2.1
+ },
+ {
   "file": "1772155525_vehicle_6.lua",
   "chars": 3170,
   "lines": 25,
@@ -26296,6 +28584,57 @@
   "api_kinds": 9,
   "score": 15,
   "density": 2.48
+ },
+ {
+  "file": "3168029480_vehicle_0.lua",
+  "chars": 2545,
+  "lines": 85,
+  "minified": false,
+  "topics": [
+   "radar",
+   "weapon"
+  ],
+  "api_hits": {
+   "property.get": 1,
+   "property.getNumber": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "string.format": 1,
+   "table.insert": 1,
+   "table.remove": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 15,
+  "density": 4.32
+ },
+ {
+  "file": "3168029480_vehicle_1.lua",
+  "chars": 4105,
+  "lines": 191,
+  "minified": false,
+  "topics": [
+   "logic"
+  ],
+  "api_hits": {
+   "property.get": 1,
+   "property.getNumber": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "string.format": 1,
+   "table.insert": 1,
+   "table.remove": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 11,
+  "score": 15,
+  "density": 2.68
  },
  {
   "file": "3242277101_vehicle_70.lua",
@@ -26713,6 +29052,31 @@
   "density": 3.68
  },
  {
+  "file": "3168029480_vehicle_2.lua",
+  "chars": 2336,
+  "lines": 65,
+  "minified": false,
+  "topics": [
+   "radar",
+   "hud"
+  ],
+  "api_hits": {
+   "property.get": 1,
+   "property.getNumber": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "table.insert": 1,
+   "table.remove": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 10,
+  "score": 14,
+  "density": 4.28
+ },
+ {
   "file": "3261800786_vehicle_19.lua",
   "chars": 3408,
   "lines": 153,
@@ -27109,6 +29473,47 @@
   "api_kinds": 10,
   "score": 14,
   "density": 2.99
+ },
+ {
+  "file": "3750251471_vehicle_3.lua",
+  "chars": 5358,
+  "lines": 223,
+  "minified": false,
+  "topics": [
+   "radar",
+   "weapon"
+  ],
+  "api_hits": {
+   "input.getNumber": 21,
+   "output.setNumber": 12,
+   "output.setBool": 4,
+   "math.atan": 1,
+   "math.sqrt": 1,
+   "math.sin": 1,
+   "math.cos": 1,
+   "onTick": 1
+  },
+  "api_kinds": 8,
+  "score": 14,
+  "density": 1.49
+ },
+ {
+  "file": "3793531285_vehicle_1.lua",
+  "chars": 3993,
+  "lines": 116,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "output.setNumber": 11,
+   "input.getNumber": 10,
+   "input.getBool": 6,
+   "output.setBool": 3,
+   "table.remove": 2,
+   "onTick": 1
+  },
+  "api_kinds": 6,
+  "score": 14,
+  "density": 1.5
  },
  {
   "file": "1772155525_vehicle_1.lua",
@@ -27666,6 +30071,29 @@
   "api_kinds": 7,
   "score": 13,
   "density": 12.24
+ },
+ {
+  "file": "3168029480_vehicle_5.lua",
+  "chars": 1072,
+  "lines": 53,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "property.get": 1,
+   "property.getNumber": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "string.format": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 9,
+  "score": 13,
+  "density": 8.4
  },
  {
   "file": "3242277101_vehicle_10.lua",
@@ -30076,6 +32504,28 @@
   "density": 2.16
  },
  {
+  "file": "3168029480_vehicle_3.lua",
+  "chars": 3697,
+  "lines": 128,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "property.get": 1,
+   "property.getNumber": 1,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 8,
+  "score": 12,
+  "density": 2.16
+ },
+ {
   "file": "3261800786_vehicle_15.lua",
   "chars": 3035,
   "lines": 138,
@@ -30265,6 +32715,81 @@
   "api_kinds": 8,
   "score": 12,
   "density": 1.3
+ },
+ {
+  "file": "3783474598_vehicle_87.lua",
+  "chars": 3543,
+  "lines": 132,
+  "minified": false,
+  "topics": [
+   "engine",
+   "comm",
+   "sensor"
+  ],
+  "api_hits": {
+   "input.getNumber": 25,
+   "output.setNumber": 4,
+   "property.get": 1,
+   "property.getNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 12,
+  "density": 1.41
+ },
+ {
+  "file": "3792102337_vehicle_1.lua",
+  "chars": 1693,
+  "lines": 84,
+  "minified": false,
+  "topics": [
+   "radar",
+   "engine",
+   "logic"
+  ],
+  "api_hits": {
+   "property.get": 2,
+   "property.getBool": 1,
+   "property.getNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 4,
+  "score": 12,
+  "density": 2.36
+ },
+ {
+  "file": "3793531285_vehicle_0.lua",
+  "chars": 1593,
+  "lines": 51,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "output.setNumber": 5,
+   "input.getNumber": 4,
+   "output.setBool": 4,
+   "input.getBool": 3,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 12,
+  "density": 3.14
+ },
+ {
+  "file": "3793531285_vehicle_3.lua",
+  "chars": 4210,
+  "lines": 179,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "output.setBool": 7,
+   "input.getBool": 4,
+   "input.getNumber": 4,
+   "output.setNumber": 3,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 12,
+  "density": 1.19
  },
  {
   "file": "2127405672_vehicle_0.lua",
@@ -34437,6 +36962,59 @@
   "density": 11.99
  },
  {
+  "file": "3783474598_vehicle_14.lua",
+  "chars": 263,
+  "lines": 9,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 1,
+   "screen.setColor": 1,
+   "screen.drawRect": 1,
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 6,
+  "score": 10,
+  "density": 22.81
+ },
+ {
+  "file": "3783474598_vehicle_40.lua",
+  "chars": 263,
+  "lines": 9,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 1,
+   "screen.setColor": 1,
+   "screen.drawRect": 1,
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 6,
+  "score": 10,
+  "density": 22.81
+ },
+ {
+  "file": "3793531285_vehicle_2.lua",
+  "chars": 2986,
+  "lines": 99,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "input.getNumber": 7,
+   "output.setNumber": 5,
+   "output.setBool": 4,
+   "input.getBool": 1,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 10,
+  "density": 1.67
+ },
+ {
   "file": "1969765716_vehicle_22.lua",
   "chars": 206,
   "lines": 6,
@@ -35893,6 +38471,38 @@
   "density": 2.53
  },
  {
+  "file": "3793694257_vehicle_1.lua",
+  "chars": 1743,
+  "lines": 45,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 1,
+   "screen.setColor": 1,
+   "screen.drawLine": 1,
+   "onDraw": 1
+  },
+  "api_kinds": 4,
+  "score": 9,
+  "density": 2.29
+ },
+ {
+  "file": "3793701852_vehicle_1.lua",
+  "chars": 1743,
+  "lines": 45,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "screen.draw": 1,
+   "screen.setColor": 1,
+   "screen.drawLine": 1,
+   "onDraw": 1
+  },
+  "api_kinds": 4,
+  "score": 9,
+  "density": 2.29
+ },
+ {
   "file": "2790345070_vehicle_3.lua",
   "chars": 2606,
   "lines": 144,
@@ -36307,6 +38917,27 @@
   "api_kinds": 5,
   "score": 8,
   "density": 8.82
+ },
+ {
+  "file": "ACM_HMD_microcontroller_0.lua",
+  "chars": 4199,
+  "lines": 307,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "string.format": 2,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 7,
+  "score": 8,
+  "density": 1.67
  },
  {
   "file": "2161258707_microcontroller_0.lua",
@@ -37643,6 +40274,99 @@
   "api_kinds": 4,
   "score": 7,
   "density": 3.43
+ },
+ {
+  "file": "3750251471_vehicle_5.lua",
+  "chars": 725,
+  "lines": 35,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "output.setNumber": 6,
+   "input.getBool": 2,
+   "input.getNumber": 2,
+   "onTick": 1
+  },
+  "api_kinds": 4,
+  "score": 7,
+  "density": 5.52
+ },
+ {
+  "file": "3783474598_vehicle_64.lua",
+  "chars": 607,
+  "lines": 35,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "table.remove": 2,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "table.insert": 1,
+   "onTick": 1
+  },
+  "api_kinds": 7,
+  "score": 7,
+  "density": 11.53
+ },
+ {
+  "file": "3783474598_vehicle_65.lua",
+  "chars": 737,
+  "lines": 42,
+  "minified": false,
+  "topics": [
+   "sensor"
+  ],
+  "api_hits": {
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "math.sin": 1,
+   "math.cos": 1,
+   "table.insert": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 7,
+  "score": 7,
+  "density": 9.5
+ },
+ {
+  "file": "3783474598_vehicle_71.lua",
+  "chars": 619,
+  "lines": 30,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "input.getBool": 3,
+   "input.getNumber": 3,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 4,
+  "score": 7,
+  "density": 6.46
+ },
+ {
+  "file": "3794382107_vehicle_7.lua",
+  "chars": 786,
+  "lines": 29,
+  "minified": false,
+  "topics": [
+   "comm"
+  ],
+  "api_hits": {
+   "output.setBool": 3,
+   "output.setNumber": 2,
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 7,
+  "density": 6.36
  },
  {
   "file": "1969765716_vehicle_21.lua",
@@ -39941,6 +42665,60 @@
   "density": 8.14
  },
  {
+  "file": "3783474598_vehicle_63.lua",
+  "chars": 521,
+  "lines": 29,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "table.insert": 1,
+   "table.remove": 1,
+   "onTick": 1
+  },
+  "api_kinds": 7,
+  "score": 6,
+  "density": 13.44
+ },
+ {
+  "file": "3794382107_vehicle_4.lua",
+  "chars": 8265,
+  "lines": 275,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "radar",
+   "hud",
+   "sensor"
+  ],
+  "api_hits": {
+   "map.mapToScreen": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 3,
+  "score": 6,
+  "density": 0.36
+ },
+ {
+  "file": "3794382107_vehicle_9.lua",
+  "chars": 719,
+  "lines": 16,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "output.setBool": 4,
+   "input.getBool": 3,
+   "onTick": 1
+  },
+  "api_kinds": 3,
+  "score": 6,
+  "density": 4.17
+ },
+ {
   "file": "1969765716_vehicle_25.lua",
   "chars": 743,
   "lines": 27,
@@ -40269,6 +43047,306 @@
   "api_kinds": 5,
   "score": 5,
   "density": 5.88
+ },
+ {
+  "file": "3750251471_vehicle_0.lua",
+  "chars": 660,
+  "lines": 30,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "input.getBool": 8,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 4,
+  "score": 5,
+  "density": 6.06
+ },
+ {
+  "file": "3783474598_vehicle_57.lua",
+  "chars": 2680,
+  "lines": 154,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "string.format": 2,
+   "string.sub": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 4,
+  "score": 5,
+  "density": 1.49
+ },
+ {
+  "file": "3783474598_vehicle_58.lua",
+  "chars": 2680,
+  "lines": 154,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "string.format": 2,
+   "string.sub": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 4,
+  "score": 5,
+  "density": 1.49
+ },
+ {
+  "file": "3783474598_vehicle_74.lua",
+  "chars": 572,
+  "lines": 28,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "input.getNumber": 6,
+   "input.getBool": 1,
+   "output.setBool": 1,
+   "onTick": 1
+  },
+  "api_kinds": 4,
+  "score": 5,
+  "density": 6.99
+ },
+ {
+  "file": "3783474598_vehicle_77.lua",
+  "chars": 572,
+  "lines": 28,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "input.getNumber": 6,
+   "input.getBool": 1,
+   "output.setBool": 1,
+   "onTick": 1
+  },
+  "api_kinds": 4,
+  "score": 5,
+  "density": 6.99
+ },
+ {
+  "file": "3783474598_vehicle_80.lua",
+  "chars": 572,
+  "lines": 28,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "input.getNumber": 6,
+   "input.getBool": 1,
+   "output.setBool": 1,
+   "onTick": 1
+  },
+  "api_kinds": 4,
+  "score": 5,
+  "density": 6.99
+ },
+ {
+  "file": "3783474598_vehicle_83.lua",
+  "chars": 572,
+  "lines": 28,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "input.getNumber": 6,
+   "input.getBool": 1,
+   "output.setBool": 1,
+   "onTick": 1
+  },
+  "api_kinds": 4,
+  "score": 5,
+  "density": 6.99
+ },
+ {
+  "file": "3794300744_vehicle_10.lua",
+  "chars": 1424,
+  "lines": 63,
+  "minified": false,
+  "topics": [
+   "hud",
+   "comm"
+  ],
+  "api_hits": {
+   "input.getNumber": 2,
+   "input.getBool": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 5,
+  "density": 3.51
+ },
+ {
+  "file": "3794300744_vehicle_11.lua",
+  "chars": 1435,
+  "lines": 65,
+  "minified": false,
+  "topics": [
+   "hud",
+   "comm"
+  ],
+  "api_hits": {
+   "input.getNumber": 2,
+   "input.getBool": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 5,
+  "density": 3.48
+ },
+ {
+  "file": "3794300744_vehicle_12.lua",
+  "chars": 1435,
+  "lines": 65,
+  "minified": false,
+  "topics": [
+   "hud",
+   "comm"
+  ],
+  "api_hits": {
+   "input.getNumber": 2,
+   "input.getBool": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 5,
+  "density": 3.48
+ },
+ {
+  "file": "3794300744_vehicle_13.lua",
+  "chars": 1435,
+  "lines": 65,
+  "minified": false,
+  "topics": [
+   "hud",
+   "comm"
+  ],
+  "api_hits": {
+   "input.getNumber": 2,
+   "input.getBool": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 5,
+  "density": 3.48
+ },
+ {
+  "file": "3794300744_vehicle_2.lua",
+  "chars": 1434,
+  "lines": 65,
+  "minified": false,
+  "topics": [
+   "hud",
+   "comm"
+  ],
+  "api_hits": {
+   "input.getNumber": 2,
+   "input.getBool": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 5,
+  "density": 3.49
+ },
+ {
+  "file": "3794300744_vehicle_7.lua",
+  "chars": 1423,
+  "lines": 63,
+  "minified": false,
+  "topics": [
+   "hud",
+   "comm"
+  ],
+  "api_hits": {
+   "input.getNumber": 2,
+   "input.getBool": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 5,
+  "density": 3.51
+ },
+ {
+  "file": "3794300744_vehicle_8.lua",
+  "chars": 1423,
+  "lines": 63,
+  "minified": false,
+  "topics": [
+   "hud",
+   "comm"
+  ],
+  "api_hits": {
+   "input.getNumber": 2,
+   "input.getBool": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 5,
+  "density": 3.51
+ },
+ {
+  "file": "3794300744_vehicle_9.lua",
+  "chars": 1423,
+  "lines": 63,
+  "minified": false,
+  "topics": [
+   "hud",
+   "comm"
+  ],
+  "api_hits": {
+   "input.getNumber": 2,
+   "input.getBool": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 5,
+  "density": 3.51
+ },
+ {
+  "file": "ACM_HMD_microcontroller_1.lua",
+  "chars": 3535,
+  "lines": 277,
+  "minified": false,
+  "topics": [
+   "radar",
+   "hud"
+  ],
+  "api_hits": {
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 5,
+  "density": 1.41
  },
  {
   "file": "1969765716_vehicle_16.lua",
@@ -43763,6 +46841,77 @@
   "density": 15.62
  },
  {
+  "file": "3792102337_vehicle_0.lua",
+  "chars": 1360,
+  "lines": 44,
+  "minified": false,
+  "topics": [
+   "engine",
+   "comm"
+  ],
+  "api_hits": {
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 4,
+  "density": 3.68
+ },
+ {
+  "file": "3792102337_vehicle_2.lua",
+  "chars": 721,
+  "lines": 41,
+  "minified": false,
+  "topics": [
+   "comm"
+  ],
+  "api_hits": {
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 5,
+  "score": 4,
+  "density": 6.93
+ },
+ {
+  "file": "3794300744_vehicle_17.lua",
+  "chars": 1324,
+  "lines": 87,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 4,
+  "score": 4,
+  "density": 3.02
+ },
+ {
+  "file": "3794300744_vehicle_4.lua",
+  "chars": 1323,
+  "lines": 87,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "input.getBool": 1,
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 4,
+  "score": 4,
+  "density": 3.02
+ },
+ {
   "file": "2013584399_vehicle_18.lua",
   "chars": 388,
   "lines": 12,
@@ -44430,6 +47579,134 @@
   "api_kinds": 3,
   "score": 3,
   "density": 0.47
+ },
+ {
+  "file": "3783474598_vehicle_88.lua",
+  "chars": 6668,
+  "lines": 289,
+  "minified": false,
+  "topics": [
+   "autopilot",
+   "sensor"
+  ],
+  "api_hits": {
+   "string.format": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 3,
+  "score": 3,
+  "density": 0.45
+ },
+ {
+  "file": "3783474598_vehicle_89.lua",
+  "chars": 4736,
+  "lines": 154,
+  "minified": false,
+  "topics": [
+   "radar"
+  ],
+  "api_hits": {
+   "string.format": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 3,
+  "score": 3,
+  "density": 0.63
+ },
+ {
+  "file": "3792102337_vehicle_3.lua",
+  "chars": 1519,
+  "lines": 77,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "input.getNumber": 1,
+   "output.setBool": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 4,
+  "score": 3,
+  "density": 2.63
+ },
+ {
+  "file": "3794300744_vehicle_16.lua",
+  "chars": 3620,
+  "lines": 198,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 3,
+  "score": 3,
+  "density": 0.83
+ },
+ {
+  "file": "3794300744_vehicle_19.lua",
+  "chars": 2694,
+  "lines": 158,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 3,
+  "score": 3,
+  "density": 1.11
+ },
+ {
+  "file": "3794300744_vehicle_3.lua",
+  "chars": 3619,
+  "lines": 198,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 3,
+  "score": 3,
+  "density": 0.83
+ },
+ {
+  "file": "3794300744_vehicle_6.lua",
+  "chars": 2693,
+  "lines": 158,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "input.getNumber": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 3,
+  "score": 3,
+  "density": 1.11
+ },
+ {
+  "file": "3794382107_vehicle_6.lua",
+  "chars": 7663,
+  "lines": 311,
+  "minified": false,
+  "topics": [
+   "hud"
+  ],
+  "api_hits": {
+   "table.insert": 1,
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 3,
+  "score": 3,
+  "density": 0.39
  },
  {
   "file": "2156423827_vehicle_0.lua",
@@ -45815,6 +49092,21 @@
   "density": 0.51
  },
  {
+  "file": "3168029480_vehicle_4.lua",
+  "chars": 291,
+  "lines": 10,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "input.getNumber": 1,
+   "output.setNumber": 1,
+   "onTick": 1
+  },
+  "api_kinds": 3,
+  "score": 2,
+  "density": 10.31
+ },
+ {
   "file": "3228447235_vehicle_5.lua",
   "chars": 4209,
   "lines": 5,
@@ -46590,6 +49882,22 @@
   "api_kinds": 2,
   "score": 2,
   "density": 0.47
+ },
+ {
+  "file": "3783474598_vehicle_53.lua",
+  "chars": 4200,
+  "lines": 5,
+  "minified": false,
+  "topics": [
+   "engine"
+  ],
+  "api_hits": {
+   "onDraw": 1,
+   "onTick": 1
+  },
+  "api_kinds": 2,
+  "score": 2,
+  "density": 0.48
  },
  {
   "file": "2793934450_vehicle_3.lua",
@@ -48114,6 +51422,115 @@
   "lines": 227,
   "minified": false,
   "topics": [],
+  "api_hits": {
+   "onTick": 1
+  },
+  "api_kinds": 1,
+  "score": 0,
+  "density": 0.28
+ },
+ {
+  "file": "3750251471_vehicle_1.lua",
+  "chars": 4265,
+  "lines": 188,
+  "minified": false,
+  "topics": [
+   "engine",
+   "logic"
+  ],
+  "api_hits": {
+   "onTick": 1
+  },
+  "api_kinds": 1,
+  "score": 0,
+  "density": 0.23
+ },
+ {
+  "file": "3783474598_vehicle_67.lua",
+  "chars": 4053,
+  "lines": 9,
+  "minified": false,
+  "topics": [
+   "weapon",
+   "sensor"
+  ],
+  "api_hits": {
+   "onTick": 1
+  },
+  "api_kinds": 1,
+  "score": 0,
+  "density": 0.25
+ },
+ {
+  "file": "3783474598_vehicle_68.lua",
+  "chars": 2230,
+  "lines": 14,
+  "minified": false,
+  "topics": [],
+  "api_hits": {
+   "onTick": 1
+  },
+  "api_kinds": 1,
+  "score": 0,
+  "density": 0.45
+ },
+ {
+  "file": "3792340431_vehicle_0.lua",
+  "chars": 3551,
+  "lines": 144,
+  "minified": false,
+  "topics": [
+   "engine",
+   "logic"
+  ],
+  "api_hits": {
+   "onTick": 1
+  },
+  "api_kinds": 1,
+  "score": 0,
+  "density": 0.28
+ },
+ {
+  "file": "3793694257_vehicle_0.lua",
+  "chars": 2955,
+  "lines": 147,
+  "minified": false,
+  "topics": [
+   "engine",
+   "logic"
+  ],
+  "api_hits": {
+   "onTick": 1
+  },
+  "api_kinds": 1,
+  "score": 0,
+  "density": 0.34
+ },
+ {
+  "file": "3793701852_vehicle_0.lua",
+  "chars": 2955,
+  "lines": 147,
+  "minified": false,
+  "topics": [
+   "engine",
+   "logic"
+  ],
+  "api_hits": {
+   "onTick": 1
+  },
+  "api_kinds": 1,
+  "score": 0,
+  "density": 0.34
+ },
+ {
+  "file": "3793716975_vehicle_0.lua",
+  "chars": 3551,
+  "lines": 144,
+  "minified": false,
+  "topics": [
+   "engine",
+   "logic"
+  ],
   "api_hits": {
    "onTick": 1
   },

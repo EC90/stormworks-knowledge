@@ -3079,3 +3079,180 @@ end
 **关联**：`05` §19 / §20（矢量图标与双次偏移描边，另一条路）· `05` §1.1（3×4 点阵字体）· `01` §2（字数压缩）· `02` §2（toggle 边沿闩锁）· 完整脚本 `../../../AI相关/_提取暂存/_r8c/3794163203_vehicle_15.lua`
 
 ---
+
+
+## §43 HUD 长文本**无缝循环跑马灯** + 每 tick 清空全部布尔输出
+
+来源：steam id **3794688360** · <https://steamcommunity.com/sharedfiles/filedetails/?id=3794688360> · **载具**（DAGGER Air Superiority Fighter）· 更新时间 **2026-09-03**
+
+`05` §5.6 给过一版「负 x 坐标让文字从左侧滚入」的跑马灯，那只滚一次、滚完就空。这一节是**无限循环**版：把文本拼两份，偏移滚到一份宽度就归零，首尾相接，视觉上永远不断流。挂架名、弹药型号这类长短不一的字符串塞进 32 px 宽的窄屏时非它不可。
+
+**用到**：数字输入（挂架信息 / 触控 / 主控开关）、属性文本（配色 ×6、滚动速度）、布尔输出 16 路、屏幕
+
+**亮点**：① **双份文本拼接** `t .. "   " .. t` 实现无缝循环；② 只对**超宽的行**启用滚动，短文本静止不抖；③ 每 tick 先把 16 路 Bool **全清**再置位；④ 滚动速度由属性数值控制，玩家自己调。
+
+```lua
+-- ① 六套配色全从属性文本读："RRR,GGG,BBB" 定宽切段（与 05 §29 同一手法）
+function onTick()
+  cols = {}
+  for i = 1, 6 do
+    local s = property.getText("Color Code " .. tostring(i))
+    cols[i] = {tonumber(s:sub(1,3)), tonumber(s:sub(5,7)), tonumber(s:sub(9,11))}
+  end
+  --  🔑 先全清，再置位：不清会留上一帧的选中态，齐射时多发一起掉
+  for i = 1, 16 do output.setBool(i, false) end
+  output.setBool(selIdx, armed)
+end
+```
+
+```lua
+-- ② 跑马灯：off[i] 是「已滚过的像素数」，滚够一份宽度就归零 → 无缝
+--    文本宽度按每字符 4 px 估（SW 内置字体的实测值），再加两侧留边
+local rows = {"Pos " .. tostring(sel), "Name: " .. name, "Ammo: " .. tostring(ammo)}
+for i, t in ipairs(rows) do
+  local wide = #t * 4 + 12
+  off[i] = off[i] or 0
+  if off[i] >= wide then
+    off[i] = 0                                    -- 一份走完，回到原点（此时第二份正好接上）
+  else
+    off[i] = off[i] + property.getNumber("Scroll Speed")
+  end
+  if off[i] > 0 and wide > 40 then                -- 只有超宽的行才滚
+    drawText(1 - off[i], (i-1)*8 + 2, t .. "   " .. t)   -- 🔑 两份首尾相接
+  else
+    drawText(1,            (i-1)*8 + 2, t)
+  end
+end
+```
+
+- ⚠ **属性为空会崩**：`property.getText` 在属性框空着时返回空串（不是 `nil`），`s:sub(1,3)` 得到 `""`，`tonumber("")` 返回 `nil`，随后 `screen.setColor(nil, ...)` 直接报错。稳妥写法是 `tonumber(s:sub(1,3)) or 0`。本例作者把六个配色框都填了默认值才没炸。
+- ⚠ **速度别取太大**：`Scroll Speed` 若大于一行宽度，一拍就跨过整个循环，看起来是文字在原地乱跳。建议属性上限设成 2~3。
+- 关联：`05` §5.6（负 x 一次性跑马灯，本节做成循环）/ `08` §17（同一作品的挂架管理，`cols` 与全清 Bool 都出自那里）/ `05` §36（航向刻度带的双向 repeat 铺满，另一种「重复」思路）
+
+---
+
+## §44 棋盘游戏 UI：**手绘像素棋子** + 深拷贝悔棋 + 长按 30 tick 弹菜单
+
+来源：steam id **3795280695** · <https://steamcommunity.com/sharedfiles/filedetails/?id=3795280695> · **载具**（Oyster Bay | Paddle Steamer，明轮船的船舱里塞了个国际象棋）· 更新时间 **2026-09-04**
+
+小屏上画图标有三条路：`05` §19/§20 用 `drawLine` 拼矢量、`05` §42 用行段压缩表存位图，这一节是第三条——**给每个棋子写一个只由 `drawRectF` 组成的函数**。棋子形状固定、只有 6 种，手写一次就能改，字符开销比矢量小、可读性比压缩表好。
+
+**用到**：触控屏（按下 / 触控 X / 触控 Y）、布尔输入（按下）、屏幕
+
+**亮点**：① 六个棋子 = 六组 `drawRectF`（各 5~15 个矩形），9×7 px 的格子里能认出形状；② `deepCopy` **递归深拷贝整盘**做悔棋；③ **长按 30 tick** 才弹菜单（Restart / Undo / Resume），短按只落子；④ 落子只判「目标格异色」即可吃子，**不做走法合法性校验**；⑤ 棋盘用 11 px 格子，`for c=4,81,22` 交错铺底色。
+
+```lua
+-- 棋子编号：0 空 / 1 王 2 后 3 车 4 象 5 马 6 兵（白），+6 = 黑（7~12）
+-- 于是 d >= 7 判黑方，d 与 d+6 是同一种棋子 → 绘制时可以合并判断
+reset = {{9,11,10,8,7,10,11,9},        -- 黑方底线：车 马 象 后 王 象 马 车
+         {12,12,12,12,12,12,12,12},    -- 黑兵
+         {0,0,0,0,0,0,0,0}, {0,0,0,0,0,0,0,0},
+         {0,0,0,0,0,0,0,0}, {0,0,0,0,0,0,0,0},
+         {6,6,6,6,6,6,6,6},            -- 白兵
+         {3,5,4,2,1,4,5,3}}            -- 白方底线
+```
+
+```lua
+-- ① 棋子 = 一组 drawRectF（a,b 是格子左上角；每个矩形最小 1 px）
+function pawn(a,b)                     -- 兵：5 段
+  drf(a+2,b,3,3) drf(a+3,b+3,1,1) drf(a+2,b+4,3,2) drf(a+1,b+6,5,1) drf(a,b+7,7,2)
+end
+function rook(a,b)                     -- 车：6 段（顶部四个垛口 + 车身 + 底座）
+  drf(a,b,1,2) drf(a+2,b,1,2) drf(a+4,b,1,2) drf(a+6,b,1,2)
+  drf(a+1,b+1,5,6) drf(a,b+7,7,2)
+end
+function king(a,b)                     -- 王：7 段（中间柱 + 两侧衣摆 + 顶部十字）
+  drf(a,b,1,7) drf(a+1,b+3,1,5) drf(a+2,b+4,3,5) drf(a+5,b+3,1,5) drf(a+6,b,1,7)
+  drf(a+3,b,1,3) drf(a+2,b+1,3,1)
+end
+-- queen / bishop / knight 同理，各 8~15 个矩形；调用处：
+if     d == 1 or d == 7  then king  (xx, yy)
+elseif d == 2 or d == 8  then queen (xx, yy)
+elseif d == 4 or d == 10 then bishop(xx, yy)
+elseif d == 5 or d == 11 then knight(xx, yy)
+elseif d == 3 or d == 9  then rook  (xx, yy)
+elseif d == 6 or d == 12 then pawn  (xx, yy) end
+```
+
+```lua
+-- ② 长按 30 tick 弹菜单；短按只落子（同一块屏，两种语义不冲突）
+if press then t = t + 1; if t == 30 then menu = true end else t = 0 end
+if press and not prev then
+  if menu then
+    if     touch(30,21,38,9) then pos = deepCopy(reset); menu = false          -- Restart
+    elseif touch(30,43,38,9) then if lastPos then pos = deepCopy(lastPos) end  -- Undo
+                                  menu = false
+    elseif touch(30,65,38,9) then menu = false end                             -- Resume
+  else
+    for a = 1, 8 do for b = 1, 8 do
+      if touch(a*11-7, b*11-7, 11, 11) then
+        if fromPos then
+          if color(a,b) ~= color(fromPos[1], fromPos[2]) then  -- 异色即可落（含吃子）
+            lastPos = deepCopy(pos)                            -- 🔑 深拷贝存档
+            pos[b][a] = pos[fromPos[2]][fromPos[1]]
+            pos[fromPos[2]][fromPos[1]] = 0
+            fromPos = nil
+          end
+        elseif pos[b][a] ~= 0 then fromPos = {a, b} end
+      end
+    end end
+  end
+end
+prev = press
+
+function deepCopy(t)          -- 递归深拷贝：盘面只有 64 格，代价可以忽略
+  local r = {}
+  for k, v in pairs(t) do r[k] = type(v) == "table" and deepCopy(v) or v end
+  return r
+end
+```
+
+- 🔑 **深拷贝 vs 栈式 undo 的取舍**：`02` §10 的 α-β 引擎每步要复制整盘做搜索，64 格深拷贝太贵，改成「O(1) 改盘 + 旧值压栈」；本节每回合才走一步，**深拷贝的一次性代价完全无所谓，换来的是 Undo 只要一行**。选哪种看「复制频率 × 盘面大小」。
+- ⚠ **反面教材：升变写在 `onDraw` 里**。原脚本在绘制循环中做 `if d == 6 then pos[b][a] = 2 end`（兵走到底线升后）。绘制函数只该画，不该改状态——屏幕被裁剪 / 关闭 / 该行在可视区外时，升变就不会发生，盘面与画面不一致。应移到 `onTick`。
+- ⚠ **没有走法校验**是刻意的：两人对战靠自觉，省掉一整套马走日 / 象走斜 / 王车易位的合法性判断，脚本才装得进 8192 字符。要接 AI 就必须补（参见 `02` §10）。
+- 关联：`05` §42（位图行段压缩表，另一种画小图的路子）/ `02` §10（同一题材的 α-β 搜索引擎）/ `05` §35（长按语义）/ `05` §31（单击 / 双击 / 长按的手势仲裁）
+
+
+## §45 **手写渐变调色板** + 双窗口触控去抖 + 折线拼图标
+
+来源：steam id **3794954536** · <https://steamcommunity.com/sharedfiles/filedetails/?id=3794954536> · **载具**（FL ST500 FW）· 更新时间 **2026-09-04**
+
+仪表上常见的「转速条随数值变色」，多数人第一反应是运行时插值 RGB。在 MC Lua 里更省的做法是**把渐变写成一张短表**：段数够密时观感完全是连续渐变，却省掉了插值函数与浮点运算，改配色也只动一处。
+
+**用到**：数字输入（RPS / 温度 / 电量 / 触控 X·Y）、布尔输入（按下）、属性文本（背景色 / 档位色，RRGGBB）、屏幕、数字输出（挡位）
+
+**亮点**：① 12 档转速条用**表驱动的手写调色板**；② 触控去抖用**双窗口**（冷却计数在 0 或 5 都放行）实现「按住连发」；③ 温度计 / 电池图标全靠 `drawLine` + `drawRect` 手绘；④ ⚠ RGB 线性插值**蓝→红会穿过紫色**，不是直觉上的冷→热。
+
+```lua
+-- ① 手写渐变调色板：{阈值, R, G, B, 柱高} —— R 递增、G 递减，段够密就是连续渐变
+PAL = {{3,0,255,0,1},{5,15,231,0,2},{10,39,207,0,3},{15,63,183,0,4},
+       {20,87,159,0,5},{25,111,135,0,6},{30,135,111,0,7},{35,159,87,0,8},
+       {40,183,63,0,9},{45,207,39,0,10},{50,231,15,0,11},{55,255,0,0,12}}
+for i = 1, #PAL do
+  if Rps >= PAL[i][1] then
+    s.setColor(PAL[i][2], PAL[i][3], PAL[i][4])
+    s.drawRectF(4 + i, h - 8, 1, -PAL[i][5])     -- 🔑 负高度：柱子从底边往上长
+  end
+end
+```
+
+```lua
+-- ② 双窗口去抖：Wt 每 tick 减 1，在 0 和 5 两个时刻都放行 → 按住时每 10 tick 触发 2 次
+if     TouchP and (Wt == 0 or Wt == 5) then Shifter = 3  Wt = 10   -- P
+elseif TouchR and (Wt == 0 or Wt == 5) then Shifter = 2  Wt = 10   -- R
+elseif TouchN and (Wt == 0 or Wt == 5) then Shifter = 1  Wt = 10   -- N
+elseif TouchD and (Wt == 0 or Wt == 5) then Shifter = 0  Wt = 10 end  -- D
+```
+
+```lua
+-- ③ 图标全靠折线拼：温度计的小圆圈 + 电池的电极与外壳，各 6 行
+s.drawLine(w/4-2, h-7, w/4-2, h-3)  s.drawLine(w/4-1, h-8, w/4-1, h-7)
+s.drawLine(w/4,   h-7, w/4,   h-3)  s.drawLine(w/4-3, h-3, w/4-3, h-1)
+s.drawLine(w/4-2, h-1, w/4+1, h-1)  s.drawLine(w/4+1, h-3, w/4+1, h-1)
+```
+
+- ⚠ **反面教材：RGB 线性插值蓝→红会穿过紫色**。原脚本写 `Tr = line*255; Tg = 0; Tb = 255 - Tr`——中间值 (128, 0, 128) 是**紫色**，看着像警报而不是「温热」。要做直觉上的冷→热，得走多段（蓝→青→绿→黄→红，即上面的调色板思路），或转成 HSL 只动色相。
+- ⚠ **原写法依赖运算符优先级**：`if TouchP and Wt==0 or TouchP and Wt==5 then` 等价于 `(TouchP and Wt==0) or (TouchP and Wt==5)`，结果正确，但这种写法极易在后续修改中读错。**一律加括号**。
+- ⚠ **触控区在 `onTick` 末尾才计算**，判断语句用的却是上一帧的 `TouchP` → 所有触控慢一帧。要立刻响应就把 `TouchP = Touch and TouchZone(...)` 挪到判断之前（`03` §23 记过同款反面教材）。
+- 🔑 **双窗口的意义**：单窗口（只在 `Wt == 0` 放行）是「按下一次触发一次」；双窗口在两个时刻放行，等于把冷却期切成两半，得到「按住时匀速连发」的手感，且不用额外状态机。
+- 关联：`05` §2（负高度条形图）/ `05` §19（矢量图标）/ `05` §31（单击 / 双击 / 长按的手势仲裁）/ `09` §21（同一辆车的挡位选择器逻辑）

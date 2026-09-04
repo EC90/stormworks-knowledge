@@ -92,16 +92,24 @@ with open(os.path.join(SRC, "_census.json"), "w", encoding="utf-8") as f:
 print(f"blocks: {len(rows)}   total_chars: {sum(r['chars'] for r in rows)}")
 print(f"minified: {sum(1 for r in rows if r['minified'])}")
 print(f"empty/trivial(<80 chars): {sum(1 for r in rows if r['chars'] < 80)}")
-print("\n== TOP 40 by score ==")
-for r in rows[:40]:
-    print(f"{r['score']:>7} | {r['chars']:>7}c {r['lines']:>4}L | {','.join(r['topics']) or '-':<28} | {r['file']}")
-print("\n== TOP 15 by API density ==")
-for r in sorted(rows, key=lambda x: -x["density"])[:15]:
-    print(f"{r['density']:>7} | {r['chars']:>7}c {r['api_kinds']:>3} kinds | {r['file']}")
-print("\n== 各类别脚本数 ==")
-c = collections.Counter()
-for r in rows:
-    for t in r["topics"]:
-        c[t] += 1
-for t, n in c.most_common():
-    print(f"  {t:<10} {n}")
+_topn = 40                                   # 批次模式下用 --topn 调小，省上下文
+if "--topn" in sys.argv:
+    _k = sys.argv.index("--topn")
+    if _k + 1 < len(sys.argv) and sys.argv[_k + 1].isdigit():
+        _topn = int(sys.argv[_k + 1])
+_quiet = "--quiet" in sys.argv               # 只写 _census.json，不打印榜单（最省上下文）
+
+if not _quiet:
+    print(f"\n== TOP {_topn} by score ==")
+    for r in rows[:_topn]:
+        print(f"{r['score']:>7} | {r['chars']:>7}c {r['lines']:>4}L | {','.join(r['topics']) or '-':<28} | {r['file']}")
+    print("\n== TOP 15 by API density ==")
+    for r in sorted(rows, key=lambda x: -x["density"])[:15]:
+        print(f"{r['density']:>7} | {r['chars']:>7}c {r['api_kinds']:>3} kinds | {r['file']}")
+    print("\n== 各类别脚本数 ==")
+    c = collections.Counter()
+    for r in rows:
+        for t in r["topics"]:
+            c[t] += 1
+    for t, n in c.most_common():
+        print(f"  {t:<10} {n}")

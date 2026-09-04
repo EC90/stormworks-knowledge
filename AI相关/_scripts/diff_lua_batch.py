@@ -54,10 +54,43 @@ for fn in sorted(os.listdir(NEW)):
     else:
         new_only.append((fn, len(b)))
 
+# 重复 ≠ 可以跳过：若这段脚本在主语料里归属的作品**还没写成例题**，
+# 跳过就等于永久丢掉这段知识。故对每个重复项标注其归属作品的学习状态。
+try:
+    import ws_reference as _ref
+    _idx = _ref.load_index(allow_build=False)
+except Exception:
+    _idx = {}
+
+
+def owner_state(main_fn):
+    """主语料文件名形如 <tid>_<kind>_<n>.lua 或 _big/<tid>_... ；取 tid 查已学习索引。"""
+    tid = main_fn.split("/")[-1].split("_")[0]
+    e = _idx.get(tid)
+    return tid, bool(e and e.get("learned"))
+
+
+safe, need = [], []
+for fn, m in dup:
+    tid, ok = owner_state(m)
+    (safe if ok else need).append((fn, m, tid))
+
 print("本批唯一 %d → 主语料已存在 %d / 全新 %d\n" % (len(seen), len(dup), len(new_only)))
 print("== 全新（优先精读）==")
 for fn, n in sorted(new_only, key=lambda x: -x[1]):
     print("  %6dc  %s" % (n, fn))
-print("\n== 与主语料重复（跳过）==")
-for fn, m in sorted(dup):
-    print("  %-34s == %s" % (fn, m))
+
+print("\n== 重复·归属作品已学习（可安全跳过，不占精读预算）==")
+for fn, m, tid in sorted(safe):
+    print("  %-34s == %s  [已学习 %s]" % (fn, m, tid))
+if not safe and not dup:
+    print("  （无）")
+
+print("\n== ⚠ 重复·但归属作品尚未写成例题（必须补学，不可跳过）==")
+for fn, m, tid in sorted(need):
+    print("  %-34s == %s  [未学习 %s]" % (fn, m, tid))
+if not need:
+    print("  （无）")
+else:
+    print(f"\n  → 这 {len(need)} 段虽然内容重复，但源作品还没出例题："
+          f"挑其中最具代表性的 1~3 段精读并写例题即可，其余可跳过。")

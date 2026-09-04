@@ -164,7 +164,8 @@ def main():
         txt = open(args[k + 1], encoding="utf-8").read()
         ids = re.findall(r"\d{6,}", txt)
     else:
-        ids = [a for a in args if a.isdigit()]
+        # 兼容逗号串写法：逗号分隔时旧版会静默得到「没有可下载的 id」
+        ids = [x for a in args for x in re.split(r"[,\s]+", a) if x.isdigit()]
 
     if not ids:
         print("没有可下载的 id")

@@ -325,7 +325,8 @@ def main():
 
     if "--no-lua" in a:                      # 标记「已确认无 Lua」，之后不再进 --top
         k = a.index("--no-lua")
-        raw = a[k + 1] if len(a) > k + 1 else ""
+        # 兼容两种写法：逗号串成一个参数，或空格分隔的多个参数（旧版只读 a[k+1]，空格分隔会被静默丢弃）
+        raw = ",".join(a[k + 1:])
         ids = [x for x in re.split(r"[,\s]+", raw) if x]
         if not ids:
             print("用法：ws_rank.py --no-lua <id,id,...>  或 --no-lua --list")
