@@ -2111,3 +2111,134 @@ end
 - ⚠ **触摸状态用数值通道判**：本作品是 `input.getNumber(3)==0` 表示未触摸。多数作品用 `input.getBool(1)`。**照抄前先确认你的接线是哪种**，判反了会发现"一直处于按下状态"。
 - ⚠ `dc`/`c` 在 `onTick` 里算、在 `onDraw` 里用是可以的（同一帧内 onTick 先于 onDraw）；但反过来把 `map.screenToMap` 放进 `onTick` 会拿不到触控坐标——**触控坐标只能从 input 读，而 input 在 onDraw 里读同样有效**，所以本例干脆把交互全放 onDraw。
 - 完整脚本：（../../../AI相关/_提取暂存/_r6/3786043607_vehicle_0.lua）
+
+## §32 虚拟摇杆拖动地图 + `drawTextBox` **全屏对齐**贴四边（不用 `getTextWidth` 也能精确贴边）
+
+- 来源：steam id 2948687255 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=2948687255 · 载具（26m V80 Superyacht，`_vehicle_0` 导航屏）
+- 更新时间：2023-03-19
+- 用到：触控屏、`screen.drawMap` / `map.mapToScreen` / `map.screenToMap`
+- 亮点：**拖动量按当前缩放加权**（`dx * z`），任何倍率下「手指挪 10 px、地图挪多远」的**视觉距离**都一致；**用一个铺满全屏的 `drawTextBox` 加对齐参数**把方位数字钉到四条边上——SW 没有 `getTextWidth`，这是唯一不依赖量字宽的贴边办法
+- 关联：`05` §15（`log10` 估位宽，另一条路）、`06` §8（拖动平移）、`04` §9.1（px→m 标定）、`05` §0.1（非正方形适配）
+
+```lua
+function Norm(x,y) return M.sqrt(x^2+y^2) end
+function Button(x,y,rx,ry,rw,rh)
+  return x>rx and y>ry and x<rx+rw and y<ry+rh
+end
+
+function onTick()
+  w,h,tx,ty = iN(1),iN(2),iN(3),iN(4)
+  tp = iB(1)
+  z  = M.exp(Z)                                  -- 对数域缩放，见 04 §9.1
+
+  -- ① 🔑 虚拟摇杆：以 (w-20, h-20) 为圆心、半径 14 的圆形判定区
+  if tp and Norm(w-20-tx, h-20-ty)<14 then
+    -- 屏幕位移 × 倍率 = 世界位移；不乘 z 的话放大后手指一划就飞出几十公里
+    x = x + (tx-w+20)*z
+    y = y + (h-20-ty)*z                          -- 注意 Y 取反（屏幕向下为正）
+  end
+
+  -- ② 归位键 / 外部按钮：把地图中心拉回外部输入的坐标（例如本船 GPS）
+  if (tp and Button(tx,ty,w-44,h-33,6,6)) or iB(3) then
+    x,y = iN(11),iN(12)
+  end
+end
+
+function onDraw()
+  ...
+  -- ③ 摇杆可视化：没拖时杆头在圆心，拖出去时画一根杆
+  dC(w-20,h-20,15)
+  if tp and Norm(w-20-tx,h-20-ty)<14 then
+    dCF(tx,ty,4)  dL(w-20,h-20,tx,ty)
+  else
+    dCF(w-20,h-20,4)
+  end
+
+  -- ④ 🔑 一个铺满全屏的文本框 + 对齐参数，把四个方位数字钉到四条边
+  --    drawTextBox(x,y,w,h, 文本, hAlign, vAlign)
+  --    hAlign: -1=左 0=居中 1=右    vAlign: -1=上 0=居中 1=下
+  dTxB(0,0,w,h,"0",   0,-1)   -- 上边居中
+  dTxB(0,0,w,h,"90",  1, 0)   -- 右边居中
+  dTxB(0,0,w,h,"180", 0, 1)   -- 下边居中
+  dTxB(0,0,w,h,"270",-1, 0)   -- 左边居中
+end
+```
+
+**为什么这样写**
+
+- **拖动为什么要乘 `z`**：`drawMap(x,y,z)` 的 `z` 决定「屏幕半宽代表多少米」，屏幕 1 px 对应的世界距离正比于 `z`。不乘的话，低倍（z 小）时拖半天纹丝不动、高倍（z 大）时轻轻一划就飞出去；乘了以后**任何倍率下拖动速度都与画面变化一致**。
+  - 更精确的做法是把 px→m 标定出来（用 `mapToScreen` 量 1 m 的像素数 `e`，见 `04` §9.1），位移写成 `dx/e`。本例直接用 `z` 是省事版，误差在一个常数因子内，手感调 `z` 的系数即可。
+- **摇杆 vs 全屏拖动**：摇杆只占右下角一块固定区，好处是「不拖动的地方可以直接点选」——本例点空白处是取坐标、测距离（见 `06` §16）；坏处是拖动手感不如全屏直接拖。选哪个看这块屏还要不要干别的事：要干就用摇杆，纯地图就全屏拖。
+- **圆形判定区用 `Norm(dx,dy)<R`** 而不是矩形，是因为手指落点在摇杆边缘时矩形会把角上的点也算进来，拖动会「跳」。半径 14、底盘 15 是配套的。
+- **`drawTextBox` 贴边比手算坐标可靠**：SW 没有 `getTextWidth`，用 `drawText` 想贴右/贴下只能靠 `log10` 估位宽（`05` §15），换字号、换内容就失准。文本框的对齐参数是引擎算的，永远准，而且**一次调用把整个屏幕当容器**，四个方向各调一次即可。
+- ⚠ 本例的方位排布是 0(上) / 90(右) / 180(下) / 270(左)，与常见罗盘玫瑰（0 在右、90 在下）不同。抄之前先确认你的屏是「北朝上」还是「船艏朝上」，别把顺序也一起抄了。
+- 完整脚本：`../../../AI相关/_提取暂存/_r7/2948687255_vehicle_0.lua`
+
+## §33 地图配色：**方案表 + 函数指针表**批量调用 + `setMapColor*` 写在 `drawMap` 之后的真实后果
+
+- 来源：steam id 3792551514 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3792551514 · 载具（ABM "21X" Large Tender RHIB，硬壳充气艇※，`_vehicle_3` 导航/雷达屏）
+- 更新时间：2026-08-30
+- 用到：8 个 `screen.setMapColor*`、`property.getNumber('Map Color')` 选配色方案、`map.mapToScreen` 做 px→m 标定
+- 亮点：**把 8 个 `setMapColor*` 存成函数表**、`ipairs` 一一对应批量调用，三套配色只花一份代码；顺带澄清一个常见误解——**`setMapColor*` 写在 `drawMap` 之后并不会「没效果」**
+- 关联：`05` §6.3（地图配色 8 组 24 通道）、`05` §17（`setMapColor*` 的调用时机）、`04` §9.1（px→m 标定）、`01` §3（大表搬进属性文本）
+
+```lua
+-- 🔑 三套配色 × 8 种地形 × RGB：索引 1 = 方案号
+MCP={
+  { {16,16,16},{30,30,30},{55,55,55},{35,35,35},   -- 1 Grey：Ocean/Shallow/Land/Grass
+    {65,65,65},{180,180,180},{50,50,50},{70,70,70} },  --            Sand/Snow/Rock/Gravel
+  { {10,30,30},{20,45,55},{60,60,55},{45,55,30},
+    {85,80,35},{200,200,200},{55,55,50},{75,70,55} },  -- 2 Faded
+  { {16,16,16},{10,25,10},{5,35,5},{0,55,0},
+    {0,76,0},{0,76,0},{15,45,15},{25,65,25} }          -- 3 Green
+}
+-- 🔑 函数指针表：顺序必须与 MCP 内层顺序严格一致
+MCF={sc.setMapColorOcean,sc.setMapColorShallows,sc.setMapColorLand,sc.setMapColorGrass,
+     sc.setMapColorSand,sc.setMapColorSnow,sc.setMapColorRock,sc.setMapColorGravel}
+MAP_COLOR=property.getNumber('Map Color')      -- 0 = 不覆盖（用游戏默认色）
+
+function onDraw()
+  sw,sh=sc.getWidth(),sc.getHeight()
+  local mx,my=gpsX+mapOX,gpsY+mapOY            -- 地图中心 = 本船 + 拖动偏移
+  sc.drawMap(mx,my,zoom)
+  -- 🔑 原文把 setMapColor 写在 drawMap 之后（对照 05 §17 的「必须在之前」）
+  if MAP_COLOR>0 and MCP[MAP_COLOR] then
+    local cp=MCP[MAP_COLOR]
+    for i,f in ipairs(MCF) do
+      f(cp[i][1],cp[i][2],cp[i][3],200)        -- 第 4 参是 alpha
+    end
+  end
+
+  -- 网格：2 的幂自适应步长（对照 04 §9.1 的十进制跳档）
+  if GRID and zoom>0 then
+    local g=2^(mf(math.log(zoom/0.1953125,2)))*31.25
+    local xt,yt=mf(mx/g),mf(my/g)
+    sC(255,255,255,15)
+    for G=xt-6,xt+6 do
+      local ox=map.mapToScreen(mx,my,zoom,sw,sh,g*G,my)
+      sL(ox,0,ox,sh)
+    end
+    for H=yt-6,yt+6 do
+      local _,oy=map.mapToScreen(mx,my,zoom,sw,sh,mx,g*H)
+      sL(0,oy,sw,oy)
+    end
+  end
+
+  -- 🔑 px→m 标定：量出「1000 m 是多少像素」，量程/距离环都基于它
+  local ssx,ssy=map.mapToScreen(mx,my,zoom,sw,sh,gpsX,gpsY)
+  local pxKm=math.max(0.01,math.abs(map.mapToScreen(mx,my,zoom,sw,sh,gpsX+1000,gpsY)-ssx))
+  local rPx=RRange/1000*pxKm                   -- 雷达量程(m) → 像素半径
+  sC(0,170,0,45) sDC(ssx,ssy,rPx)
+end
+```
+
+**为什么这样写**
+
+- **函数指针表把 24 行压成 4 行**：直接写要 `setMapColorOcean(c[1][1],c[1][2],c[1][3],200)` 重复 8 遍。存成 `MCF` 后 `for i,f in ipairs(MCF) do f(...) end` 一次搞定，还能顺手加统一 alpha。
+  - ⚠ **两张表的顺序必须严格对齐**：`MCF[i]` 对应的地形要和 `MCP[..][i]` 一致，写错一个就变成「把雪的颜色刷到海面上」。建议两表紧挨着定义，并在注释里标出 8 种地形的顺序。
+- **`MAP_COLOR>0` 留一个「不覆盖」档**：属性滑块默认 0 表示用游戏默认配色，玩家忘了设也不至于得到一张全黑的图。凡是「可选覆盖」的属性都该留一个 0 档。
+- **关于 `setMapColor*` 的调用时机（修正 `05` §17 的绝对化表述）**：`setMapColor*` 是**全局持久状态**，不是逐帧的一次性指令。写在 `drawMap` **之后**的真实后果是**本次绘制用的是上一次设的值**——即延迟一帧生效。因为本例每帧都设，所以从第 2 帧起颜色就恒定正确，肉眼无差别；只有**第 1 帧**是默认色（一闪而过，实测基本看不出来）。
+  - 所以严格写法仍是「先 `setMapColor*` 再 `drawMap`」（见 `05` §17），照抄本例的顺序属于「能跑但不严谨」。**真正会出问题的是把它放进 `onTick`**——那样跨帧时序完全不受控。
+- **px→m 标定用两次 `mapToScreen` 相减**：`mapToScreen(x,y,z,w,h, gpsX, gpsY)` 与 `(..., gpsX+1000, gpsY)` 的横坐标之差就是「1000 m 折合多少像素」。比手推公式可靠，缩放/屏尺寸变了自动跟着变。取 `math.max(0.01, ...)` 是防除零（`04` §10 的同款坑）。
+- **`2^(floor(log2(zoom/0.1953125)))*31.25` 自适应网格步长**：`0.1953125 = 1/5.12`、`31.25` 是作者标定出的常数，效果等价于「找最接近当前缩放的 2 的幂档」。与 `04` §9.1 的十进制跳档是两种口味，二选一即可。
+- 完整脚本：`../../../AI相关/_提取暂存/_r6c/3792551514_vehicle_3.lua`
