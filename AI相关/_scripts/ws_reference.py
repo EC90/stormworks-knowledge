@@ -261,7 +261,7 @@ def purge_check():
     subs = ["_new", "_big", "_readable"]
     subs += sorted(f for f in os.listdir(STAGING)
                    if os.path.isdir(os.path.join(STAGING, f))
-                   and re.fullmatch(r"_r\d+", f))
+                   and re.match(r"_r\d", f))   # _r6 / _r6c / _r10 …（可带后缀字母）
     for sub in subs:
         d = os.path.join(STAGING, sub)
         if os.path.isdir(d):
