@@ -255,7 +255,14 @@ def purge_check():
     saved = set()
     # ⚠ 必须剥离提取头部两行（-- source: / -- url:），否则每个文件 MD5 都不同，
     #   会得出「全部未留存」的错误结论（与规程附录 A-2 的去重坑同源）。
-    for sub in ("_new", "_big"):
+    # 留存区：_new / _big / _readable，外加所有轮次批次目录（_r1 _r2 _r3 …）。
+    # ⚠ 批次目录每轮新建（如 _r6），写进指导书的例题常引用它们；
+    #   漏扫会导致「已提取到 _r6 但 purge-check 说未留存」，清理流程卡死。
+    subs = ["_new", "_big", "_readable"]
+    subs += sorted(f for f in os.listdir(STAGING)
+                   if os.path.isdir(os.path.join(STAGING, f))
+                   and re.fullmatch(r"_r\d+", f))
+    for sub in subs:
         d = os.path.join(STAGING, sub)
         if os.path.isdir(d):
             for f in os.listdir(d):
@@ -303,8 +310,18 @@ def purge_check():
         print(f"    {d}: {nb} 块中 {no} 块未留存   <- 先提取再删")
     sz = lambda xs: sum(x[1] for x in xs)
     print(f"\n可释放空间: {(sz(empty) + sz(safe)) / 1024 / 1024:.1f} MB")
-    print("清理命令（确认无误后执行）：")
-    print("  # 见 ws_reference.py --purge-check 的输出，逐个 rm -rf 对应目录")
+    # 直接给出可删清单与命令，省去人工按目录核对（⚠ 项必须为 0 才可用）
+    purge_ids = sorted([d for d, _ in empty] + [d for d, _, _, _ in safe])
+    for name, ids in (("无 Lua", [d for d, _ in empty]),
+                      ("Lua 已留存", [d for d, _, _, _ in safe])):
+        if ids:
+            print(f"\n[{name}] {len(ids)} 个：{' '.join(sorted(ids))}")
+    if purge_ids and not keep:
+        print("\n# 确认 ⚠ 项为 0 后执行（逐个删，勿用通配符）：")
+        print("for i in " + " ".join(purge_ids) + "; do rm -rf \"" +
+              os.path.join(STAGED, "$i").replace("\\", "/") + "\"; done")
+    elif keep:
+        print("\n# ⚠ 项非 0，先补齐提取再清理。")
 
 
 if __name__ == "__main__":

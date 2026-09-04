@@ -1795,3 +1795,319 @@ end
 - 🔑 **网格量程自适应 `if l*w/z>h/4 then l=l/2 ...`**：让"可见网格间距"始终占屏合理比例，缩太小自动变稀、太大自动变密（防糊成一团或太空）。
 - ⚠ `B` 表是**带状态的**（每个按钮有 `t`/`p`），多按钮共享一份表、`pairs` 遍历即可，省掉一堆独立变量。
 - 完整脚本：（../../../AI相关/_提取暂存/_new/3783474598_vehicle_60.lua）
+
+
+## §29 数据驱动按钮表：**绘制闭包 + 回调闭包共存一格**，每键独立冷却 + 分组互斥 + 多预设保存/加载
+
+- 来源：steam id 3791924563 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3791924563 · 载具（Ray LX-28 OMUA 共轴双旋翼浮筒直升机，摄像头操控 HUD）
+- 更新时间：2026-09-01
+- 用到：按钮表 `btn`（每格带 `pos` 矩形 + `c` 绘制闭包 + `cB` 回调闭包 + `toggle` 语义）、分组门控 `dG`、每键冷却计数 `states[i].count`、三套预设 `camSettings`、窄屏自适应 `w<64`
+- 亮点：**一个按钮 = 表里的一个元素**，画法与动作写在同一格里，加按钮不用改 `onTick`/`onDraw` 主体；同一张表靠 `grp` 字段切换成两套互斥面板
+- 关联：`05` §18（闭包按钮 `cBtn`）、`05` §20（`click` 闩锁）、`05` §28（负坐标贴边按钮表）、`05` §0.1（非正方形适配）
+
+```lua
+-- 按钮表：pos=矩形, grp=所属分组, toggle=是否自锁, c=绘制闭包, cB=按下回调
+btn={
+  {grp="0",toggle=true, pos={x=1,y=1,w=11,h=11},
+   c =function() screen.drawCircle(6,6,3) end,
+   cB=function() dG="1" states[2].active=false end},        -- 点它 → 切到 1 组
+  {grp="1",toggle=true, pos={x=1,y=1,w=11,h=11},
+   c =function() screen.drawCircle(6,6,3) screen.drawLine(11,1,1,11) end,
+   cB=function() dG="0" states[1].active=false end},        -- 点它 → 切回 0 组
+  {grp="1",toggle=false,pos={x=13,y=1,w=10,h=10},nm="rot-",
+   c =function() screen.drawTriangleF(21,3,21,9,15,6) end,
+   cB=function() rot=rot-0.01*(1-zoom*0.8) end},            -- 按住连续转，步长随 zoom 收窄
+  {grp="1",toggle=false,pos={x=1,y=13,w=10,h=10},nm="zoom+",
+   c =function() screen.drawTextBox(2,14,8,8,"+",0,0) end,
+   cB=function() zoom=zoom+0.01 end},
+  {grp="1",toggle=false,pos={x=1,y=34,w=10,h=10},nm="nv",
+   c =function() screen.drawTextBox(2,35,8,8,"N",0,0) end,
+   cB=function() nv=not nv end},
+}
+function init()
+  for i=1,#btn do states[i]={active=true,count=0} end
+end
+-- 冷却：被"禁用"的按钮数满 30 tick 自动复活（防一次按压连吞多帧）
+function cooldown()
+  for i=1,#btn do
+    if states[i].active==false then states[i].count=states[i].count+1 end
+    if states[i].count>=30 then states[i].active=true states[i].count=0 end
+  end
+end
+function touchPad(tX,tY,tZ)
+  if tZ==true then
+    for i=1,#btn do
+      -- 分组门控：只响应当前 dG 组的按钮；冷却中的按钮跳过
+      if btn[i].grp==dG and states[i].active==true then
+        if tX>=btn[i].pos.x and tX<=btn[i].pos.x+btn[i].pos.w then
+          if tY>=btn[i].pos.y and tY<=btn[i].pos.y+btn[i].pos.h then
+            btn[i].cB()
+            if btn[i].toggle==true then states[i].active=false end  -- 自锁键按下后休眠
+          end
+        end
+      end
+    end
+  end
+end
+```
+
+```lua
+-- 多预设：切换摄像头前先存旧的，再读新的（三套独立保存，回切不丢姿态）
+function saveCamSettings()
+  camSettings[curCam].pitch=pitch
+  camSettings[curCam].rot=rot
+  camSettings[curCam].zoom=zoom
+  camSettings[curCam].nv=nv
+end
+function loadCamSettings()
+  pitch=camSettings[curCam].pitch
+  rot=camSettings[curCam].rot
+  zoom=camSettings[curCam].zoom
+  nv=camSettings[curCam].nv
+end
+-- 自动轮巡：180 tick 换一台；手动切换时立刻关掉轮巡
+if autoMode then
+  autoTimer=autoTimer+1
+  if autoTimer>=180 then
+    saveCamSettings()
+    curCam=curCam+1
+    if curCam>3 then curCam=1 end
+    loadCamSettings()
+    autoTimer=0
+  end
+end
+```
+
+```lua
+-- onDraw：只画当前组的按钮；窄屏（1x1）自动降级配色与图标
+local adv=isAdv()                                     -- 该摄像头是否高级型号
+local gray=not adv and btn[i].nm
+            and (btn[i].nm=="zoom+" or btn[i].nm=="zoom-" or btn[i].nm=="nv")
+if gray then
+  screen.setColor(10,10,10)                           -- 灰掉：外框压暗
+  screen.drawRectF(btn[i].pos.x+1,btn[i].pos.y+1,btn[i].pos.w-2,btn[i].pos.h-2)
+  screen.setColor(20,20,20)                           -- 图标也压暗
+else
+  screen.setColor(MENU_COLORS.border[1],MENU_COLORS.border[2],MENU_COLORS.border[3])
+  screen.drawRectF(btn[i].pos.x,btn[i].pos.y,btn[i].pos.w,btn[i].pos.h)
+  screen.setColor(MENU_COLORS.fill[1],MENU_COLORS.fill[2],MENU_COLORS.fill[3])
+  screen.drawRectF(btn[i].pos.x+1,btn[i].pos.y+1,btn[i].pos.w-2,btn[i].pos.h-2)
+  screen.setColor(MENU_COLORS.icon[1],MENU_COLORS.icon[2],MENU_COLORS.icon[3])
+end
+btn[i].c()                                            -- ← 图标由闭包自己画，主体不关心画什么
+```
+
+**要点速记**
+- 🔑 **一格两闭包**：`c` 只管画、`cB` 只管做。`onDraw` 里 `btn[i].c()` 一行画完所有图标，加新按钮只往表里插一项，主循环零改动——比 `if i==1 then ... elseif i==2 then ...` 省一半字符。
+- 🔑 **分组门控 `dG`**：同一张表靠 `grp` 字段分成多套面板（本例 "0"= 待机面板 / "1"= 操控面板），切换只改一个字符串。**两个位置重叠的按钮不会同时响应**（§20 的 `click` 闩锁是另一种解法：先到先得；这里是分组隔离，更彻底）。
+- 🔑 **每键独立冷却 `states[i]`**：自锁键按下后 `active=false` 并计 30 tick，期间同一次长按不会反复翻转。注意它是**逐键独立**的，不像全局闩锁那样会误伤别的键。
+- 🔑 **预设存/取分离**：`saveCamSettings()` / `loadCamSettings()` 包住切换动作，三台摄像头各存一套 pitch/rot/zoom/nv。这个"切走前存、切来后读"的模式，任何"一套 UI 管 N 个被控对象"的场景都能套。
+- 🔑 **能力门控用同一套绘制分支**：本摄像头不支持的功能（`zoom±` / `nv`）画成灰块而不是隐藏——布局不跳、用户知道有这功能。
+- ⚠ 原脚本还有个 `local pos=w<64 and -1 or 0` 的窄屏分支：1x1 屏（32 px）上把标题对齐方式从居中改成左对齐并去掉装饰，属于 `05` §0.1 的另一种做法（**按功能删减**而非留边）。
+- ⚠ `toggle=false` 的按钮（zoom±、方向键）是**按住连续生效**的——`touchPad` 每帧都调 `cB()`。若想做"按一次走一格"，参考 `02` §8 的点动 + 长按连发。
+- 完整脚本：（../../../AI相关/_提取暂存/_r6/3791924563_vehicle_4.lua）
+
+
+## §30 横向滚轮分页（carousel）：**一条长画布 + lerp 平滑滚动**，4 页只用一套绘制代码
+
+- 来源：steam id 3793547471 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3793547471 · 载具（Boeing 737 Max 10 freighter，客舱咖啡机 1×1 屏）
+- 更新时间：2026-09-02
+- 用到：页偏移 `32*(k+c[2])`、自写 `lerp`/`sgn`（不依赖 math 库）、按钮表内嵌回调 `p`、`t/2400` 进度写回数据表
+- 亮点：**不做页面切换、不做裁剪**——把 N 个页面横向铺成一条 32*N 宽的长条，滚动量 `c[2]` 用 lerp 追目标页 `c[1]`，越界的页自动画到屏外。4 个页面共用同一段绘制代码
+- 关联：`05` §29（按钮表闭包）、`04` §1.4b（`lerp` 归一化）、`05` §18（`cBtn` 按下/按住/松开）、`06` §6（MFD 位图按钮页框架——**另一种**分页：真切换）
+
+```lua
+s=screen
+cT={{4,"Latte",1},{4,"Cappu",1},{4,"Ameri",1},{4,"Esspr",1}}  -- {单价, 名称, 制作进度 0..1}
+c={0,0}          -- c[1]=目标页索引（整数，按 ←/→ 改）  c[2]=当前滚动量（浮点，lerp 追 c[1]）
+bStates={        -- 按钮表：{按下态, x, w, y, h, ...} 数组槽 + p=回调闭包
+  {false,1,7,-5,7,0,0,
+   p=function ()                       -- 电源键（自锁）
+     if not tp then
+       bStates[1][1]=true
+       bStates.l=1
+       bStates[1][7]=1                -- [7]=目标开合动画量
+       if bStates[1][6] > 0.9 then    -- [6]=当前动画量，到位后再按则关机
+         on[1]=false on[3]=0 bStates[1][7]=0
+       end
+     end
+   end},
+  {false,27,4,24,5,
+   p=function ()                       -- ← 上一页
+     if not tp then
+       bStates[2][1]=true bStates.l=2
+       c[1]=c[1]+1*math.max(sgn(-c[1]-1),0)   -- 到 0 页就不再减（sgn 门控越界）
+     end
+   end},
+  {false,7,18,4,22,
+   p=function ()                       -- 确认制作
+     if not tp and on[2]>0.8 and math.abs(c[1])-math.abs(c[2])< 0.2 then
+       --                    ↑开机动画完成      ↑滚动还没停稳时不响应（防误触）
+       bStates[4][1]=true
+       cT[-c[1]+1][3]=0                -- 进度清零，开始制作
+       t=0
+     end
+   end},
+  l=1
+}
+function lerp(f,t)                     -- 自写：不引 math 库，20% 逼近
+  return f+0.2*math.max(sgn(t-f)*t-sgn(t-f)*(f),0)*sgn(t-f)
+end
+function sgn(x)
+  if x == 0 then return 1 end
+  return (x/math.abs(x)) or 1          -- 0 返回 1（避免除零），Lua 里 0 也是真
+end
+function onTick()
+  x, y = input.getNumber(3), input.getNumber(4)
+  press = input.getBool(1)
+  if on[1] and not bStates[4][1] then
+    if press then
+      if not tp then bStates[1][7] = 0 end   -- tp=上帧按下；新按下时清电源动画目标
+      for _, bp in ipairs(bStates) do
+        if x>bp[2] and x<(bp[2]+bp[3]) and y>bp[4] and y<(bp[4]+bp[5]) then
+          bp.p()
+          break                              -- ← 命中即停，一次只触发一个按钮
+        end
+      end
+    else
+      bStates[bStates.l][1]=false            -- 松手：清掉"上次按下的那个"的按下态
+    end
+  end
+  -- 制作进度：2400 tick 走满（=40 s @60Hz），写回数据表第三列
+  if bStates[4][1] then
+    t=t+1
+    cT[-c[1]+1][3]=t/2400
+    if cT[-c[1]+1][3]>0.99 then bStates[4][1]=false cT[-c[1]+1][3]=1 end
+  end
+  on[2]=lerp(on[2],on[3])                    -- 开机淡入：0→1 平滑
+  c[2]=lerp(c[2],c[1])                       -- 滚动：当前→目标页
+  bStates[1][4],bStates[1][6]=-5+5*bStates[1][6],lerp(bStates[1][6],bStates[1][7])
+  tp = press
+end
+```
+
+```lua
+-- onDraw：4 个杯子一字排开，横向坐标 = 32*(页序 + 滚动量)，屏外的自动看不见（无需裁剪）
+s.drawTriangleF(7+2*(1-cT[2][3])+32*(1+c[2]), 10+15*(1-cT[2][3]),
+                9+32*(1+c[2]), 25, 22+32*(1+c[2]), 25)
+s.drawTriangleF(7+2*(1-cT[1][3])+32*c[2],     6+19*(1-cT[1][3]),
+                9+32*c[2],     25, 22+32*c[2],     25)
+s.drawTriangleF(7+2*(1-cT[3][3])+32*(2+c[2]), 6+19*(1-cT[3][3]),
+                9+32*(2+c[2]), 25, 22+32*(2+c[2]), 25)
+s.drawText(4+32*(1+c[2]),12.5,"Cappu")
+s.drawText(4+32*c[2],    12.5,"Latte")
+-- 翻页箭头：按下时换高亮色（蓝色）
+s.setColor(41,137,255)
+if bStates[2][1] then s.drawText(1,25,"<") end
+if bStates[3][1] then s.drawText(28,25,">") end
+```
+
+**要点速记**
+- 🔑 **一条长画布**：`32*(k+c[2])` 把第 k 页放到横向 32*k 处，`c[2]` 是浮点滚动量。**超出屏宽的部分 SW 会自动裁掉**（画在屏外的图元不显示），所以完全不用写裁剪逻辑——这是 1×1/窄屏做多页最省字符的办法。
+- 🔑 **lerp 平滑**：`c[2]=lerp(c[2],c[1])`，按键只改整数目标 `c[1]`，视觉上滑过去。滚动未停稳时用 `math.abs(c[1])-math.abs(c[2])<0.2` 屏蔽确认键，防"滑到一半误按"。
+- 🔑 **越界门控用 `sgn` 而非 `if`**：`c[1]=c[1]+1*math.max(sgn(-c[1]-1),0)` —— 到边界时 `sgn` 变负、`math.max(...,0)` 归零，加数变 0，一行搞定双向限位。**自写 `sgn(0)=1` 很关键**（否则 `0/0` 出 `nan`，`nan` 参与比较恒 false，限位失效，见 `09` §11）。
+- 🔑 **按钮表用数组槽 + `p` 闭包**：`{按下态, x, w, y, h, ...}` 五项定矩形，回调挂在 `p` 上；遍历时 `break` 保证一次只触发一个（等价 `05` §20 的 `click` 闩锁）。松手清状态靠记住 `bStates.l`（上次命中的下标）。
+- 🔑 **进度写回数据表**：`cT[idx][3]=t/2400`，数据（名称/价格/进度）与 UI 状态同表，绘制时直接读——不用额外维护一个平行表。
+- ⚠ **翻页方向与下标符号**：本例 ← 是 `c[1]` 递增（因为画布往右移），`-c[1]+1` 换算出 `cT` 的下标。改这套代码前先确认"页序 ↔ 数据下标"的映射方向，否则按 ← 会跳到右边那页。
+- ⚠ `lerp` 是**无限逼近**，永远不会精确等于目标；判"到位"要用阈值（如 `>0.9`、`abs差<0.2`），不能写 `c[2]==c[1]`。
+- 完整脚本：（../../../AI相关/_提取暂存/_r6/3793547471_vehicle_16.lua）
+
+
+## §31 触控手势三合一（单击 / 双击 / 长按加速）+ `button()` **绘图与命中合一**
+
+- 来源：steam id 3786043607 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3786043607 · 载具（"the mouth" cargo crawler，地图屏）
+- 更新时间：2026-08-27
+- 用到：tick 计数 `t`、`lct` 上次点击时刻、`ltd` 上帧按下态；30 tick 双击窗口；`button()` 画矩形并返回命中；长按加速 `ht`；`map.screenToMap` / `map.mapToScreen`
+- 亮点：**一个 `button(x,y,w,h)` 同时完成"画出来 + 判命中"**，调用处 `if button(0,0,6,6) and hbON then` 一行搞定；双击与单击共用一套边沿检测，长按带加速度
+- 关联：`05` §18（`cBtn` 按下/按住/松开三语义）、`02` §8（点动 + 长按连发）、`06` §11（缩放闭包 capacitor）、`06` §8（地图三件套）
+
+```lua
+t=0      -- tick 计数（10 分钟约 3.6e4，不会溢出）
+ht=0     -- 长按累积量（做加速步长）
+ltd=false-- 上帧是否按下
+lct=0    -- 上次"单击"发生的 tick
+dc=false -- 本帧双击？
+c=false  -- 本帧单击？
+function onTick()
+  dc=false
+  c=false
+  t=t+1
+  hbON=t%5==0            -- 长按的重复节拍：每 5 tick 触发一次（12 次/秒）
+  tx=input.getNumber(1)
+  ty=input.getNumber(2)
+  if input.getNumber(3)==0 then        -- ⚠ 本作品用"数值通道 0/1"表示触摸，不是 getBool
+    tp=false
+    if ltd then                        -- ↓ 松手这一帧才判单击/双击
+      if t-lct<=30 then dc=true        --   30 tick = 0.5 s 内再次松手 → 双击
+      else              c=true lct=t end
+    end
+    ltd=false
+  else
+    tp=true ltd=true
+  end
+  gx=input.getNumber(4) gy=input.getNumber(5)
+  mx=lockplayer==0 and fx or gx        -- 0=自由视角，1=跟随 GPS
+  my=lockplayer==0 and fy or gy
+  if zoom<0.1 then zoom=0.1 end
+  if zoom>50   then zoom=50   end
+end
+```
+
+```lua
+-- 🔑 画矩形 + 返回是否命中：调用处既是绘制语句又是条件
+function button(rectX, rectY, rectW, rectH)
+  screen.drawRectF(rectX,rectY,rectW,rectH)
+  return tx > rectX and ty > rectY and tx < rectX+rectW and ty < rectY+rectH and tp
+end
+function onDraw()
+  screen.drawMap(mx,my,zoom)
+  -- 长按加速：按住时 ht 每节拍 +0.01，松手复位（步长越按越大）
+  if tp and hbON then ht=ht+0.01
+  else if not tp then ht=0.01 end end
+  -- 双击地图任意处 → 设/清航路点（screenToMap 把像素反投影成世界坐标）
+  if dc then
+    wx,wy=map.screenToMap(mx,my,zoom,screen.getWidth(),screen.getHeight(),tx,ty)
+    we=(we+1)%2
+  end
+  dist=math.floor(math.sqrt((math.abs(gx-wx)^2)+(math.abs(gy-wy)^2)))
+  screen.setColor(255,255,255)
+  cx,cy=map.mapToScreen(mx,my,zoom,screen.getWidth(),screen.getHeight(),wx,wy)
+  px,py=map.mapToScreen(mx,my,zoom,screen.getWidth(),screen.getHeight(),gx,gy)
+  screen.drawCircle(px,py,2)
+  if we==1 then
+    screen.drawCircle(cx,cy,2)
+    screen.drawLine(px,py,cx,cy)
+    -- 距离标签底衬：宽度按位数自适应（#字符串 * 5 px，SW 没有 getTextWidth）
+    screen.setColor(0,0,0)
+    screen.drawRectF(px-1,py+4,((#(dist..""))*5)+1,5)
+    screen.setColor(255,255,255)
+    screen.drawText(px,py+4,dist.."")
+  end
+  -- 缩放按钮：按住时每节拍走 ht（越按越快）
+  screen.setColor(0,0,0)
+  if button(0,0,6,6) and hbON then zoom=zoom-ht end
+  if button(0,7,6,6) and hbON then zoom=zoom+ht end
+  -- 跟随/自由视角切换：用"按下 → 松手单击"两段式，避免按住时反复翻转
+  if screen.getHeight()>32 then
+    if button(0,14,6,6) then
+      lockplayerlaston=true
+    else
+      if lockplayerlaston and c then
+        lockplayer=(lockplayer+1)%2
+        fx=gx fy=gy                    -- 🔑 切到自由视角瞬间，把自由中心设为当前位置 → 不跳变
+      end
+      lockplayerlaston=false
+    end
+  end
+end
+```
+
+**要点速记**
+- 🔑 **`button()` 画 + 判合一**：`if button(x,y,w,h) and hbON then ...`。省掉"先画一遍、再写一个 `inRect`"，按钮多时字符数差异明显。副作用是**顺序即绘制顺序**，命中判定必须在 `onDraw`（因为要 `screen`），本例就是把输入处理整个搬进了 `onDraw`。
+- 🔑 **单击 / 双击共用一次边沿**：只在**松手帧**判定，`t-lct<=30`（0.5 s）内第二次松手算双击。注意顺序——先判双击、否则才算单击并刷新 `lct`，所以双击时不会再额外触发一次单击。
+- 🔑 **长按 = 节拍 + 加速**：`hbON=t%5==0` 把"每帧触发"降到 12 次/秒；`ht` 每节拍 +0.01，于是缩放步长随时间增大（先是微调，按住久了变快）。这比"固定步长 + 首次延迟"（`02` §8）手感更连续，适合连续量（缩放、平移），不适合离散量（档位）。
+- 🔑 **切换视角时先同步基准**：`fx=gx fy=gy` 再切标志，否则从"跟随"切到"自由"的瞬间镜头会跳回上次自由视角的位置。
+- 🔑 **底衬宽度 `#(dist.."")*5`**：SW 没有字宽 API，用字符串长度估位宽（`05` §15 用 `log10`，这里更省）。
+- ⚠ **触摸状态用数值通道判**：本作品是 `input.getNumber(3)==0` 表示未触摸。多数作品用 `input.getBool(1)`。**照抄前先确认你的接线是哪种**，判反了会发现"一直处于按下状态"。
+- ⚠ `dc`/`c` 在 `onTick` 里算、在 `onDraw` 里用是可以的（同一帧内 onTick 先于 onDraw）；但反过来把 `map.screenToMap` 放进 `onTick` 会拿不到触控坐标——**触控坐标只能从 input 读，而 input 在 onDraw 里读同样有效**，所以本例干脆把交互全放 onDraw。
+- 完整脚本：（../../../AI相关/_提取暂存/_r6/3786043607_vehicle_0.lua）
