@@ -2792,3 +2792,137 @@ end
 - 完整脚本：`../../../AI相关/_提取暂存/_r8c/3794389171_vehicle_0.lua`
 
 ---
+
+---
+
+## §40 屏幕上的 3D 软件渲染管线：4×4 矩阵变换 + 齐次裁剪※ + 背面剔除※ + 画家算法※
+
+- 来源：steam id **2793934450** · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=2793934450> · **载具**（`_vehicle_2`，3D 渲染屏）
+- 更新时间：未取到（本轮 Steam Web API 不可达，下轮补）
+- 用到：数值输入 1-16（4×4 变换矩阵，行主序）、17-19（模型平移）、20-22（欧拉角）、23 起（外部点集，每点 3 通道）、布尔 1（总开关）、布尔 2（清屏复位）、属性文本（`v*`/`t*`/`c*`/`b64`，见 `01` §10）、显示器
+- 亮点：**用纯 Lua 在 2D 绘图 API 上搭出一套完整 3D 管线**——顶点变换、齐次裁剪、透视除法、背面剔除、深度排序、深度调色板一应俱全；模型常量用 base64 编码的 float32 存在属性文本里；共享顶点用「**帧号戳**」去重，每个顶点每帧只变换一次。
+
+> 这是本工作区见到的**唯一一例在 SW 屏上跑真 3D 网格渲染**的脚本。SW 只有 `drawTriangle`/`drawTriangleF` 两个实心图元，没有深度缓冲、没有线宽、没有裁剪，所以整条管线都得手写。
+
+```lua
+-- ===== 只在加载时算一次的常量 =====
+local W, H   = property.getNumber("w"), property.getNumber("h")
+local HW, HH = W/2, H/2
+local OFFX, OFFY = HW + property.getNumber("pxOffsetX"), HH + property.getNumber("pxOffsetY")
+local NEAR, FAR  = property.getNumber("near") + 0.47, property.getNumber("far")
+
+local m = {}                      -- 4×4 变换矩阵，行主序 16 元，每 tick 从数值输入 1-16 刷新
+local mesh   = { g={}, r={}, t={}, sx={}, sy={}, dep={}, stamp={}, zok={}, infr={} }
+local pts    = { g={}, r={}, t={}, sx={}, sy={}, dep={}, zok={} }
+local frame  = 0
+
+-- ① 顶点变换：行主序矩阵右乘列向量，返回 (x, y, z, w)
+--    注意下标是 b[1], b[5], b[9], b[13] —— 同一行、跨 4 列
+local function xform(b, x, y, z)
+  return b[1]*x + b[5]*y + b[9] *z + b[13],
+         b[2]*x + b[6]*y + b[10]*z + b[14],
+         b[3]*x + b[7]*y + b[11]*z + b[15],
+         b[4]*x + b[8]*y + b[12]*z + b[16]
+end
+
+local function clamp(v, lo, hi) return v < lo and lo or v > hi and hi or v end
+
+-- ② 齐次裁剪 + 透视除法：一次判完 0<=z<=w、|x|<=w、|y|<=w（不做逐面裁剪，整面取舍）
+local function projectPoints(b, o)
+  for i = 1, #o.g do
+    local x, y, z, w = xform(b, o.g[i], o.r[i], o.t[i])
+    o.zok[i] = (0 <= z and z <= w) and (-w <= x and x <= w) and (-w <= y and y <= w)
+    if o.zok[i] then
+      local iw  = 1/w
+      o.sx[i]   = x*iw*HW + OFFX      -- 屏幕 X
+      o.sy[i]   = y*iw*HH + OFFY      -- 屏幕 Y
+      o.dep[i]  = z*iw                -- 深度键（本例矩阵约定下，越大越远）
+    end
+  end
+end
+
+-- ③ 三角面装配：帧号戳去重 + 背面剔除 + 画家算法排序
+local function buildTriangles(b, o, faces, f)
+  local gx, gy, gz = o.g, o.r, o.t
+  local sx, sy, dep = o.sx, o.sy, o.dep
+  local stamp, zok, infr = o.stamp, o.zok, o.infr
+  local out = {}
+  for fi = 1, #faces do
+    local F = faces[fi]
+    for k = 1, 3 do
+      local vi = F[k]
+      if stamp[vi] ~= f then                        -- 🔑 本帧还没算过这个顶点
+        stamp[vi] = f
+        local x, y, z, w = xform(b, gx[vi], gy[vi], gz[vi])
+        zok[vi]  = (0 <= z and z <= w)              -- z 在近远平面之间
+        if zok[vi] then
+          infr[vi] = (-w <= x and x <= w) and (-w <= y and y <= w)
+          local iw = 1/w
+          sx[vi], sy[vi], dep[vi] = x*iw*HW + OFFX, y*iw*HH + OFFY, z*iw
+        end
+      end
+    end
+    local a, c, d = F[1], F[2], F[3]
+    -- ④ 背面剔除：屏幕空间有向面积（叉积 z 分量）> 0 才是正面
+    local area = sx[a]*sy[c] - sx[c]*sy[a]
+               + sx[c]*sy[d] - sx[d]*sy[c]
+               + sx[d]*sy[a] - sx[a]*sy[d]
+    if zok[a] and zok[c] and zok[d]
+       and (infr[a] or infr[c] or infr[d])          -- 至少一角在视锥内就保留，不切分三角形
+       and area > 0 then
+      F[4] = dep[a] + dep[c] + dep[d]               -- ⑤ 三顶点深度之和当排序键
+      out[#out+1] = F
+    end
+  end
+  table.sort(out, function(p, q) return p[4] > q[4] end)   -- 由远及近，后画的盖住先画的
+  return out
+end
+
+function onDraw()
+  if not enabled then return end
+  frame = frame + 1
+
+  -- 点集：深度 → 5 级调色板线性插值，越远越小越淡
+  projectPoints(m, pts)
+  for i = 1, #pts.g do
+    if pts.zok[i] then
+      local s  = NEAR / (FAR + pts.dep[i]*(NEAR - FAR))   -- 深度 → 视觉尺度
+      local dd = s * FAR                                  -- "视觉距离"，越大越远
+      local t  = s * 4                                    -- 调色板浮点下标
+      local n  = math.floor(t)
+      local f  = t - n
+      screen.setColor(PAL_R[n+1]*(1-f) + PAL_R[n+2]*f,    -- 相邻两色线性插值
+                      PAL_G[n+1]*(1-f) + PAL_G[n+2]*f,
+                      PAL_B[n+1]*(1-f) + PAL_B[n+2]*f,
+                      clamp(300 - dd, 100, 240))           -- 越远越淡，但留 100 下限保证可见
+      screen.drawCircleF(pts.sx[i], pts.sy[i], math.max(25/dd, 1))
+    end
+  end
+
+  screen.setColor(0, 0, 0, 150)
+  screen.drawRectF(0, 0, W, H)
+
+  local tris = buildTriangles(m, mesh, faces, frame)
+  for i = 1, #tris do
+    local F = tris[i]
+    local a, c, d = F[1], F[2], F[3]
+    screen.setColor(F[5], F[6], F[7], 225)
+    screen.drawTriangleF(mesh.sx[a], mesh.sy[a], mesh.sx[c], mesh.sy[c], mesh.sx[d], mesh.sy[d])
+    screen.setColor(255, 255, 255, 100)                     -- SW 没有线宽，用线框描边补轮廓
+    screen.drawTriangle (mesh.sx[a], mesh.sy[a], mesh.sx[c], mesh.sy[c], mesh.sx[d], mesh.sy[d])
+  end
+end
+```
+
+**要点**
+
+- **为什么不自己算矩阵**：4×4 矩阵是从数值输入 1-16 直接灌进来的，模型旋转/平移/欧拉角在**上游微控**里算。脚本方块只有 8192 字符预算，把每帧只变一点点的矩阵运算外包出去是这类重活的标准做法；本屏只负责「变换 + 投影 + 排序 + 画」。
+- **齐次裁剪的三条不等式**：`0 <= z <= w` 同时裁掉近平面后方和远平面之外，`|x| <= w`、`|y| <= w` 裁掉侧面。写成 `and` 串一行，比先算 NDC 再判省一次除法。
+- **不做逐面裁剪**是有意的：只要三角面有**一个**角在视锥内就整面画出去。SW 屏很小（常见 32×32 ~ 96×96），被裁剪面切分的三角形在这么小的屏上收益极低，反而多一堆分支。代价是靠近相机的面会「糊」到屏外——`drawTriangle` 超出屏的部分自动不画，不会报错。
+- **帧号戳去重**（`stamp[vi] ~= frame`）是 shared-vertex 网格的关键：一个顶点平均被 5~6 个面共用，逐面变换会做 3 倍以上的无用矩阵乘法。做法是给每个顶点记「上次变换发生在第几帧」，帧号在 `onDraw` 开头自增。⚠ 这个表**永不清理**，只靠帧号比较，所以不会泄漏内存（表长度等于顶点数）。
+- **背面剔除用屏幕空间叉积**：`(xb-xa)*(yc-ya) - (yb-ya)*(xc-xa)` 展开后就是上面那 6 项。`area > 0` 还是 `< 0` 取决于你的绕序和 Y 轴方向（SW 屏幕 Y 向下），**换模型时先用一个正对着相机的单面试一下，方向反了就翻比较符**。
+- **深度键取 `z/w` 之和**而不是平均：省一次除法，排序结果完全一样（三顶点求和与求均值的大小关系一致）。本例矩阵约定下 `z/w` 越大越远，所以 `>` 降序 = 由远及近。可用判据：点集部分 `dep` 越大 → `dd` 越大 → 半径 `25/dd` 越小、alpha `300-dd` 越淡，与「越远越小越淡」一致。
+- **深度调色板插值**是省字符的招：5 组 RGB 存成 3 个一维表，用 `floor` 取下标 + 小数部分做线性插值，等于用 15 个数字换出连续渐变；`clamp(300-dd, 100, 240)` 让最远的点也保留 100 的 alpha，不会彻底消失。
+- ⚠ **`table.sort` 的代价**：面数上百时每帧一次全排序会吃掉可观预算。若帧率吃紧，可改成桶排序（把深度量化成 16~32 个桶，桶内不排序）—— painter 算法本身有误差，桶排序的乱序在视觉上几乎看不出来。
+- 关联：`01` §10（本例的顶点/面/颜色常量怎么塞进属性文本）、`05` §27（同一块屏上的网格绘制思路，2D 版）、`04` §8（矩阵乘法与转置的手写实现）。
+- 完整脚本：`../../../AI相关/_提取暂存/2793934450_vehicle_2.lua`（原脚本为重度混淆版，变量名全为 2~3 字符；上面是重命名后的可读版）
