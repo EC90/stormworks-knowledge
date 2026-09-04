@@ -2334,3 +2334,254 @@ end
 - **窄屏双布局的判定点**：本例用 `W>=80`（像素宽）而不是屏型号常量。好处是同一份代码在 1×1 到 9×9 之间自动切换；判定阈值按你的内容宽度定，别照抄 80。
 - ⚠ 开机演出期间**必须屏蔽点击**（本例 `p and opened` 这个条件）。否则玩家按住屏幕等待开机的那几秒里，手指移动会被当成地图点选，一开机就多出一堆航路点。
 - 完整脚本：`../../../AI相关/_提取暂存/_r7c/3795317652_vehicle_3.lua`
+
+
+## §36 航向刻度带（heading tape）：属性填 16 进制配色 + **双向铺到视口边缘** + 一行翻转上下
+
+- 来源：steam id 3795251690（地图 + 航向带 HUD，载具，2026-09-01）
+- 用到：指南针（罗盘，圈）、GPS、目标方位通道、属性文本 `band color` 等 5 组颜色
+- 亮点：`property.getText` 直接吃 `#RRGGBB`（16 进制转数字后位运算拆通道），
+  刻度从屏幕中心**向左右两侧**分别铺到边界，天然居中且不会留单边空隙
+- 区别于 `05` §3（滚动罗盘带）：§3 是**单向** `while x<w` 从左画到右、固定 5 px 间距、
+  翻转靠切换三个偏移量；本节是**双向** `repeat ... until`、间距随屏宽自适应、
+  翻转只靠一个 `dir` 符号，并额外带目标方位游标与边距钳位
+
+### 手法一：属性读一次就够（省 CPU）
+
+```lua
+function onTick()
+  if not initialized then
+    marginLR = property.getNumber("margin")
+    dir      = property.getBool("alignment") and -1 or 1     -- 一行取符号：顶置/底置
+    hEnabled = property.getBool("heading indicator")
+
+    bdC = tonumber(property.getText("band color"), 16)        -- "#3C7AFF" → 数字
+    b = bdC & 0xff  g = (bdC >> 8) & 0xff  r = (bdC >> 16) & 0xff
+    -- target color / centerline color / button color / heading color 同构
+    initialized = true
+  end
+  ...
+end
+```
+
+- `tonumber(文本, 16)` 直接把 16 进制串转成整数（**可以带 `#` 前缀吗？不能**——
+  `tonumber("#3C7AFF", 16)` 返回 `nil`，属性里请让用户填不带 `#` 的 `3C7AFF`，
+  或先 `gsub("#","")`；见 `05` §3 的 `hex2rgb`）。
+- 拆通道用 **Lua 5.3 位运算** `&` 与 `>>`，比 `tonumber("0x"..s:sub(1,2))` 更快也更短。
+- 🔑 属性**不会**在游戏中途变化，用 `if not initialized` 只解析一次；
+  每 tick 调 `property.getText` + `tonumber` 是纯浪费（微控制器 tick 预算很紧）。
+
+### 手法二：双向 repeat 铺满视口
+
+```lua
+function onDraw()
+  screen.drawMap(gpsX, gpsY, zm)
+  local w, h = screen.getWidth(), screen.getHeight()
+  local cx = w/2
+  dx = math.ceil(math.max(2, math.min(w/30, 5)))    -- 间距随屏宽自适应：2~5 px
+
+  local hdg  = ((1 - input.getNumber(5)) % 1) * 360 -- 圈 → 度（1-x 让刻度随航向正确滚）
+  local ang0 = hdg // 5 * 5                          -- 整除取 5° 整档作为起点角度
+  local x0   = math.floor(cx - (hdg - ang0)*dx/5 + .5)  -- 该整档在屏幕上的亚像素位置
+
+  -- 向右铺
+  local angle, x = ang0, x0
+  repeat DrawTick(x, angle) angle = angle + 5 x = x + dx until x >= w - marginLR
+  -- 向左铺
+  angle, x = ang0, x0 - dx
+  repeat angle = angle - 5 DrawTick(x, angle) x = x - dx until x < marginLR
+end
+```
+
+要点：
+- `hdg // 5 * 5` 用整除把起点吸附到 5° 整档；`x0` 里的 `(hdg-ang0)*dx/5` 是**亚刻度偏移**，
+  保证刻度连续滚动而不是每 5° 跳一格（同 `05` §3 的 `sp`）。
+- 两个 `repeat` 从中心向两侧展开，各自独立终止于 `marginLR`，
+  比单向循环更省心：不用先算"最左边该落在哪"。
+- `dx` 自适应让 1×1 窄屏（32 px）与 5×3 宽屏都能显示合理数量的刻度。
+
+### 手法三：`dir` 一个符号搞定上下翻转
+
+```lua
+if dir > 0 then                       -- 带子在顶部
+  borderY, textY, bearingY = 0, 3, 27
+else                                  -- 带子在底部
+  borderY, textY, bearingY = h-1, h-8, h-32
+end
+
+screen.drawLine(cx, borderY, cx, borderY + dir*2)        -- 中心线：dir 决定往下还是往上
+-- 刻度
+function DrawTick(x, ang)
+  ang = ang % 360
+  if ang % 15 == 0 then
+    screen.drawLine(x, borderY, x, borderY + dir*2)      -- 长刻度
+  end
+end
+```
+
+翻转只影响 `borderY / textY / bearingY` 三个**锚点**和 `dir` 这个符号，
+绘制代码本身一行不改。这比"写两份 onDraw"或"每个 y 都乘 dir"都稳。
+
+### 手法四：目标方位游标 + 贴边钳位
+
+```lua
+if tEnabled then
+  local relBearing = (hdg - tBearing) % 360
+  if relBearing > 180 then relBearing = relBearing - 360 end   -- 归到 ±180°
+  local x = math.max(marginLR, math.min(cx - relBearing*dx/5, w - marginLR - 1))
+  screen.drawLine(x, borderY, x, borderY + dir*2)              -- 游标
+  screen.drawLine(x-1, borderY, x+2, borderY)                  -- 游标顶部横杠
+end
+```
+
+目标在视野外时游标**停在边缘**而不是跑出屏外消失——`clamp` 在这里既是美观也是信息
+（"目标在左边，而且已经偏出视野"）。
+
+### 缩放按钮的"按住只触发一次"
+
+```lua
+ZIn  = iP and isPointInRectangle(inputX, inputY,  3, bearingY, 6, 6)
+ZOut = iP and isPointInRectangle(inputX, inputY, 27, bearingY, 6, 6)
+if ZIn == true and psd == false then  zmIn()  psd = true
+elseif ZOut == true and psd == false then zmOut() psd = true
+elseif ZIn == false and ZOut == false and psd == true then psd = false end
+```
+
+`psd`（pressed）是**松手复位**的闩锁：按住期间只加/减一次，松开任一按钮后 `psd` 才清零。
+这是 `02` §1 pulse 的"手动版"，好处是能同时服务两个按钮而不互相抢边沿。
+
+- 完整脚本：`../../../AI相关/_提取暂存/_r6c/3795251690_vehicle_4.lua`
+
+---
+
+## §37 设置抽屉：**按系统装配情况动态建表** + onDraw 返回值回写状态 + 滑入滑出
+
+- 来源：steam id 3794769825（多传感器显示器，载具，2026-09-01）
+- 用到：属性文本 3 组 RGBA、属性布尔 `Radar In System` 等装配开关、复合输出通道 11~20
+- 亮点：同一块屏在「装了雷达」和「没装雷达」的载具上**显示不同的开关列表**，
+  靠的是启动时按属性拼表，而不是写两套 UI
+- 区别于 `05` §29（数据驱动按钮表）：§29 侧重每键冷却、分组互斥、多预设存读；
+  本节侧重**表本身在启动时动态生成** + **绘制函数把新状态回写给表** + **抽屉位移动画**
+
+### 手法一：启动时按装配情况拼表
+
+```lua
+listitems = {}
+
+if property.getBool("Radar In System") then table.insert(listitems, {"Radar", radar, 11}) end
+if property.getBool("Lidar In System") then table.insert(listitems, {"Lidar", lidar, 12}) end
+if property.getBool("Sonar In System") then table.insert(listitems, {"Sonar", sonar, 13}) end
+if property.getBool("Show Remote Vehicle in Settings") then table.insert(listitems, {"Remote", remote, 17}) end
+if property.getBool("Transponder locator in system")  then table.insert(listitems, {"Locato", locator, 20}) end
+
+for i = 1, #list2 do table.insert(listitems, list2[i]) end   -- 固定项追加在后
+```
+
+每项是 `{标签, 当前值, 输出通道号}`。**通道号写在表里**，于是 `onTick` 的广播就是一行循环：
+
+```lua
+for i = 1, #listitems do
+  output.setBool(listitems[i][3], listitems[i][2])
+end
+```
+
+新增一个开关 = 往表里插一行，广播代码零改动。⚠ 注意这段代码在**全局作用域**（`onTick` 之外），
+只在脚本加载时执行一次——属性是静态的，没必要每 tick 重拼。
+
+### 手法二：onDraw 里改状态，onTick 里广播
+
+```lua
+function onDraw()
+  ...
+  for i = 1, #listitems do
+    dark = (i % 2 == 0)                                   -- 斑马纹
+    if dark then setC(bgR-reduction, bgG-reduction, bgB-reduction)
+    else         setC(bgR, bgG, bgB) end
+
+    local liney = (i-1)*7 + 2                             -- 7 px 行高
+    screen.drawRectF(w-57, liney-1+setpos, 33, 7)
+    textline(w-57, liney, listitems[i][1])
+
+    -- 🔑 绘制函数返回「新值」，就地写回表里
+    listitems[i][2] = boolbut(width, liney, listitems[i][2], dark)
+  end
+end
+
+function boolbut(x, y, value, dark)
+  y = y - 2 + setpos
+  if value then text = "ON"  setC(0,   dark and 60 or 100, 0, 100)
+  else          text = "OFF" setC(dark and 60 or 100, 0, 0, 100) end
+  screen.drawRectF(x, y+scroll+1, butwidth, 7)
+  screen.drawText(x+2, y+2, text)
+
+  if pulse and isPointInRectangle(inputX, inputY, x, y+scroll, butwidth, 8) then
+    value = not value                                     -- 命中就翻转
+  end
+  return value                                            -- 回传给调用方
+end
+```
+
+关键在 `listitems[i][2] = boolbut(...)`：**绘制函数同时是命中判定函数**，
+它返回"这一帧之后这个开关应该是什么值"，调用方直接写回表。
+下一 tick `onTick` 把整张表广播出去。
+这样"画"和"改"写在同一个地方，不会出现"按钮画在 A 处、判定写在 B 处、两处坐标不同步"的经典 bug。
+
+> 这条链有一个隐含前提：`onDraw` 在 `onTick` **之后**执行（游戏每帧 tick→draw），
+> 所以本帧改的值会在**下一 tick** 才广播出去，即 1 帧延迟。对 UI 开关无感，
+> 但用它做火控门控时要记得这 16 ms（见 `00_AI写作指导.md` 的执行顺序）。
+
+### 手法三：抽屉滑入滑出（朝目标值步进）
+
+```lua
+setpos     = 0                       -- 当前位移
+setshowpos = 0                       -- 完全展开的目标
+sethidepos = 0                       -- 完全收起的目标（在 onTick 里更新为 h+2）
+slidespeed = 2                       -- 每 tick 移动像素
+
+function onTick()
+  sethidepos = h + 2                 -- h 来自上一帧的 onDraw
+  local settings = input.getBool(11)
+  if settings then
+    if setpos > setshowpos then setpos = setpos - slidespeed end
+  else
+    if setpos < sethidepos then setpos = setpos + slidespeed end
+  end
+end
+```
+
+不用插值 `lerp`，用**定步长朝目标逼近**：速度恒定、天然带"机械感"，
+且不会出现 `lerp` 那种永远逼近不到位的尾巴。所有绘制里的 y 都加 `+setpos`，
+于是整块面板（背景、行、按钮、关闭叉）一起移动。
+
+⚠ `h` 只在 `onDraw` 里赋值，第一帧 `onTick` 时 `h` 还是 0，`sethidepos = 2`——
+首帧抽屉位置不对，第二帧自愈。要严谨就给 `h` 一个初值。
+
+### 手法四：属性文本 RGBA 解析（`gmatch` 版）
+
+```lua
+colour = property.getText("Line Color (R,G,B,A)")
+t = {}
+for num in colour:gmatch("[^,]+") do t[#t+1] = tonumber(num) end
+liR, liG, liB, liA = t[1], t[2], t[3], t[4]
+```
+
+`[^,]+` 按逗号切分，比 `string.sub` 定宽解析更宽容（用户填 `10,200,30,255` 或
+`10, 200, 30, 255` 都能过）。若属性里用 `#RRGGBB` 则改用 `05` §36 的
+`tonumber(文本,16)` + 位运算拆通道。
+
+### 手法五：关闭按钮用叉号，不用文字
+
+```lua
+setbx, setby = w-7, 0 + setpos
+screen.drawLine(setbx+2, setby+2, setbx+5, setby+5)
+screen.drawLine(setbx+4, setby+2, setbx+1, setby+5)
+screen.drawRect(setbx, setby, 6, 6)
+```
+
+6×6 的方框 + 两条对角线 = 关闭叉，比塞一个 "X" 字符更好看且不受字体限制
+（1×1 屏上 `drawText` 的字符是 5 px 宽，6 px 的框刚好放得下）。
+命中判定用同一个 `isPointInRectangle`。
+
+- 完整脚本：`../../../AI相关/_提取暂存/_r7c/3794769825_vehicle_10.lua`
+
+---
