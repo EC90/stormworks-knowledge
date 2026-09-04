@@ -2242,3 +2242,95 @@ end
 - **px→m 标定用两次 `mapToScreen` 相减**：`mapToScreen(x,y,z,w,h, gpsX, gpsY)` 与 `(..., gpsX+1000, gpsY)` 的横坐标之差就是「1000 m 折合多少像素」。比手推公式可靠，缩放/屏尺寸变了自动跟着变。取 `math.max(0.01, ...)` 是防除零（`04` §10 的同款坑）。
 - **`2^(floor(log2(zoom/0.1953125)))*31.25` 自适应网格步长**：`0.1953125 = 1/5.12`、`31.25` 是作者标定出的常数，效果等价于「找最接近当前缩放的 2 的幂档」。与 `04` §9.1 的十进制跳档是两种口味，二选一即可。
 - 完整脚本：`../../../AI相关/_提取暂存/_r6c/3792551514_vehicle_3.lua`
+
+## §34 连线**两端内缩**（单位向量 × 内缩量）：让线不穿过端点标记
+
+- 来源：steam id 3794992381 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3794992381 · 载具（BlackHawk，`_vehicle_13` 航路点地图页）
+- 更新时间：2026-09-03
+- 用到：`screen.drawLine`、航点坐标表
+- 亮点：**先算单位向量、再在两端各退 `cal` 个像素**，航路点的小圆点/十字标记就不会被连线从中间穿过；`cal` 还按缩放同步缩放（`5/(zoo^zoom)`），放大时留白不变得突兀
+- 关联：`05` §5.1（线段/射线原语）、`06` §12（航路点链式连线）、`04` §9.1（px→m 标定）
+
+```lua
+cal = 5/(zoo^zoom)          -- 🔑 内缩量按缩放同步：zoo=5, zoom 是可变指数
+if cal > 5 then cal = 5 end -- 上限夹住，低倍缩放下不要缩成一大段空白
+
+function drawEdgeLine(idxA, idxB)
+  local xA,yA = TXS[idxA], TYS[idxA]     -- 已投影到屏幕的航点像素坐标
+  local xB,yB = TXS[idxB], TYS[idxB]
+  local dx,dy = xB-xA, yB-yA
+  local len = math.sqrt(dx*dx + dy*dy)
+  if len == 0 then return end            -- ⚠ 两点重合时 len=0，不判会除零得 nan
+  local ux,uy = dx/len, dy/len           -- 单位向量
+  s.drawLine(xA + ux*cal, yA + uy*cal,   -- 起点往前推 cal
+             xB - ux*cal, yB - uy*cal)   -- 终点往回退 cal
+end
+```
+
+**为什么这样写**
+
+- **内缩的本质是「在线段两端各剪掉一小段」**：单位向量 `ux,uy` 表达了方向，乘以 `cal` 就是「沿这个方向走多少像素」。起点 `+`、终点 `-`，中间那截才是要画的线。
+- **`cal` 跟着缩放走**：`5/(zoo^zoom)` 是作者用的幂函数标定（`zoo=5` 为底、指数 `zoom` 可变，是 `04` §9.1 对数域缩放之外的第三套写法）。这样放大地图时内缩量同步变小，留白在视觉上恒定。上限 `cal>5 → 5` 是防止低倍缩放下内缩量爆炸。
+- ⚠ **两个必写的保护**：① `if len == 0 then return end`——两个航点重合（同一点录了两次）时 `0/0 = nan`，`nan` 传进 `drawLine` 会让整条线消失且**不报错**；② `cal` 必须夹上界，否则线段短于 `2*cal` 时会画成「反向」的一小截。
+- **什么场合需要**：端点画的是实心圆点、十字、图标（有面积）时都该内缩；端点只是像素点（`drawRectF(x,y,1,1)`）时缩 1~2 px 就够，不缩也行。
+- 完整脚本：`../../../AI相关/_提取暂存/_r7c/3794992381_vehicle_13.lua`
+
+---
+
+## §35 开机自检动画：**长按开机 + 逐行日志 + 进度条** + 窄屏双布局
+
+- 来源：steam id 3795317652 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3795317652 · 载具（Sleipnir 6x6 01A1，`_vehicle_3` VEGVISIR 地图模块）
+- 更新时间：2026-09-04
+- 用到：`screen.drawClear`、触控长按计数、属性滑块（启动步长 / 自动展开延时）
+- 亮点：**用「按住不放」累积一个计数器驱动整套开机演出**——松手立即归零，所以「长按多久开机」是可调的；窄屏用 `W>=80` 切两套布局，同一份代码适配 1×1 与 5×3
+- 关联：`05` §0.1（非正方形适配）、`05` §4.2（长按的另一种语义）、`05` §5.6（半透明信息条）
+
+```lua
+local bt,opened = 0,false        -- bt=长按计数  opened=是否已开机
+local p,pp = false,false         -- p=按键当前值  pp=上一帧（做边沿）
+local st = math.max(.05, property.getNumber("Startup Step Time"))  -- 每步秒数
+local ad = math.max(0,  property.getNumber("Auto Open Delay"))     -- 自动展开延时(秒)
+
+function onTick()
+  p = input.getBool(3)
+  if p and not pp then bt=0 opened=false end   -- 刚按下：从零开始
+  if not p        then bt=0 opened=false end   -- 🔑 松手立即归零（不做这个就是「点一下也开机」）
+  pp = p
+
+  if p and not opened then
+    bt = bt+1
+    local a = math.max(1, math.floor(st*60+.5))          -- 一步 = 多少 tick
+    if bt >= a*5 + math.floor(ad*60+.5) then opened=true end
+  end
+  -- 🔑 只有「已开机 + 这一帧刚触摸」才响应点击，避免开机演出期间误触
+  if p and opened and t and not pt then press() end
+  pt = t
+end
+
+local function boot()
+  local W,H = screen.getWidth(), screen.getHeight()
+  C(45,45,45) screen.drawClear()                          -- 全屏底色（不是 drawRectF(0,0,w,h)）
+  local a = math.max(1, math.floor(st*60+.5))
+  local s = math.min(6, math.floor(bt/a)+1)               -- 🔑 一个计数驱动三件事
+  local L = {"STARTING LOAD","LOADING MAP","LOADING GPS",
+             "LOADING DATA","INITIALISING","WELCOME"}
+  C(210,210,210)
+  if W>=80 then
+    for i=1,s do screen.drawText(2, 28+(i-1)*5, L[i]) end -- 宽屏：逐行列出
+  else
+    screen.drawText(2, 36, L[s])                          -- 窄屏：只显示当前那一行
+  end
+  C(20,20,20) screen.drawRect(1, H-5, W-3, 3)             -- 进度条底槽
+  C(200,220,0) screen.drawRectF(2, H-4, math.floor((W-4)*s/6), 2)  -- 进度条填充
+end
+```
+
+**为什么这样写**
+
+- **一个计数器 `bt` 驱动三件事**（日志行数、进度条长度、是否开机），改 `st` 一个属性就能整体调快慢。这类「演出」最忌讳散落多个计时器，最后对不齐。
+- **松手归零是长按语义的关键**：`if not p then bt=0 opened=false end`。少了这一句，点一下就会在几秒后自动开机（因为 `bt` 一直在涨）。所有长按交互都要写「松手清零」。
+- **`floor((W-4)*s/6)` 进度条**：先算比例 `s/6`，再乘可用宽度，最后 `floor` 取整——`drawRectF` 的宽度是整数像素，不取整会有 1 px 抖动。
+- **`drawClear()` 比 `drawRectF(0,0,w,h)` 略省字符**，且语义明确（清成当前颜色）。注意它同样受 `setColor` 影响，必须先设色。
+- **窄屏双布局的判定点**：本例用 `W>=80`（像素宽）而不是屏型号常量。好处是同一份代码在 1×1 到 9×9 之间自动切换；判定阈值按你的内容宽度定，别照抄 80。
+- ⚠ 开机演出期间**必须屏蔽点击**（本例 `p and opened` 这个条件）。否则玩家按住屏幕等待开机的那几秒里，手指移动会被当成地图点选，一开机就多出一堆航路点。
+- 完整脚本：`../../../AI相关/_提取暂存/_r7c/3795317652_vehicle_3.lua`
