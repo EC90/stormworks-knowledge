@@ -2926,3 +2926,89 @@ end
 - ⚠ **`table.sort` 的代价**：面数上百时每帧一次全排序会吃掉可观预算。若帧率吃紧，可改成桶排序（把深度量化成 16~32 个桶，桶内不排序）—— painter 算法本身有误差，桶排序的乱序在视觉上几乎看不出来。
 - 关联：`01` §10（本例的顶点/面/颜色常量怎么塞进属性文本）、`05` §27（同一块屏上的网格绘制思路，2D 版）、`04` §8（矩阵乘法与转置的手写实现）。
 - 完整脚本：`../../../AI相关/_提取暂存/2793934450_vehicle_2.lua`（原脚本为重度混淆版，变量名全为 2~3 字符；上面是重命名后的可读版）
+
+---
+
+## §41 两块 Lua 用**视频串联**做图层叠加 + 角落里的**扇形雷达指向器**
+
+- 来源：**本地导出** `D:/Downloads/ACM HMD.xml`（微控制器 `ACM HMD`；作者未提供工坊链接）
+- 更新时间：未知（文件修改时间 2026-09-04）
+- 用到：Lua 脚本块 ×2（A 解算+主 HUD、B 雷达指向+扇形指示）、`screen.drawLine` / `drawCircleF` / `drawText`、视频输出桥
+- 亮点：① **脚本块的视频输入会作为底图透传**，把 A 的视频输出接进 B 的视频输入，就得到「A 画底层、B 画上层」的两层 HUD；② 52×24 的小扇形指示器**用「线的长度」编码仰角**，省掉一整个 2.5D 投影
+- 关联：`01` §11（同作品的数据侧：两块脚本用 `inc` 链共享混合总线）、`03` §24（A 块画的主 HUD）、`05` §26（正经 PPI 画法，与本例的迷你指示互补）
+
+### 手法一：视频串联（Lua A → Lua B → 视频输出桥）
+
+```
+type 56 (Lua A, object 69)  -- in1 = 混合入                  node_index=1(视频出) -->
+type 56 (Lua B, object 70)  -- in1 = 混合入   in2 = 69(视频入)  node_index=1(视频出) -->
+桥 type 7 = 视频输出（接到驾驶座椅的头盔显示）
+```
+
+`type 56` 的引脚：`in1` = 混合输入、`in2` = **视频输入**；输出 `node_index=0` = 混合、`node_index=1` = 视频。
+把 A 的视频接到 B 的 `in2`，B 的 `onDraw` 就画在 A 的画面**之上**——两层解耦，各自独立开关与复用。
+
+**什么时候值得用**
+
+| 场景 | 做法 |
+| --- | --- |
+| 单块脚本逼近 8192 字符上限 | 拆成「通用底层 HUD」+「可换上层模块」，两块各有独立预算 |
+| 一个 HUD 要在多种载具上复用 | 底层（准星/刻度）固定，上层按载具换模块，接线即换装 |
+| 第三方的 HUD 模块要插进自己的信号链 | 中间串一块直通脚本（数值直通见 `05` §38 手法一），画面直通就是本例手法 |
+
+⚠ 串联是**有序**的：先画的在下层。链越长每帧绘制开销越大，实测前先想清楚是不是真需要三层以上。
+⚠ 「视频输入作为底图透传」是从本例的接线与可用事实反推的语义；若你的版本行为不同，先单独做一个「A 画一个点、B 什么都不画」的最小样本验证。
+
+### 手法二：扇形雷达指向器（线长 = 仰角）
+
+```lua
+-- 参数：扇形半角 FOVAZ、俯仰半角 FOVEL、尺寸 RW/RH/PAD
+RW, RH, PAD = 52, 24, 3
+
+function FanPoint(cx, cy, ang, r)
+  return cx + math.sin(ang) * r,      -- 屏幕 X 向右
+         cy - math.cos(ang) * r       -- ⚠ 屏幕 Y 向下，故取负；ang=0 指向正上方
+end
+
+function onDraw()
+  local w, h = screen.getWidth(), screen.getHeight()
+  local cx, cy, r = w / 2, h - PAD, RH
+  local la, ra = -FOVAZ, FOVAZ          -- 扇形左右边界（弧度，0 = 正前方）
+
+  -- ① 两侧边 + 中心瞄准线
+  local lx1, ly1 = FanPoint(cx, cy, la, r)
+  local rx1, ry1 = FanPoint(cx, cy, ra, r)
+  screen.setColor(25, 220, 70, 170)
+  screen.drawLine(cx, cy, lx1, ly1)
+  screen.drawLine(cx, cy, rx1, ry1)
+  local bx, by = FanPoint(cx, cy, 0, r * 0.45)
+  screen.drawLine(cx, cy, bx, by)
+
+  -- ② 外弧：没有 drawArc 时用 12 段折线逼近，够用了
+  local px, py = lx1, ly1
+  for i = 1, 12 do
+    local a = la + (ra - la) * i / 12
+    local x, y = FanPoint(cx, cy, a, r)
+    screen.drawLine(px, py, x, y)
+    px, py = x, y
+  end
+
+  -- ③ 🔑 指向线：长度里塞进仰角
+  local a  = math.max(-FOVAZ, math.min(FOVAZ, RA))          -- 方位钳进扇形
+  local rr = 0.9
+  local ev = math.max(-1, math.min(1, RE / FOVEL))          -- 仰角归一化 -1..1
+  rr = rr - ev * 0.18                                       -- 抬头 -> 线短；低头 -> 线长
+  local ex, ey = FanPoint(cx, cy, a, r * rr)
+  screen.drawLine(cx, cy, ex, ey)
+  screen.drawCircleF(ex, ey, 1)                             -- 端点一个点，当"指针尖"
+end
+```
+
+**要点**
+
+- **一个二维图元表达三个量**：方向 = 线的角度（方位）、长度 = 仰角、颜色 = 工作模式。这是小角落 widget 的标准压缩思路。
+- **12 段折线画弧**：`for i=1,12` 均匀插值角度即可；段数按弧长定，RH=24 px 时 12 段完全看不出折角（对比 `05` §5.7 的 `drawArc` 多边形逼近）。
+- **屏幕 Y 向下**，极坐标必须 `cy - cos(ang)*r`，写成 `+` 会上下翻转。
+- 模式配色 + 标签：`if MODE==0 then DT(cx-8, cy-RH-7, "ACM") end`——没有文本宽度 API 时用**固定偏移**近似居中（要精确排版见 `05` §15 的 `log10` 算位数）。
+- 位置贴底边：`cy = h - PAD`，配合 `05` §14 的「负坐标 = 贴边」可同时适配 1×1 与 5×3 屏。
+- 完整脚本：`../../../AI相关/_提取暂存/ACM_HMD_microcontroller_1.lua`
