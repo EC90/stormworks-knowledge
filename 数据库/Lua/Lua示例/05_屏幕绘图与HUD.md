@@ -3809,3 +3809,135 @@ end
 - ⚠ **`10.666` 是「屏宽 32 / 3 列」的硬编码结果**：换到别的屏尺寸就整体错位。应该用 `w/#keys[1]` 与 `h/#keys` 现算（`#keys[1]` = 列数、`#keys` = 行数）。
 - 关联：`05` §49（表驱动多通道触控微调器，同样用表 + 格子）/ `05` §48（区间双游标）/ `06` §21（删除后批量修正索引引用，同类的「表与索引同步」问题）/ `07` §1（游戏自带键盘部件的协议解析，与本节的**自绘屏上键盘**是两条路）/ `02` §2（toggle 与边沿闩锁）
 - 完整脚本：`../../../AI相关/_提取暂存/_b3/3793646592_vehicle_14.lua`
+
+
+---
+
+## §55 **走纸式多通道折线图**：定长 FIFO + 归一化后逐段 `drawLine` + 分道叠放
+
+- 来源：steam id **3793236299** · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=3793236299> · **载具**（K-2865 Ukhta Class 弹道导弹潜艇，`_vehicle_1` 反应堆数据屏）
+- 更新时间：2026-09-01
+- 用到：复合数值 1~3（控制棒 / 棒温 / 功率）、1×1 屏（逻辑画布 96×64）
+- 亮点：把「历史趋势」拆成三件小事——**定长 FIFO 存样本**、**归一化到 0..1 再乘道高**、**三条曲线各占一条基准线分道叠放**。整屏只有 `push` 与 `drawGraph` 两个函数，是所有「XX 随时间变化」类仪表的通用骨架。
+
+**① 定长 FIFO（`table.insert` + 超长砍队首）**
+
+```lua
+maxPoints = 96
+minVal, maxVal = 0, 1
+
+function push(buf, val)
+    table.insert(buf, val)
+    if #buf > maxPoints then table.remove(buf, 1) end
+end
+
+function onTick()
+    push(bufWOP, clamp(input.getNumber(1), minVal, maxVal))
+    push(bufROM, clamp(input.getNumber(2), minVal, maxVal))
+    push(bufYOB, clamp(input.getNumber(3), minVal, maxVal))
+end
+```
+
+**② 归一化 + 逐段连线（关键：`y` 要取反）**
+
+```lua
+function drawGraph(buffer, r, g, b, yBase, height)
+  screen.setColor(r, g, b)
+  local size = #buffer
+  if size < 2 then return end                     -- 🔑 少于两点画不出线段
+  for i = 2, size do
+    local p1 = (buffer[i-1] - minVal) / (maxVal - minVal)
+    local p2 = (buffer[i]   - minVal) / (maxVal - minVal)
+    -- 🔑 屏幕 Y 轴向下，所以是 yBase - p*height；x 直接用下标，天然「右端进新值」
+    screen.drawLine(i-2, yBase - p1*height, i-1, yBase - p2*height)
+  end
+end
+
+function onDraw()
+  setC(34,34,34) screen.drawRectF(0,0,96,64)     -- 底
+  setC(28,28,28) screen.drawRectF(0,0,96,9)      -- 标题条
+  local laneH = 5
+  drawGraph(bufWOP, 88, 6, 6,   50, laneH)       -- 🔑 三条道用不同的 yBase 分开
+  drawGraph(bufROM, 63,95,50,   57, laneH)
+  drawGraph(bufYOB, 96,88,42,   64, laneH)
+end
+function setC(r,g,b,a) screen.setColor(r,g,b,a or 255) end
+```
+
+- 🔑 **`x` 直接用数组下标**：新值从队尾进、队首被砍，所以「最新一点永远在 `size-1`」，不需要记时间戳，也不需要平移。**这是走纸图的核心**——比每帧重算所有点的 x 省得多。
+- 🔑 **`if size < 2 then return end`**：`drawLine` 需要两点。首帧只有 1 个样本时直接返回，否则会取到 `buffer[0]` = `nil` 并报错。
+- 🔑 **`yBase - p*height` 的负号**：屏幕 Y 向下，值越大要画得越高（Y 越小）。忘了负号曲线会整体倒过来。
+- ⚠ **`table.remove(buf, 1)` 是 O(n)**：本例 3 条缓冲 × 96 点 = 每 tick 最多 288 次元素搬移，勉强能跑；**点数上百或通道数更多时必须换成环形缓冲**（`04` §4 的提醒，`08` §21 有可直接抄的写法）。
+- ⚠ **`minVal / maxVal` 是硬编码的 0 和 1**：超出范围的读数被 `clamp` 削平，曲线会「贴顶/贴底」；数值量程变了要同步改这两个常数，否则整条线失去意义。要做自适应量程得在 `onTick` 里维护滑动极值。
+- 关联：`08` §21（环形缓冲写法，本节 `push` 的高性能替代）/ `04` §4（队列与 O(n) 提醒）/ `09` §27（单位体系表，读数排版）/ `05` §1（1×1 屏上的点阵字体，本节仍用 `drawText` 是因为画布够宽）/ `00_速查 §16`（screen API）
+- 完整脚本：`../../../AI相关/_提取暂存/_b2/3793236299_vehicle_1.lua`
+- 同批未收录：`_b2/3793225196_vehicle_7.lua`（声纳 ping 往返计时，与 `03` §11 逐行相同）、`_b2/3793225196_vehicle_5.lua`（地图按钮表 `B`，与 `05` §39 同源）、`_b2/3793044262_vehicle_3.lua`（`drawPointer` 与 `06` §12 同源）
+
+
+---
+
+## §56 **屏上小游戏骨架**：拒绝采样做网格对齐随机 + 双表队列当蛇身 + 「每秒一步」步进
+
+- 来源：steam id **3792866122** · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=3792866122> · **载具**（`_vehicle_9`，96×96 屏上的贪吃蛇）
+- 更新时间：未取到（Steam Web API 本轮未返回该作品元数据，下轮补）
+- 用到：1×1 屏（96×96）、4 个方向布尔 + 1 个开始布尔
+- 亮点：屏上小游戏在 SW 里有三个专属约束——**没有 `os.time` 只能靠 tick 计数**、**`math.random` 必须自己对齐到像素网格**、**蛇身这种变长队列只能用两张并行表**。这里三件事都给出了最省字符的写法。
+
+**① 拒绝采样：让随机数落在 5 px 网格上**
+
+```lua
+function spawn(mi, ma)
+  a = 0
+  while 1 do
+    a = math.random(mi, ma)
+    if a % 5 == 0 then return a end      -- 🔑 不满足就重摇，直到落在网格交点
+  end
+end
+```
+
+**② 两张并行表当蛇身：`table.insert(t,1,v)` 头插 + `table.remove(t)` 尾删**
+
+```lua
+-- 每步移动：新头插到 1 号位，删掉队尾 → 长度不变
+table.insert(bx, 1, bx[1] + x)
+table.insert(by, 1, by[1] + y)
+table.remove(bx)
+table.remove(by)
+
+-- 吃到苹果：只头插不尾删 → 长度 +1
+lenth = lenth + 1
+table.insert(bx, 1, bx[1] + x)
+table.insert(by, 1, by[1] + y)
+```
+
+**③ 「每秒一步」与状态机**
+
+```lua
+function snake()
+  if (time % 60 == 0) then               -- 🔑 60 tick = 1 秒；SW 没有 os.time，只能数 tick
+    if moves() == 1 then y, x =  5, 0    -- 方向 → 位移增量（5 px = 一个格子）
+    elseif moves() == 2 then y, x = -5, 0
+    elseif moves() == 3 then y, x = 0,  5
+    elseif moves() == 4 then y, x = 0, -5 end
+    if lenth >= 2 then
+      table.insert(bx,1,bx[1]+x)  table.insert(by,1,by[1]+y)
+      table.remove(bx)            table.remove(by)
+    else
+      bx[1], by[1] = bx[1]+x, by[1]+y    -- 🔑 长度为 1 时不能「插了再删」，直接改
+    end
+  end
+  for i = 1, lenth do screen.drawRectF(bx[i], by[i], 5, 5) end
+  apple()
+  if colision() then run = false end
+end
+```
+
+- 🔑 **拒绝采样是屏幕上做网格对齐的最省写法**：`math.floor(math.random(mi/5, ma/5))*5` 也能对齐，但边界要小心；`while` 重摇虽然「理论上可能死循环」，实际 `mi=5 / ma=85` 时命中概率 1/5，几步就出。
+- 🔑 **两张并行表而不是一张表存 `{x,y}`**：省掉每步创建表的开销，也省字符。**代价是插入/删除必须成对写**，漏一个就错位——吃苹果那段只 `insert` 不 `remove` 正是靠这个不对称实现「变长」。
+- 🔑 **`table.remove(t)` 不带参数删队尾**，与 `table.insert(t, 1, v)` 配对就是最简队列。⚠ 但两者都是 O(n)，蛇长上百就该换环形缓冲。
+- ⚠ **反面教材：`if (time % 60 - (lvl * 2) == 0)` 并不能让蛇随等级加速**。原作者想用等级缩短步进间隔，但 `time%60` 的值域是 `0..59`，减掉 `lvl*2` 后**仍然每 60 tick 命中一次**，只是相位平移了 `lvl*2` tick，**帧率完全没变**。要真的加速得写成 `time % math.max(6, 60 - lvl*4) == 0`（改模数而不是改偏移量）。
+- ⚠ **反面教材：`for j = 2, lenth do ... end` 自撞检测漏了首尾相接的情形**——但更严重的是它**在移动后才检测**，第一步就会把「蛇头刚离开的格子」算进去（该格已被尾删，所以没触发）；若将来改成不删尾就会立刻误判。检测顺序要固定为「先算新头 → 再判撞 → 再决定是否删尾」。
+- ⚠ **`colision()` 的边界写死成 `5 / 85 / 10 / 90`**，与 `spawn(5,85)` 的范围必须一致；改画布尺寸时两处都要改。更稳的做法是用 `w = screen.getWidth()` 现算。
+- 关联：`05` §55（走纸折线图，同样是表驱动绘图）/ `05` §44（屏上国际象棋 + 深拷贝悔棋，另一套小游戏骨架）/ `02` §10（国际象棋 negamax 引擎）/ `05` §1（点阵字体，本节用 `drawTextBox` 是因为 96 宽够用）/ `00_速查 §16`（screen API）
+- 完整脚本：`../../../AI相关/_提取暂存/_b3/3792866122_vehicle_9.lua`
+- 同批未收录：`_b3/3792941403_vehicle_3/_vehicle_8/_vehicle_13/_vehicle_19`（同一屏的四份副本，`rotatePoint` 与 `05` §53 同源）、`_b3/3792941403_vehicle_16`（3×4 点阵字体，与 `05` §1.1 同源）
