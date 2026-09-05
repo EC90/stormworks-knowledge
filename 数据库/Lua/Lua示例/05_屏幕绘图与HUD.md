@@ -3256,3 +3256,87 @@ s.drawLine(w/4-2, h-1, w/4+1, h-1)  s.drawLine(w/4+1, h-3, w/4+1, h-1)
 - ⚠ **触控区在 `onTick` 末尾才计算**，判断语句用的却是上一帧的 `TouchP` → 所有触控慢一帧。要立刻响应就把 `TouchP = Touch and TouchZone(...)` 挪到判断之前（`03` §23 记过同款反面教材）。
 - 🔑 **双窗口的意义**：单窗口（只在 `Wt == 0` 放行）是「按下一次触发一次」；双窗口在两个时刻放行，等于把冷却期切成两半，得到「按住时匀速连发」的手感，且不用额外状态机。
 - 关联：`05` §2（负高度条形图）/ `05` §19（矢量图标）/ `05` §31（单击 / 双击 / 长按的手势仲裁）/ `09` §21（同一辆车的挡位选择器逻辑）
+
+
+## §46 **一套脚本适配四种屏**：屏幕尺寸表 + 百分比坐标 + 手动居中文本
+
+来源：steam id **3792849187** · <https://steamcommunity.com/sharedfiles/filedetails/?id=3792849187> · **载具**（GSP Syntia Compact Passenger Airplane）· 更新时间 **2026-08-30**
+
+`05` §39 的响应式是「屏不够大就不画这个控件」（布尔裁剪）。这一节是另一种：**所有坐标先按 100×100 归一化，绘制时再乘当前屏的宽高**——同一套布局在 1×1 到 9×5 上自动等比缩放，不需要为每个尺寸写分支。
+
+**用到**：触控屏、属性（显示器尺寸下拉、目标温度）、外部数字（当前温度）、布尔输出（升温/降温使能）
+
+**亮点**：① `screenSizes` 表 + 属性索引，一次性定下逻辑画布；② `scaleX/scaleY` 把百分比换算成像素；③ `drawTextAligned` 用 `string.len(text)*5` **估宽手动居中**（`drawTextBox` 的对齐参数在窄控件里不够用）；④ 同作品时钟小组件的三个细节：`%2d` + `gsub` 补零、分钟跳变触发冒号闪烁、`drawLine` 手绘度符号。
+
+```lua
+function onTick()
+  -- ① 屏幕尺寸表：属性下拉 → 逻辑画布尺寸（脚本按 100x100 设计，绘制时再缩放）
+  screenSizes = {{w=32,h=32},{w=64,h=64},{w=160,h=96},{w=288,h=160}}
+  screenSize  = screenSizes[property.getNumber("Monitor Size")]
+
+  inTemp    = input.getNumber(8)
+  isPressed = input.getBool(1)
+  inputX, inputY = input.getNumber(3), input.getNumber(4)
+
+  -- 按钮命中区同样用百分比坐标，四种屏共用一个判定
+  buttonsOffset = {x = math.floor(screenSize.w*0.4)+5,
+                   y = math.floor(screenSize.h*0.5)}
+  TempUp   = isPressed and isPointInRectangle(inputX, inputY, buttonsOffset.x, buttonsOffset.y-7, 10, 7)
+  TempDown = isPressed and isPointInRectangle(inputX, inputY, buttonsOffset.x, buttonsOffset.y+2, 10, 7)
+  output.setBool(5, TempUp)
+  output.setBool(6, TempDown)
+end
+
+-- ② 百分比 → 像素
+function scaleX(x) return screen.getWidth() *(x/100) end
+function scaleY(y) return screen.getHeight()*(y/100) end
+
+-- ③ 手动居中：SW 的字符宽约 5 px，用 string.len 估宽即可
+function drawTextAligned(x, y, text, alignX, alignY)
+  local strWidth = string.len(text)*5
+  screen.drawTextBox(x-(strWidth/2), y-2.5, strWidth, 5, text, alignX, alignY)
+end
+
+function onDraw()
+  if inTemp >= desiredTemp then screen.setColor(34,177,36)   -- 达标绿
+  else                          screen.setColor(237,28,26) end  -- 未达标红
+  drawTextAligned(scaleX(30)-2, scaleY(40), math.floor(inTemp))
+  -- 按下的三角按钮换成实心 + 换色，一行做出「按下去」的反馈
+  if TempUp then
+    screen.setColor(34,177,36)
+    screen.drawTriangleF(buttonsOffset.x+2, buttonsOffset.y-2,
+                         buttonsOffset.x+5, buttonsOffset.y-6,
+                         buttonsOffset.x+9, buttonsOffset.y-2)
+  end
+end
+```
+
+<details><summary>同作品另一块脚本：时钟小组件的三个细节</summary>
+
+```lua
+-- ④ 游戏内时间 → 时分：以 0.5 为一天，故 1 小时 = 0.5/12
+hour = math.floor(time/(0.5/12))
+min  = math.floor(0.5+((time%(0.5/12))/(0.5/(12*60))))  -- 四舍五入到分，再处理进位
+if min == 60 then min, hour = 0, hour+1 end
+if hour == 24 then hour = 0 end
+
+if togmin ~= min then togmin, tog = min, not tog end     -- 分钟跳变才翻转 → 冒号闪烁
+dotty = tog and ":" or " "
+
+-- %2d 补的是空格而非 0，gsub 把空格换成 0
+dtime = string.gsub(string.format("%2d", hour), " ", "0") .. dotty
+      .. string.gsub(string.format("%2d", min),  " ", "0")
+
+-- 手绘度符号 °：四条 drawLine 拼一个 2x3 的小圈
+screen.drawLine(x,   15+4, x,   18+4)
+screen.drawLine(x+1, 15+4, x+2, 15+4)
+screen.drawLine(x+1, 17+4, x+2, 18+4)
+screen.drawLine(x+2, 15+4, x+2, 18+4)
+```
+
+</details>
+
+- **百分比布局 vs 布尔裁剪**：前者让所有控件**等比缩放**，适合信息密度固定的小面板；后者（§39）适合「小屏放不下的就干脆不显示」。两者可混用。
+- ⚠ `string.len` 只对 ASCII 准确；中文字符要按 2 倍宽算（见 `05` §20 一带的中文渲染说明）。
+- `%2d` 补的是**空格**不是 0，`gsub(" ","0")` 是标准补零写法；`string.format("%02d", n)` 一步到位但字符更多。
+- 关联：`05` §39（响应式布尔裁剪）/ `05` §38（角线长度按屏宽百分比）/ `00_速查 §16`（`drawTextBox` 对齐参数）
