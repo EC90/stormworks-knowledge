@@ -3724,3 +3724,88 @@ end
 - ⚠ **半透明叠画不会跨帧累积**：`setColor(50,25,5,50)` 每帧重画同一条线，看起来还是 alpha=50 那一层——屏幕每帧清空。想做「越叠越深」的余晖必须自己维护历史表（见 `03` §22 的衰减余晖）。
 - 关联：`09` §26（同一思想的另一套实现：基向量投影做俯仰梯）/ `05` §34（连线两端内缩，同样是先算单位向量）/ `05` §51（手绘矢量字形）/ `00_速查 §4`（圈 ↔ 弧度）
 - 完整脚本：`../../../AI相关/_提取暂存/3793571871_vehicle_11.lua`、`../../../AI相关/_提取暂存/3793571871_vehicle_6.lua`
+
+
+## §54 **屏上触控数字键盘**：网格除法取键位 + 边沿触发 + 输入校验 + 按下态反馈
+
+- 来源：steam id **3793646592** · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=3793646592> · **载具**（`_vehicle_14` 触控数字键盘微控）
+- 更新时间：未取到（本轮 Steam Web API 不可达，下轮补）
+- 用到：触控屏、复合布尔 1（触摸）、复合数值 3~4（触控 X/Y）、复合数值 1（输出值）、32×32 小屏
+- 亮点：3 列 × 4 行的数字键盘（0~9 + 清空 + 确认），**不用给每个键写一遍矩形判定**——直接 `floor(tx / 格子宽)` 算出列、`floor(ty / 格子高)` 算出行，键位表用二维表查。
+
+要在小屏上做一个数字键盘，最啰嗦的写法是给 12 个键各写一次 `isPointInRectangle`。这个作品把屏幕**均匀切成网格**，用两次除法定位，键位查表：
+
+```lua
+inputNumber, outputValue, lastTouch = "", 0, false
+pressedRow, pressedCol = -1, -1
+
+local keys = {                       -- ⚠ 见文末：这张表不该建在 onTick 里
+  {"7","8","9"},
+  {"4","5","6"},
+  {"1","2","3"},
+  {"X","0","E"},                     -- X = 清空，E = 确认
+}
+
+function onTick()
+  local touch = input.getBool(1)
+  local tx, ty = input.getNumber(3), input.getNumber(4)
+
+  -- 🔑 网格除法取键位：屏宽 32 / 3 列 = 10.666，高 32 / 4 行 = 8
+  local col, row = -1, -1
+  if touch then
+    col, row = math.floor(tx / 10.666), math.floor(ty / 8)
+    pressedCol, pressedRow = col, row
+  else
+    pressedCol, pressedRow = -1, -1
+  end
+
+  if touch and not lastTouch then                       -- 🔑 边沿触发：一次触摸只算一次
+    if col >= 0 and col <= 2 and row >= 0 and row <= 3 then
+      local key = keys[row + 1][col + 1]
+      if key == "X" then
+        inputNumber = ""
+      elseif key == "E" then
+        outputValue = tonumber(inputNumber) or 0        -- 🔑 空串兜底
+        inputNumber = ""
+      else
+        addDigit(key)
+      end
+    end
+  end
+  lastTouch = touch
+  output.setNumber(1, outputValue)
+end
+
+function addDigit(d)
+  if #inputNumber >= 4 then return end                  -- 位数上限
+  if inputNumber == "" and d == "0" then return end      -- 拒绝前导零
+  inputNumber = inputNumber .. d
+end
+```
+
+**按下态反馈**：`pressedRow` / `pressedCol` 存在全局里，`onDraw` 比对「当前按的是不是我」即可——不必在绘制时再判一次矩形。
+
+```lua
+function drawButton(x, y, w, h, text, pressed)
+  if pressed then
+    screen.setColor(255, 255, 255)
+    screen.drawRectF(x+1, y+1, w-1, h-1)
+    screen.setColor(0, 0, 0)
+    screen.drawText(x+3, y+2, text)                     -- 反白：按下时黑字白底
+    screen.setColor(255, 255, 255)
+    screen.drawRect(x, y, w, h)
+  else
+    -- 常态：按字符分色（X 红 / E 绿 / 数字白）
+  end
+end
+```
+
+- 🔑 **网格除法 vs 逐键矩形**：12 个键从 12 次判定降到 2 次除法 + 1 次查表，代码量与键数无关。**前提是格子必须均匀**——要做不同宽度的键（比如一个占两格的「0」）就得回到矩形判定，或给格子加权重表。
+- 🔑 **触摸一定要做边沿**：`touch and not lastTouch`。不做的话按住一个键会每 tick 触发一次，60 Hz 下瞬间输满 4 位。
+- 🔑 **`tonumber(inputNumber) or 0` 兜底**：清空后直接按确认会拿到空串，`tonumber("")` 返回 `nil`，`or 0` 让它变成 0 而不是把 `nil` 写进输出通道。
+- 🔑 **按下态用「记录行列」而不是「绘制时重判」**：`onTick` 里已经算过一次 `col/row` 了，`onDraw` 再算一遍纯属浪费；而且 `onDraw` 拿不到 `input`（部分版本下 `input.*` 在 `onDraw` 里不可用），**状态必须在 `onTick` 里存好**。
+- ⚠ **反面教材：`keys` 表建在 `onTick` 内部**，等于每 tick 新建一张二维表（60 次/秒）。这种**静态常量表一律提到文件顶层**（或放进属性文本，见 `01` §7）。
+- ⚠ **`col <= 2` / `row <= 3` 是硬编码的上界**：改键位表时忘了同步改这两处，就会越界取到 `nil` 然后 `keys[nil]` 报错。正确写法是从表本身派生：`if keys[row+1] and keys[row+1][col+1] then`。
+- ⚠ **`10.666` 是「屏宽 32 / 3 列」的硬编码结果**：换到别的屏尺寸就整体错位。应该用 `w/#keys[1]` 与 `h/#keys` 现算（`#keys[1]` = 列数、`#keys` = 行数）。
+- 关联：`05` §49（表驱动多通道触控微调器，同样用表 + 格子）/ `05` §48（区间双游标）/ `06` §21（删除后批量修正索引引用，同类的「表与索引同步」问题）/ `07` §1（游戏自带键盘部件的协议解析，与本节的**自绘屏上键盘**是两条路）/ `02` §2（toggle 与边沿闩锁）
+- 完整脚本：`../../../AI相关/_提取暂存/_b3/3793646592_vehicle_14.lua`
