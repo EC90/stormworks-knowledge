@@ -3941,3 +3941,185 @@ end
 - 关联：`05` §55（走纸折线图，同样是表驱动绘图）/ `05` §44（屏上国际象棋 + 深拷贝悔棋，另一套小游戏骨架）/ `02` §10（国际象棋 negamax 引擎）/ `05` §1（点阵字体，本节用 `drawTextBox` 是因为 96 宽够用）/ `00_速查 §16`（screen API）
 - 完整脚本：`../../../AI相关/_提取暂存/_b3/3792866122_vehicle_9.lua`
 - 同批未收录：`_b3/3792941403_vehicle_3/_vehicle_8/_vehicle_13/_vehicle_19`（同一屏的四份副本，`rotatePoint` 与 `05` §53 同源）、`_b3/3792941403_vehicle_16`（3×4 点阵字体，与 `05` §1.1 同源）
+
+## §57 缩放控件：端点先对齐步长网格 + 首触发延迟连发 + 按屏高分档布局
+- 来源：steam id 3792692817 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3792692817 · 载具
+- 更新时间：未取到（同上，下轮 `fetch_meta.py` 补）
+- 用到：触控屏（1×1 / 2×2 / 3×3 通用）+ 属性给 `Minimum/Maximum/Start zoom distance` 与 `Zoom increment`
+- 亮点：三个容易被忽略却决定手感的细节——**端点先落回步长网格**、**按住 0.15 s 后才开始连发**、**布局按屏高分三档并换两套位图**
+
+**① 左右半屏点选 + 首触发延迟连发**
+
+```lua
+-- 右上角 10x10 是静音按钮，必须从缩放命中区里挖掉
+U  = iPIR(iX,iY, w/2,0, w/2,h) and iP and not iPIR(iX,iY, w-10,0, 10,10)   -- 右半屏 = 放大
+D  = iPIR(iX,iY, 0,0,   w/2,h) and iP                                       -- 左半屏 = 缩小
+US, DS = U and step, D and step
+if U or D then
+    step = false
+    T = T + 1/60                       -- 🔑 SW 没有 os.time，自己数秒
+end
+if not iP or T >= 0.15 then            -- 🔑 按住 0.15 s 才放行下一次跳档
+    step = true
+    T = 0
+end
+```
+
+**② 端点先对齐步长网格再跳**
+
+```lua
+if US then
+    if d == MinDis then d = math.floor(MinDis/ZStep)*ZStep end   -- 🔑 先落回网格
+    d = math.min(d + ZStep, MaxDis)
+elseif DS then
+    if d == MaxDis then d = math.floor(MaxDis/ZStep)*ZStep end
+    d = math.max(d - ZStep, MinDis)
+end
+```
+
+**③ 按屏高分三档（1×1 / 2×2 / 3×3 各一套）**
+
+```lua
+if h <= 32 then
+    screen.drawTextBox(w-11, h-8, 10, 7, string.format("%.0f", d/1000), 1, 1)   -- 只显示整数 km
+elseif h < 96 then
+    NN, OO = math.modf(d/1000)
+    if OO*10 >= 9.5 then OO, NN = 0, NN+1 end          -- 🔑 防 9.97 显示成 "9.10"
+    screen.drawTextBox(w-19, h-7, 10, 5, string.format("%.0f", NN), 1, 0)
+    screen.drawTextBox(w-9,  h-7, 11, 5, ".")
+    screen.drawTextBox(w-9,  h-7, 11, 5, string.format("%.0f", OO*10), 0, 0)
+else
+    -- 同上，再补一个 "km" 单位（省略）
+end
+```
+
+**④ 位图图标随屏高换两套字模**
+
+```lua
+function print(x, y, Mw, Mh, M)        -- ⚠ 覆盖了同名的全局 print（SW 无内置 print，但别混用）
+    for i = 0, Mw-1 do
+        for j = 0, Mh-1 do
+            if M[j*Mw+(i+1)] == 1 then screen.drawRectF(x+i, y+j, 1, 1) end   -- 🔑 +1：Lua 数组从 1 起
+        end
+    end
+end
+-- h > 32 用 7x7 字模，h <= 32 换 5x5（同一图标两套分辨率，窄屏才不糊）
+```
+
+- 🔑 **为什么要先 `floor(端点/步长)*步长`**：若 `MinDis` 不是 `ZStep` 的整数倍（如 `MinDis=250 / ZStep=100`），
+  直接 `d = d + ZStep` 会跳到 350——一个歪值；再按减档又回到 250，端点之间来回漂移，且中间档位全不在网格上。
+  先在端点处把 `d` 拉回网格（`floor(250/100)*100 = 200`），之后增档得 300、减档得 100，整条档位序列才是干净的。
+- 🔑 **首触发延迟连发与 `05` §31 的长按节拍是两种思路**：§31 用 `hbON` 计数器做**固定节拍**（每 N tick 一档，节奏均匀）
+  本例是**按住就计时、满 0.15 s 放行**（按下瞬间立刻跳一档，之后按 0.15 s 一档）。后者首档响应更快，适合缩放这类「点一下就够、按住才快调」的操作。
+- 🔑 **静音区从命中区里挖掉，而不是反过来**：`U` 的判定写成 `右半屏 且 不在右上角 10x10`，
+  这样缩放区自动避让按钮；改按钮位置时只改这一处。`D`（左半屏）不重叠所以不用挖，但**动布局时要重新检查**。
+- ⚠ `T = T + 1/60` 依赖 60 Hz。掉帧 / 联机时 0.15 s 会被拉长（同 `02` §3.2），想要真实秒数要走外部计时。
+- ⚠ `math.modf` 返回的第二个值是**带符号的小数部分**（负数时同为负），本例 `d` 恒正所以没问题；处理可能为负的量要先取 `abs`。
+- ⚠ `print()` 用了双重循环逐像素 `drawRectF`，7×7 图标就是 49 次调用。屏上同时画多个图标时，
+  改成「按行压缩成 `drawRectF(x, y, w, 1)`」能省一个数量级（见 `05` §42 的行段压缩表）。
+- 关联：`05` §31（触控手势三合一，`hbON` 长按节拍）/ `05` §49（表驱动微调器的按住连发）/
+  `05` §11（触控缩放控制器，闭包 capacitor/counter + 比例步长，与本例的定步长相对）/
+  `05` §42（位图行段压缩表）/ `05` §39（按屏尺寸裁剪控件的响应式思路）/ `00_速查 §16`（screen API）
+- 完整脚本：`../../../AI相关/_提取暂存/_b1/3792692817_vehicle_3.lua`
+
+## §58 摄像头直通做 HUD 底图（`drawCamera` 打底 + 半透明条 + 双口径百分比）
+- 来源：steam id 3793256534 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3793256534 · 载具
+- 更新时间：未取到（未被价值轨榜单收录，Steam Web API 未返回元数据）
+- 用到：9×5 屏（288×160）+ 摄像头 + 油门 / 刹车 / 电量三路数值 + 三路 Bool
+- 亮点：**一块屏同时出摄像头画面和 HUD**，不用第二块脚本做视频透传；电量通道一行兼容「0~1」与「0~100」两种上游口径
+
+```lua
+function onDraw()
+    screen.drawCamera(0, 0)                       -- 🔑 摄像头画面当底图，必须写在第一行
+
+    -- 顶栏：半透明黑底，保证文字在任何天色/背景都可读
+    screen.setColor(0, 0, 0, 140)
+    screen.drawRectF(0, 0, 288, 24)
+    screen.setColor(0, 255, 200, 255)
+    screen.drawText(6, 8, isReverse and "REV" or "FWD")     -- 🔑 and/or 一行三目
+
+    -- 双层进度条：先暗底（读"还剩多少"），再按值画亮条
+    screen.setColor(40, 40, 40, 200);  screen.drawRectF(65, 8, 40, 8)
+    screen.setColor(0, 255, 100, 255); screen.drawRectF(65, 8, math.floor(throttle*40), 8)
+
+    -- 🔑 双口径归一化：上游给 0~1 还是 0~100 都能吃
+    local battPct = math.floor(battery <= 1 and battery*100 or battery)
+    screen.drawText(190, 8, string.format("BAT:%d%%", battPct))   -- ⚠ 百分号要写 %%
+
+    if connFront then
+        screen.setColor(0, 255, 0, 255); screen.drawText(10, 146, "[F-CONN: LOCKED]")
+    else
+        screen.setColor(150,150,150,255); screen.drawText(10, 146, "[F-CONN: OFF]")
+    end
+end
+```
+
+- 🔑 **`screen.drawCamera(0, 0)` 是「摄像头 + HUD 同屏」的最短路径**：不需要第二块脚本接视频输入做透传
+  （对比 `05` 里「两块 Lua 用视频串联做图层叠加」的方案，那里是为了**两层脚本各自画的矢量**叠加）。
+  **必须写在 `onDraw` 的第一行**——后画的才盖在画面上，写反了会被摄像头画面整个盖掉。
+- 🔑 **半透明遮罩条（`alpha = 140`）而不是实色**：既压暗背景保证文字可读，又不完全挡住画面。
+  这是所有「画中画 HUD」的标配；`0/0/0/140` 与 `0/0/0/255` 的观感差别很大，值得单独调。
+- 🔑 **双口径归一化 `battery <= 1 and battery*100 or battery`**：一行同时兼容「0~1」和「0~100」两种上游约定。
+  ⚠ 边界要自己核对一遍：`battery` 恰为 `1` 时走 `×100` 得 100（对），恰为 `0` 时也得 0（对）。
+  真正的风险是**上游给 0~1 但真实值恒小于 0.01**（几乎没电）会被当成 0~100 口径。
+  能从上游统一口径就统一，别依赖这种推断。
+- 🔑 **双层进度条**：暗底（40,40,40,200）+ 亮条，比「只画亮条」更容易读出剩余量。
+  `math.floor(v*40)` 取整避免亚像素宽度抖动（同 `08` §22 的像素取整）。
+- ⚠ `string.format("BAT:%d%%", ...)` 里百分号必须写成 `%%`，漏写一个会报格式串解析错误。
+- ⚠ **`onDraw` 里直接 `input.getNumber` / `getBool` 虽然能跑，但多人联机下 `onDraw` 与 `onTick` 读到的不是同一帧**。
+  凡是要参与状态判断的量（`isReverse`、`connFront`）建议在 `onTick` 里读进全局再用
+  （同 `04` §10「计算放 `onTick`、画弧放 `onDraw`」）。
+- ⚠ 分辨率写死 288×160（9×5 屏）：换屏尺寸时全部坐标要重算。用 `w`/`h` 现算更稳——
+  和 `08` §22「循环上限写死 100」是同一类问题。
+- 关联：`05` §5x（两块 Lua 用视频串联做图层叠加，另一种实现）/ `09` §15（油耗与续航的进度条）/
+  `08` §22（半透明条与像素取整）/ `01` §14（`2^k-1` 位掩码，把本节三路状态灯压进一条通道）/ `00_速查 §16`
+- 完整脚本：`../../../AI相关/_提取暂存/_b3/3793256534_vehicle_0.lua`
+- 同批未收录：`_b3/3793281684_vehicle_0` `_vehicle_1`（`g`/`b` 未定义即使用，坐标还超出屏宽，属坏样本）/
+  `_b3/3793341737_microcontroller_0`（4 行的"数值不再增长就亮灯"检测，过于琐碎）
+
+## §59 单通道热力色 `setColor(255, v, 0)` + 3×3 状态灯网格（含循环化改写）
+- 来源：steam id 3793254347 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3793254347 · 载具
+- 更新时间：未取到（未被价值轨榜单收录，Steam Web API 未返回元数据）
+- 用到：3×3 屏 + 8 路数值（每路 0~255，当绿色通道用）
+- 亮点：**一路数值直接当颜色通道**做红→黄→绿的热力渐变，一行搞定，不需要任何 HSL / 调色板代码
+
+```lua
+function onTick()
+    rod1 = input.getNumber(1)      -- … rod8，每路 0~255
+    -- rod2 … rod8 同理（原脚本逐行写死，见下方改写）
+end
+
+function onDraw()
+    w, h = screen.getWidth(), screen.getHeight()
+    -- ✅ 改写后：3×3 网格用两层循环，原脚本是 9 组硬编码坐标
+    screen.setColor(255, 255, 255)
+    for i = 0, 2 do
+        for j = 0, 2 do
+            screen.drawRect(26 + j*15, 10 + i*15, 14, 14)     -- 1 px 白框
+        end
+    end
+    -- 🔑 一路数值直接当绿色通道：0 → 纯红，128 → 橙黄，255 → 黄绿
+    screen.setColor(255, rod1, 0); screen.drawRectF(27, 11, 13, 13)
+    screen.setColor(255, rod2, 0); screen.drawRectF(42, 11, 13, 13)
+    -- …… rod3~rod8 同法；第 2 行中间那格被强制涂黑（该槽位没有控制棒）
+end
+```
+
+- 🔑 **`setColor(255, v, 0)` 是最省的红→绿热力渐变**：固定 R=255、B=0，只让 G 随数值走。
+  `v=0` → (255,0,0) 红；`v=128` → (255,128,0) 橙；`v=255` → (255,255,0) 黄绿。
+  想要末端收进**纯绿**（而非黄绿），把 R 也随 v 一起降：`setColor(255-v, v, 0)` 是近似版，
+  严格版要分段（前一半 `setColor(255, 2*v, 0)`、后一半 `setColor(510-2*v, 255, 0)`）。
+- 🔑 **连续渐变 vs 阈值表配色**：`05` §45 的阈值表适合「正常 / 警告 / 危险」这种**离散语义**，
+  本例的连续渐变适合「温度 / 负载 / 液位」这类要**读趋势**的量。别用反了——
+  阈值表看不出「快超温了」，连续渐变看不出「已经越线」。
+- 🔑 **状态灯 = 1 px 白框 + 内缩 1 px 实心块**：`drawRect(x,y,14,14)` 画框、`drawRectF(x+1,y+1,13,13)` 填色。
+  同一套路见 `09` §29 的 1×1 屏白框、`05` §5 的按钮外框。
+- ⚠ **反面教材：9 个格子全硬编码**——原脚本 18 次 `drawRect` + 18 次坐标，改屏尺寸要动 36 处。
+  两层 `for` 之后从 36 行压到 6 行，改格距只动一个 `15`。
+  **凡是「同一形状重复 N 次」的绘制，一律先想循环**——SW 的 8192 字符上限下这笔账很划算。
+- ⚠ `setColor(255, rod1, 0)` 没给 alpha（默认 255）；但 **`rod1` 上游断线时会是 `nil`**，`setColor` 直接报错。
+  稳妥写法 `setColor(255, rod1 or 0, 0)`。
+- ⚠ `w` / `h` 读进来却从没使用（坐标全写死），是典型的重构残留。
+- 关联：`05` §45（手写渐变调色板的阈值表方案）/ `05` §6.2（HSL 自动对比色）/
+  `09` §29（1×1 屏白框与分段仪表）/ `08` §22（同一形状重复用循环）/ `00_速查 §16`（screen API）
+- 完整脚本：`../../../AI相关/_提取暂存/_b3/3793254347_vehicle_0.lua`
