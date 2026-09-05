@@ -3565,3 +3565,162 @@ end
 - ⚠ **`string.upper` 每次调用都建新字符串**：画长文本时开销可测。**常量文本（"SPD" / "R" 之类）直接在源码里写大写**，省掉 `upper`；只有运行期拼出来的串才需要它。
 - 🔑 **这一套与 `05` §42 的分工**：§42 的「行段压缩表」适合**图标**（稀疏、形状不规则，按行存段更省）；这一套适合**字符集**（尺寸统一，位运算展开最快）。同一个项目里两者并存很常见。
 - 关联：`05` §42（图标的行段压缩表）/ `01` §5 / `03` §18（另外两种 ROM 字体编码）/ `00_速查 §16`（screen API）
+## §51 **手绘矢量数字字形**：0~9 各写一个 `drawRectF`/`drawLine` 函数 + 两位数靠偏移复用
+
+- 来源：steam id **3793559370** · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=3793559370> · **微控制器**（my custom microcontrollers，`_vehicle_21` 发射倒计时 + 姿态球）
+- 更新时间：2026-08-31
+- 用到：复合数值 1~4（倒计时秒数 / 俯仰 / 滚转 / 偏航，后三者是「圈」）、复合布尔 1~2（计时使能 / 中止）、屏幕
+- 亮点：`05` §50 是用**字模数据**（一个整数装 15 bit 点阵）画字符，这里走另一条路——**把每个数字写成一个绘制函数**，粗笔画用 `drawRectF`、斜笔画用 `drawLine`。字模表换成了代码，代价是字符数，收益是可以画任意粗细、斜切和连笔，两位数只要调两次。
+
+```lua
+-- 🔑 每个函数只管自己 (0,0)~(15,20) 的字身，调用处给 (x,y) 偏移
+function one(x,y)
+  DRF(9+x,1.5+y,3,19)          -- 竖：一个细长矩形
+  DRF(1+x,17.5+y,14,3)         -- 底横
+  DL(8+x,4+y,2.25+x,10.25+y)   -- 斜笔画只能用 drawLine
+  DL(8+x,3+y,2.25+x,9.25+y)    -- 🔑 同一条斜线画两遍 = 加粗（drawLine 没有线宽参数）
+  DL(8+x,2+y,1.25+x,9.25+y)
+  DL(1+x,8+y,8.25+x,1.25+y)
+end
+-- two / thr / fou / fiv / six / sev / eig / nin / zer 同构，各自 5~15 行
+
+S, SC, DRF, DL = screen, screen.setColor, screen.drawRectF, screen.drawLine
+In, Ib = input.getNumber, input.getBool
+Sin, Cos, Pi = math.sin, math.cos, math.pi
+
+function onTick()
+  Ten   = In(1)
+  Pitch = In(2)*2*Pi
+  Roll  = In(3)*2*Pi
+  Timing, ABT = Ib(1), Ib(2)
+  -- 🔑 姿态球：滚转给横偏、俯仰给纵偏，压成一个 2D 符号
+  AIX, AIY = 28*Sin(Roll), 28*Cos(Pitch+Pi/2)
+  N = 10 - math.floor(Ten)
+end
+
+function onDraw()
+  SC(255,16,0,255)
+  if Timing then
+    if N == 0  then zer(72,20) end
+    if N == 1  then one(72,20) end
+    -- … 中间 2~9 省略 …
+    if N == 10 then zer(82,20) one(62,20) end   -- 🔑 两位数 = 同一个字形画两遍，只改偏移
+  end
+  -- 姿态球本体 + 随 -AIX/-AIY 偏移的中心十字
+end
+```
+
+- 🔑 **字形当函数，不当数据**：`zer`/`one`/… 是一等函数，可以直接塞进表做成 `digits[N](x,y)` 查表调用（本例为了省字符用了展开的 `if`，但改成 `({zer,one,two,…})[N+1](72,20)` 更短且更清晰）。
+- 🔑 **加粗斜线的唯一办法是画两遍**：`drawLine` 没有线宽参数，`DL(8+x,4+y,…)` 与 `DL(8+x,3+y,…)` 相差 1 px 就是「两像素粗」。粗直笔画则直接用 `drawRectF`，一步到位。
+- 🔑 **`DRF` 的坐标常带 `.5`**（`1.5+y`、`17.5+y`）：SW 的 `drawRectF` 按整数像素栅格化，加 0.5 能让奇数宽度的矩形视觉居中。写这类手绘字形时，先定好格子再统一加偏移。
+- ⚠ **这个「姿态球」是解耦近似，不是真地平仪**：`AIX` 只由滚转决定、`AIY` 只由俯仰决定，两者互不相干。滚转到 90° 时俯仰方向就完全错了。它适合小角度、装饰性的 HUD；要真·地平仪请走 `09` §26 的**基向量投影**（滚转同时影响横偏与纵偏）。
+- ⚠ `N = 10 - floor(Ten)`，当 `Ten` 超过 11 时 `N` 会变成负数，所有 `if N == …` 都不命中 → 屏幕空白。倒计时类显示**要给 `N` 加下界**（`max(0, 10-floor(Ten))`）。
+- 🔑 **同源变体：3×4 字模（12 bit/字符）**——`3793560568_vehicle_5` 用 `font34` 表把字符压到 3 宽 4 高，比 `05` §50 的 3×5 再省 20%：`c = string.byte(string.upper(char)) - 32; if c > 64 then c = c - 26 end`，取位用 `font34[c] & (1 << (11-i))`，行/列用 `i//4` 与 `i%4` 拆。**注意 `//4` 不是 `//3`**——改字模高度时这两个常数必须一起改。
+- 关联：`05` §50（3×5 字模单整数 15 bit 编码）/ `01` §5、`03` §18（另外两种 ROM 字体）/ `09` §13（矢量数字函数表做 PFD 鼓轮）/ `09` §26（真·俯仰梯）
+- 完整脚本：`../../../AI相关/_提取暂存/3793559370_vehicle_21.lua`、`../../../AI相关/_提取暂存/3793560568_vehicle_5.lua`
+
+## §52 **一根信号算两套精度**：取整给直线防抖、不取整给圆求顺滑
+
+- 来源：steam id **3793554112** · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=3793554112> · **载具**（Ye-9 missing parts，`_vehicle_0` 陀螺瞄具）
+- 更新时间：2026-08-31
+- 用到：复合数值 9~10（转塔视角 X / Y）、11~12（X / Y 倍率）、13（垂直偏移）、屏幕
+- 亮点：同一个瞄准点，作者**算了两套偏移**——`drawLine` 画的十字柱用取整版，`drawCircle` 画的圆环用未取整版。原因很实在：整数像素的直线在亚像素输入下会整条来回抖，而圆本身自带边缘过渡、平滑移动观感更好。成本只有一个 `math.floor`。
+
+```lua
+function onTick()
+  x,  y  = input.getNumber(9),  input.getNumber(10)      -- 转塔视角（浮点）
+  modx, mody = input.getNumber(11), input.getNumber(12)  -- 倍率（灵敏度）
+  off = input.getNumber(13)                              -- 垂直零位偏移
+
+  XModifier2 = x*modx                    -- 未取整：给圆
+  YModifier2 = -y*mody + -off
+  XModifier  = math.floor((x*modx)+0.5)          -- 取整（四舍五入）：给直线
+  YModifier  = math.floor((-y*mody)+0.5+-off)
+end
+
+function onDraw()
+  w = 32
+  screen.setColor(200, 175, 25, 200)
+  -- 🔑 十字柱用 XModifier / YModifier（整数）→ 不会在相邻像素间跳
+  screen.drawLine(w/2+XModifier, w/2+2+YModifier,  w/2+XModifier, w/2+15+YModifier)
+  screen.drawLine(w/2+XModifier, w/2-2+YModifier,  w/2+XModifier, w/2-15+YModifier)
+  screen.drawLine(w/2+2+XModifier, w/2+YModifier,  w/2+15+XModifier, w/2+YModifier)
+  screen.drawLine(w/2-2+XModifier, w/2+YModifier,  w/2-15+XModifier, w/2+YModifier)
+  -- 🔑 圆环用 XModifier2 / YModifier2（浮点）→ 移动连续
+  screen.drawCircle(w/2+XModifier2, w/2+YModifier2, 11)
+  screen.drawCircle(w/2+XModifier2, w/2+YModifier2, 6)
+end
+```
+
+- 🔑 **「取整 vs 不取整」是一组正交的设计维度**：不要全盘取整（圆环会一格一格跳），也不要全盘不取整（细直线会闪）。按图元类型分派：直线 / 细柱 / 文本 → 取整；圆 / 多边形 / 粗填充 → 保留浮点。
+- 🔑 `math.floor(v + 0.5)` 就是四舍五入——SW Lua 没有 `math.round`。**对负数同样成立**（`floor(-1.4+0.5) = floor(-0.9) = -1`，符合预期），不必为负向量单独分支。
+- ⚠ `+ -off` 这种连着两个符号的写法 Lua 合法（一元负号优先级高于加减），但读起来很容易看成笔误。写成 `- off` 或 `-off` 用括号包起来更稳。
+- ⚠ 倍率 `modx` / `mody` 与零位偏移 `off` 都来自外部输入，**没有做范围钳位**——上游给一个 0 会让整个瞄具锁死在屏幕中心，给一个超大值会让图元直接飞出屏。凡是外部可调的标定参数，进绘制前至少 `clamp` 一次。
+- 关联：`05` §46（一套脚本适配四种屏：百分比坐标）/ `05` §34（连线两端内缩，同样要先算单位向量）/ `00_速查 §16`（screen API）
+- 完整脚本：`../../../AI相关/_提取暂存/3793554112_vehicle_0.lua`
+
+## §53 **极坐标矢量骨架**：一个 `tilt` 旋转角驱动整幅图 + 顶点用「圈」写小数
+
+- 来源：steam id **3793571871** · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=3793571871> · **载具**（Type XVIIA submarine，`_vehicle_11` 潜艇纵剖侧视图）
+- 更新时间：2026-08-31
+- 用到：复合数值 1~4（纵倾 / 深度 / 海底距离 / 垂速，前三者是「圈」或世界单位）、属性（Deck Height 甲板高、Sail Position 指挥塔位置、Depth Scale 深度比例、Alternate Bow / Stern 艏艉外形开关、Stan 彩蛋）、屏幕
+- 亮点：整艘潜艇的二十来个顶点**共用同一个模板**——`(cos(θ·2π + tilt)*r) + cx`。所有形状信息全是「半径 + 圈小数」，姿态只由 `tilt` 一个数驱动，没有矩阵、没有分支。属性布尔再在两套艏/艉顶点间切换。
+
+```lua
+pi2 = math.pi*2
+sin, cos = math.sin, math.cos
+
+function onTick()
+  bilt  = input.getNumber(1)          -- 纵倾（圈）
+  depth = input.getNumber(2)
+  dist  = input.getNumber(3)
+  off    = property.getNumber("Deck Height") * -1
+  tower  = property.getNumber("Sail Position")
+  factor = property.getNumber("Depth Scale")
+  altBow, altStern = property.getBool("Alternate Bow"), property.getBool("Alternate Stern")
+end
+
+function onDraw()
+  w, h = screen.getWidth(), screen.getHeight()
+  tilt = -bilt * pi2                                  -- 🔑 圈 → 弧度，负号定旋向
+  gx, gy = w/2, (h/2) + 2 - tilt*12                   -- 艇体随纵倾平移一点，模拟起伏
+
+  -- 🔑 模板：cos/sin(θ*2π + tilt) * r + 原点。θ 直接写「圈」的小数
+  x1 = cos(0.02*pi2 + tilt)*23 + gx
+  y1 = sin(0.02*pi2 + tilt)*23 + gy
+  x2 = cos(0.48*pi2 + tilt)*23 + gx
+  y2 = sin(0.48*pi2 + tilt)*23 + gy
+
+  -- 🔑 嵌套原点：指挥塔以 cx1/cy1 为原点，而它本身也是同一个模板算出来的
+  cx1 = cos(0.25*pi2 + tilt)*off + gx
+  cy1 = sin(0.25*pi2 + tilt)*off + gy
+  x3  = cos(0.50*pi2 + tilt)*21 + cx1
+  y3  = sin(0.50*pi2 + tilt)*21 + cy1
+  x4  = cos(1.00*pi2 + tilt)*25 + cx1
+  y4  = sin(1.00*pi2 + tilt)*25 + cy1
+
+  -- 海底线与深度：屏上「向下」是 +y
+  floor = sin(0.25*pi2 + tilt)*dist - depth
+  dy    = y1 + depth*factor
+
+  screen.setColor(50,25,5,50)
+  screen.drawLine(x1,y1, x2,y2)
+  screen.drawLine(x3,y3, x4,y4)
+
+  -- 🔑 属性布尔在「方艏」与「尖艏」两套顶点间切换，代价只有 4 行
+  if altBow then
+    screen.drawLine(x4,y4, ax1,ay1);  screen.drawLine(ex1,ey1, ax2,ay2)
+    screen.drawLine(ax2,ay2, ax1,ay1); screen.drawLine(x1,y1, ex1,ey1)
+  else
+    screen.drawLine(x1,y1, x4,y4)
+  end
+end
+```
+
+- 🔑 **角度写成「圈」的小数而不是弧度**：`0.02` / `0.125` / `0.25` / `0.48` / `1` 一眼能看出相对方位（0.25 = 正下方、0.5 = 正后方），改形状时不用心算弧度。统一乘 `pi2` 一次即可。
+- 🔑 **两级坐标传递代替矩阵**：指挥塔的原点 `cx1/cy1` 本身是「极坐标 + tilt」的结果，塔上的点再以它为原点算一次。艇体一转，塔自然跟着转，且各自还能单独缩放半径。**这种「父原点由同一模板算出」的写法是手写矢量图里最省字符的层级变换**。
+- 🔑 **`drawLine` 逐段拼圆**：同作品 `_vehicle_6` 的 `circle(x,y,r,s)` 用 `s=64` 段折线拼圆环——`screen.drawCircle` 只能画固定细线，想要**粗环 / 虚线环 / 扇环**必须自己拼，改 `for i = 0, s-1` 的起止范围就能画任意角度的弧。
+- ⚠ **反面教材：派生魔数散落在绘制代码里**。`tOff = (-off*0.8)+3`、`taper1 = (-off*0.5)+1` 这些由属性 `off` 派生的量，系数（0.8 / 0.5 / 1）互不相干却写在顶点计算中间。改一个 Deck Height 会同时动到塔高、艏锥度、偏移三处，且无从预判。凡是「由一个属性派生出多个量」，应当集中在一小段里算完，别和顶点混写。
+- ⚠ **半透明叠画不会跨帧累积**：`setColor(50,25,5,50)` 每帧重画同一条线，看起来还是 alpha=50 那一层——屏幕每帧清空。想做「越叠越深」的余晖必须自己维护历史表（见 `03` §22 的衰减余晖）。
+- 关联：`09` §26（同一思想的另一套实现：基向量投影做俯仰梯）/ `05` §34（连线两端内缩，同样是先算单位向量）/ `05` §51（手绘矢量字形）/ `00_速查 §4`（圈 ↔ 弧度）
+- 完整脚本：`../../../AI相关/_提取暂存/3793571871_vehicle_11.lua`、`../../../AI相关/_提取暂存/3793571871_vehicle_6.lua`
