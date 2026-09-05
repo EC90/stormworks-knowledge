@@ -118,12 +118,14 @@ def main():
         git("rev-parse", "--is-inside-work-tree", cwd=cwd, check=True)
     except Exception as e:
         print("[gitpush] 不是 git 仓库，跳过：%s" % e)
+        print("[gitpush] RESULT: SKIP 未检测到 git 仓库，未提交未推送")
         sys.exit(0)
 
     # 检测变更（-c core.quotepath=false 让 git 输出原始 UTF-8 路径，避免中文被八进制转义后无法归类）
     lines = detect_lines(cwd)
     if not lines:
         print("[gitpush] 工作区无变更，跳过（不提交、不推送）。")
+        print("[gitpush] RESULT: SKIP 工作区无变更，未提交未推送")
         sys.exit(0)
     print("[gitpush] 检测到 %d 个变更文件：" % len(lines))
     for code, path in lines:
@@ -146,6 +148,7 @@ def main():
     print("[gitpush] 推送到 origin/%s ..." % push_branch)
     git("push", "origin", push_branch, cwd=cwd, check=True, timeout=300)
     print("[gitpush] 已提交并推送。")
+    print("[gitpush] RESULT: SUCCESS 已提交并推送 origin/%s" % push_branch)
 
 
 if __name__ == "__main__":
@@ -153,4 +156,5 @@ if __name__ == "__main__":
         main()
     except Exception as e:
         print("[gitpush] 失败（best-effort，调用方可忽略）：%s" % e)
+        print("[gitpush] RESULT: FAIL %s" % e)
         sys.exit(1)

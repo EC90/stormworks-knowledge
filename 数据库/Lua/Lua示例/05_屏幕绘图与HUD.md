@@ -3340,3 +3340,228 @@ screen.drawLine(x+2, 15+4, x+2, 18+4)
 - ⚠ `string.len` 只对 ASCII 准确；中文字符要按 2 倍宽算（见 `05` §20 一带的中文渲染说明）。
 - `%2d` 补的是**空格**不是 0，`gsub(" ","0")` 是标准补零写法；`string.format("%02d", n)` 一步到位但字符更多。
 - 关联：`05` §39（响应式布尔裁剪）/ `05` §38（角线长度按屏宽百分比）/ `00_速查 §16`（`drawTextBox` 对齐参数）
+
+
+## §47 触控取色器：**RGB / HSV 双模式三竖条滑块** + 渐变预览条 + 日夜主题表
+
+来源：steam id **3792089119** · <https://steamcommunity.com/sharedfiles/filedetails/?id=3792089119> · **载具**（DB BR 622 I 620 A）· 更新时间 **2026-08-29**
+
+`05` §45 的调色板是「脚本自己算出一串颜色」。这一节反过来——**让玩家在屏上挑颜色**，而且同一组滑块能在 RGB 与 HSV 两种模式下工作（`mode` 一个布尔切换换算路径），滑块几何完全复用。列车内饰灯、暖气、车身色都能套。
+
+**用到**：触控屏（按下 + X·Y）、布尔输入（夜间 / 手动输入使能 / 外部开关）、数字输入（屏宽高、外部 HSV 或 RGB 数值）、数字输出（R/G/B，0~1）、布尔输出（暖气）
+
+**亮点**：① 三条触控语义一次定义（`onTouch` / `onRelease` / `onPress`），靠 `pre` 存上一帧按下状态；② 竖条滑块把 `t.y` 一行线性映射成通道值；③ `mode` 布尔在 RGB / HSV 两条换算路径间切换；④ 渐变预览条 `dGHSV` 逐像素算色、画 `1×1` 实心矩形；⑤ 手动 / UI 双输入源用布尔门控互斥；⑥ 日夜两套配色只切 `theme` 表的指向。
+
+```lua
+-- ① 三种触控语义：pre 是上一帧的 press（必须在 onTick 末尾更新）
+function touch(x,y,w,h) return t.x>=x and t.y>=y and t.x<x+w and t.y<y+h end
+function onTouch(x,y,w,h)   return touch(x,y,w,h) and press end
+function onRelease(x,y,w,h) return touch(x,y,w,h) and pre and not press end
+function onPress(x,y,w,h)   return touch(x,y,w,h) and press and not pre end
+```
+
+```lua
+-- ② 三根竖条：o 是响应式左边界（屏再窄也留 29 px 给左侧开关）
+o  = math.max(d.w/2-14, 29)
+tA = onTouch(o,    24, 7, 33)
+tB = onTouch(o+11, 24, 7, 33)
+tC = onTouch(o+22, 24, 7, 33)
+u  = tA or tB or tC
+if u     then slide = mode and rgb2hsv(unpack(col)) or col end
+if tA    then slide.a = (56 - t.y)/32 end   -- 🔑 y 从 56 到 24 线性映射到 0~1
+if tB    then slide.b = (56 - t.y)/32 end
+if tC    then slide.c = (56 - t.y)/32 end
+if u     then col     = mode and hsv2rgb(unpack(slide)) or slide end
+```
+
+```lua
+-- ③ 手动 / UI 双输入源：gB(4) 为真时完全忽略屏上选色，直接转发外部输入
+if gB(4) then
+  mcol = gB(5) and hsv2rgb(gN(7), gN(8), gN(9)) or {a=gN(7), b=gN(8), c=gN(9)}
+  sN(1, mcol.a)  sN(2, mcol.b)  sN(3, mcol.c)
+else
+  sN(1, light and col.a or 0)   -- 🔑 关灯直接输出 0，下游不必再判一次
+  sN(2, light and col.b or 0)
+  sN(3, light and col.c or 0)
+end
+pre = gB(1)                     -- 必须在 onTick 末尾
+```
+
+```lua
+-- ④ 渐变预览条：先算两端差值的每像素步长，再边推进边画 1×1 实心块
+function dGHSV(x, y, l, c1, c2)
+  dA, dB, dC = (c2.a-c1.a)/(l-1), (c2.b-c1.b)/(l-1), (c2.c-c1.c)/(l-1)
+  for i = 0, l-1 do
+    setC2(hsv2rgb(unpack(c1)))
+    c1.a, c1.b, c1.c = c1.a+dA, c1.b+dB, c1.c+dC
+    dRF(x+i, y, 1, 1)
+  end
+end
+```
+
+- ⚠ **`unpack` 只解包连续整数键部分**（标准 Lua 行为）：这里的 `col` / `slide` 用的是 `a/b/c` **命名键**，`unpack(col)` 在标准实现下返回**空**，`hsv2rgb()` 会收到三个 `nil`。游戏内若与标准一致，HSV 这一支会失效。**稳妥写法是显式传 `col.a, col.b, col.c`**（多 8 个字符换确定性），或干脆把通道存成 `col[1..3]` 数组。
+- ⚠ `dGHSV` **会原地修改传入的 `c1`**（三条 `c1.a = c1.a + dA`）。调用前若还要用原值，先拷一份。
+- 🔑 **竖条比横条好写**：映射就是一行 `(56 - t.y)/32`；横条还要处理宽度与左右方向。
+- 🔑 **`theme` 表换配色**：日间 / 夜间只切换 `theme` 指向，绘制函数一律取 `theme.fg` / `theme.bg`，不必在每个绘制点写三元判断。
+- ⚠ **触控时序**：`onPress` / `onRelease` 依赖 `pre`，`pre = gB(1)` 必须在 `onTick` **末尾**赋值；写在开头会让 `pre == press` 恒成立，两个语义永远为假（`05` §45 记过同款）。
+- 关联：`05` §45（脚本侧手写渐变调色板）/ `05` §31（单击 / 双击 / 长按的手势仲裁）/ `05` §46（响应式布局）/ `00_速查 §16`（screen API）
+
+
+## §48 触控**区间双游标**（首 / 末车厢）+ 按钮可用性由状态派生 + 门锁互锁
+
+来源：steam id **3792089119** · <https://steamcommunity.com/sharedfiles/filedetails/?id=3792089119> · **载具**（DB BR 622 I 620 A）· 更新时间 **2026-08-29**
+
+与 §47 同一辆车，但这是一块**纯状态 UI**：选「从第 N 节到第 M 节车厢开门」。这类「选一段连续区间」的控件在编组、编队、货架、灯带分组里都能复用。
+
+**用到**：触控屏、数字输入（车厢总数）、布尔输入（外部开关）、数字输出（首 / 末序号）、布尔输出（开左门 / 开右门 / 开门）
+
+**亮点**：① `first` / `last` 双游标，四个方向键各自带前置条件；② 车厢总数变化时**自动重置区间**；③ 箭头可不可用由状态**派生**（`sL1`…），并 `or pL1` 保持按下当帧高亮；④ 门锁互锁 `door = door and (left or right)`；⑤ 三角箭头用 `drawTriangleF` 三个顶点手算，不用图片。
+
+```lua
+-- ① 总数变化时把区间拉回全选；pNumWagons 是上一帧的总数
+if numWagons ~= pNumWagons then
+  first = 1
+  last  = numWagons
+end
+pNumWagons = numWagons
+```
+
+```lua
+-- ② 四个方向键：按下条件与移动条件分开写，越界时按了也不动
+if onPress(d.w/2-28, 36, 7, 9) and first > 1        then first = first - 1 end
+if onPress(d.w/2-12, 36, 7, 9) and first < last     then first = first + 1 end
+if onPress(d.w/2+5,  36, 7, 9) and last  > first    then last  = last  - 1 end
+if onPress(d.w/2+21, 36, 7, 9) and last  < numWagons then last = last  + 1 end
+```
+
+```lua
+-- ③ 可用性由状态派生：or pL1 让「刚按下那一帧」仍保持高亮，避免箭头闪一下
+sL1 = first > 1         or pL1
+sR1 = first < last      or pR1
+sL2 = last  > first     or pL2
+sR2 = last  < numWagons or pR2
+-- 门锁互锁：左右两侧都没勾，门状态强制关
+door  = door and (left or right)
+sDoor = left or right
+```
+
+```lua
+-- ④ 三角箭头：三个顶点手算，size 约 3×6 px
+function dTL(x, y, s)
+  setC(s and (onTouch(x-2, y-2, 7, 9) and theme.acc or theme.fg) or theme.bg)
+  dTF(x+2, y, x, y+3, x+3, y+6)
+end
+```
+
+- 🔴 **反面教材：钳位函数返回值被丢弃**。原脚本写 `clamp(last,1,numWagons)` 和 `clamp(first,1,last)`——而这个 `clamp` 是自己定义的**纯函数**（`return math.min(math.max(v,x),y)`），没有副作用，**这两行等于什么都没做**。必须写成 `last = clamp(last, 1, numWagons)`。这类「写了但没赋值」的调用在 MC Lua 里极易漏看，因为不会报错。
+- 🔑 **`or pLx` 的用意**：按下那一帧游标已经移动，`sL1` 的条件可能立刻变假，箭头会在按下瞬间闪灭。把上一帧的可用性 `or` 回来就稳了；`pL1` 在 `onDraw` 末尾更新（`pL1 = sL1 and onTouch(...)`）。
+- ⚠ 本作品的 `first` / `last` **没有真正钳位**（见上），若 `numWagons` 在运行中变小，`last` 会大于总数、输出越界序号。修好 `clamp` 赋值即可。
+- 🔑 **互锁放 `onTick` 而不是 `onDraw`**：`door` 是要输出的量，状态收敛必须在逻辑帧完成；绘制帧只负责把 `door` 画出来。
+- 关联：`05` §29（数据驱动按钮表）/ `05` §31（手势仲裁）/ `02` §10（同为状态收敛的时机问题）
+
+
+## §49 **表驱动的多通道触控微调器**：几何 + 配色 + 行为全塞一张表 + 按住连发
+
+来源：steam id **2383435975** · <https://steamcommunity.com/sharedfiles/filedetails/?id=2383435975> · **载具**（ABSOLUTION）· 更新时间 **2026-08-15**
+
+`05` §29 的按钮表是「几何表 + 回调闭包」，适合动作各异的按钮。这一节是**动作高度同质**的场景（N 个通道，每个都要 `+` / `-` / 复位）：把几何、未按下色、按下色、显示文本、**通道号**全压进一张扁平表，一个循环搞定绘制与响应，加一个通道只加一行。
+
+**用到**：触控屏、属性数字（初值 Value 1/2、步长、下限、上限、是否显示小数）、数字输出（各通道当前值）
+
+**亮点**：① 按钮表每行 12 列，第 11 列是动作符号、第 12 列是**通道索引**；② 按住即每 tick 增减一次 → 天然的「按住连发」，不需要冷却窗口；③ `R` 键复位到**属性里的初始值**；④ 数值正负自动换色；⑤ 绘制与命中判定共用同一份表，不会画在哪、点在哪对不上。
+
+```lua
+-- ① 按钮表：x,y,w,h, 未按下 rgb, 按下 rgb, 文本, 通道号
+buttons = {
+  {0, 0,  15,10, 255,255,255, 0,255,0, "+", 1},
+  {17,0,  15,10, 255,255,255, 0,255,0, "+", 2},
+  {0, 23, 15,10, 255,255,255, 255,0,0, "-", 1},
+  {17,23, 15,10, 255,255,255, 255,0,0, "-", 2},
+  {0, 12, 15,9,  16,16,16,   0,0,255,  "R", 1},
+  {17,12, 15,9,  16,16,16,   0,0,255,  "R", 2}
+}
+values    = {property.getNumber("Value 1"), property.getNumber("Value 2")}
+increment = property.getNumber("Increment Value")
+min, max  = property.getNumber("Minimum Value"), property.getNumber("Maximum Value")
+```
+
+```lua
+-- ② 按住连发：clicking 为真时每 tick 都走一遍，无需冷却计数
+function updateOutputs()
+  if clicking then
+    for i = 1, #buttons do
+      local b = buttons[i]
+      if isMouseInRectangle(b[1], b[2], b[3], b[4]) then
+        local v = b[12]                       -- 🔑 第 12 列即通道索引
+        if     b[11] == "+" and values[v] + increment < max then values[v] = values[v] + increment
+        elseif b[11] == "-" and values[v] - increment > min then values[v] = values[v] - increment
+        elseif b[11] == "R" then values[v] = property.getNumber("Value "..v) end
+      end
+    end
+  end
+  output.setNumber(1, values[1])  output.setNumber(2, values[2])
+end
+```
+
+```lua
+-- ③ 数值显示：正负换色 + 属性控制小数位，取绝对值后再格式化
+function drawParam(x, y, number)
+  if number >= 0 then white() else red() end
+  if showDec then screen.drawText(x, y, string.format("%1.1f", math.abs(number)))
+  else            screen.drawText(x, y, string.format("%2f",   math.abs(number))) end
+end
+```
+
+- ⚠ **反面教材：`%2f` 不是「两位小数」**。`%2f` 的意思是「**字段宽度 2、小数位数取默认 6**」，会打出 `0.500000`（8 个字符，几乎必然溢出 15 px 的按钮）。要两位小数应写 `%.2f`，要一位写 `%.1f`（原文上一分支的 `%1.1f` 才是想要的效果）。
+- 🔑 **按住连发的两种做法**：这里是「按住 → 每 tick 改一次」，实现最短但速度固定为 60 次/秒，步长必须很小；`05` §45 的「双窗口冷却」是可控速度的连发。**通道值范围大就选后者**。
+- ⚠ **函数定义在 `onTick` 内部**：本例的 `drawButton` / `isMouseInRectangle` 等都写在 `onTick` 里，每 tick 会重新创建一批闭包。省字符数（不必在两帧间传参，直接闭合 `mouseX` / `mouseY`），但对 60 Hz 循环有轻微开销——**短脚本值得，长 HUD 别这么写**。
+- 🔑 **`R` 复位读属性而非硬编码**：初始值只写在属性面板里，脚本不含默认值，改配置不用改代码。
+- ⚠ 命中使用 `x > rectX and x < rectX+rectW`（开区间），**边界那一像素不响应**；触摸精度够用时无所谓，但相邻按钮之间必须留 ≥1 px 间隙，否则缝隙里两个都不触发。
+- 关联：`05` §29（动作各异的按钮表 + 每键冷却）/ `05` §45（双窗口连发）/ `05` §46（响应式布局）
+
+## §50 3×5 字模的**单整数编码**：一个 15 bit 数装下整个字符 + `i%3` / `i//3` 解行列
+
+- 来源：steam id **3792858949**
+- 描述页：<https://steamcommunity.com/sharedfiles/filedetails/?id=3792858949>
+- 类型：载具（GSP Syntia F Compact Cargo Airplane）· 更新时间：**2026-08-30**
+
+小字号是 MC Lua 的刚需（`drawText` 最小字号仍偏大、且不能改字体）。`05` §42 给的是**行段压缩表**（扁平数组 + 步长 3，适合图标）；这一节是**字符**场景更省的写法：**每个字符压成一个 15 bit 整数**（3 列 × 5 行 = 15 个像素位），解码只要一次 `for` 加一行位运算。
+
+**用到**：屏幕、数字输入（空速 / 高度 / 升降率 / 无线电高度）、属性（可选：告警色）
+
+**亮点**：① 整表只有一行十六进制常量，63 个字符占约 380 字符；② 解码用 `i%3` / `i//3` 从线性下标还原行列，不用嵌套循环；③ `string.byte(string.upper(c)) - 32` 直接把 ASCII 映射到表下标，`c > 64` 再 `-26` 把小写折回大写区；④ `DOT` 用 `drawLine(x,y,x,y+1)` 画点——**`drawRectF(x,y,1,1)` 也能画，但 `drawLine` 两参数少一个字符**。
+
+```lua
+-- ① 字模表：3 列 × 5 行 = 15 bit，每字符一个十六进制整数（0~9、A~Z、符号）
+font35 = {
+  0x2482,0x5A00,0x5F7D,0x7CFA,0x52A5,0x2AAB,0x4800,0x1491,0x4494,0x5540,0x5D0,0x14,0x1C0,0x2,0x1494,
+  0x7B6F,0x2C97,0x73E7,0x73CF,0x5BC9,0x79CF,0x79EF,0x7249,0x7BEF,0x7BCF,          -- A~J
+  0x410,0x414,0x1511,0xE38,0x4454,0x6282,0xF67,                                      -- K~Q
+  0x2BED,0x6BAE,0x3923,0x6B6E,0x79A7,0x79A4,0x792F,0x5BED,0x7497,0x726F,0x5BAD,0x4927,0x5F6D,
+  0x7B6D,0x2B6A,0x6BA4,0x2B59,0x6BAD,0x388E,0x7492,0x5B6F,0x5B52,0x5B7D,0x5AAD,0x5A92,0x72A7}
+```
+
+```lua
+-- ② 解码：i 从 0 到 14，高位在前（左上一列一列往下扫）
+function DOT(x, y) DL(x, y, x, y+1) end            -- 比 drawRectF(x,y,1,1) 少一个字符
+function dChar(x, y, char)
+  local c = string.byte(string.upper(char)) - 32   -- 空格(0x20) → 0
+  if c > 64 then c = c - 26 end                    -- 小写折回大写区
+  if c > 0 and c < 59 then
+    for i = 0, 14 do
+      if font35[c] & (1 << (14-i)) > 0 then
+        DOT(x + i%3, y + i//3)                     -- 🔑 一列一列：i%3 是列，i//3 是行
+      end
+    end
+  end
+end
+function DST(x, y, str)                            -- 画整串，字符间距 4 px
+  for i = 0, string.len(str)-1 do dChar(x + 4*i, y, string.sub(str, i+1, i+1)) end
+end
+```
+
+- 🔑 **为什么是 15 bit 而不是 16**：3×5 正好 15 位，最高位恒为 0，所以每个常量都能写成 4 位十六进制。`1 << (14-i)` 从高位往低位取，对应「先左上角、逐列向下」。
+- ⚠ **符号数量上限**：这里上限是 `#font35`（63），`font35[c]` 越界返回 `nil`，`nil & x` 会**直接报错**。务必保留 `c > 0 and c < 59` 这类边界判断——`05` §42 的表没有这个保护，靠调用方保证。
+- ⚠ **`string.upper` 每次调用都建新字符串**：画长文本时开销可测。**常量文本（"SPD" / "R" 之类）直接在源码里写大写**，省掉 `upper`；只有运行期拼出来的串才需要它。
+- 🔑 **这一套与 `05` §42 的分工**：§42 的「行段压缩表」适合**图标**（稀疏、形状不规则，按行存段更省）；这一套适合**字符集**（尺寸统一，位运算展开最快）。同一个项目里两者并存很常见。
+- 关联：`05` §42（图标的行段压缩表）/ `01` §5 / `03` §18（另外两种 ROM 字体编码）/ `00_速查 §16`（screen API）
