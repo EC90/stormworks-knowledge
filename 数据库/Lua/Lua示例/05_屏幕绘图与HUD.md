@@ -4123,3 +4123,96 @@ end
 - 关联：`05` §45（手写渐变调色板的阈值表方案）/ `05` §6.2（HSL 自动对比色）/
   `09` §29（1×1 屏白框与分段仪表）/ `08` §22（同一形状重复用循环）/ `00_速查 §16`（screen API）
 - 完整脚本：`../../../AI相关/_提取暂存/_b3/3793254347_vehicle_0.lua`
+
+
+## §60 触控按钮的**按下后延时显示** + 命中即广播 + 3 位十六进制紧凑字模
+
+- 来源：steam id 3794064264 · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=3794064264> · 载具（`_vehicle_14` 一块 64×32 小屏的按钮条）
+- 更新时间：未取到（Steam Web API 未返回该作品元数据）
+- 用到：触控屏（数值 3/4 = 触点，布尔 1 = 按下）、布尔 10/11（外部使能 / 告警）、数值 9（待显示读数）、属性配色
+- 亮点：把「按一下闪一下的临时读数」做成**一个倒计时变量**（`numberDisplayTicks`），比「按下时显示、松手就消失」好用得多；另附一小段只用**一个超长十六进制串**当字库的自绘字体。
+
+```lua
+S = screen
+SC, DC, DRF, DR, DL, DTX = S.setColor, S.drawCircle, S.drawRectF, S.drawRect, S.drawLine, S.drawText
+
+local numberDisplayTicks = 0      -- 读数还剩多少 tick 要显示
+local numberMaxTicks = 100        -- 一次按下点亮多久（100 tick ≈ 1.7 s）
+
+function onTick()
+  b1 = input.getBool(10)          -- 外部使能，例如「系统就绪」
+  b2 = input.getBool(11)          -- 外部告警
+  in7 = input.getNumber(9)
+  inputX, inputY = input.getNumber(3), input.getNumber(4)
+  isPressed = input.getBool(1)
+
+  -- ① 复合命中：把「外部使能」直接并进命中表达式，省一层嵌套
+  T1 = isPressed and isPointInRectangle(inputX, inputY, 2, 25.5, 5, 5)
+  T2 = isPressed and isPointInRectangle(inputX, inputY, 57, 26.5, 5, 5)
+  T3 = isPressed and isPointInRectangle(inputX, inputY, 51, 26.5, 5, 5)
+  T4 = isPressed and b1 and isPointInRectangle(inputX, inputY, 44, 26.5, 5, 5)
+  T5 = isPressed and isPointInRectangle(inputX, inputY, 35, 26.5, 7, 5)
+
+  -- ② 命中即广播：按下高亮与对外输出共用同一个布尔，不会不同步
+  output.setBool(2, T1)
+  output.setBool(3, T2 and b1)
+  output.setBool(4, T3 and b1)
+  output.setBool(5, T4 and b1)
+  output.setBool(6, T5 and b1)
+
+  if T4 then numberDisplayTicks = numberMaxTicks end   -- ③ 开一个显示窗口
+  if numberDisplayTicks > 0 then numberDisplayTicks = numberDisplayTicks - 1 end
+end
+
+function isPointInRectangle(x, y, rectX, rectY, rectW, rectH)
+  return x > rectX and y > rectY and x < rectX + rectW and y < rectY + rectH
+end
+```
+
+```lua
+function onDraw()
+  -- ④ 按下态：在原位叠一层半透明深色（不是换色，是加一层）
+  if T2 and b1 then SC(2,2,2,55) DRF(57, 26.5, 5, 5) end
+  if T3 and b1 then SC(2,2,2,55) DRF(51, 26.5, 5, 5) end
+  if T1       then SC(2,2,2,55) DRF(1, 24.5, 7, 7) end
+  if T4 and b1 then SC(2,2,2,255) DRF(44, 26.5, 5, 5) end
+
+  -- ⑤ 松手后读数还留 100 tick：先夹到 0..4 再取整
+  if numberDisplayTicks > 0 then
+    SC(17,17,17)
+    DTX(37, 5, tostring(math.floor(math.min(math.max(in7, 0), 4))))
+  end
+
+  if b2 then                                   -- 外部告警：红底 + 细边框
+    SC(255,2,2,25) DRF(35, 26.5, 7, 5)
+    SC(255,2,2,19) DR(35, 26, 6, 4)
+  end
+end
+
+-- ⑥ 3x4 像素字模：整张字库压成一个十六进制长串，byte*3-95 直接定位
+function txt(x, y, t)
+  t = tostring(t)
+  for i = 1, t:len() do
+    local c = t:sub(i,i):upper():byte()*3 - 95
+    if c > 193 then c = c - 78 end             -- 把小写 / 符号区折回大写区
+    c = "0x" .. string.sub("0000D0808F6F5FAB6D5B7080690096525272120222010168F9F5F1BBD9DBE2FDDBFBB8BCFBFEAF0A01A025055505289C69D7A7FB6699F96FB9FA869BF2F9F921EF69F11FCFF8F696FA4F9EFA55BB8F8F1FE1EF3FD2DC3CBFDF9086109F4841118406F90F09F6642", c, c+2)
+    for j = 0, 11 do                           -- 12 bit = 3 列 x 4 行
+      if c & (1 << (11 - j)) > 0 then
+        local b = x + j//4 + i*4 - 4
+        DL(b, y + j%4, b, y + j%4)             -- 单像素线段当点用
+      end
+    end
+  end
+end
+```
+
+- 🔑 **按下后延时显示**：`numberDisplayTicks` 是一个纯倒计时——按下时置 `numberMaxTicks`，此后每 tick 递减，`onDraw` 里 `> 0` 就画。相比「按下即显、松手即隐」，它让手指松开后读数还留约 1.7 s，适合小屏上「按一下查一下」的交互。与 `05` §35 的开机自检动画是同一个「一个计数驱动多个视觉」的思路，本例是它的最小形态。
+- 🔑 **复合命中**：`T4 = isPressed and b1 and isPointInRectangle(...)` 把外部使能直接并进命中表达式，比「先判区域再 `if 使能`」少一层嵌套、少一个变量。
+- 🔑 **命中即广播**：`output.setBool(2, T1)` 让「按下高亮」和「对外输出」**共用同一个布尔**——不会出现「屏上亮了但没输出」或反之（同 `05` §39）。
+- ⚠ **按下态的高亮矩形与命中区不是同一个矩形**：命中区 `(2, 25.5, 5, 5)`，高亮却是 `DRF(1, 24.5, 7, 7)`——高亮向外扩了 1 px 做视觉反馈。改命中区时若不同步改高亮，会出现「点了没反应」或「没点却亮」。
+- 🔑 **读数先夹后取整**：`math.floor(math.min(math.max(in7, 0), 4))` 一行完成「限幅 + 取整」，比 `if` 链省字符，也杜绝了显示 `-1` 或 `7.3`。
+- 🔑 **3 位十六进制紧凑字模**：把整张字库压成**一个超长十六进制串**，用 `byte*3 - 95` 直接算出字符的起始下标，再 `string.sub(FONT, c, c+2)` 取 3 位（12 bit = 3×4 像素）。相比「一张 `{0x123, 0x456, ...}` 数表」，省掉所有逗号与花括号，是**字符预算最紧时的方案**（对照 `05` §50 的 15 bit 单整数编码、`03` §18 的 16 进制 ROM 字体）。
+- 🔑 **`if c > 193 then c = c - 78 end` 把小写 / 符号折回大写区**：一张表同时覆盖大小写，代价只是几个区段的字形复用。
+- ⚠ 上面的 `c` 先被赋成 `"0x..." ` 字符串、紧接着又参与 `&` 位运算，靠的是 Lua 对十六进制字符串的隐式数值转换。能跑，但改写时建议显式写 `tonumber(c, 16)`，避免换解释器后行为不一致。
+- ⚠ 单像素用 `drawLine(x, y, x, y)` 画——`screen` 没有 `drawPixel`，这是标准绕法（`03` §26 也用 `drawText(".")` 当像素，两者按场景选）。
+- 关联：`05` §50（3×5 字模单整数编码）、`03` §18（16 进制 ROM 字体）、`01` §5（字模基础）、`05` §35（一个计数驱动多个视觉）、`05` §39（命中区即广播）
