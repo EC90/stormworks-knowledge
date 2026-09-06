@@ -4367,3 +4367,105 @@ end
 - ⚠ **反面教材（原脚本）**：开头写成 `if not w and w > 0 then return end` 想判「屏没接上就返回」。
   这个条件是**恒假**：屏接上时 `not w` 为 false，直接短路跳过；屏没接上时 `w` 是 nil，`w > 0` 会**当场报错**。
   正确写法是 `if not w or w <= 0 then return end`（`or` + 反过来判）。
+
+
+---
+
+## §63 浮动标签的**出屏夹取** + 半透明底衬 + **空值占位**（战术地图 HUD）
+
+- 来源：steam id 3796074511 · <https://steamcommunity.com/sharedfiles/filedetails/?id=3796074511> · **载具**（战术地图 / 雷达接触叠加）
+- 更新时间：未取到（Steam Web API 对本批新 id 不返回元数据）
+- 用到：触控屏、`map.screenToMap` / `map.mapToScreen`、雷达 8 槽（距离/方位/仰角）、罗盘（圈）
+- 亮点：HUD 上「跟着光标/目标跑的文字」最容易在屏幕边缘跑丢。本例用**固定框宽的双向夹取**一行解决，
+  并用**占位串 + 调暗**让「没有数据」和「数据为零」一眼可分。
+
+```lua
+-- ① 出屏夹取：先算理想位置，再对两个方向各夹一次
+lx = math.max(1, math.min(w-37, mx+8))     -- 37 = 标签框宽 + 余量（不含文字实测宽度）
+ly = math.max(1, math.min(h-8,  my-3))
+screen.setColor(0,0,0,210)                 -- ② 半透明底衬，任何底色上都可读
+screen.drawRectF(lx-1, ly-1, 38, 9)
+screen.setColor(255,190,40)
+screen.drawText(lx, ly, st)
+
+-- ③ 单位自适应：与 06 §14 同口径
+if sd >= 1000 then st = string.format("%.1fkm", sd/1000)
+else              st = string.format("%.0fm",  sd) end
+
+-- ④ 空值占位：无数据时照样输出一行，只是换成暗色 + 破折号
+if sel then screen.setColor(255,190,40); screen.drawText(3,21, string.format("TGT %.1fkm", sd/1000))
+else        screen.setColor(100,115,115); screen.drawText(3,21, "TGT --") end
+
+if rv then screen.setColor(255,70,70); screen.drawText(3,30, string.format("AIR %.1fkm %+.0fm", rr/1000, rh))
+else       screen.setColor(100,115,115); screen.drawText(3,30, "AIR NO TRACK") end
+```
+
+**要点**
+
+- 🔑 **夹取用「屏宽 − 框宽」而不是「屏宽 − 字宽」**。`string.format("%.1fkm")` 的位数会随数值变（`"0.8km"` 4 字符、`"12.3km"` 6 字符），
+  按内容实测宽度就要每帧多算一次；直接按**最坏情况**留固定 37 / 50 px，省字符且**永不越界**。
+  代价是短文本右边留白略多——小屏 HUD 上完全可接受。
+- **底衬 alpha 取 210~220 而不是 255**：既压住地图/海图的杂色，又保留底下地形轮廓，不显得是块补丁。
+- 🔑 **空值占位 ≠ 空字符串**。`"TGT --"` / `"AIR NO TRACK"` 保证**行数和行高不变**，布局不跳；
+  同时把颜色调暗（`setColor(100,115,115)`）——读者一眼分清「还没选定」和「数值真的是 0」。
+  与 `05` §62 的 ghost 数字互补：**ghost 处理位数变化，本例处理有无数据**，两者可以叠加。
+- **一次性 nan 门控**：`rv = lock and rr==rr and ra==ra and re==re and rr>10 and rr<100000`——
+  `x == x` 为假即 nan（见 `04` §12），一次判完三路再统一决定「这个接触要不要画」。
+  不这么做，`mapToScreen` 会拿到 nan 坐标，整块屏幕可能什么都不画。
+
+**关联**：`05` §62（ghost 占位数字）/ `06` §14（点屏设航路点，同一个 `screenToMap`）/ `04` §12（NaN 三件套）/ `03` §20（雷达接触叠到地图）
+
+
+---
+
+## §64 手绘**折线红区** + `%0Nd` 定宽读数 + 阈值变色（紧凑车用仪表）
+
+- 来源：steam id 3796005618 · <https://steamcommunity.com/sharedfiles/filedetails/?id=3796005618> · **载具**（摩托车仪表，2×1 屏）
+- 更新时间：未取到（Steam Web API 对本批新 id 不返回元数据）
+- 用到：RPS / 速度 / 挡位 / 温度四路数值输入、`screen.drawLine` 手绘指针与刻度、阈值变色
+- 亮点：2×1 屏上没有空间放告警灯和装饰。本例**用一串 `drawLine` 手描出任意形状的红区**，
+  用 `%02.0f` / `%03.0f` 的定宽格式让读数永不跳位，用**整块读数换色**代替告警图标。
+
+```lua
+m = 180                                     -- 主色亮度，一处改全局跟着变
+function onDraw()
+  -- ① 模拟指针：读数归一化到 [-2π/3, +2π/3]，再减 π/2 让 0 指向正上方
+  minA, maxA = -math.pi*2/3, math.pi*2/3
+  a = minA + math.min(math.max(RPS/15,0),1)*(maxA-minA) - math.pi/2
+  screen.drawLine(13,13, 13+math.cos(a)*10, 13+math.sin(a)*10)
+
+  -- ② 定宽读数：位数变化也不跳位
+  screen.drawText(9, 6, string.format("%02.0f", RPS))     -- 补前导零
+  screen.drawText(45,6, string.format("%03.0f", S))       -- 车速最多 3 位
+
+  -- ③ 手绘红区：没有 drawArc，就用一串 drawLine 描出任意形状的危险段
+  screen.setColor(153,0,0)
+  screen.drawLine(22,19,22,20) screen.drawLine(23,17,23,19) screen.drawLine(24,14,24,17)
+  screen.drawLine(25,13,25,14) screen.drawLine(24,12,24,13)
+
+  -- ④ 阈值变色：越限整块读数换色，不另画告警框
+  if RPS >= 12.5 then screen.setColor(153,0,0) else screen.setColor(m,m,m) end
+  screen.drawText(9,6, string.format("%02.0f", RPS))
+
+  if RPS <= 6 then screen.setColor(m,m,m) else screen.setColor(16,16,16) end
+  screen.drawText(1,27,"IDLE")              -- ⑤ 状态字用「变暗」表达未激活
+end
+```
+
+**要点**
+
+- 🔑 **手绘红区 = 把表盘刻度当设计图纸抄**。每条 `drawLine` 一段折线，顶点直接从刻度上量。
+  比 `drawArc` / 三角扇省 API、省字符，在 1×1 / 2×1 小屏上尤其划算；缺点是**改刻度要手改顶点**。
+  对照 `09` §29 的「径向叠线造弧厚」：那个适合**规则圆弧**，本例适合**不规则形状**（转速红线常常一头宽一头窄）。
+- 🔑 **`%02.0f` / `%03.0f` 是零成本的防跳位**：与 `05` §62 的 ghost（暗底先画满位）目的一样，
+  但这里靠格式串实现，一个字符不多花。⚠ 前导零会占视觉宽度（`"07"` 而不是 `" 7"`）；
+  想保留空白就写 `%2.0f` / `%3.0f`（空格补位），效果更接近 ghost，按审美选。
+- **阈值变色用整块读数而不是加图标**：小屏没有地方放告警灯，换色是**最省面积**的表达方式。
+  注意比较用**工程值**（`RPS >= 12.5`）而不是归一化后的比例，改量程时阈值含义不变。
+- **状态字用「变暗」表达未激活**（`IDLE` 在怠速以上变暗）：既不占新位置，又传达了状态。
+- ⚠ 本例把读数的 `drawText` 写了两遍（一次定宽、一次变色后重写）——**同一帧重复绘制同一位置**是可行的
+  （后画的覆盖先画的），但要注意**先写底色块再写文字**，否则会盖掉文字。
+
+**与既有章节的分工**：`04` §10 讲「归一化放 onTick、三角扇画弧」的**通用表盘骨架**；
+`09` §4 讲**模拟指针仪表**的整盘布局。本例只取三处**小屏细节**（手绘红区 / 定宽读数 / 阈值变色），
+是那两节在 2×1 屏上的落地补丁。

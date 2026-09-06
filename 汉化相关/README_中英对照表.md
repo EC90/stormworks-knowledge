@@ -3,7 +3,7 @@
 由创意工坊简体中文汉化补丁（[BKN46/stormworks-translate-chn](https://github.com/BKN46/stormworks-translate-chn)）自动生成，
 供**人和 AI** 在做 Stormworks 内容的中英互译时作为**唯一术语基准**。
 
-- 生成时间：2026-09-03 00:47:07
+- 生成时间：2026-09-06 17:56:30
 - 数据源：`<SW_LANG_TSV>` = `<SW_WORKSHOP>\<工坊物品ID>\language.tsv`
   （**盘符与工坊物品 ID 都不固定**，由 `脚本/sw_locate.py` 按文件名搜索解析。
   本次实际读取：`E:\SteamLibrary\steamapps\workshop\content\573090\2019972792\language.tsv`；当前机器的解析结果见 `工作区导航\路径配置.json`）
