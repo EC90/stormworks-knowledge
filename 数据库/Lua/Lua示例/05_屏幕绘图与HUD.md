@@ -4595,3 +4595,54 @@ else               X(48,147,"SEAGULLS STEAL EMERGENCY SIREN") end
   真正需要共享的量请走 property 或复合输入，不要指望块之间能互相读变量。
 
 **关联**：`01` §2/§14（字数压缩）/ `05` §42（位图行段压缩表）/ `05` §65（竖屏适配）/ `01` §11（微控内多脚本协同）/ `00_速查` §15（多人不同步）
+
+## §67 按钮表的**有向互斥**：`tofalse` / `ifnot` 两张关系表 + **外部状态强制同步**
+
+- 来源：steam id **3796902721** · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=3796902721> · **载具**（号灯 / 航行灯控制面板，64×32 屏）
+- 更新时间：未取到（Steam Web API 连续多轮不返回新上架作品元数据，下轮 `fetch_meta.py` 补）
+- 用到：触控屏（2×1）、8 路布尔输出（ANC / NUC / NAV / RAM / TUG / TOW / SOS / AUTO）、属性 `Automatic`
+- 亮点：`05` §29 的按钮表用 `grp` 做**分组内互斥**，那是无向的（同组互清）。这里的关系是**有向**的——「点亮我时该关掉谁」和「谁亮着就不许点亮我」是两件不同的事，用两张关系表表达才够。
+- 区别于 `05` §29（绘制 + 回调双闭包、每键冷却）：本节的表更薄（无闭包），代价是画法固定，换来的是**关系可读**。
+
+```lua
+B={
+ {x=30,y=h-24,title="ANC",toggle=false,tofalse={"NUC","NAV","RAM","TUG","TOW"},ifnot={"SOS"},auto=true},
+ {x=bm+bw+3,y=h-16,title="NAV",toggle=false,tofalse={"ANC"},ifnot={},auto=true},
+ {x=w,y=h,title="SOS",toggle=false,tofalse={"RAM","TUG","TOW","NUC","ANC"},ifnot={}},
+ {x=4,y=0,title="AUTO",toggle=property.getBool("Automatic")}
+}
+
+function press(i, v)
+    if v.ifnot then                     -- 前置条件：名单里任一已亮 → 拒绝点亮
+        for _,n in pairs(v.ifnot) do
+            for _,v2 in pairs(B) do if v2.toggle and v2.title==n then return end end
+        end
+    end
+    if v.tofalse then                   -- 有向互斥：清掉名单上的键（不对称！）
+        for k,v2 in pairs(B) do
+            for _,n in pairs(v.tofalse) do if v2.title==n then B[k].toggle=false end end
+        end
+    end
+    B[i].toggle = true
+end
+
+for i,v in pairs(B) do
+    -- 自动模式：外部输入与手动按钮共用同一条点亮路径
+    pass = v.auto and B[8].toggle and v.state ~= v.toggle
+    if (I.x>v.x and I.x<v.x+bw and I.y>v.y and I.y<v.y+bh) or pass then
+        if I.push or pass then press(i, v) end
+        pressing = I.press
+    else
+        pressing = false
+    end
+    B[i].push = pressing
+    output.setBool(i, v.toggle)
+end
+```
+
+- 🔑 **`tofalse` 是有向的**：SOS 亮起会清掉其它五个，但其它键的 `tofalse` 里没有 SOS——只有 `ifnot={"SOS"}` 能挡住它们。分组互斥（`grp`）表达不出这种单向压制。
+- 🔑 **用 `title` 字符串当外键**：键数 < 10 时，三层 `pairs` 扫描比维护一张 `title -> index` 映射更省字符；规模上去了再换索引表。
+- 🔑 **`pass` 让外部状态与手动按钮共用一条路径**：自动模式下 `v.state`（别的脚本算出的号灯状态）与本键状态不一致时直接触发点亮，按钮退化成「显示器」，不需要额外的同步分支。
+- ⚠ **命中区间的开闭要和画的一致**：本例 `I.x>v.x and I.x<v.x+bw` 是**半开**区间，`05` §25 用的是闭区间，两者都能用，但必须和 `drawRectF(v.x,v.y,bw,bh)` 的边界观感一致，否则最外圈 1 px 点不到。
+- 反面教材：原脚本 `conf=true; if conf then …` 是恒真嵌套，纯属冗余；按钮配色写成三层 `if/else` 嵌套，改成「状态 → 颜色」查表可省一半字符。
+- 关联：`05` §29（数据驱动按钮表）、`05` §20（`click` 闩锁做单次触发）
