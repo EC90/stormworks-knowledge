@@ -4216,3 +4216,154 @@ end
 - ⚠ 上面的 `c` 先被赋成 `"0x..." ` 字符串、紧接着又参与 `&` 位运算，靠的是 Lua 对十六进制字符串的隐式数值转换。能跑，但改写时建议显式写 `tonumber(c, 16)`，避免换解释器后行为不一致。
 - ⚠ 单像素用 `drawLine(x, y, x, y)` 画——`screen` 没有 `drawPixel`，这是标准绕法（`03` §26 也用 `drawText(".")` 当像素，两者按场景选）。
 - 关联：`05` §50（3×5 字模单整数编码）、`03` §18（16 进制 ROM 字体）、`01` §5（字模基础）、`05` §35（一个计数驱动多个视觉）、`05` §39（命中区即广播）
+
+## §61 折线图的「好看刻度」（1 / 2 / 5 × 10^k 档）+ **稀疏表**存采样点 + 峰值标记
+
+- 来源：steam id 3796142734 · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=3796142734> · 载具（`_vehicle_2` 动力单元测功机 DISPLAY 2）
+- 更新时间：未取到（Steam Web API 未返回该作品元数据）
+- 用到：复合通道（数值 3/4/5 = 采样序号 / X 值 / Y 值，布尔 3/4/5 = 写入 / 复位 / 完成）、一块 96×64 屏
+- 亮点：坐标轴上限不是「取最大值」而是**取一个好看的最大值**——步长只允许 1、2、5 × 10^k 三种，刻度线因此永远是整数；采样点用**两张平行稀疏表**按序号存放，允许中间空缺。
+
+```lua
+R, A = {}, {}          -- 两张平行表当稀疏数组：下标 = 采样序号，允许中间是 nil
+phase, ready = 0, false
+
+function onTick()
+  phase = input.getNumber(8)
+  if input.getBool(4) then R, A, ready = {}, {}, false end      -- 复位：整表重建
+  if input.getBool(3) then                                      -- 写入一拍
+    local i = math.floor(input.getNumber(3) + .5)               -- 序号是浮点，先落回整数
+    R[i], A[i] = input.getNumber(4), input.getNumber(5)
+  end
+  if input.getBool(5) then ready = true end                     -- 测量完成才画曲线
+end
+
+-- 🔑 返回 >= v 的「好看」上限，同时给出步长：步长只有 1/2/5×10^k 三档
+function niceMax(v, n)
+  if v <= 0 then return 1 end
+  local raw = v / n                       -- 期望步长 = 上限 / 期望分段数
+  local p = 10 ^ math.floor(math.log(raw, 10))
+  local q = raw / p                       -- 归一到 1..10
+  local s = q <= 1 and 1 or q <= 2 and 2 or q <= 5 and 5 or 10
+  local step = s * p
+  return math.ceil(v / step) * step, step -- 上限 = 步长的整数倍（向上取整）
+end
+
+-- 有效数字随量级走：窄屏上 100 以上不显示小数，1 以下保留两位
+function fmt(v)
+  if v >= 100 then return string.format("%.0f", v) end
+  if v >= 10  then return string.format("%.1f", v) end
+  return string.format("%.2f", v)
+end
+```
+
+```lua
+function onDraw()
+  local w, h = screen.getWidth(), screen.getHeight()
+  screen.setColor(0, 0, 0) screen.drawClear()
+
+  if not ready or #R < 2 then                     -- 没测完就只给状态文字
+    screen.drawTextBox(0, h/2 - 4, w, 8, phase == 1 and "MEASURING" or "READY", 0, 0)
+    return
+  end
+
+  local rmax, vmax, peak = 0, 0, 1
+  for i = 1, #R do
+    if R[i] and R[i] > rmax then rmax = R[i] end
+    if A[i] and A[i] > vmax then vmax, peak = A[i], i end   -- 峰值下标顺手记下来
+  end
+  if vmax <= 0 or rmax <= 0 then return end
+
+  local xmax, xstep = niceMax(rmax, 5)
+  local ymax, ystep = niceMax(vmax, 4)
+
+  local x0, x1, y0, y1 = 25, w - 3, h - 17, 11    -- 左边留 25 px 给 Y 标签，下面留 17 px 给 X
+  local gw, gh = x1 - x0, y0 - y1
+
+  for r = 0, xmax, xstep do                       -- ① 刻度循环直接用步长做增量
+    local x = x0 + r / xmax * gw
+    screen.drawLine(x, y0, x, y0 + 3)
+    local t = fmt(r)
+    screen.drawText(x - #t * 2.5, y0 + 5, t)      -- ② 按字宽手算居中（drawText 无对齐参数）
+  end
+
+  local px, py = nil, nil
+  for i = 1, #R do                                -- ③ 稀疏表必须逐段判空
+    if R[i] and A[i] then
+      local x = x0 + R[i] / xmax * gw
+      local y = y0 - A[i] / ymax * gh
+      if px then screen.drawLine(px, py, x, y) end
+      px, py = x, y
+    end
+  end
+
+  screen.setColor(255, 180, 80)
+  screen.drawCircleF(x0 + R[peak] / xmax * gw, y0 - A[peak] / ymax * gh, 2)
+end
+```
+
+- 关联：`05` §55（走纸式折线图：定长 FIFO + 分道叠放，讲的是**时间序列**，本节是**X-Y 散点**）、`04` §9.1（对数域缩放）
+- ⚠ **反面教材**：作者用 `#R` 当长度遍历一张**稀疏表**。Lua 里带空洞的表 `#` 是**未定义行为**，某个洞刚好落在末尾就会少画几段。这里因为序号连续所以够用；稳妥做法是另存一个 `n = n + 1` 的显式计数。
+
+---
+
+
+## §62 **半透明占位数字**（ghost）+ 手绘 ℃ 符号 + 按字宽手算右对齐 + 滑动窗口均值
+
+- 来源：steam id 3796154868 · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=3796154868> · 载具（`_vehicle_0` 恒温器小屏）
+- 更新时间：未取到（Steam Web API 未返回该作品元数据）
+- 用到：温度传感器（数值 7）、属性（默认温度、测量窗口秒数）、触控屏（数值 3/4 触点、布尔 1 按下）、布尔 7/8/9/10（外部升温 / 降温 / 开关 / 目标刷新）
+- 亮点：**先用 25/255 的半透明黑把「满位数字」画一遍再画真值**——既给 LCD 底纹感，又天然把字宽撑住，位数变化时文字不会左右跳；℃ 符号用 3 个 `.` 加一竖手绘。
+
+```lua
+function celcius(x, y)                  -- 手绘 ℃：三个点 + 一竖，比找字体省事
+  screen.drawText(x - 1, y - 4, ".")
+  screen.drawText(x,     y - 2, ".")
+  screen.drawText(x,     y,     ".")
+  screen.drawLine(x, y + 2, x, y + 5)
+end
+
+function presentTemp(t, x, y)
+  local T = math.floor(t * 10 + .5) / 10   -- 先量化到 0.1，避免 -0.0 这类显示抖动
+  local I = math.floor(math.abs(T))
+  local d = (math.abs(T) - I) * 10
+  if t < 0 then I = -I end
+  screen.drawText(x - 4 - (string.len(I) * 5), y, I)   -- 🔑 按位数右移 = 右对齐（字宽按 5 px 估）
+  screen.drawText(x - 5, y, ".")
+  screen.drawText(x - 2, y, string.format("%.0f", d))
+end
+
+function ghostNumbers(x, y)              -- 🔑 底纹：暗到几乎看不见，但把字宽撑住
+  screen.setColor(0, 0, 0, 25)
+  presentTemp(-88.8, x, y)               -- 满位样本：-88.8 是所有位数最宽的情况
+end
+```
+
+```lua
+function onTick()
+  t    = input.getNumber(7)
+  setT = input.getNumber(8)
+  bUP, bDOWN = input.getBool(7), input.getBool(8)
+  on, tUpdated = input.getBool(9), input.getBool(10)
+
+  if tUpdated then T = setT end                 -- 外部改目标值：直接覆盖本地
+  if bUP   and T <  50 then T = T + .5 end      -- 每 tick 半度，按住即连续调节
+  if bDOWN and T > -50 then T = T - .5 end
+
+  -- 滑动窗口均值：窗口长度 = 属性给的秒数 × 60 tick
+  table.insert(tHist, t)
+  if #tHist > tTime * 60 then table.remove(tHist, 1) end
+  averageT = 0
+  for i, v in ipairs(tHist) do averageT = averageT + v end
+  if #tHist > 0 then averageT = averageT / #tHist end
+
+  output.setNumber(1, averageT)
+  output.setNumber(2, T)
+  output.setBool(1, on and t < T)               -- 恒温：低于目标就加热
+end
+```
+
+- 关联：`05` §60（按下后延时显示的倒计时变量）、`09` §15（油耗的固定窗口累计求平均，同一手法用在油量上）
+- ⚠ **反面教材（原脚本）**：开头写成 `if not w and w > 0 then return end` 想判「屏没接上就返回」。
+  这个条件是**恒假**：屏接上时 `not w` 为 false，直接短路跳过；屏没接上时 `w` 是 nil，`w > 0` 会**当场报错**。
+  正确写法是 `if not w or w <= 0 then return end`（`or` + 反过来判）。
