@@ -4646,3 +4646,70 @@ end
 - ⚠ **命中区间的开闭要和画的一致**：本例 `I.x>v.x and I.x<v.x+bw` 是**半开**区间，`05` §25 用的是闭区间，两者都能用，但必须和 `drawRectF(v.x,v.y,bw,bh)` 的边界观感一致，否则最外圈 1 px 点不到。
 - 反面教材：原脚本 `conf=true; if conf then …` 是恒真嵌套，纯属冗余；按钮配色写成三层 `if/else` 嵌套，改成「状态 → 颜色」查表可省一半字符。
 - 关联：`05` §29（数据驱动按钮表）、`05` §20（`click` 闩锁做单次触发）
+
+## §68 极小屏（32 px）的排版三件套：**逐字母 `drawTextBox` 定位** + **定时轮播分页** + 11 格分段色条
+
+- 来源：steam id **3794994585** · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=3794994585> · **载具**（RFB-10，`_vehicle_9` 天气站屏）
+- 更新时间：2026-09-03
+- 用到：屏幕（32×32）、数值输入（温度 / 风速 / 风向 / 雨量 / 雾 / 罗盘）
+- 亮点：`05` §30 的滚轮分页是**触控驱动**的，这一节是**时间驱动**的——屏小到放不下全部读数时，让同一块区域轮着显示不同内容。
+
+```lua
+igN=input.getNumber
+ssC=screen.setColor
+dTB=screen.drawTextBox
+dL=screen.drawLine
+Timer = 0
+page = 1
+
+function onDraw()
+  ssC(0,0,0) screen.drawClear()
+
+  -- 🔑 一个字母一次 drawTextBox：32 px 宽放不下整词，手工排字距
+  ssC(200,200,200) screen.drawRectF(0,0,32,7)
+  ssC(0,0,0)
+  dTB(1,0,32,7,"We",-1,0)  dTB(10,0,32,7,"a",-1,0)
+  dTB(14,0,32,7,"t",-1,0)  dTB(18,0,32,7,"he",-1,0)  dTB(27,0,32,7,"r",-1,0)
+  dL(9,0,9,7) dL(26,0,26,7)          -- 两条竖线当字符分隔
+
+  dTB(1,7,32,7,"T",-1,0)
+  dTB(4,7,32,7,":",-1,0)
+  dTB(0,7,24,7,string.format("%.0f",Temperatur),1,0)   -- 对齐参数 1 = 右对齐，读数贴右边界
+  dTB(0,7,31,7,"C",1,0)
+
+  -- 🔑 轮播分页：同一块地方，4 秒风速 / 4 秒风向
+  if Timer < 4 then page = 1
+  elseif Timer < 8 then page = 2
+  else Timer = 0 end
+  if page == 1 then Anzeige(20,14,WindG/39)
+  elseif page == 2 then WindRichtung(Kompass,WindR) end
+  Timer = Timer + 1/60      -- ⚠ 写在 onDraw 里 = 假设 60 FPS
+end
+
+function Anzeige(x,y,Wert)          -- 11 格 × 1 px 的分段竖条
+  for i = 0, 10, 1 do
+    if Wert >= (i/11) then          -- 🔑 分母写 11：满量程时 11 格全亮
+      Farbe(i)                      -- 绿→黄→红 11 档手写查色
+      dL(x+i, y, x+i, y+5)
+    end
+  end
+end
+
+function WindRichtung(C,WR)         -- 罗盘方位差 -> 八向文字
+  Temp = C-WR                       -- 圈单位，先手工归一到 ±0.5
+  if C-WR < -0.5 then Temp = 0.5-(WR-C-0.5)
+  elseif C-WR > 0.5 then Temp = -0.5+(WR-C+0.5) end
+  if Temp > -0.0625 and Temp < 0.0625 then TEXT = "N"
+  elseif Temp > 0.0625 and Temp < 0.1875 then TEXT = "NW"
+  ...                               -- 八向，每档 1/16 圈
+  end
+  dTB(0,13,31,7,TEXT,1,0)
+end
+```
+
+- 🔑 **逐字母 `drawTextBox`**：第三、四个参数恒为屏宽/行高（32 / 7），靠**首字符的 x 偏移**定位。比 `drawText` 多的那两个对齐参数正是关键——标签左对齐、读数右对齐、单位再右对齐，混排不用手算字宽。
+- 🔑 **轮播分页是极小屏的通用解**：屏只有 32 px 宽时，「雨量 / 雾」常驻、「风速 / 风向」轮播，一屏能塞下五组读数。翻页逻辑就三行 `if/elseif/else`。
+- ⚠ **`Timer = Timer + 1/60` 写在 `onDraw` 里等于假设 60 FPS**（与 `03` §36 同一个坑）。掉帧时节拍会变慢；计时一律挪进 `onTick`。
+- 🔑 **分段色条的阈值写 `i/11` 而不是 `i/10`**：分母比格数大 1，保证输入为 1 时整条全亮、为 0 时全灭；写 `i/10` 会让第 0 格永远亮着。
+- 八向归一那两行等价于 `04` §1.2b 的 `((d+0.5)%1)-0.5`，手写版多 4 行但少一次取模——字符紧张时可以用取模版替换。
+- 关联：`05` §30（触控滚轮分页）、`04` §1.2b（圈最短角差）、`03` §36（计时必须放 `onTick`）
