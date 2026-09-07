@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08 00:08:45",
+ "generated": "2026-09-08 00:15:45",
  "weights": {
   "trend": 0.28,
   "subs": 0.24,
@@ -90,7 +90,7 @@
    "updated_ts": 1787703584,
    "updated": "2026-08-26",
    "meta_ts": 1788367541.650221,
-   "score": 62.68
+   "score": 62.67
   },
   "3791574523": {
    "id": "3791574523",
@@ -861,13 +861,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "SPLIT",
    "subs": 1,
    "updated_ts": 1788366660,
    "updated": "2026-09-03",
    "meta_ts": 1788367541.650221,
-   "score": 25.72
+   "score": 30.72
   },
   "3644121829": {
    "id": "3644121829",
@@ -887,13 +887,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "SMH Flags Mod V2",
    "subs": 1881,
    "updated_ts": 1788362776,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 39.44
+   "score": 34.44
   },
   "3793225196": {
    "id": "3793225196",
@@ -939,13 +939,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Trailer Schlauchboot",
    "subs": 0,
    "updated_ts": 1788358143,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 24.84
+   "score": 29.84
   },
   "3772661259": {
    "id": "3772661259",
@@ -1018,13 +1018,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "ptc210ds",
    "subs": 0,
    "updated_ts": 1788343375,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 24.83
+   "score": 29.83
   },
   "3792657278": {
    "id": "3792657278",
@@ -1044,13 +1044,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "ME210",
    "subs": 1,
    "updated_ts": 1788340511,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 25.71
+   "score": 30.71
   },
   "3750832494": {
    "id": "3750832494",
@@ -1070,26 +1070,26 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Dawn Elucida -  technology and ideas demonstrator for beginners and experts - two steam turbines",
    "subs": 1,
    "updated_ts": 1788340473,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 25.71
+   "score": 30.71
   },
   "3794361376": {
    "id": "3794361376",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "superbarge",
    "subs": 0,
    "updated_ts": 1788334547,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 24.83
+   "score": 29.83
   },
   "3765180788": {
    "id": "3765180788",
@@ -1136,13 +1136,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Sub Tub",
    "subs": 0,
    "updated_ts": 1788326894,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 24.83
+   "score": 29.83
   },
   "3793807481": {
    "id": "3793807481",
@@ -1182,7 +1182,7 @@
    "updated_ts": 1788317512,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 25.71
+   "score": 25.7
   },
   "3462909812": {
    "id": "3462909812",
@@ -1195,7 +1195,7 @@
    "updated_ts": 1788317160,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 35.69
+   "score": 35.68
   },
   "3434993989": {
    "id": "3434993989",
@@ -1307,26 +1307,26 @@
    "rank": {
     "trend": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Combat Boat SB90E Military",
    "subs": 800,
    "updated_ts": 1646730455,
    "updated": "2022-03-08",
    "meta_ts": 1788374490.4196677,
-   "score": 25.54
+   "score": 30.54
   },
   "2000436094": {
    "id": "2000436094",
    "rank": {
     "trend": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "ColorLine Color Magic",
    "subs": 433,
    "updated_ts": 1581965798,
    "updated": "2020-02-18",
    "meta_ts": 1788374490.4196677,
-   "score": 22.89
+   "score": 27.89
   },
   "3791924563": {
    "id": "3791924563",
@@ -1386,13 +1386,13 @@
    "rank": {
     "trend": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "My Cat",
    "subs": 700,
    "updated_ts": 1635694762,
    "updated": "2021-10-31",
    "meta_ts": 1788374490.4196677,
-   "score": 24.92
+   "score": 29.92
   },
   "3783474598": {
    "id": "3783474598",
@@ -2031,13 +2031,13 @@
    "rank": {
     "trend": 3
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "The Face Ripper 9000",
    "subs": 1,
    "updated_ts": 1787982891,
    "updated": "2026-08-29",
    "meta_ts": 1788374490.4196677,
-   "score": 39.92
+   "score": 34.92
   },
   "3791887063": {
    "id": "3791887063",
@@ -2083,13 +2083,13 @@
    "rank": {
     "trend": 4
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "spee",
    "subs": 7,
    "updated_ts": 1787959293,
    "updated": "2026-08-29",
    "meta_ts": 1788374490.4196677,
-   "score": 39.34
+   "score": 34.34
   },
   "3791271637": {
    "id": "3791271637",
@@ -2110,13 +2110,13 @@
     "trend": 4,
     "lastupdated": 4
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "geran 4",
    "subs": 16,
    "updated_ts": 1788223054,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 40.4
+   "score": 35.4
   },
   "3791143216": {
    "id": "3791143216",
@@ -2149,13 +2149,13 @@
    "rank": {
     "trend": 4
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "t55 tank valami",
    "subs": 19,
    "updated_ts": 1787946424,
    "updated": "2026-08-29",
    "meta_ts": 1788374490.4196677,
-   "score": 40.5
+   "score": 35.5
   },
   "3791106273": {
    "id": "3791106273",
@@ -2175,13 +2175,13 @@
    "rank": {
     "trend": 4
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "small truck  HAI K2700 carrera",
    "subs": 9,
    "updated_ts": 1787941488,
    "updated": "2026-08-29",
    "meta_ts": 1788374490.4196677,
-   "score": 39.62
+   "score": 34.62
   },
   "3791084033": {
    "id": "3791084033",
@@ -2267,13 +2267,13 @@
    "rank": {
     "trend": 4
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "Compact fishing doat",
    "subs": 15,
    "updated_ts": 1788099856,
    "updated": "2026-08-30",
    "meta_ts": 1788374490.4196677,
-   "score": 40.27
+   "score": 35.27
   },
   "3789551063": {
    "id": "3789551063",
@@ -3634,13 +3634,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "My first real boat",
    "subs": 0,
    "updated_ts": 1788367914,
    "updated": "2026-09-03",
    "meta_ts": 1788374490.4196677,
-   "score": 24.84
+   "score": 29.84
   },
   "3450970417": {
    "id": "3450970417",
@@ -3712,13 +3712,13 @@
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "The Breakdown Train",
    "subs": 0,
    "updated_ts": 1788315100,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 24.82
+   "score": 29.82
   },
   "3791326433": {
    "id": "3791326433",
@@ -3738,26 +3738,26 @@
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "WIP",
    "subs": 0,
    "updated_ts": 1788314305,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 24.82
+   "score": 29.82
   },
   "3777002568": {
    "id": "3777002568",
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Single Person Scout tank",
    "subs": 1,
    "updated_ts": 1788314264,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 25.7
+   "score": 30.7
   },
   "3793278053": {
    "id": "3793278053",
@@ -3777,13 +3777,13 @@
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "SPMK3",
    "subs": 0,
    "updated_ts": 1788308206,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 24.82
+   "score": 29.82
   },
   "3791197755": {
    "id": "3791197755",
@@ -3842,13 +3842,13 @@
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "miltary cost-patrol boat",
    "subs": 0,
    "updated_ts": 1788293302,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 24.81
+   "score": 29.81
   },
   "3573737686": {
    "id": "3573737686",
@@ -3881,13 +3881,13 @@
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Buggy",
    "subs": 1,
    "updated_ts": 1788289296,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 25.69
+   "score": 30.69
   },
   "3772356953": {
    "id": "3772356953",
@@ -3933,13 +3933,13 @@
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "t2 tanker",
    "subs": 1,
    "updated_ts": 1788284897,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 25.69
+   "score": 30.69
   },
   "3768155486": {
    "id": "3768155486",
@@ -3985,13 +3985,13 @@
    "rank": {
     "lastupdated": 3
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Annas_Flag_Pack",
    "subs": 1,
    "updated_ts": 1788281865,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 25.69
+   "score": 30.69
   },
   "3785462979": {
    "id": "3785462979",
@@ -4043,7 +4043,7 @@
    "updated_ts": 1788278289,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 34.01
+   "score": 34.0
   },
   "3793525811": {
    "id": "3793525811",
@@ -4272,13 +4272,13 @@
    "rank": {
     "lastupdated": 3
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Pr. 378 Maestrale class",
    "subs": 1,
    "updated_ts": 1788229534,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 25.67
+   "score": 30.67
   },
   "3789766655": {
    "id": "3789766655",
@@ -4298,26 +4298,26 @@
    "rank": {
     "lastupdated": 3
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "Buckel Cattler OMUA UniCon Cargo Van",
    "subs": 4360,
    "updated_ts": 1788225766,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 40.46
+   "score": 35.46
   },
   "3620017437": {
    "id": "3620017437",
    "rank": {
     "lastupdated": 3
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "Airgull Adelie Camper Van Motorhome",
    "subs": 2030,
    "updated_ts": 1788225349,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 39.49
+   "score": 34.49
   },
   "3444336196": {
    "id": "3444336196",
@@ -4337,39 +4337,39 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "VT 6MM/1GG/DG",
    "subs": 1,
    "updated_ts": 1788223487,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 25.67
+   "score": 30.67
   },
   "3780247170": {
    "id": "3780247170",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "VT 2MM/1MG",
    "subs": 1,
    "updated_ts": 1788223465,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 25.67
+   "score": 30.67
   },
   "3780246977": {
    "id": "3780246977",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "VT 1MEM",
    "subs": 1,
    "updated_ts": 1788223439,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 25.67
+   "score": 30.67
   },
   "3792615320": {
    "id": "3792615320",
@@ -4389,13 +4389,13 @@
    "rank": {
     "lastupdated": 4
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Mudpuppy 8x8 UTV | Amphibious Vehicle",
    "subs": 1,
    "updated_ts": 1788220900,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 25.67
+   "score": 30.67
   },
   "3784247601": {
    "id": "3784247601",
@@ -4520,26 +4520,26 @@
    "rank": {
     "lastupdated": 4
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "tank",
    "subs": 1,
    "updated_ts": 1788199738,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 25.66
+   "score": 30.66
   },
   "3775380856": {
    "id": "3775380856",
    "rank": {
     "lastupdated": 4
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "PELICAN JET ",
    "subs": 0,
    "updated_ts": 1788199674,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 24.78
+   "score": 29.78
   },
   "2804573349": {
    "id": "2804573349",
@@ -4644,7 +4644,7 @@
    "updated_ts": 1788275535,
    "updated": "2026-09-01",
    "meta_ts": 1788383453.441428,
-   "score": 55.29
+   "score": 55.28
   },
   "3793701852": {
    "id": "3793701852",
@@ -4665,13 +4665,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "greatland with bilge and cargo! (credits to whoever made the Greatland",
    "subs": 0,
    "updated_ts": 1788381857,
    "updated": "2026-09-03",
    "meta_ts": 1788383453.441428,
-   "score": 24.85
+   "score": 29.85
   },
   "2652151448": {
    "id": "2652151448",
@@ -4691,13 +4691,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Grumman LLV",
    "subs": 0,
    "updated_ts": 1788379985,
    "updated": "2026-09-03",
    "meta_ts": 1788383453.441428,
-   "score": 24.85
+   "score": 29.85
   },
   "3794647482": {
    "id": "3794647482",
@@ -4710,7 +4710,7 @@
    "updated_ts": 1788378737,
    "updated": "2026-09-03",
    "meta_ts": 1788383453.441428,
-   "score": 29.85
+   "score": 29.84
   },
   "3370285747": {
    "id": "3370285747",
@@ -4888,13 +4888,13 @@
    "rank": {
     "trend": 4
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "Diesel Electric Locomotive (A Unit)",
    "subs": 28,
    "updated_ts": 1785009702,
    "updated": "2026-07-26",
    "meta_ts": 1788411023.4671066,
-   "score": 39.92
+   "score": 34.92
   },
   "3758105135": {
    "id": "3758105135",
@@ -4927,26 +4927,26 @@
    "rank": {
     "trend": 4
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "Air force one 2",
    "subs": 67,
    "updated_ts": 1781886547,
    "updated": "2026-06-20",
    "meta_ts": 1788411023.4671066,
-   "score": 39.93
+   "score": 34.93
   },
   "3746179872": {
    "id": "3746179872",
    "rank": {
     "trend": 4
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "M90 Chongus Heavy Rescue Snowmobile",
    "subs": 8,
    "updated_ts": 1787986536,
    "updated": "2026-08-29",
    "meta_ts": 1788411023.4671066,
-   "score": 39.5
+   "score": 34.5
   },
   "3729246486": {
    "id": "3729246486",
@@ -5037,7 +5037,7 @@
    "updated_ts": 1768700641,
    "updated": "2026-01-18",
    "meta_ts": 1788411023.4671066,
-   "score": 33.03
+   "score": 33.02
   },
   "3639348248": {
    "id": "3639348248",
@@ -5057,26 +5057,26 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "Fuso M2U H-41 Tree Artilerypiece + M2U Resupply and Repair",
    "subs": 2187,
    "updated_ts": 1788409364,
    "updated": "2026-09-03",
    "meta_ts": 1788411023.4671066,
-   "score": 39.65
+   "score": 34.65
   },
   "3736814792": {
    "id": "3736814792",
    "rank": {
     "lastupdated": 1
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "Toronto Fireboat William Lyon Mackenzie",
    "subs": 2461,
    "updated_ts": 1788408132,
    "updated": "2026-09-03",
    "meta_ts": 1788411023.4671066,
-   "score": 39.8
+   "score": 34.8
   },
   "3791876633": {
    "id": "3791876633",
@@ -5384,13 +5384,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "rms steam",
    "subs": 0,
    "updated_ts": 1788481283,
    "updated": "2026-09-04",
    "meta_ts": 1788485666.6423209,
-   "score": 24.88
+   "score": 29.88
   },
   "3795260742": {
    "id": "3795260742",
@@ -5436,13 +5436,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Flat 6 / Boxer Engine",
    "subs": 0,
    "updated_ts": 1788475250,
    "updated": "2026-09-04",
    "meta_ts": 1788485666.6423209,
-   "score": 24.88
+   "score": 29.88
   },
   "2931984007": {
    "id": "2931984007",
@@ -5514,13 +5514,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "PRR 0-4-0 Switch Steam Locomotive",
    "subs": 0,
    "updated_ts": 1788459878,
    "updated": "2026-09-04",
    "meta_ts": 1788485666.6423209,
-   "score": 24.87
+   "score": 29.87
   },
   "3792706509": {
    "id": "3792706509",
@@ -5855,13 +5855,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "My Trucks V1",
    "subs": 0,
    "updated_ts": 1788520114,
    "updated": "2026-09-04",
    "meta_ts": 1788522809.6379085,
-   "score": 24.9
+   "score": 29.9
   },
   "3743234498": {
    "id": "3743234498",
@@ -5973,39 +5973,39 @@
    "rank": {
     "trend": 4
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "TC6162 J4 Javelong Double Decker High Speed Train C",
    "subs": 13,
    "updated_ts": 1786935493,
    "updated": "2026-08-17",
    "meta_ts": 1788531802.9295583,
-   "score": 39.68
+   "score": 34.68
   },
   "3784941999": {
    "id": "3784941999",
    "rank": {
     "trend": 4
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "TC6162 J4 Javelong Double Decker High Speed Train B",
    "subs": 14,
    "updated_ts": 1786935416,
    "updated": "2026-08-17",
    "meta_ts": 1788531802.9295583,
-   "score": 39.77
+   "score": 34.77
   },
   "3784941656": {
    "id": "3784941656",
    "rank": {
     "trend": 4
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "TC6162 J4 Javelong Double Decker High Speed Train A",
    "subs": 14,
    "updated_ts": 1786935359,
    "updated": "2026-08-17",
    "meta_ts": 1788531802.9295583,
-   "score": 39.77
+   "score": 34.77
   },
   "3468675201": {
    "id": "3468675201",
@@ -6164,7 +6164,7 @@
    "updated_ts": 1788541086,
    "updated": "2026-09-05",
    "meta_ts": 1788542775.2031558,
-   "score": 24.91
+   "score": 24.9
   },
   "3787235795": {
    "id": "3787235795",
@@ -6184,13 +6184,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "mauseaim_warthunder_heli",
    "subs": 0,
    "updated_ts": 1788536932,
    "updated": "2026-09-04",
    "meta_ts": 1788542775.2031558,
-   "score": 24.9
+   "score": 29.9
   },
   "3787235859": {
    "id": "3787235859",
@@ -6210,13 +6210,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "unified HMD system for heli ",
    "subs": 0,
    "updated_ts": 1788536818,
    "updated": "2026-09-04",
    "meta_ts": 1788542775.2031558,
-   "score": 24.9
+   "score": 29.9
   },
   "3787236258": {
    "id": "3787236258",
@@ -6262,13 +6262,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "YB-40 Gunship (Escort)",
    "subs": 3254,
    "updated_ts": 1788532194,
    "updated": "2026-09-04",
    "meta_ts": 1788542775.2031558,
-   "score": 40.2
+   "score": 35.2
   },
   "3486025588": {
    "id": "3486025588",
@@ -6288,13 +6288,13 @@
    "rank": {
     "trend": 2
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "LTi 2J55 Passenger Jet",
    "subs": 3,
    "updated_ts": 1771079011,
    "updated": "2026-02-14",
    "meta_ts": 1788551509.5125632,
-   "score": 39.98
+   "score": 34.98
   },
   "2928952585": {
    "id": "2928952585",
@@ -6457,13 +6457,13 @@
    "rank": {
     "trend": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Villager golem",
    "subs": 39,
    "updated_ts": 1668305094,
    "updated": "2022-11-13",
    "meta_ts": 1788630406.4047222,
-   "score": 22.87
+   "score": 27.87
   },
   "1855492925": {
    "id": "1855492925",
@@ -6496,13 +6496,13 @@
    "rank": {
     "trend": 2
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "SS Gwynedd (sinkable)",
    "subs": 7774,
    "updated_ts": 1726750281,
    "updated": "2024-09-19",
    "meta_ts": 1788630406.4047222,
-   "score": 40.35
+   "score": 35.35
   },
   "1931829901": {
    "id": "1931829901",
@@ -6556,7 +6556,7 @@
    "updated_ts": 1788583920,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 37.79
+   "score": 37.78
   },
   "3795788104": {
    "id": "3795788104",
@@ -6799,13 +6799,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Boyota",
    "subs": 0,
    "updated_ts": 1788621852,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 24.93
+   "score": 29.93
   },
   "3796142734": {
    "id": "3796142734",
@@ -7202,13 +7202,13 @@
    "rank": {
     "lastupdated": 2
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "SS Anatolia 1954 | Turboelectric Ocean Liner",
    "subs": 3443,
    "updated_ts": 1788555730,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 40.28
+   "score": 35.28
   },
   "3795705637": {
    "id": "3795705637",
@@ -7437,13 +7437,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "[Rythena] SU-39 / SU25TM - Precision Strike Aircraft",
    "subs": 2689,
    "updated_ts": 1788640616,
    "updated": "2026-09-06",
    "meta_ts": 1788647289.6884234,
-   "score": 40.0
+   "score": 35.0
   },
   "3796799293": {
    "id": "3796799293",
@@ -7476,13 +7476,13 @@
    "rank": {
     "trend": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Radio Tower Addon",
    "subs": 3,
    "updated_ts": 1726273633,
    "updated": "2024-09-14",
    "meta_ts": 1788708183.1566098,
-   "score": 25.64
+   "score": 30.64
   },
   "3055926600": {
    "id": "3055926600",
@@ -7589,7 +7589,7 @@
    "updated_ts": 1788703115,
    "updated": "2026-09-06",
    "meta_ts": 1788708183.1566098,
-   "score": 24.97
+   "score": 24.96
   },
   "3791547596": {
    "id": "3791547596",
@@ -7687,26 +7687,26 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Test",
    "subs": 0,
    "updated_ts": 1788699401,
    "updated": "2026-09-06",
    "meta_ts": 1788708183.1566098,
-   "score": 24.96
+   "score": 29.96
   },
   "3774024749": {
    "id": "3774024749",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "TRR-1 Sea Eagle Helicopter",
    "subs": 0,
    "updated_ts": 1788697427,
    "updated": "2026-09-06",
    "meta_ts": 1788708183.1566098,
-   "score": 24.96
+   "score": 29.96
   },
   "3796665166": {
    "id": "3796665166",
@@ -7961,13 +7961,13 @@
    "rank": {
     "trend": 4
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "2nd PA Rally PROPS",
    "subs": 11,
    "updated_ts": 1788037688,
    "updated": "2026-08-30",
    "meta_ts": 1788716691.4449577,
-   "score": 39.88
+   "score": 34.88
   },
   "3795469150": {
    "id": "3795469150",
@@ -8078,13 +8078,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "MFB-05 ENGRIFF typeAEW",
    "subs": 0,
    "updated_ts": 1788708739,
    "updated": "2026-09-06",
    "meta_ts": 1788716691.4449577,
-   "score": 24.97
+   "score": 29.97
   },
   "3783234882": {
    "id": "3783234882",
@@ -8189,7 +8189,7 @@
    "updated_ts": 1788722711,
    "updated": "2026-09-07",
    "meta_ts": 1788725175.073008,
-   "score": 30.86
+   "score": 30.85
   },
   "3744862493": {
    "id": "3744862493",
@@ -8313,13 +8313,13 @@
    "rank": {
     "trend": 4
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "454ss Challenge 7 - justvig - weather balloon research barge",
    "subs": 56,
    "updated_ts": 1784220297,
    "updated": "2026-07-17",
    "meta_ts": 1788750456.026379,
-   "score": 40.51
+   "score": 35.51
   },
   "3765675149": {
    "id": "3765675149",
@@ -8717,13 +8717,13 @@
     "trend": 3,
     "lastupdated": 1
    },
-   "state": "已暂存",
+   "state": "无Lua",
    "title": "BSA - Generator - 100,000 Swatts - No Fuel Required",
    "subs": 1,
    "updated_ts": 1788792968,
    "updated": "2026-09-07",
    "meta_ts": 1788794587.5187075,
-   "score": 40.21
+   "score": 35.21
   },
   "3797463206": {
    "id": "3797463206",
