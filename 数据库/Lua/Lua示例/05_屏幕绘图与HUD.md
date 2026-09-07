@@ -4990,3 +4990,130 @@ screen.drawMap(gpsX - 350, gpsY, zoom)      -- 左侧留出 52 px 信息栏
 - ⚠ 气象台那块（`_vehicle_10`）还示范了 `compassDir = input.getNumber(8) * -1`：游戏罗盘东为负、数学方位东为正，乘 `-1` 对齐（见 `06` §?、`03` §1）。改作品时务必核对通道符号，这是方位类 bug 的第一嫌疑。
 - 关联：`04` §9（指数缩放与比例尺二分跳档，本例缩放的反面参照）、`05` §32（虚拟摇杆拖动地图 + `screenToMap`）、`05` §39（地图控件：命中区即广播 + 按屏尺寸裁剪）、`02` §12（多屏共用一个状态，屏宽高互传的另一种用法）、`00_速查 §16`（screen API）
 - 完整脚本：`../../../AI相关/_提取暂存/3673320975_vehicle_11.lua`、`3673320975_vehicle_10.lua`
+
+## §73 一个布尔整体镜像：**左右舷共用一套 HUD**（角度取反 + 角标换边 + 主题配色枚举）
+
+- 来源：steam id 3792981388 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3792981388 · 载具（S/S Karlshorst 货轮，`_vehicle_10` / `_vehicle_13` 双针转速表、`_vehicle_12` 指令面板）
+- 更新时间：2026-09-07
+- 用到：两块 1×1 / 2×1 屏、复合输入（`mirror` 布尔、`style` / `mark` / `handle` 数值当枚举）
+- 亮点：**一个 `mirror` 布尔让同一份脚本同时服务左舷与右舷**——指针角度取反、角标与装饰换到另一边、两侧文字配色互换；再叠一套 `style` 主题枚举，一个作品里三套配色不用改代码。
+
+```lua
+-- ① 角度取反 = 整体镜像；-1.57 把 0 相位从三点钟搬到十二点
+if mirror then
+  sec = input.getNumber(1)*math.pi - 1.57
+else
+  sec = -input.getNumber(1)*math.pi - 1.57
+end
+prim = -input.getNumber(2)*math.pi - 1.57
+
+-- ② 主题：一个数值当枚举用，三套配色一次选完
+if style == 1 then  AR, AG, AB, HR, HG, HB = 100, 10, 10, 61, 55, 5
+elseif style == 2 then AR, AG, AB, HR, HG, HB = 45, 37, 2, 61, 55, 5
+else                   AR, AG, AB, HR, HG, HB = 90, 91, 30, 90, 91, 30 end
+```
+
+```lua
+-- ③ 指针 = 中心 + 尖端 + 两个侧翼，四个实心三角拼出带箭杆的形状
+x1 = w/2 + 8*math.cos(sec);       y1 = h/2+1 + 8*math.sin(sec)      -- 尖端（副针半径 8）
+x2 = w/2 + 2*math.cos(sec+1.58);  y2 = h/2+1 + 2*math.sin(sec+1.58) -- 侧翼 A
+x3 = w/2 + 2*math.cos(-1.58+sec); y3 = h/2+1 + 2*math.sin(-1.58+sec)-- 侧翼 B
+screen.drawTriangleF(w/2, h/2+1, x1, y1, x3, y3)
+screen.drawTriangleF(w/2, h/2+1, x1, y1, x2, y2)
+screen.drawLine(w/2, h/2+1, x1, y1)                                  -- 箭杆
+
+-- ④ 角标换边：没有「镜像 API」，硬编码坐标只能写两套
+if mirror then
+  screen.drawRectF(28, 1.5, 2, 4)  screen.drawRectF(27, 2.5, 4, 2)   -- 右上角
+else
+  screen.drawRectF(2, 1.5, 2, 4)   screen.drawRectF(1, 2.5, 4, 2)    -- 左上角
+end
+```
+
+```lua
+-- ⑤ 两侧文字配色互换：mirror 时「本舷」用高亮色，另一舷用暗色
+if mirror then
+  screen.setColor(AR, AG, AB)  txt(10,14,"slow") txt(3,28,"half") txt(6,41,"full")
+  screen.setColor(TR, TG, TB)  txt(40,14,"slow") txt(47,28,"half") txt(44,41,"full")
+else
+  screen.setColor(TR, TG, TB)  txt(10,14,"slow") txt(3,28,"half") txt(6,41,"full")
+  screen.setColor(AR, AG, AB)  txt(40,14,"slow") txt(47,28,"half") txt(44,41,"full")
+end
+```
+
+- 🔑 **镜像的本质是「角度取反 + 坐标换边」两件事**：旋转类元素（指针、扇区）靠 `±x*math.pi` 一次搞定，零额外代码；**硬编码坐标的装饰（角标、文字、图标）躲不掉**，必须写两套。所以设计顺序是「先尽量把元素写成极坐标，剩下的硬编码部分才分支」。
+- 🔑 **`-1.57` 是相位而不是偏移**：SW 的 `math.cos/sin` 以三点钟为 0 且**顺时针为正**（Y 轴向下）。表盘要「零位朝上」就得整体减 π/2。这个常数和 `mirror` 的取反互不干扰——取反改方向，减 π/2 改零点。
+- 🔑 **枚举当主题表**：`style` / `mark` / `handle` 三个数值通道各自当枚举，`if/elseif` 里一次性把多个颜色变量赋值完（`AR,AG,AB,HR,HG,HB = ...`）。比建一张 `{[1]={...}}` 表省字符，也比「每种主题复制一份脚本」好维护。与 `09` §34 的「单位切换通道当枚举」是同一个思路。
+- 🔑 **同一份脚本服务两块屏**的真正收益：改一处逻辑两舷同时生效，不会出现「左舷修了右舷忘了」。代价是镜像分支散落在 `onDraw` 各处。
+- ⚠ **本作品的反面教材**：`_vehicle_10`（半径 8/18）与 `_vehicle_13`（半径 30/37）是**同一段代码复制两份、只改半径常数**来适配 1×1 与 2×1 屏。正确做法是把半径写成 `R = math.min(w,h)/2*k`，或把半径也塞进属性/输入通道（见 `05` §0.1 按屏尺寸删减、`01` §15 属性拆宽高）。
+- ⚠ `drawTriangleF` 拼指针时**两个侧翼三角会重叠**，重叠部分在半透明下会叠出更深的色块；本例颜色不透明所以看不出来，半透明指针请改用「一个三角 + 一条粗线」。
+- ⚠ `style` 的 `else` 分支同时是「缺省兜底」：输入通道断线时 `input.getNumber` 返回 0，会落到 `else` 那套配色而不是全黑。
+- 关联：`05` §0.1（按屏尺寸删减元素）、`05` §7（圆形仪表 / 扇形填充 / 预计算刻度双指针）、`05` §23（`1x1` 微型罗盘的端点预计算）、`01` §15（属性拆宽高 + 数值当枚举）、`09` §34（单位切换通道当枚举）、`00_速查 §4`（圈 vs 弧度、Y 轴向下）
+- 完整脚本：`../../../AI相关/_提取暂存/3792981388_vehicle_10.lua`、`3792981388_vehicle_13.lua`、`3792981388_vehicle_12.lua`
+
+## §74 启动 Logo 动画：**打字机 + 尾随空格控时长** + **每帧重算居中** + 5 层同心圆爆炸
+
+- 来源：steam id 3793186381 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3793186381 · 载具（MRT-255: Multirole Tanker，`_vehicle_453` 开机动画屏）
+- 更新时间：2026-09-01
+- 用到：1×1 / 2×1 屏、一个布尔输入（重播）、一个布尔输出（动画播完）
+- 亮点：三段式开机动画（厂名逐字 → 爆炸 → 车名逐字）只用一个四态机；时长控制靠**在字符串尾部补空格**，居中靠**每帧按当前字数重算 x**，全程没有第二个计时器。
+
+```lua
+manufacturerName, vehicleName = "EINSCHLAG", "Mahi"
+charWidth = 5
+state, letterIndex, vehicleLetterIndex, explosionFrame = 1, 0, 0, 0
+finished = false
+orange = {126, 82, 1}
+
+-- ① 每帧按「当前字数」重算居中：字一个个冒出来，文本像从中心向两侧长出来
+function drawShiftingText(text, w, h)
+  local n = string.len(text)
+  local x = math.floor(w/2 - charWidth/2 - (n - 1)*charWidth/2)
+  screen.drawText(x, math.floor((h - 5)/2), text)
+end
+
+function onTick()
+  tickCount = (tickCount or 0) + 1                    -- ② nil 即 0，切状态时写 nil 就是归零
+  if state == 1 and tickCount % 5 == 0 then
+    letterIndex = letterIndex + 1
+    -- ③ 名字后面补 8 个空格：打完字后还靠空格再吃 8 个字符位 × 5 tick 的停顿
+    if letterIndex > string.len(manufacturerName .. "        ") then
+      state, explosionFrame, tickCount = 2, 0, nil
+    end
+  elseif state == 2 then
+    explosionFrame = explosionFrame + 1
+    if explosionFrame > 20 then state, tickCount = 3, 0 end
+  elseif state == 3 and tickCount % 5 == 0 then
+    vehicleLetterIndex = vehicleLetterIndex + 1
+    if vehicleLetterIndex > string.len(vehicleName .. "        ") then
+      state, tickCount = 4, 0
+    end
+  elseif state == 4 then
+    finished = true
+  end
+  output.setBool(1, finished)
+end
+```
+
+```lua
+-- ④ 爆炸：5 层同心圆由外向内逐层变暗，没有渐变 API 就靠叠圆造焰心
+local maxRadius = math.floor(math.sqrt(w^2 + h^2)/2)   -- 对角线一半 = 铺满整屏的最小半径
+local radius    = math.floor(explosionFrame/20 * maxRadius)
+for i = 1, 5 do
+  local k = 1 - i*0.3
+  screen.setColor(orange[1]*k, orange[2]*k, orange[3]*k)
+  local currentRadius = radius - i*5
+  if currentRadius > 0 then screen.drawCircleF(w/2, h/2, currentRadius) end
+end
+```
+
+- 🔑 **尾随空格 = 免费计时器**：`string.sub(name .. "        ", 1, letterIndex)` 让打字机在名字打完后继续吐空格，多出来的 8 个字符位 × 每字符 5 tick = 40 tick 停留，省掉一个「打完后再等 N 帧」的计时分支。缺点是**尾随空格也是可见字符**，会轻微推高居中位置（见 ① 的公式）——本例反而利用这一点让文字在停留期缓慢左移。
+- 🔑 **居中必须每帧重算**：静态文本算一次就够（见 `05` §字符步进 4px 的居中），但打字机每帧字数都在变，用固定 x 会变成「从左往右长」。`x = w/2 - charWidth/2 - (n-1)*charWidth/2` 是让**文本中心**始终对齐屏幕中心的标准写法。
+- 🔑 **`tickCount = nil` 当归零**：配合 `(tickCount or 0) + 1` 惰性初始化，切状态只需一句话，省掉 `tickCount = 0` 与「是否已初始化」的判据。
+- 🔑 **叠圆造渐变**：SW 没有径向渐变，`for i=1,5` 画 5 个半径递减、亮度递减的实心圆就是最省的焰心。层数别太多——每层一次 `drawCircleF`，小屏上 5 层已经接近性能上限。
+- 🔑 **`resetAnimation()` 集中复位**：把 `tickCount / state / 两个索引 / finished / explosionFrame` 与输出布尔一次清完，重播只需在边沿触发里调一次。状态变量越多，集中复位越必要。
+- ⚠ **原稿的边沿检测是冗余的**：先写 `if cur and not prev then resetAnimation() end`，紧接着又 `if input.getBool(1) then resetAnimation() end`——后一句在按住期间每帧复位，动画永远不会播完。保留边沿那一句即可。
+- ⚠ `string.len` 对中文返回**字节数**而非字数，居中会算错；SW 屏幕也不渲染中文（见 `00_速查 §13` 仅 ASCII）。
+- ⚠ `finished` 后 `onDraw` 走 `drawClear() + return`：动画结束是**清屏**而不是留最后一帧。想要「停在末帧」就把这两行删掉。
+- 关联：`05` §68（极小屏排版三件套：逐字母定位 / 轮播 / 分段色条）、`05`（HUD 长文本跑马灯）、`04` §17（同类「首帧/边界要单独处理」的滤波写法）、`02`（状态机骨架）、`00_速查 §16`（screen API）
+- 完整脚本：`../../../AI相关/_提取暂存/3793186381_vehicle_453.lua`
