@@ -574,6 +574,13 @@
   ],
   "learned": true
  },
+ "3796370321": {
+  "file": "05_屏幕绘图与HUD.md",
+  "sections": [
+   "§2 🔑 条形图：负高度 `drawRectF`"
+  ],
+  "learned": true
+ },
  "2623064051": {
   "file": "05_屏幕绘图与HUD.md",
   "sections": [
@@ -881,6 +888,13 @@
   "learned": true
  },
  "3797173569": {
+  "file": "05_屏幕绘图与HUD.md",
+  "sections": [
+   "§69 位图资源的**两级字典替换压缩** + 8 位 hex RGBA 逐像素 + **帧号时分复用**多块共屏"
+  ],
+  "learned": true
+ },
+ "2488473761": {
   "file": "05_屏幕绘图与HUD.md",
   "sections": [
    "§69 位图资源的**两级字典替换压缩** + 8 位 hex RGBA 逐像素 + **帧号时分复用**多块共屏"
@@ -1455,6 +1469,27 @@
   "learned": true
  },
  "3795894749": {
+  "file": "09_引擎动力与仪表.md",
+  "sections": [
+   "§37 同族 ECU 变体补录：**(air,fuel) 成对延迟线 + 大缸径旧值反馈 + AFR 环形均值闭环**"
+  ],
+  "learned": true
+ },
+ "3796665166": {
+  "file": "09_引擎动力与仪表.md",
+  "sections": [
+   "§37 同族 ECU 变体补录：**(air,fuel) 成对延迟线 + 大缸径旧值反馈 + AFR 环形均值闭环**"
+  ],
+  "learned": true
+ },
+ "3793914233": {
+  "file": "09_引擎动力与仪表.md",
+  "sections": [
+   "§37 同族 ECU 变体补录：**(air,fuel) 成对延迟线 + 大缸径旧值反馈 + AFR 环形均值闭环**"
+  ],
+  "learned": true
+ },
+ "3795252939": {
   "file": "09_引擎动力与仪表.md",
   "sections": [
    "§37 同族 ECU 变体补录：**(air,fuel) 成对延迟线 + 大缸径旧值反馈 + AFR 环形均值闭环**"
