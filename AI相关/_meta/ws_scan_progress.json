@@ -8,7 +8,7 @@
   "last_seen": "心跳租约：本机每轮结束时写入 UTC+8 时间戳。云端任务启动先读此字段，2.5h 内则跳过（时间互斥，非并行互斥）。"
  },
  "schema": 2,
- "last_seen": "2026-09-08 01:21",
+ "last_seen": "2026-09-08 02:14",
  "pending_ids": [],
  "value": {
   "enabled": true,
@@ -46,7 +46,7 @@
   "cursor_page": 24,
   "pages_scanned": 24,
   "consecutive_empty_pages": 0,
-  "done": false,
+  "done": true,
   "pending_ids": 0
  },
  "ids_downloaded": [
@@ -1623,9 +1623,9 @@
   "3797185647",
   "3797409272"
  ],
- "completed": false,
- "last_run": "2026-09-08 01:21",
- "last_note": "轮24: fresh尾批24(24有货100段全新0=搬运圈); no-lua 24; all_ids队列吃完,下轮重新crawl发现新上传",
+ "completed": true,
+ "last_run": "2026-09-08 02:14",
+ "last_note": "全站学完: 候选池680全处置(已学习222+无Lua标记覆盖), --top空, pending0, 游标到底, done=true",
  "ranked_pool_size": 665,
  "cursor_page": 21
 }
