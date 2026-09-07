@@ -145,6 +145,7 @@ S="<WS>/数据库/方块数据/脚本"
 | `stormworks-update-check` | 游戏更新检查（四态结论） |
 | `stormworks-wiki-to-book` | 日文 wikiwiki.jp 抓取 → 知识册（需 requests/bs4） |
 | `sw-mesh-tools` | 解析 `.mesh` 二进制 → 部件真实几何（实测 AABB/三角数/可涂色）；格式漂移校验 |
+| `sw-lua-dev` | 载具 Lua 游戏外开发链：静态检查（字符上限/XML 纪律/沙盒陷阱）+ storm-lua-minify 压缩 + Fengari 无头模拟与屏幕渲染核对 |
 
 **非具备技能加载能力的平台**：直接读 `技能库\<名称>\SKILL.md`，按其中步骤手工执行即可，
 里面写的是完整的领域约定与命令，不依赖任何平台能力。

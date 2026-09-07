@@ -72,8 +72,14 @@ def find_findings(src, toks, skel, args, fname):
         add("WARN", "LIB_OS_IO", "os./io. 在游戏沙盒中不存在（模拟器同样拒绝）", m.start())
     for m in re.finditer(r"\brequire\s*\(", skel):
         if args.stage == "final":
-            add("ERROR", "REQUIRE_LEFT", "final 产物中仍有 require( ——minify 合并未完成", m.start(),
-                "检查 npx storm-lua-minify 的入口文件是否包含全部模块")
+            # -m 模式会在产物头部生成 require 包装函数（合法，游戏内可用）
+            wrapped = re.search(r"function\s+require\s*\(|require\s*=\s*function", skel)
+            if wrapped:
+                add("INFO", "REQUIRE_WRAPPER",
+                    "产物使用 -m 生成的 require 包装（含 package 全局表，属预期）", m.start())
+            else:
+                add("ERROR", "REQUIRE_LEFT", "final 产物中仍有 require( 且无包装定义——合并未完成", m.start(),
+                    "检查 npx storm-lua-minify 的入口文件是否包含全部模块")
         else:
             add("INFO", "REQUIRE_SRC", "源码使用 require（开发期正常，minify 时合并）", m.start())
     # 5. onTick / onDraw 互斥（00_速查 §2）

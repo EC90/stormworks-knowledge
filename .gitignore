@@ -40,3 +40,6 @@ Desktop.ini
 
 # IDE 产物
 .zcode/
+
+# sw-lua-dev harness 依赖（fengari；协作者本地 npm install 重建）
+技能库/sw-lua-dev/harness/node_modules/

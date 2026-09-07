@@ -79,6 +79,8 @@ node "$SK/harness/sw_sim.js" <src/main.lua> --check
 npx -y storm-lua-minify <src/main.lua> --runtime-profile stormworks \
     --required-whitespace space --source-mapping-url-style line
 #    多文件工程：入口写 require('./mod')，加 -m 让 require 以函数语义运行（更接近原生 Lua）
+#    ⚠ 实测坑（0.9.1）：-m 模式会把模块内 function mod.field() 定义整段删除（调用点却改了名，
+#      运行时 nil），必须在每个导出函数定义前加 --@storm export 注解。小工程用默认内联模式更省字符。
 
 # 4) XML 属性安全化（引号归一 + 删 map 注释）；残留 < & 会报错并要求回源码修
 "$PY" "$SK/scripts/sw_lua_xmlsafe.py" <src/main.min.lua> --strip-map-comment
@@ -147,6 +149,7 @@ npx -y storm-lua-minify main.lua -m --runtime-profile stormworks --required-whit
 | `map.mapToScreen/screenToMap` | 线性换算，`scale`/`flip_y` 场景可配 | 真实换算以游戏内地图件为准 |
 | `async.httpGet` → `httpReply` | 场景 `http[]` 按 URL 前缀给罐头应答，每 tick 派发 1 个 | 无罐头时回 `connect(): Connection refused`（与游戏一致） |
 | `g_time` | tick × 16.67 ms | 近似值，游戏按实际帧率计 |
+| 未定义全局读取 | 记入报告 warnings（抓拼写错） | 两条良性误报：`package`（-m 包装预期形态）、nil 守卫惯用法里的 `sm or hdg` |
 
 ## 依赖与退化路径
 

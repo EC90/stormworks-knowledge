@@ -231,6 +231,16 @@ lua.lua_setglobal(L, to_luastring('print'));
 }
 
 // ---------- 编译 ----------
+// 🔴 栈序铁律：错误处理器先压（栈底=索引1），被调函数后压（栈顶）——pcall(L,n,r,1)
+//    pcall 永远调用「栈顶 - nargs」处的函数，msgh 只是绝对索引。
+lua.lua_pushcfunction(L, function (Ls) {
+  lua.lua_getglobal(Ls, to_luastring('debug'));
+  lua.lua_getfield(Ls, -1, to_luastring('traceback'));
+  lua.lua_pushvalue(Ls, 1);
+  lua.lua_call(Ls, 1, 1);
+  return 1;
+});
+const MSGH = 1; // 此后 msgh 常驻栈底（callGlobal 时函数与参数压在其上）
 const chunkName = path.basename(scriptPath);
 const code = to_luastring(src);
 const loadr = lauxlib.luaL_loadbufferx(L, code, code.length, to_luastring(chunkName), null);
@@ -246,15 +256,6 @@ if (checkOnly) {
   process.exit(0);
 }
 
-// 错误处理器（debug.traceback）
-lua.lua_pushcfunction(L, function (Ls) {
-  lua.lua_getglobal(Ls, to_luastring('debug'));
-  lua.lua_getfield(Ls, -1, to_luastring('traceback'));
-  lua.lua_pushvalue(Ls, 1);
-  lua.lua_call(Ls, 1, 1);
-  return 1;
-});
-const MSGH = 1; // 栈底常驻
 {
   const r = lua.lua_pcall(L, 0, 0, MSGH); // 执行 chunk 主体（定义 onTick 等）
   if (r !== lua.LUA_OK) {
