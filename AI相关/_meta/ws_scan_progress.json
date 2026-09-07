@@ -8,7 +8,7 @@
   "last_seen": "心跳租约：本机每轮结束时写入 UTC+8 时间戳。云端任务启动先读此字段，2.5h 内则跳过（时间互斥，非并行互斥）。"
  },
  "schema": 2,
- "last_seen": "2026-09-08 00:48",
+ "last_seen": "2026-09-08 00:51",
  "pending_ids": [],
  "value": {
   "enabled": true,
@@ -1624,8 +1624,8 @@
   "3797409272"
  ],
  "completed": false,
- "last_run": "2026-09-08 00:48",
- "last_note": "轮11: fresh24(3有货全新0); no-lua 24; fresh剩333",
+ "last_run": "2026-09-08 00:51",
+ "last_note": "轮12: fresh24(11有货,8全新段=滑条/面板同族); no-lua 24; fresh剩309",
  "ranked_pool_size": 665,
  "cursor_page": 21
 }
