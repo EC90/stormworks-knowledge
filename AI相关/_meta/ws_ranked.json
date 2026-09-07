@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08 00:19:59",
+ "generated": "2026-09-08 00:25:30",
  "weights": {
   "trend": 0.28,
   "subs": 0.24,
@@ -169,7 +169,7 @@
    "updated_ts": 1788062735,
    "updated": "2026-08-30",
    "meta_ts": 1788367541.650221,
-   "score": 60.65
+   "score": 60.64
   },
   "3794155453": {
    "id": "3794155453",
@@ -432,13 +432,13 @@
    "rank": {
     "totaluniquesubscribers": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "OPV Condor Mk.I",
    "subs": 128251,
    "updated_ts": 1613160388,
    "updated": "2021-02-13",
    "meta_ts": 1788367541.650221,
-   "score": 16.82
+   "score": 21.82
   },
   "2046605849": {
    "id": "2046605849",
@@ -458,39 +458,39 @@
    "rank": {
     "totaluniquesubscribers": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "StormWorks Space Program!",
    "subs": 92621,
    "updated_ts": 1653998676,
    "updated": "2022-05-31",
    "meta_ts": 1788367541.650221,
-   "score": 17.94
+   "score": 22.94
   },
   "2263356384": {
    "id": "2263356384",
    "rank": {
     "totaluniquesubscribers": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Mr Chisel",
    "subs": 96339,
    "updated_ts": 1652123802,
    "updated": "2022-05-10",
    "meta_ts": 1788367541.650221,
-   "score": 17.9
+   "score": 22.9
   },
   "1846136115": {
    "id": "1846136115",
    "rank": {
     "totaluniquesubscribers": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Yacht - Azimut 80 Flybridge",
    "subs": 88878,
    "updated_ts": 1628534250,
    "updated": "2021-08-10",
    "meta_ts": 1788367541.650221,
-   "score": 16.82
+   "score": 21.82
   },
   "1826276327": {
    "id": "1826276327",
@@ -575,26 +575,26 @@
    "rank": {
     "totaluniquesubscribers": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "P-118 Templar Fast Attack Missile Boat",
    "subs": 69967,
    "updated_ts": 1639832363,
    "updated": "2021-12-18",
    "meta_ts": 1788367541.650221,
-   "score": 16.94
+   "score": 21.94
   },
   "2187825515": {
    "id": "2187825515",
    "rank": {
     "totaluniquesubscribers": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Boeing 314 Yankee Clipper",
    "subs": 66330,
    "updated_ts": 1613901645,
    "updated": "2021-02-21",
    "meta_ts": 1788367541.650221,
-   "score": 16.0
+   "score": 21.0
   },
   "1998174882": {
    "id": "1998174882",
@@ -640,26 +640,26 @@
    "rank": {
     "totaluniquesubscribers": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Underwater Base K1 FULL",
    "subs": 68451,
    "updated_ts": 1662592454,
    "updated": "2022-09-08",
    "meta_ts": 1788367541.650221,
-   "score": 18.01
+   "score": 23.01
   },
   "2822237691": {
    "id": "2822237691",
    "rank": {
     "totaluniquesubscribers": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "MU-05 Talos Heavy Combat Mech",
    "subs": 70191,
    "updated_ts": 1661635013,
    "updated": "2022-08-28",
    "meta_ts": 1788367541.650221,
-   "score": 17.99
+   "score": 22.99
   },
   "2134187582": {
    "id": "2134187582",
@@ -705,13 +705,13 @@
    "rank": {
     "totaluniquesubscribers": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "MPV Pallas Mk.III",
    "subs": 59292,
    "updated_ts": 1624560549,
    "updated": "2021-06-25",
    "meta_ts": 1788367541.650221,
-   "score": 16.17
+   "score": 21.17
   },
   "2078544205": {
    "id": "2078544205",
@@ -2037,7 +2037,7 @@
    "updated_ts": 1787982891,
    "updated": "2026-08-29",
    "meta_ts": 1788374490.4196677,
-   "score": 34.92
+   "score": 34.91
   },
   "3791887063": {
    "id": "3791887063",
@@ -2425,13 +2425,13 @@
    "rank": {
     "totaluniquesubscribers": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Puma Mk.III",
    "subs": 56116,
    "updated_ts": 1624627036,
    "updated": "2021-06-25",
    "meta_ts": 1788374490.4196677,
-   "score": 16.11
+   "score": 21.11
   },
   "2905827122": {
    "id": "2905827122",
@@ -2490,26 +2490,26 @@
    "rank": {
     "totaluniquesubscribers": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "USS Iowa BB61 Battleship",
    "subs": 58491,
    "updated_ts": 1660965161,
    "updated": "2022-08-20",
    "meta_ts": 1788374490.4196677,
-   "score": 17.72
+   "score": 22.72
   },
   "2620715809": {
    "id": "2620715809",
    "rank": {
     "totaluniquesubscribers": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "[DLC] [FPS Friendly] P700 ASW Patrol Boat \"Coyote\"",
    "subs": 54412,
    "updated_ts": 1648337139,
    "updated": "2022-03-27",
    "meta_ts": 1788374490.4196677,
-   "score": 16.99
+   "score": 21.99
   },
   "1930747946": {
    "id": "1930747946",
@@ -2529,13 +2529,13 @@
    "rank": {
     "totaluniquesubscribers": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "L-02 Republique Helicopter Assault Carrier",
    "subs": 54210,
    "updated_ts": 1648021741,
    "updated": "2022-03-23",
    "meta_ts": 1788374490.4196677,
-   "score": 16.97
+   "score": 21.97
   },
   "2312520134": {
    "id": "2312520134",
@@ -2763,13 +2763,13 @@
    "rank": {
     "totaluniquesubscribers": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Bell-Boeing MV-22B \"Osprey\" circa 2006",
    "subs": 48778,
    "updated_ts": 1668323500,
    "updated": "2022-11-13",
    "meta_ts": 1788374490.4196677,
-   "score": 17.92
+   "score": 22.92
   },
   "2304446315": {
    "id": "2304446315",
@@ -2893,13 +2893,13 @@
    "rank": {
     "totaluniquesubscribers": 3
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "DDG 965 USS Kinkaid",
    "subs": 45151,
    "updated_ts": 1634507468,
    "updated": "2021-10-18",
    "meta_ts": 1788374490.4196677,
-   "score": 16.17
+   "score": 21.17
   },
   "1891002603": {
    "id": "1891002603",
@@ -2945,13 +2945,13 @@
    "rank": {
     "totaluniquesubscribers": 3
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Luna Mk.I - Fast Response",
    "subs": 49067,
    "updated_ts": 1624903085,
    "updated": "2021-06-29",
    "meta_ts": 1788374490.4196677,
-   "score": 15.94
+   "score": 20.94
   },
   "3406598264": {
    "id": "3406598264",
@@ -3062,13 +3062,13 @@
    "rank": {
     "totaluniquesubscribers": 3
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Research Vessel Kasugano Sora",
    "subs": 40593,
    "updated_ts": 1639577249,
    "updated": "2021-12-15",
    "meta_ts": 1788374490.4196677,
-   "score": 16.24
+   "score": 21.24
   },
   "2538274315": {
    "id": "2538274315",
@@ -3114,13 +3114,13 @@
    "rank": {
     "totaluniquesubscribers": 3
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "P-121 Griffon Sub Hunter",
    "subs": 42296,
    "updated_ts": 1639878848,
    "updated": "2021-12-19",
    "meta_ts": 1788374490.4196677,
-   "score": 16.3
+   "score": 21.3
   },
   "2557904816": {
    "id": "2557904816",
@@ -3140,13 +3140,13 @@
    "rank": {
     "totaluniquesubscribers": 3
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Sunseeker 131 Yacht (Update)",
    "subs": 44172,
    "updated_ts": 1668697933,
    "updated": "2022-11-17",
    "meta_ts": 1788374490.4196677,
-   "score": 17.82
+   "score": 22.82
   },
   "2554590347": {
    "id": "2554590347",
@@ -3244,13 +3244,13 @@
    "rank": {
     "totaluniquesubscribers": 4
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "P-111 Drache Light Fast Attack Boat",
    "subs": 41304,
    "updated_ts": 1671819381,
    "updated": "2022-12-24",
    "meta_ts": 1788374490.4196677,
-   "score": 17.93
+   "score": 22.93
   },
   "2787927696": {
    "id": "2787927696",
@@ -3478,13 +3478,13 @@
    "rank": {
     "totaluniquesubscribers": 4
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Sverd Class Corvette - High Speed Warship",
    "subs": 37763,
    "updated_ts": 1635179616,
    "updated": "2021-10-26",
    "meta_ts": 1788374490.4196677,
-   "score": 15.97
+   "score": 20.97
   },
   "1564489987": {
    "id": "1564489987",
@@ -3504,13 +3504,13 @@
    "rank": {
     "totaluniquesubscribers": 4
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "C-188 Argus Tactical Transport",
    "subs": 38061,
    "updated_ts": 1657412201,
    "updated": "2022-07-10",
    "meta_ts": 1788374490.4196677,
-   "score": 16.98
+   "score": 21.98
   },
   "2189065954": {
    "id": "2189065954",
@@ -3530,26 +3530,26 @@
    "rank": {
     "totaluniquesubscribers": 4
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "UNSC M290-M Gungoose",
    "subs": 39031,
    "updated_ts": 1657027442,
    "updated": "2022-07-05",
    "meta_ts": 1788374490.4196677,
-   "score": 16.99
+   "score": 21.99
   },
   "2701442254": {
    "id": "2701442254",
    "rank": {
     "totaluniquesubscribers": 4
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "J/A-107 Spectre Strike Fighter/Attacker",
    "subs": 37603,
    "updated_ts": 1654758943,
    "updated": "2022-06-09",
    "meta_ts": 1788374490.4196677,
-   "score": 16.83
+   "score": 21.83
   },
   "2385026618": {
    "id": "2385026618",
@@ -3653,7 +3653,7 @@
    "updated_ts": 1788316900,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 35.94
+   "score": 35.93
   },
   "3076080596": {
    "id": "3076080596",
@@ -4070,7 +4070,7 @@
    "updated_ts": 1788273779,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 31.21
+   "score": 31.2
   },
   "3773336761": {
    "id": "3773336761",
@@ -5024,7 +5024,7 @@
    "updated_ts": 1773535044,
    "updated": "2026-03-15",
    "meta_ts": 1788411023.4671066,
-   "score": 36.13
+   "score": 36.12
   },
   "3648742937": {
    "id": "3648742937",
@@ -6528,7 +6528,7 @@
    "updated_ts": 1788616616,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 35.67
+   "score": 35.66
   },
   "3795982242": {
    "id": "3795982242",
@@ -8319,7 +8319,7 @@
    "updated_ts": 1784220297,
    "updated": "2026-07-17",
    "meta_ts": 1788750456.026379,
-   "score": 35.51
+   "score": 35.5
   },
   "3765675149": {
    "id": "3765675149",
