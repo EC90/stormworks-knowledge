@@ -1,0 +1,13 @@
+{
+  "name": "sw-pony-headless-harness",
+  "version": "1.0.0",
+  "description": "Pony IDE headless simulator/renderer for Stormworks Lua: reuses paint.js + stormworks_lua_api.js + lua_emulator.js from the Pony IDE snapshot, drives them in Node with fengari + @napi-rs/canvas",
+  "main": "pony_sim.js",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.8",
+    "fengari": "^0.1.5",
+    "fengari-interop": "^0.1.4"
+  }
+}

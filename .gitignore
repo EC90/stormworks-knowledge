@@ -43,3 +43,6 @@ Desktop.ini
 
 # sw-lua-dev harness 依赖（fengari；协作者本地 npm install 重建）
 技能库/sw-lua-dev/harness/node_modules/
+
+# sw-pony-headless 本地依赖
+技能库/sw-pony-headless/harness/node_modules/
