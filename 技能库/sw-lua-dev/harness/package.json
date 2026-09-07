@@ -4,6 +4,6 @@
   "private": true,
   "description": "Stormworks MC Lua headless simulator (fengari). node_modules stays local, not committed.",
   "dependencies": {
-    "fengari": "^0.2.5"
+    "fengari": "^0.1.5"
   }
 }

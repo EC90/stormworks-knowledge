@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07 22:18:03",
+ "generated": "2026-09-07 22:20:23",
  "weights": {
   "trend": 0.28,
   "subs": 0.24,
@@ -1615,7 +1615,7 @@
    "updated_ts": 1788313110,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 41.11
+   "score": 41.1
   },
   "3793688143": {
    "id": "3793688143",
@@ -1674,7 +1674,7 @@
    "rank": {
     "trend": 3
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "Fire Fighting Cart",
    "subs": 15,
    "updated_ts": 1788212123,
@@ -1701,7 +1701,7 @@
     "trend": 3,
     "lastupdated": 4
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "Cargo Transport Cart",
    "subs": 13,
    "updated_ts": 1788215777,
@@ -1714,7 +1714,7 @@
    "rank": {
     "trend": 3
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "XL Transport Cart",
    "subs": 14,
    "updated_ts": 1788211990,
@@ -1728,7 +1728,7 @@
     "trend": 3,
     "lastupdated": 4
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "Golf Cart",
    "subs": 12,
    "updated_ts": 1788212527,
@@ -6118,13 +6118,13 @@
    "rank": {
     "trend": 3
    },
-   "state": "已提取",
+   "state": "已学习",
    "title": "submarine",
    "subs": 1,
    "updated_ts": 1788496079,
    "updated": "2026-09-04",
    "meta_ts": 1788542775.2031558,
-   "score": 38.11
+   "score": 35.11
   },
   "3795335428": {
    "id": "3795335428",
@@ -6987,7 +6987,7 @@
    "updated_ts": 1788590978,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 29.08
+   "score": 29.07
   },
   "3427785577": {
    "id": "3427785577",
@@ -7947,13 +7947,13 @@
    "rank": {
     "trend": 3
    },
-   "state": "已提取",
+   "state": "已学习",
    "title": "Morris 1800/BMC ADO17 Sedan",
    "subs": 7,
    "updated_ts": 1788564702,
    "updated": "2026-09-05",
    "meta_ts": 1788716691.4449577,
-   "score": 39.9
+   "score": 36.9
   },
   "3792380019": {
    "id": "3792380019",
