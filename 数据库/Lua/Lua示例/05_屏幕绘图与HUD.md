@@ -4936,3 +4936,57 @@ end
 - ⚠ 反面教材：居中用 `#sLap*4` 估宽，而实际字距 `pd` 是 9——**估宽常量与绘制参数必须同源**，否则换字号就整体偏移；精确做法见 `05` §62 的按字宽手算右对齐。
 - 关联：`05` §40（完整 3D 管线）/ §56（屏上小游戏骨架）/ §60（3 位 hex 超长串字模）/ §66（二进制点阵）/ §70（同一作品的伪 3D 路面）/ `01` §12（大表搬进属性文本）
 - 完整脚本：`../../../AI相关/_提取暂存/_b1/3797047292_vehicle_8.lua`
+
+## §72 地图面板三细节：**`drawMap` 只能居中就用世界坐标偏移腾侧栏** / 平移乘缩放、缩放却没乘（反例）/ 触控几何放 `onTick`
+
+- 来源：steam id 3673320975 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3673320975 · 载具（DAX-77 核动力飞机，`_vehicle_11` 地图台 / `_vehicle_10` 气象台）
+- 更新时间：2026-02-25
+- 用到：GPS（世界坐标）、触控屏、复合输入传屏宽高、`map.screenToMap`
+- 亮点：三个「地图台绕不开」的细节——`drawMap` 没有屏幕偏移参数时的腾位办法、平移与缩放步长该不该乘缩放的对照、以及 `onTick` 里拿不到屏幕尺寸时的通用解法。
+
+```lua
+-- ① 触控几何放 onTick：屏宽高只能从复合输入拿（onTick 里没有 screen.getWidth）
+XMax, YMax = input.getNumber(1), input.getNumber(2)   -- 上游屏脚本把 w/h 当数值发过来
+inputX, inputY = input.getNumber(3), input.getNumber(4)
+isPressed = input.getBool(1)
+
+trg1Pos1X, trg1Pos1Y = XMax/2, YMax-1                 -- 「下」键顶点
+trg1Pos2X, trg1Pos2Y = trg1Pos1X-15, trg1Pos1Y-15
+trg1Pos3X, trg1Pos3Y = trg1Pos1X+15, trg1Pos1Y-15
+-- … 上 / 左 / 右 三个方向键同样以 XMax/YMax 为基准
+
+-- ② 平移步长 × 缩放：视野越宽，一次挪的米数越多，屏幕位移才恒定
+if isPressed and inputX>=trg1Pos2X and inputX<=trg1Pos3X
+                and inputY>=trg1Pos2Y and inputY<=trg1Pos1Y then
+  YCordinateFix = YCordinateFix - 5*zoom
+end
+
+-- ③ 缩放却是固定步长（反例，见下方说明）
+if isPressed and inputX>=11 and inputX<=21 and inputY>=5 and inputY<=15 and zoom>0.1 then
+  zoom = zoom - 0.025
+end
+
+-- ④ 中心复位：三个状态一次清零，别逐个写
+if isPressed and inputX<=49 and inputX>=42 and inputY<=15 and inputY>=5 then
+  YCordinateFix, XCordinateFix, zoom = 0, 0, 1
+end
+
+-- ⑤ 光标处世界坐标：screenToMap 把像素反投影成世界坐标
+XCordinateShowNR, YCordinateShowNR =
+    map.screenToMap(mapXCordinate, mapYCordinate, zoom, XMax, YMax, inputX, inputY)
+```
+
+```lua
+-- ⑥ drawMap 只能居中：想让本舰偏左，只能偏移世界坐标（不是屏幕坐标）
+screen.drawMap(gpsX - 350, gpsY, zoom)      -- 左侧留出 52 px 信息栏
+```
+
+- 🔑 **`drawMap` 没有屏幕偏移参数**，地图中心永远落在屏幕正中。要在左边让出一条信息栏，唯一办法是**把中心的世界坐标往反方向挪**：`gpsX - 350` 让地图内容整体右移，本舰就落在偏左位置。
+- ⚠ **偏移量的单位是米，不是像素**：屏幕上的位移 = `350 × 每米像素数`，而每米像素数随 `zoom` 变。本例 `zoom = 2.5` 是常量，一次标定就够；**一旦 zoom 可调，侧栏宽度会跟着缩放一起抖**。要么锁死 zoom，要么按 `350*(zoom0/zoom)` 反向补偿。
+- 🔑 **平移乘缩放、缩放不乘缩放——同一份脚本里两种手感**：平移 `±5*zoom` 是对的（视野越宽挪得越多，屏幕位移恒定）；缩放 `±0.025` 是错的（`zoom=0.1` 时一档跳 25%，`zoom=50` 时只跳 0.05%，前后完全两个手感）。正确写法是 `zoom = zoom*0.975` / `zoom*1.025`，见 `04` §9。
+- 🔑 **`onTick` 里没有 `screen.getWidth()`**：屏幕尺寸只能从复合输入拿。作者让上游屏脚本把 `w/h` 当数值发过来，于是**触控几何可以全部在 `onTick` 里算**（顶点只依赖尺寸、不依赖每帧触控），`onDraw` 只管画。与 `05` §32 那种「交互全放 `onDraw`」的分法相反：**几何在 tick、绘制在 draw**，好处是命中判定不随绘制帧率抖动。
+- ⚠ **四个方向键用的是外接矩形不是三角形**（`inputX>=trg1Pos2X and inputX<=trg1Pos3X and inputY>=...`），三角形的四个角会误触。真要精确判定得用重心坐标判点是否在三角形内。但按钮紧贴屏幕四边，角上的误触区大多落在屏外，实用上可接受——**这是「用几何位置规避判定误差」的取巧，不是写了正确的判定**。
+- 🔑 **复位键一次覆盖全部状态**：`XCordinateFix / YCordinateFix / zoom` 三个一起清零。凡是「回到初始态」的按钮都该这么写——漏掉一个就会出现「看起来复位了但地图还是歪的」。
+- ⚠ 气象台那块（`_vehicle_10`）还示范了 `compassDir = input.getNumber(8) * -1`：游戏罗盘东为负、数学方位东为正，乘 `-1` 对齐（见 `06` §?、`03` §1）。改作品时务必核对通道符号，这是方位类 bug 的第一嫌疑。
+- 关联：`04` §9（指数缩放与比例尺二分跳档，本例缩放的反面参照）、`05` §32（虚拟摇杆拖动地图 + `screenToMap`）、`05` §39（地图控件：命中区即广播 + 按屏尺寸裁剪）、`02` §12（多屏共用一个状态，屏宽高互传的另一种用法）、`00_速查 §16`（screen API）
+- 完整脚本：`../../../AI相关/_提取暂存/3673320975_vehicle_11.lua`、`3673320975_vehicle_10.lua`
