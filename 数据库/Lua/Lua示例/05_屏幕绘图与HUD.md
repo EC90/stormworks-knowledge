@@ -4713,3 +4713,226 @@ end
 - 🔑 **分段色条的阈值写 `i/11` 而不是 `i/10`**：分母比格数大 1，保证输入为 1 时整条全亮、为 0 时全灭；写 `i/10` 会让第 0 格永远亮着。
 - 八向归一那两行等价于 `04` §1.2b 的 `((d+0.5)%1)-0.5`，手写版多 4 行但少一次取模——字符紧张时可以用取模版替换。
 - 关联：`05` §30（触控滚轮分页）、`04` §1.2b（圈最短角差）、`03` §36（计时必须放 `onTick`）
+## §69 位图资源的**两级字典替换压缩** + 8 位 hex RGBA 逐像素 + **帧号时分复用**多块共屏
+
+- 来源：steam id **3797173569** · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=3797173569> · **载具**（MLB-47 U.S Coast Guard (SAR)，`_vehicle_25` 机徽/标识屏）
+- 更新时间：2026-09-07
+- 用到：屏幕（32×16 左右的标识屏）、数值输入 1（帧号）
+- 亮点：`05` §42 / §50 / §66 讲的是「字模怎么编码」，这一节是**整幅彩色位图怎么塞进 8192 字符**——作者手搓了一套两级词典替换，压缩率比行段表高一个量级。
+
+```lua
+-- ① 像素串：每像素 8 位 hex = RRGGBBAA，';' 分行
+--    解包后 img[行][列] = false（透明）或 {r,g,b,a}
+function parse(hex)
+  r = 1
+  while drpl[r] do                    -- 🔑 第一级：长串 -> 单字符
+    hex = string.gsub(hex, drpl[r][2], drpl[r][1])
+    r = r + 1
+  end
+  r = 1
+  while srpl[r] do                    -- 🔑 第二级：高频短串 -> 单字符
+    hex = string.gsub(hex, srpl[r][2], srpl[r][1])
+    r = r + 1
+  end
+  img = {} liC = 1 lasCol = 0
+  colPo = string.find(hex, ";")
+  while colPo do
+    img[liC] = {}
+    ln = string.sub(hex, lasCol + 1, colPo)
+    c = 0 i = 1
+    while c < string.len(ln) do
+      clr = string.sub(ln, c+1, c+8)
+      if not (clr == ";") then
+        r = tonumber("0x"..string.sub(clr,1,2))
+        g = tonumber("0x"..string.sub(clr,3,4))
+        b = tonumber("0x"..string.sub(clr,5,6))
+        a = tonumber("0x"..string.sub(clr,7,8))
+        if a == 0 then
+          img[liC][i] = false         -- 🔑 全透明存 false，省掉整张子表
+        else
+          img[liC][i] = {r, g, b, a}
+        end
+      end
+      c = c + 8 i = i + 1
+    end
+    lasCol = colPo
+    colPo = string.find(hex, ";", colPo + 1)
+    liC = liC + 1
+  end
+  return img
+end
+
+clM = 0.4                             -- 全局亮度系数：改一处调整幅
+function paPi(x, y, r, g, b, a)       -- 单像素画点
+  if not r then r = 0 end             -- 逐个兜 nil（false 没有 [1]）
+  if not g then g = 0 end
+  if not b then b = 0 end
+  if not a then a = 0 end
+  screen.setColor(r*clM, g*clM, b*clM, 255)
+  screen.drawRectF(x-1, y-1, 1, 1)
+end
+
+id = 10                               -- 本方块的分时槽位
+frame = 0
+function onDraw()
+  if frame == id then                 -- 🔑 帧号等于自己的 id 才画
+    sW = screen.getWidth() sH = screen.getHeight()
+    xO = (sW/2)-16.5 yO = (sH/2)-8
+    ln = 1
+    while not (image[ln] == nil) do
+      clr = 1
+      while not (image[ln][clr] == nil) do
+        if image[ln][clr] ~= false then
+          paPi(xO+clr, yO+ln, image[ln][clr][1], image[ln][clr][2],
+               image[ln][clr][3], image[ln][clr][4]*alpha)
+        end
+        clr = clr + 1
+      end
+      ln = ln + 1
+    end
+  end
+end
+
+function onTick()
+  frame = input.getNumber(1)          -- 帧号由一路数值通道广播
+end
+
+-- 词典条目形如 {替换符, 原串}
+drpl = {{"A","=,:2yef!B"}, {"B","n~_8f8_!x"}, {"C","ty,u:2U~D"}}   -- 10 字符级长重复串
+srpl = {{"I","000000"}, {"H","ggggg"}, {"w","000000ff"}, {"x","00000000"}}  -- 高频短串
+hx = "XXXZx;YZxl--!!YZ;YZk#efzUYxx;..."                             -- 压缩后的像素串
+image = parse(hx)
+```
+
+- 要点
+  - **两级词典**：`drpl` 收 10 字符级的长重复串（逐幅统计、人工挑），`srpl` 收 3~10 字符的高频短串（多半是纯色连刷 `000000ff` / `00000000`）。`gsub` 按表顺序执行，**长串在前**是硬要求——反了会先被短串吃掉一部分，长串再也匹配不上。
+  - **替换符要挑像素串里用不上的字符**：作者的像素串只用 `0-9a-f` 与 `;`，于是 `A~Z`、`=,:~_-!#$` 全部可以当替换符，等于白捡几十个词典位。
+  - **`a == 0` 存 `false` 而不是空表**：透明像素常常占一半以上，省下的内存与遍历开销都很可观；代价是取值前必须先判 `~= false`。
+  - **帧号时分复用**：多个脚本方块各写一个 `id`，共用一路 `frame` 通道，谁的 id 等于当前帧号谁才画。两个作用——① 把「一幅画 = 8192 字符」的上限拆成 N 个方块；② 顺带实现翻页动画（`frame` 由外部计数驱动）。⚠ 代价是每幅图的实际刷新率降到 1/N，只适合机徽、标识这类静态图。
+  - `clM` 一个系数管整幅亮度，日夜主题切换只改这一个数。
+- ⚠ 反面教材：原脚本写的是 `if not image[ln][clr] == false then`。Lua 里 `not` 的优先级高于 `==`，实际算的是 `(not x) == false`，语义「碰巧」正确但极易被后人改坏——**一律写 `image[ln][clr] ~= false`**。另外 `first = string.sub(ln, c+1, c+1)` 算出来从没被用过，是压缩前的残留。
+- 关联：`05` §42（行段压缩表）/ §50（3×5 字模单整数）/ §66（二进制字符串点阵）/ §40（3D 管线的帧号戳去重——同一个「帧号」思路的另一种用法）、`01` §12（属性哨兵值编码）
+- 完整脚本：`../../../AI相关/_提取暂存/_b1/3797173569_vehicle_25.lua`
+## §70 伪 3D 的**一行透视** + **取模滚动条纹**：不用矩阵的赛车路面
+
+- 来源：steam id **3797047292** · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=3797047292> · **载具**（`arcade`，`_vehicle_20` 躲避类小游戏）
+- 更新时间：2026-09-07
+- 用到：屏幕、数值输入 1/2（车左右）、布尔输入 2（开始）
+- 亮点：`05` §40 讲的是**通用** 3D 管线（4×4 矩阵 + 齐次裁剪 + 深度排序）；摄像机固定不动时，整套投影能压成**一行乘除**——路面条纹的滚动连偏移变量都不用存。
+
+```lua
+-- ① 伪 3D：深度 d 越大 = 越近。世界 x → 屏幕 x 只差一个比例
+function drawObstacles()
+  for i = 1, numObstacles do
+    if opY[i] < scrh then
+      screen.setColor(8,4,2)
+      screen.drawRectF(opX[i]*opY[i]/scrh + scrw/2,    -- 🔑 x 随深度线性放大
+                       opY[i],                         --    y 直接拿深度当屏幕行
+                       opY[i]*0.05+2, opY[i]*0.05+2)   -- 🔑 尺寸同样随深度线性放大
+    end
+  end
+end
+
+-- ② 滚动条纹：不存偏移，判「这一行此刻是否踩在条纹上」
+function drawLane()
+  amnt = h + 16
+  while amnt > 0 do
+    screen.setColor(255,255,255)
+    if amnt%8 == gameTimer%8 or amnt%8 == (gameTimer+1)%8 then   -- 🔑 两行宽的白块
+      screen.setColor(0,0,0)
+    end
+    screen.drawLine(w/2, amnt-16, w/2+1, amnt-16)
+    amnt = amnt - 1
+  end
+end
+-- 路肩同理：周期改 4、只在命中行上色，见原脚本 drawLines 的 (amnt)%4 == (gameTimer)%4
+
+-- ③ 难度曲线：障碍数随分数涨，算完立刻夹上限
+numObstacles = math.floor(2 + score/1000)
+if numObstacles > 16 then numObstacles = 16 end
+acc = acc + 0.01
+subtimer = subtimer + speed*acc        -- ⚠ 越跑越快：加速度直接叠在步进量上
+if subtimer > tickLenght then
+  gameTimer = gameTimer + 1
+  subtimer = 0
+  processObstacles()
+end
+```
+
+- 要点
+  - **一行透视的成立条件**：摄像机固定在原点朝 +z，屏幕行号直接当深度。于是「近大远小」全靠 `d` 一个变量——`opX` 存的是**归一化横向偏移**（可正可负），乘 `d/scrh` 后自然向画面中心收敛；物体边长同样 `k*d+2`。省掉整套矩阵与深度排序（对比 `05` §40）。
+  - ⚠ 只在**摄像机不转向**时成立。要转弯就把 `opX` 先减去摄像机横向位移再投影；要变高度就同样处理 `y`。
+  - **取模滚动条纹**：`amnt%P == gameTimer%P` 等价于「这一行此刻正踩在条纹上」，不需要保存偏移、也不用管回绕；想加宽就多写一项 `(gameTimer+1)%P`。**反向滚动把 `gameTimer` 换成 `-gameTimer`**——Lua 里 `-1%8` 等于 `7`，正好自动回绕。
+  - 难度先算再夹上限：`numObstacles` 直接当循环上界，超了会读到 `nil` 而在 `opX[i]*opY[i]` 上报错。
+  - 步进用 `subtimer + speed*acc` 累加、`acc` 每 tick 涨一点，是一个**不依赖 `math.pow` 的加速曲线**；换 `tickLenght` 就能整体调速。
+- ⚠ 反面教材：`drawLives` 写的是 `for i = 0, lives`，`lives=5` 时画 **6** 个图标；半开区间要写 `for i = 1, lives` 或 `i < lives`。另外 `opY[i] = 99999` 当「未激活」哨兵、配合 `if opY[i] < scrh` 判可见，是个省事的写法，但要注意它在第一次 `processObstacles` 之前不会自己回到场内。
+- 关联：`05` §40（通用 3D 管线，需要转视角时用它）/ §56（屏上小游戏骨架）/ §66（点阵图）/ `04` §1.2（取模与角差归一）
+- 完整脚本：`../../../AI相关/_提取暂存/_b1/3797047292_vehicle_20.lua`
+## §71 屏上游娱的**赛道 DSL 展开** + **菱形转场** + **通知条留存淡出**
+
+- 来源：steam id **3797047292** · 描述页 <https://steamcommunity.com/sharedfiles/filedetails/?id=3797047292> · **载具**（`arcade`，`_vehicle_8` 主菜单 / 赛况层）
+- 更新时间：2026-09-07
+- 用到：屏幕（288×160 设计分辨率）、属性文本（赛道 / 模型 / 字模三套大表）、数值与布尔输入
+- 亮点：**赛道只存「方向码 + 长度」两个数字一段**，运行时展开成等距点列；转场与提示条各用一个计数器搞定，没有多余状态。
+
+```lua
+-- DIR[码] = {lr=转向±1, hpi=起始相位, xp=单位方向X, zp=单位方向Z}；data = {{t=码, p=长度}, ...}
+function genPath(data)
+  local path, pX, pZ = {}, 0, 0
+  for _, part in ipairs(data) do
+    if part.t < 8 then                                  -- 直线：按 DIV_S 等距切段
+      for _ = 1, FL(part.p/DIV_S) do
+        pX = pX + DIR[part.t].xp*DIV_S
+        pZ = pZ + DIR[part.t].zp*DIV_S
+        TI(path, {x=pX, z=pZ, t=part.t})
+      end
+    else                                                -- 弯道：段长当半径，圆心放在法向上
+      loop = FL(part.p/DIV_S)
+      step, rad = (PI/2)/loop, HPI*DIR[part.t].hpi
+      cenX, cenZ = pX + part.p*DIR[part.t].xp, pZ + part.p*DIR[part.t].zp
+      for _ = 1, loop do
+        rad = rad + step*DIR[part.t].lr
+        TI(path, {x=cenX + part.p*COS(rad), z=cenZ + part.p*SIN(rad), t=part.t})
+      end
+      pX, pZ = path[#path].x, path[#path].z
+    end
+  end
+  return path
+end
+
+-- ① 菱形转场：把格子降维成 x+y，与进度比大小；一个布尔换方向
+function drWipe(IO)
+  for y = 0, 10 do for x = 0, 18 do
+    local o, p = x+y, cntWp
+    if IO then o, p = p, o end
+    if o > p then
+      if (x+y)%2 == 0 then C(120,120,120) DRF(x*16, y*16, 16, 16)
+      else C(60,60,60) DRF(SC_W-x*16, SC_H-y*16, 16, 16) end   -- 🔑 另一半从右下角补，视觉更快
+    end
+  end end
+end
+
+-- ② 通知条：sLapOld 留住上一次内容，cntLp 倒计时兼做淡出
+function drNotif(isLap, sLap)
+  sLap = sLap or "999"
+  sLapOld = sLapOld or "999"
+  if isLap then sLapOld = sLap else sLap = sLapOld end   -- 🔑 非刷新帧沿用旧串
+  if (not isLap) and cntLp == 0 then return end
+  if isLap then cntLp = MAXCNTLP end
+  local adj = FL((MAXCNTLP-cntLp)*SC_W/MAXCNTLP)
+  local al = 220
+  if cntLp < 30 then al = FL(220-(1-cntLp/30)*200) end   -- 最后半秒淡出
+  C(10,10,10,al)  DRF(0, 40, SC_W, 20)
+  C(200,200,0,al) LF(CEN_X-(#sLap*4), 44, sLap, 9)
+  C(200,200,200,al) DL(0, 40, SC_W-adj, 40) DL(adj, 60, SC_W, 60)
+end
+```
+
+- 要点
+  - **赛道 DSL**：每个弯只存两个数字（方向码 + 长度），一张 8 项方向表就能描述任意赛道。直线按 `DIV_S` 切成等距点；弯道把**段长当作半径**、圆心放在当前点的法向（`DIR[].xp/zp` 已经是单位方向），弧长按 90° 均分，`lr=±1` 决定左右。展开后的点列既是**渲染路径**也是**进度基准**——`csIdx` 直接当圈进度，终点前 15 个点染成品红提示。
+  - **菱形 wipe**：把二维格子降维成一维 `x+y` 与进度比较，就得到对角线擦除；奇偶分成两半、一半从左上角一半从右下角补进，同样的进度下观感推进得更快。`IO` 一个布尔切换进/出。
+  - **通知条留存**：`sLapOld` 是唯一的「记忆」，非刷新帧沿用旧串，于是「新事件刷新内容 → 倒计时 → 淡出」三态只用一个计数器 + 一个字符串变量。淡出改的是 **alpha 通道**而不是 RGB，底色与文字同步变化。
+  - 倒计时进度 `adj` 直接映射成两条线（`DL(0,CY,SC_W-adj,CY)` 与 `DL(adj,CY+20,SC_W,CY+20)`），上边从右往左缩、下边从左往右缩，是一个零成本的进度条。
+- ⚠ 反面教材：居中用 `#sLap*4` 估宽，而实际字距 `pd` 是 9——**估宽常量与绘制参数必须同源**，否则换字号就整体偏移；精确做法见 `05` §62 的按字宽手算右对齐。
+- 关联：`05` §40（完整 3D 管线）/ §56（屏上小游戏骨架）/ §60（3 位 hex 超长串字模）/ §66（二进制点阵）/ §70（同一作品的伪 3D 路面）/ `01` §12（大表搬进属性文本）
+- 完整脚本：`../../../AI相关/_提取暂存/_b1/3797047292_vehicle_8.lua`
