@@ -8,7 +8,7 @@
   "last_seen": "心跳租约：本机每轮结束时写入 UTC+8 时间戳。云端任务启动先读此字段，2.5h 内则跳过（时间互斥，非并行互斥）。"
  },
  "schema": 2,
- "last_seen": "2026-09-08 01:03",
+ "last_seen": "2026-09-08 01:05",
  "pending_ids": [],
  "value": {
   "enabled": true,
@@ -1624,8 +1624,8 @@
   "3797409272"
  ],
  "completed": false,
- "last_run": "2026-09-08 01:03",
- "last_note": "轮16: fresh24(14有货,22全新段=MFD多页框架/仪表同族); 0新例题; no-lua 24; fresh剩213",
+ "last_run": "2026-09-08 01:05",
+ "last_note": "轮17: fresh24(11有货,2全新段=矢量投影姿态误差与09矩阵法同题); 0新例题; no-lua 24; fresh剩189",
  "ranked_pool_size": 665,
  "cursor_page": 21
 }
