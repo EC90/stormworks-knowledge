@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07 22:20:23",
+ "generated": "2026-09-07 23:51:36",
  "weights": {
   "trend": 0.28,
   "subs": 0.24,
@@ -182,7 +182,7 @@
    "updated_ts": 1788294299,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 59.14
+   "score": 59.13
   },
   "3792340431": {
    "id": "3792340431",
@@ -248,7 +248,7 @@
    "updated_ts": 1788020847,
    "updated": "2026-08-30",
    "meta_ts": 1788367541.650221,
-   "score": 61.03
+   "score": 61.02
   },
   "3792170962": {
    "id": "3792170962",
@@ -287,7 +287,7 @@
    "updated_ts": 1788011894,
    "updated": "2026-08-29",
    "meta_ts": 1788367541.650221,
-   "score": 59.47
+   "score": 59.46
   },
   "3788743617": {
    "id": "3788743617",
@@ -352,7 +352,7 @@
    "updated_ts": 1788203054,
    "updated": "2026-09-01",
    "meta_ts": 1788367541.650221,
-   "score": 57.69
+   "score": 57.68
   },
   "3793581819": {
    "id": "3793581819",
@@ -404,7 +404,7 @@
    "updated_ts": 1768305481,
    "updated": "2026-01-13",
    "meta_ts": 1788367541.650221,
-   "score": 51.4
+   "score": 51.39
   },
   "2559118160": {
    "id": "2559118160",
@@ -549,13 +549,13 @@
    "rank": {
     "totaluniquesubscribers": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "SA-H90C Aide - Super medium SAR helicopter",
    "subs": 79836,
    "updated_ts": 1767638751,
    "updated": "2026-01-06",
    "meta_ts": 1788367541.650221,
-   "score": 32.63
+   "score": 35.63
   },
   "2659623722": {
    "id": "2659623722",
@@ -867,7 +867,7 @@
    "updated_ts": 1788366660,
    "updated": "2026-09-03",
    "meta_ts": 1788367541.650221,
-   "score": 25.73
+   "score": 25.72
   },
   "3644121829": {
    "id": "3644121829",
@@ -880,7 +880,7 @@
    "updated_ts": 1788362920,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 30.06
+   "score": 30.05
   },
   "3644123386": {
    "id": "3644123386",
@@ -906,7 +906,7 @@
    "updated_ts": 1788361918,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 29.61
+   "score": 29.6
   },
   "3793781426": {
    "id": "3793781426",
@@ -965,26 +965,26 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "M4 Cargoship",
    "subs": 8,
    "updated_ts": 1788352786,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 27.64
+   "score": 32.63
   },
   "3492097621": {
    "id": "3492097621",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Finnish vampire",
    "subs": 7,
    "updated_ts": 1788350797,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 27.49
+   "score": 32.48
   },
   "3794382107": {
    "id": "3794382107",
@@ -1050,7 +1050,7 @@
    "updated_ts": 1788340511,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 25.72
+   "score": 25.71
   },
   "3750832494": {
    "id": "3750832494",
@@ -1076,7 +1076,7 @@
    "updated_ts": 1788340473,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 25.72
+   "score": 25.71
   },
   "3794361376": {
    "id": "3794361376",
@@ -1169,7 +1169,7 @@
    "updated_ts": 1788319800,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 56.36
+   "score": 56.35
   },
   "3792875557": {
    "id": "3792875557",
@@ -1202,7 +1202,7 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "ALTA UniCon Box Semi Trailer (HGS/SIBTaT)",
    "subs": 8458,
    "updated_ts": 1788317068,
@@ -1215,13 +1215,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "ALTA Double Tanker Semi Trailer (HGS/SIBTaT)",
    "subs": 12003,
    "updated_ts": 1788316981,
    "updated": "2026-09-02",
    "meta_ts": 1788367541.650221,
-   "score": 36.79
+   "score": 36.78
   },
   "3463708507": {
    "id": "3463708507",
@@ -1274,7 +1274,7 @@
    "updated_ts": 1748322441,
    "updated": "2025-05-27",
    "meta_ts": 1788374490.4196677,
-   "score": 33.1
+   "score": 33.09
   },
   "3354562318": {
    "id": "3354562318",
@@ -1340,7 +1340,7 @@
    "updated_ts": 1788222776,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 60.73
+   "score": 60.72
   },
   "3790567011": {
    "id": "3790567011",
@@ -1635,33 +1635,33 @@
    "rank": {
     "trend": 3
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "Cargo Cart Fluid Trailer",
    "subs": 11,
    "updated_ts": 1788216353,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 37.29
+   "score": 37.28
   },
   "3793685101": {
    "id": "3793685101",
    "rank": {
     "trend": 3
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "Cargo Cart Trailer",
    "subs": 11,
    "updated_ts": 1788216313,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 37.29
+   "score": 37.28
   },
   "3793659463": {
    "id": "3793659463",
    "rank": {
     "trend": 3
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "The Battle Cart",
    "subs": 11,
    "updated_ts": 1788212168,
@@ -1687,7 +1687,7 @@
    "rank": {
     "trend": 3
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "Ambulance (Wambulance) Cart",
    "subs": 10,
    "updated_ts": 1788212092,
@@ -1734,7 +1734,7 @@
    "updated_ts": 1788212527,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 37.39
+   "score": 37.38
   },
   "3793625151": {
    "id": "3793625151",
@@ -1747,7 +1747,7 @@
    "updated_ts": 1788207587,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 35.52
+   "score": 35.51
   },
   "3793547471": {
    "id": "3793547471",
@@ -1775,7 +1775,7 @@
    "updated_ts": 1788222168,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 44.87
+   "score": 44.86
   },
   "3793044262": {
    "id": "3793044262",
@@ -1815,7 +1815,7 @@
    "updated_ts": 1788108925,
    "updated": "2026-08-31",
    "meta_ts": 1788374490.4196677,
-   "score": 35.85
+   "score": 35.84
   },
   "3792917553": {
    "id": "3792917553",
@@ -1841,7 +1841,7 @@
    "updated_ts": 1788103092,
    "updated": "2026-08-30",
    "meta_ts": 1788374490.4196677,
-   "score": 39.68
+   "score": 39.67
   },
   "3792849187": {
    "id": "3792849187",
@@ -1880,7 +1880,7 @@
    "updated_ts": 1788098029,
    "updated": "2026-08-30",
    "meta_ts": 1788374490.4196677,
-   "score": 39.58
+   "score": 39.57
   },
   "3792733367": {
    "id": "3792733367",
@@ -1913,7 +1913,7 @@
    "rank": {
     "trend": 3
    },
-   "state": "新",
+   "state": "已学习",
    "title": "Artificial horizon ball",
    "subs": 12,
    "updated_ts": 1788044525,
@@ -1952,13 +1952,13 @@
    "rank": {
     "trend": 3
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "ARGM-12 Radar Guided Missile (EHCS Compatible)",
    "subs": 10,
    "updated_ts": 1788031675,
    "updated": "2026-08-30",
    "meta_ts": 1788374490.4196677,
-   "score": 37.11
+   "score": 37.1
   },
   "3792117726": {
    "id": "3792117726",
@@ -2004,7 +2004,7 @@
    "rank": {
     "trend": 3
    },
-   "state": "新",
+   "state": "已学习",
    "title": "Customizable Artificial Horizon",
    "subs": 41,
    "updated_ts": 1783875856,
@@ -2050,14 +2050,14 @@
    "updated_ts": 1788042847,
    "updated": "2026-08-30",
    "meta_ts": 1788374490.4196677,
-   "score": 34.01
+   "score": 34.0
   },
   "3791768272": {
    "id": "3791768272",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已学习",
    "title": "Ostauto VertaDuo 42-Seat Double Decker",
    "subs": 74,
    "updated_ts": 1787955659,
@@ -2070,7 +2070,7 @@
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "Fisch Supertrike",
    "subs": 30,
    "updated_ts": 1787951093,
@@ -2110,20 +2110,20 @@
     "trend": 4,
     "lastupdated": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "geran 4",
    "subs": 16,
    "updated_ts": 1788223054,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 35.4
+   "score": 38.4
   },
   "3791143216": {
    "id": "3791143216",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "a300-600f 49tons clarks to tajin mission",
    "subs": 39,
    "updated_ts": 1787859564,
@@ -2136,7 +2136,7 @@
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "Half life2 Air boat",
    "subs": 65,
    "updated_ts": 1787856618,
@@ -2149,98 +2149,98 @@
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "t55 tank valami",
    "subs": 19,
    "updated_ts": 1787946424,
    "updated": "2026-08-29",
    "meta_ts": 1788374490.4196677,
-   "score": 35.5
+   "score": 38.5
   },
   "3791106273": {
    "id": "3791106273",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Chevrolet Corvair Greenbrier Ambulance",
    "subs": 38,
    "updated_ts": 1787855180,
    "updated": "2026-08-28",
    "meta_ts": 1788374490.4196677,
-   "score": 36.32
+   "score": 39.32
   },
   "3791100906": {
    "id": "3791100906",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "small truck  HAI K2700 carrera",
    "subs": 9,
    "updated_ts": 1787941488,
    "updated": "2026-08-29",
    "meta_ts": 1788374490.4196677,
-   "score": 34.62
+   "score": 37.62
   },
   "3791084033": {
    "id": "3791084033",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "AFC RDX-S \"Railfish II\"",
    "subs": 37,
    "updated_ts": 1787854198,
    "updated": "2026-08-28",
    "meta_ts": 1788374490.4196677,
-   "score": 36.29
+   "score": 36.28
   },
   "3791030175": {
    "id": "3791030175",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "1x1Realistic Tesla Cybertruk",
    "subs": 55,
    "updated_ts": 1787846439,
    "updated": "2026-08-28",
    "meta_ts": 1788374490.4196677,
-   "score": 36.78
+   "score": 39.78
   },
   "3790815486": {
    "id": "3790815486",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Fishing vessel Primrose",
    "subs": 53,
    "updated_ts": 1787813496,
    "updated": "2026-08-27",
    "meta_ts": 1788374490.4196677,
-   "score": 36.72
+   "score": 39.72
   },
   "3790773273": {
    "id": "3790773273",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "race car",
    "subs": 0,
    "updated_ts": 1787877408,
    "updated": "2026-08-28",
    "meta_ts": 1788374490.4196677,
-   "score": 31.66
+   "score": 34.66
   },
   "3790745635": {
    "id": "3790745635",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已学习",
    "title": "RMS Celstia",
    "subs": 61,
    "updated_ts": 1787973137,
@@ -2254,33 +2254,33 @@
     "trend": 4,
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "M.V. Massey",
    "subs": 75,
    "updated_ts": 1788224188,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 37.31
+   "score": 40.3
   },
   "3790692767": {
    "id": "3790692767",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Compact fishing doat",
    "subs": 15,
    "updated_ts": 1788099856,
    "updated": "2026-08-30",
    "meta_ts": 1788374490.4196677,
-   "score": 35.28
+   "score": 38.27
   },
   "3789551063": {
    "id": "3789551063",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "HMS Axford 1801 Merchant Cutter",
    "subs": 48,
    "updated_ts": 1787907367,
@@ -2299,7 +2299,7 @@
    "updated_ts": 1787596175,
    "updated": "2026-08-25",
    "meta_ts": 1788374490.4196677,
-   "score": 37.64
+   "score": 37.63
   },
   "3789234204": {
    "id": "3789234204",
@@ -2320,13 +2320,13 @@
     "trend": 4,
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "fishing boat V6",
    "subs": 5,
    "updated_ts": 1788129385,
    "updated": "2026-08-31",
    "meta_ts": 1788374490.4196677,
-   "score": 34.04
+   "score": 37.04
   },
   "3786135186": {
    "id": "3786135186",
@@ -2347,13 +2347,13 @@
     "trend": 4,
     "lastupdated": 3
    },
-   "state": "新",
+   "state": "已提取",
    "title": "submarine inspired by neotastic",
    "subs": 32,
    "updated_ts": 1788280903,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 36.26
+   "score": 39.26
   },
   "3782229190": {
    "id": "3782229190",
@@ -2379,20 +2379,20 @@
    "updated_ts": 1786317409,
    "updated": "2026-08-10",
    "meta_ts": 1788374490.4196677,
-   "score": 33.58
+   "score": 33.57
   },
   "3780179979": {
    "id": "3780179979",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Bumble Bee 28",
    "subs": 37,
    "updated_ts": 1786241922,
    "updated": "2026-08-09",
    "meta_ts": 1788374490.4196677,
-   "score": 35.7
+   "score": 38.7
   },
   "3765792028": {
    "id": "3765792028",
@@ -2405,7 +2405,7 @@
    "updated_ts": 1787944303,
    "updated": "2026-08-29",
    "meta_ts": 1788374490.4196677,
-   "score": 45.08
+   "score": 45.07
   },
   "1415916494": {
    "id": "1415916494",
@@ -2633,26 +2633,26 @@
    "rank": {
     "totaluniquesubscribers": 2
    },
-   "state": "新",
+   "state": "已提取",
    "title": "SAR Sikorsky S92 Rescue Helicopter (SAR Helicopter)",
    "subs": 65717,
    "updated_ts": 1759279035,
    "updated": "2025-10-01",
    "meta_ts": 1788374490.4196677,
-   "score": 30.25
+   "score": 33.25
   },
   "2958637641": {
    "id": "2958637641",
    "rank": {
     "totaluniquesubscribers": 2
    },
-   "state": "新",
+   "state": "已提取",
    "title": "KJ-114 Viper VTOL",
    "subs": 59234,
    "updated_ts": 1756382264,
    "updated": "2025-08-28",
    "meta_ts": 1788374490.4196677,
-   "score": 29.44
+   "score": 32.44
   },
   "2736710150": {
    "id": "2736710150",
@@ -2899,7 +2899,7 @@
    "updated_ts": 1634507468,
    "updated": "2021-10-18",
    "meta_ts": 1788374490.4196677,
-   "score": 16.18
+   "score": 16.17
   },
   "1891002603": {
    "id": "1891002603",
@@ -2951,7 +2951,7 @@
    "updated_ts": 1624903085,
    "updated": "2021-06-29",
    "meta_ts": 1788374490.4196677,
-   "score": 15.95
+   "score": 15.94
   },
   "3406598264": {
    "id": "3406598264",
@@ -3049,13 +3049,13 @@
    "rank": {
     "totaluniquesubscribers": 3
    },
-   "state": "新",
+   "state": "已提取",
    "title": "GS-42 \"Sea Sovereign\" Amphibious Helicopter",
    "subs": 49970,
    "updated_ts": 1757164562,
    "updated": "2025-09-06",
    "meta_ts": 1788374490.4196677,
-   "score": 29.41
+   "score": 32.4
   },
   "1829675776": {
    "id": "1829675776",
@@ -3621,13 +3621,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "已提取",
+   "state": "已暂存",
    "title": "Cheap tractor by Piripeto",
    "subs": 0,
    "updated_ts": 1788370010,
    "updated": "2026-09-03",
    "meta_ts": 1788374490.4196677,
-   "score": 27.84
+   "score": 29.84
   },
   "3778824995": {
    "id": "3778824995",
@@ -3647,20 +3647,20 @@
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "已提取",
    "title": "ALTA UniCon Trailer w/ Loader (HGS/SIBTaT)",
    "subs": 6164,
    "updated_ts": 1788316900,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 35.94
+   "score": 38.94
   },
   "3076080596": {
    "id": "3076080596",
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "ALTA Double Container/UniCon Semi Trailer (HGS/SIBTaT)",
    "subs": 11936,
    "updated_ts": 1788316833,
@@ -3673,7 +3673,7 @@
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "ALTA Container/UniCon Semi Trailer (HGS/SIBTaT)",
    "subs": 12154,
    "updated_ts": 1788316803,
@@ -3757,7 +3757,7 @@
    "updated_ts": 1788314264,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 25.71
+   "score": 25.7
   },
   "3793278053": {
    "id": "3793278053",
@@ -3790,13 +3790,13 @@
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Zephir Breeze",
    "subs": 7,
    "updated_ts": 1788305498,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 27.47
+   "score": 32.47
   },
   "3782764382": {
    "id": "3782764382",
@@ -3809,7 +3809,7 @@
    "updated_ts": 1788304516,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 26.59
+   "score": 26.58
   },
   "2847968206": {
    "id": "2847968206",
@@ -3848,20 +3848,20 @@
    "updated_ts": 1788293302,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 24.82
+   "score": 24.81
   },
   "3573737686": {
    "id": "3573737686",
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Gunnette Cutter Mk.1",
    "subs": 11,
    "updated_ts": 1788292849,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 27.98
+   "score": 30.98
   },
   "3794051253": {
    "id": "3794051253",
@@ -3907,13 +3907,13 @@
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Start rescue boat",
    "subs": 7,
    "updated_ts": 1788287089,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 27.46
+   "score": 32.46
   },
   "3793411657": {
    "id": "3793411657",
@@ -3939,7 +3939,7 @@
    "updated_ts": 1788284897,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 25.7
+   "score": 25.69
   },
   "3768155486": {
    "id": "3768155486",
@@ -3959,13 +3959,13 @@
    "rank": {
     "lastupdated": 3
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Triaconter 30-Oared Ship - RAMBO",
    "subs": 1269,
    "updated_ts": 1788283331,
    "updated": "2026-09-02",
    "meta_ts": 1788374490.4196677,
-   "score": 33.91
+   "score": 36.91
   },
   "3793566923": {
    "id": "3793566923",
@@ -4083,7 +4083,7 @@
    "updated_ts": 1788270677,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 26.21
+   "score": 26.2
   },
   "3793484284": {
    "id": "3793484284",
@@ -4116,39 +4116,39 @@
    "rank": {
     "lastupdated": 3
    },
-   "state": "新",
+   "state": "已提取",
    "title": "DLI Frog",
    "subs": 85,
    "updated_ts": 1788256439,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 30.47
+   "score": 33.47
   },
   "3774373220": {
    "id": "3774373220",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "SS St Frederick",
    "subs": 8,
    "updated_ts": 1788254421,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 27.6
+   "score": 32.6
   },
   "3175324557": {
    "id": "3175324557",
    "rank": {
     "lastupdated": 3
    },
-   "state": "新",
+   "state": "已提取",
    "title": "K-19 658M / HOTEL-II class submarine - Reworked and Modded",
    "subs": 1591,
    "updated_ts": 1788254080,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 34.19
+   "score": 37.19
   },
   "3778364281": {
    "id": "3778364281",
@@ -4161,7 +4161,7 @@
    "updated_ts": 1788249799,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 26.57
+   "score": 26.56
   },
   "3793787190": {
    "id": "3793787190",
@@ -4213,7 +4213,7 @@
    "updated_ts": 1788243428,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 27.45
+   "score": 27.44
   },
   "3793236299": {
    "id": "3793236299",
@@ -4226,7 +4226,7 @@
    "updated_ts": 1788235740,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 29.13
+   "score": 29.12
   },
   "3792383266": {
    "id": "3792383266",
@@ -4252,7 +4252,7 @@
    "updated_ts": 1788232092,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 27.08
+   "score": 27.07
   },
   "3793254143": {
    "id": "3793254143",
@@ -4265,7 +4265,7 @@
    "updated_ts": 1788229517,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 25.68
+   "score": 25.67
   },
   "3787835787": {
    "id": "3787835787",
@@ -4278,46 +4278,46 @@
    "updated_ts": 1788229534,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 25.68
+   "score": 25.67
   },
   "3789766655": {
    "id": "3789766655",
    "rank": {
     "lastupdated": 3
    },
-   "state": "新",
+   "state": "已提取",
    "title": "hely not done",
    "subs": 30,
    "updated_ts": 1788227783,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 29.16
+   "score": 32.16
   },
   "3569623233": {
    "id": "3569623233",
    "rank": {
     "lastupdated": 3
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Buckel Cattler OMUA UniCon Cargo Van",
    "subs": 4360,
    "updated_ts": 1788225766,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 35.46
+   "score": 38.46
   },
   "3620017437": {
    "id": "3620017437",
    "rank": {
     "lastupdated": 3
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Airgull Adelie Camper Van Motorhome",
    "subs": 2030,
    "updated_ts": 1788225349,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 34.49
+   "score": 37.49
   },
   "3444336196": {
    "id": "3444336196",
@@ -4376,13 +4376,13 @@
    "rank": {
     "lastupdated": 4
    },
-   "state": "已提取",
+   "state": "已暂存",
    "title": "XK-14 \"Lynx\"",
    "subs": 0,
    "updated_ts": 1788221848,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 27.79
+   "score": 29.79
   },
   "3791881344": {
    "id": "3791881344",
@@ -4408,7 +4408,7 @@
    "updated_ts": 1788218089,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 27.27
+   "score": 27.26
   },
   "3783357353": {
    "id": "3783357353",
@@ -4421,7 +4421,7 @@
    "updated_ts": 1788216394,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 26.19
+   "score": 26.18
   },
   "3606556575": {
    "id": "3606556575",
@@ -4441,26 +4441,26 @@
    "rank": {
     "lastupdated": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "U.S.S. Discovery",
    "subs": 688,
    "updated_ts": 1788212899,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 33.11
+   "score": 36.11
   },
   "2995628992": {
    "id": "2995628992",
    "rank": {
     "lastupdated": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Armored Cruiser SMS Victoria Luise",
    "subs": 195,
    "updated_ts": 1788206811,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 31.51
+   "score": 34.5
   },
   "3790038217": {
    "id": "3790038217",
@@ -4473,7 +4473,7 @@
    "updated_ts": 1788204956,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 27.07
+   "score": 27.06
   },
   "3793256534": {
    "id": "3793256534",
@@ -4486,7 +4486,7 @@
    "updated_ts": 1788202776,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 25.67
+   "score": 25.66
   },
   "3792891946": {
    "id": "3792891946",
@@ -4507,13 +4507,13 @@
    "rank": {
     "lastupdated": 4
    },
-   "state": "已提取",
+   "state": "已暂存",
    "title": "DHC-2 L20 Beaver",
    "subs": 0,
    "updated_ts": 1788199911,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 27.78
+   "score": 29.78
   },
   "3552402505": {
    "id": "3552402505",
@@ -4546,13 +4546,13 @@
    "rank": {
     "lastupdated": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Own Oil Rig / heil Pads & small plane hanger with Runway. NEW CARGO CRANE ( WIP )",
    "subs": 102,
    "updated_ts": 1788199561,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 30.68
+   "score": 33.68
   },
   "3793254347": {
    "id": "3793254347",
@@ -4611,26 +4611,26 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "HTI-LVD VENDETTA T-900",
    "subs": 47,
    "updated_ts": 1788193989,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 29.71
+   "score": 32.71
   },
   "3307457098": {
    "id": "3307457098",
    "rank": {
     "lastupdated": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Snowpiercer - Eternal Engine C0001",
    "subs": 23,
    "updated_ts": 1788193203,
    "updated": "2026-09-01",
    "meta_ts": 1788374490.4196677,
-   "score": 28.83
+   "score": 31.82
   },
   "3793694257": {
    "id": "3793694257",
@@ -4723,7 +4723,7 @@
    "updated_ts": 1788377752,
    "updated": "2026-09-03",
    "meta_ts": 1788383453.441428,
-   "score": 32.99
+   "score": 32.98
   },
   "3028590295": {
    "id": "3028590295",
@@ -4770,13 +4770,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "wip stallion",
    "subs": 14,
    "updated_ts": 1788388111,
    "updated": "2026-09-03",
    "meta_ts": 1788391771.064988,
-   "score": 28.3
+   "score": 31.3
   },
   "3793044670": {
    "id": "3793044670",
@@ -4809,13 +4809,13 @@
    "rank": {
     "trend": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "SCP-079",
    "subs": 411,
    "updated_ts": 1694213590,
    "updated": "2023-09-09",
    "meta_ts": 1788411023.4671066,
-   "score": 27.8
+   "score": 32.8
   },
   "3788103164": {
    "id": "3788103164",
@@ -4855,20 +4855,20 @@
    "updated_ts": 1788394817,
    "updated": "2026-09-03",
    "meta_ts": 1788411023.4671066,
-   "score": 39.74
+   "score": 39.73
   },
   "3765367132": {
    "id": "3765367132",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "454ss Challenge 7 - Tornadoguy453 - living quarters)",
    "subs": 112,
    "updated_ts": 1784136310,
    "updated": "2026-07-16",
    "meta_ts": 1788411023.4671066,
-   "score": 36.35
+   "score": 39.35
   },
   "3765345759": {
    "id": "3765345759",
@@ -4888,26 +4888,26 @@
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Diesel Electric Locomotive (A Unit)",
    "subs": 28,
    "updated_ts": 1785009702,
    "updated": "2026-07-26",
    "meta_ts": 1788411023.4671066,
-   "score": 34.92
+   "score": 37.92
   },
   "3758105135": {
    "id": "3758105135",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "ZiL 133 GIA (original https://steamcommunity.com/sharedfiles/filedetails/?id=1956054616)",
    "subs": 6,
    "updated_ts": 1783238724,
    "updated": "2026-07-05",
    "meta_ts": 1788411023.4671066,
-   "score": 32.5
+   "score": 35.5
   },
   "1956054616": {
    "id": "1956054616",
@@ -4933,20 +4933,20 @@
    "updated_ts": 1781886547,
    "updated": "2026-06-20",
    "meta_ts": 1788411023.4671066,
-   "score": 34.94
+   "score": 34.93
   },
   "3746179872": {
    "id": "3746179872",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "M90 Chongus Heavy Rescue Snowmobile",
    "subs": 8,
    "updated_ts": 1787986536,
    "updated": "2026-08-29",
    "meta_ts": 1788411023.4671066,
-   "score": 34.5
+   "score": 37.5
   },
   "3729246486": {
    "id": "3729246486",
@@ -4972,7 +4972,7 @@
    "updated_ts": 1775937698,
    "updated": "2026-04-12",
    "meta_ts": 1788411023.4671066,
-   "score": 31.99
+   "score": 31.98
   },
   "3696754777": {
    "id": "3696754777",
@@ -4985,7 +4985,7 @@
    "updated_ts": 1774997992,
    "updated": "2026-04-01",
    "meta_ts": 1788411023.4671066,
-   "score": 29.85
+   "score": 29.84
   },
   "3696719952": {
    "id": "3696719952",
@@ -4998,7 +4998,7 @@
    "updated_ts": 1774996544,
    "updated": "2026-04-01",
    "meta_ts": 1788411023.4671066,
-   "score": 30.02
+   "score": 30.01
   },
   "3686564605": {
    "id": "3686564605",
@@ -5057,26 +5057,26 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Fuso M2U H-41 Tree Artilerypiece + M2U Resupply and Repair",
    "subs": 2187,
    "updated_ts": 1788409364,
    "updated": "2026-09-03",
    "meta_ts": 1788411023.4671066,
-   "score": 34.65
+   "score": 37.65
   },
   "3736814792": {
    "id": "3736814792",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Toronto Fireboat William Lyon Mackenzie",
    "subs": 2461,
    "updated_ts": 1788408132,
    "updated": "2026-09-03",
    "meta_ts": 1788411023.4671066,
-   "score": 34.8
+   "score": 37.8
   },
   "3791876633": {
    "id": "3791876633",
@@ -5109,13 +5109,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "已提取",
+   "state": "已暂存",
    "title": "big cruise ship",
    "subs": 0,
    "updated_ts": 1788401652,
    "updated": "2026-09-03",
    "meta_ts": 1788411023.4671066,
-   "score": 27.86
+   "score": 29.85
   },
   "3793726642": {
    "id": "3793726642",
@@ -5154,7 +5154,7 @@
    "updated_ts": 1788399531,
    "updated": "2026-09-03",
    "meta_ts": 1788411023.4671066,
-   "score": 24.86
+   "score": 24.85
   },
   "3686428312": {
    "id": "3686428312",
@@ -5201,13 +5201,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Anaconda 6x6 Crew Cabin Truck Off Road Explorer",
    "subs": 17,
    "updated_ts": 1788417024,
    "updated": "2026-09-03",
    "meta_ts": 1788419386.3040884,
-   "score": 28.54
+   "score": 31.54
   },
   "3791258909": {
    "id": "3791258909",
@@ -5220,7 +5220,7 @@
    "updated_ts": 1788415520,
    "updated": "2026-09-03",
    "meta_ts": 1788419386.3040884,
-   "score": 26.63
+   "score": 26.62
   },
   "3795274874": {
    "id": "3795274874",
@@ -5233,7 +5233,7 @@
    "updated_ts": 1788483379,
    "updated": "2026-09-04",
    "meta_ts": 1788485666.6423209,
-   "score": 40.29
+   "score": 40.28
   },
   "3794970012": {
    "id": "3794970012",
@@ -5280,39 +5280,39 @@
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "EDMUND FITS",
    "subs": 2,
    "updated_ts": 1786764691,
    "updated": "2026-08-15",
    "meta_ts": 1788485666.6423209,
-   "score": 32.66
+   "score": 35.66
   },
   "3782284252": {
    "id": "3782284252",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "air",
    "subs": 1,
    "updated_ts": 1786556062,
    "updated": "2026-08-13",
    "meta_ts": 1788485666.6423209,
-   "score": 32.07
+   "score": 35.06
   },
   "3782279102": {
    "id": "3782279102",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Rescue car staff",
    "subs": 4,
    "updated_ts": 1786555981,
    "updated": "2026-08-13",
    "meta_ts": 1788485666.6423209,
-   "score": 33.23
+   "score": 36.23
   },
   "3771856535": {
    "id": "3771856535",
@@ -5332,52 +5332,52 @@
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "JET PLANE BROVO INC",
    "subs": 3,
    "updated_ts": 1785041064,
    "updated": "2026-07-26",
    "meta_ts": 1788485666.6423209,
-   "score": 32.41
+   "score": 35.41
   },
   "3740014444": {
    "id": "3740014444",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "CrazyDragon871 Railways #2026 AC44C6M Bicentennial",
    "subs": 12,
    "updated_ts": 1780794794,
    "updated": "2026-06-07",
    "meta_ts": 1788485666.6423209,
-   "score": 32.47
+   "score": 35.46
   },
   "3740013949": {
    "id": "3740013949",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "CrazyDragon871 Railway #250 AC44C6M Bicentennial",
    "subs": 12,
    "updated_ts": 1780794718,
    "updated": "2026-06-07",
    "meta_ts": 1788485666.6423209,
-   "score": 32.47
+   "score": 35.46
   },
   "3788293452": {
    "id": "3788293452",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "folio's first suv",
    "subs": 12,
    "updated_ts": 1788484369,
    "updated": "2026-09-04",
    "meta_ts": 1788485666.6423209,
-   "score": 28.15
+   "score": 31.15
   },
   "3795237305": {
    "id": "3795237305",
@@ -5390,7 +5390,7 @@
    "updated_ts": 1788481283,
    "updated": "2026-09-04",
    "meta_ts": 1788485666.6423209,
-   "score": 24.89
+   "score": 24.88
   },
   "3795260742": {
    "id": "3795260742",
@@ -5449,13 +5449,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Dashboard (1x3 Display) Updated Version 2",
    "subs": 106,
    "updated_ts": 1788474565,
    "updated": "2026-09-04",
    "meta_ts": 1788485666.6423209,
-   "score": 30.83
+   "score": 33.83
   },
   "3787689704": {
    "id": "3787689704",
@@ -5468,7 +5468,7 @@
    "updated_ts": 1788467365,
    "updated": "2026-09-04",
    "meta_ts": 1788485666.6423209,
-   "score": 26.65
+   "score": 26.64
   },
   "3795158056": {
    "id": "3795158056",
@@ -5540,13 +5540,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "HAP Speed Boat",
    "subs": 9,
    "updated_ts": 1788456472,
    "updated": "2026-09-04",
    "meta_ts": 1788485666.6423209,
-   "score": 27.81
+   "score": 32.81
   },
   "3783730580": {
    "id": "3783730580",
@@ -5585,7 +5585,7 @@
    "updated_ts": 1788450572,
    "updated": "2026-09-03",
    "meta_ts": 1788485666.6423209,
-   "score": 27.16
+   "score": 27.15
   },
   "3681715736": {
    "id": "3681715736",
@@ -5611,7 +5611,7 @@
    "updated_ts": 1788448118,
    "updated": "2026-09-03",
    "meta_ts": 1788485666.6423209,
-   "score": 28.76
+   "score": 28.75
   },
   "3794992381": {
    "id": "3794992381",
@@ -5624,33 +5624,33 @@
    "updated_ts": 1788446984,
    "updated": "2026-09-03",
    "meta_ts": 1788485666.6423209,
-   "score": 25.76
+   "score": 25.75
   },
   "3496819625": {
    "id": "3496819625",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "VBB Neustrašiv (Dreadnought Battleship for Sector Control Naval)",
    "subs": 833,
    "updated_ts": 1788446349,
    "updated": "2026-09-03",
    "meta_ts": 1788485666.6423209,
-   "score": 33.44
+   "score": 36.44
   },
   "3501893593": {
    "id": "3501893593",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "BB Hrvatska (Versatile Battleship for Sector Control Naval)",
    "subs": 805,
    "updated_ts": 1788445737,
    "updated": "2026-09-03",
    "meta_ts": 1788485666.6423209,
-   "score": 33.39
+   "score": 36.39
   },
   "2994246315": {
    "id": "2994246315",
@@ -5676,7 +5676,7 @@
    "updated_ts": 1788439066,
    "updated": "2026-09-03",
    "meta_ts": 1788485666.6423209,
-   "score": 28.14
+   "score": 28.13
   },
   "2994248454": {
    "id": "2994248454",
@@ -5702,7 +5702,7 @@
    "updated_ts": 1788438829,
    "updated": "2026-09-03",
    "meta_ts": 1788485666.6423209,
-   "score": 28.92
+   "score": 28.91
   },
   "3795280695": {
    "id": "3795280695",
@@ -5715,20 +5715,20 @@
    "updated_ts": 1788484517,
    "updated": "2026-09-04",
    "meta_ts": 1788495912.762127,
-   "score": 56.34
+   "score": 56.33
   },
   "3778994212": {
    "id": "3778994212",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "155mm Self-Propelled Howitzer M44 (T194E1)",
    "subs": 17,
    "updated_ts": 1788492256,
    "updated": "2026-09-04",
    "meta_ts": 1788495912.762127,
-   "score": 28.57
+   "score": 31.57
   },
   "3795293475": {
    "id": "3795293475",
@@ -5790,13 +5790,13 @@
     "lastupdated": 1,
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "N12 helicopter",
    "subs": 0,
    "updated_ts": 1788495989,
    "updated": "2026-09-04",
    "meta_ts": 1788505086.8255658,
-   "score": 31.89
+   "score": 34.89
   },
   "2817403539": {
    "id": "2817403539",
@@ -5842,13 +5842,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "SAE F/A-5 Cyclone Evolved (Fighter Jet)",
    "subs": 50,
    "updated_ts": 1788520219,
    "updated": "2026-09-04",
    "meta_ts": 1788522809.6379085,
-   "score": 29.91
+   "score": 32.9
   },
   "3786633191": {
    "id": "3786633191",
@@ -5901,7 +5901,7 @@
    "updated_ts": 1788514189,
    "updated": "2026-09-04",
    "meta_ts": 1788522809.6379085,
-   "score": 29.3
+   "score": 29.29
   },
   "3794015229": {
    "id": "3794015229",
@@ -5921,26 +5921,26 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "[SHI] S-350E 50P6E2 SAM",
    "subs": 698,
    "updated_ts": 1788509948,
    "updated": "2026-09-04",
    "meta_ts": 1788522809.6379085,
-   "score": 33.24
+   "score": 36.23
   },
   "3763482289": {
    "id": "3763482289",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "[SHI] S-350E 50P6E SAM",
    "subs": 1235,
    "updated_ts": 1788509922,
    "updated": "2026-09-04",
    "meta_ts": 1788522809.6379085,
-   "score": 33.96
+   "score": 36.96
   },
   "3795223227": {
    "id": "3795223227",
@@ -5953,7 +5953,7 @@
    "updated_ts": 1788473665,
    "updated": "2026-09-04",
    "meta_ts": 1788531802.9295583,
-   "score": 55.94
+   "score": 55.93
   },
   "3791894380": {
    "id": "3791894380",
@@ -5986,39 +5986,39 @@
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "TC6162 J4 Javelong Double Decker High Speed Train B",
    "subs": 14,
    "updated_ts": 1786935416,
    "updated": "2026-08-17",
    "meta_ts": 1788531802.9295583,
-   "score": 34.77
+   "score": 37.77
   },
   "3784941656": {
    "id": "3784941656",
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "已提取",
    "title": "TC6162 J4 Javelong Double Decker High Speed Train A",
    "subs": 14,
    "updated_ts": 1786935359,
    "updated": "2026-08-17",
    "meta_ts": 1788531802.9295583,
-   "score": 34.77
+   "score": 37.77
   },
   "3468675201": {
    "id": "3468675201",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "B-17F Flying Fortress",
    "subs": 5380,
    "updated_ts": 1788531186,
    "updated": "2026-09-04",
    "meta_ts": 1788531802.9295583,
-   "score": 35.84
+   "score": 38.84
   },
   "3795506809": {
    "id": "3795506809",
@@ -6044,7 +6044,7 @@
    "updated_ts": 1788524264,
    "updated": "2026-09-04",
    "meta_ts": 1788531802.9295583,
-   "score": 29.67
+   "score": 29.66
   },
   "3792080153": {
    "id": "3792080153",
@@ -6124,7 +6124,7 @@
    "updated_ts": 1788496079,
    "updated": "2026-09-04",
    "meta_ts": 1788542775.2031558,
-   "score": 35.11
+   "score": 35.1
   },
   "3795335428": {
    "id": "3795335428",
@@ -6171,13 +6171,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "mauseaim_warthunder",
    "subs": 8,
    "updated_ts": 1788536961,
    "updated": "2026-09-04",
    "meta_ts": 1788542775.2031558,
-   "score": 27.7
+   "score": 32.7
   },
   "3787236552": {
    "id": "3787236552",
@@ -6190,20 +6190,20 @@
    "updated_ts": 1788536932,
    "updated": "2026-09-04",
    "meta_ts": 1788542775.2031558,
-   "score": 24.91
+   "score": 24.9
   },
   "3787235859": {
    "id": "3787235859",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "unified HMD system for aircraft ver.4",
    "subs": 7,
    "updated_ts": 1788536850,
    "updated": "2026-09-04",
    "meta_ts": 1788542775.2031558,
-   "score": 27.55
+   "score": 32.55
   },
   "3787236429": {
    "id": "3787236429",
@@ -6216,33 +6216,33 @@
    "updated_ts": 1788536818,
    "updated": "2026-09-04",
    "meta_ts": 1788542775.2031558,
-   "score": 24.91
+   "score": 24.9
   },
   "3787236258": {
    "id": "3787236258",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "axis to bool",
    "subs": 7,
    "updated_ts": 1788536779,
    "updated": "2026-09-04",
    "meta_ts": 1788542775.2031558,
-   "score": 27.55
+   "score": 32.55
   },
   "3736050779": {
    "id": "3736050779",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "SGAC FirerateController & Webmap Bullet Sender  Samples",
    "subs": 43,
    "updated_ts": 1788534742,
    "updated": "2026-09-04",
    "meta_ts": 1788542775.2031558,
-   "score": 29.72
+   "score": 32.72
   },
   "3795434013": {
    "id": "3795434013",
@@ -6262,13 +6262,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "YB-40 Gunship (Escort)",
    "subs": 3254,
    "updated_ts": 1788532194,
    "updated": "2026-09-04",
    "meta_ts": 1788542775.2031558,
-   "score": 35.2
+   "score": 38.2
   },
   "3486025588": {
    "id": "3486025588",
@@ -6288,13 +6288,13 @@
    "rank": {
     "trend": 2
    },
-   "state": "新",
+   "state": "已提取",
    "title": "LTi 2J55 Passenger Jet",
    "subs": 3,
    "updated_ts": 1771079011,
    "updated": "2026-02-14",
    "meta_ts": 1788551509.5125632,
-   "score": 34.98
+   "score": 37.98
   },
   "2928952585": {
    "id": "2928952585",
@@ -6314,13 +6314,13 @@
    "rank": {
     "trend": 2
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Harrow - scout submarine",
    "subs": 15311,
    "updated_ts": 1730142871,
    "updated": "2024-10-29",
    "meta_ts": 1788551509.5125632,
-   "score": 36.73
+   "score": 39.73
   },
   "3795668872": {
    "id": "3795668872",
@@ -6483,13 +6483,13 @@
    "rank": {
     "trend": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "Embrare 300 phenom",
    "subs": 2367,
    "updated_ts": 1663449200,
    "updated": "2022-09-18",
    "meta_ts": 1788630406.4047222,
-   "score": 27.78
+   "score": 32.78
   },
   "2849390212": {
    "id": "2849390212",
@@ -6623,7 +6623,7 @@
    "updated_ts": 1788520392,
    "updated": "2026-09-04",
    "meta_ts": 1788630406.4047222,
-   "score": 54.67
+   "score": 54.66
   },
   "3795327273": {
    "id": "3795327273",
@@ -6662,7 +6662,7 @@
    "updated_ts": 1788479154,
    "updated": "2026-09-04",
    "meta_ts": 1788630406.4047222,
-   "score": 36.87
+   "score": 36.86
   },
   "3795252445": {
    "id": "3795252445",
@@ -6688,7 +6688,7 @@
    "updated_ts": 1788478944,
    "updated": "2026-09-04",
    "meta_ts": 1788630406.4047222,
-   "score": 36.7
+   "score": 36.69
   },
   "3793742371": {
    "id": "3793742371",
@@ -6779,20 +6779,20 @@
    "updated_ts": 1788623624,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 26.34
+   "score": 26.33
   },
   "3755311425": {
    "id": "3755311425",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "PanTech | UH-110 Razorbill Medium Lift Transport Helicopter | UH-90 Ibis",
    "subs": 127,
    "updated_ts": 1788622499,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 31.12
+   "score": 34.11
   },
   "3793340804": {
    "id": "3793340804",
@@ -6818,7 +6818,7 @@
    "updated_ts": 1788620612,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 24.94
+   "score": 24.93
   },
   "3776553854": {
    "id": "3776553854",
@@ -6870,7 +6870,7 @@
    "updated_ts": 1788616231,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 27.94
+   "score": 27.93
   },
   "3622301849": {
    "id": "3622301849",
@@ -6903,13 +6903,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Weapon and Hardpoint Controller",
    "subs": 12,
    "updated_ts": 1788608226,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 28.2
+   "score": 31.2
   },
   "3491066502": {
    "id": "3491066502",
@@ -6955,13 +6955,13 @@
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "已提取",
    "title": "CH-47 Coast Guard Chinook",
    "subs": 405,
    "updated_ts": 1788601741,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 32.58
+   "score": 35.58
   },
   "3795978058": {
    "id": "3795978058",
@@ -7000,7 +7000,7 @@
    "updated_ts": 1788590957,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 28.68
+   "score": 28.67
   },
   "3598174084": {
    "id": "3598174084",
@@ -7117,20 +7117,20 @@
    "updated_ts": 1788566648,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 24.92
+   "score": 24.91
   },
   "3715573884": {
    "id": "3715573884",
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "已暂存",
    "title": "scania P firetruck",
    "subs": 9,
    "updated_ts": 1788565332,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 27.85
+   "score": 32.85
   },
   "3605913713": {
    "id": "3605913713",
@@ -7169,7 +7169,7 @@
    "updated_ts": 1788559510,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 25.8
+   "score": 25.79
   },
   "3763650482": {
    "id": "3763650482",
@@ -7202,13 +7202,13 @@
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "已提取",
    "title": "SS Anatolia 1954 | Turboelectric Ocean Liner",
    "subs": 3443,
    "updated_ts": 1788555730,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 35.28
+   "score": 38.28
   },
   "3795705637": {
    "id": "3795705637",
@@ -7234,7 +7234,7 @@
    "updated_ts": 1788554930,
    "updated": "2026-09-05",
    "meta_ts": 1788630406.4047222,
-   "score": 25.8
+   "score": 25.79
   },
   "3796234391": {
    "id": "3796234391",
@@ -7255,26 +7255,26 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "R.S.V. Almus (Advanced Research Mothership) w/ Minisub, Heli, ROV, Drone, RHIB and more",
    "subs": 8595,
    "updated_ts": 1788638247,
    "updated": "2026-09-06",
    "meta_ts": 1788638760.5229845,
-   "score": 36.48
+   "score": 39.48
   },
   "3781822181": {
    "id": "3781822181",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "GFE Titan",
    "subs": 16,
    "updated_ts": 1788635640,
    "updated": "2026-09-06",
    "meta_ts": 1788638760.5229845,
-   "score": 28.55
+   "score": 31.55
   },
   "3172120024": {
    "id": "3172120024",
@@ -7294,13 +7294,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "IN-30 \"SUPERHAWK\" Naval Fighter - Alantian Armed Forces",
    "subs": 415,
    "updated_ts": 1788630691,
    "updated": "2026-09-06",
    "meta_ts": 1788638760.5229845,
-   "score": 32.62
+   "score": 35.62
   },
   "3796370321": {
    "id": "3796370321",
@@ -7313,7 +7313,7 @@
    "updated_ts": 1788641398,
    "updated": "2026-09-06",
    "meta_ts": 1788647289.6884234,
-   "score": 41.23
+   "score": 41.22
   },
   "3796368745": {
    "id": "3796368745",
@@ -7365,7 +7365,7 @@
    "updated_ts": 1788646616,
    "updated": "2026-09-06",
    "meta_ts": 1788647289.6884234,
-   "score": 27.95
+   "score": 27.94
   },
   "3795863679": {
    "id": "3795863679",
@@ -7391,7 +7391,7 @@
    "updated_ts": 1788645586,
    "updated": "2026-09-06",
    "meta_ts": 1788647289.6884234,
-   "score": 26.35
+   "score": 26.34
   },
   "3751607225": {
    "id": "3751607225",
@@ -7417,7 +7417,7 @@
    "updated_ts": 1788644546,
    "updated": "2026-09-06",
    "meta_ts": 1788647289.6884234,
-   "score": 24.95
+   "score": 24.94
   },
   "3796397479": {
    "id": "3796397479",
@@ -7437,13 +7437,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "[Rythena] SU-39 / SU25TM - Precision Strike Aircraft",
    "subs": 2689,
    "updated_ts": 1788640616,
    "updated": "2026-09-06",
    "meta_ts": 1788647289.6884234,
-   "score": 35.0
+   "score": 38.0
   },
   "3796799293": {
    "id": "3796799293",
@@ -7541,7 +7541,8 @@
   "3796495824": {
    "id": "3796495824",
    "rank": {
-    "trend": 2
+    "trend": 2,
+    "lastupdated": 1
    },
    "state": "已学习",
    "title": "TOSP Trak Mrk II",
@@ -7621,13 +7622,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "F-100D Super Sabre",
    "subs": 183,
    "updated_ts": 1788700691,
    "updated": "2026-09-06",
    "meta_ts": 1788708183.1566098,
-   "score": 31.61
+   "score": 34.61
   },
   "3796692724": {
    "id": "3796692724",
@@ -7640,7 +7641,7 @@
    "updated_ts": 1788700653,
    "updated": "2026-09-06",
    "meta_ts": 1788708183.1566098,
-   "score": 27.97
+   "score": 27.96
   },
   "3796790204": {
    "id": "3796790204",
@@ -7666,20 +7667,20 @@
    "updated_ts": 1788699613,
    "updated": "2026-09-06",
    "meta_ts": 1788708183.1566098,
-   "score": 26.37
+   "score": 26.36
   },
   "3409548103": {
    "id": "3409548103",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "SS Strong",
    "subs": 10,
    "updated_ts": 1788699514,
    "updated": "2026-09-06",
    "meta_ts": 1788708183.1566098,
-   "score": 28.02
+   "score": 31.02
   },
   "3790355193": {
    "id": "3790355193",
@@ -7692,7 +7693,7 @@
    "updated_ts": 1788699401,
    "updated": "2026-09-06",
    "meta_ts": 1788708183.1566098,
-   "score": 24.97
+   "score": 24.96
   },
   "3774024749": {
    "id": "3774024749",
@@ -7705,7 +7706,7 @@
    "updated_ts": 1788697427,
    "updated": "2026-09-06",
    "meta_ts": 1788708183.1566098,
-   "score": 24.97
+   "score": 24.96
   },
   "3796665166": {
    "id": "3796665166",
@@ -7836,7 +7837,7 @@
    "updated_ts": 1788667056,
    "updated": "2026-09-06",
    "meta_ts": 1788708183.1566098,
-   "score": 25.84
+   "score": 25.83
   },
   "3720315411": {
    "id": "3720315411",
@@ -7849,7 +7850,7 @@
    "updated_ts": 1788666988,
    "updated": "2026-09-06",
    "meta_ts": 1788708183.1566098,
-   "score": 25.84
+   "score": 25.83
   },
   "2884925940": {
    "id": "2884925940",
@@ -7882,13 +7883,13 @@
    "rank": {
     "lastupdated": 2
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Truck",
    "subs": 128,
    "updated_ts": 1788658501,
    "updated": "2026-09-06",
    "meta_ts": 1788708183.1566098,
-   "score": 31.14
+   "score": 34.14
   },
   "3796885557": {
    "id": "3796885557",
@@ -7966,7 +7967,7 @@
    "updated_ts": 1788037688,
    "updated": "2026-08-30",
    "meta_ts": 1788716691.4449577,
-   "score": 34.89
+   "score": 34.88
   },
   "3795469150": {
    "id": "3795469150",
@@ -8109,7 +8110,7 @@
    "updated_ts": 1788708375,
    "updated": "2026-09-06",
    "meta_ts": 1788716691.4449577,
-   "score": 28.91
+   "score": 28.9
   },
   "2842215035": {
    "id": "2842215035",
@@ -8169,13 +8170,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "SY Tempast 1905 (Sails update)",
    "subs": 197,
    "updated_ts": 1788723450,
    "updated": "2026-09-07",
    "meta_ts": 1788725175.073008,
-   "score": 31.71
+   "score": 34.71
   },
   "3797023287": {
    "id": "3797023287",
@@ -8208,13 +8209,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "octonauts TERS GUP 8",
    "subs": 30,
    "updated_ts": 1788731458,
    "updated": "2026-09-07",
    "meta_ts": 1788733440.0179467,
-   "score": 29.35
+   "score": 32.35
   },
   "3797070664": {
    "id": "3797070664",
@@ -8227,7 +8228,7 @@
    "updated_ts": 1788726356,
    "updated": "2026-09-07",
    "meta_ts": 1788733440.0179467,
-   "score": 27.98
+   "score": 27.97
   },
   "3796319768": {
    "id": "3796319768",
@@ -8331,33 +8332,33 @@
    "updated_ts": 1784180921,
    "updated": "2026-07-16",
    "meta_ts": 1788750456.026379,
-   "score": 35.52
+   "score": 35.51
   },
   "3172007766": {
    "id": "3172007766",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Wave Strier Echo S5",
    "subs": 14500,
    "updated_ts": 1788748995,
    "updated": "2026-09-07",
    "meta_ts": 1788750456.026379,
-   "score": 37.19
+   "score": 40.18
   },
   "3784107872": {
    "id": "3784107872",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Container ship Northern Express",
    "subs": 227,
    "updated_ts": 1788747545,
    "updated": "2026-09-07",
    "meta_ts": 1788750456.026379,
-   "score": 31.9
+   "score": 34.9
   },
   "3797218326": {
    "id": "3797218326",
@@ -8429,13 +8430,13 @@
    "rank": {
     "trend": 2
    },
-   "state": "新",
+   "state": "已提取",
    "title": "GMC CCKW | WW2 Cargo/Troop Truck",
    "subs": 252,
    "updated_ts": 1724992955,
    "updated": "2024-08-30",
    "meta_ts": 1788758095.1410942,
-   "score": 30.74
+   "score": 33.74
   },
   "3675058469": {
    "id": "3675058469",
@@ -8455,13 +8456,13 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Flat Roof Sleeper semi truck",
    "subs": 10,
    "updated_ts": 1788755261,
    "updated": "2026-09-07",
    "meta_ts": 1788758095.1410942,
-   "score": 28.04
+   "score": 31.04
   },
   "3147854866": {
    "id": "3147854866",
@@ -8500,7 +8501,7 @@
    "updated_ts": 1788753967,
    "updated": "2026-09-07",
    "meta_ts": 1788758095.1410942,
-   "score": 24.99
+   "score": 24.98
   },
   "3793191726": {
    "id": "3793191726",
@@ -8513,7 +8514,7 @@
    "updated_ts": 1788751478,
    "updated": "2026-09-07",
    "meta_ts": 1788758095.1410942,
-   "score": 24.99
+   "score": 24.98
   },
   "3024030118": {
    "id": "3024030118",
@@ -8533,7 +8534,7 @@
    "rank": {
     "trend": 4
    },
-   "state": "新",
+   "state": "无Lua",
    "title": "Survival Support: The Hermelin Survival Trailer by EINSCHLAG",
    "subs": 130,
    "updated_ts": 1786553570,
@@ -8546,26 +8547,26 @@
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Choose your Loadout: The Courier by Up-Tec",
    "subs": 265,
    "updated_ts": 1788772307,
    "updated": "2026-09-07",
    "meta_ts": 1788774611.3823628,
-   "score": 32.1
+   "score": 35.1
   },
   "3786892518": {
    "id": "3786892518",
    "rank": {
     "lastupdated": 1
    },
-   "state": "新",
+   "state": "已提取",
    "title": "Humble Heavy Hitter: The Courier by Up-Tec",
    "subs": 289,
    "updated_ts": 1788772270,
    "updated": "2026-09-07",
    "meta_ts": 1788774611.3823628,
-   "score": 32.21
+   "score": 35.21
   },
   "3556784114": {
    "id": "3556784114",
@@ -8637,13 +8638,13 @@
    "rank": {
     "trend": 2
    },
-   "state": "新",
+   "state": "已提取",
    "title": "sea rescuer",
    "subs": 38,
    "updated_ts": 1755965175,
    "updated": "2025-08-24",
    "meta_ts": 1788784008.195039,
-   "score": 34.02
+   "score": 37.02
   },
   "2427794826": {
    "id": "2427794826",
@@ -8669,7 +8670,7 @@
    "updated_ts": 1788779972,
    "updated": "2026-09-07",
    "meta_ts": 1788784008.195039,
-   "score": 28.0
+   "score": 27.99
   },
   "3796788823": {
    "id": "3796788823",
@@ -8682,7 +8683,7 @@
    "updated_ts": 1788779952,
    "updated": "2026-09-07",
    "meta_ts": 1788784008.195039,
-   "score": 28.0
+   "score": 27.99
   },
   "3797378325": {
    "id": "3797378325",
@@ -8695,7 +8696,125 @@
    "updated_ts": 1788778821,
    "updated": "2026-09-07",
    "meta_ts": 1788784008.195039,
-   "score": 25.0
+   "score": 24.99
+  },
+  "3797455027": {
+   "id": "3797455027",
+   "rank": {
+    "trend": 2
+   },
+   "state": "已提取",
+   "title": "jet traun train",
+   "subs": 2,
+   "updated_ts": 1788789546,
+   "updated": "2026-09-07",
+   "meta_ts": 1788794587.5187075,
+   "score": 43.4
+  },
+  "3797480267": {
+   "id": "3797480267",
+   "rank": {
+    "trend": 3,
+    "lastupdated": 1
+   },
+   "state": "已提取",
+   "title": "BSA - Generator - 100,000 Swatts - No Fuel Required",
+   "subs": 1,
+   "updated_ts": 1788792968,
+   "updated": "2026-09-07",
+   "meta_ts": 1788794587.5187075,
+   "score": 38.21
+  },
+  "3797463206": {
+   "id": "3797463206",
+   "rank": {
+    "trend": 3
+   },
+   "state": "已提取",
+   "title": "ferry for nice things (working engine and radio)",
+   "subs": 2,
+   "updated_ts": 1788790564,
+   "updated": "2026-09-07",
+   "meta_ts": 1788794587.5187075,
+   "score": 38.73
+  },
+  "3797410504": {
+   "id": "3797410504",
+   "rank": {
+    "trend": 3
+   },
+   "state": "无Lua",
+   "title": "vittoria 2 test",
+   "subs": 0,
+   "updated_ts": 1788783824,
+   "updated": "2026-09-07",
+   "meta_ts": 1788794587.5187075,
+   "score": 34.33
+  },
+  "3792215143": {
+   "id": "3792215143",
+   "rank": {
+    "lastupdated": 1
+   },
+   "state": "新",
+   "title": "Balao Class Uss Ling  (Echos Bigger Workbenches)",
+   "subs": 4,
+   "updated_ts": 1788791508,
+   "updated": "2026-09-07",
+   "meta_ts": 1788794587.5187075,
+   "score": 27.05
+  },
+  "3688104442": {
+   "id": "3688104442",
+   "rank": {
+    "lastupdated": 1
+   },
+   "state": "新",
+   "title": "INDIAN Air-Defense",
+   "subs": 1896,
+   "updated_ts": 1788787322,
+   "updated": "2026-09-07",
+   "meta_ts": 1788794587.5187075,
+   "score": 34.61
+  },
+  "3225998646": {
+   "id": "3225998646",
+   "rank": {
+    "lastupdated": 1
+   },
+   "state": "新",
+   "title": "Starter Boat(Weapon DLC!).",
+   "subs": 5,
+   "updated_ts": 1788787114,
+   "updated": "2026-09-07",
+   "meta_ts": 1788794587.5187075,
+   "score": 27.28
+  },
+  "3716405198": {
+   "id": "3716405198",
+   "rank": {
+    "lastupdated": 1
+   },
+   "state": "新",
+   "title": "Shinkansen E4 MAX Express Cafe Car",
+   "subs": 2061,
+   "updated_ts": 1788785027,
+   "updated": "2026-09-07",
+   "meta_ts": 1788794587.5187075,
+   "score": 34.71
+  },
+  "3797285004": {
+   "id": "3797285004",
+   "rank": {
+    "lastupdated": 1
+   },
+   "state": "无Lua",
+   "title": "traen wip",
+   "subs": 1,
+   "updated_ts": 1788784875,
+   "updated": "2026-09-07",
+   "meta_ts": 1788794587.5187075,
+   "score": 25.88
   }
  },
  "note": "仅刷新状态与分数"

@@ -5124,3 +5124,151 @@ end
 - ⚠ `finished` 后 `onDraw` 走 `drawClear() + return`：动画结束是**清屏**而不是留最后一帧。想要「停在末帧」就把这两行删掉。
 - 关联：`05` §68（极小屏排版三件套：逐字母定位 / 轮播 / 分段色条）、`05`（HUD 长文本跑马灯）、`04` §17（同类「首帧/边界要单独处理」的滤波写法）、`02`（状态机骨架）、`00_速查 §16`（screen API）
 - 完整脚本：`../../../AI相关/_提取暂存/3793186381_vehicle_453.lua`
+
+## §75 矢量折线字体：**相对步进编码 + 笔宽预渲染成四边形** + 自动换行 TXT（任意缩放可调字重）
+
+- 来源：steam id 3791768272 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3791768272 · 载具（Ostauto 双层巴士路线牌，`_vehicle_5/3/6/4` 同一字体库四变体）
+- 更新时间：2026-08-29
+- 用到：屏幕、属性滑块 Fontweight、复合输入（一路数字同时带数字+字母）
+- 亮点：与 `3×5 ROM 位图字体`（§12 / §60）相对的另一条路——**折线轮廓字体**：字符=若干条折线，启动时按笔宽预渲染成四边形表，运行期只画四边形；任意缩放不锯齿、字重可调，全套 A-Z/0-9/标点。
+
+```lua
+-- chr 表编码（节选）：每字符 = {折线x步进, 折线y步进} 两行；坐标是「相对步进」，
+-- 运行期累加得到绝对点；"" 是抬笔（分段），负值向左/上。9 = 字高基准
+chr = {
+  L = {{0,0,4},{0,9,0}},           -- L = 两段折线：横线 + 竖线
+  S = {{4,0,-4,0,4,0,-4,0},{2,-2,0,4,0,5,0,-2}},
+  ["."] = {{0,0},{8.5,1}},         -- 标点也能进表
+}
+chrd = {}                          -- 预渲染结果：chrd[bytecode] = {t=四边形顶点表, w=字宽}
+W = (property.getNumber("Fontweight") or 5)/10   -- 笔宽（滑块 1~10，除 10 归一）
+
+for i,tbl in pairs(chr) do
+  local tx,ty = tbl[1],tbl[2]
+  local asc,x,y,mx,skip = string.byte(i),0,0,0,false
+  chrd[asc] = {t={}}
+  for z=1,#tx do
+    if tx[z]=="" then x,y,skip = 0,0,true; chrd[asc].t[z]=false   -- 抬笔
+    else
+      x,y = x+tx[z], y+ty[z]
+      -- 段方向角：首段/上段刚抬笔时用下一段方向，否则用本段方向
+      local a1 = (z==1 or skip) and math.atan(ty[z+1],tx[z+1]) or math.atan(ty[z],tx[z])
+      local a2 = (z==#tx or tx[z+1]=="") and a1 or math.atan(ty[z+1],tx[z+1])
+      local a0 = (a1+a2)/2                       -- 拐角处取平均方向 = 斜接
+      local d = a0-a1; d = d<0 and d or 2*math.pi-d
+      local hw = W/math.max(math.sin(d),math.cos(d))   -- 笔宽沿段向投影补偿
+      -- 段两侧法向偏移 -> 四边形 4 顶点；贴近 0/9 边界的坐标钳到笔宽外，防出格
+      local j,k,l,m = x+hw*math.cos(a0-math.pi/2),y+hw*math.sin(a0-math.pi/2),
+                      x+hw*math.cos(a0+math.pi/2),y+hw*math.sin(a0+math.pi/2)
+      if math.abs(j)<W/2 then j,l=-W,-W end
+      if math.abs(k)<W/2 then k,m=-W,-W end
+      if math.abs(k-9)<W/4 then k,m=9+W,9+W end
+      chrd[asc].t[z] = {j,k,l,m}
+      mx = math.max(mx,j,l); skip=false
+    end
+  end
+  chrd[asc].w = mx
+end
+
+function dRC(a,b,c,d,e,f,g,h)   -- 自定义粗线段 = 两个三角形拼四边形
+  screen.drawTriangleF(a,b,c,d,e,f) screen.drawTriangleF(e,f,g,h,c,d)
+end
+
+function TXT(txt,xx,yy,ss,ww)   -- 文本, 起点, 字号 scale, 最大宽度(超了换行)
+  local lw = 0
+  txt = string.upper(txt)
+  for i=1,#txt do
+    local c = string.sub(txt,i,i)
+    if c==" " then lw = lw+ss*7
+    else
+      local t,w = chrd[string.byte(c)].t, chrd[string.byte(c)].w
+      for a=2,#t do
+        if t[a-1] and t[a] then
+          local j,k,l,m = table.unpack(t[a-1])
+          local n,o,p,q = table.unpack(t[a])
+          dRC(xx+lw+ss*j,yy+ss*k,xx+lw+ss*l,yy+ss*m,xx+lw+ss*n,yy+ss*o,xx+lw+ss*q,yy+ss*p)
+        end
+      end
+      lw = lw+ss*(w+2)
+      if ww and lw>ww then lw=0; yy=yy+ss*12 end   -- 换行
+    end
+  end
+end
+```
+
+- 🔑 **折线「相对步进」编码是字符数杀手**：每个点只存 `(dx,dy)` 两个小整数（多为 ±0~5），比存绝对坐标省一半字符，且整字可平移（累加起点即原点）。`""` 抬笔让一个字符可由多条不连续笔画组成（如 i 的点、! 的两段）。
+- 🔑 **预渲染把笔宽成本移到启动期**：运行期 `TXT` 只做查表 + `drawTriangleF`，缩放/字重都是乘法；如果每帧现算 atan 偏移，一块路线牌就能拖垮 tick。`property.getNumber("Fontweight") or 5` 还给了默认值兜底——属性未接时不报错。
+- 🔑 **拐角斜接（miter）三句式**：`a0=(a1+a2)/2` 取拐角平分方向、四边形两底角各偏 `±π/2`、`hw=W/max(sin d,cos d)` 补偿投影——这就是「任何转折处笔画都填满」的全部，比逐点画圆头省一个数量级调用。
+- 🔑 **一路复合通道带「数字+字母」**：路线编号 `12A` 这类值只用 1 个数字通道——整数部分是数字、小数部分 `round(temp%1*100)` 当字母表序号（1=A），`min(input,999)` 先钳掉非法位。省通道的通用思路。
+- ⚠ 字体表占 2~3K 字符/份，同一屏多个尺寸变体时作者选择**复制 4 份**（`_5/_3/_6/_4` 各一块屏各一份）——MC Lua 4096 上限内每份都够，但改动要改 4 处；更优做法是 4 块屏共用一份、用通道选字号（参考 `05` §73 的镜像共用思路）。
+- ⚠ `chrd` 以 `string.byte` 为键，**小写输入必须先 upper**；空格不在 `chr` 表里（`chrd[byte(" ")]={w=5}` 单独给宽），漏了会索引 nil。
+- 关联：`05` §12 / §60（3×5 ROM 位图字体——小字号的另一选择）、`05` §19（纯矢量小图标）、`01` §14（字数压缩）、`00_速查 §16`（screen API）
+- 完整脚本：`../../../AI相关/_提取暂存/3791768272_vehicle_5.lua`
+
+## §76 粒子系统火焰特效：**粒子表生命周期 + 双三角火苗 + 叠圆发光 + 亮度随机游走**
+
+- 来源：steam id 3790745635 · 描述页 https://steamcommunity.com/sharedfiles/filedetails/?id=3790745635 · 载具（RMS Celestia 壁炉装饰屏）
+- 更新时间：2026-08-29
+- 用到：3×2 大屏、两个布尔输入（火势加减）
+- 亮点：SW 屏幕上做**粒子系统**的最小完整骨架——一张粒子表管生灭，火苗=上下两个三角形，辉光=半透明叠圆，火光亮度用随机游走闪烁。全库首例粒子手法。
+
+```lua
+Plist = {}                       -- 粒子表：{x, y, 寿命t, vx, vy, 半宽xx, 高yy}
+Pmax, wallL, coreA = 0, 100, 0   -- wallL=炉壁亮度(随机游走), coreA=辉光alpha
+w, h, cx = 288, 160, 144
+
+function onTick()
+  -- 火势：布尔1 加 / 布尔2 减，钳在 0~120；粒子数跟随火势
+  Pmax = input.getBool(1) and Pmax+1 or Pmax
+  Pmax = input.getBool(2) and Pmax-1 or Pmax
+  Pmax = math.min(math.max(Pmax,0),120)
+  it = math.min(30,Pmax)/30                     -- 火势系数（全局，onDraw 也要用）
+
+  while #Plist < Pmax do                        -- 不足就补：从炉排随机喷出
+    table.insert(Plist, { w/2+((math.random()*2-1)*0.3*w),
+      h*0.9, math.random(h/2,h*0.75), 0, -0.1,
+      math.random(10,25), 2 })
+  end
+  for i,d in pairs(Plist) do
+    local x,y,t,vx,vy,xx,yy = table.unpack(d)
+    -- 灭亡条件：寿命尽 / 升出屏顶 / 漂离中轴太远（贴壁假火焰）
+    if t==0 or y+yy<0 or xx<1 or t-math.abs(x-cx)<1 then
+      table.remove(Plist,i)
+    else                                        -- 每帧演化：横漂随机、上升加速、变瘦长
+      Plist[i] = { x+vx, y-vy, t-1,
+        vx+math.random()*0.2-0.1, vy+math.random()*0.06,
+        math.abs(xx)-0.4*math.random(), yy+math.random()+t/h^2 }
+    end
+  end
+end
+
+function onDraw()
+  screen.setColor(0,0,0) screen.drawClear()
+  wallL = wallL>200 and wallL+math.random(-5,2) or math.random(200,255)
+  screen.setColor(20,10,0,wallL*it)             -- 🔥 炉壁亮度=随机游走×火势（见下）
+  screen.drawTriangleF(0,0,w,0,cx,h*0.5)
+  screen.drawTriangleF(0,0,0,h,w,h)
+  screen.drawTriangleF(w,0,w,h,0,h)
+  screen.drawTriangleF(0,h,w,h,cx,h*0.5)
+  -- 辉光：3 层半透明圆叠加；alpha 自身也随机游走 0~2 再乘火势
+  coreA = it*math.min(math.max(coreA+math.random()*2-1,0),2)
+  screen.setColor(255,180,0,coreA)
+  screen.drawCircleF(cx,h*0.8,h*0.4) screen.drawCircleF(cx,h*0.8,h*0.6)
+  screen.drawCircleF(cx,h*0.8,h*0.8)
+  for i,d in pairs(Plist) do                    -- 火苗 = 上尖大三角 + 下尖小三角
+    local x,y,t,vx,vy,xx,yy = table.unpack(d)
+    screen.setColor(255,200-t,0,2*(t-math.abs(x-cx)))   -- 颜色随寿命变暗、离轴变透明
+    screen.drawTriangleF(x-xx,y,x+xx,y,x,y+yy/2)
+    screen.drawTriangleF(x-xx,y,x+xx,y,x,y-yy)
+  end
+end
+```
+
+- 🔑 **粒子表三件套**：`while #Plist<Pmax do insert` 补货（数量跟随输入）、`pairs` 遍历里先判灭亡再 `table.remove`、幸存者**整条重建** `Plist[i]={...}`（SW 的 Lua 状态存活于 tick 间，直接换表最省事）。生灭都围绕一个 `Pmax` 目标值，火势旋钮即粒子数上限。
+- 🔑 **火苗=双三角形**：底边共线的「上尖 + 下尖」两个 `drawTriangleF` 拼出梭形火舌；`setColor` 的 alpha 用 `2*(t-|x-cx|)` 写成**寿命与离轴量的乘积**——火焰尖端（寿命将尽、偏离中心）自然变透明，一行公式同时管褪色和收边。
+- 🔑 **没有渐变 API 的辉光**：3 层同色半透明 `drawCircleF` 半径递增叠出光晕（同 §74 爆炸叠圆），亮度 `it` 乘火势——火焰熄灭时光圈同步收缩。
+- 🔑 **亮度随机游走做闪烁**：`L = L>200 and L+rnd(-5,2) or rnd(200,255)`——高亮度时小幅抖动（偶发向下偏 5、向上只 2，净漂移向下），跌破 200 就重新随机一个高亮度。一个变量一行式实现「火光摇曳」，不需要任何计时器。
+- ⚠ `pairs` 遍历中 `table.remove` 在 Lua 语义里属未定义行为，粒子少（<120）时实测无碍；要绝对稳妥就**倒序 `for i=#Plist,1,-1` 数值遍历**再 remove。
+- ⚠ 粒子数 × 每粒 2 个三角形是主要开销：3×2 屏 120 粒 ≈ 240 次 `drawTriangleF`/帧已接近大屏上限；1×1 屏请把 `Pmax` 上限砍到 ~30 并同步缩小粒子尺寸。
+- 关联：`05` §74（同心圆爆炸——同款「叠圆造渐变」）、`05` §57（走纸折线图——另一类「表即队列」的用法）、`02`（延迟事件）、`00_速查 §16`（screen API）
+- 完整脚本：`../../../AI相关/_提取暂存/3790745635_vehicle_0.lua`
