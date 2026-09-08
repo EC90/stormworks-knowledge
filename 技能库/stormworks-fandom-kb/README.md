@@ -24,7 +24,8 @@ beautifulsoup4 + lxml + markdownify）。它本身写得不错，但有两个硬
 | 检索工具 | 无 | `wiki_query.py`（7 个子命令） |
 | 端口性 | 绑定 WorkBuddy 的 venv 路径 | 任意 `python3` 即可 |
 
-旧版保留在原处未改动，可对照参考。
+> 2026-09-08 仓库瘦身：旧版（原 `D:/STORMWORKS/AI相关/stormworks_fandom_kb/`）已从仓库移除，
+> 本版为唯一维护版本，CLI 参数与旧版兼容（`--prefix/--title/--output/--dry-run/--force`）。
 
 ## 快速开始
 

@@ -54,21 +54,22 @@ for p in d['query']['pages']:
 
 ### 2. 抓取
 
-旧版爬虫（依赖 requests/bs4/lxml/markdownify，**必须用 venv python**）：
+零依赖爬虫（纯标准库，任意 python3 可跑）：
 
 ```bash
-PYV="<PYX>"
-CRAWLER="<WS>/AI相关/stormworks_fandom_kb/stormworks_fandom_crawler.py"
+PY="<PY>"
+CRAWLER="<WS>/技能库/stormworks-fandom-kb/scripts/wiki_crawl.py"
 
-"$PYV" "$CRAWLER" --prefix "Gameplay/Workbench/Components" --dry-run --verbose   # 先干跑
-"$PYV" "$CRAWLER" --title "页面A" --title "页面B" --output "<输出目录>" --verbose
+"$PY" "$CRAWLER" --prefix "Gameplay/Workbench/Components" --dry-run --verbose   # 先干跑
+"$PY" "$CRAWLER" --title "页面A" --title "页面B" --output "<输出目录>" --verbose
 ```
 
 - `--prefix` **用空格不用下划线**（`Search and Destroy DLC`，写成下划线选中 0 页）。
 - 断点续跑靠 `state.json`；加 `--title` 重跑不会重抓已有页面。
 - `robots.txt unreadable (403)` 是**正常的**，不影响抓取，别去修。
-- 零依赖版在 `技能库/stormworks-fandom-kb/scripts/`（`wiki_crawl.py`/`wiki_query.py`），
-  适合全站抓取；按页面族抓用旧版更方便（`--title`/`--prefix`）。
+- 抓完用同目录 `wiki_query.py` 检索（见 `技能库/stormworks-fandom-kb/`）。
+- 2026-09-08 仓库瘦身：旧 requests/bs4 版爬虫（原 `AI相关/stormworks_fandom_kb/`）已移除，
+  本版为参数兼容的等价替代（`--prefix/--title/--output/--dry-run/--force` 用法不变）。
 
 #### 日文 wikiwiki.jp（**不是 MediaWiki，别用上面那套**）
 

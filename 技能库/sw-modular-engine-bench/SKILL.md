@@ -61,6 +61,7 @@ agent_created: true
   首列为空（上传格式遗留），末 4 列为布尔通道（通常未用、全 0）。
 - 生成脚本已支持第 5 通道：`--cols 1,2,3,4,5` + `--ch5label/--ch5unit/--ch5key`。
 - 采集链路：`DataRecord.xml` 微控每 tick 采样 → 每 30 tick `async.httpGet` 发到本机 **5588** 端口 → `main.exe` 落盘 `data.csv`。
+  （`main.exe`/`render.exe` 为第三方二进制，**不入库**；获取方式与工具来源见 `数据库\SW示波器v0.1.3\README_仓库索引.md`）
 
 ## 标准流程
 

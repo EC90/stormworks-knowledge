@@ -10,8 +10,8 @@
 - 数据来源：Fandom Stormworks Wiki，内容许可 **CC BY-NC-SA**
 - 抓取时间：2026-08-30
 - 抓取范围：`Gameplay/Mechanics` 前缀全部页面，共 19 条记录（15 篇正文 + 4 个重定向）
-- 抓取工具：`<WS>\AI相关\stormworks_fandom_kb\stormworks_fandom_crawler.py`
-  （`--prefix "Gameplay/Mechanics"`）
+- 抓取工具：`<WS>\技能库\stormworks-fandom-kb\scripts\wiki_crawl.py`（零依赖版）
+  （`--prefix "Gameplay/Mechanics"`；原 `AI相关\stormworks_fandom_kb\` 依赖版已于 2026-09-08 移除）
 
 ## 目录
 
@@ -84,8 +84,8 @@ Wiki 由英文社区志愿维护，**内容可能过时**。各页面的最后�
 需要刷新时：
 
 ```bash
-"<PYX>" \
-  "<WS>/AI相关/stormworks_fandom_kb/stormworks_fandom_crawler.py" \
+"<PY>" \
+  "<WS>/技能库/stormworks-fandom-kb/scripts/wiki_crawl.py" \
   --prefix "Gameplay/Mechanics" \
   --output "<WS>/数据库/stormworks基本设定/原始抓取"
 ```

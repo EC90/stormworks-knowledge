@@ -187,7 +187,7 @@
 
 ```bash
 PY="<PY>"
-CRAWLER="<WS>/AI相关/stormworks_fandom_kb/stormworks_fandom_crawler.py"
+CRAWLER="<WS>/技能库/stormworks-fandom-kb/scripts/wiki_crawl.py"
 
 # 干跑：确认范围（不写文件）
 "$PY" "$CRAWLER" --prefix "Gameplay/Workbench/Components" --dry-run --verbose
@@ -198,8 +198,9 @@ CRAWLER="<WS>/AI相关/stormworks_fandom_kb/stormworks_fandom_crawler.py"
 ```
 
 补充说明：
-- 该爬虫依赖 `requests / bs4 / lxml / markdownify`，需用
-  `<PYX>` 运行。
+- 该爬虫**零依赖（纯标准库）**，任意 python3 均可运行。
+  （2026-09-08 瘦身：原 `AI相关/stormworks_fandom_kb/` 的 requests/bs4 版已移除，
+  现用技能库版，`--prefix/--output/--dry-run/--force` 参数不变。）
 - 启动日志里的 `robots.txt unreadable (403)` 是**正常现象**：Fandom 对非浏览器 UA 返回 403，
   但 robots.txt 本身对 `User-agent: *` 是 `Allow: /api.php?`，爬虫只调 API，故只告警不中止。
 - 本机到 fandom 的连接**间歇性**可用（走代理 `https_proxy=http://127.0.0.1:7820`），
