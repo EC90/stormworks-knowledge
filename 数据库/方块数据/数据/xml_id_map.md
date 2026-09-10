@@ -530,7 +530,6 @@
 
 | id（载具XML d值） | 英文名 | 中文名 | 尺寸(格) | mass | $ |
 | --- | --- | --- | --- | --- | --- |
-| `barometer` | Barometer | 气压计 | — | 1 | 20 |
 | `buoyancy_float_block` | Buoyancy Float Block | ※浮力块 | 4x4x4 | 1 | 50 |
 | `buoyancy_float_pyramid` | Buoyancy Float Pyramid | ※浮力锥形块 | 4x4x4 | 1 | 50 |
 | `buoyancy_float_wedge` | Buoyancy Float Wedge | ※浮力楔形块 | 4x4x4 | 1 | 50 |
@@ -727,6 +726,7 @@
 | `altimeter` | Altimeter | 高度计 | 1x1x1 | 1 | 20 |
 | `angular_speed_sensor` | Angular Speed Sensor | 角速度传感器 | 1x1x1 | 1 | 20 |
 | `astronomy_sensor` | Astronomy Sensor | 天文传感器 | — | 1 | 150 |
+| `barometer` | Barometer | 气压计 | — | 1 | 20 |
 | `compass_sensor` | Compass Sensor | 罗盘传感器 | 1x2x1 | 1.000000 | 20 |
 | `distance_sensor` | Distance Sensor | 距离传感器 | 1x2x1 | 1.000000 | 20 |
 | `fish_finder` | Fishfinder | 鱼群探测仪 | — | 10 | 500 |

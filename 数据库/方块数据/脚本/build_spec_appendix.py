@@ -197,7 +197,7 @@ def build_for(path, defs, zh_map, skip_a=False, all_cats=False):
     lines.append("## 🎮 权威规格表（游戏定义文件 · 本附录自动生成，勿手改）")
     lines.append("")
     lines.append("> **来源（只读解析，权威高于任何 wiki）**：")
-    lines.append("> `E:\\SteamLibrary\\steamapps\\common\\Stormworks\\rom\\data\\definitions\\*.xml`")
+    lines.append("> `<SW_DEFS>\\*.xml`")
     lines.append("> 中文名取自创意工坊汉化补丁；`※未收录` 表示该名补丁未收，游戏内仍显示英文。")
     lines.append("> 尺寸一律按 **X(东) × Y(上) × Z(北)** 格数，**1 格 = 0.25 m**。")
     lines.append("> 重新生成：`python 脚本\\build_spec_appendix.py`（会整体覆盖本附录，勿在标记之间手改）。")

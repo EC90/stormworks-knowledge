@@ -287,11 +287,10 @@
 | 蒸汽机车驱动活塞(小) | Train Wheel Drive Piston Small | 300 | 300 | — | 5 | train_wheels_piston.xml |
 | 涡轮发动机 | Turbine Engine | 45 | 150 | 3x3x7 | 4 | turbine.xml |
 
-## cat[4] M 机械 （116 项）
+## cat[4] M 机械 （115 项）
 
 | 中文 | 游戏内英文名 | mass | $ | 尺寸(vox) | 节点 | 文件 |
 |---|---|---|---|---|---|---|
-| 气压计 | Barometer | 1 | 20 | — | 1 | barometer.xml |
 | 床 | Bed | 20 | 250 | 3x4x7 | 1 | seat_bed.xml |
 | ※未收录 | Buoyancy Float Block | 1 | 50 | 4x4x4 | 0 | buoyancy_float_block.xml |
 | ※未收录 | Buoyancy Float Pyramid | 1 | 50 | 4x4x4 | 0 | buoyancy_float_pyramid.xml |
@@ -481,13 +480,14 @@
 | 扬声器(小) | Speaker (Small) | 1 | 250 | 1x2x1 | 3 | speaker.xml |
 | 观瞄镜 | Viewing Scope | 5 | 2000 | — | 3 | viewing_scope.xml |
 
-## cat[7] S 传感器 （40 项）
+## cat[7] S 传感器 （41 项）
 
 | 中文 | 游戏内英文名 | mass | $ | 尺寸(vox) | 节点 | 文件 |
 |---|---|---|---|---|---|---|
 | 高度计 | Altimeter | 1 | 20 | 1x1x1 | 1 | altimeter.xml |
 | 角速度传感器 | Angular Speed Sensor | 1 | 20 | 1x1x1 | 1 | angular_speed_sensor.xml |
 | 天文传感器 | Astronomy Sensor | 1 | 150 | — | 1 | astronomy_sensor.xml |
+| 气压计 | Barometer | 1 | 20 | — | 1 | barometer.xml |
 | 罗盘传感器 | Compass Sensor | 1.000000 | 20 | 1x2x1 | 3 | compass_sensor.xml |
 | 压力传感器 | Contact Sensor | 1 | 20 | 1x2x1 | 1 | pressure_sensor.xml |
 | 距离传感器 | Distance Sensor | 1.000000 | 20 | 1x2x1 | 2 | distance_sensor.xml |
